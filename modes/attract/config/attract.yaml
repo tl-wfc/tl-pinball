@@ -8,5 +8,5 @@ slide_player:
 
   sound_player:
     mode_attact_started:
-      main_the__LEGACY_AUD:
+      intro_music:
         bus: music
