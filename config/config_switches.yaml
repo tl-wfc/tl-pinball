@@ -1,0 +1,20 @@
+#config_version=6
+
+switches: 
+  # define cabinet switches
+  s_flipper_left:
+    number:
+    tags: left_flipper
+  s_flipper_right:
+    number:
+    tags: right_flipper
+  
+  #trough switches
+  s_trough_1:
+    number:
+  s_trough_2:
+    number:
+  s_trough_3:
+    number:
+  s_plunger_lane:
+    number:
