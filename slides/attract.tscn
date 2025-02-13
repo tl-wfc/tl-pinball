@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://ci1ev5vr00m04"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_73kwx")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(0.0807198, 0.223581, 0.592665, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 381.0
+offset_right = 1265.0
+offset_bottom = 618.0
+theme_override_font_sizes/font_size = 80
+text = "they live"
+horizontal_alignment = 1

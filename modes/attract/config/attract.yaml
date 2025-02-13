@@ -5,3 +5,8 @@
 
 slide_player:
   mode_attract_started: attract
+
+  sound_player:
+    mode_attact_started:
+      main_the__LEGACY_AUD:
+        bus: music
