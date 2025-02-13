@@ -7,6 +7,6 @@ slide_player:
   mode_attract_started: attract
 
   sound_player:
-    mode_attact_started:
+    mode_attract_started:
       intro_music:
         bus: music
