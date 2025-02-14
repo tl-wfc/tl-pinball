@@ -57,7 +57,6 @@ texture = ExtResource("4_87220")
 visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
-visible = false
 offset_right = 1287.0
 offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 80
@@ -71,10 +70,13 @@ comma_separate = true
 min_digits = 2
 
 [node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
+visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_right = 1287.0
-offset_bottom = 126.0
+offset_left = 3.0
+offset_top = 221.0
+offset_right = 1290.0
+offset_bottom = 380.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1
@@ -87,9 +89,9 @@ min_digits = 2
 
 [node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
 offset_left = 3.0
-offset_top = 195.0
+offset_top = 651.0
 offset_right = 1290.0
-offset_bottom = 305.0
+offset_bottom = 788.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1
@@ -100,11 +102,44 @@ variable_name = "player2_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+[node name="last_scores_3" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3"]
+offset_left = 5.0
+offset_top = 101.0
+offset_right = 1292.0
+offset_bottom = 211.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3"]
+offset_left = 4.0
+offset_top = 454.0
+offset_right = 1291.0
+offset_bottom = 564.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3"]
 offset_left = 3.0
-offset_top = 347.0
+offset_top = 741.0
 offset_right = 1290.0
-offset_bottom = 457.0
+offset_bottom = 851.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1
@@ -115,10 +150,58 @@ variable_name = "player3_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_top = 503.0
-offset_right = 1287.0
-offset_bottom = 613.0
+[node name="last_scores_4" type="Node2D" parent="MPFCarousel"]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4"]
+offset_left = 4.0
+offset_top = 59.0
+offset_right = 1291.0
+offset_bottom = 187.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4"]
+offset_left = 3.0
+offset_top = 278.0
+offset_right = 1290.0
+offset_bottom = 388.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4"]
+offset_left = 2.0
+offset_top = 438.0
+offset_right = 1289.0
+offset_bottom = 548.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4"]
+offset_left = -1.0
+offset_top = 667.0
+offset_right = 1286.0
+offset_bottom = 777.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1
