@@ -26,6 +26,7 @@ script = ExtResource("2_d2e70")
 carousel_name = "attract"
 
 [node name="title" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
 offset_right = 1282.0
 offset_bottom = 1021.0
@@ -35,6 +36,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
 offset_right = 1286.0
 offset_bottom = 1018.0
@@ -47,5 +49,82 @@ variable_type = 2
 variable_name = "credits_string"
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+visible = false
 position = Vector2(648, 512)
 texture = ExtResource("4_87220")
+
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
+visible = false
+offset_right = 1287.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_right = 1287.0
+offset_bottom = 126.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_left = 3.0
+offset_top = 195.0
+offset_right = 1290.0
+offset_bottom = 305.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_left = 3.0
+offset_top = 347.0
+offset_right = 1290.0
+offset_bottom = 457.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+
+[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_top = 503.0
+offset_right = 1287.0
+offset_bottom = 613.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_g4dw3")
+variable_type = 2
+variable_name = "player4_score"
+comma_separate = true
+min_digits = 2
