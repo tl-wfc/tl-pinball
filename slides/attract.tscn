@@ -20,8 +20,8 @@ color = Color(0.0807198, 0.223581, 0.592665, 1)
 anchors_preset = 0
 offset_left = -2.0
 offset_top = 5.0
-offset_right = 38.0
-offset_bottom = 45.0
+offset_right = 1274.0
+offset_bottom = 1020.0
 script = ExtResource("2_d2e70")
 carousel_name = "attract"
 
@@ -30,11 +30,13 @@ layout_mode = 0
 offset_right = 1282.0
 offset_bottom = 1021.0
 theme_override_font_sizes/font_size = 80
-text = "they live"
+text = "They Live
+We Sleep"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
 offset_right = 1286.0
 offset_bottom = 1018.0
@@ -47,6 +49,7 @@ variable_type = 2
 variable_name = "credits_string"
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+visible = false
 position = Vector2(648, 512)
 texture = ExtResource("4_87220")
 
