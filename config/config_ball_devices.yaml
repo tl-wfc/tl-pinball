@@ -1,15 +1,5 @@
 #config_version=6
-
-# ball_devices:
-#   bd_plunger:
-#     ball_switches: s_24_plunger_lane
-#     mechanical_eject: true
-#   bd_trough:
-#     ball_switches: s_26_trough_1, s_27_trough_2, s_28_trough_3, s_29_trough_4
-#     eject_coil: c_2_trough_eject
-#     eject_targets: bd_plunger
-#     tags: trough, home, drain
-
+#
 ball_devices:
     bd_plunger:
         ball_switches: s_24_plunger_lane

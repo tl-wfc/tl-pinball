@@ -12,8 +12,6 @@
 #
 config:
   - config_ball_devices.yaml
-#  - config_coils.yaml
-#  - config_switches.yaml
   - device_config_lights_led.yaml
   - device_config_game.yaml
 # ------------------------
