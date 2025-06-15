@@ -1,21 +1,88 @@
 #config_version=6
-
+#
 ## MPF Main Machine Config File
 #
 # This file defines your system-wide properties like switches,
 # drivers, ball devices, hardware platforms, and more. You can
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
-
+# --------------------
+# CONFIG::FILES
+# --------------------
+#
 config:
   - config_ball_devices.yaml
   - config_coils.yaml
   - config_switches.yaml
+  - device_config_lights_led.yaml
+#  - device_config_game.yaml
+# ------------------------
+# CONFIG::MPF
+# ------------------------
+#mpf:
+#    default_light_hw_update_hz: 24
+# ------------------------
+# CONFIG::HARDWARE
+# ------------------------
+# hardware:
+#     platform: fast
+#     driverboards: fast
+#     segment_displays: fast
+#     lights: fast
+# ------------------------
+# CONFIG::FAST
+# ------------------------
+#fast:
+#    driverboards: fast
+    # ports: com6, com7
+    # ports: /dev/ttyUSB0 #, /dev/ttyUSB1
+    # baud: 230400, 921600
+    # watchdog: 0
+    # ports: com11, com12
+    # baud: 230400, 921600
+    # ports: com12
+    # ports: /dev/ttyUSB1, /dev/ttyUSB3 
+    # baud: 921600 #, 921600
+    # ports: COM11, COM12, COM14
+#    ports: /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyUSB3
+#    baud: 230400, 921600, 921600
+#    watchdog: 2000
+    # default_quick_debounce_open: 2ms
+    # default_quick_debounce_close: 2ms
+    # default_normal_debounce_open: 4ms
+    # default_normal_debounce_close: 4ms
+#    hardware_led_fade_time: 20ms
+#    segment_display_update_hz: 5
+    # debug: true
+    # file_log: full
+#
+# ------------------------
+# MODES::
+# ------------------------ 
 modes:
-  - attract
-  - base
-
+    - attract
+    # - abc_feature
+    # - one_two_three_in_sequence
+    # - base
+    # - blue_and_green_bonus
+    # - bonus
+    # - bonus_special
+    # - credits
+    # - extra_ball
+    # - high_score
+    # - match
+    # - multiball_controller_jp
+    # - pop_bumper_bonus
+    # - service
+    # - spinner_feature
+    # - tilt
+#
+# ------------------------
+# PLAYFIELDS::
+# ------------------------ 
 playfields:
-  playfield:
-    default_source_device: bd_trough
-    tags: default
+    playfield:
+        tags: default
+        default_source_device: bd_trough
+
+

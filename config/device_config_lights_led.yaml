@@ -1,0 +1,27 @@
+#config_version=6
+# ------------------------
+# CONFIG:LEDS
+# FAST CABINET I/O Board PN: FP-I/O-0024
+# Node 0
+
+lights:
+  led1-1:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-1  # Neuron LED Port 1, first LED in the chain
+  led2-1:
+    number: neuron-2-1  # Neuron LED Port 2, first LED in the chain
+  led3-1:
+    number: neuron-3-1  # Neuron LED Port 3, first LED in the chain
+  led4-1:
+    number: neuron-4-1  # Neuron LED Port 4, first LED in the chain
+  71-led-1:
+    number: 0071-1-1      # EXP Board 0071 (based on the "0071" name in the exp: section above), LED Port 1, first LED in the chain
+  71-led-2:
+    number: 0071-2-1      # EXP Board 0071, LED Port 2, first LED in the chain
+  71-led-3:
+    number: 0071-3-1      # EXP Board 0071, LED Port 3, first LED in the chain
+  71-led-4:
+    number: 0071-4-1      # EXP Board 0071, LED Port 4, first LED in the chain
+  led_47_blue_arrow:
+    number: 4 #done
+    type: grb
+    tags: all_leds, playfield_leds, 3_light_show_2, pf_3_colour_show_2
