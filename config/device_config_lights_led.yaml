@@ -526,20 +526,1049 @@ lights:
 #
 #
 #
-#
+#(based on the "0081" name in the exp: section above), 
   81-led-1-1:
-    number: 0081-1-1      # EXP Board 0081 (based on the "0081" name in the exp: section above), LED Port 1, first LED in the chain
+    number: 0081-1-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-2:
+    number: 0081-1-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-3:
+    number: 0081-1-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-4:
+    number: 0081-1-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-5:
+    number: 0081-1-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-6:
+    number: 0081-1-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-7:
+    number: 0081-1-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-8:
+    number: 0081-1-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-9:
+    number: 0081-1-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-10:
+    number: 0081-1-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-11:
+    number: 0081-1-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-12:
+    number: 0081-1-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-13:
+    number: 0081-1-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-14:
+    number: 0081-1-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-15:
+    number: 0081-1-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-16:
+    number: 0081-1-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-17:
+    number: 0081-1-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-18:
+    number: 0081-1-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-19:
+    number: 0081-1-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-20:
+    number: 0081-1-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-21:
+    number: 0081-1-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-22:
+    number: 0081-1-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-23:
+    number: 0081-1-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-24:
+    number: 0081-1-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-25:
+    number: 0081-1-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-26:
+    number: 0081-1-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-27:
+    number: 0081-1-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-28:
+    number: 0081-1-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-29:
+    number: 0081-1-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-30:
+    number: 0081-1-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-31:
+    number: 0081-1-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-1-32:
+    number: 0081-1-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-2-1:
-    number: 0081-2-1      # EXP Board 0081, LED Port 2, first LED in the chain
+    number: 0081-2-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-2:
+    number: 0081-2-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-3:
+    number: 0081-2-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-4:
+    number: 0081-2-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-5:
+    number: 0081-2-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-6:
+    number: 0081-2-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-7:
+    number: 0081-2-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-8:
+    number: 0081-2-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-9:
+    number: 0081-2-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-10:
+    number: 0081-2-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-11:
+    number: 0081-2-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-12:
+    number: 0081-2-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-13:
+    number: 0081-2-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-14:
+    number: 0081-2-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-15:
+    number: 0081-2-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-16:
+    number: 0081-2-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-17:
+    number: 0081-2-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-18:
+    number: 0081-2-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-19:
+    number: 0081-2-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-20:
+    number: 0081-2-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-21:
+    number: 0081-2-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-22:
+    number: 0081-2-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-23:
+    number: 0081-2-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-24:
+    number: 0081-2-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-25:
+    number: 0081-2-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-26:
+    number: 0081-2-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-27:
+    number: 0081-2-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-28:
+    number: 0081-2-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-29:
+    number: 0081-2-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-30:
+    number: 0081-2-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-31:
+    number: 0081-2-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-2-32:
+    number: 0081-2-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-3-1:
-    number: 0081-3-1      # EXP Board 0081, LED Port 3, first LED in the chain
+    number: 0081-3-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-2:
+    number: 0081-3-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-3:
+    number: 0081-3-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-4:
+    number: 0081-3-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-5:
+    number: 0081-3-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-6:
+    number: 0081-3-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-7:
+    number: 0081-3-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-8:
+    number: 0081-3-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-9:
+    number: 0081-3-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-10:
+    number: 0081-3-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-11:
+    number: 0081-3-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-12:
+    number: 0081-3-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-13:
+    number: 0081-3-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-14:
+    number: 0081-3-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-15:
+    number: 0081-3-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-16:
+    number: 0081-3-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-17:
+    number: 0081-3-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-18:
+    number: 0081-3-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-19:
+    number: 0081-3-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-20:
+    number: 0081-3-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-21:
+    number: 0081-3-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-22:
+    number: 0081-3-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-23:
+    number: 0081-3-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-24:
+    number: 0081-3-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-25:
+    number: 0081-3-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-26:
+    number: 0081-3-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-27:
+    number: 0081-3-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-28:
+    number: 0081-3-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-29:
+    number: 0081-3-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-30:
+    number: 0081-3-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-31:
+    number: 0081-3-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-3-32:
+    number: 0081-3-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-4-1:
-    number: 0081-4-1      # EXP Board 0081, LED Port 4, first LED in the chain
+    number: 0081-4-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-2:
+    number: 0081-4-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-3:
+    number: 0081-4-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-4:
+    number: 0081-4-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-5:
+    number: 0081-4-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-6:
+    number: 0081-4-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-7:
+    number: 0081-4-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-8:
+    number: 0081-4-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-9:
+    number: 0081-4-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-10:
+    number: 0081-4-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-11:
+    number: 0081-4-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-12:
+    number: 0081-4-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-13:
+    number: 0081-4-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-14:
+    number: 0081-4-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-15:
+    number: 0081-4-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-16:
+    number: 0081-4-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-17:
+    number: 0081-4-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-18:
+    number: 0081-4-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-19:
+    number: 0081-4-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-20:
+    number: 0081-4-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-21:
+    number: 0081-4-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-22:
+    number: 0081-4-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-23:
+    number: 0081-4-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-24:
+    number: 0081-4-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-25:
+    number: 0081-4-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-26:
+    number: 0081-4-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-27:
+    number: 0081-4-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-28:
+    number: 0081-4-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-29:
+    number: 0081-4-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-30:
+    number: 0081-4-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-31:
+    number: 0081-4-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-4-32:
+    number: 0081-4-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-5-1:
-    number: 0081-5-1      # EXP Board 0081, LED Port 5, first LED in the chain
+    number: 0081-5-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-2:
+    number: 0081-5-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-3:
+    number: 0081-5-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-4:
+    number: 0081-5-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-5:
+    number: 0081-5-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-6:
+    number: 0081-5-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-7:
+    number: 0081-5-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-8:
+    number: 0081-5-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-9:
+    number: 0081-5-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-10:
+    number: 0081-5-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-11:
+    number: 0081-5-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-12:
+    number: 0081-5-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-13:
+    number: 0081-5-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-14:
+    number: 0081-5-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-15:
+    number: 0081-5-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-16:
+    number: 0081-5-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-17:
+    number: 0081-5-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-18:
+    number: 0081-5-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-19:
+    number: 0081-5-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-20:
+    number: 0081-5-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-21:
+    number: 0081-5-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-22:
+    number: 0081-5-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-23:
+    number: 0081-5-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-24:
+    number: 0081-5-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-25:
+    number: 0081-5-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-26:
+    number: 0081-5-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-27:
+    number: 0081-5-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-28:
+    number: 0081-5-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-29:
+    number: 0081-5-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-30:
+    number: 0081-5-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-31:
+    number: 0081-5-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-5-32:
+    number: 0081-5-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-6-1:
-    number: 0081-6-1      # EXP Board 0081, LED Port 6, first LED in the chain
+    number: 0081-6-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-2:
+    number: 0081-6-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-3:
+    number: 0081-6-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-4:
+    number: 0081-6-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-5:
+    number: 0081-6-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-6:
+    number: 0081-6-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-7:
+    number: 0081-6-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-8:
+    number: 0081-6-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-9:
+    number: 0081-6-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-10:
+    number: 0081-6-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-11:
+    number: 0081-6-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-12:
+    number: 0081-6-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-13:
+    number: 0081-6-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-14:
+    number: 0081-6-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-15:
+    number: 0081-6-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-16:
+    number: 0081-6-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-17:
+    number: 0081-6-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-18:
+    number: 0081-6-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-19:
+    number: 0081-6-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-20:
+    number: 0081-6-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-21:
+    number: 0081-6-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-22:
+    number: 0081-6-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-23:
+    number: 0081-6-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-24:
+    number: 0081-6-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-25:
+    number: 0081-6-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-26:
+    number: 0081-6-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-27:
+    number: 0081-6-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-28:
+    number: 0081-6-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-29:
+    number: 0081-6-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-30:
+    number: 0081-6-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-31:
+    number: 0081-6-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-6-32:
+    number: 0081-6-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-7-1:
-    number: 0081-7-1      # EXP Board 0081, LED Port 7, first LED in the chain
+    number: 0081-7-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-2:
+    number: 0081-7-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-3:
+    number: 0081-7-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-4:
+    number: 0081-7-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-5:
+    number: 0081-7-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-6:
+    number: 0081-7-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-7:
+    number: 0081-7-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-8:
+    number: 0081-7-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-9:
+    number: 0081-7-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-10:
+    number: 0081-7-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-11:
+    number: 0081-7-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-12:
+    number: 0081-7-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-13:
+    number: 0081-7-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-14:
+    number: 0081-7-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-15:
+    number: 0081-7-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-16:
+    number: 0081-7-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-17:
+    number: 0081-7-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-18:
+    number: 0081-7-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-19:
+    number: 0081-7-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-20:
+    number: 0081-7-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-21:
+    number: 0081-7-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-22:
+    number: 0081-7-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-23:
+    number: 0081-7-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-24:
+    number: 0081-7-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-25:
+    number: 0081-7-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-26:
+    number: 0081-7-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-27:
+    number: 0081-7-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-28:
+    number: 0081-7-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-29:
+    number: 0081-7-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-30:
+    number: 0081-7-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-31:
+    number: 0081-7-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-7-32:
+    number: 0081-7-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+#
+#
+#
   81-led-8-1:
-    number: 0081-8-1      # EXP Board 0081, LED Port 8, first LED in the chain
+    number: 0081-8-1      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-2:
+    number: 0081-8-2      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-3:
+    number: 0081-8-3      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-4:
+    number: 0081-8-4      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-5:
+    number: 0081-8-5      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-6:
+    number: 0081-8-6      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-7:
+    number: 0081-8-7      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-8:
+    number: 0081-8-8      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-9:
+    number: 0081-8-9      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-10:
+    number: 0081-8-10      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-11:
+    number: 0081-8-11      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-12:
+    number: 0081-8-12      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-13:
+    number: 0081-8-13      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-14:
+    number: 0081-8-14      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-15:
+    number: 0081-8-15      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-16:
+    number: 0081-8-16      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-17:
+    number: 0081-8-17      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-18:
+    number: 0081-8-18      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-19:
+    number: 0081-8-19      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-20:
+    number: 0081-8-20      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-21:
+    number: 0081-8-21      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-22:
+    number: 0081-8-22      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-23:
+    number: 0081-8-23      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-24:
+    number: 0081-8-24      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-25:
+    number: 0081-8-25      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-26:
+    number: 0081-8-26      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-27:
+    number: 0081-8-27      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-28:
+    number: 0081-8-28      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-29:
+    number: 0081-8-29      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-30:
+    number: 0081-8-30      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-31:
+    number: 0081-8-31      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
+  81-led-8-32:
+    number: 0081-8-32      # EXP Board 0081, LED Port 1
+    type: grb
+    tags: all_leds, playfield_leds
