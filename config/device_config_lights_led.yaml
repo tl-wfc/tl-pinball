@@ -5,145 +5,525 @@
 # Node 
 #
 lights:
-  led1-1_bs_resistagain:               # These names are arbitrary. Make them whatever you want
+  led1-1:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-1  # Neuron LED Port 1, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-2_mode_foryoursafety:               # These names are arbitrary. Make them whatever you want
+  led1-2:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-2  # Neuron LED Port 1, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-3_mode_consume:               # These names are arbitrary. Make them whatever you want
+  led1-3:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-3  # Neuron LED Port 1, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-4_mode_obey:               # These names are arbitrary. Make them whatever you want
+  led1-4:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-4  # Neuron LED Port 1, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-5_mode_conform:               # These names are arbitrary. Make them whatever you want
+  led1-5:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-5  # Neuron LED Port 1, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-6_mult_10x:               # These names are arbitrary. Make them whatever you want
+  led1-6:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-6  # Neuron LED Port 1, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-7_mode_mindcontrol:               # These names are arbitrary. Make them whatever you want
+  led1-7:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-7  # Neuron LED Port 1, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-8_mult_5x:               # These names are arbitrary. Make them whatever you want
+  led1-8:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-8  # Neuron LED Port 1, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-9_inlane_r:               # These names are arbitrary. Make them whatever you want
+  led1-9:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-9  # Neuron LED Port 1, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-10_inlane_l:               # These names are arbitrary. Make them whatever you want
+  led1-10:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-10  # Neuron LED Port 1, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-11_standup_1:               # These names are arbitrary. Make them whatever you want
+  led1-11:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-11  # Neuron LED Port 1, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-12_drain_fist:               # These names are arbitrary. Make them whatever you want
+  led1-12:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-12  # Neuron LED Port 1, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-13_drain_epic:               # These names are arbitrary. Make them whatever you want
+  led1-13:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-13  # Neuron LED Port 1, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-14_drain_tilt_1:               # These names are arbitrary. Make them whatever you want
+  led1-14:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-14  # Neuron LED Port 1, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-15_drain_tilt_2:               # These names are arbitrary. Make them whatever you want
+  led1-15:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-15  # Neuron LED Port 1, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led1-16_trough:               # These names are arbitrary. Make them whatever you want
+  led1-16:               # These names are arbitrary. Make them whatever you want
     number: neuron-1-16  # Neuron LED Port 1, 16th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
+  led1-17:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-17  # Neuron LED Port 1, 17th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-18:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-18  # Neuron LED Port 1, 18th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-19:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-19  # Neuron LED Port 1, 19th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-20:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-20  # Neuron LED Port 1, 20th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-21:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-21  # Neuron LED Port 1, 21st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-22:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-22  # Neuron LED Port 1, 22nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-23:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-23  # Neuron LED Port 1, 23th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-24:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-24  # Neuron LED Port 1, 24th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-25:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-25  # Neuron LED Port 1, 25th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-26:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-26  # Neuron LED Port 1, 26th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-27:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-27  # Neuron LED Port 1, 27th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-28:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-28  # Neuron LED Port 1, 28th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-29:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-29  # Neuron LED Port 1, 29th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-30:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-30  # Neuron LED Port 1, 30th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-31:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-31  # Neuron LED Port 1, 31st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led1-32:               # These names are arbitrary. Make them whatever you want
+    number: neuron-1-32  # Neuron LED Port 1, 32nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
 #
 #
-  led2-1_:               # These names are arbitrary. Make them whatever you want
+  led2-1:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-1  # Neuron LED Port 2, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-2_:               # These names are arbitrary. Make them whatever you want
+  led2-2:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-2  # Neuron LED Port 2, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-3_:               # These names are arbitrary. Make them whatever you want
+  led2-3:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-3  # Neuron LED Port 2, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-4_:               # These names are arbitrary. Make them whatever you want
+  led2-4:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-4  # Neuron LED Port 2, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-5_:               # These names are arbitrary. Make them whatever you want
+  led2-5:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-5  # Neuron LED Port 2, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-6_:               # These names are arbitrary. Make them whatever you want
+  led2-6:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-6  # Neuron LED Port 2, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-7_:               # These names are arbitrary. Make them whatever you want
+  led2-7:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-7  # Neuron LED Port 2, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-8_:               # These names are arbitrary. Make them whatever you want
+  led2-8:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-8  # Neuron LED Port 2, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-9_:               # These names are arbitrary. Make them whatever you want
+  led2-9:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-9  # Neuron LED Port 2, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-10_:               # These names are arbitrary. Make them whatever you want
+  led2-10:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-10  # Neuron LED Port 2, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-11_:               # These names are arbitrary. Make them whatever you want
+  led2-11:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-11  # Neuron LED Port 2, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-12_:               # These names are arbitrary. Make them whatever you want
+  led2-12:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-12  # Neuron LED Port 2, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-13_:               # These names are arbitrary. Make them whatever you want
+  led2-13:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-13  # Neuron LED Port 2, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-14_:               # These names are arbitrary. Make them whatever you want
+  led2-14:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-14  # Neuron LED Port 2, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-15_:               # These names are arbitrary. Make them whatever you want
+  led2-15:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-15  # Neuron LED Port 2, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
-  led2-16_:               # These names are arbitrary. Make them whatever you want
+  led2-16:               # These names are arbitrary. Make them whatever you want
     number: neuron-2-16  # Neuron LED Port 2, 16th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-17:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-17  # Neuron LED Port 2, 17th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-18:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-18  # Neuron LED Port 2, 18th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-19:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-19  # Neuron LED Port 2, 19th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-20:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-20  # Neuron LED Port 2, 20th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-21:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-21  # Neuron LED Port 2, 21st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-22:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-22  # Neuron LED Port 2, 22nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-23:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-23  # Neuron LED Port 2, 23rd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-24:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-24  # Neuron LED Port 2, 24th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-25:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-25  # Neuron LED Port 2, 25th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-26:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-26  # Neuron LED Port 2, 26th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-27:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-27  # Neuron LED Port 2, 27th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-28:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-28  # Neuron LED Port 2, 28th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-29:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-29  # Neuron LED Port 2, 29th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-30:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-30  # Neuron LED Port 2, 30th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-31:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-31  # Neuron LED Port 2, 31st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led2-32:               # These names are arbitrary. Make them whatever you want
+    number: neuron-2-32  # Neuron LED Port 2, 32nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
 #
 #
-  led3-1:
-    number: neuron-3-1  # Neuron LED Port 3, first LED in the chain
+  led3-1:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-1  # Neuron LED Port 3, 1st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-2:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-2  # Neuron LED Port 3, 2nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-3:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-3  # Neuron LED Port 3, 3rd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-4:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-4  # Neuron LED Port 3, 4th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-5:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-5  # Neuron LED Port 3, 5th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-6:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-6  # Neuron LED Port 3, 6th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-7:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-7  # Neuron LED Port 3, 7th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-8:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-8  # Neuron LED Port 3, 8th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-9:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-9  # Neuron LED Port 3, 9th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-10:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-10  # Neuron LED Port 3, 10th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-11:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-11  # Neuron LED Port 3, 11th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-12:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-12  # Neuron LED Port 3, 12th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-13:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-13  # Neuron LED Port 3, 13th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-14:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-14  # Neuron LED Port 3, 14th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-15:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-15  # Neuron LED Port 3, 15th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-16:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-16  # Neuron LED Port 3, 16th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-17:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-17  # Neuron LED Port 3, 17th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-18:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-18  # Neuron LED Port 3, 18th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-19:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-19  # Neuron LED Port 3, 19th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-20:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-20  # Neuron LED Port 3, 20th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-21:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-21  # Neuron LED Port 3, 21st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-22:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-22  # Neuron LED Port 3, 22nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-23:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-23  # Neuron LED Port 3, 23rd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-24:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-24  # Neuron LED Port 3, 24th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-25:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-25  # Neuron LED Port 3, 25th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-26:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-26  # Neuron LED Port 3, 26th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-27:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-27  # Neuron LED Port 3, 27th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-28:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-28  # Neuron LED Port 3, 28th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-29:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-29  # Neuron LED Port 3, 29th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-30:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-30  # Neuron LED Port 3, 30th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-31:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-31  # Neuron LED Port 3, 31st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led3-32:               # These names are arbitrary. Make them whatever you want
+    number: neuron-3-32  # Neuron LED Port 3, 32nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
 #
 #
+  led4-1:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-1  # Neuron LED Port 4, 1st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-2:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-2  # Neuron LED Port 4, 2nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-3:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-3  # Neuron LED Port 4, 3rd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-4:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-4  # Neuron LED Port 4, 4th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-5:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-5  # Neuron LED Port 4, 5th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-6:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-6  # Neuron LED Port 4, 6th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-7:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-7  # Neuron LED Port 4, 7th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-8:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-8  # Neuron LED Port 4, 8th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-9:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-9  # Neuron LED Port 4, 9th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-10:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-10  # Neuron LED Port 4, 10th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-11:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-11  # Neuron LED Port 4, 11th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-12:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-12  # Neuron LED Port 4, 12th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-13:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-13  # Neuron LED Port 4, 13th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-14:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-14  # Neuron LED Port 4, 14th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-15:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-15  # Neuron LED Port 4, 15th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-16:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-16  # Neuron LED Port 4, 16th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-17:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-17  # Neuron LED Port 4, 17th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-18:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-18  # Neuron LED Port 4, 18th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-19:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-19  # Neuron LED Port 4, 19th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-20:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-20  # Neuron LED Port 4, 20th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-21:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-21  # Neuron LED Port 4, 21st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-22:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-22  # Neuron LED Port 4, 22nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-23:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-23  # Neuron LED Port 4, 23rd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-24:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-24  # Neuron LED Port 4, 24th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-25:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-25  # Neuron LED Port 4, 25th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-26:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-26  # Neuron LED Port 4, 26th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-27:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-27  # Neuron LED Port 4, 27th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-28:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-28  # Neuron LED Port 4, 28th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-29:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-29  # Neuron LED Port 4, 29th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-30:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-30  # Neuron LED Port 4, 30th LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-31:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-31  # Neuron LED Port 4, 31st LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
+  led4-32:               # These names are arbitrary. Make them whatever you want
+    number: neuron-4-32  # Neuron LED Port 4, 32nd LED in the chain
+    type: grb
+    tags: all_leds, playfield_leds
 #
-  led4-1:
-    number: neuron-4-1  # Neuron LED Port 4, first LED in the chain
 #
 #
 #
