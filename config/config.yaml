@@ -30,6 +30,49 @@ config:
 # ------------------------
 # CONFIG::FAST
 # ------------------------
+#
+# fast:
+#     net:
+#     controller: neuron
+#     io_loop:
+#       cab: 
+#         model: FP-I/O-0024
+#         order: 1
+#       pf1:
+#         model: FP-I/O-3208
+#         order: 2
+#       pf2: 
+#         model: FP-I/O-1616
+#         order: 3
+#       pf3: 
+#         model: FP-I/O-1616
+#         order: 4
+#     port: auto
+#     baud: 921600
+#     debug: false
+#     watchdog: 1s
+#     default_quick_debounce_open: 2ms
+#     default_quick_debounce_close: 2ms
+#     default_normal_debounce_open: 4ms
+#     default_normal_debounce_close: 4ms
+# #    
+#     exp:
+#     boards:
+#       neuron:
+#         model: FP-EXP-2000
+#       led1:
+#         model: FP-EXP-0081
+#         led_fade_time: 100ms
+#       led2:
+#         model: FP-EXP-0081
+#         Address: 85
+#         led_fade_time: 50ms
+#     port: auto
+#     baud: 921600
+#     debug: False
+# ------------------------
+# CONFIG::FAST
+# ------------------------
 #fast:
 #    driverboards: fast
     # ports: com6, com7
