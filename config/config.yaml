@@ -58,15 +58,21 @@ config:
 # #    
 #     exp:
 #     boards:
-#       neuron:
+#       ledneuron:
 #         model: FP-EXP-2000
-#       led1:
-#         model: FP-EXP-0081
+#         address: 48
 #         led_fade_time: 100ms
-#       led2:
+#         #ignore_led_errors: true
+#       ledpf1:
 #         model: FP-EXP-0081
-#         Address: 85
+#         address: 84
+#         led_fade_time: 100ms
+#         #ignore_led_errors: true
+#       ledpf2:
+#         model: FP-EXP-0081
+#         address: 85
 #         led_fade_time: 50ms
+#         #ignore_led_errors: true
 #     port: auto
 #     baud: 921600
 #     debug: False

@@ -18,6 +18,9 @@ mode_settings:
 slide_player:
   mode_attract_started: attract
 
+show_player:
+  mode_attract_started.1: attract_lightshows_loop_test
+
 sound_player:
   mode_attract_started:
     intro_music:
