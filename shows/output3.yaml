@@ -1,0 +1,319 @@
+#show_version=6
+- time: 0
+  lights:
+    ledpf1-1-19: '00FD00'
+    ledpf1-1-22: '00FD00'
+    ledpf1-1-24: '000700'
+    ledpf1-1-26: '00FD00'
+    ledpf1-2-16: '080808'
+    ledpf1-2-17: '0A0A0A'
+    ledpf1-2-18: '0C0C0C'
+    ledpf1-2-19: '0A0A0A'
+    ledpf1-2-20: '080808'
+    ledpf1-2-21: '020202'
+    ledpf1-3-10: '262626'
+    ledpf1-3-11: '121212'
+    ledpf1-3-12: '080808'
+    ledpf1-3-13: '242424'
+    ledpf1-3-14: '0E0E0E'
+    ledpf1-3-15: '141414'
+    ledpf1-3-32: '080808'
+    ledpf1-3-4: '060606'
+    ledpf1-3-5: '020202'
+    ledpf1-3-7: '181818'
+    ledpf1-3-8: '0A0A0A'
+    ledpf1-3-9: '020202'
+    ledpf1-4-1: '4C4C4C'
+    ledpf1-4-13: '161616'
+    ledpf1-4-14: '141414'
+    ledpf1-4-15: '141414'
+    ledpf1-4-16: 'DADADA'
+    ledpf1-4-17: 'F0F0F0'
+    ledpf1-4-18: 'E8E8E8'
+    ledpf1-4-19: 'D0D0D0'
+    ledpf1-4-2: '808080'
+    ledpf1-4-20: 'E2E2E2'
+    ledpf1-4-21: 'E2E2E2'
+    ledpf1-4-22: 'E4E4E4'
+    ledpf1-4-23: 'C8C8C8'
+    ledpf1-4-24: 'C6C6C6'
+    ledpf1-4-25: 'D8D8D8'
+    ledpf1-4-3: '525252'
+    ledpf1-4-4: '222222'
+    ledpf1-4-5: '404040'
+    ledpf1-4-6: '1C1C1C'
+    ledpf1-4-7: '060606'
+    ledpf1-4-8: '0E0E0E'
+    ledpf1-4-9: '020202'
+    ledpf1-6-25: '343434'
+    ledpf1-6-26: '4E4E4E'
+    ledpf1-6-27: '020202'
+    ledpf2-1-1: '222222'
+    ledpf2-1-10: 'C6C6C6'
+    ledpf2-1-11: 'A4A4A4'
+    ledpf2-1-12: '7C7C7C'
+    ledpf2-1-13: '505050'
+    ledpf2-1-14: '363636'
+    ledpf2-1-15: '282828'
+    ledpf2-1-16: '242424'
+    ledpf2-1-17: '343434'
+    ledpf2-1-18: '383838'
+    ledpf2-1-19: '404040'
+    ledpf2-1-2: '242424'
+    ledpf2-1-20: '505050'
+    ledpf2-1-21: '666666'
+    ledpf2-1-22: '8A8A8A'
+    ledpf2-1-23: 'A6A6A6'
+    ledpf2-1-24: 'BCBCBC'
+    ledpf2-1-25: 'BEBEBE'
+    ledpf2-1-26: 'B6B6B6'
+    ledpf2-1-27: '9A9A98'
+    ledpf2-1-28: '7A7A7C'
+    ledpf2-1-29: '585858'
+    ledpf2-1-3: '343434'
+    ledpf2-1-30: '404042'
+    ledpf2-1-31: '343434'
+    ledpf2-1-32: '323232'
+    ledpf2-1-4: '444444'
+    ledpf2-1-5: '5E5E5E'
+    ledpf2-1-6: '888888'
+    ledpf2-1-7: 'AEAEAE'
+    ledpf2-1-8: 'CACACA'
+    ledpf2-1-9: 'D2D2D2'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-24: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '00F600'
+    ledpf1-1-20: '000700'
+    ledpf1-1-26: '000700'
+    ledpf1-1-27: '000200'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '001B00'
+    ledpf1-1-20: '00F000'
+    ledpf1-1-26: '000000'
+    ledpf1-1-27: '00FB00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '000000'
+    ledpf1-1-20: '00FD00'
+    ledpf1-1-22: '000300'
+    ledpf1-1-27: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-22: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '001100'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '00FB00'
+    ledpf1-1-27: '000800'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '00FD00'
+    ledpf1-1-27: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-20: '00F400'
+    ledpf1-1-25: '008000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-20: '000A00'
+    ledpf1-1-23: '00F600'
+    ledpf1-1-25: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-20: '000000'
+    ledpf1-1-21: '000200'
+    ledpf1-1-23: '000B00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '005900'
+    ledpf1-1-23: '000000'
+    ledpf1-1-24: '002D00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '00F300'
+    ledpf1-1-24: '00FD00'
+    ledpf1-1-25: '00B200'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '00FD00'
+    ledpf1-1-25: '000100'
+    ledpf1-1-26: '004200'
+    ledpf1-2-16: '000000'
+    ledpf1-2-17: '000000'
+    ledpf1-2-18: '000000'
+    ledpf1-2-19: '000000'
+    ledpf1-2-20: '000000'
+    ledpf1-2-21: '000000'
+    ledpf1-3-10: '000000'
+    ledpf1-3-11: '000000'
+    ledpf1-3-12: '000000'
+    ledpf1-3-13: '000000'
+    ledpf1-3-14: '000000'
+    ledpf1-3-15: '000000'
+    ledpf1-3-32: '000000'
+    ledpf1-3-4: '000000'
+    ledpf1-3-5: '000000'
+    ledpf1-3-7: '000000'
+    ledpf1-3-8: '000000'
+    ledpf1-3-9: '000000'
+    ledpf1-4-1: '000000'
+    ledpf1-4-13: '000000'
+    ledpf1-4-14: '000000'
+    ledpf1-4-15: '000000'
+    ledpf1-4-16: '000000'
+    ledpf1-4-17: '000000'
+    ledpf1-4-18: '000000'
+    ledpf1-4-19: '000000'
+    ledpf1-4-2: '000000'
+    ledpf1-4-20: '000000'
+    ledpf1-4-21: '000000'
+    ledpf1-4-22: '000000'
+    ledpf1-4-23: '000000'
+    ledpf1-4-24: '000000'
+    ledpf1-4-25: '000000'
+    ledpf1-4-3: '000000'
+    ledpf1-4-4: '000000'
+    ledpf1-4-5: '000000'
+    ledpf1-4-6: '000000'
+    ledpf1-4-7: '000000'
+    ledpf1-4-8: '000000'
+    ledpf1-4-9: '000000'
+    ledpf1-6-25: '000000'
+    ledpf1-6-26: '000000'
+    ledpf1-6-27: '000000'
+    ledpf2-1-1: '000000'
+    ledpf2-1-10: '000000'
+    ledpf2-1-11: '000000'
+    ledpf2-1-12: '000000'
+    ledpf2-1-13: '000000'
+    ledpf2-1-14: '000000'
+    ledpf2-1-15: '000000'
+    ledpf2-1-16: '000000'
+    ledpf2-1-17: '000000'
+    ledpf2-1-18: '000000'
+    ledpf2-1-19: '000000'
+    ledpf2-1-2: '000000'
+    ledpf2-1-20: '000000'
+    ledpf2-1-21: '000000'
+    ledpf2-1-22: '000000'
+    ledpf2-1-23: '000000'
+    ledpf2-1-24: '000000'
+    ledpf2-1-25: '000000'
+    ledpf2-1-26: '000000'
+    ledpf2-1-27: '000000'
+    ledpf2-1-28: '000000'
+    ledpf2-1-29: '000000'
+    ledpf2-1-3: '000000'
+    ledpf2-1-30: '000000'
+    ledpf2-1-31: '000000'
+    ledpf2-1-32: '000000'
+    ledpf2-1-4: '000000'
+    ledpf2-1-5: '000000'
+    ledpf2-1-6: '000000'
+    ledpf2-1-7: '000000'
+    ledpf2-1-8: '000000'
+    ledpf2-1-9: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-25: '000000'
+    ledpf1-1-26: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-22: '00F300'
+    ledpf1-1-24: '00E300'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-22: '00FD00'
+    ledpf1-1-24: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '00FB00'
+    ledpf1-1-26: '007B00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '009800'
+    ledpf1-1-26: '000000'
+    ledpf1-1-27: '008B00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '000800'
+    ledpf1-1-22: '002700'
+    ledpf1-1-27: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-21: '000000'
+    ledpf1-1-22: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '001300'
+    ledpf1-1-23: '000900'
+    ledpf1-1-27: '00A900'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '00F400'
+    ledpf1-1-23: '00F200'
+    ledpf1-1-27: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '00FD00'
+    ledpf1-1-23: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-25: '00B000'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '00FA00'
+    ledpf1-1-25: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '001300'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-23: '000000'
+    ledpf1-1-24: '00F900'
+    
+- time: '+1'
+  lights:
+    ledpf1-1-19: '00E300'
+    ledpf1-1-20: '001700'
+    ledpf1-1-24: '00FD00'
+    ledpf1-1-25: '008700'
+    
