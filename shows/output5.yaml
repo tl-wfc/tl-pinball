@@ -1,0 +1,257 @@
+#show_version=6
+- time: 0
+  lights:
+    ledpf1-2-1: 'F60000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-1: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-2: '0F0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-1: '000000'
+    ledpf1-2-2: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-2: 'FB0000'
+    ledpf1-2-3: 'FD0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-2: '000000'
+    ledpf1-2-3: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-3: '670000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-3: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-4: 'BA0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-4: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-5: '670000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-4: 'F90000'
+    ledpf1-2-5: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-4: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-5: 'FE0000'
+    ledpf1-2-6: '020000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-5: '000000'
+    ledpf1-2-6: 'FD0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-6: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-6: 'BA0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-6: '000000'
+    ledpf1-2-7: 'FB0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-7: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-8: '910000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-7: 'E30000'
+    ledpf1-2-8: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-7: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-9: '0F0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-8: 'F60000'
+    ledpf1-2-9: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-8: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-9: 'FD0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-10: 'FF0000'
+    ledpf1-2-9: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-11: '910000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-10: '000000'
+    ledpf1-2-11: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-11: 'F60000'
+    ledpf1-2-12: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-11: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-12: '0F0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-12: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-13: 'F60000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-13: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-14: 'FD0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-13: '000000'
+    ledpf1-2-14: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-14: 'E40000'
+    ledpf1-2-15: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-14: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-15: '0F0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-15: '000000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-16: 'F90000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-16: 'FF0000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-16: 'E30000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-16: '000000'
+    ledpf1-2-17: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-17: '000000'
+    ledpf1-2-18: 'E40000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-18: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-18: 'F60000'
+    
+- time: '+1'
+  lights:
+    ledpf1-2-18: '000000'
+    
