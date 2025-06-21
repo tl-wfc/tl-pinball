@@ -1,0 +1,69 @@
+#show_version=5
+- time: 0
+  lights:
+    ledpf1-4-21: '001D00'
+    ledpf1-4-22: '006A00'
+    ledpf1-4-25: '00F400'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '000000'
+    ledpf1-4-22: '000000'
+    ledpf1-4-25: '00FC00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-24: '001200'
+    ledpf1-4-25: '00FD00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '000A00'
+    ledpf1-4-22: '002500'
+    ledpf1-4-23: '005F00'
+    ledpf1-4-24: '006A00'
+    ledpf1-4-25: '00FC00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '008500'
+    ledpf1-4-22: '00BD00'
+    ledpf1-4-23: '004300'
+    ledpf1-4-24: '00AC00'
+    ledpf1-4-25: '00FE00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '005500'
+    ledpf1-4-22: '002F00'
+    ledpf1-4-23: '000000'
+    ledpf1-4-24: '000000'
+    ledpf1-4-25: '00F100'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '000000'
+    ledpf1-4-22: '000000'
+    ledpf1-4-25: '00F300'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-24: '002A00'
+    ledpf1-4-25: '00FA00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '001E00'
+    ledpf1-4-22: '000C00'
+    ledpf1-4-23: '002900'
+    ledpf1-4-24: '00A200'
+    ledpf1-4-25: '00FB00'
+    
+- time: '+1'
+  lights:
+    ledpf1-4-21: '00B900'
+    ledpf1-4-22: '00BD00'
+    ledpf1-4-23: '009D00'
+    ledpf1-4-24: '00AC00'
+    ledpf1-4-25: '00FF00'
+    
