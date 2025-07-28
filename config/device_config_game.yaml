@@ -370,22 +370,22 @@ coils:
     c_2_trough_eject:
         number: 
         default_pulse_ms: 1 #settings.adjustments_coil_strength_trough
-    c_3_left_flipper:
+    c_3_left_flipper_main:
         number: 
         default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_left
         allow_enable: true
         default_hold_power: 0.125
-#    c_4_top_left_flipper:
-#        number: 
-#        default_pulse_ms: settings.adjustments_coil_strength_flipper_left_top
-#        allow_enable: true
-#        default_hold_power: 0.125  
-    c_5_right_flipper:
+    c_4_left_flipper_hold:
+        number: 
+        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_left_top
+        allow_enable: true
+        default_hold_power: 0.125  
+    c_5_right_flipper_main:
         number: 
         default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right
         allow_enable: true
         default_hold_power: 0.125
-    c_6_top_right_flipper:
+    c_6_right_flipper_hold:
         number: 
         default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right_top
         allow_enable: true
@@ -396,6 +396,16 @@ coils:
     c_8_right_sling:
         number: 
         default_pulse_ms: 1 #settings.adjustments_coil_strength_sling_right
+    c_28_right_top_flipper_main:
+        number: 
+        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right
+        allow_enable: true
+        default_hold_power: 0.125
+    c_29_right_top_flipper_hold:
+        number: 
+        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right_top
+        allow_enable: true
+        default_hold_power: 0.125
 # ------------------------
 # CONFIG:COILS - POP BUMPERS
 # ------------------------ 
@@ -500,7 +510,8 @@ coils:
 # ------------------------     
 flippers:
     right_flipper:
-        main_coil: c_5_right_flipper
+        main_coil: c_5_right_flipper_main
+        hold_coil: c_6_right_flipper_hold
         activation_switch: s_16_right_flipper
         # power_setting_name: flipper_power
         # enable_events: game_start{machine.flipper_power==1.0}
@@ -509,6 +520,7 @@ flippers:
         enable_events: ball_started, enable_flippers, enable_autos
     left_flipper:
         main_coil: c_3_left_flipper
+        hold_coil: c_4_left_flipper_hold
         activation_switch: s_8_left_flipper
         # power_setting_name: flipper_power
         # enable_events: game_start{machine.flipper_power==1.0}
@@ -516,7 +528,8 @@ flippers:
         disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
         enable_events: ball_started, enable_flippers, enable_autos
     right_top_flipper:
-        main_coil: c_6_top_right_flipper
+        main_coil: c_28_right_top_flipper_main
+        hold_coil: c_29_right_top_flipper_hold
         activation_switch: s_17_right_flipper_upper
         # power_setting_name: flipper_power
         # enable_events: game_start{machine.flipper_power==1.0}
