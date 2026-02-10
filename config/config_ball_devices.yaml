@@ -1,5 +1,5 @@
 #config_version=6
-# test1
+# test1 test 12
 ball_devices:
     bd_plunger:
         ball_switches: s_31_plunger_lane
