@@ -1,0 +1,197 @@
+2026-02-11 10:36:10,847 : INFO : root : Loading config.
+2026-02-11 10:36:10,851 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-11 10:36:10,851 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-11 10:36:10,949 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 10:36:10,949 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 10:36:10,949 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 10:36:10,950 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-11 10:36:10,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-11 10:36:10,951 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 10:36:10,951 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 10:36:10,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 10:36:10,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8e03a0223b8d1c0ca013681033326f0c.mpf_cache
+2026-02-11 10:36:10,954 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5087cf1b7abc06e96886e5988e0fc677.mpf_cache
+2026-02-11 10:36:10,954 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\fa471351b89d1f3e25f91fc9913c9796.mpf_cache
+2026-02-11 10:36:10,955 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5571cab4eb1786965a59407287d5fe45.mpf_cache
+2026-02-11 10:36:10,956 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271c9b515d768458308058303b47c39a.mpf_cache
+2026-02-11 10:36:10,956 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\cd67e5858d9a4eed8e637ab852052284.mpf_cache
+2026-02-11 10:36:10,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-11 10:36:10,958 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-11 10:36:10,958 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': True, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-11-10-36-10-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-10-36-10-mpf-DESKTOP-HV85DRD.log'}
+2026-02-11 10:36:10,959 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-11 10:36:10,959 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-11 10:36:10,959 : INFO : Machine : Platform: win32
+2026-02-11 10:36:10,959 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-11 10:36:10,959 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-11 10:36:10,960 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-11 10:36:10,961 : INFO : Machine : Initializing MPF...
+2026-02-11 10:36:11,050 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-02-11 10:36:11,062 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-11 10:36:11,069 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-11 10:36:11,070 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-11 10:36:11,070 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-11 10:36:11,092 : INFO : FAST : Detected EXP on port COM5
+2026-02-11 10:36:11,092 : INFO : FAST : Detected NET on port COM4
+2026-02-11 10:36:11,205 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-11 10:36:11,209 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-11 10:36:11,220 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-11 10:36:11,251 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-11 10:36:11,267 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 10:36:11,283 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-11 10:36:11,299 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 10:36:11,301 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-11 10:36:11,305 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-11 10:36:11,306 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-11 10:36:11,306 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-11 10:36:11,315 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-11 10:36:11,331 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-11 10:36:11,347 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledpf1" (FP-EXP-0081 Address: 84)
+2026-02-11 10:36:11,347 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 10:36:11,347 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 1 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 10:36:11,363 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-11 10:36:11,379 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-11 10:36:11,395 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-11 10:36:11,411 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,433 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,433 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,433 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,433 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-10-36-10-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-11 10:36:11,545 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-11 10:36:11,553 : DEBUG : ModeController : Loaded mode attract
+2026-02-11 10:36:11,556 : DEBUG : ModeController : Loaded mode game
+2026-02-11 10:36:11,599 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 00
+2026-02-11 10:36:11,601 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 01
+2026-02-11 10:36:11,604 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 02
+2026-02-11 10:36:11,620 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 03
+2026-02-11 10:36:11,622 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 40
+2026-02-11 10:36:11,625 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 41
+2026-02-11 10:36:11,627 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 42
+2026-02-11 10:36:11,629 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 43
+2026-02-11 10:36:11,632 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 44
+2026-02-11 10:36:11,634 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 45
+2026-02-11 10:36:11,637 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 46
+2026-02-11 10:36:11,639 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 47
+2026-02-11 10:36:11,645 : INFO : EventManager : Event: ======'drop_target_bank_dtb_characters_up'====== Args={}
+2026-02-11 10:36:11,645 : INFO : EventManager : Event: ======'drop_target_bank_dtb_rollover_up'====== Args={}
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_34_right_sling' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_59_saucer_right' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_64_varitarget_poisition_1' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_72_single_drop_1' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+2026-02-11 10:36:14,072 : INFO : SwitchController : <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+2026-02-11 10:36:14,073 : INFO : SwitchController : <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+2026-02-11 10:36:14,073 : INFO : SwitchController : <<<<<<< 's_81_saucer_left' active >>>>>>>
+2026-02-11 10:36:14,120 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-11 10:36:14,120 : INFO : SwitchController : Found active switch: (34, [FAST Platform Interface]) <switch.s_34_right_sling>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (44, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (11, [FAST Platform Interface]) <switch.s_59_saucer_right>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (16, [FAST Platform Interface]) <switch.s_64_varitarget_poisition_1>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (23, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (56, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (57, [FAST Platform Interface]) <switch.s_73_fourbank_drop_1>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (58, [FAST Platform Interface]) <switch.s_74_fourbank_drop_2>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (59, [FAST Platform Interface]) <switch.s_75_fourbank_drop_3>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_76_fourbank_drop_4>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (61, [FAST Platform Interface]) <switch.s_77_threebank_drop_1>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (62, [FAST Platform Interface]) <switch.s_78_threebank_drop_2>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (63, [FAST Platform Interface]) <switch.s_79_threebank_drop_3>
+2026-02-11 10:36:14,121 : INFO : SwitchController : Found active switch: (65, [FAST Platform Interface]) <switch.s_81_saucer_left>
+2026-02-11 10:36:14,127 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-02-11 10:36:14,128 : INFO : ball_device.bd_plunger : State: idle
+2026-02-11 10:36:14,129 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-02-11 10:36:14,129 : INFO : ball_device.bd_trough : State: idle
+2026-02-11 10:36:14,131 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\data/audits.yaml
+2026-02-11 10:36:14,138 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2026-02-11 10:36:14,139 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2026-02-11 10:36:14,142 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2026-02-11 10:36:14,143 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2026-02-11 10:36:14,143 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-02-11 10:36:14,143 : DEBUG : ShowController : Loading show: flash
+2026-02-11 10:36:14,144 : DEBUG : ShowController : Loading show: on
+2026-02-11 10:36:14,144 : DEBUG : ShowController : Loading show: off
+2026-02-11 10:36:14,144 : DEBUG : ShowController : Loading show: led_color
+2026-02-11 10:36:14,144 : DEBUG : ShowController : Loading show: bl_color
+2026-02-11 10:36:14,145 : DEBUG : ShowController : Loading show: flash_color
+2026-02-11 10:36:14,145 : DEBUG : ShowController : Loading show: attract_lightshows_loop_test
+2026-02-11 10:36:14,146 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...dpf2-1-1\']')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...dpf2-1-1\']')>)>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_lightshows_loop_test" >> Failed to load config player attract_lightshows_loop_test:lights with settings {'ledpf1-4-13': 'BF06A0', 'ledpf1-4-14': 'BF06A0', 'ledpf1-4-15': 'BF06A0', 'ledpf1-4-16': '7A2AB9', 'ledpf1-4-17': '0000C8', 'ledpf1-4-18': '0000C8', 'ledpf1-4-19': '7A2AB9', 'ledpf1-4-20': '792AB9', 'ledpf1-6-25': '1B593C', 'ledpf2-1-1': 'C8401F', 'ledpf2-1-10': '0000C8', 'ledpf2-1-11': '7A2AB9', 'ledpf2-1-12': '7A2AB9', 'ledpf2-1-13': 'BF06A0', 'ledpf2-1-14': 'C70101', 'ledpf2-1-15': 'C70101', 'ledpf2-1-16': 'C8401F', 'ledpf2-1-17': 'C8401F', 'ledpf2-1-18': 'C87900', 'ledpf2-1-19': 'C87900', 'ledpf2-1-2': 'C87900', 'ledpf2-1-20': 'C07803', 'ledpf2-1-21': '1B593C', 'ledpf2-1-22': '1B593C', 'ledpf2-1-23': '0051B6', 'ledpf2-1-24': '0051B6', 'ledpf2-1-25': '0000C8', 'ledpf2-1-26': '0000C8', 'ledpf2-1-27': '7A2AB9', 'ledpf2-1-28': '7A2AB9', 'ledpf2-1-29': 'BF06A0', 'ledpf2-1-3': 'C87900', 'ledpf2-1-30': 'C70101', 'ledpf2-1-31': 'C70101', 'ledpf2-1-32': 'C8401F', 'ledpf2-1-4': 'AA740A', 'ledpf2-1-5': '1B593C', 'ledpf2-1-6': '1B593C', 'ledpf2-1-7': '0051B6', 'ledpf2-1-8': '0051B6', 'ledpf2-1-9': '0000C8', 'ledpf2-2-8': '3C1309', 'ledpf2-2-9': '0F0000'} >> Could not find a lights device with name or tag ledpf2-1-1, from list ['ledpf2-1-1'] Error Code: CFE-light_player-101 (https://missionpinball.org/latest/logs)
+2026-02-11 10:36:14,149 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-11 10:36:14,149 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-11 10:36:14,150 : INFO : Machine : Shutting down...
+2026-02-11 10:36:14,150 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-11 10:36:14,248 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-02-11 10:36:14,248 : DEBUG : FAST [EXP] : Stop called on serial connection EXP
+2026-02-11 10:36:15,254 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_lightshows_loop_test" >> Failed to load config player attract_lightshows_loop_test:lights with settings {'ledpf1-4-13': 'BF06A0', 'ledpf1-4-14': 'BF06A0', 'ledpf1-4-15': 'BF06A0', 'ledpf1-4-16': '7A2AB9', 'ledpf1-4-17': '0000C8', 'ledpf1-4-18': '0000C8', 'ledpf1-4-19': '7A2AB9', 'ledpf1-4-20': '792AB9', 'ledpf1-6-25': '1B593C', 'ledpf2-1-1': 'C8401F', 'ledpf2-1-10': '0000C8', 'ledpf2-1-11': '7A2AB9', 'ledpf2-1-12': '7A2AB9', 'ledpf2-1-13': 'BF06A0', 'ledpf2-1-14': 'C70101', 'ledpf2-1-15': 'C70101', 'ledpf2-1-16': 'C8401F', 'ledpf2-1-17': 'C8401F', 'ledpf2-1-18': 'C87900', 'ledpf2-1-19': 'C87900', 'ledpf2-1-2': 'C87900', 'ledpf2-1-20': 'C07803', 'ledpf2-1-21': '1B593C', 'ledpf2-1-22': '1B593C', 'ledpf2-1-23': '0051B6', 'ledpf2-1-24': '0051B6', 'ledpf2-1-25': '0000C8', 'ledpf2-1-26': '0000C8', 'ledpf2-1-27': '7A2AB9', 'ledpf2-1-28': '7A2AB9', 'ledpf2-1-29': 'BF06A0', 'ledpf2-1-3': 'C87900', 'ledpf2-1-30': 'C70101', 'ledpf2-1-31': 'C70101', 'ledpf2-1-32': 'C8401F', 'ledpf2-1-4': 'AA740A', 'ledpf2-1-5': '1B593C', 'ledpf2-1-6': '1B593C', 'ledpf2-1-7': '0051B6', 'ledpf2-1-8': '0051B6', 'ledpf2-1-9': '0000C8', 'ledpf2-2-8': '3C1309', 'ledpf2-2-9': '0F0000'} >> Could not find a lights device with name or tag ledpf2-1-1, from list ['ledpf2-1-1'] Error Code: CFE-light_player-101 (https://missionpinball.org/latest/logs)
+2026-02-11 10:36:15,256 : INFO : root : MPF run loop ended.
