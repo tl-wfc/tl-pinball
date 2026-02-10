@@ -6,521 +6,521 @@
 #
 lights:
   led1-1:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-1  # ledneuron LED Port 1, 1st LED in the chain
+    number: 1-1-1  # ledneuron LED Port 1, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-2:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-2  # ledneuron LED Port 1, 2nd LED in the chain
+    number: 1-1-2  # ledneuron LED Port 1, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-3:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-3  # ledneuron LED Port 1, 3rd LED in the chain
+    number: 1-1-3  # ledneuron LED Port 1, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-4:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-4  # ledneuron LED Port 1, 4th LED in the chain
+    number: 1-1-4  # ledneuron LED Port 1, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-5:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-5  # ledneuron LED Port 1, 5th LED in the chain
+    number: 1-1-5  # ledneuron LED Port 1, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-6:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-6  # ledneuron LED Port 1, 6th LED in the chain
+    number: 1-1-6  # ledneuron LED Port 1, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-7:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-7  # ledneuron LED Port 1, 7th LED in the chain
+    number: 1-1-7  # ledneuron LED Port 1, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-8:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-8  # ledneuron LED Port 1, 8th LED in the chain
+    number: 1-1-8  # ledneuron LED Port 1, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-9:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-9  # ledneuron LED Port 1, 9th LED in the chain
+    number: 1-1-9  # ledneuron LED Port 1, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-10:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-10  # ledneuron LED Port 1, 10th LED in the chain
+    number: 1-1-10  # ledneuron LED Port 1, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-11:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-11  # ledneuron LED Port 1, 11th LED in the chain
+    number: 1-1-11  # ledneuron LED Port 1, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-12:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-12  # ledneuron LED Port 1, 12th LED in the chain
+    number: 1-1-12  # ledneuron LED Port 1, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-13:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-13  # ledneuron LED Port 1, 13th LED in the chain
+    number: 1-1-13  # ledneuron LED Port 1, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-14:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-14  # ledneuron LED Port 1, 14th LED in the chain
+    number: 1-1-14  # ledneuron LED Port 1, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-15:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-15  # ledneuron LED Port 1, 15th LED in the chain
+    number: 1-1-15  # ledneuron LED Port 1, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-16:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-16  # ledneuron LED Port 1, 16th LED in the chain
+    number: 1-1-16  # ledneuron LED Port 1, 16th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-17:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-17  # ledneuron LED Port 1, 17th LED in the chain
+    number: 1-1-17  # ledneuron LED Port 1, 17th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-18:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-18  # ledneuron LED Port 1, 18th LED in the chain
+    number: 1-1-18  # ledneuron LED Port 1, 18th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-19:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-19  # ledneuron LED Port 1, 19th LED in the chain
+    number: 1-1-19  # ledneuron LED Port 1, 19th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-20:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-20  # ledneuron LED Port 1, 20th LED in the chain
+    number: 1-1-20  # ledneuron LED Port 1, 20th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-21:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-21  # ledneuron LED Port 1, 21st LED in the chain
+    number: 1-1-21  # ledneuron LED Port 1, 21st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-22:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-22  # ledneuron LED Port 1, 22nd LED in the chain
+    number: 1-1-22  # ledneuron LED Port 1, 22nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-23:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-23  # ledneuron LED Port 1, 23th LED in the chain
+    number: 1-1-23  # ledneuron LED Port 1, 23th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-24:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-24  # ledneuron LED Port 1, 24th LED in the chain
+    number: 1-1-24  # ledneuron LED Port 1, 24th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-25:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-25  # ledneuron LED Port 1, 25th LED in the chain
+    number: 1-1-25  # ledneuron LED Port 1, 25th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-26:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-26  # ledneuron LED Port 1, 26th LED in the chain
+    number: 1-1-26  # ledneuron LED Port 1, 26th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-27:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-27  # ledneuron LED Port 1, 27th LED in the chain
+    number: 1-1-27  # ledneuron LED Port 1, 27th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-28:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-28  # ledneuron LED Port 1, 28th LED in the chain
+    number: 1-1-28  # ledneuron LED Port 1, 28th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-29:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-29  # ledneuron LED Port 1, 29th LED in the chain
+    number: 1-1-29  # ledneuron LED Port 1, 29th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-30:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-30  # ledneuron LED Port 1, 30th LED in the chain
+    number: 1-1-30  # ledneuron LED Port 1, 30th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-31:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-31  # ledneuron LED Port 1, 31st LED in the chain
+    number: 1-1-31  # ledneuron LED Port 1, 31st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led1-32:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-1-32  # ledneuron LED Port 1, 32nd LED in the chain
+    number: 1-1-32  # ledneuron LED Port 1, 32nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
 #
 #
   led2-1:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-1  # ledneuron LED Port 2, 1st LED in the chain
+    number: 1-2-1  # ledneuron LED Port 2, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-2:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-2  # ledneuron LED Port 2, 2nd LED in the chain
+    number: 1-2-2  # ledneuron LED Port 2, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-3:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-3  # ledneuron LED Port 2, 3rd LED in the chain
+    number: 1-2-3  # ledneuron LED Port 2, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-4:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-4  # ledneuron LED Port 2, 4th LED in the chain
+    number: 1-2-4  # ledneuron LED Port 2, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-5:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-5  # ledneuron LED Port 2, 5th LED in the chain
+    number: 1-2-5  # ledneuron LED Port 2, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-6:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-6  # ledneuron LED Port 2, 6th LED in the chain
+    number: 1-2-6  # ledneuron LED Port 2, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-7:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-7  # ledneuron LED Port 2, 7th LED in the chain
+    number: 1-2-7  # ledneuron LED Port 2, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-8:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-8  # ledneuron LED Port 2, 8th LED in the chain
+    number: 1-2-8  # ledneuron LED Port 2, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-9:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-9  # ledneuron LED Port 2, 9th LED in the chain
+    number: 1-2-9  # ledneuron LED Port 2, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-10:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-10  # ledneuron LED Port 2, 10th LED in the chain
+    number: 1-2-10  # ledneuron LED Port 2, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-11:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-11  # ledneuron LED Port 2, 11th LED in the chain
+    number: 1-2-11  # ledneuron LED Port 2, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-12:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-12  # ledneuron LED Port 2, 12th LED in the chain
+    number: 1-2-12  # ledneuron LED Port 2, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-13:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-13  # ledneuron LED Port 2, 13th LED in the chain
+    number: 1-2-13  # ledneuron LED Port 2, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-14:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-14  # ledneuron LED Port 2, 14th LED in the chain
+    number: 1-2-14  # ledneuron LED Port 2, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-15:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-15  # ledneuron LED Port 2, 15th LED in the chain
+    number: 1-2-15  # ledneuron LED Port 2, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-16:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-16  # ledneuron LED Port 2, 16th LED in the chain
+    number: 1-2-16  # ledneuron LED Port 2, 16th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-17:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-17  # ledneuron LED Port 2, 17th LED in the chain
+    number: 1-2-17  # ledneuron LED Port 2, 17th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-18:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-18  # ledneuron LED Port 2, 18th LED in the chain
+    number: 1-2-18  # ledneuron LED Port 2, 18th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-19:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-19  # ledneuron LED Port 2, 19th LED in the chain
+    number: 1-2-19  # ledneuron LED Port 2, 19th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-20:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-20  # ledneuron LED Port 2, 20th LED in the chain
+    number: 1-2-20  # ledneuron LED Port 2, 20th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-21:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-21  # ledneuron LED Port 2, 21st LED in the chain
+    number: 1-2-21  # ledneuron LED Port 2, 21st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-22:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-22  # ledneuron LED Port 2, 22nd LED in the chain
+    number: 1-2-22  # ledneuron LED Port 2, 22nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-23:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-23  # ledneuron LED Port 2, 23rd LED in the chain
+    number: 1-2-23  # ledneuron LED Port 2, 23rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-24:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-24  # ledneuron LED Port 2, 24th LED in the chain
+    number: 1-2-24  # ledneuron LED Port 2, 24th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-25:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-25  # ledneuron LED Port 2, 25th LED in the chain
+    number: 1-2-25  # ledneuron LED Port 2, 25th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-26:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-26  # ledneuron LED Port 2, 26th LED in the chain
+    number: 1-2-26  # ledneuron LED Port 2, 26th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-27:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-27  # ledneuron LED Port 2, 27th LED in the chain
+    number: 1-2-27  # ledneuron LED Port 2, 27th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-28:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-28  # ledneuron LED Port 2, 28th LED in the chain
+    number: 1-2-28  # ledneuron LED Port 2, 28th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-29:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-29  # ledneuron LED Port 2, 29th LED in the chain
+    number: 1-2-29  # ledneuron LED Port 2, 29th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-30:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-30  # ledneuron LED Port 2, 30th LED in the chain
+    number: 1-2-30  # ledneuron LED Port 2, 30th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-31:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-31  # ledneuron LED Port 2, 31st LED in the chain
+    number: 1-2-31  # ledneuron LED Port 2, 31st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led2-32:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-2-32  # ledneuron LED Port 2, 32nd LED in the chain
+    number: 1-2-32  # ledneuron LED Port 2, 32nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
 #
 #
   led3-1:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-1  # ledneuron LED Port 3, 1st LED in the chain
+    number: 1-3-1  # ledneuron LED Port 3, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-2:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-2  # ledneuron LED Port 3, 2nd LED in the chain
+    number: 1-3-2  # ledneuron LED Port 3, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-3:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-3  # ledneuron LED Port 3, 3rd LED in the chain
+    number: 1-3-3  # ledneuron LED Port 3, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-4:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-4  # ledneuron LED Port 3, 4th LED in the chain
+    number: 1-3-4  # ledneuron LED Port 3, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-5:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-5  # ledneuron LED Port 3, 5th LED in the chain
+    number: 1-3-5  # ledneuron LED Port 3, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-6:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-6  # ledneuron LED Port 3, 6th LED in the chain
+    number: 1-3-6  # ledneuron LED Port 3, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-7:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-7  # ledneuron LED Port 3, 7th LED in the chain
+    number: 1-3-7  # ledneuron LED Port 3, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-8:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-8  # ledneuron LED Port 3, 8th LED in the chain
+    number: 1-3-8  # ledneuron LED Port 3, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-9:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-9  # ledneuron LED Port 3, 9th LED in the chain
+    number: 1-3-9  # ledneuron LED Port 3, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-10:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-10  # ledneuron LED Port 3, 10th LED in the chain
+    number: 1-3-10  # ledneuron LED Port 3, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-11:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-11  # ledneuron LED Port 3, 11th LED in the chain
+    number: 1-3-11  # ledneuron LED Port 3, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-12:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-12  # ledneuron LED Port 3, 12th LED in the chain
+    number: 1-3-12  # ledneuron LED Port 3, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-13:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-13  # ledneuron LED Port 3, 13th LED in the chain
+    number: 1-3-13  # ledneuron LED Port 3, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-14:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-14  # ledneuron LED Port 3, 14th LED in the chain
+    number: 1-3-14  # ledneuron LED Port 3, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-15:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-15  # ledneuron LED Port 3, 15th LED in the chain
+    number: 1-3-15  # ledneuron LED Port 3, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-16:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-16  # ledneuron LED Port 3, 16th LED in the chain
+    number: 1-3-16  # ledneuron LED Port 3, 16th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-17:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-17  # ledneuron LED Port 3, 17th LED in the chain
+    number: 1-3-17  # ledneuron LED Port 3, 17th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-18:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-18  # ledneuron LED Port 3, 18th LED in the chain
+    number: 1-3-18  # ledneuron LED Port 3, 18th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-19:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-19  # ledneuron LED Port 3, 19th LED in the chain
+    number: 1-3-19  # ledneuron LED Port 3, 19th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-20:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-20  # ledneuron LED Port 3, 20th LED in the chain
+    number: 1-3-20  # ledneuron LED Port 3, 20th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-21:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-21  # ledneuron LED Port 3, 21st LED in the chain
+    number: 1-3-21  # ledneuron LED Port 3, 21st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-22:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-22  # ledneuron LED Port 3, 22nd LED in the chain
+    number: 1-3-22  # ledneuron LED Port 3, 22nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-23:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-23  # ledneuron LED Port 3, 23rd LED in the chain
+    number: 1-3-23  # ledneuron LED Port 3, 23rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-24:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-24  # ledneuron LED Port 3, 24th LED in the chain
+    number: 1-3-24  # ledneuron LED Port 3, 24th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-25:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-25  # ledneuron LED Port 3, 25th LED in the chain
+    number: 1-3-25  # ledneuron LED Port 3, 25th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-26:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-26  # ledneuron LED Port 3, 26th LED in the chain
+    number: 1-3-26  # ledneuron LED Port 3, 26th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-27:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-27  # ledneuron LED Port 3, 27th LED in the chain
+    number: 1-3-27  # ledneuron LED Port 3, 27th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-28:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-28  # ledneuron LED Port 3, 28th LED in the chain
+    number: 1-3-28  # ledneuron LED Port 3, 28th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-29:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-29  # ledneuron LED Port 3, 29th LED in the chain
+    number: 1-3-29  # ledneuron LED Port 3, 29th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-30:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-30  # ledneuron LED Port 3, 30th LED in the chain
+    number: 1-3-30  # ledneuron LED Port 3, 30th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-31:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-31  # ledneuron LED Port 3, 31st LED in the chain
+    number: 1-3-31  # ledneuron LED Port 3, 31st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led3-32:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-3-32  # ledneuron LED Port 3, 32nd LED in the chain
+    number: 1-3-32  # ledneuron LED Port 3, 32nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
 #
 #
   led4-1:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-1  # ledneuron LED Port 4, 1st LED in the chain
+    number: 1-4-1  # ledneuron LED Port 4, 1st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-2:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-2  # ledneuron LED Port 4, 2nd LED in the chain
+    number: 1-4-2  # ledneuron LED Port 4, 2nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-3:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-3  # ledneuron LED Port 4, 3rd LED in the chain
+    number: 1-4-3  # ledneuron LED Port 4, 3rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-4:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-4  # ledneuron LED Port 4, 4th LED in the chain
+    number: 1-4-4  # ledneuron LED Port 4, 4th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-5:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-5  # ledneuron LED Port 4, 5th LED in the chain
+    number: 1-4-5  # ledneuron LED Port 4, 5th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-6:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-6  # ledneuron LED Port 4, 6th LED in the chain
+    number: 1-4-6  # ledneuron LED Port 4, 6th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-7:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-7  # ledneuron LED Port 4, 7th LED in the chain
+    number: 1-4-7  # ledneuron LED Port 4, 7th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-8:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-8  # ledneuron LED Port 4, 8th LED in the chain
+    number: 1-4-8  # ledneuron LED Port 4, 8th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-9:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-9  # ledneuron LED Port 4, 9th LED in the chain
+    number: 1-4-9  # ledneuron LED Port 4, 9th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-10:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-10  # ledneuron LED Port 4, 10th LED in the chain
+    number: 1-4-10  # ledneuron LED Port 4, 10th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-11:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-11  # ledneuron LED Port 4, 11th LED in the chain
+    number: 1-4-11  # ledneuron LED Port 4, 11th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-12:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-12  # ledneuron LED Port 4, 12th LED in the chain
+    number: 1-4-12  # ledneuron LED Port 4, 12th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-13:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-13  # ledneuron LED Port 4, 13th LED in the chain
+    number: 1-4-13  # ledneuron LED Port 4, 13th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-14:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-14  # ledneuron LED Port 4, 14th LED in the chain
+    number: 1-4-14  # ledneuron LED Port 4, 14th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-15:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-15  # ledneuron LED Port 4, 15th LED in the chain
+    number: 1-4-15  # ledneuron LED Port 4, 15th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-16:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-16  # ledneuron LED Port 4, 16th LED in the chain
+    number: 1-4-16  # ledneuron LED Port 4, 16th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-17:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-17  # ledneuron LED Port 4, 17th LED in the chain
+    number: 1-4-17  # ledneuron LED Port 4, 17th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-18:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-18  # ledneuron LED Port 4, 18th LED in the chain
+    number: 1-4-18  # ledneuron LED Port 4, 18th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-19:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-19  # ledneuron LED Port 4, 19th LED in the chain
+    number: 1-4-19  # ledneuron LED Port 4, 19th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-20:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-20  # ledneuron LED Port 4, 20th LED in the chain
+    number: 1-4-20  # ledneuron LED Port 4, 20th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-21:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-21  # ledneuron LED Port 4, 21st LED in the chain
+    number: 1-4-21  # ledneuron LED Port 4, 21st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-22:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-22  # ledneuron LED Port 4, 22nd LED in the chain
+    number: 1-4-22  # ledneuron LED Port 4, 22nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-23:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-23  # ledneuron LED Port 4, 23rd LED in the chain
+    number: 1-4-23  # ledneuron LED Port 4, 23rd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-24:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-24  # ledneuron LED Port 4, 24th LED in the chain
+    number: 1-4-24  # ledneuron LED Port 4, 24th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-25:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-25  # ledneuron LED Port 4, 25th LED in the chain
+    number: 1-4-25  # ledneuron LED Port 4, 25th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-26:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-26  # ledneuron LED Port 4, 26th LED in the chain
+    number: 1-4-26  # ledneuron LED Port 4, 26th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-27:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-27  # ledneuron LED Port 4, 27th LED in the chain
+    number: 1-4-27  # ledneuron LED Port 4, 27th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-28:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-28  # ledneuron LED Port 4, 28th LED in the chain
+    number: 1-4-28  # ledneuron LED Port 4, 28th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-29:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-29  # ledneuron LED Port 4, 29th LED in the chain
+    number: 1-4-29  # ledneuron LED Port 4, 29th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-30:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-30  # ledneuron LED Port 4, 30th LED in the chain
+    number: 1-4-30  # ledneuron LED Port 4, 30th LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-31:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-31  # ledneuron LED Port 4, 31st LED in the chain
+    number: 1-4-31  # ledneuron LED Port 4, 31st LED in the chain
     type: grb
     tags: all_leds, playfield_leds
   led4-32:               # These names are arbitrary. Make them whatever you want
-    number: ledneuron-4-32  # ledneuron LED Port 4, 32nd LED in the chain
+    number: 1-4-32  # ledneuron LED Port 4, 32nd LED in the chain
     type: grb
     tags: all_leds, playfield_leds
 #
@@ -531,1048 +531,1048 @@ lights:
 #
 #---------------------------------------------------------
   ledpf1-1-1:
-    number: ledpf1-1-1      # EXP Board ledpf1, LED Port 1
+    number: 2-1-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-2:
-    number: ledpf1-1-2      # EXP Board ledpf1, LED Port 1
+    number: 2-1-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-3:
-    number: ledpf1-1-3      # EXP Board ledpf1, LED Port 1
+    number: 2-1-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-4:
-    number: ledpf1-1-4      # EXP Board ledpf1, LED Port 1
+    number: 2-1-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-5:
-    number: ledpf1-1-5      # EXP Board ledpf1, LED Port 1
+    number: 2-1-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-6:
-    number: ledpf1-1-6      # EXP Board ledpf1, LED Port 1
+    number: 2-1-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-7:
-    number: ledpf1-1-7      # EXP Board ledpf1, LED Port 1
+    number: 2-1-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-8:
-    number: ledpf1-1-8      # EXP Board ledpf1, LED Port 1
+    number: 2-1-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-9:
-    number: ledpf1-1-9      # EXP Board ledpf1, LED Port 1
+    number: 2-1-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-10:
-    number: ledpf1-1-10      # EXP Board ledpf1, LED Port 1
+    number: 2-1-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-11:
-    number: ledpf1-1-11      # EXP Board ledpf1, LED Port 1
+    number: 2-1-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-12:
-    number: ledpf1-1-12      # EXP Board ledpf1, LED Port 1
+    number: 2-1-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-13:
-    number: ledpf1-1-13      # EXP Board ledpf1, LED Port 1
+    number: 2-1-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-14:
-    number: ledpf1-1-14      # EXP Board ledpf1, LED Port 1
+    number: 2-1-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-15:
-    number: ledpf1-1-15      # EXP Board ledpf1, LED Port 1
+    number: 2-1-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-16:
-    number: ledpf1-1-16      # EXP Board ledpf1, LED Port 1
+    number: 2-1-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-17:
-    number: ledpf1-1-17      # EXP Board ledpf1, LED Port 1
+    number: 2-1-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-18:
-    number: ledpf1-1-18      # EXP Board ledpf1, LED Port 1
+    number: 2-1-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-19:
-    number: ledpf1-1-19      # EXP Board ledpf1, LED Port 1
+    number: 2-1-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-20:
-    number: ledpf1-1-20      # EXP Board ledpf1, LED Port 1
+    number: 2-1-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-21:
-    number: ledpf1-1-21      # EXP Board ledpf1, LED Port 1
+    number: 2-1-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-22:
-    number: ledpf1-1-22      # EXP Board ledpf1, LED Port 1
+    number: 2-1-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-23:
-    number: ledpf1-1-23      # EXP Board ledpf1, LED Port 1
+    number: 2-1-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-24:
-    number: ledpf1-1-24      # EXP Board ledpf1, LED Port 1
+    number: 2-1-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-25:
-    number: ledpf1-1-25      # EXP Board ledpf1, LED Port 1
+    number: 2-1-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-26:
-    number: ledpf1-1-26      # EXP Board ledpf1, LED Port 1
+    number: 2-1-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-27:
-    number: ledpf1-1-27      # EXP Board ledpf1, LED Port 1
+    number: 2-1-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-28:
-    number: ledpf1-1-28      # EXP Board ledpf1, LED Port 1
+    number: 2-1-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-29:
-    number: ledpf1-1-29      # EXP Board ledpf1, LED Port 1
+    number: 2-1-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-30:
-    number: ledpf1-1-30      # EXP Board ledpf1, LED Port 1
+    number: 2-1-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-31:
-    number: ledpf1-1-31      # EXP Board ledpf1, LED Port 1
+    number: 2-1-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-1-32:
-    number: ledpf1-1-32      # EXP Board ledpf1, LED Port 1
+    number: 2-1-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-2-1:
-    number: ledpf1-2-1      # EXP Board ledpf1, LED Port 1
+    number: 2-2-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-2:
-    number: ledpf1-2-2      # EXP Board ledpf1, LED Port 1
+    number: 2-2-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-3:
-    number: ledpf1-2-3      # EXP Board ledpf1, LED Port 1
+    number: 2-2-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-4:
-    number: ledpf1-2-4      # EXP Board ledpf1, LED Port 1
+    number: 2-2-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-5:
-    number: ledpf1-2-5      # EXP Board ledpf1, LED Port 1
+    number: 2-2-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-6:
-    number: ledpf1-2-6      # EXP Board ledpf1, LED Port 1
+    number: 2-2-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-7:
-    number: ledpf1-2-7      # EXP Board ledpf1, LED Port 1
+    number: 2-2-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-8:
-    number: ledpf1-2-8      # EXP Board ledpf1, LED Port 1
+    number: 2-2-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-9:
-    number: ledpf1-2-9      # EXP Board ledpf1, LED Port 1
+    number: 2-2-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-10:
-    number: ledpf1-2-10      # EXP Board ledpf1, LED Port 1
+    number: 2-2-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-11:
-    number: ledpf1-2-11      # EXP Board ledpf1, LED Port 1
+    number: 2-2-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-12:
-    number: ledpf1-2-12      # EXP Board ledpf1, LED Port 1
+    number: 2-2-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-13:
-    number: ledpf1-2-13      # EXP Board ledpf1, LED Port 1
+    number: 2-2-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-14:
-    number: ledpf1-2-14      # EXP Board ledpf1, LED Port 1
+    number: 2-2-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-15:
-    number: ledpf1-2-15      # EXP Board ledpf1, LED Port 1
+    number: 2-2-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-16:
-    number: ledpf1-2-16      # EXP Board ledpf1, LED Port 1
+    number: 2-2-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-17:
-    number: ledpf1-2-17      # EXP Board ledpf1, LED Port 1
+    number: 2-2-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-18:
-    number: ledpf1-2-18      # EXP Board ledpf1, LED Port 1
+    number: 2-2-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-19:
-    number: ledpf1-2-19      # EXP Board ledpf1, LED Port 1
+    number: 2-2-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-20:
-    number: ledpf1-2-20      # EXP Board ledpf1, LED Port 1
+    number: 2-2-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-21:
-    number: ledpf1-2-21      # EXP Board ledpf1, LED Port 1
+    number: 2-2-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-22:
-    number: ledpf1-2-22      # EXP Board ledpf1, LED Port 1
+    number: 2-2-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-23:
-    number: ledpf1-2-23      # EXP Board ledpf1, LED Port 1
+    number: 2-2-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-24:
-    number: ledpf1-2-24      # EXP Board ledpf1, LED Port 1
+    number: 2-2-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-25:
-    number: ledpf1-2-25      # EXP Board ledpf1, LED Port 1
+    number: 2-2-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-26:
-    number: ledpf1-2-26      # EXP Board ledpf1, LED Port 1
+    number: 2-2-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-27:
-    number: ledpf1-2-27      # EXP Board ledpf1, LED Port 1
+    number: 2-2-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-28:
-    number: ledpf1-2-28      # EXP Board ledpf1, LED Port 1
+    number: 2-2-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-29:
-    number: ledpf1-2-29      # EXP Board ledpf1, LED Port 1
+    number: 2-2-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-30:
-    number: ledpf1-2-30      # EXP Board ledpf1, LED Port 1
+    number: 2-2-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-31:
-    number: ledpf1-2-31      # EXP Board ledpf1, LED Port 1
+    number: 2-2-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-2-32:
-    number: ledpf1-2-32      # EXP Board ledpf1, LED Port 1
+    number: 2-2-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-3-1:
-    number: ledpf1-3-1      # EXP Board ledpf1, LED Port 1
+    number: 2-3-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-2:
-    number: ledpf1-3-2      # EXP Board ledpf1, LED Port 1
+    number: 2-3-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-3:
-    number: ledpf1-3-3      # EXP Board ledpf1, LED Port 1
+    number: 2-3-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-4:
-    number: ledpf1-3-4      # EXP Board ledpf1, LED Port 1
+    number: 2-3-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-5:
-    number: ledpf1-3-5      # EXP Board ledpf1, LED Port 1
+    number: 2-3-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-6:
-    number: ledpf1-3-6      # EXP Board ledpf1, LED Port 1
+    number: 2-3-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-7:
-    number: ledpf1-3-7      # EXP Board ledpf1, LED Port 1
+    number: 2-3-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-8:
-    number: ledpf1-3-8      # EXP Board ledpf1, LED Port 1
+    number: 2-3-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-9:
-    number: ledpf1-3-9      # EXP Board ledpf1, LED Port 1
+    number: 2-3-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-10:
-    number: ledpf1-3-10      # EXP Board ledpf1, LED Port 1
+    number: 2-3-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-11:
-    number: ledpf1-3-11      # EXP Board ledpf1, LED Port 1
+    number: 2-3-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-12:
-    number: ledpf1-3-12      # EXP Board ledpf1, LED Port 1
+    number: 2-3-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-13:
-    number: ledpf1-3-13      # EXP Board ledpf1, LED Port 1
+    number: 2-3-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-14:
-    number: ledpf1-3-14      # EXP Board ledpf1, LED Port 1
+    number: 2-3-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-15:
-    number: ledpf1-3-15      # EXP Board ledpf1, LED Port 1
+    number: 2-3-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-16:
-    number: ledpf1-3-16      # EXP Board ledpf1, LED Port 1
+    number: 2-3-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-17:
-    number: ledpf1-3-17      # EXP Board ledpf1, LED Port 1
+    number: 2-3-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-18:
-    number: ledpf1-3-18      # EXP Board ledpf1, LED Port 1
+    number: 2-3-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-19:
-    number: ledpf1-3-19      # EXP Board ledpf1, LED Port 1
+    number: 2-3-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-20:
-    number: ledpf1-3-20      # EXP Board ledpf1, LED Port 1
+    number: 2-3-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-21:
-    number: ledpf1-3-21      # EXP Board ledpf1, LED Port 1
+    number: 2-3-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-22:
-    number: ledpf1-3-22      # EXP Board ledpf1, LED Port 1
+    number: 2-3-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-23:
-    number: ledpf1-3-23      # EXP Board ledpf1, LED Port 1
+    number: 2-3-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-24:
-    number: ledpf1-3-24      # EXP Board ledpf1, LED Port 1
+    number: 2-3-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-25:
-    number: ledpf1-3-25      # EXP Board ledpf1, LED Port 1
+    number: 2-3-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-26:
-    number: ledpf1-3-26      # EXP Board ledpf1, LED Port 1
+    number: 2-3-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-27:
-    number: ledpf1-3-27      # EXP Board ledpf1, LED Port 1
+    number: 2-3-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-28:
-    number: ledpf1-3-28      # EXP Board ledpf1, LED Port 1
+    number: 2-3-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-29:
-    number: ledpf1-3-29      # EXP Board ledpf1, LED Port 1
+    number: 2-3-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-30:
-    number: ledpf1-3-30      # EXP Board ledpf1, LED Port 1
+    number: 2-3-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-31:
-    number: ledpf1-3-31      # EXP Board ledpf1, LED Port 1
+    number: 2-3-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-3-32:
-    number: ledpf1-3-32      # EXP Board ledpf1, LED Port 1
+    number: 2-3-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-4-1:
-    number: ledpf1-4-1      # EXP Board ledpf1, LED Port 1
+    number: 2-4-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-2:
-    number: ledpf1-4-2      # EXP Board ledpf1, LED Port 1
+    number: 2-4-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-3:
-    number: ledpf1-4-3      # EXP Board ledpf1, LED Port 1
+    number: 2-4-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-4:
-    number: ledpf1-4-4      # EXP Board ledpf1, LED Port 1
+    number: 2-4-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-5:
-    number: ledpf1-4-5      # EXP Board ledpf1, LED Port 1
+    number: 2-4-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-6:
-    number: ledpf1-4-6      # EXP Board ledpf1, LED Port 1
+    number: 2-4-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-7:
-    number: ledpf1-4-7      # EXP Board ledpf1, LED Port 1
+    number: 2-4-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-8:
-    number: ledpf1-4-8      # EXP Board ledpf1, LED Port 1
+    number: 2-4-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-9:
-    number: ledpf1-4-9      # EXP Board ledpf1, LED Port 1
+    number: 2-4-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-10:
-    number: ledpf1-4-10      # EXP Board ledpf1, LED Port 1
+    number: 2-4-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-11:
-    number: ledpf1-4-11      # EXP Board ledpf1, LED Port 1
+    number: 2-4-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-12:
-    number: ledpf1-4-12      # EXP Board ledpf1, LED Port 1
+    number: 2-4-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-13:
-    number: ledpf1-4-13      # EXP Board ledpf1, LED Port 1
+    number: 2-4-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-14:
-    number: ledpf1-4-14      # EXP Board ledpf1, LED Port 1
+    number: 2-4-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-15:
-    number: ledpf1-4-15      # EXP Board ledpf1, LED Port 1
+    number: 2-4-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-16:
-    number: ledpf1-4-16      # EXP Board ledpf1, LED Port 1
+    number: 2-4-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-17:
-    number: ledpf1-4-17      # EXP Board ledpf1, LED Port 1
+    number: 2-4-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-18:
-    number: ledpf1-4-18      # EXP Board ledpf1, LED Port 1
+    number: 2-4-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-19:
-    number: ledpf1-4-19      # EXP Board ledpf1, LED Port 1
+    number: 2-4-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-20:
-    number: ledpf1-4-20      # EXP Board ledpf1, LED Port 1
+    number: 2-4-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-21:
-    number: ledpf1-4-21      # EXP Board ledpf1, LED Port 1
+    number: 2-4-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-22:
-    number: ledpf1-4-22      # EXP Board ledpf1, LED Port 1
+    number: 2-4-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-23:
-    number: ledpf1-4-23      # EXP Board ledpf1, LED Port 1
+    number: 2-4-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-24:
-    number: ledpf1-4-24      # EXP Board ledpf1, LED Port 1
+    number: 2-4-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-25:
-    number: ledpf1-4-25      # EXP Board ledpf1, LED Port 1
+    number: 2-4-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-26:
-    number: ledpf1-4-26      # EXP Board ledpf1, LED Port 1
+    number: 2-4-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-27:
-    number: ledpf1-4-27      # EXP Board ledpf1, LED Port 1
+    number: 2-4-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-28:
-    number: ledpf1-4-28      # EXP Board ledpf1, LED Port 1
+    number: 2-4-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-29:
-    number: ledpf1-4-29      # EXP Board ledpf1, LED Port 1
+    number: 2-4-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-30:
-    number: ledpf1-4-30      # EXP Board ledpf1, LED Port 1
+    number: 2-4-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-31:
-    number: ledpf1-4-31      # EXP Board ledpf1, LED Port 1
+    number: 2-4-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-4-32:
-    number: ledpf1-4-32      # EXP Board ledpf1, LED Port 1
+    number: 2-4-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-5-1:
-    number: ledpf1-5-1      # EXP Board ledpf1, LED Port 1
+    number: 2-5-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-2:
-    number: ledpf1-5-2      # EXP Board ledpf1, LED Port 1
+    number: 2-5-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-3:
-    number: ledpf1-5-3      # EXP Board ledpf1, LED Port 1
+    number: 2-5-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-4:
-    number: ledpf1-5-4      # EXP Board ledpf1, LED Port 1
+    number: 2-5-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-5:
-    number: ledpf1-5-5      # EXP Board ledpf1, LED Port 1
+    number: 2-5-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-6:
-    number: ledpf1-5-6      # EXP Board ledpf1, LED Port 1
+    number: 2-5-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-7:
-    number: ledpf1-5-7      # EXP Board ledpf1, LED Port 1
+    number: 2-5-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-8:
-    number: ledpf1-5-8      # EXP Board ledpf1, LED Port 1
+    number: 2-5-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-9:
-    number: ledpf1-5-9      # EXP Board ledpf1, LED Port 1
+    number: 2-5-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-10:
-    number: ledpf1-5-10      # EXP Board ledpf1, LED Port 1
+    number: 2-5-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-11:
-    number: ledpf1-5-11      # EXP Board ledpf1, LED Port 1
+    number: 2-5-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-12:
-    number: ledpf1-5-12      # EXP Board ledpf1, LED Port 1
+    number: 2-5-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-13:
-    number: ledpf1-5-13      # EXP Board ledpf1, LED Port 1
+    number: 2-5-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-14:
-    number: ledpf1-5-14      # EXP Board ledpf1, LED Port 1
+    number: 2-5-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-15:
-    number: ledpf1-5-15      # EXP Board ledpf1, LED Port 1
+    number: 2-5-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-16:
-    number: ledpf1-5-16      # EXP Board ledpf1, LED Port 1
+    number: 2-5-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-17:
-    number: ledpf1-5-17      # EXP Board ledpf1, LED Port 1
+    number: 2-5-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-18:
-    number: ledpf1-5-18      # EXP Board ledpf1, LED Port 1
+    number: 2-5-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-19:
-    number: ledpf1-5-19      # EXP Board ledpf1, LED Port 1
+    number: 2-5-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-20:
-    number: ledpf1-5-20      # EXP Board ledpf1, LED Port 1
+    number: 2-5-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-21:
-    number: ledpf1-5-21      # EXP Board ledpf1, LED Port 1
+    number: 2-5-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-22:
-    number: ledpf1-5-22      # EXP Board ledpf1, LED Port 1
+    number: 2-5-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-23:
-    number: ledpf1-5-23      # EXP Board ledpf1, LED Port 1
+    number: 2-5-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-24:
-    number: ledpf1-5-24      # EXP Board ledpf1, LED Port 1
+    number: 2-5-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-25:
-    number: ledpf1-5-25      # EXP Board ledpf1, LED Port 1
+    number: 2-5-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-26:
-    number: ledpf1-5-26      # EXP Board ledpf1, LED Port 1
+    number: 2-5-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-27:
-    number: ledpf1-5-27      # EXP Board ledpf1, LED Port 1
+    number: 2-5-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-28:
-    number: ledpf1-5-28      # EXP Board ledpf1, LED Port 1
+    number: 2-5-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-29:
-    number: ledpf1-5-29      # EXP Board ledpf1, LED Port 1
+    number: 2-5-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-30:
-    number: ledpf1-5-30      # EXP Board ledpf1, LED Port 1
+    number: 2-5-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-31:
-    number: ledpf1-5-31      # EXP Board ledpf1, LED Port 1
+    number: 2-5-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-5-32:
-    number: ledpf1-5-32      # EXP Board ledpf1, LED Port 1
+    number: 2-5-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-6-1:
-    number: ledpf1-6-1      # EXP Board ledpf1, LED Port 1
+    number: 2-6-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-2:
-    number: ledpf1-6-2      # EXP Board ledpf1, LED Port 1
+    number: 2-6-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-3:
-    number: ledpf1-6-3      # EXP Board ledpf1, LED Port 1
+    number: 2-6-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-4:
-    number: ledpf1-6-4      # EXP Board ledpf1, LED Port 1
+    number: 2-6-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-5:
-    number: ledpf1-6-5      # EXP Board ledpf1, LED Port 1
+    number: 2-6-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-6:
-    number: ledpf1-6-6      # EXP Board ledpf1, LED Port 1
+    number: 2-6-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-7:
-    number: ledpf1-6-7      # EXP Board ledpf1, LED Port 1
+    number: 2-6-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-8:
-    number: ledpf1-6-8      # EXP Board ledpf1, LED Port 1
+    number: 2-6-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-9:
-    number: ledpf1-6-9      # EXP Board ledpf1, LED Port 1
+    number: 2-6-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-10:
-    number: ledpf1-6-10      # EXP Board ledpf1, LED Port 1
+    number: 2-6-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-11:
-    number: ledpf1-6-11      # EXP Board ledpf1, LED Port 1
+    number: 2-6-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-12:
-    number: ledpf1-6-12      # EXP Board ledpf1, LED Port 1
+    number: 2-6-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-13:
-    number: ledpf1-6-13      # EXP Board ledpf1, LED Port 1
+    number: 2-6-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-14:
-    number: ledpf1-6-14      # EXP Board ledpf1, LED Port 1
+    number: 2-6-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-15:
-    number: ledpf1-6-15      # EXP Board ledpf1, LED Port 1
+    number: 2-6-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-16:
-    number: ledpf1-6-16      # EXP Board ledpf1, LED Port 1
+    number: 2-6-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-17:
-    number: ledpf1-6-17      # EXP Board ledpf1, LED Port 1
+    number: 2-6-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-18:
-    number: ledpf1-6-18      # EXP Board ledpf1, LED Port 1
+    number: 2-6-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-19:
-    number: ledpf1-6-19      # EXP Board ledpf1, LED Port 1
+    number: 2-6-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-20:
-    number: ledpf1-6-20      # EXP Board ledpf1, LED Port 1
+    number: 2-6-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-21:
-    number: ledpf1-6-21      # EXP Board ledpf1, LED Port 1
+    number: 2-6-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-22:
-    number: ledpf1-6-22      # EXP Board ledpf1, LED Port 1
+    number: 2-6-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-23:
-    number: ledpf1-6-23      # EXP Board ledpf1, LED Port 1
+    number: 2-6-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-24:
-    number: ledpf1-6-24      # EXP Board ledpf1, LED Port 1
+    number: 2-6-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-25:
-    number: ledpf1-6-25      # EXP Board ledpf1, LED Port 1
+    number: 2-6-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-26:
-    number: ledpf1-6-26      # EXP Board ledpf1, LED Port 1
+    number: 2-6-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-27:
-    number: ledpf1-6-27      # EXP Board ledpf1, LED Port 1
+    number: 2-6-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-28:
-    number: ledpf1-6-28      # EXP Board ledpf1, LED Port 1
+    number: 2-6-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-29:
-    number: ledpf1-6-29      # EXP Board ledpf1, LED Port 1
+    number: 2-6-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-30:
-    number: ledpf1-6-30      # EXP Board ledpf1, LED Port 1
+    number: 2-6-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-31:
-    number: ledpf1-6-31      # EXP Board ledpf1, LED Port 1
+    number: 2-6-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-6-32:
-    number: ledpf1-6-32      # EXP Board ledpf1, LED Port 1
+    number: 2-6-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-7-1:
-    number: ledpf1-7-1      # EXP Board ledpf1, LED Port 1
+    number: 2-7-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-2:
-    number: ledpf1-7-2      # EXP Board ledpf1, LED Port 1
+    number: 2-7-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-3:
-    number: ledpf1-7-3      # EXP Board ledpf1, LED Port 1
+    number: 2-7-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-4:
-    number: ledpf1-7-4      # EXP Board ledpf1, LED Port 1
+    number: 2-7-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-5:
-    number: ledpf1-7-5      # EXP Board ledpf1, LED Port 1
+    number: 2-7-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-6:
-    number: ledpf1-7-6      # EXP Board ledpf1, LED Port 1
+    number: 2-7-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-7:
-    number: ledpf1-7-7      # EXP Board ledpf1, LED Port 1
+    number: 2-7-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-8:
-    number: ledpf1-7-8      # EXP Board ledpf1, LED Port 1
+    number: 2-7-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-9:
-    number: ledpf1-7-9      # EXP Board ledpf1, LED Port 1
+    number: 2-7-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-10:
-    number: ledpf1-7-10      # EXP Board ledpf1, LED Port 1
+    number: 2-7-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-11:
-    number: ledpf1-7-11      # EXP Board ledpf1, LED Port 1
+    number: 2-7-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-12:
-    number: ledpf1-7-12      # EXP Board ledpf1, LED Port 1
+    number: 2-7-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-13:
-    number: ledpf1-7-13      # EXP Board ledpf1, LED Port 1
+    number: 2-7-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-14:
-    number: ledpf1-7-14      # EXP Board ledpf1, LED Port 1
+    number: 2-7-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-15:
-    number: ledpf1-7-15      # EXP Board ledpf1, LED Port 1
+    number: 2-7-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-16:
-    number: ledpf1-7-16      # EXP Board ledpf1, LED Port 1
+    number: 2-7-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-17:
-    number: ledpf1-7-17      # EXP Board ledpf1, LED Port 1
+    number: 2-7-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-18:
-    number: ledpf1-7-18      # EXP Board ledpf1, LED Port 1
+    number: 2-7-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-19:
-    number: ledpf1-7-19      # EXP Board ledpf1, LED Port 1
+    number: 2-7-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-20:
-    number: ledpf1-7-20      # EXP Board ledpf1, LED Port 1
+    number: 2-7-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-21:
-    number: ledpf1-7-21      # EXP Board ledpf1, LED Port 1
+    number: 2-7-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-22:
-    number: ledpf1-7-22      # EXP Board ledpf1, LED Port 1
+    number: 2-7-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-23:
-    number: ledpf1-7-23      # EXP Board ledpf1, LED Port 1
+    number: 2-7-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-24:
-    number: ledpf1-7-24      # EXP Board ledpf1, LED Port 1
+    number: 2-7-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-25:
-    number: ledpf1-7-25      # EXP Board ledpf1, LED Port 1
+    number: 2-7-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-26:
-    number: ledpf1-7-26      # EXP Board ledpf1, LED Port 1
+    number: 2-7-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-27:
-    number: ledpf1-7-27      # EXP Board ledpf1, LED Port 1
+    number: 2-7-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-28:
-    number: ledpf1-7-28      # EXP Board ledpf1, LED Port 1
+    number: 2-7-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-29:
-    number: ledpf1-7-29      # EXP Board ledpf1, LED Port 1
+    number: 2-7-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-30:
-    number: ledpf1-7-30      # EXP Board ledpf1, LED Port 1
+    number: 2-7-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-31:
-    number: ledpf1-7-31      # EXP Board ledpf1, LED Port 1
+    number: 2-7-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-7-32:
-    number: ledpf1-7-32      # EXP Board ledpf1, LED Port 1
+    number: 2-7-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
 #
 #
   ledpf1-8-1:
-    number: ledpf1-8-1      # EXP Board ledpf1, LED Port 1
+    number: 2-8-1      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-2:
-    number: ledpf1-8-2      # EXP Board ledpf1, LED Port 1
+    number: 2-8-2      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-3:
-    number: ledpf1-8-3      # EXP Board ledpf1, LED Port 1
+    number: 2-8-3      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-4:
-    number: ledpf1-8-4      # EXP Board ledpf1, LED Port 1
+    number: 2-8-4      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-5:
-    number: ledpf1-8-5      # EXP Board ledpf1, LED Port 1
+    number: 2-8-5      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-6:
-    number: ledpf1-8-6      # EXP Board ledpf1, LED Port 1
+    number: 2-8-6      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-7:
-    number: ledpf1-8-7      # EXP Board ledpf1, LED Port 1
+    number: 2-8-7      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-8:
-    number: ledpf1-8-8      # EXP Board ledpf1, LED Port 1
+    number: 2-8-8      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-9:
-    number: ledpf1-8-9      # EXP Board ledpf1, LED Port 1
+    number: 2-8-9      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-10:
-    number: ledpf1-8-10      # EXP Board ledpf1, LED Port 1
+    number: 2-8-10      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-11:
-    number: ledpf1-8-11      # EXP Board ledpf1, LED Port 1
+    number: 2-8-11      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-12:
-    number: ledpf1-8-12      # EXP Board ledpf1, LED Port 1
+    number: 2-8-12      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-13:
-    number: ledpf1-8-13      # EXP Board ledpf1, LED Port 1
+    number: 2-8-13      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-14:
-    number: ledpf1-8-14      # EXP Board ledpf1, LED Port 1
+    number: 2-8-14      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-15:
-    number: ledpf1-8-15      # EXP Board ledpf1, LED Port 1
+    number: 2-8-15      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-16:
-    number: ledpf1-8-16      # EXP Board ledpf1, LED Port 1
+    number: 2-8-16      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-17:
-    number: ledpf1-8-17      # EXP Board ledpf1, LED Port 1
+    number: 2-8-17      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-18:
-    number: ledpf1-8-18      # EXP Board ledpf1, LED Port 1
+    number: 2-8-18      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-19:
-    number: ledpf1-8-19      # EXP Board ledpf1, LED Port 1
+    number: 2-8-19      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-20:
-    number: ledpf1-8-20      # EXP Board ledpf1, LED Port 1
+    number: 2-8-20      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-21:
-    number: ledpf1-8-21      # EXP Board ledpf1, LED Port 1
+    number: 2-8-21      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-22:
-    number: ledpf1-8-22      # EXP Board ledpf1, LED Port 1
+    number: 2-8-22      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-23:
-    number: ledpf1-8-23      # EXP Board ledpf1, LED Port 1
+    number: 2-8-23      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-24:
-    number: ledpf1-8-24      # EXP Board ledpf1, LED Port 1
+    number: 2-8-24      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-25:
-    number: ledpf1-8-25      # EXP Board ledpf1, LED Port 1
+    number: 2-8-25      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-26:
-    number: ledpf1-8-26      # EXP Board ledpf1, LED Port 1
+    number: 2-8-26      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-27:
-    number: ledpf1-8-27      # EXP Board ledpf1, LED Port 1
+    number: 2-8-27      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-28:
-    number: ledpf1-8-28      # EXP Board ledpf1, LED Port 1
+    number: 2-8-28      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-29:
-    number: ledpf1-8-29      # EXP Board ledpf1, LED Port 1
+    number: 2-8-29      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-30:
-    number: ledpf1-8-30      # EXP Board ledpf1, LED Port 1
+    number: 2-8-30      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-31:
-    number: ledpf1-8-31      # EXP Board ledpf1, LED Port 1
+    number: 2-8-31      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
   ledpf1-8-32:
-    number: ledpf1-8-32      # EXP Board ledpf1, LED Port 1
+    number: 2-8-32      # EXP Board ledpf1, LED Port 1
     type: grb
     tags: all_leds, playfield_leds
 #
@@ -1582,131 +1582,131 @@ lights:
 # model FP-0081
 #---------------------------------------------------------
 #   ledpf2-1-1:
-#     number: ledpf2-1-1      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-1      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-2:
-#     number: ledpf2-1-2      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-2      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-3:
-#     number: ledpf2-1-3      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-3      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-4:
-#     number: ledpf2-1-4      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-4      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-5:
-#     number: ledpf2-1-5      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-5      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-6:
-#     number: ledpf2-1-6      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-6      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-7:
-#     number: ledpf2-1-7      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-7      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-8:
-#     number: ledpf2-1-8      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-8      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-9:
-#     number: ledpf2-1-9      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-9      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-10:
-#     number: ledpf2-1-10      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-10      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-11:
-#     number: ledpf2-1-11      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-11      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-12:
-#     number: ledpf2-1-12      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-12      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-13:
-#     number: ledpf2-1-13      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-13      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-14:
-#     number: ledpf2-1-14      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-14      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-15:
-#     number: ledpf2-1-15      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-15      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-16:
-#     number: ledpf2-1-16      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-16      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-17:
-#     number: ledpf2-1-17      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-17      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-18:
-#     number: ledpf2-1-18      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-18      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-19:
-#     number: ledpf2-1-19      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-19      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-20:
-#     number: ledpf2-1-20      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-20      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-21:
-#     number: ledpf2-1-21      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-21      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-22:
-#     number: ledpf2-1-22      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-22      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-23:
-#     number: ledpf2-1-23      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-23      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-24:
-#     number: ledpf2-1-24      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-24      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-25:
-#     number: ledpf2-1-25      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-25      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-26:
-#     number: ledpf2-1-26      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-26      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-27:
-#     number: ledpf2-1-27      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-27      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-28:
-#     number: ledpf2-1-28      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-28      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-29:
-#     number: ledpf2-1-29      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-29      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-30:
-#     number: ledpf2-1-30      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-30      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-31:
-#     number: ledpf2-1-31      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-31      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 #   ledpf2-1-32:
-#     number: ledpf2-1-32      # EXP Board ledpf2, LED Port 1
+#     number: 3-1-32      # EXP Board ledpf2, LED Port 1
 #     type: grb
 #     tags: all_leds, playfield_leds
 # #
