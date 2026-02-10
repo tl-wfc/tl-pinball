@@ -1,0 +1,596 @@
+2026-02-11 09:47:16,399 : INFO : root : Loading config.
+2026-02-11 09:47:16,403 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-11 09:47:16,403 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-11 09:47:16,519 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 09:47:16,519 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 09:47:16,519 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 09:47:16,520 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-11 09:47:16,520 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-11 09:47:16,521 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 09:47:16,521 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 09:47:16,521 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 09:47:16,522 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8e03a0223b8d1c0ca013681033326f0c.mpf_cache
+2026-02-11 09:47:16,523 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5087cf1b7abc06e96886e5988e0fc677.mpf_cache
+2026-02-11 09:47:16,524 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\fa471351b89d1f3e25f91fc9913c9796.mpf_cache
+2026-02-11 09:47:16,524 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5571cab4eb1786965a59407287d5fe45.mpf_cache
+2026-02-11 09:47:16,525 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271c9b515d768458308058303b47c39a.mpf_cache
+2026-02-11 09:47:16,526 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\cd67e5858d9a4eed8e637ab852052284.mpf_cache
+2026-02-11 09:47:16,526 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-11 09:47:16,527 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-11 09:47:16,527 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': True, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-11-09-47-16-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-09-47-16-mpf-DESKTOP-HV85DRD.log'}
+2026-02-11 09:47:16,527 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-11 09:47:16,527 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-11 09:47:16,527 : INFO : Machine : Platform: win32
+2026-02-11 09:47:16,527 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-11 09:47:16,527 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-11 09:47:16,528 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-11 09:47:16,529 : INFO : Machine : Initializing MPF...
+2026-02-11 09:47:16,625 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-02-11 09:47:16,638 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-11 09:47:16,647 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-11 09:47:16,647 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-11 09:47:16,647 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-11 09:47:16,665 : INFO : FAST : Detected NET on port COM4
+2026-02-11 09:47:16,681 : INFO : FAST : Detected EXP on port COM5
+2026-02-11 09:47:16,794 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-11 09:47:16,799 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-11 09:47:16,809 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-11 09:47:16,841 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-11 09:47:16,857 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 09:47:16,873 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-11 09:47:16,889 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 09:47:16,891 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-11 09:47:16,896 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-11 09:47:16,896 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-11 09:47:16,896 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-11 09:47:16,905 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-11 09:47:16,921 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-11 09:47:16,937 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledpf1" (FP-EXP-0081 Address: 84)
+2026-02-11 09:47:16,937 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 09:47:16,937 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 1 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 09:47:16,953 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-11 09:47:16,969 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-11 09:47:16,985 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-11 09:47:17,001 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,027 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,028 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,028 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,028 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-09-47-16-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-11 09:47:17,136 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-11 09:47:17,143 : DEBUG : ModeController : Loaded mode attract
+2026-02-11 09:47:17,148 : DEBUG : ModeController : Loaded mode game
+2026-02-11 09:47:17,191 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48000
+2026-02-11 09:47:17,191 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48001
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48002
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48003
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48004
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48005
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48006
+2026-02-11 09:47:17,192 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48007
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48008
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48009
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800A
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800B
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800C
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800D
+2026-02-11 09:47:17,193 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800E
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4800F
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48010
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48011
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48012
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48013
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48014
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48015
+2026-02-11 09:47:17,194 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48016
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48017
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48018
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48019
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801A
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801B
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801C
+2026-02-11 09:47:17,195 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801D
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801E
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4801F
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48020
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48021
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48022
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48023
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48024
+2026-02-11 09:47:17,196 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48025
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48026
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48027
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48028
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48029
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802A
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802B
+2026-02-11 09:47:17,197 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802C
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802D
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802E
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4802F
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48030
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48031
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48032
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48033
+2026-02-11 09:47:17,198 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48034
+2026-02-11 09:47:17,199 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48035
+2026-02-11 09:47:17,199 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48036
+2026-02-11 09:47:17,199 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48037
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48038
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48039
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803A
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803B
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803C
+2026-02-11 09:47:17,214 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803D
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803E
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4803F
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48040
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48041
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48042
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48043
+2026-02-11 09:47:17,215 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48044
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48045
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48046
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48047
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48048
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48049
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804A
+2026-02-11 09:47:17,216 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804B
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804C
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804D
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804E
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4804F
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48050
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48051
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48052
+2026-02-11 09:47:17,217 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48053
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48054
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48055
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48056
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48057
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48058
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48059
+2026-02-11 09:47:17,218 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805A
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805B
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805C
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805D
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805E
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4805F
+2026-02-11 09:47:17,219 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48060
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48061
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48062
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48063
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48064
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48065
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48066
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48067
+2026-02-11 09:47:17,220 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48068
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48069
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806A
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806B
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806C
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806D
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806E
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4806F
+2026-02-11 09:47:17,221 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48070
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48071
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48072
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48073
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48074
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48075
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48076
+2026-02-11 09:47:17,222 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48077
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48078
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48079
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807A
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807B
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807C
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807D
+2026-02-11 09:47:17,223 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807E
+2026-02-11 09:47:17,224 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 4807F
+2026-02-11 09:47:17,224 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84000
+2026-02-11 09:47:17,224 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84001
+2026-02-11 09:47:17,224 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84002
+2026-02-11 09:47:17,224 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84003
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84004
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84005
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84006
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84007
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84008
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84009
+2026-02-11 09:47:17,225 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400A
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400B
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400C
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400D
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400E
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8400F
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84010
+2026-02-11 09:47:17,226 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84011
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84012
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84013
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84014
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84015
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84016
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84017
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84018
+2026-02-11 09:47:17,227 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84019
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401A
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401B
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401C
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401D
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401E
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8401F
+2026-02-11 09:47:17,228 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84020
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84021
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84022
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84023
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84024
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84025
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84026
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84027
+2026-02-11 09:47:17,229 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84028
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84029
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402A
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402B
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402C
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402D
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402E
+2026-02-11 09:47:17,230 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8402F
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84030
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84031
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84032
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84033
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84034
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84035
+2026-02-11 09:47:17,231 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84036
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84037
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84038
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84039
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403A
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403B
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403C
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403D
+2026-02-11 09:47:17,232 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403E
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8403F
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84040
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84041
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84042
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84043
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84044
+2026-02-11 09:47:17,233 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84045
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84046
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84047
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84048
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84049
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404A
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404B
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404C
+2026-02-11 09:47:17,234 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404D
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404E
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8404F
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84050
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84051
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84052
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84053
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84054
+2026-02-11 09:47:17,235 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84055
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84056
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84057
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84058
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84059
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405A
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405B
+2026-02-11 09:47:17,236 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405C
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405D
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405E
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8405F
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84060
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84061
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84062
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84063
+2026-02-11 09:47:17,237 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84064
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84065
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84066
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84067
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84068
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84069
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406A
+2026-02-11 09:47:17,238 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406B
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406C
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406D
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406E
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8406F
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84070
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84071
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84072
+2026-02-11 09:47:17,239 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84073
+2026-02-11 09:47:17,240 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84074
+2026-02-11 09:47:17,240 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84075
+2026-02-11 09:47:17,240 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84076
+2026-02-11 09:47:17,240 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84077
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84078
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84079
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407A
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407B
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407C
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407D
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407E
+2026-02-11 09:47:17,241 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8407F
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84100
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84101
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84102
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84103
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84104
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84105
+2026-02-11 09:47:17,242 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84106
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84107
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84108
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84109
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410A
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410B
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410C
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410D
+2026-02-11 09:47:17,243 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410E
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8410F
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84110
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84111
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84112
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84113
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84114
+2026-02-11 09:47:17,244 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84115
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84116
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84117
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84118
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84119
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411A
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411B
+2026-02-11 09:47:17,245 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411C
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411D
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411E
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8411F
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84120
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84121
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84122
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84123
+2026-02-11 09:47:17,246 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84124
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84125
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84126
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84127
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84128
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84129
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412A
+2026-02-11 09:47:17,247 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412B
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412C
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412D
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412E
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8412F
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84130
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84131
+2026-02-11 09:47:17,248 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84132
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84133
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84134
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84135
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84136
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84137
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84138
+2026-02-11 09:47:17,249 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84139
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413A
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413B
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413C
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413D
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413E
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8413F
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84140
+2026-02-11 09:47:17,250 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84141
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84142
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84143
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84144
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84145
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84146
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84147
+2026-02-11 09:47:17,251 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84148
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84149
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414A
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414B
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414C
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414D
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414E
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8414F
+2026-02-11 09:47:17,252 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84150
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84151
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84152
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84153
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84154
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84155
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84156
+2026-02-11 09:47:17,253 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84157
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84158
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84159
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415A
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415B
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415C
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415D
+2026-02-11 09:47:17,254 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415E
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8415F
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84160
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84161
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84162
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84163
+2026-02-11 09:47:17,255 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84164
+2026-02-11 09:47:17,256 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84165
+2026-02-11 09:47:17,256 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84166
+2026-02-11 09:47:17,256 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84167
+2026-02-11 09:47:17,256 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84168
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84169
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416A
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416B
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416C
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416D
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416E
+2026-02-11 09:47:17,257 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8416F
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84170
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84171
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84172
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84173
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84174
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84175
+2026-02-11 09:47:17,258 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84176
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84177
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84178
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 84179
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417A
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417B
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417C
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417D
+2026-02-11 09:47:17,259 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417E
+2026-02-11 09:47:17,260 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 8417F
+2026-02-11 09:47:17,264 : INFO : EventManager : Event: ======'drop_target_bank_dtb_characters_up'====== Args={}
+2026-02-11 09:47:17,264 : INFO : EventManager : Event: ======'drop_target_bank_dtb_rollover_up'====== Args={}
+2026-02-11 09:47:20,604 : DEBUG : FAST Driver : Sending config to driver 4 (0x04). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,636 : DEBUG : FAST Driver : Sending config to driver 5 (0x05). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,684 : DEBUG : FAST Driver : Sending config to driver 7 (0x07). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,716 : DEBUG : FAST Driver : Sending config to driver 8 (0x08). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,748 : DEBUG : FAST Driver : Sending config to driver 9 (0x09). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,780 : DEBUG : FAST Driver : Sending config to driver 10 (0x0A). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,812 : DEBUG : FAST Driver : Sending config to driver 11 (0x0B). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:20,972 : DEBUG : FAST Driver : Sending config to driver 20 (0x14). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,003 : DEBUG : FAST Driver : Sending config to driver 21 (0x15). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,035 : DEBUG : FAST Driver : Sending config to driver 22 (0x16). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,067 : DEBUG : FAST Driver : Sending config to driver 23 (0x17). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,099 : DEBUG : FAST Driver : Sending config to driver 24 (0x18). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,130 : DEBUG : FAST Driver : Sending config to driver 25 (0x19). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,162 : DEBUG : FAST Driver : Sending config to driver 26 (0x1A). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,193 : DEBUG : FAST Driver : Sending config to driver 27 (0x1B). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,289 : DEBUG : FAST Driver : Sending config to driver 32 (0x20). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,321 : DEBUG : FAST Driver : Sending config to driver 33 (0x21). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,353 : DEBUG : FAST Driver : Sending config to driver 34 (0x22). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,385 : DEBUG : FAST Driver : Sending config to driver 35 (0x23). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,417 : DEBUG : FAST Driver : Sending config to driver 36 (0x24). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,449 : DEBUG : FAST Driver : Sending config to driver 37 (0x25). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,481 : DEBUG : FAST Driver : Sending config to driver 38 (0x26). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,513 : DEBUG : FAST Driver : Sending config to driver 39 (0x27). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,545 : DEBUG : FAST Driver : Sending config to driver 40 (0x28). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,577 : DEBUG : FAST Driver : Sending config to driver 41 (0x29). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,609 : DEBUG : FAST Driver : Sending config to driver 42 (0x2A). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,641 : DEBUG : FAST Driver : Sending config to driver 43 (0x2B). one_shot: False. wait_to_confirm: False
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_34_right_sling' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_59_saucer_right' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_64_varitarget_poisition_1' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_72_single_drop_1' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+2026-02-11 09:47:21,737 : INFO : SwitchController : <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+2026-02-11 09:47:21,738 : INFO : SwitchController : <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+2026-02-11 09:47:21,738 : INFO : SwitchController : <<<<<<< 's_81_saucer_left' active >>>>>>>
+2026-02-11 09:47:21,785 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-11 09:47:21,785 : INFO : SwitchController : Found active switch: (34, [FAST Platform Interface]) <switch.s_34_right_sling>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (44, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (11, [FAST Platform Interface]) <switch.s_59_saucer_right>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (16, [FAST Platform Interface]) <switch.s_64_varitarget_poisition_1>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (23, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (56, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (57, [FAST Platform Interface]) <switch.s_73_fourbank_drop_1>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (58, [FAST Platform Interface]) <switch.s_74_fourbank_drop_2>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (59, [FAST Platform Interface]) <switch.s_75_fourbank_drop_3>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_76_fourbank_drop_4>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (61, [FAST Platform Interface]) <switch.s_77_threebank_drop_1>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (62, [FAST Platform Interface]) <switch.s_78_threebank_drop_2>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (63, [FAST Platform Interface]) <switch.s_79_threebank_drop_3>
+2026-02-11 09:47:21,786 : INFO : SwitchController : Found active switch: (65, [FAST Platform Interface]) <switch.s_81_saucer_left>
+2026-02-11 09:47:21,792 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-02-11 09:47:21,793 : INFO : ball_device.bd_plunger : State: idle
+2026-02-11 09:47:21,794 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-02-11 09:47:21,794 : INFO : ball_device.bd_trough : State: idle
+2026-02-11 09:47:21,796 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\data/audits.yaml
+2026-02-11 09:47:21,815 : DEBUG : Machine : "info_lights:" section not found in machine configuration, so the InfoLights will not be used.
+2026-02-11 09:47:21,818 : DEBUG : Machine : "switch_player:" section not found in machine configuration, so the SwitchPlayer will not be used.
+2026-02-11 09:47:21,821 : DEBUG : Machine : "twitch_client:" section not found in machine configuration, so the TwitchBot will not be used.
+2026-02-11 09:47:21,821 : DEBUG : Machine : "virtual_segment_display_connector:" section not found in machine configuration, so the VirtualSegmentDisplayConnector will not be used.
+2026-02-11 09:47:21,821 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-02-11 09:47:21,822 : DEBUG : ShowController : Loading show: flash
+2026-02-11 09:47:21,823 : DEBUG : ShowController : Loading show: on
+2026-02-11 09:47:21,823 : DEBUG : ShowController : Loading show: off
+2026-02-11 09:47:21,823 : DEBUG : ShowController : Loading show: led_color
+2026-02-11 09:47:21,823 : DEBUG : ShowController : Loading show: bl_color
+2026-02-11 09:47:21,823 : DEBUG : ShowController : Loading show: flash_color
+2026-02-11 09:47:21,824 : DEBUG : ShowController : Loading show: attract_lightshows_loop_test
+2026-02-11 09:47:21,825 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...dpf2-1-1\']')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...dpf2-1-1\']')>)>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_lightshows_loop_test" >> Failed to load config player attract_lightshows_loop_test:lights with settings {'ledpf1-4-13': 'BF06A0', 'ledpf1-4-14': 'BF06A0', 'ledpf1-4-15': 'BF06A0', 'ledpf1-4-16': '7A2AB9', 'ledpf1-4-17': '0000C8', 'ledpf1-4-18': '0000C8', 'ledpf1-4-19': '7A2AB9', 'ledpf1-4-20': '792AB9', 'ledpf1-6-25': '1B593C', 'ledpf2-1-1': 'C8401F', 'ledpf2-1-10': '0000C8', 'ledpf2-1-11': '7A2AB9', 'ledpf2-1-12': '7A2AB9', 'ledpf2-1-13': 'BF06A0', 'ledpf2-1-14': 'C70101', 'ledpf2-1-15': 'C70101', 'ledpf2-1-16': 'C8401F', 'ledpf2-1-17': 'C8401F', 'ledpf2-1-18': 'C87900', 'ledpf2-1-19': 'C87900', 'ledpf2-1-2': 'C87900', 'ledpf2-1-20': 'C07803', 'ledpf2-1-21': '1B593C', 'ledpf2-1-22': '1B593C', 'ledpf2-1-23': '0051B6', 'ledpf2-1-24': '0051B6', 'ledpf2-1-25': '0000C8', 'ledpf2-1-26': '0000C8', 'ledpf2-1-27': '7A2AB9', 'ledpf2-1-28': '7A2AB9', 'ledpf2-1-29': 'BF06A0', 'ledpf2-1-3': 'C87900', 'ledpf2-1-30': 'C70101', 'ledpf2-1-31': 'C70101', 'ledpf2-1-32': 'C8401F', 'ledpf2-1-4': 'AA740A', 'ledpf2-1-5': '1B593C', 'ledpf2-1-6': '1B593C', 'ledpf2-1-7': '0051B6', 'ledpf2-1-8': '0051B6', 'ledpf2-1-9': '0000C8', 'ledpf2-2-8': '3C1309', 'ledpf2-2-9': '0F0000'} >> Could not find a lights device with name or tag ledpf2-1-1, from list ['ledpf2-1-1'] Error Code: CFE-light_player-101 (https://missionpinball.org/latest/logs)
+2026-02-11 09:47:21,898 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-11 09:47:21,898 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-11 09:47:21,899 : INFO : Machine : Shutting down...
+2026-02-11 09:47:21,899 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-11 09:47:21,991 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-02-11 09:47:21,992 : DEBUG : FAST [EXP] : Stop called on serial connection EXP
+2026-02-11 09:47:22,997 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_lightshows_loop_test" >> Failed to load config player attract_lightshows_loop_test:lights with settings {'ledpf1-4-13': 'BF06A0', 'ledpf1-4-14': 'BF06A0', 'ledpf1-4-15': 'BF06A0', 'ledpf1-4-16': '7A2AB9', 'ledpf1-4-17': '0000C8', 'ledpf1-4-18': '0000C8', 'ledpf1-4-19': '7A2AB9', 'ledpf1-4-20': '792AB9', 'ledpf1-6-25': '1B593C', 'ledpf2-1-1': 'C8401F', 'ledpf2-1-10': '0000C8', 'ledpf2-1-11': '7A2AB9', 'ledpf2-1-12': '7A2AB9', 'ledpf2-1-13': 'BF06A0', 'ledpf2-1-14': 'C70101', 'ledpf2-1-15': 'C70101', 'ledpf2-1-16': 'C8401F', 'ledpf2-1-17': 'C8401F', 'ledpf2-1-18': 'C87900', 'ledpf2-1-19': 'C87900', 'ledpf2-1-2': 'C87900', 'ledpf2-1-20': 'C07803', 'ledpf2-1-21': '1B593C', 'ledpf2-1-22': '1B593C', 'ledpf2-1-23': '0051B6', 'ledpf2-1-24': '0051B6', 'ledpf2-1-25': '0000C8', 'ledpf2-1-26': '0000C8', 'ledpf2-1-27': '7A2AB9', 'ledpf2-1-28': '7A2AB9', 'ledpf2-1-29': 'BF06A0', 'ledpf2-1-3': 'C87900', 'ledpf2-1-30': 'C70101', 'ledpf2-1-31': 'C70101', 'ledpf2-1-32': 'C8401F', 'ledpf2-1-4': 'AA740A', 'ledpf2-1-5': '1B593C', 'ledpf2-1-6': '1B593C', 'ledpf2-1-7': '0051B6', 'ledpf2-1-8': '0051B6', 'ledpf2-1-9': '0000C8', 'ledpf2-2-8': '3C1309', 'ledpf2-2-9': '0F0000'} >> Could not find a lights device with name or tag ledpf2-1-1, from list ['ledpf2-1-1'] Error Code: CFE-light_player-101 (https://missionpinball.org/latest/logs)
+2026-02-11 09:47:22,999 : INFO : root : MPF run loop ended.
