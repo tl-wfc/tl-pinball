@@ -12,22 +12,22 @@ switches:
 # ------------------------
 # J4 Coin Door
 # ------------------------
-    s_0_service_esc:
-        number: cab-0
-        tags: service_esc
-        label: "Service - Escape"
-    s_1_service_up:
-        number: cab-1
-        tags: service_up
-        label: "Service - Up / Plus"
-    s_2_service_down:
-        number: cab-2
-        tags: service_down
-        label: "Service - Down / Minus"
-    s_3_service_enter:
-        number: cab-3
-        tags: service_enter
-        label: "Service - Enter"
+#    s_0_service_esc:
+#        number: cab-0
+#        tags: service_esc
+#        label: "Service - Escape"
+#    s_1_service_up:
+#        number: cab-1
+#        tags: service_up
+#        label: "Service - Up / Plus"
+#    s_2_service_down:
+#        number: cab-2
+#        tags: service_down
+#        label: "Service - Down / Minus"
+#    s_3_service_enter:
+#        number: cab-3
+#        tags: service_enter
+#        label: "Service - Enter"
 #    s_4_coin_left:
 #        number: cab-4
 #        label: "Coin Slot - Left / 1"
@@ -45,7 +45,7 @@ switches:
 # J1 Cabinet Left
 # ------------------------  
     s_8_left_flipper:
-        number: cab-8
+        number: pf2-24
         tags: flipper_main_left, left_flipper
         label: "Flipper - Main - Left"
 #    s_9_left_flipper_upper:
@@ -57,16 +57,16 @@ switches:
 #        tags: left_secondary_button
 #        label: "Button - Left - Sec"
     s_11_start_button:
-        number: cab-11
+        number: pf2-25
         tags: start
         label: "Start Button"
-    s_12_tilt_bob:
-        number: cab-12
-        tags: tilt_warning
-        label: "Tilt Bob"
-    s_13_coin_door:
-        number: cab-13
-        label: "Coin Door"
+#    s_12_tilt_bob:
+#        number: cab-12
+#        tags: tilt_warning
+#        label: "Tilt Bob"
+#    s_13_coin_door:
+#        number: cab-13
+#        label: "Coin Door"
 #    s_14_roller_tilt:
 #        number: cab-14
 #        tags: roller_tilt_warning
@@ -79,25 +79,25 @@ switches:
 # J9 Cabinet Right
 # ------------------------      
     s_16_right_flipper:
-        number: 1-16
+        number: pf2-26
         tags: flipper_main_right, right_flipper
         label: "Flipper - Main - Right"
     s_17_right_flipper_upper:
-        number: 1-17
+        number: pf2-27
         tags: flipper_main_right, right_flipper
         label: "Flipper - Main - Right"
 #    s_18_right_secondary_button:
 #        number: 1-18
 #        tags: right_secondary_button
 #        label: "Button - Right - Sec"
-    s_19_cab_arrow_left:
-        number: 1-19
-        tags: cab_arrow_left
-        label: "Cab - Arrow - Left"
-    s_20_cab_arrow_right:
-        number: 1-20
-        tags: cab_arrow_right
-        label: "Cab - Arrow - right"      
+#    s_19_cab_arrow_left:
+#        number: 1-19
+#        tags: cab_arrow_left
+#        label: "Cab - Arrow - Left"
+#    s_20_cab_arrow_right:
+#        number: 1-20
+#        tags: cab_arrow_right
+#        label: "Cab - Arrow - right"      
 #    s_21_SPARE:
 #        number: cab-21
 #        tags: SPARE_21
