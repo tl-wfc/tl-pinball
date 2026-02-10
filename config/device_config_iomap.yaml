@@ -1,7 +1,7 @@
 #config_version=6
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - CABINET
-# FAST CABINET I/O Board PN: FP-I/O-0024
+# Temp change to PN: FP-I/O-0804--------FAST CABINET I/O Board PN: FP-I/O-0024----
 # Node 1 - cab-x
 switches:
 #
@@ -12,22 +12,22 @@ switches:
 # ------------------------
 # J4 Coin Door
 # ------------------------
-#    s_0_service_esc:
-#        number: cab-0
-#        tags: service_esc
-#        label: "Service - Escape"
-#    s_1_service_up:
-#        number: cab-1
-#        tags: service_up
-#        label: "Service - Up / Plus"
-#    s_2_service_down:
-#        number: cab-2
-#        tags: service_down
-#        label: "Service - Down / Minus"
-#    s_3_service_enter:
-#        number: cab-3
-#        tags: service_enter
-#        label: "Service - Enter"
+    s_0_service_esc:
+        number: cab-0
+        tags: service_esc
+        label: "Service - Escape"
+    s_1_service_up:
+        number: cab-1
+        tags: service_up
+        label: "Service - Up / Plus"
+    s_2_service_down:
+        number: cab-2
+        tags: service_down
+        label: "Service - Down / Minus"
+    s_3_service_enter:
+        number: cab-3
+        tags: service_enter
+        label: "Service - Enter"
 #    s_4_coin_left:
 #        number: cab-4
 #        label: "Coin Slot - Left / 1"
@@ -45,7 +45,7 @@ switches:
 # J1 Cabinet Left
 # ------------------------  
     s_8_left_flipper:
-        number: pf2-24
+        number: cab-4
         tags: flipper_main_left, left_flipper
         label: "Flipper - Main - Left"
 #    s_9_left_flipper_upper:
@@ -57,7 +57,7 @@ switches:
 #        tags: left_secondary_button
 #        label: "Button - Left - Sec"
     s_11_start_button:
-        number: pf2-25
+        number: cab-5
         tags: start
         label: "Start Button"
 #    s_12_tilt_bob:
@@ -79,11 +79,11 @@ switches:
 # J9 Cabinet Right
 # ------------------------      
     s_16_right_flipper:
-        number: pf2-26
+        number: cab-6
         tags: flipper_main_right, right_flipper
         label: "Flipper - Main - Right"
     s_17_right_flipper_upper:
-        number: pf2-27
+        number: cab-7
         tags: flipper_main_right, right_flipper
         label: "Flipper - Main - Right"
 #    s_18_right_secondary_button:
