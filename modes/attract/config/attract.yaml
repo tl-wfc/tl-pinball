@@ -20,17 +20,8 @@ slide_player:
 
 show_player:
   mode_attract_started.1: 
-    output7:
+    attract_lightshows_loop_test:
       speed: 8
-    # attract_lightshows_loop_test:
-    #   speed: 8
-    # output2:
-    #   speed: 4
-    # output3:
-    #   speed: 10
-    # output4:
-    #   speed: 1
-    
 
 sound_player:
   mode_attract_started:
