@@ -1,0 +1,44 @@
+2026-02-10 13:46:16,448 : INFO : root : Loading config.
+2026-02-10 13:46:16,464 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-10 13:46:16,464 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-10 13:46:16,604 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-10 13:46:16,620 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-10 13:46:16,620 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-10 13:46:16,620 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8e03a0223b8d1c0ca013681033326f0c.mpf_cache
+2026-02-10 13:46:16,636 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5087cf1b7abc06e96886e5988e0fc677.mpf_cache
+2026-02-10 13:46:16,651 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\fa471351b89d1f3e25f91fc9913c9796.mpf_cache
+2026-02-10 13:46:16,667 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5571cab4eb1786965a59407287d5fe45.mpf_cache
+2026-02-10 13:46:16,683 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271c9b515d768458308058303b47c39a.mpf_cache
+2026-02-10 13:46:16,683 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\cd67e5858d9a4eed8e637ab852052284.mpf_cache
+2026-02-10 13:46:16,698 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-10 13:46:16,714 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-10 13:46:16,714 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-10-13-46-16-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-10-13-46-16-mpf-DESKTOP-HV85DRD.log'}
+2026-02-10 13:46:16,714 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-10 13:46:16,714 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-10 13:46:16,714 : INFO : Machine : Platform: win32
+2026-02-10 13:46:16,714 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-10 13:46:16,714 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-10 13:46:16,714 : INFO : Machine : Initializing MPF...
+2026-02-10 13:46:17,167 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-10 13:46:17,214 : INFO : FAST : Detected NET on port COM4
+2026-02-10 13:46:18,198 : INFO : FAST : Detected EXP on port COM5
+2026-02-10 13:46:18,307 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-10 13:46:18,307 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-10 13:46:18,323 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-10 13:46:18,354 : ERROR : FAST [NET] : No node board found at I/O position 0, board cab will not be available. Please check your cable connections.
+2026-02-10 13:46:18,370 : ERROR : FAST [NET] : No node board found at I/O position 1, board pf1 will not be available. Please check your cable connections.
+2026-02-10 13:46:18,386 : ERROR : FAST [NET] : No node board found at I/O position 2, board pf2 will not be available. Please check your cable connections.
+2026-02-10 13:46:18,401 : ERROR : FAST [NET] : No node board found at I/O position 3, board pf3 will not be available. Please check your cable connections.
+2026-02-10 13:46:18,401 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-10 13:46:18,401 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-10 13:46:18,417 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-10 13:46:18,432 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-10 13:47:45,022 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-10 13:47:45,022 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'

@@ -1,0 +1,6 @@
+cd C:\
+
+mpf/Scripts/Activate.ps1
+
+cd C:\Users\tl\Documents\tl-pinball
+

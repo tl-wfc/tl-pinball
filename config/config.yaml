@@ -56,7 +56,6 @@ fast:
     default_quick_debounce_close: 2ms
     default_normal_debounce_open: 4ms
     default_normal_debounce_close: 4ms
-
   exp:
     boards:
       ledneuron:
