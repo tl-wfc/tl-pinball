@@ -14,7 +14,7 @@ flippers:
         disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
         enable_events: ball_started, enable_flippers, enable_autos
     left_flipper:
-        main_coil: c_3_left_flipper
+        main_coil: c_3_left_flipper_main
         hold_coil: c_4_left_flipper_hold
         activation_switch: s_8_left_flipper
         # power_setting_name: flipper_power
@@ -76,29 +76,29 @@ autofire_coils:
 drop_targets:
     # LEFT DROPS
     dt_character_1:
-        switch: s_55_fourbank_drop_1
+        switch: s_73_fourbank_drop_1
         ball_search_order: 6
     dt_character_2:
-        switch: s_56_fourbank_drop_2
+        switch: s_74_fourbank_drop_2
         ball_search_order: 6
     dt_character_3:
-        switch: s_57_fourbank_drop_3
+        switch: s_75_fourbank_drop_3
         ball_search_order: 6
     dt_character_4:
-        switch: s_58_fourbank_drop_4
+        switch: s_76_fourbank_drop_4
         ball_search_order: 6
     dt_character_5:
-        switch: s_59_threebank_drop_1
+        switch: s_77_threebank_drop_1
         ball_search_order: 6
     dt_character_6:
-        switch: s_60_threebank_drop_2
+        switch: s_78_threebank_drop_2
         ball_search_order: 6
     dt_character_7:
-        switch: s_61_threebank_drop_3
+        switch: s_79_threebank_drop_3
         ball_search_order: 6
     # Single Rollover DROP
     dt_single_1:
-        switch: s_54_single_drop_1
+        switch: s_72_single_drop_1
         ball_search_order: 7
 # -------------------------
 # CONFIG::DROP TARGET BANKS
@@ -115,8 +115,8 @@ drop_target_banks:
             - dt_character_6
             - dt_character_7
         reset_coils: 
-            - c_17_fourbank_drop_reset
-            - c_22_threebank_drop_reset
+            - c_40_fourbank_drop_reset
+            - c_32_threebank_drop_reset
         reset_events: 
             - ball_will_start
             - mode_attract_starting
@@ -133,7 +133,7 @@ drop_target_banks:
         drop_targets:
             - dt_single_1
         reset_coils: 
-            - c_15_single_drop_1_reset
+            - c_31_single_drop_1_reset
         reset_events:
             - ball_will_start
             - mode_attract_starting

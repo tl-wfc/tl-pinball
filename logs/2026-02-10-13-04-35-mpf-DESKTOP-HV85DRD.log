@@ -1,0 +1,6 @@
+2026-02-10 13:04:35,384 : INFO : root : Loading config.
+2026-02-10 13:04:35,446 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\tl\AppData\Local\Temp\config_spec.mpf_cache
+2026-02-10 13:04:35,446 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-10 13:04:35,446 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-10 13:04:35,462 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-10 13:04:35,478 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.

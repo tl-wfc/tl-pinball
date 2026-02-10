@@ -1,0 +1,126 @@
+2026-02-10 13:19:54,493 : INFO : root : Loading config.
+2026-02-10 13:19:54,509 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-10 13:19:54,509 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-10 13:19:54,535 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-10 13:19:54,535 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-10 13:19:54,541 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-10 13:19:54,541 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-10 13:19:54,603 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-10 13:19:54,619 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-10 13:19:54,619 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-10 13:19:54,619 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-10 13:19:54,642 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-10 13:19:54,931 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-02-10 13:19:54,947 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-10 13:19:54,947 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml.
+2026-02-10 13:19:54,966 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml
+2026-02-10 13:19:54,967 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-10 13:19:54,968 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2026-02-10 13:19:54,979 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-10 13:19:54,979 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-10 13:19:54,979 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-10 13:19:54,979 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\attract_lightshows_loop_test.yaml.
+2026-02-10 13:19:54,994 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\attract_lightshows_loop_test.yaml
+2026-02-10 13:19:54,994 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\8e03a0223b8d1c0ca013681033326f0c.mpf_cache
+2026-02-10 13:19:54,994 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output2.yaml.
+2026-02-10 13:19:55,010 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output2.yaml
+2026-02-10 13:19:55,010 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5087cf1b7abc06e96886e5988e0fc677.mpf_cache
+2026-02-10 13:19:55,010 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output3.yaml.
+2026-02-10 13:19:55,025 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output3.yaml
+2026-02-10 13:19:55,041 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\fa471351b89d1f3e25f91fc9913c9796.mpf_cache
+2026-02-10 13:19:55,041 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output4.yaml.
+2026-02-10 13:19:55,087 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output4.yaml
+2026-02-10 13:19:55,087 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5571cab4eb1786965a59407287d5fe45.mpf_cache
+2026-02-10 13:19:55,087 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output5.yaml.
+2026-02-10 13:19:55,103 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output5.yaml
+2026-02-10 13:19:55,103 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\271c9b515d768458308058303b47c39a.mpf_cache
+2026-02-10 13:19:55,103 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output6.yaml.
+2026-02-10 13:19:55,119 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output6.yaml
+2026-02-10 13:19:55,119 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\cd67e5858d9a4eed8e637ab852052284.mpf_cache
+2026-02-10 13:19:55,119 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\output7.yaml.
+2026-02-10 13:19:55,134 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\output7.yaml
+2026-02-10 13:19:55,134 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-10 13:19:55,134 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-10 13:19:55,134 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-10-13-19-54-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-10-13-19-54-mpf-DESKTOP-HV85DRD.log'}
+2026-02-10 13:19:55,134 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-10 13:19:55,134 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-10 13:19:55,134 : INFO : Machine : Platform: win32
+2026-02-10 13:19:55,134 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-10 13:19:55,134 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-10 13:19:55,134 : INFO : Machine : Initializing MPF...
+2026-02-10 13:19:55,431 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,447 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,447 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,447 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,447 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-10-13-19-54-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-10 13:19:55,541 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-10 13:19:55,603 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\mpf\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\mpf\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\mpf\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_targets:dt_character_1:switch = "s_55_fourbank_drop_1" is not valid. Device "s_55_fourbank_drop_1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-02-10 13:19:55,619 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-10 13:19:55,619 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-10 13:19:55,619 : INFO : Machine : Shutting down...
+2026-02-10 13:19:55,619 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-10 13:19:56,634 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\mpf\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_targets:dt_character_1:switch = "s_55_fourbank_drop_1" is not valid. Device "s_55_fourbank_drop_1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-02-10 13:19:56,634 : INFO : root : MPF run loop ended.
