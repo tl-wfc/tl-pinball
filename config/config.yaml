@@ -14,95 +14,97 @@ config:
   - config_ball_devices.yaml
   - device_config_lights_led.yaml
   - device_config_game.yaml
+  - device_config_iomap.yaml
+  - device_config_iomap_coils.yaml
 # ------------------------
 # CONFIG::MPF
 # ------------------------
-#mpf:
-#    default_light_hw_update_hz: 24
+mpf:
+   default_light_hw_update_hz: 24
 # ------------------------
 # CONFIG::HARDWARE
 # ------------------------
-# hardware:
-#     platform: fast
-#     driverboards: fast
-#     segment_displays: fast
-#     lights: fast
+hardware:
+    platform: fast
+    driverboards: fast
+    # segment_displays: fast
+    lights: fast
 # ------------------------
 # CONFIG::FAST
 # ------------------------
-#
-# fast:
-#     net:
-#     controller: neuron
-#     io_loop:
-#       cab: 
-#         model: FP-I/O-0024
-#         order: 1
-#       pf1:
-#         model: FP-I/O-3208
-#         order: 2
-#       pf2: 
-#         model: FP-I/O-1616
-#         order: 3
-#       pf3: 
-#         model: FP-I/O-1616
-#         order: 4
-#     port: auto
-#     baud: 921600
-#     debug: false
-#     watchdog: 1s
-#     default_quick_debounce_open: 2ms
-#     default_quick_debounce_close: 2ms
-#     default_normal_debounce_open: 4ms
-#     default_normal_debounce_close: 4ms
-# #    
-#     exp:
-#     boards:
-#       ledneuron:
-#         model: FP-EXP-2000
-#         address: 48
-#         led_fade_time: 100ms
-#         #ignore_led_errors: true
-#       ledpf1:
-#         model: FP-EXP-0081
-#         address: 84
-#         led_fade_time: 100ms
-#         #ignore_led_errors: true
+
+fast:
+    net:
+    controller: neuron
+    io_loop:
+      cab: 
+        model: FP-I/O-0024
+        order: 1
+      pf1:
+        model: FP-I/O-1616
+        order: 2
+      pf2: 
+        model: FP-I/O-3208
+        order: 3
+      pf3: 
+        model: FP-I/O-1616
+        order: 4
+    port: auto
+    baud: 921600
+    debug: false
+    watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+    
+    exp:
+    boards:
+      ledneuron:
+        model: FP-EXP-2000
+        address: 48
+        led_fade_time: 100ms
+        ignore_led_errors: true
+      ledpf1:
+        model: FP-EXP-0081
+        address: 84
+        led_fade_time: 100ms
+        ignore_led_errors: true
 #       ledpf2:
 #         model: FP-EXP-0081
 #         address: 85
 #         led_fade_time: 50ms
 #         #ignore_led_errors: true
-#     port: auto
-#     baud: 921600
-#     debug: False
+    port: auto
+    baud: 921600
+    debug: False
 # ------------------------
 # CONFIG::FAST
 # ------------------------
-#fast:
-#    driverboards: fast
-    # ports: com6, com7
-    # ports: /dev/ttyUSB0 #, /dev/ttyUSB1
-    # baud: 230400, 921600
-    # watchdog: 0
-    # ports: com11, com12
-    # baud: 230400, 921600
-    # ports: com12
-    # ports: /dev/ttyUSB1, /dev/ttyUSB3 
-    # baud: 921600 #, 921600
-    # ports: COM11, COM12, COM14
-#    ports: /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyUSB3
-#    baud: 230400, 921600, 921600
-#    watchdog: 2000
-    # default_quick_debounce_open: 2ms
-    # default_quick_debounce_close: 2ms
-    # default_normal_debounce_open: 4ms
-    # default_normal_debounce_close: 4ms
-#    hardware_led_fade_time: 20ms
-#    segment_display_update_hz: 5
-    # debug: true
-    # file_log: full
-#
+fast:
+   driverboards: fast
+    ports: com6, com7
+    ports: /dev/ttyUSB0, /dev/ttyUSB1
+    baud: 230400, 921600
+    watchdog: 0
+    ports: com11, com12
+    baud: 230400, 921600
+    ports: com12
+    ports: /dev/ttyUSB1, /dev/ttyUSB3 
+    baud: 921600, 921600
+    ports: COM11, COM12, COM14
+   ports: /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyUSB3
+   baud: 230400, 921600, 921600
+   watchdog: 2000
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+   hardware_led_fade_time: 20ms
+   segment_display_update_hz: 5
+    debug: true
+    file_log: full
+
 # ------------------------
 # MODES::
 # ------------------------ 

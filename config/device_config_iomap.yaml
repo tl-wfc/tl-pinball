@@ -1,0 +1,424 @@
+#config_version=6
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - CABINET
+# FAST CABINET I/O Board PN: FP-I/O-0024
+# Node 1 - cab-x
+switches:
+#
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#
+# ------------------------
+# J4 Coin Door
+# ------------------------
+    s_0_service_esc:
+        number: cab-0
+        tags: service_esc
+        label: "Service - Escape"
+    s_1_service_up:
+        number: cab-1
+        tags: service_up
+        label: "Service - Up / Plus"
+    s_2_service_down:
+        number: cab-2
+        tags: service_down
+        label: "Service - Down / Minus"
+    s_3_service_enter:
+        number: cab-3
+        tags: service_enter
+        label: "Service - Enter"
+#    s_4_coin_left:
+#        number: cab-4
+#        label: "Coin Slot - Left / 1"
+#    s_5_coin_middle:
+#        number: cab-5
+#        label: "Coin Slot - Middle / x"
+#    s_6_coin_right:
+#        number: cab-6
+#        label: "Coin Slot - Right / 3"
+#    s_7_slam_tilt:
+#        number: cab-7
+#        tags: slam_tilt_warning
+#        label: "Slam Tilt" 
+# ------------------------
+# J1 Cabinet Left
+# ------------------------  
+    s_8_left_flipper:
+        number: cab-8
+        tags: flipper_main_left, left_flipper
+        label: "Flipper - Main - Left"
+#    s_9_left_flipper_upper:
+#        number: cab-9
+#        tags: flipper_main_right, left_flipper
+#        label: "Flipper - Main - Left"
+#    s_10_left_secondary_button:
+#        number: cab-10
+#        tags: left_secondary_button
+#        label: "Button - Left - Sec"
+    s_11_start_button:
+        number: cab-11
+        tags: start
+        label: "Start Button"
+    s_12_tilt_bob:
+        number: cab-12
+        tags: tilt_warning
+        label: "Tilt Bob"
+    s_13_coin_door:
+        number: cab-13
+        label: "Coin Door"
+#    s_14_roller_tilt:
+#        number: cab-14
+#        tags: roller_tilt_warning
+#        label: "Roller Tilt"
+#    s_15_SPARE:
+#        number: cab-15
+#        tags: SPARE_15
+#        label: "SPARE_15" 
+# ------------------------
+# J9 Cabinet Right
+# ------------------------      
+    s_16_right_flipper:
+        number: 1-16
+        tags: flipper_main_right, right_flipper
+        label: "Flipper - Main - Right"
+    s_17_right_flipper_upper:
+        number: 1-17
+        tags: flipper_main_right, right_flipper
+        label: "Flipper - Main - Right"
+#    s_18_right_secondary_button:
+#        number: 1-18
+#        tags: right_secondary_button
+#        label: "Button - Right - Sec"
+    s_19_cab_arrow_left:
+        number: 1-19
+        tags: cab_arrow_left
+        label: "Cab - Arrow - Left"
+    s_20_cab_arrow_right:
+        number: 1-20
+        tags: cab_arrow_right
+        label: "Cab - Arrow - right"      
+#    s_21_SPARE:
+#        number: cab-21
+#        tags: SPARE_21
+#        label: "SPARE_21" 
+#    s_22_SPARE:
+#        number: cab-22
+#        tags: SPARE_22
+#        label: "SPARE_22" 
+#    s_23_SPARE:
+#        number: cab-23
+#        tags: SPARE_23
+#        label: "SPARE_23" 
+#
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#
+#
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - PLAYFIELD - PLAYFIELD BOTTOM THIRD
+# FAST PLAYFIELD I/O Board PN: FP-I/O-3208
+# pf2
+# ------------------------
+# ------------------------
+#    J8
+# ------------------------
+    s_24_trough_1:
+        number: pf2-0
+        type: 'NC'
+        label: "Trough - Position 1"
+    s_25_trough_2:
+        number: pf2-1
+        type: 'NC'
+        label: "Trough - Position 2"
+    s_26_trough_3:
+        number: pf2-2
+        type: 'NC'
+        label: "Trough - Position 3"
+    s_27_trough_4:
+        number: pf2-3
+        type: 'NC'
+        label: "Trough - Position 4"
+    s_28_trough_5:
+        number: pf2-4
+        type: 'NC'
+        label: "Trough - Position 5"
+    s_29_trough_6:
+        number: pf2-5
+        type: 'NC'
+        label: "Trough - Position 6"
+    s_30_trough_jam:
+        number: pf2-6
+        type: 'NC'
+        label: "Trough - Jam"
+    s_31_plunger_lane:
+        number: pf2-7
+        label: "Plunger Lane"
+        ignore_window_ms: 500
+# ------------------------
+#    J3
+# ------------------------
+    s_32_right_inlane:
+        number: pf2-8
+        label: "Return Lane - Right"
+    s_33_right_outlane:
+        number: pf2-9
+        label: "Outlane - Right"
+    s_34_right_sling:
+        number: pf2-10
+        label: "Sling - Right"
+    s_35_left_inlane:
+        number: pf2-11
+        label: "Return Lane - Left"
+    s_36_left_outlane:
+        number: pf2-12
+        label: "Outlane - Left"
+    s_37_left_sling:
+        number: pf2-13
+        label: "Sling - Left"
+    s_38_star_rollover_bottom:
+        number: pf2-14
+        label: "Star Rollover - Bottom"
+    s_39_star_rollover_top:
+        number: pf2-15
+        label: "Star Rollover - Top"
+# ------------------------
+#    J6
+# ------------------------
+    s_40_stand_up_target_7:
+        number: pf2-16
+        label: "Standup Target 7 Right Side Vari"
+    s_41_stand_up_target_8:
+        number: pf2-17
+        label: "Standup Target 8 Left Side Vari"
+    s_42_stand_up_target_9:
+        number: pf2-18
+        label: "Standup Target 9 Imp"
+    s_43_stand_up_target_10:
+        number: pf2-19
+        label: "Standup Target 10 Pop"
+    s_44_spinner_right:
+        number: pf2-20
+#        type: 'NC'
+        label: "Spinner - Right"
+#    s_45_SPARE:
+#        number: pf2-21
+#        tags: SPARE21
+#        label: "SPARE_21"
+#    s_46_SPARE:
+#        number: pf2-22
+#        tags: SPARE22
+#        label: "SPARE_22"
+#    s_47_SPARE:
+#        number: pf2-23
+#        tags: SPARE23
+#        label: "SPARE_23"  
+# ------------------------
+# ------------------------
+#    J9 - White wires
+# ------------------------
+#    s_48_SPARE:
+#        number: pf2-24
+#        label: "Standup Target 10 Pop"
+#    s_49_stand_up_target_10:
+#        number: pf2-25
+#        label: "Standup Target 10 Pop"
+#    s_50_stand_up_target_10:
+#        number: pf2-26
+#        label: "Standup Target 10 Pop"
+#    s_51_stand_up_target_10:
+#        number: pf2-27
+#        label: "Standup Target 10 Pop"
+#    s_52_stand_up_target_10:
+#        number: pf2-28
+#        label: "Standup Target 10 Pop"
+#    s_53_stand_up_target_10:
+#        number: pf2-29
+#        label: "Standup Target 10 Pop"
+#    s_54_stand_up_target_10:
+#        number: pf2-30
+#        label: "Standup Target 10 Pop"
+#    s_55_stand_up_target_10:
+#        number: pf2-31
+#        label: "Standup Target 10 Pop"
+#
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - PLAYFIELD
+# FAST PLAYFIELD I/O Board PN: FP-I/O-1616
+# pf1
+# ------------------------
+# J7 - Green Wires
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - PLAYFIELD POP BUMPERS
+# ------------------------
+    s_56_pop_bumper_right:
+        number: pf1-0
+        tags: pop_bumper_right
+        label: "Pop Bumper Right"
+        ignore_window_ms: 100
+    s_57_pop_bumper_center:
+        number: pf1-1
+        tags: pop_bumper_center
+        label: "Pop Bumper Center"
+        ignore_window_ms: 100
+    s_58_pop_bumper_left:
+        number: pf1-2
+        tags: pop_bumper_left
+        label: "Pop Bumper left"
+        ignore_window_ms: 100
+    s_59_saucer_right:
+        number: pf1-3
+        type: 'NC'
+        ignore_window_ms: 2000
+        label: "Saucer - right"
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - PLAYFIELD TOP LANES
+# ------------------------
+    s_60_top_lane_c:
+        number: pf1-4
+        label: "Rollover - Top Lanes - C"
+    s_61_top_lane_b:
+        number: pf1-5
+        label: "Rollover - Top Lanes - B"
+    s_62_top_lane_a:
+        number: pf1-6
+        label: "Rollover - Top Lanes - A"
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - STANDUP TARGETS Singles
+# ------------------------
+    s_63_stand_up_target_11:
+        number: pf1-7
+        tags: top_standup_rollovers
+        label: "Standup Target 11"
+# ------------------------
+# J8 - Orange Wires
+# ------------------------
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - VARI-TARGET
+# ------------------------
+    s_64_varitarget_poisition_1:
+        number: pf1-8
+        label: "VariTarget - Position 1"
+    s_65_varitarget_poisition_2:
+        number: pf1-9
+        label: "VariTarget - Position 2"
+    s_66_varitarget_poisition_3:
+        number: pf1-10
+        label: "VariTarget - Position 3"
+    s_67_varitarget_poisition_4:
+        number: pf1-11
+        label: "VariTarget - Position 4"
+    s_68_varitarget_poisition_5:
+        number: pf1-12
+        label: "VariTarget - Position 5"
+    s_69_varitarget_poisition_6:
+        number: pf1-13
+        label: "VariTarget - Position 6"
+    s_70_varitarget_poisition_7:
+        number: pf1-14
+        label: "VariTarget - Position 7"
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - SPINNERS
+# ------------------------
+    s_71_spinner_left:
+        number: pf1-15
+        type: 'NC'
+        label: "Spinner - Left"
+#
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+#
+# ------------------------
+# CONFIG:SWITCHES:SINGLE
+# FAST PLAYFIELD I/O Board PN: FP-I/O-1616
+# pf3
+# ------------------------
+# J7 - Green Wires
+# ------------------------
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - DROP TARGET SINGLE
+# ------------------------
+    s_72_single_drop_1:
+        number: pf3-0
+        type: 'NC'
+        label: "Single Drop 1"
+        ignore_window_ms: 300
+# ------------------------
+# CONFIG:SWITCHES:SINGLE - DROP TARGET 4-BANK
+# ------------------------
+    s_73_fourbank_drop_1:
+        number: pf3-1
+        type: 'NC'
+        label: "Four Bank Drop 1"
+        ignore_window_ms: 300
+    s_74_fourbank_drop_2:
+        number: pf3-2
+        type: 'NC'
+        label: "Four Bank Drop 2"
+        ignore_window_ms: 300
+    s_75_fourbank_drop_3:
+        number: pf3-3
+        type: 'NC'
+        label: "Four Bank Drop 3"
+        ignore_window_ms: 300
+    s_76_fourbank_drop_4:
+        number: pf3-4
+        type: 'NC'
+        label: "Four Bank Drop 4"
+        ignore_window_ms: 300
+    s_77_threebank_drop_1:
+        number: pf3-5
+        type: 'NC'
+        label: "Three Bank Drop 1"
+        ignore_window_ms: 300
+    s_78_threebank_drop_2:
+        number: pf3-6
+        type: 'NC'
+        label: "Three Bank Drop 2"
+        ignore_window_ms: 300
+    s_79_threebank_drop_3:
+        number: pf3-7
+        type: 'NC'
+        label: "Three Bank Drop 3"
+        ignore_window_ms: 300
+# -------------------------------------------------
+# CONFIG:SWITCHES:SINGLE - STANDUP TARGET after VUK
+# -------------------------------------------------
+    s_80_stand_up_target_1:
+        number: pf3-8
+        label: "Standup Target 1"
+# ----------------------------------------
+# CONFIG:SWITCHES:SINGLE - SAUCERS
+#-----------------------------------------
+    s_81_saucer_left:
+        number: pf3-9
+        type: 'NC'
+        ignore_window_ms: 2000
+        label: "Saucer - left"
+# ----------------------------------------
+# CONFIG:SWITCHES: 6-BANK
+#-----------------------------------------
+    s_82_stand_up_target_bank_1:
+        number: pf3-10
+        label: "Standup Target bank 1"
+    s_83_stand_up_target_bank_2:
+        number: pf3-11
+        label: "Standup Target bank 2"
+    s_84_stand_up_target_bank_3:
+        number: pf3-12
+        label: "Standup Target bank 3"
+    s_85_stand_up_target_bank_4:
+        number: pf3-13
+        label: "Standup Target bank 4"
+    s_86_stand_up_target_bank_5:
+        number: pf3-14
+        label: "Standup Target bank 5"
+    s_87_stand_up_target_bank_6:
+        number: pf3-15
+        label: "Standup Target bank 6"

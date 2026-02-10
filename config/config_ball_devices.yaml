@@ -2,7 +2,7 @@
 #
 ball_devices:
     bd_plunger:
-        ball_switches: s_24_plunger_lane
+        ball_switches: s_31_plunger_lane
         mechanical_eject: true
         #eject_timeouts: 4s
         eject_coil: c_1_plunger
@@ -12,10 +12,10 @@ ball_devices:
         #file_log: full
         ball_search_order: 10
     bd_trough:
-        ball_switches: s_26_trough_1, s_27_trough_2, s_28_trough_3, s_29_trough_4, s_25_trough_jam
+        ball_switches: s_24_trough_1, s_25_trough_2, s_26_trough_3, s_27_trough_4, s_28_trough_5, s_29_trough_6
         eject_coil: c_2_trough_eject
         tags: trough, home, drain
-        jam_switch: s_25_trough_jam
+        jam_switch: s_30_trough_jam
         #eject_coil_jam_pulse: 8ms
         eject_targets: bd_plunger
         #eject_timeouts: 3s
