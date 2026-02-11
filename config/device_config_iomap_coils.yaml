@@ -10,36 +10,36 @@ coils:
 # ------------------------
     c_1_plunger:
         number: pf2-0
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_plunger
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_plunger
     c_2_trough_eject:
         number: pf2-1
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_trough
+        default_pulse_ms: 30 #settings.adjustments_coil_strength_trough
     c_3_left_flipper_main:
         number: pf2-2
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_left
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_left
         allow_enable: true
-        default_hold_power: 0.125
+        default_hold_power: 1
     c_4_left_flipper_hold:
         number: pf2-3
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_left_top
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_left_top
         allow_enable: true
-        default_hold_power: 0.125  
+        default_hold_power: 1  
     c_5_right_flipper_main:
         number: pf2-4
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_right
         allow_enable: true
-        default_hold_power: 0.125
+        default_hold_power: 1
     c_6_right_flipper_hold:
         number: pf2-5
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right_top
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_right_top
         allow_enable: true
-        default_hold_power: 0.125
+        default_hold_power: 1
     c_7_left_sling:
         number: pf2-6
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_sling_left
+        default_pulse_ms: 10 #settings.adjustments_coil_strength_sling_left
     c_8_right_sling:
         number: pf2-7
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_sling_right
+        default_pulse_ms: 10 #settings.adjustments_coil_strength_sling_right
 #
 # --------------------------------------------------------------------------------------------------------------------
 #
@@ -52,14 +52,14 @@ coils:
 # ------------------------
     c_9_right_top_flipper_hold:
         number: pf1-0
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right_top
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_right_top
         allow_enable: true
-        default_hold_power: 0.125
+        default_hold_power: 1
     c_10_right_top_flipper_main:
         number: pf1-1
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_right
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_flipper_right
         allow_enable: true
-        default_hold_power: 0.125
+        default_hold_power: 1
 #    c_11_SPARE:
 #        number: pf1-2
 #        default_pulse_ms: 1
@@ -80,7 +80,7 @@ coils:
 # ------------------------
     c_15_saucer_right:
         number: pf1-6
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_right_saucer
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_right_saucer
 # ------------------------
 # CONFIG:COILS - VARI-TARGET
 # ------------------------ 
@@ -145,7 +145,7 @@ coils:
 # ------------------------
     c_29_saucer_left:
         number: pf3-4
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_left_saucer
+        default_pulse_ms: 20 #settings.adjustments_coil_strength_left_saucer
 # ------------------------
 # CONFIG:COILS - SINGLE DROP TARGET
 # ------------------------ 

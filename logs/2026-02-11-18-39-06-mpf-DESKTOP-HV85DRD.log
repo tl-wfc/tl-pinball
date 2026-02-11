@@ -1,0 +1,86 @@
+2026-02-11 18:39:06,593 : INFO : root : Loading config.
+2026-02-11 18:39:06,596 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-11 18:39:06,596 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-11 18:39:06,598 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-11 18:39:06,598 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-11 18:39:06,598 : DEBUG : YAML File Interface : Loading file: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-11 18:39:06,610 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-11 18:39:06,611 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-11 18:39:06,611 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-11 18:39:06,613 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-11 18:39:06,613 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-11 18:39:06,614 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-11 18:39:06,614 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-11 18:39:06,615 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-11 18:39:06,616 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-11 18:39:06,618 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-11 18:39:06,619 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-11 18:39:06,624 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-11 18:39:06,625 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-11 18:39:06,641 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-11 18:39:06,643 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-11 18:39:06,730 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 18:39:06,730 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 18:39:06,730 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 18:39:06,731 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-11 18:39:06,731 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-11 18:39:06,732 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 18:39:06,732 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 18:39:06,732 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 18:39:06,733 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-11 18:39:06,734 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-11 18:39:06,734 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': True, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-11-18-39-06-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-18-39-06-mpf-DESKTOP-HV85DRD.log'}
+2026-02-11 18:39:06,734 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-11 18:39:06,734 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-11 18:39:06,734 : INFO : Machine : Platform: win32
+2026-02-11 18:39:06,734 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-11 18:39:06,734 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-11 18:39:06,735 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-11 18:39:06,736 : INFO : Machine : Initializing MPF...
+2026-02-11 18:39:06,829 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-02-11 18:39:06,840 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-11 18:39:06,847 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-11 18:39:06,847 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-11 18:39:06,847 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-11 18:39:06,873 : INFO : FAST : Detected EXP on port COM5
+2026-02-11 18:39:06,873 : INFO : FAST : Detected NET on port COM4
+2026-02-11 18:39:06,986 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-11 18:39:06,990 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-11 18:39:07,001 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-11 18:39:07,032 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-11 18:39:07,048 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 18:39:07,064 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-11 18:39:07,080 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 18:39:07,082 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-11 18:39:07,087 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-11 18:39:07,087 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-11 18:39:07,087 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-11 18:39:07,096 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-11 18:39:07,112 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-11 18:39:11,310 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe... Interface]')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... Interface]')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 413, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 373, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 382, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\net_neuron.py", line 333, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "C:\mpf\Lib\site-packages\mpf\core\switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch 31 to state 1. platform: [FAST Platform Interface]
+2026-02-11 18:39:11,313 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-11 18:39:11,313 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'

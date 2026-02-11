@@ -273,7 +273,7 @@ switches:
         ignore_window_ms: 100
     s_59_saucer_right:
         number: pf1-3
-        type: 'NC'
+#        type: 'NC'
         ignore_window_ms: 2000
         label: "Saucer - right"
 # ------------------------
@@ -399,7 +399,7 @@ switches:
 #-----------------------------------------
     s_81_saucer_left:
         number: pf3-9
-        type: 'NC'
+#        type: 'NC'
         ignore_window_ms: 2000
         label: "Saucer - left"
 # ----------------------------------------
