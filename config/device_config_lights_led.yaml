@@ -1,20 +1,16 @@
 #config_version=6
 # ------------------------
 # CONFIG:LEDS
-# FAST Board PN: FP-
+# FAST Board PN: FP-EXP-2000 ports 1-4 of the CPU board
 # Node 
 #
 lights:
   led1-1:
-    number: 48-1-1
+    number: ledneuron-1-1
     type: grb
   led1-2:
-    number: 48-1-2
+    number: ledneuron-1-2
     type: grb
-
-
-
-
 
 # lights:
 #   led1-1:               # These names are arbitrary. Make them whatever you want
