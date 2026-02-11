@@ -1,0 +1,2520 @@
+2026-02-11 11:14:54,506 : INFO : root : Loading config.
+2026-02-11 11:14:54,509 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-11 11:14:54,510 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-11 11:14:54,597 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 11:14:54,597 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 11:14:54,597 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 11:14:54,598 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-11 11:14:54,598 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-11 11:14:54,599 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 11:14:54,599 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-11 11:14:54,599 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-11 11:14:54,600 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-11 11:14:54,601 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-11 11:14:54,601 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': True, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-11-11-14-54-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-11-14-54-mpf-DESKTOP-HV85DRD.log'}
+2026-02-11 11:14:54,601 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-11 11:14:54,601 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-11 11:14:54,601 : INFO : Machine : Platform: win32
+2026-02-11 11:14:54,601 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-11 11:14:54,601 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-11 11:14:54,602 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-11 11:14:54,603 : INFO : Machine : Initializing MPF...
+2026-02-11 11:14:54,693 : DEBUG : TextUi : Text UI is disabled. TUI option setting: False, Asciimatics loaded: <class 'asciimatics.scene.Scene'>
+2026-02-11 11:14:54,705 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-11 11:14:54,712 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-11 11:14:54,713 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-11 11:14:54,713 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-11 11:14:54,739 : INFO : FAST : Detected EXP on port COM5
+2026-02-11 11:14:54,739 : INFO : FAST : Detected NET on port COM4
+2026-02-11 11:14:54,852 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-11 11:14:54,857 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-11 11:14:54,867 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-11 11:14:54,899 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-11 11:14:54,915 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 11:14:54,931 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-11 11:14:54,947 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-11 11:14:54,949 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-11 11:14:54,953 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-11 11:14:54,954 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-11 11:14:54,954 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-11 11:14:54,963 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-11 11:14:54,979 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-11 11:14:54,995 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledpf1" (FP-EXP-0081 Address: 84)
+2026-02-11 11:14:54,995 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 11:14:54,995 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 1 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-11 11:14:55,011 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-11 11:14:55,027 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-11 11:14:55,043 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-11 11:14:55,059 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,080 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,080 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,080 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,080 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,191 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,191 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,191 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,192 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,192 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,192 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-11-11-14-54-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-11 11:14:55,192 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-11 11:14:55,197 : DEBUG : ModeController : Loaded mode game
+2026-02-11 11:14:55,203 : DEBUG : ModeController : Loaded mode attract
+2026-02-11 11:14:55,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 00
+2026-02-11 11:14:55,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 01
+2026-02-11 11:14:55,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 02
+2026-02-11 11:14:55,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 03
+2026-02-11 11:14:55,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 04
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 05
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 06
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 07
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 08
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 09
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0A
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0B
+2026-02-11 11:14:55,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0C
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0D
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0E
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0F
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 10
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 11
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 12
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 13
+2026-02-11 11:14:55,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 14
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 15
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 16
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 17
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 18
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 19
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1A
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1B
+2026-02-11 11:14:55,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1C
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1D
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1E
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 1F
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 20
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 21
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 22
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 23
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 24
+2026-02-11 11:14:55,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 25
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 26
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 27
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 28
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 29
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2A
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2B
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2C
+2026-02-11 11:14:55,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2D
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2E
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 2F
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 30
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 31
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 32
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 33
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 34
+2026-02-11 11:14:55,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 35
+2026-02-11 11:14:55,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 36
+2026-02-11 11:14:55,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 37
+2026-02-11 11:14:55,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 38
+2026-02-11 11:14:55,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 39
+2026-02-11 11:14:55,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3A
+2026-02-11 11:14:55,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3B
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3C
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3D
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3E
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 3F
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 40
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 41
+2026-02-11 11:14:55,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 42
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 43
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 44
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 45
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 46
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 47
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 48
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 49
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4A
+2026-02-11 11:14:55,269 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4B
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4C
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4D
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4E
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4F
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 50
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 51
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 52
+2026-02-11 11:14:55,270 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 53
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 54
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 55
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 56
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 57
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 58
+2026-02-11 11:14:55,271 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 59
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5A
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5B
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5C
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5D
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5E
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5F
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 60
+2026-02-11 11:14:55,272 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 61
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 62
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 63
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 64
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 65
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 66
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 67
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 68
+2026-02-11 11:14:55,273 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 69
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6A
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6B
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6C
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6D
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6E
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6F
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 70
+2026-02-11 11:14:55,274 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 71
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 72
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 73
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 74
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 75
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 76
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 77
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 78
+2026-02-11 11:14:55,275 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 79
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7A
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7B
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7C
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7D
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7E
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 7F
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 80
+2026-02-11 11:14:55,276 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 81
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 82
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 83
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 84
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 85
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 86
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 87
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 88
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 89
+2026-02-11 11:14:55,277 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8A
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8B
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8C
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8D
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8E
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8F
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 90
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 91
+2026-02-11 11:14:55,278 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 92
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 93
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 94
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 95
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 96
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 97
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 98
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 99
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9A
+2026-02-11 11:14:55,279 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9B
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9C
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9D
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9E
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 9F
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A0
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A1
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A2
+2026-02-11 11:14:55,280 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A3
+2026-02-11 11:14:55,281 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A4
+2026-02-11 11:14:55,281 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A5
+2026-02-11 11:14:55,281 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A6
+2026-02-11 11:14:55,281 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A7
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A8
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: A9
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AA
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AB
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AC
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AD
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AE
+2026-02-11 11:14:55,282 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: AF
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B0
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B1
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B2
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B3
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B4
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B5
+2026-02-11 11:14:55,283 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B6
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B7
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B8
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: B9
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BA
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BB
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BC
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BD
+2026-02-11 11:14:55,284 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BE
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: BF
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C0
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C1
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C2
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C3
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C4
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C5
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C6
+2026-02-11 11:14:55,285 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C7
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C8
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C9
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CA
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CB
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CC
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CD
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CE
+2026-02-11 11:14:55,286 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CF
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D0
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D1
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D2
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D3
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D4
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D5
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D6
+2026-02-11 11:14:55,287 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D7
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D8
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: D9
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DA
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DB
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DC
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DD
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DE
+2026-02-11 11:14:55,288 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: DF
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E0
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E1
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E2
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E3
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E4
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E5
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E6
+2026-02-11 11:14:55,289 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E7
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E8
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: E9
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: EA
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: EB
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: EC
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: ED
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: EE
+2026-02-11 11:14:55,290 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: EF
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F0
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F1
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F2
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F3
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F4
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F5
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F6
+2026-02-11 11:14:55,291 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F7
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F8
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: F9
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FA
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FB
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FC
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FD
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FE
+2026-02-11 11:14:55,292 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: FF
+2026-02-11 11:14:55,301 : INFO : EventManager : Event: ======'drop_target_bank_dtb_characters_up'====== Args={}
+2026-02-11 11:14:55,301 : INFO : EventManager : Event: ======'drop_target_bank_dtb_rollover_up'====== Args={}
+2026-02-11 11:14:55,302 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-441' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,305 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-442' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,306 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-443' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,307 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-444' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,308 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-445' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,308 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-446' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,309 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-447' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,310 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-448' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,311 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-449' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,312 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-450' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,313 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-451' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,314 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-452' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,315 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-453' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,315 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-454' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,316 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-455' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,317 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-456' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,318 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-457' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,319 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-458' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,320 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-459' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,321 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-460' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,322 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-461' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,322 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-462' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,323 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-463' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,324 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-464' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,325 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-465' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,326 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-466' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,327 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-467' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,328 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-468' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,328 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-469' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,329 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-470' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,330 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-471' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('16')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '16'
+2026-02-11 11:14:55,331 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-472' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,332 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-473' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,333 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-474' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,333 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-475' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,334 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-476' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,335 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-477' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,336 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-478' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,337 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-479' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,338 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-480' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,339 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-481' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,339 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-482' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,340 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-483' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,341 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-484' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,342 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-485' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,342 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-486' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,343 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-487' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('17')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '17'
+2026-02-11 11:14:55,344 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-360' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,345 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-361' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,346 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-362' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,346 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-363' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,347 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-364' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,348 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-365' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,349 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-366' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,349 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-367' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,350 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-368' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,351 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-369' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,352 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-370' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,352 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-371' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,353 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-372' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,354 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-373' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,354 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-374' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,356 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-375' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('10')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '10'
+2026-02-11 11:14:55,356 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-376' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,357 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-377' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,358 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-378' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,358 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-379' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,359 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-380' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,360 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-381' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,361 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-382' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,362 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-383' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,363 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-384' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,364 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-385' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,364 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-386' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,365 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-387' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,366 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-388' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,367 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-389' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,368 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-390' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,369 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-391' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('11')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '11'
+2026-02-11 11:14:55,369 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-392' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,370 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-393' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,371 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-394' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,372 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-395' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,373 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-396' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,373 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-397' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,374 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-398' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,375 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-399' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,376 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-400' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,376 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-401' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,377 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-402' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,378 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-403' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,379 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-404' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,379 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-405' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,380 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-406' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,381 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-407' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('12')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '12'
+2026-02-11 11:14:55,382 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-408' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,382 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-409' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,383 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-410' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,384 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-411' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,384 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-412' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,385 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-413' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,386 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-414' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,387 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-415' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,387 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-416' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,388 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-417' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,389 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-418' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,390 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-419' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,391 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-420' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,391 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-421' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,392 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-422' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,393 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-423' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('13')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '13'
+2026-02-11 11:14:55,394 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-424' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,394 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-425' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,395 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-426' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,396 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-427' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,397 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-428' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,397 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-429' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,398 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-430' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,399 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-431' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,399 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-432' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,400 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-433' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,401 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-434' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,402 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-435' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,402 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-436' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,403 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-437' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,404 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-438' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,404 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-439' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('14')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '14'
+2026-02-11 11:14:55,405 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-440' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=KeyError('15')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:55,407 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-11 11:14:55,407 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-11 11:14:55,407 : INFO : Machine : Shutting down...
+2026-02-11 11:14:55,407 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-11 11:14:55,504 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-02-11 11:14:55,505 : DEBUG : FAST [EXP] : Stop called on serial connection EXP
+2026-02-11 11:14:56,512 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 647, in configure_light
+    exp_board = self.exp_boards_by_address[this_led_number[:2]]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: '15'
+2026-02-11 11:14:56,514 : INFO : root : MPF run loop ended.
