@@ -200,7 +200,7 @@ switches:
         label: "Standup Target 10 Pop"
     s_44_spinner_right:
         number: pf2-20
-#        type: 'NC'
+        type: 'NC'
         label: "Spinner - Right"
 #    s_45_SPARE:
 #        number: pf2-21
