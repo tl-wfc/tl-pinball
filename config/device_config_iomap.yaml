@@ -303,6 +303,7 @@ switches:
 # ------------------------
     s_64_varitarget_poisition_1:
         number: pf1-8
+        type: NC
         label: "VariTarget - Position 1"
     s_65_varitarget_poisition_2:
         number: pf1-9
@@ -346,7 +347,7 @@ switches:
 # ------------------------
     s_72_single_drop_1:
         number: pf3-0
-        type: 'NC'
+        #type: 'NC'
         label: "Single Drop 1"
         ignore_window_ms: 300
 # ------------------------
@@ -354,37 +355,37 @@ switches:
 # ------------------------
     s_73_fourbank_drop_1:
         number: pf3-1
-        type: 'NC'
+        #type: 'NC'
         label: "Four Bank Drop 1"
         ignore_window_ms: 300
     s_74_fourbank_drop_2:
         number: pf3-2
-        type: 'NC'
+        #type: 'NC'
         label: "Four Bank Drop 2"
         ignore_window_ms: 300
     s_75_fourbank_drop_3:
         number: pf3-3
-        type: 'NC'
+        #type: 'NC'
         label: "Four Bank Drop 3"
         ignore_window_ms: 300
     s_76_fourbank_drop_4:
         number: pf3-4
-        type: 'NC'
+        #type: 'NC'
         label: "Four Bank Drop 4"
         ignore_window_ms: 300
     s_77_threebank_drop_1:
         number: pf3-5
-        type: 'NC'
+        #type: 'NC'
         label: "Three Bank Drop 1"
         ignore_window_ms: 300
     s_78_threebank_drop_2:
         number: pf3-6
-        type: 'NC'
+        #type: 'NC'
         label: "Three Bank Drop 2"
         ignore_window_ms: 300
     s_79_threebank_drop_3:
         number: pf3-7
-        type: 'NC'
+        #type: 'NC'
         label: "Three Bank Drop 3"
         ignore_window_ms: 300
 # -------------------------------------------------
