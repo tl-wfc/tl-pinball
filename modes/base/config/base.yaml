@@ -7,3 +7,27 @@ mode:
   start_events: ball_starting
   stop_events: ball_will_end
   priority: 100
+
+# ---------------------------------------
+# Drop target: reset on trough eject, trip after 5s
+# ---------------------------------------
+
+coil_player:
+  # ball has left the trough (eject success)
+  balldevice_bd_trough_ball_eject_success:
+    c_31_single_drop_1_reset: pulse
+
+  # 5 seconds after trough eject
+  timer_drop_target_trip_delay_complete:
+    c_30_single_drop_1_trip: pulse
+
+timers:
+  drop_target_trip_delay:
+    start_value: 5
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: balldevice_bd_trough_ball_eject_success
+        action: restart

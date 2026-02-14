@@ -80,7 +80,7 @@ modes:
     - attract
     # - abc_feature
     # - one_two_three_in_sequence
-    # - base
+    - base
     # - blue_and_green_bonus
     # - bonus
     # - bonus_special
