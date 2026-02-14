@@ -1,0 +1,46 @@
+#config_version=6
+keyboard:
+  z:
+    switch: s_left_flipper_button
+  x:
+    switch: s_right_flipper_button
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_service_enter
+  8:
+    switch: s_service_esc
+  6:
+    switch: s_service_up
+  7:
+    switch: s_service_down
+  p:
+    switch: s_action_button
+  s:
+    switch: s_start
+  q:
+    switch: s_right_outlane
+  # v:
+  #   event: selection_mode_reawakening_selected
+  # c:
+  #   event: reawakening_p3_phasethree_apprentice_selected
+  # w:
+  #   event: mode_reawakening_p3_started
+  # r:
+  #   event: mode_razorwire_complete
+  #   # event: selection_mode_razorwire_selected
+  # h:
+  #   event: selection_mode_thekeytofreedom_selected
+#Trying to add a keyboard command to get to Puzzle Hurry Up. But not sure how to tell it which hurryup mode.
+  # a:
+  #   event: slide_trapcomplete_created

@@ -11,19 +11,19 @@ switches:
     s_00_service_esc:
         number: cab-0
         tags: service_esc
-        label: "Service - Escape"
+    #    label: "Service - Escape"
     s_01_service_up:
         number: cab-1
         tags: service_up
-        label: "Service - Up / Plus"
+    #    label: "Service - Up / Plus"
     s_02_service_down:
         number: cab-2
         tags: service_down
-        label: "Service - Down / Minus"
+    #    label: "Service - Down / Minus"
     s_03_service_enter:
         number: cab-3
         tags: service_enter
-        label: "Service - Enter"
+    #    label: "Service - Enter"
 #    s_04_coin_left:
 #        number: cab-4
 #        label: "Coin Slot - Left / 1"
@@ -43,7 +43,7 @@ switches:
     s_08_left_flipper:
         number: cab-4
         tags: flipper_main_left, left_flipper
-        label: "Flipper - Main - Left"
+    #    label: "Flipper - Main - Left"
 #    s_09_left_flipper_upper:
 #        number: cab-9
 #        tags: flipper_main_right, left_flipper
@@ -55,7 +55,7 @@ switches:
     s_11_start_button:
         number: cab-5
         tags: start
-        label: "Start Button"
+    #    label: "Start Button"
 #    s_12_tilt_bob:
 #        number: cab-12
 #        tags: tilt_warning
@@ -77,11 +77,11 @@ switches:
     s_16_right_flipper:
         number: cab-6
         tags: flipper_main_right, right_flipper
-        label: "Flipper - Main - Right"
+    #    label: "Flipper - Main - Right"
     s_17_right_flipper_upper:
         number: cab-7
         tags: flipper_main_right, right_flipper
-        label: "Flipper - Main - Right"
+    #    label: "Flipper - Main - Right"
 #    s_18_right_secondary_button:
 #        number: 1-18
 #        tags: right_secondary_button
@@ -123,81 +123,81 @@ switches:
     s_24_trough_1:
         number: pf2-0
         type: 'NC'
-        label: "Trough - Position 1"
+    #    label: "Trough - Position 1"
     s_25_trough_2:
         number: pf2-1
         type: 'NC'
-        label: "Trough - Position 2"
+    #    label: "Trough - Position 2"
     s_26_trough_3:
         number: pf2-2
         type: 'NC'
-        label: "Trough - Position 3"
+    #    label: "Trough - Position 3"
     s_27_trough_4:
         number: pf2-3
         type: 'NC'
-        label: "Trough - Position 4"
+    #    label: "Trough - Position 4"
     s_28_trough_5:
         number: pf2-4
         type: 'NC'
-        label: "Trough - Position 5"
+    #    label: "Trough - Position 5"
     s_29_trough_6:
         number: pf2-5
         type: 'NC'
-        label: "Trough - Position 6"
+    #    label: "Trough - Position 6"
     s_30_trough_jam:
         number: pf2-6
         type: 'NC'
-        label: "Trough - Jam"
+    #    label: "Trough - Jam"
     s_31_plunger_lane:
         number: pf2-7
-        label: "Plunger Lane"
+    #    label: "Plunger Lane"
         ignore_window_ms: 500
 # ------------------------
 #    J3
 # ------------------------
     s_32_right_inlane:
         number: pf2-8
-        label: "Return Lane - Right"
+    #    label: "Return Lane - Right"
     s_33_right_outlane:
         number: pf2-9
-        label: "Outlane - Right"
+    #    label: "Outlane - Right"
     s_34_right_sling:
         number: pf2-10
-        label: "Sling - Right"
+    #    label: "Sling - Right"
     s_35_left_inlane:
         number: pf2-11
-        label: "Return Lane - Left"
+    #    label: "Return Lane - Left"
     s_36_left_outlane:
         number: pf2-12
-        label: "Outlane - Left"
+    #    label: "Outlane - Left"
     s_37_left_sling:
         number: pf2-13
-        label: "Sling - Left"
+    #    label: "Sling - Left"
     s_38_star_rollover_bottom:
         number: pf2-14
-        label: "Star Rollover - Bottom"
+    #    label: "Star Rollover - Bottom"
     s_39_star_rollover_top:
         number: pf2-15
-        label: "Star Rollover - Top"
+    #    label: "Star Rollover - Top"
 # ------------------------
 #    J6
 # ------------------------
     s_40_stand_up_target_5:
         number: pf2-16
-        label: "Standup Target 5 Left Side Vari"
+    #    label: "Standup Target 5 Left Side Vari"
     s_41_stand_up_target_6:
         number: pf2-17
-        label: "Standup Target 6 Right Side Vari"
+    #    label: "Standup Target 6 Right Side Vari"
     s_42_stand_up_target_1:
         number: pf2-18
-        label: "Standup Target 1"
+    #    label: "Standup Target 1"
     s_43_stand_up_target_4:
         number: pf2-19
-        label: "Standup Target 4"
+    #    label: "Standup Target 4"
     s_44_spinner_right:
         number: pf2-20
         type: 'NC'
-        label: "Spinner - Right"
+    #    label: "Spinner - Right"
 #    s_45_SPARE:
 #        number: pf2-21
 #        tags: SPARE21
@@ -255,42 +255,42 @@ switches:
     s_56_pop_bumper_right:
         number: pf1-0
         tags: pop_bumper_right
-        label: "Pop Bumper Right"
+    #    label: "Pop Bumper Right"
         ignore_window_ms: 100
     s_57_pop_bumper_center:
         number: pf1-1
         tags: pop_bumper_center
-        label: "Pop Bumper Center"
+    #    label: "Pop Bumper Center"
         ignore_window_ms: 100
     s_58_pop_bumper_left:
         number: pf1-2
         tags: pop_bumper_left
-        label: "Pop Bumper left"
+    #    label: "Pop Bumper left"
         ignore_window_ms: 100
     s_59_saucer_right:
         number: pf1-3
 #        type: 'NC'
         ignore_window_ms: 2000
-        label: "Saucer - right"
+    #    label: "Saucer - right"
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - PLAYFIELD TOP LANES
 # ------------------------
     s_60_top_lane_c:
         number: pf1-4
-        label: "Rollover - Top Lanes - C"
+    #    label: "Rollover - Top Lanes - C"
     s_61_top_lane_b:
         number: pf1-5
-        label: "Rollover - Top Lanes - B"
+    #    label: "Rollover - Top Lanes - B"
     s_62_top_lane_a:
         number: pf1-6
-        label: "Rollover - Top Lanes - A"
+    #    label: "Rollover - Top Lanes - A"
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGETS Singles
 # ------------------------
     s_63_stand_up_target_3:
         number: pf1-7
         tags: top_standup_rollovers
-        label: "Standup Target 3"
+    #    label: "Standup Target 3"
 # ------------------------
 # J8 - Orange Wires
 # ------------------------
@@ -300,32 +300,32 @@ switches:
     s_64_varitarget_poisition_1:
         number: pf1-8
         type: NC
-        label: "VariTarget - Position 1"
+    #    label: "VariTarget - Position 1"
     s_65_varitarget_poisition_2:
         number: pf1-9
-        label: "VariTarget - Position 2"
+    #    label: "VariTarget - Position 2"
     s_66_varitarget_poisition_3:
         number: pf1-10
-        label: "VariTarget - Position 3"
+    #    label: "VariTarget - Position 3"
     s_67_varitarget_poisition_4:
         number: pf1-11
-        label: "VariTarget - Position 4"
+    #    label: "VariTarget - Position 4"
     s_68_varitarget_poisition_5:
         number: pf1-12
-        label: "VariTarget - Position 5"
+    #    label: "VariTarget - Position 5"
     s_69_varitarget_poisition_6:
         number: pf1-13
-        label: "VariTarget - Position 6"
+    #    label: "VariTarget - Position 6"
     s_70_varitarget_poisition_7:
         number: pf1-14
-        label: "VariTarget - Position 7"
+    #    label: "VariTarget - Position 7"
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - SPINNERS
 # ------------------------
     s_71_spinner_left:
         number: pf1-15
         type: 'NC'
-        label: "Spinner - Left"
+    #    label: "Spinner - Left"
 #
 #-------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------
@@ -344,7 +344,7 @@ switches:
     s_72_single_drop_1:
         number: pf3-0
         #type: 'NC'
-        label: "Single Drop 1"
+    #    label: "Single Drop 1"
         ignore_window_ms: 300
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - DROP TARGET 4-BANK
@@ -352,44 +352,44 @@ switches:
     s_73_fourbank_drop_1:
         number: pf3-1
         #type: 'NC'
-        label: "Four Bank Drop 1"
+    #    label: "Four Bank Drop 1"
         ignore_window_ms: 300
     s_74_fourbank_drop_2:
         number: pf3-2
         #type: 'NC'
-        label: "Four Bank Drop 2"
+    #    label: "Four Bank Drop 2"
         ignore_window_ms: 300
     s_75_fourbank_drop_3:
         number: pf3-3
         #type: 'NC'
-        label: "Four Bank Drop 3"
+    #    label: "Four Bank Drop 3"
         ignore_window_ms: 300
     s_76_fourbank_drop_4:
         number: pf3-4
         #type: 'NC'
-        label: "Four Bank Drop 4"
+    #    label: "Four Bank Drop 4"
         ignore_window_ms: 300
     s_77_threebank_drop_1:
         number: pf3-5
         #type: 'NC'
-        label: "Three Bank Drop 1"
+    #    label: "Three Bank Drop 1"
         ignore_window_ms: 300
     s_78_threebank_drop_2:
         number: pf3-6
         #type: 'NC'
-        label: "Three Bank Drop 2"
+    #    label: "Three Bank Drop 2"
         ignore_window_ms: 300
     s_79_threebank_drop_3:
         number: pf3-7
         #type: 'NC'
-        label: "Three Bank Drop 3"
+    #    label: "Three Bank Drop 3"
         ignore_window_ms: 300
 # -------------------------------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGET after VUK
 # -------------------------------------------------
     s_80_stand_up_target_2:
         number: pf3-8
-        label: "Standup Target 2"
+    #    label: "Standup Target 2"
 # ----------------------------------------
 # CONFIG:SWITCHES:SINGLE - SAUCERS
 #-----------------------------------------
@@ -397,25 +397,25 @@ switches:
         number: pf3-9
 #        type: 'NC'
         ignore_window_ms: 2000
-        label: "Saucer - left"
+    #    label: "Saucer - left"
 # ----------------------------------------
 # CONFIG:SWITCHES: 6-BANK
 #-----------------------------------------
     s_82_stand_up_target_bank_1:
         number: pf3-10
-        label: "Standup Target bank 1"
+    #    label: "Standup Target bank 1"
     s_83_stand_up_target_bank_2:
         number: pf3-11
-        label: "Standup Target bank 2"
+    #    label: "Standup Target bank 2"
     s_84_stand_up_target_bank_3:
         number: pf3-12
-        label: "Standup Target bank 3"
+    #    label: "Standup Target bank 3"
     s_85_stand_up_target_bank_4:
         number: pf3-13
-        label: "Standup Target bank 4"
+    #    label: "Standup Target bank 4"
     s_86_stand_up_target_bank_5:
         number: pf3-14
-        label: "Standup Target bank 5"
+    #    label: "Standup Target bank 5"
     s_87_stand_up_target_bank_6:
         number: pf3-15
-        label: "Standup Target bank 6"
+    #    label: "Standup Target bank 6"
