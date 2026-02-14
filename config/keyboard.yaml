@@ -1,44 +1,48 @@
 #config_version=6
 keyboard:
   z:
-    switch: s_left_flipper_button
+    switch: s_08_left_flipper
   x:
-    switch: s_right_flipper_button
+    switch: s_16_right_flipper
+  c:
+    switch: s_17_right_flipper_upper
+  s:
+    switch: s_11_start_button
+  0:
+    switch: s_30_trough_jam
+    toggle: true
   1:
-    switch: s_trough1
+    switch: s_24_trough_1
     toggle: true
   2:
-    switch: s_trough2
+    switch: s_25_trough_2
     toggle: true
   3:
-    switch: s_trough3
+    switch: s_26_trough_3
     toggle: true
   4:
-    switch: s_trough4
+    switch: s_27_trough_4
     toggle: true
   5:
-    switch: s_service_enter
-  8:
-    switch: s_service_esc
+    switch: s_28_trough_5
+    toggle: true
   6:
-    switch: s_service_up
+    switch: s_29_trough_6
+    toggle: true
   7:
-    switch: s_service_down
-  p:
-    switch: s_action_button
-  s:
-    switch: s_start
-  q:
-    switch: s_right_outlane
+    switch: s_31_plunger_lane
+  v:
+    switch: s_00_service_esc
+  b:
+    switch: s_02_service_down
+  n:
+    switch: s_01_service_up
+  m:
+    switch: s_03_service_enter
+  
+  
   # v:
   #   event: selection_mode_reawakening_selected
-  # c:
-  #   event: reawakening_p3_phasethree_apprentice_selected
-  # w:
-  #   event: mode_reawakening_p3_started
-  # r:
-  #   event: mode_razorwire_complete
-  #   # event: selection_mode_razorwire_selected
   # h:
   #   event: selection_mode_thekeytofreedom_selected
 #Trying to add a keyboard command to get to Puzzle Hurry Up. But not sure how to tell it which hurryup mode.

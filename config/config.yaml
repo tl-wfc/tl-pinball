@@ -1,5 +1,9 @@
 #config_version=6
 #
+game:
+  balls_per_game: 3
+  max_players: 1
+
 # --------------------
 # CONFIG::FILES
 # --------------------
@@ -10,6 +14,8 @@ config:
   - device_config_game.yaml
   - device_config_iomap.yaml
   - device_config_iomap_coils.yaml
+  - keyboard.yaml
+
 # ------------------------
 # CONFIG::MPF
 # ------------------------
@@ -19,9 +25,10 @@ mpf:
 # CONFIG::HARDWARE
 # ------------------------
 hardware:
+#    platform: smart_virtual
     platform: fast
-    driverboards: fast
-    lights: fast
+#    driverboards: fast
+#    lights: fast
 # ------------------------
 # CONFIG::FAST
 # ------------------------

@@ -9,18 +9,21 @@ flippers:
         activation_switch: s_16_right_flipper
         disable_events: game_ending
         enable_events: ball_started
+        #enable_events: machine_reset_phase_3
     left_flipper:
         main_coil: c_03_left_flipper_main
         hold_coil: c_04_left_flipper_hold
         activation_switch: s_08_left_flipper
         disable_events: game_ending
         enable_events: ball_started
+        #enable_events: machine_reset_phase_3
     right_top_flipper:
         main_coil: c_10_right_top_flipper_main
         hold_coil: c_09_right_top_flipper_hold
         activation_switch: s_17_right_flipper_upper
         disable_events: game_ending
-        enable_events: ball_started 
+        enable_events: ball_started
+        #enable_events: machine_reset_phase_3 
 # ------------------------
 # CONFIG:COILS:AUTOFIRE
 # ------------------------     
