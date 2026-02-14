@@ -1,0 +1,35 @@
+2026-02-14 19:26:53,814 : INFO : root : Loading config.
+2026-02-14 19:26:53,817 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-14 19:26:53,818 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-14 19:26:53,908 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\79046144c0e29dc8c69a7dc2f2d67e5f.mpf_cache
+2026-02-14 19:26:53,909 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-14 19:26:53,910 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\79046144c0e29dc8c69a7dc2f2d67e5f.mpf_cache
+2026-02-14 19:26:53,911 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-14 19:26:53,911 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-14 19:26:53,912 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-14-19-26-53-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-14-19-26-53-mpf-DESKTOP-HV85DRD.log'}
+2026-02-14 19:26:53,912 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-14 19:26:53,912 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-14 19:26:53,912 : INFO : Machine : Platform: win32
+2026-02-14 19:26:53,912 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-14 19:26:53,912 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-14 19:26:53,914 : INFO : Machine : Initializing MPF...
+2026-02-14 19:26:54,009 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-14 19:26:54,009 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-14 19:26:54,041 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-14 19:26:54,072 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-14 19:26:54,088 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 19:26:54,104 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-14 19:26:54,119 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 19:26:54,119 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-14 19:26:54,119 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-14 19:26:54,135 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-14 19:26:54,165 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-14 19:27:01,864 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-14 19:27:01,864 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'

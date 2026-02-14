@@ -182,18 +182,18 @@ switches:
 # ------------------------
 #    J6
 # ------------------------
-    s_40_stand_up_target_7:
+    s_40_stand_up_target_5:
         number: pf2-16
-        label: "Standup Target 7 Right Side Vari"
-    s_41_stand_up_target_8:
+        label: "Standup Target 5 Left Side Vari"
+    s_41_stand_up_target_6:
         number: pf2-17
-        label: "Standup Target 8 Left Side Vari"
-    s_42_stand_up_target_9:
+        label: "Standup Target 6 Right Side Vari"
+    s_42_stand_up_target_1:
         number: pf2-18
-        label: "Standup Target 9 Imp"
-    s_43_stand_up_target_10:
+        label: "Standup Target 1"
+    s_43_stand_up_target_4:
         number: pf2-19
-        label: "Standup Target 10 Pop"
+        label: "Standup Target 4"
     s_44_spinner_right:
         number: pf2-20
         type: 'NC'
@@ -287,10 +287,10 @@ switches:
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGETS Singles
 # ------------------------
-    s_63_stand_up_target_11:
+    s_63_stand_up_target_3:
         number: pf1-7
         tags: top_standup_rollovers
-        label: "Standup Target 11"
+        label: "Standup Target 3"
 # ------------------------
 # J8 - Orange Wires
 # ------------------------
@@ -387,9 +387,9 @@ switches:
 # -------------------------------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGET after VUK
 # -------------------------------------------------
-    s_80_stand_up_target_1:
+    s_80_stand_up_target_2:
         number: pf3-8
-        label: "Standup Target 1"
+        label: "Standup Target 2"
 # ----------------------------------------
 # CONFIG:SWITCHES:SINGLE - SAUCERS
 #-----------------------------------------

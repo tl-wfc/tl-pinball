@@ -1,0 +1,61 @@
+2026-02-14 19:13:26,287 : INFO : root : Loading config.
+2026-02-14 19:13:26,290 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-14 19:13:26,290 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-14 19:13:26,290 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-14 19:13:26,290 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-14 19:13:26,290 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-14 19:13:26,306 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-14 19:13:26,306 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-14 19:13:26,306 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-14 19:13:26,321 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-14 19:13:26,321 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-14 19:13:26,321 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-14 19:13:26,321 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-14 19:13:26,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-14 19:13:26,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-14 19:13:26,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-14 19:13:26,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-14 19:13:26,416 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-14 19:13:26,416 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-14-19-13-26-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-14-19-13-26-mpf-DESKTOP-HV85DRD.log'}
+2026-02-14 19:13:26,416 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-14 19:13:26,416 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-14 19:13:26,416 : INFO : Machine : Platform: win32
+2026-02-14 19:13:26,416 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-14 19:13:26,416 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-14 19:13:26,416 : INFO : Machine : Initializing MPF...
+2026-02-14 19:13:26,527 : INFO : FAST : Auto-detecting ports for the following connections: ['exp']
+2026-02-14 19:13:26,629 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-14 19:13:26,633 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-14 19:13:26,637 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-14 19:13:26,682 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-14 19:13:26,697 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 19:13:26,713 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-14 19:13:26,744 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 19:13:26,744 : ERROR : FAST [EXP] : Failed to connect to any of the specified ports.
+2026-02-14 19:13:26,744 : INFO : Machine : Shutting down...
+2026-02-14 19:13:26,744 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-14 19:13:26,838 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 285, in _connect_to_hardware
+    await communicator.connect()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST EXP] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 246, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 336, in _initialize_platforms
+    result.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 126, in initialize
+    await self._connect_to_hardware()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 292, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port exp. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/latest/logs)
+2026-02-14 19:13:26,838 : INFO : root : MPF run loop ended.

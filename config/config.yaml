@@ -27,6 +27,8 @@ hardware:
 # ------------------------
 fast:
   net:
+    port: COM4
+    baud: 921600
     controller: neuron
     io_loop:
       cab:
@@ -41,8 +43,6 @@ fast:
       pf3:
         model: FP-I/O-1616
         order: 4
-    port: auto
-    baud: 921600
     debug: false
     watchdog: 1s
     default_quick_debounce_open: 2ms
@@ -50,6 +50,8 @@ fast:
     default_normal_debounce_open: 4ms
     default_normal_debounce_close: 4ms
   exp:
+    port: COM5
+    baud: 921600
     boards:
       ledneuron:
         model: FP-EXP-2000
@@ -69,8 +71,8 @@ fast:
 # ------------------------
 # MODES::
 # ------------------------ 
-modes:
-    - attract
+#modes:
+#    - attract
 
 # ------------------------
 # PLAYFIELDS::
