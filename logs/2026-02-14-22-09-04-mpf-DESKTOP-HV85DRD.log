@@ -1,0 +1,190 @@
+2026-02-14 22:09:04,900 : INFO : root : Loading config.
+2026-02-14 22:09:04,900 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-14 22:09:04,900 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-14 22:09:04,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\79046144c0e29dc8c69a7dc2f2d67e5f.mpf_cache
+2026-02-14 22:09:04,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-14 22:09:04,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-14 22:09:04,994 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-14 22:09:04,994 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-14-22-09-04-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-14-22-09-04-mpf-DESKTOP-HV85DRD.log'}
+2026-02-14 22:09:04,994 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-14 22:09:04,994 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-14 22:09:04,994 : INFO : Machine : Platform: win32
+2026-02-14 22:09:04,994 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-14 22:09:04,994 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-14 22:09:04,994 : INFO : Machine : Initializing MPF...
+2026-02-14 22:09:05,416 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-14 22:09:05,432 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-14 22:09:05,447 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-14 22:09:05,494 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-14 22:09:05,496 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 22:09:05,498 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-14 22:09:05,500 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-14 22:09:05,503 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-14 22:09:05,507 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-14 22:09:05,514 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-14 22:09:05,519 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-14 22:09:05,546 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-14 22:09:05,562 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-14 22:09:05,581 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-14 22:09:05,596 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,612 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.55, 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,612 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,612 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,612 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,612 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-14-22-09-04-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-14 22:09:05,713 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-14 22:09:08,400 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-14 22:09:08,402 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-02-14 22:09:08,404 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-02-14 22:09:13,947 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:13,947 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:13,978 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,001 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,001 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,025 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,025 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,040 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,040 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,056 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,056 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,090 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,104 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,119 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,119 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,728 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,728 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:14,747 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:14,963 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,134 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,244 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,338 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,338 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,338 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,447 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,447 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,462 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,494 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,514 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,525 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,618 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,697 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,807 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:15,900 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:15,978 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,088 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,182 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,260 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,260 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,260 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,369 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,369 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,369 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,463 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,541 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,572 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,572 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,604 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,728 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,744 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,760 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,822 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,931 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:16,931 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:16,947 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,026 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,181 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,197 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,306 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,321 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,321 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,321 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,353 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,384 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,400 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,400 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,416 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,494 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,494 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,526 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,635 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,635 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,650 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,744 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:17,853 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:17,993 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,041 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,057 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,057 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,165 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,260 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,338 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,338 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,356 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,446 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,467 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,478 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,557 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,577 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,577 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,682 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:18,712 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:18,712 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:19,109 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:19,588 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:20,213 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:20,213 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:20,243 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:20,682 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:20,900 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,010 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,010 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,010 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,119 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,197 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,275 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,368 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,384 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,415 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,431 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,588 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,603 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,635 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,666 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,666 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:21,884 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:21,994 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:22,134 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-02-14 22:09:22,228 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' inactive >>>>>>>
+2026-02-14 22:09:25,321 : INFO : SwitchController : <<<<<<< 's_64_varitarget_poisition_1' active >>>>>>>
+2026-02-14 22:09:25,353 : INFO : SwitchController : <<<<<<< 's_64_varitarget_poisition_1' inactive >>>>>>>
+2026-02-14 22:09:25,369 : INFO : SwitchController : <<<<<<< 's_29_trough_6' active >>>>>>>
+2026-02-14 22:09:25,509 : INFO : SwitchController : <<<<<<< 's_29_trough_6' inactive >>>>>>>
+2026-02-14 22:09:25,525 : INFO : SwitchController : <<<<<<< 's_28_trough_5' active >>>>>>>
+2026-02-14 22:09:25,619 : INFO : SwitchController : <<<<<<< 's_28_trough_5' inactive >>>>>>>
+2026-02-14 22:09:25,634 : INFO : SwitchController : <<<<<<< 's_27_trough_4' active >>>>>>>
+2026-02-14 22:09:25,712 : INFO : SwitchController : <<<<<<< 's_27_trough_4' inactive >>>>>>>
+2026-02-14 22:09:25,712 : INFO : SwitchController : <<<<<<< 's_26_trough_3' active >>>>>>>
+2026-02-14 22:09:25,790 : INFO : SwitchController : <<<<<<< 's_26_trough_3' inactive >>>>>>>
+2026-02-14 22:09:25,790 : INFO : SwitchController : <<<<<<< 's_25_trough_2' active >>>>>>>
+2026-02-14 22:09:25,853 : INFO : SwitchController : <<<<<<< 's_25_trough_2' inactive >>>>>>>
+2026-02-14 22:09:25,853 : INFO : SwitchController : <<<<<<< 's_24_trough_1' active >>>>>>>
+2026-02-14 22:09:25,916 : INFO : SwitchController : <<<<<<< 's_24_trough_1' inactive >>>>>>>
+2026-02-14 22:09:26,040 : INFO : SwitchController : <<<<<<< 's_24_trough_1' active >>>>>>>
+2026-02-14 22:09:27,838 : INFO : SwitchController : <<<<<<< 's_11_start_button' active >>>>>>>
+2026-02-14 22:09:28,165 : INFO : SwitchController : <<<<<<< 's_11_start_button' inactive >>>>>>>
+2026-02-14 22:09:35,009 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-14 22:09:35,009 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-14 22:09:35,009 : INFO : Machine : Shutting down...
+2026-02-14 22:09:35,009 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-14 22:09:36,104 : INFO : root : MPF run loop ended.
