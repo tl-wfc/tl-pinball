@@ -4,20 +4,20 @@
 # ------------------------     
 flippers:
     right_flipper:
-        main_coil: c_5_right_flipper_main
-        hold_coil: c_6_right_flipper_hold
+        main_coil: c_05_right_flipper_main
+        hold_coil: c_06_right_flipper_hold
         activation_switch: s_16_right_flipper
         disable_events: game_ending
         enable_events: ball_started
     left_flipper:
-        main_coil: c_3_left_flipper_main
-        hold_coil: c_4_left_flipper_hold
-        activation_switch: s_8_left_flipper
+        main_coil: c_03_left_flipper_main
+        hold_coil: c_04_left_flipper_hold
+        activation_switch: s_08_left_flipper
         disable_events: game_ending
         enable_events: ball_started
     right_top_flipper:
         main_coil: c_10_right_top_flipper_main
-        hold_coil: c_9_right_top_flipper_hold
+        hold_coil: c_09_right_top_flipper_hold
         activation_switch: s_17_right_flipper_upper
         disable_events: game_ending
         enable_events: ball_started 
@@ -26,12 +26,12 @@ flippers:
 # ------------------------     
 autofire_coils:
     ac_sling_left:
-        coil: c_7_left_sling
+        coil: c_07_left_sling
         switch: s_37_left_sling
         disable_events: ball_ending
         enable_events: ball_started
     ac_sling_right:
-        coil: c_8_right_sling
+        coil: c_08_right_sling
         switch: s_34_right_sling
         disable_events: ball_ending
         enable_events: ball_started
