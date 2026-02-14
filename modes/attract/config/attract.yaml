@@ -18,10 +18,10 @@ mode_settings:
 slide_player:
   mode_attract_started: attract
 
-show_player:
-  mode_attract_started.1: 
-    output7:
-      speed: 8
+# show_player:
+#   mode_attract_started.1: 
+#     output7:
+#       speed: 8
     
 
 sound_player:

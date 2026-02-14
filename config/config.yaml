@@ -71,11 +71,12 @@ fast:
 # ------------------------
 # MODES::
 # ------------------------ 
-#modes:
-#    - attract
+modes:
+    - attract
+    - service
 
 # ------------------------
-# PLAYFIELDS::
+# PLAYFIELDS:
 # ------------------------ 
 playfields:
     playfield:
