@@ -1,0 +1,78 @@
+2026-02-14 16:42:03,456 : INFO : root : Loading config.
+2026-02-14 16:42:03,456 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-14 16:42:03,456 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\mpf\Lib\site-packages\mpf\modes\base\config\base.yaml
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-02-14 16:42:03,550 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\mpf\Lib\site-packages\mpf\modes\service\config\service.yaml
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d3b5ebc494e9a7257164cf172f94bef.mpf_cache
+2026-02-14 16:42:03,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-14 16:42:03,550 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-14 16:42:03,550 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-14-16-42-03-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-14-16-42-03-mpf-DESKTOP-HV85DRD.log'}
+2026-02-14 16:42:03,550 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-14 16:42:03,550 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-14 16:42:03,550 : INFO : Machine : Platform: win32
+2026-02-14 16:42:03,550 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-14 16:42:03,550 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-14 16:42:03,565 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-14 16:42:03,565 : INFO : Machine : Initializing MPF...
+2026-02-14 16:42:03,581 : ERROR : ConfigValidator : Your config contains a value for the setting "boards:ledpf1:port", but this is not a valid setting name.
+2026-02-14 16:42:03,581 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 236, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 492, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 622, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 60, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 274, in validate_config_item
+    return self._validate_dict(item_type, validation, validation_failure_info, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 303, in _validate_dict
+    self.validate_item(v, validators[1], ValidationPath(validation_failure_info, k)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "boards:ledpf1:port", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-02-14 16:42:03,581 : INFO : root : MPF run loop ended.
