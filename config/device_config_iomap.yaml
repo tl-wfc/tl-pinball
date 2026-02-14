@@ -8,43 +8,43 @@ switches:
 # ------------------------
 # J4 Coin Door
 # ------------------------
-    s_0_service_esc:
+    s_00_service_esc:
         number: cab-0
         tags: service_esc
         label: "Service - Escape"
-    s_1_service_up:
+    s_01_service_up:
         number: cab-1
         tags: service_up
         label: "Service - Up / Plus"
-    s_2_service_down:
+    s_02_service_down:
         number: cab-2
         tags: service_down
         label: "Service - Down / Minus"
-    s_3_service_enter:
+    s_03_service_enter:
         number: cab-3
         tags: service_enter
         label: "Service - Enter"
-#    s_4_coin_left:
+#    s_04_coin_left:
 #        number: cab-4
 #        label: "Coin Slot - Left / 1"
-#    s_5_coin_middle:
+#    s_05_coin_middle:
 #        number: cab-5
 #        label: "Coin Slot - Middle / x"
-#    s_6_coin_right:
+#    s_06_coin_right:
 #        number: cab-6
 #        label: "Coin Slot - Right / 3"
-#    s_7_slam_tilt:
+#    s_07_slam_tilt:
 #        number: cab-7
 #        tags: slam_tilt_warning
 #        label: "Slam Tilt" 
 # ------------------------
 # J1 Cabinet Left
 # ------------------------  
-    s_8_left_flipper:
+    s_08_left_flipper:
         number: cab-4
         tags: flipper_main_left, left_flipper
         label: "Flipper - Main - Left"
-#    s_9_left_flipper_upper:
+#    s_09_left_flipper_upper:
 #        number: cab-9
 #        tags: flipper_main_right, left_flipper
 #        label: "Flipper - Main - Left"

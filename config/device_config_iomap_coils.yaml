@@ -8,36 +8,36 @@ coils:
 # 3208 pf2
 # J4
 # ------------------------
-    c_1_plunger:
+    c_01_plunger:
         number: pf2-0
         default_pulse_ms: 10
-    c_2_trough_eject:
+    c_02_trough_eject:
         number: pf2-1
         default_pulse_ms: 30
     
     
-    c_3_left_flipper_main:
+    c_03_left_flipper_main:
         number: pf2-3
         default_pulse_ms: 1
         allow_enable: false
-    c_4_left_flipper_hold:
+    c_04_left_flipper_hold:
         number: pf2-2
         allow_enable: true
         default_hold_power: 0.1  
-    c_5_right_flipper_main:
+    c_05_right_flipper_main:
         number: pf2-4
         default_pulse_ms: 25
         allow_enable: false
-    c_6_right_flipper_hold:
+    c_06_right_flipper_hold:
         number: pf2-5
         allow_enable: true
         default_hold_power: 0.35
     
     
-    c_7_left_sling:
+    c_07_left_sling:
         number: pf2-7
         default_pulse_ms: 8
-    c_8_right_sling:
+    c_08_right_sling:
         number: pf2-6
         default_pulse_ms: 8
 #
@@ -50,7 +50,7 @@ coils:
 # J3 - 8 Coils
 # C_9 to C_16
 # ------------------------
-    c_9_right_top_flipper_hold:
+    c_09_right_top_flipper_hold:
         number: pf1-0
         allow_enable: true
         default_hold_power: 0.35
