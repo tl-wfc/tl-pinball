@@ -1,7 +1,7 @@
 master_volume:
   expire: null
   expire_secs: null
-  value: 0.5
+  value: 0.55
 player1_score:
   expire: null
   expire_secs: null

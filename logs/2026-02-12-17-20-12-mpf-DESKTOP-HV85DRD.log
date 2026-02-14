@@ -1,0 +1,1043 @@
+2026-02-12 17:20:12,856 : INFO : root : Loading config.
+2026-02-12 17:20:12,859 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-12 17:20:12,859 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-12 17:20:12,931 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 17:20:12,931 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 17:20:12,931 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-12 17:20:12,931 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-12 17:20:12,931 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-12 17:20:12,931 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 17:20:12,931 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 17:20:12,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-12 17:20:12,947 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\mpf\Lib\site-packages\mpf\modes\service\config\service.yaml
+2026-02-12 17:20:12,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d3b5ebc494e9a7257164cf172f94bef.mpf_cache
+2026-02-12 17:20:12,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-12 17:20:12,947 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-12 17:20:12,947 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-12-17-20-12-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-12-17-20-12-mpf-DESKTOP-HV85DRD.log'}
+2026-02-12 17:20:12,947 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-12 17:20:12,947 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-12 17:20:12,947 : INFO : Machine : Platform: win32
+2026-02-12 17:20:12,947 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-12 17:20:12,947 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-12 17:20:12,947 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-12 17:20:12,947 : INFO : Machine : Initializing MPF...
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D6EEDF20>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E0C0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E260>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x00000249D710B1C0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x00000249D6F6C6E0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E670>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E5A0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E740>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E4D0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E400>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x00000249D710E330>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x00000249D710B220>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x00000249D710B1C0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x00000249D6F6C6E0>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x00000249D710B220>
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 17:20:13,040 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:13,134 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-12 17:20:13,134 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-12 17:20:13,134 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-12 17:20:13,134 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-12 17:20:13,166 : INFO : FAST : Detected NET on port COM4
+2026-02-12 17:20:13,181 : INFO : FAST : Detected EXP on port COM5
+2026-02-12 17:20:13,292 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-12 17:20:13,296 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-12 17:20:13,322 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-12 17:20:13,353 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-12 17:20:13,369 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-12 17:20:13,385 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-12 17:20:13,400 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-12 17:20:13,401 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-12 17:20:13,406 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-12 17:20:13,406 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-12 17:20:13,406 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-12 17:20:13,415 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-12 17:20:13,432 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-12 17:20:20,057 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 77
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 119
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 77
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 117
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 109
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 98
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 118
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 117
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 109
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,072 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 117
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 109
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 98
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 118
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 117
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 77
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 119
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 77
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 79
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 121
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 79
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 118
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,087 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 98
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 36
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 54
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 36
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 103
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 102
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 118
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,103 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 98
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 62
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 36
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 54
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 36
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 103
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 102
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 100
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 64
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 109
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 118
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 76
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 13
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 111
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6f
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,119 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 117
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 75
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 115
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 73
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 58
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 3a
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 32
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 20
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 99
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 63
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 35
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 53
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 35
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 103
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 67
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 104
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 68
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 116
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 74
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 102
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 66
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 108
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6c
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 112
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 70
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 101
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 65
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 114
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 72
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 95
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 5f
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 109
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6d
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 97
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 61
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 105
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 69
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.widgets.frame : New event: KeyboardEvent: 110
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 6e
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 16
+2026-02-12 17:20:21,134 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:22,072 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 17:20:22,139 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-12 17:20:22,139 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'

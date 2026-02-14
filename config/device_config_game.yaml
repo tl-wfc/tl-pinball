@@ -8,27 +8,18 @@ flippers:
         main_coil: c_5_right_flipper_main
         hold_coil: c_6_right_flipper_hold
         activation_switch: s_16_right_flipper
-        # power_setting_name: flipper_power
-        # enable_events: game_start{machine.flipper_power==1.0}
-        # enable_events: machine_reset_phase_3
         disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
         enable_events: ball_started, enable_flippers, enable_autos
     left_flipper:
         main_coil: c_3_left_flipper_main
         hold_coil: c_4_left_flipper_hold
         activation_switch: s_8_left_flipper
-        # power_setting_name: flipper_power
-        # enable_events: game_start{machine.flipper_power==1.0}
-        # enable_events: machine_reset_phase_3
         disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
         enable_events: ball_started, enable_flippers, enable_autos
     right_top_flipper:
         main_coil: c_10_right_top_flipper_main
         hold_coil: c_9_right_top_flipper_hold
         activation_switch: s_17_right_flipper_upper
-        # power_setting_name: flipper_power
-        # enable_events: game_start{machine.flipper_power==1.0}
-        # enable_events: machine_reset_phase_3
         disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
         enable_events: ball_started, enable_flippers, enable_autos    
 # ------------------------

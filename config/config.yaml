@@ -90,7 +90,7 @@ modes:
     # - match
     # - multiball_controller_jp
     # - pop_bumper_bonus
-    # - service
+    - service
     # - spinner_feature
     # - tilt
 #
@@ -101,5 +101,6 @@ playfields:
     playfield:
         tags: default
         default_source_device: bd_trough
+
 
 

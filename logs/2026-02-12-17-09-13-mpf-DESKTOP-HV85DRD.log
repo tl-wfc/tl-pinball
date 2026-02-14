@@ -1,0 +1,9 @@
+2026-02-12 17:09:13,603 : INFO : root : Loading config.
+2026-02-12 17:09:13,603 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-12 17:09:13,603 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-12 17:09:13,603 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-12 17:09:13,603 : DEBUG : YAML File Interface : Loading file: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-12 17:09:13,618 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-12 17:09:13,618 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-12 17:09:13,618 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-12 17:09:13,634 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml

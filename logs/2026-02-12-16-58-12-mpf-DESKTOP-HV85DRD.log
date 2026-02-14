@@ -1,0 +1,147 @@
+2026-02-12 16:58:12,315 : INFO : root : Loading config.
+2026-02-12 16:58:12,318 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-12 16:58:12,318 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-12 16:58:12,319 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-12 16:58:12,319 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-12 16:58:12,320 : DEBUG : YAML File Interface : Loading file: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-12 16:58:12,322 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-12 16:58:12,322 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-12 16:58:12,322 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-12 16:58:12,322 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-12 16:58:12,322 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-12 16:58:12,322 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-12 16:58:12,322 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-12 16:58:12,322 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-12 16:58:12,322 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-12 16:58:12,337 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-12 16:58:12,337 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-12 16:58:12,353 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-12 16:58:12,353 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-12 16:58:12,368 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-12 16:58:12,368 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-12 16:58:12,447 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 16:58:12,447 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 16:58:12,447 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-12 16:58:12,447 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-12 16:58:12,447 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-12 16:58:12,447 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 16:58:12,447 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-12 16:58:12,447 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-12 16:58:12,447 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d4a31ba12353a8d97b779019117e810.mpf_cache
+2026-02-12 16:58:12,447 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-12 16:58:12,447 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-12-16-58-12-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-12-16-58-12-mpf-DESKTOP-HV85DRD.log'}
+2026-02-12 16:58:12,447 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-12 16:58:12,447 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-12 16:58:12,447 : INFO : Machine : Platform: win32
+2026-02-12 16:58:12,447 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-12 16:58:12,447 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-12 16:58:12,447 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-12 16:58:12,447 : INFO : Machine : Initializing MPF...
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B2520C0>
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E260>
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E400>
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A59B46B2E0>
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x000001A59B2D0750>
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,556 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E810>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E740>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E8E0>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E670>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E5A0>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x000001A59B46E4D0>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x000001A59B46B340>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A59B46B2E0>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x000001A59B2D0750>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x000001A59B46B340>
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-12 16:58:12,572 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-12 16:58:12,900 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-02-12 16:58:12,900 : DEBUG : FAST : Port COM3 is connected to a FAST Neuron Controller.
+2026-02-12 16:58:12,900 : DEBUG : FAST : Port COM5 is connected to a FAST Neuron Controller.
+2026-02-12 16:58:12,900 : DEBUG : FAST : Port COM4 is connected to a FAST Neuron Controller.
+2026-02-12 16:58:12,943 : INFO : FAST : Detected EXP on port COM5
+2026-02-12 16:58:12,943 : INFO : FAST : Detected NET on port COM4
+2026-02-12 16:58:13,059 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-12 16:58:13,063 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-12 16:58:13,074 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-12 16:58:13,119 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-12 16:58:13,134 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-12 16:58:13,150 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-12 16:58:13,166 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-12 16:58:13,166 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-12 16:58:13,166 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-12 16:58:13,166 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-12 16:58:13,166 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-12 16:58:13,181 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-12 16:58:13,197 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-12 16:58:20,556 : DEBUG : asciimatics.screen : Processing mouse: 84, 50
+2026-02-12 16:58:20,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (84, 50) 0
+2026-02-12 16:58:20,556 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 16:58:29,559 : DEBUG : asciimatics.screen : Processing mouse: 165, 47
+2026-02-12 16:58:29,559 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (165, 47) 0
+2026-02-12 16:58:30,556 : DEBUG : asciimatics.screen : Processing mouse: 37, 62
+2026-02-12 16:58:30,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (37, 62) 0
+2026-02-12 16:58:30,556 : DEBUG : asciimatics.screen : Processing mouse: 38, 61
+2026-02-12 16:58:30,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (38, 61) 0
+2026-02-12 16:58:31,557 : DEBUG : asciimatics.screen : Processing mouse: 127, 52
+2026-02-12 16:58:31,557 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (127, 52) 0
+2026-02-12 16:58:32,556 : DEBUG : asciimatics.screen : Processing mouse: 41, 62
+2026-02-12 16:58:32,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (41, 62) 0
+2026-02-12 16:58:32,556 : DEBUG : asciimatics.screen : Processing mouse: 41, 62
+2026-02-12 16:58:32,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (41, 62) 1
+2026-02-12 16:58:32,556 : DEBUG : asciimatics.widgets.frame : Blurring: [<asciimatics.widgets.frame.Frame object at 0x000001A59A5C15B0>]
+2026-02-12 16:58:33,556 : DEBUG : asciimatics.screen : Processing mouse: 41, 62
+2026-02-12 16:58:33,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (41, 62) 0
+2026-02-12 16:58:33,556 : DEBUG : asciimatics.screen : Processing mouse: 46, 57
+2026-02-12 16:58:33,556 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (46, 57) 0
+2026-02-12 16:58:34,557 : DEBUG : asciimatics.screen : Processing mouse: 168, 22
+2026-02-12 16:58:34,557 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (168, 22) 0
+2026-02-12 16:58:35,557 : DEBUG : asciimatics.screen : Processing mouse: 166, 22
+2026-02-12 16:58:35,557 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (166, 22) 0
+2026-02-12 16:58:35,557 : DEBUG : asciimatics.screen : Processing key: 0
+2026-02-12 16:58:35,557 : DEBUG : asciimatics.screen : Processing mouse: 164, 22
+2026-02-12 16:58:35,557 : DEBUG : asciimatics.widgets.frame : New event: MouseEvent (164, 22) 0
+2026-02-12 16:58:36,373 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-12 16:58:36,373 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
