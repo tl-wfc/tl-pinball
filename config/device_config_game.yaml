@@ -1,6 +1,5 @@
 #config_version=6
 # ------------------------
-# ------------------------
 # CONFIG:FLIPPERS
 # ------------------------     
 flippers:
@@ -8,20 +7,20 @@ flippers:
         main_coil: c_5_right_flipper_main
         hold_coil: c_6_right_flipper_hold
         activation_switch: s_16_right_flipper
-        disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
-        enable_events: ball_started, enable_flippers, enable_autos
+        disable_events: game_ending
+        enable_events: ball_started
     left_flipper:
         main_coil: c_3_left_flipper_main
         hold_coil: c_4_left_flipper_hold
         activation_switch: s_8_left_flipper
-        disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
-        enable_events: ball_started, enable_flippers, enable_autos
+        disable_events: game_ending
+        enable_events: ball_started
     right_top_flipper:
         main_coil: c_10_right_top_flipper_main
         hold_coil: c_9_right_top_flipper_hold
         activation_switch: s_17_right_flipper_upper
-        disable_events: game_ending, service_mode_entered, disable_flippers, disable_autos
-        enable_events: ball_started, enable_flippers, enable_autos    
+        disable_events: game_ending
+        enable_events: ball_started 
 # ------------------------
 # CONFIG:COILS:AUTOFIRE
 # ------------------------     
@@ -29,116 +28,25 @@ autofire_coils:
     ac_sling_left:
         coil: c_7_left_sling
         switch: s_37_left_sling
-        # enable_events: machine_reset_phase_3  #remove this when live
-        disable_events: ball_ending, service_mode_entered, disable_slings, disable_autos
-        enable_events: ball_started, enable_slings, enable_autos
-        ball_search_order: 1
+        disable_events: ball_ending
+        enable_events: ball_started
     ac_sling_right:
         coil: c_8_right_sling
         switch: s_34_right_sling
-        # enable_events: machine_reset_phase_3  #remove this when live
-        disable_events: ball_ending, service_mode_entered, disable_slings, disable_autos
-        enable_events: ball_started, enable_slings, enable_autos
-        ball_search_order: 2
+        disable_events: ball_ending
+        enable_events: ball_started
     ac_pop_1:
         coil: c_14_pop_bumper_left
         switch: s_58_pop_bumper_left
-        # enable_events: machine_reset_phase_3  #remove this when live
-        disable_events: ball_ending, service_mode_entered, disable_pops, disable_autos
-        enable_events: ball_started, enable_pops, enable_autos
-        ball_search_order: 3
+        disable_events: ball_ending
+        enable_events: ball_started
     ac_pop_2:
         coil: c_12_pop_bumper_center
         switch: s_57_pop_bumper_center
-        # enable_events: machine_reset_phase_3  #remove this when live
-        disable_events: ball_ending, service_mode_entered, disable_pops, disable_autos
-        enable_events: ball_started, enable_pops, enable_autos
-        ball_search_order: 4
+        disable_events: ball_ending
+        enable_events: ball_started
     ac_pop_3:
         coil: c_13_pop_bumper_right
         switch: s_56_pop_bumper_right
-        # enable_events: machine_reset_phase_3  #remove this when live
-        disable_events: ball_ending, service_mode_entered, disable_pops, disable_autos
-        enable_events: ball_started, enable_pops, enable_autos
-        ball_search_order: 5
-# ------------------------
-# CONFIG:DROP TARGETS
-# ------------------------     
-drop_targets:
-    # LEFT DROPS
-    dt_character_1:
-        switch: s_73_fourbank_drop_1
-        ball_search_order: 6
-    dt_character_2:
-        switch: s_74_fourbank_drop_2
-        ball_search_order: 6
-    dt_character_3:
-        switch: s_75_fourbank_drop_3
-        ball_search_order: 6
-    dt_character_4:
-        switch: s_76_fourbank_drop_4
-        ball_search_order: 6
-    dt_character_5:
-        switch: s_77_threebank_drop_1
-        ball_search_order: 6
-    dt_character_6:
-        switch: s_78_threebank_drop_2
-        ball_search_order: 6
-    dt_character_7:
-        switch: s_79_threebank_drop_3
-        ball_search_order: 6
-    # Single Rollover DROP
-    dt_single_1:
-        switch: s_72_single_drop_1
-        ball_search_order: 7
-# -------------------------
-# CONFIG::DROP TARGET BANKS
-# -------------------------     
-drop_target_banks:
-    # LEFT SIDE DROPS
-    dtb_characters:
-        drop_targets:
-            - dt_character_1
-            - dt_character_2
-            - dt_character_3
-            - dt_character_4
-            - dt_character_5
-            - dt_character_6
-            - dt_character_7
-        reset_coils: 
-            - c_40_fourbank_drop_reset
-            - c_32_threebank_drop_reset
-        reset_events: 
-            - ball_will_start
-            - mode_attract_starting
-#            - drop_target_bank_dtb_bonus_blue_green_down
-#            - sg_lagoon_multiball_light_complete
-#            - sg_mermaiden_battle_light_complete
-#            - start_mermaiden_battle
-#            - mode_F2_mermaid_queen_started
-#            - timer_mermaid_queen_final_shot_timer_complete
-#            - event_reset_left_bank
-        # reset_on_complete: 1s   
-    # Rollover DROP
-    dtb_rollover:
-        drop_targets:
-            - dt_single_1
-        reset_coils: 
-            - c_31_single_drop_1_reset
-        reset_events:
-            - ball_will_start
-            - mode_attract_starting
-            # - start_mermaiden_battle
-            # - drop_target_bank_dtb_centre_down
-            # - lagoon_multiball_stop
-            # - sg_cave_escapes_winch_complete
-            # - mode_F2_mermaid_queen_started
-            # - timer_mermaid_queen_final_shot_timer_complete
-            # - state_mermaid_treasure_phase_2_cave_started
-            # - mermaid_treasure_sequence_hit_now_inactive{machine.setting_2_mermaid_treasure_difficulty==1}
-            # - mermaid_multiball_jackpot
-            # - mermaid_multiball_super_jackpot
-            # - mode_F2_mermaid_multiball_stopped
-            # - mode_F2_mermaid_multiball_light_started
-        # reset_on_complete: 1s   
-
+        disable_events: ball_ending
+        enable_events: ball_started

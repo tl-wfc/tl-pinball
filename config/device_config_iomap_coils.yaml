@@ -10,15 +10,15 @@ coils:
 # ------------------------
     c_1_plunger:
         number: pf2-0
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_plunger
+        default_pulse_ms: 10
     c_2_trough_eject:
         number: pf2-1
-        default_pulse_ms: 30 #settings.adjustments_coil_strength_trough
+        default_pulse_ms: 30
     
     
     c_3_left_flipper_main:
         number: pf2-3
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_flipper_left
+        default_pulse_ms: 1
         allow_enable: false
     c_4_left_flipper_hold:
         number: pf2-2
@@ -26,7 +26,7 @@ coils:
         default_hold_power: 0.1  
     c_5_right_flipper_main:
         number: pf2-4
-        default_pulse_ms: 25 #settings.adjustments_coil_strength_flipper_right
+        default_pulse_ms: 25
         allow_enable: false
     c_6_right_flipper_hold:
         number: pf2-5
@@ -36,10 +36,10 @@ coils:
     
     c_7_left_sling:
         number: pf2-7
-        default_pulse_ms: 8 #settings.adjustments_coil_strength_sling_left
+        default_pulse_ms: 8
     c_8_right_sling:
         number: pf2-6
-        default_pulse_ms: 8 #settings.adjustments_coil_strength_sling_right
+        default_pulse_ms: 8
 #
 # --------------------------------------------------------------------------------------------------------------------
 #
@@ -56,7 +56,7 @@ coils:
         default_hold_power: 0.35
     c_10_right_top_flipper_main:
         number: pf1-1
-        default_pulse_ms: 25 #settings.adjustments_coil_strength_flipper_right
+        default_pulse_ms: 25
         allow_enable: false
         
 #    c_11_SPARE:
@@ -67,25 +67,25 @@ coils:
 # ------------------------ 
     c_12_pop_bumper_center:
         number: pf1-3
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_pop_2
+        default_pulse_ms: 10
     c_13_pop_bumper_right:
         number: pf1-4
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_pop_3
+        default_pulse_ms: 10
     c_14_pop_bumper_left:
         number: pf1-5
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_pop_1
+        default_pulse_ms: 10
 # ------------------------
 # CONFIG:COILS - SAUCERS/VUKS
 # ------------------------
     c_15_saucer_right:
         number: pf1-6
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_right_saucer
+        default_pulse_ms: 10
 # ------------------------
 # CONFIG:COILS - VARI-TARGET
 # ------------------------ 
     c_16_varitarget_reset:
         number: pf1-7
-        default_pulse_ms: 5 #settings.adjustments_coil_strength_varitarget_reset
+        default_pulse_ms: 5
 # ------------------------
 # CONFIG:COILS - PLAYFIELD Upper Node 1
 # 1616 pf1
@@ -129,37 +129,37 @@ coils:
 # ------------------------
 #    c_25_SPARE:
 #        number: pf3-0 
-#        default_pulse_ms: 1 #settings.adjustments_coil_strength_single_drop_1_reset
+#        default_pulse_ms: 1
 #    c_26_SPARE:
 #        number: pf3-1 
-#        default_pulse_ms: 1 #settings.adjustments_coil_strength_single_drop_1_reset
+#        default_pulse_ms: 1
 #    c_27_SPARE:
 #        number: pf3-2 
-#        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_1_reset
+#        default_pulse_ms: 1
 #    c_28_SPARE:
 #        number: pf3-3 
-#        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_1_reset
+#        default_pulse_ms: 1
 # ------------------------
 # CONFIG:COILS - SAUCERS/VUKS
 # ------------------------
     c_29_saucer_left:
         number: pf3-4
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_left_saucer
+        default_pulse_ms: 10
 # ------------------------
 # CONFIG:COILS - SINGLE DROP TARGET
 # ------------------------ 
     c_30_single_drop_1_trip:
         number: pf3-5
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_single_drop_1_reset
+        default_pulse_ms: 10
     c_31_single_drop_1_reset:
         number: pf3-6
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_single_drop_1_reset
+        default_pulse_ms: 10
 # ------------------------
 # CONFIG:COILS - DROP TARGET 3-BANK
 # ------------------------ 
     c_32_threebank_drop_reset:
         number: pf3-7
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_threebank_drop_1_reset
+        default_pulse_ms: 10
 # ------------------------
 # CONFIG:COILS - PLAYFIELD Upper Node 3
 # 1616 pf3
@@ -171,38 +171,25 @@ coils:
 # ------------------------ 
     c_33_fourbank_drop_1_trip:
         number: pf3-8
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_1_reset
+        default_pulse_ms: 1
     c_34_fourbank_drop_2_trip:
         number: pf3-9
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_2_reset
+        default_pulse_ms: 1
     c_35_fourbank_drop_3_trip:
         number: pf3-10
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_3_reset
+        default_pulse_ms: 1
     c_36_fourbank_drop_4_trip:
         number: pf3-11
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_fourbank_drop_4_reset
+        default_pulse_ms: 1
     c_37_threebank_drop_1_trip:
         number: pf3-12
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_threebank_drop_1_reset
+        default_pulse_ms: 1
     c_38_threebank_drop_2_trip:
         number: pf3-13
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_threebank_drop_2_reset
+        default_pulse_ms: 1
     c_39_threebank_drop_3_trip:
         number: pf3-14
-        default_pulse_ms: 1 #settings.adjustments_coil_strength_threebank_drop_3_reset
+        default_pulse_ms: 1
     c_40_fourbank_drop_reset:
         number: pf3-15
-        default_pulse_ms: 10 #settings.adjustments_coil_strength_fourbank_drop_1_reset
-# --------------------------------------------------------------------------------------------------------------------
-#
-#
-# -------------------------------------------------------------------------------------------------------------------- 
-# ------------------------
-# CONFIG:COILS - UV Lighting GI
-# ------------------------     
-# ------------------------
-# CONFIG:COILS - CABINET
-# ------------------------     
-#    c_27_knocker:
-#        number: 
-#        default_pulse_ms: 1 #settings.adjustments_coil_strength_knocker
+        default_pulse_ms: 10

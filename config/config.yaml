@@ -1,11 +1,5 @@
 #config_version=6
 #
-## MPF Main Machine Config File
-#
-# This file defines your system-wide properties like switches,
-# drivers, ball devices, hardware platforms, and more. You can
-# include everything here, or create sub-config files to be
-# imported and merged with this one.
 # --------------------
 # CONFIG::FILES
 # --------------------
@@ -27,7 +21,6 @@ mpf:
 hardware:
     platform: fast
     driverboards: fast
-    # segment_displays: fast
     lights: fast
 # ------------------------
 # CONFIG::FAST
@@ -78,22 +71,7 @@ fast:
 # ------------------------ 
 modes:
     - attract
-    # - abc_feature
-    # - one_two_three_in_sequence
-    - base
-    # - blue_and_green_bonus
-    # - bonus
-    # - bonus_special
-    # - credits
-    # - extra_ball
-    # - high_score
-    # - match
-    # - multiball_controller_jp
-    # - pop_bumper_bonus
-    - service
-    # - spinner_feature
-    # - tilt
-#
+
 # ------------------------
 # PLAYFIELDS::
 # ------------------------ 
@@ -101,18 +79,6 @@ playfields:
     playfield:
         tags: default
         default_source_device: bd_trough
-        active_switches:
-          - s_80_stand_up_target_1
-          - s_81_saucer_left
-          - s_71_spinner_left
-          - s_60_top_lane_c
-          - s_61_top_lane_b
-          - s_62_top_lane_a
-          - s_63_stand_up_target_11
-          - s_59_saucer_right
-          - s_58_pop_bumper_left
-          - s_57_pop_bumper_center
-          - s_56_pop_bumper_right
 
 
 
