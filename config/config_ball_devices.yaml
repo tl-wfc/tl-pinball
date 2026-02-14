@@ -4,10 +4,10 @@ ball_devices:
     bd_plunger:
         ball_switches: s_31_plunger_lane
         mechanical_eject: true
-        eject_coil: c_1_plunger
+        eject_coil: c_01_plunger
     bd_trough:
         ball_switches: s_24_trough_1, s_25_trough_2, s_26_trough_3, s_27_trough_4, s_28_trough_5, s_29_trough_6
-        eject_coil: c_2_trough_eject
+        eject_coil: c_02_trough_eject
         tags: trough, home, drain
         jam_switch: s_30_trough_jam
         eject_targets: bd_plunger
