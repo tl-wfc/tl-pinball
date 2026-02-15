@@ -4,3 +4,4 @@ mpf/Scripts/Activate.ps1
 
 cd C:\Users\tl\Documents\tl-pinball
 
+mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
