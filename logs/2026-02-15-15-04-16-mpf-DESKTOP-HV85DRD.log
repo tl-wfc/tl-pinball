@@ -1,0 +1,55 @@
+2026-02-15 15:04:16,566 : INFO : root : Loading config.
+2026-02-15 15:04:16,569 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-15 15:04:16,570 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-15 15:04:16,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 15:04:16,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-15 15:04:16,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 15:04:16,661 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-15 15:04:16,661 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-15-15-04-16-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-15-15-04-16-mpf-DESKTOP-HV85DRD.log'}
+2026-02-15 15:04:16,661 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-15 15:04:16,661 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-15 15:04:16,661 : INFO : Machine : Platform: win32
+2026-02-15 15:04:16,661 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-15 15:04:16,662 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-15 15:04:16,663 : INFO : Machine : Initializing MPF...
+2026-02-15 15:04:16,769 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-15 15:04:16,774 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-15 15:04:16,783 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-15 15:04:16,815 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-15 15:04:16,831 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-15 15:04:16,847 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-15 15:04:16,863 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-15 15:04:16,865 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-15 15:04:16,869 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-15 15:04:16,879 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-15 15:04:16,895 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-15 15:04:16,927 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-15 15:04:16,943 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-15 15:04:16,959 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-15 15:04:16,974 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-15 15:04:16,998 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.55, 'prev_value': None, 'change': True}
+2026-02-15 15:04:16,998 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-15 15:04:16,998 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-15 15:04:16,998 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-15 15:04:16,999 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-15-15-04-16-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-15 15:04:17,098 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-15 15:04:17,128 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-02-15 15:04:17,128 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-02-15 15:04:19,735 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-02-15 15:04:19,735 : INFO : SwitchController : <<<<<<< 's_72_single_drop_1' active >>>>>>>
+2026-02-15 15:04:19,782 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-02-15 15:04:19,782 : INFO : SwitchController : Found active switch: (23, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-02-15 15:04:19,783 : INFO : SwitchController : Found active switch: (56, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+2026-02-15 15:04:19,786 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-02-15 15:04:19,787 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-02-15 15:04:28,010 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-15 15:04:28,010 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-15 15:04:28,010 : INFO : Machine : Shutting down...
+2026-02-15 15:04:28,011 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-15 15:04:29,115 : INFO : root : MPF run loop ended.
