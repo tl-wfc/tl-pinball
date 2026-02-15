@@ -3,7 +3,10 @@
 game:
   balls_per_game: 3
   max_players: 1
-
+machine:
+  balls_installed: 1 #How many balls are physically in your game
+  min_balls: 1 #How few balls can be accounted for before you can start a game
+#
 # --------------------
 # CONFIG::FILES
 # --------------------

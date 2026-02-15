@@ -53,3 +53,60 @@ autofire_coils:
         switch: s_56_pop_bumper_right
         disable_events: ball_ending
         enable_events: ball_started
+# ------------------------
+# CONFIG:Drop Target Smart Single
+# ------------------------ 
+drop_targets:
+  dt_single:
+    switch: s_72_single_drop_1         # switch that tells you the target is DOWN
+    reset_coil: c_31_single_drop_1_reset # coil that resets it UP
+    knockdown_coil: c_30_single_drop_1_trip  # coil that trips it DOWN
+# ------------------------
+# CONFIG:Drop Target Bank
+# ------------------------ 
+drop_targets:
+  dt_1:
+    switch: s_73_fourbank_drop_1
+    reset_coil: c_40_fourbank_drop_reset
+    knockdown_coil: c_33_fourbank_drop_1_trip
+
+  dt_2:
+    switch: s_74_fourbank_drop_2
+    reset_coil: c_40_fourbank_drop_reset
+    knockdown_coil: c_34_fourbank_drop_2_trip
+
+  dt_3:
+    switch: s_75_fourbank_drop_3
+    reset_coil: c_40_fourbank_drop_reset
+    knockdown_coil: c_35_fourbank_drop_3_trip
+
+  dt_4:
+    switch: s_76_fourbank_drop_4
+    reset_coil: c_40_fourbank_drop_reset
+    knockdown_coil: c_36_fourbank_drop_4_trip
+
+  dt_5:
+    switch: s_77_threebank_drop_1
+    reset_coil: c_32_threebank_drop_reset
+    knockdown_coil: c_37_threebank_drop_1_trip
+
+  dt_6:
+    switch: s_78_threebank_drop_2
+    reset_coil: c_32_threebank_drop_reset
+    knockdown_coil: c_38_threebank_drop_2_trip
+
+  dt_7:
+    switch: s_79_threebank_drop_3
+    reset_coil: c_32_threebank_drop_reset
+    knockdown_coil: c_39_threebank_drop_3_trip
+
+
+# Two banks because you have two physical reset coils
+drop_target_banks:
+  dt_bank_1_4:
+    drop_targets: dt_1, dt_2, dt_3, dt_4
+    reset_coil: c_40_fourbank_drop_reset
+
+  dt_bank_5_7:
+    drop_targets: dt_5, dt_6, dt_7
+    reset_coil: c_32_threebank_drop_reset
