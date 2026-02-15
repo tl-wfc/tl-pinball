@@ -26,13 +26,13 @@ coil_player:
     c_36_fourbank_drop_4_trip: pulse
   
   test_trip_dt5:
-    c_31_single_drop_1_reset: pulse
+    c_37_threebank_drop_1_trip: pulse
 
   test_trip_dt6:
-    c_30_single_drop_1_trip: pulse
+    c_38_threebank_drop_2_trip: pulse
 
   test_trip_dt7:
-    c_31_single_drop_1_reset: pulse
+    c_39_threebank_drop_3_trip: pulse
 
   test_reset_3bank:
     c_32_threebank_drop_reset: pulse
@@ -73,7 +73,7 @@ coil_player:
   test_right_top_flipper_main:
     c_10_right_top_flipper_main: pulse
 
-  test_right_flipper_hold:
+  test_right_top_flipper_hold:
     c_09_right_top_flipper_hold: pulse
 
   test_left_sling:
