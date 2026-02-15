@@ -12,8 +12,8 @@ mode_settings:
     - last_scores_3p{machine.player3_score and not machine.player4_score}
     - last_scores_1p{machine.player4_score}
     - mpf_logo
-  next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete
-  previous_item_events: s_flipper_left_active
+  next_item_events: s_16_right_flipper_active, timer_attract_carousel_timer_complete
+  previous_item_events: s_08_left_flipper_active
 
 slide_player:
   mode_attract_started: attract

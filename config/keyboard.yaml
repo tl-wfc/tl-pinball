@@ -5,3 +5,7 @@ keyboard:
     event: test_trip_single
   r:
     event: test_reset_single
+  z:
+    event: test_trip_single
+  x:
+    event: test_reset_single

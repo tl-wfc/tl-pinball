@@ -12,9 +12,9 @@ script = ExtResource("1_73kwx")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
-offset_right = 1280.0
-offset_bottom = 1024.0
-color = Color(0.0807198, 0.223581, 0.592665, 1)
+offset_right = 606.0
+offset_bottom = 416.0
+color = Color(0.4542, 0.0679611, 0.357773, 1)
 
 [node name="MPFCarousel" type="Control" parent="."]
 anchors_preset = 0
@@ -27,16 +27,13 @@ carousel_name = "attract"
 
 [node name="title" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_right = 1282.0
-offset_bottom = 1021.0
-theme_override_font_sizes/font_size = 80
+offset_right = 631.0
+offset_bottom = 387.0
+theme_override_font_sizes/font_size = 140
 text = "They Live
 We Sleep"
-horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="credits" type="Label" parent="MPFCarousel"]
-visible = false
 layout_mode = 0
 offset_right = 1286.0
 offset_bottom = 1018.0
@@ -49,16 +46,14 @@ variable_type = 2
 variable_name = "credits_string"
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
-visible = false
 position = Vector2(648, 512)
 texture = ExtResource("4_87220")
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
-visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
-offset_right = 1287.0
-offset_bottom = 1024.0
+offset_right = 492.0
+offset_bottom = 429.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1
@@ -70,7 +65,6 @@ comma_separate = true
 min_digits = 2
 
 [node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
-visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
 offset_left = 3.0
@@ -103,7 +97,6 @@ comma_separate = true
 min_digits = 2
 
 [node name="last_scores_3" type="Node2D" parent="MPFCarousel"]
-visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3"]
 offset_left = 5.0
@@ -151,7 +144,6 @@ comma_separate = true
 min_digits = 2
 
 [node name="last_scores_4" type="Node2D" parent="MPFCarousel"]
-visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4"]
 offset_left = 4.0
@@ -184,10 +176,10 @@ comma_separate = true
 min_digits = 2
 
 [node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4"]
-offset_left = 2.0
-offset_top = 438.0
-offset_right = 1289.0
-offset_bottom = 548.0
+offset_left = -498.0
+offset_top = -23.0
+offset_right = 789.0
+offset_bottom = 87.0
 theme_override_font_sizes/font_size = 80
 text = "123,456"
 horizontal_alignment = 1

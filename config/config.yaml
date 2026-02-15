@@ -2,7 +2,7 @@
 #
 game:
   balls_per_game: 3
-  max_players: 1
+  max_players: 4
 machine:
   balls_installed: 1 #How many balls are physically in your game
   min_balls: 1 #How few balls can be accounted for before you can start a game
@@ -86,13 +86,13 @@ fast:
 # ------------------------ 
 modes:
     - attract
-    - service
-    - base
+    #- service
+    #- base
 
 # ------------------------
 # PLAYFIELDS:
 # ------------------------ 
 playfields:
     playfield:
-        tags: default
         default_source_device: bd_trough
+        tags: default
