@@ -17,7 +17,7 @@ config:
   - device_config_game.yaml
   - device_config_iomap.yaml
   - device_config_iomap_coils.yaml
-  - keyboard.yaml
+#  - keyboard.yaml
 
 # ------------------------
 # CONFIG::MPF
