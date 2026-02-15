@@ -17,7 +17,8 @@ config:
   - device_config_game.yaml
   - device_config_iomap.yaml
   - device_config_iomap_coils.yaml
-#  - keyboard.yaml
+  - config_testing.yaml
+
 
 # ------------------------
 # CONFIG::MPF
@@ -96,10 +97,3 @@ playfields:
     playfield:
         default_source_device: bd_trough
         tags: default
-
-coil_player:
-  test_trip_single:
-    c_30_single_drop_1_trip: pulse
-
-  test_reset_single:
-    c_31_single_drop_1_reset: pulse

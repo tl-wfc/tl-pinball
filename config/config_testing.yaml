@@ -1,0 +1,83 @@
+#config_version=6
+#
+coil_player:
+  test_trip_single:
+    c_30_single_drop_1_trip: pulse
+
+  test_reset_single:
+    c_31_single_drop_1_reset: pulse
+
+  saucer_right_eject:
+    c_15_saucer_right: pulse
+
+  saucer_left_eject:
+    c_29_saucer_left: pulse
+  
+  test_trip_dt1:
+    c_33_fourbank_drop_1_trip: pulse
+
+  test_trip_dt2:
+    c_34_fourbank_drop_2_trip: pulse
+
+  test_trip_dt3:
+    c_35_fourbank_drop_3_trip: pulse
+
+  test_trip_dt4:
+    c_36_fourbank_drop_4_trip: pulse
+  
+  test_trip_dt5:
+    c_31_single_drop_1_reset: pulse
+
+  test_trip_dt6:
+    c_30_single_drop_1_trip: pulse
+
+  test_trip_dt7:
+    c_31_single_drop_1_reset: pulse
+
+  test_reset_3bank:
+    c_32_threebank_drop_reset: pulse
+
+  test_reset_4bank:
+    c_40_fourbank_drop_reset: pulse
+  
+  test_reset_vari:
+    c_16_varitarget_reset: pulse
+
+  test_pop_center:
+    c_12_pop_bumper_center: pulse
+
+  test_pop_right:
+    c_13_pop_bumper_right: pulse
+
+  test_pop_left:
+    c_14_pop_bumper_left: pulse
+
+  test_plunger:
+    c_01_plunger: pulse
+
+  test_trough_eject:
+    c_02_trough_eject: pulse
+
+  test_left_flipper_main:
+    c_03_left_flipper_main: pulse
+
+  test_left_flipper_hold:
+    c_04_left_flipper_hold: pulse
+
+  test_right_flipper_main:
+    c_05_right_flipper_main: pulse
+
+  test_right_flipper_hold:
+    c_06_right_flipper_hold: pulse
+
+  test_right_top_flipper_main:
+    c_10_right_top_flipper_main: pulse
+
+  test_right_flipper_hold:
+    c_09_right_top_flipper_hold: pulse
+
+  test_left_sling:
+    c_07_left_sling: pulse
+
+  test_right_sling:
+    c_08_right_sling: pulse
