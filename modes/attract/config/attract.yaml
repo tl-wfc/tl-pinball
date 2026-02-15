@@ -22,8 +22,6 @@ slide_player:
 #   mode_attract_started.1: 
 #     output7:
 #       speed: 8
-    
-
 sound_player:
   mode_attract_started:
     intro_music:
