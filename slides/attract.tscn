@@ -96,9 +96,9 @@ variable_name = "player2_score"
 comma_separate = true
 min_digits = 2
 
-[node name="last_scores_3" type="Node2D" parent="MPFCarousel"]
+[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
 
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3"]
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 offset_left = 5.0
 offset_top = 101.0
 offset_right = 1292.0
@@ -113,7 +113,7 @@ variable_name = "player1_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3"]
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 offset_left = 4.0
 offset_top = 454.0
 offset_right = 1291.0
@@ -128,7 +128,7 @@ variable_name = "player2_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3"]
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 offset_left = 3.0
 offset_top = 741.0
 offset_right = 1290.0
@@ -143,9 +143,9 @@ variable_name = "player3_score"
 comma_separate = true
 min_digits = 2
 
-[node name="last_scores_4" type="Node2D" parent="MPFCarousel"]
+[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
 
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4"]
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_left = 4.0
 offset_top = 59.0
 offset_right = 1291.0
@@ -160,7 +160,7 @@ variable_name = "player1_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4"]
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_left = 3.0
 offset_top = 278.0
 offset_right = 1290.0
@@ -175,7 +175,7 @@ variable_name = "player2_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4"]
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_left = -498.0
 offset_top = -23.0
 offset_right = 789.0
@@ -190,7 +190,7 @@ variable_name = "player3_score"
 comma_separate = true
 min_digits = 2
 
-[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4"]
+[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_left = -1.0
 offset_top = 667.0
 offset_right = 1286.0
