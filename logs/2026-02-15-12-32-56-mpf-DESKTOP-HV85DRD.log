@@ -1,0 +1,21 @@
+2026-02-15 12:32:56,959 : INFO : root : Loading config.
+2026-02-15 12:32:56,962 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-15 12:32:56,963 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 12:32:56,963 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-15 12:32:56,963 : DEBUG : YAML File Interface : Loading file: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-15 12:32:56,975 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-15 12:32:56,975 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-15 12:32:56,975 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 12:32:56,977 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 12:32:56,977 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-15 12:32:56,978 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-15 12:32:56,978 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-15 12:32:56,978 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-15 12:32:56,978 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-15 12:32:56,978 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\keyboard.yaml
+2026-02-15 12:32:56,978 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\keyboard.yaml

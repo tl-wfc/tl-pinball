@@ -1,0 +1,35 @@
+2026-02-15 11:13:59,287 : INFO : root : Loading config.
+2026-02-15 11:13:59,290 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-15 11:13:59,290 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 11:13:59,291 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-02-15 11:13:59,291 : DEBUG : YAML File Interface : Loading file: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-15 11:13:59,303 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-02-15 11:13:59,303 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-02-15 11:13:59,303 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 11:13:59,305 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-02-15 11:13:59,305 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-15 11:13:59,306 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-02-15 11:13:59,306 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-15 11:13:59,308 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-02-15 11:13:59,308 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-15 11:13:59,323 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-02-15 11:13:59,323 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-15 11:13:59,327 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-02-15 11:13:59,327 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-15 11:13:59,330 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-02-15 11:13:59,332 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-15 11:13:59,420 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 11:13:59,420 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 11:13:59,420 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 11:13:59,421 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-15 11:13:59,421 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-15 11:13:59,422 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 11:13:59,422 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 11:13:59,422 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 11:13:59,422 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\mpf\Lib\site-packages\mpf\modes\service\config\service.yaml
+2026-02-15 11:13:59,423 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d3b5ebc494e9a7257164cf172f94bef.mpf_cache
+2026-02-15 11:13:59,423 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\mpf\Lib\site-packages\mpf\modes\base\config\base.yaml
+2026-02-15 11:13:59,424 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml
+2026-02-15 11:13:59,424 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml.
+2026-02-15 11:13:59,424 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml
+2026-02-15 11:13:59,425 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml

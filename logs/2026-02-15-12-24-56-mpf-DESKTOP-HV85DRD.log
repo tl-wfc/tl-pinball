@@ -1,0 +1,213 @@
+2026-02-15 12:24:56,088 : INFO : root : Loading config.
+2026-02-15 12:24:56,088 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-02-15 12:24:56,088 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 12:24:56,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode game from C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-02-15 12:24:56,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-02-15 12:24:56,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode service from C:\mpf\Lib\site-packages\mpf\modes\service\config\service.yaml
+2026-02-15 12:24:56,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d3b5ebc494e9a7257164cf172f94bef.mpf_cache
+2026-02-15 12:24:56,196 : DEBUG : YamlMultifileConfigLoader : Loading mode base from C:\mpf\Lib\site-packages\mpf\modes\base\config\base.yaml
+2026-02-15 12:24:56,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-02-15 12:24:56,196 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-02-15 12:24:56,196 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-02-15-12-24-56-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-15-12-24-56-mpf-DESKTOP-HV85DRD.log'}
+2026-02-15 12:24:56,196 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-02-15 12:24:56,196 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-02-15 12:24:56,196 : INFO : Machine : Platform: win32
+2026-02-15 12:24:56,196 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-02-15 12:24:56,196 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-02-15 12:24:56,196 : DEBUG : asyncio : Using proactor: IocpProactor
+2026-02-15 12:24:56,196 : INFO : Machine : Initializing MPF...
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819B69D80>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D85F20>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D860C0>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000024819D8B040>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Blur: <mpf.core.text_ui.MpfLayout object at 0x0000024819BEC360>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D864D0>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D86400>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D865A0>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D86330>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D86260>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.widget : Widget blur: <asciimatics.widgets.label.Label object at 0x0000024819D86190>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Blur: <asciimatics.widgets.layout.Layout object at 0x0000024819D8B0A0>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000024819D8B040>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Focus: <mpf.core.text_ui.MpfLayout object at 0x0000024819BEC360>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Focus: <asciimatics.widgets.layout.Layout object at 0x0000024819D8B0A0>
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.frame : Cloning: Test
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.widgets.layout : Updating: None
+2026-02-15 12:24:56,305 : DEBUG : asciimatics.screen : Processing key: d
+2026-02-15 12:24:56,446 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-02-15 12:24:56,462 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-02-15 12:24:56,477 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-02-15 12:24:56,509 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-02-15 12:24:56,524 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-15 12:24:56,540 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-02-15 12:24:56,556 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-02-15 12:24:56,556 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-02-15 12:24:56,556 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-02-15 12:24:56,556 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledneuron" (FP-EXP-2000 Address: 48)
+2026-02-15 12:24:56,556 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledneuron" (FP-EXP-2000, @48)
+2026-02-15 12:24:56,571 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-02-15 12:24:56,587 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-02-15 12:24:56,603 : DEBUG : FAST [EXP] : Creating FAST Expansion Board "ledpf1" (FP-EXP-0081 Address: 84)
+2026-02-15 12:24:56,603 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 0 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-15 12:24:56,603 : DEBUG : FAST [EXP] : Creating FAST Breakout Board 1 on EXP "ledpf1" (FP-EXP-0081, @84)
+2026-02-15 12:24:56,618 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-02-15 12:24:56,634 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-02-15 12:24:56,664 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-02-15 12:24:56,680 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,696 : DEBUG : YAML File Interface : Loading file: C:\Users\tl\Documents\tl-pinball\data/machine_vars.yaml
+2026-02-15 12:24:56,696 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.55, 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,696 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,696 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,696 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,696 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-02-15-12-24-56-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-02-15 12:24:56,852 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-02-15 12:24:56,852 : DEBUG : ModeController : Loaded mode game
+2026-02-15 12:24:56,852 : DEBUG : ModeController : Loaded mode base
+2026-02-15 12:24:56,867 : DEBUG : ModeController : Loaded mode attract
+2026-02-15 12:24:56,867 : DEBUG : ModeController : Loaded mode service
+2026-02-15 12:24:56,883 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48000
+2026-02-15 12:24:56,883 : DEBUG : FASTLED : Creating FAST RGB LED on expansion board at hardware address: 48001
+2026-02-15 12:24:56,883 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-02-15 12:24:56,883 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-02-15 12:24:58,705 : DEBUG : FAST Driver : Sending config to driver 4 (0x04). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:58,736 : DEBUG : FAST Driver : Sending config to driver 5 (0x05). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:58,783 : DEBUG : FAST Driver : Sending config to driver 7 (0x07). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:58,814 : DEBUG : FAST Driver : Sending config to driver 8 (0x08). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:58,845 : DEBUG : FAST Driver : Sending config to driver 9 (0x09). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,087 : DEBUG : FAST Driver : Sending config to driver 22 (0x16). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,119 : DEBUG : FAST Driver : Sending config to driver 23 (0x17). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,151 : DEBUG : FAST Driver : Sending config to driver 24 (0x18). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,196 : DEBUG : FAST Driver : Sending config to driver 25 (0x19). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,227 : DEBUG : FAST Driver : Sending config to driver 26 (0x1A). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,259 : DEBUG : FAST Driver : Sending config to driver 27 (0x1B). one_shot: False. wait_to_confirm: False
+2026-02-15 12:24:59,618 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-02-15 12:24:59,618 : INFO : SwitchController : <<<<<<< 's_72_single_drop_1' active >>>>>>>
+2026-02-15 12:24:59,618 : INFO : SwitchController : <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+2026-02-15 12:24:59,666 : ERROR : ConfigValidator : Your config contains a value for the setting "coil_player:delay", but this is not a valid setting name.
+2026-02-15 12:24:59,666 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...tting name.')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...tting name.')>)>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 78, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 144, in _parse_config
+    return self.get_full_config(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 216, in get_full_config
+    return self.machine.config_validator.validate_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player ball_starting:coils with settings {'c_30_single_drop_1_trip': {'action': 'pulse', 'delay': '5s'}} >> Your config contains a value for the setting "coil_player:delay", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-02-15 12:24:59,681 : INFO : Machine : Starting the main run loop with active modes: []
+2026-02-15 12:24:59,681 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-02-15 12:24:59,681 : INFO : Machine : Shutting down...
+2026-02-15 12:24:59,681 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-02-15 12:24:59,790 : DEBUG : FAST [NET] : Stop called on serial connection NET
+2026-02-15 12:24:59,790 : DEBUG : FAST [EXP] : Stop called on serial connection EXP
+2026-02-15 12:25:00,805 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 78, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 144, in _parse_config
+    return self.get_full_config(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_player.py", line 216, in get_full_config
+    return self.machine.config_validator.validate_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player ball_starting:coils with settings {'c_30_single_drop_1_trip': {'action': 'pulse', 'delay': '5s'}} >> Your config contains a value for the setting "coil_player:delay", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-02-15 12:25:00,805 : INFO : root : MPF run loop ended.

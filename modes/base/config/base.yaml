@@ -8,29 +8,12 @@ mode:
   stop_events: ball_ended
   priority: 100
 
-# Reset both physical reset groups at the start of each ball
 event_player:
-  ball_starting:
+  mode_base_started:
+    - drop_target_dt_single_reset
     - drop_target_bank_dt_bank_1_4_reset
     - drop_target_bank_dt_bank_5_7_reset
-      # After 5 seconds, trip target 1
-    - knock_dt_1|5s
+    - drop_target_dt_single_knockdown|5s
 
-# Optional: define friendly events to knock down individual targets
-# You can delete this whole block if you prefer to knock coils directly elsewhere,
-# but using knockdown_events keeps MPF device state in sync.
-drop_targets:
-  dt_1:
-    knockdown_events: knock_dt_1
-  dt_2:
-    knockdown_events: knock_dt_2
-  dt_3:
-    knockdown_events: knock_dt_3
-  dt_4:
-    knockdown_events: knock_dt_4
-  dt_5:
-    knockdown_events: knock_dt_5
-  dt_6:
-    knockdown_events: knock_dt_6
-  dt_7:
-    knockdown_events: knock_dt_7
+
+

@@ -17,13 +17,16 @@ config:
   - device_config_game.yaml
   - device_config_iomap.yaml
   - device_config_iomap_coils.yaml
-#  - keyboard.yaml
+  - keyboard.yaml
 
 # ------------------------
 # CONFIG::MPF
 # ------------------------
 mpf:
-   default_light_hw_update_hz: 24
+  default_light_hw_update_hz: 24
+
+
+
 # ------------------------
 # CONFIG::HARDWARE
 # ------------------------
@@ -93,6 +96,3 @@ playfields:
     playfield:
         tags: default
         default_source_device: bd_trough
-
-
-

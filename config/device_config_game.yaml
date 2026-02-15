@@ -64,7 +64,7 @@ drop_targets:
 # ------------------------
 # CONFIG:Drop Target Bank
 # ------------------------ 
-drop_targets:
+
   dt_1:
     switch: s_73_fourbank_drop_1
     reset_coil: c_40_fourbank_drop_reset

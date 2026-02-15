@@ -150,10 +150,10 @@ coils:
 # ------------------------ 
     c_30_single_drop_1_trip:
         number: pf3-5
-        default_pulse_ms: 10
+        default_pulse_ms: 40
     c_31_single_drop_1_reset:
         number: pf3-6
-        default_pulse_ms: 10
+        default_pulse_ms: 20
 # ------------------------
 # CONFIG:COILS - DROP TARGET 3-BANK
 # ------------------------ 
