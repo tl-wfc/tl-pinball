@@ -4,8 +4,8 @@
 # Released under the MIT License
 
 
-extends LoggingNode
 class_name GMCGame
+extends GMCCoreScriptNode
 
 # The list of modes currently active in MPF
 var active_modes := []
@@ -42,7 +42,8 @@ signal player_added(total_players)
 signal credits
 signal volume(bus, value, change)
 
-func _init() -> void:
+func _init(mpf_instance: MPFGMC) -> void:
+	super(mpf_instance)
 	randomize()
 
 func add_player(kwargs: Dictionary) -> void:
@@ -59,7 +60,7 @@ func add_player(kwargs: Dictionary) -> void:
 		"number": kwargs.player_num
 	})
 	num_players = players.size()
-	emit_signal("player_added", num_players)
+	player_added.emit(num_players)
 
 # Called with a dynamic path value, must use load()
 func preload_scene(path: String, delay_secs: int = 0, persist: bool = false) -> void:
@@ -83,7 +84,7 @@ func reset() -> void:
 			tracker.clear()
 			# Restore the value
 			tracker["_reset_on_game_end"] = true
-	emit_signal("game_started")
+	game_started.emit()
 
 func retrieve_preloaded_scene(path: String) -> PackedScene:
 	var scene: PackedScene
@@ -114,11 +115,11 @@ func update_machine(kwargs: Dictionary) -> void:
 
 	else:
 		machine_vars[var_name] = value
-		emit_signal("machine_update", var_name, value)
+		machine_update.emit(var_name, value)
 		if var_name.begins_with("credits"):
-			emit_signal("credits", var_name, kwargs)
+			credits.emit(var_name, kwargs)
 		elif var_name.ends_with("_volume"):
-			emit_signal("volume", var_name, value, kwargs.get("change", 0))
+			volume.emit(var_name, value, kwargs.get("change", 0))
 	# If this machine var is a setting, update the value of the setting
 	if settings.has(var_name):
 		settings[var_name].value = value
@@ -141,7 +142,7 @@ func update_player(kwargs: Dictionary) -> void:
 			if kwargs.name in auto_signal_vars:
 				emit_signal(kwargs.name, kwargs.value)
 			# Also broadcast the general update for all subscribers
-			emit_signal("player_update", kwargs.name, kwargs.value)
+			player_update.emit(kwargs.name, kwargs.value)
 
 func update_settings(result: Dictionary) -> void:
 	var _settingType: String
@@ -154,7 +155,7 @@ func update_settings(result: Dictionary) -> void:
 		s.priority = option[2]
 		s.variable = option[3]
 		# Convert the setting value to the appropriate data type
-		var cvrt = Callable(MPF.util, "to_float") if s.variable in self.settings_with_floats else Callable(MPF.util, "to_int")
+		var cvrt = Callable(self.mpf.util, "to_float") if s.variable in self.settings_with_floats else Callable(self.mpf.util, "to_int")
 		s.default = cvrt.call(option[4])
 		# Watch for true/false passed as strings, and convert to int 1 or 0
 		if typeof(s.default) == TYPE_STRING and s.default == "True":

@@ -1,4 +1,5 @@
 class_name GMCUtil
+extends Node
 
 ## Traverse a node and find all MPFVariable nodes within it
 static func find_variables(n: Node, acc: Array[Node] = []) -> Array[Node]:
@@ -24,6 +25,16 @@ static func find_parent_slide(n: Node, allow_widget: bool = false):
 
 static func find_parent_slide_or_widget(n: Node):
 	return find_parent_slide(n, true)
+
+static func find_parent_display(n: Node):
+	var parent = n
+	while parent:
+		if parent is MPFDisplay:
+			return parent
+		parent = parent.get_parent()
+	if not parent:
+		printerr("No parent display found for %s" % n.name)
+		return
 
 static func find_parent_window(n: Node):
 	var parent = n

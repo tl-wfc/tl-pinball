@@ -1,206 +1,44 @@
-[gd_scene load_steps=5 format=3 uid="uid://ci1ev5vr00m04"]
+[gd_scene load_steps=3 format=3 uid="uid://ci1ev5vr00m04"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_d2e70"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_g4dw3"]
-[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_87220"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_73kwx")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_right = 606.0
-offset_bottom = 416.0
-color = Color(0.4542, 0.0679611, 0.357773, 1)
-
 [node name="MPFCarousel" type="Control" parent="."]
 anchors_preset = 0
-offset_left = -2.0
-offset_top = 5.0
-offset_right = 1274.0
-offset_bottom = 1020.0
+offset_right = 40.0
+offset_bottom = 40.0
 script = ExtResource("2_d2e70")
 carousel_name = "attract"
 
 [node name="title" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_right = 631.0
-offset_bottom = 387.0
-theme_override_font_sizes/font_size = 140
-text = "They Live
-We Sleep"
+offset_right = 622.0
+offset_bottom = 137.0
+theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "title"
 
 [node name="credits" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_right = 1286.0
-offset_bottom = 1018.0
-theme_override_font_sizes/font_size = 80
-text = "SAMPLE TEXT"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "credits_string"
+offset_left = 1681.0
+offset_top = -1.0
+offset_right = 2303.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "credits"
 
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
-position = Vector2(648, 512)
-texture = ExtResource("4_87220")
-
-[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
-offset_right = 492.0
-offset_bottom = 429.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-
-[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_left = 3.0
-offset_top = 221.0
-offset_right = 1290.0
-offset_bottom = 380.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_left = 3.0
-offset_top = 651.0
-offset_right = 1290.0
-offset_bottom = 788.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-
-[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_left = 5.0
-offset_top = 101.0
-offset_right = 1292.0
-offset_bottom = 211.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_left = 4.0
-offset_top = 454.0
-offset_right = 1291.0
-offset_bottom = 564.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_left = 3.0
-offset_top = 741.0
-offset_right = 1290.0
-offset_bottom = 851.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player3_score"
-comma_separate = true
-min_digits = 2
-
-[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_left = 4.0
-offset_top = 59.0
-offset_right = 1291.0
-offset_bottom = 187.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_left = 3.0
-offset_top = 278.0
-offset_right = 1290.0
-offset_bottom = 388.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_left = -498.0
-offset_top = -23.0
-offset_right = 789.0
-offset_bottom = 87.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player3_score"
-comma_separate = true
-min_digits = 2
-
-[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_left = -1.0
-offset_top = 667.0
-offset_right = 1286.0
-offset_bottom = 777.0
-theme_override_font_sizes/font_size = 80
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_g4dw3")
-variable_type = 2
-variable_name = "player4_score"
-comma_separate = true
-min_digits = 2
+[node name="mpf_logo" type="Label" parent="MPFCarousel"]
+layout_mode = 0
+offset_left = 1569.0
+offset_top = 1364.0
+offset_right = 2191.0
+offset_bottom = 1501.0
+theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "mpf_logo"

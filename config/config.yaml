@@ -89,7 +89,7 @@ fast:
 modes:
     - attract
     #- service
-    #- base
+    - base
 
 # ------------------------
 # PLAYFIELDS:
