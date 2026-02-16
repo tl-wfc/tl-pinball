@@ -5,3 +5,156 @@ mpf/Scripts/Activate.ps1
 cd C:\Users\tl\Documents\tl-pinball
 
 mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
+
+Power Shell Commands
+
+mpf
+What it does
+Connects to FAST hardware
+Enables coils, switches, lights
+Starts attract mode
+Runs game logic
+Opens BCP connection (Godot can connect)
+
+Use for:
+• playing the machine
+• final testing
+• cabinet use
+
+
+
+mpf -x
+Hardware mode without media controller
+Meaning:
+“Run the pinball machine but no display computer.”
+
+FAST hardware active
+coils fire
+switches work
+Godot not required
+
+Use for:
+• diagnosing FAST connection issues
+• coil problems
+• power board problems
+• serial connection every-second-boot issue
+
+
+mpf -b
+Display / logic development mode (NO hardware)
+
+What it disables
+FAST boards
+coils
+switches
+
+What it keeps
+scoring
+modes
+player variables
+events
+BCP (Godot communication)
+
+mpf -t
+Virtual platform (keyboard switches)
+
+Adds:
+keyboard simulated switches
+fake ball devices
+Use for:
+• testing gameplay without a machine
+
+
+mpf -xt
+slide-development mode (GMC)
+
+Meaning:
+no FAST hardware
+virtual switches
+perfect for Godot
+This is the intended MPF + GMC workflow.
+
+
+
+
+
+
+
+Live event & switch viewer (extremely important)
+
+mpf monitor
+
+Shows:
+every switch hit
+every event
+mode changes
+ball controller
+scoring
+
+
+
+
+Device test shell
+mpf test
+Interactive testing:
+fire coils manually
+read switches
+inspect devices
+
+
+
+mpf diagnosis
+Machine diagnostic report
+
+Prints:
+config validation
+devices detected
+platform info
+Good for “MPF refuses to start” situations.
+
+
+
+
+
+Verbose log
+mpf -v
+
+
+Very verbose log
+mpf -V
+
+
+--no-load-cache
+Forces MPF to reload YAML configs
+mpf --no-load-cache
+
+
+
+
+-l <file>
+Write a log file
+mpf -l mpf.log
+Very useful when diagnosing crashes.
+
+
+-c <configfile>
+Use a specific config
+mpf -c config.yaml
+
+
+
+Combined examples (real workflows)
+Working on Godot slides
+mpf -xt -v --no-load-cache
+
+Playing the real machine
+mpf -v
+
+Debugging FAST hardware
+mpf -x -v
+
+Watching switch inputs
+mpf monitor
+
+Deep debugging
+mpf -V --no-load-cache

@@ -39,7 +39,7 @@ hardware:
 # ------------------------
 # CONFIG::FAST
 # ------------------------
-#stop
+#stop1
 fast:
   net:
     port: COM4
