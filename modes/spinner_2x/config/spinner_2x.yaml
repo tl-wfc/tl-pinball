@@ -1,0 +1,9 @@
+#config_version=6
+
+mode:
+  start_events: spinner_2x_start
+  stop_events: spinner_2x_stop, ball_will_end
+  priority: 200
+
+config:
+  - spinner_2x_points.yaml

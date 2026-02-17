@@ -1,0 +1,9 @@
+#config_version=6
+
+# Bonus points while spinner_2x is active
+variable_player:
+  s_71_spinner_left_active:
+    score: 10000
+
+  s_44_spinner_right_active:
+    score: 10000

@@ -1,0 +1,20 @@
+#config_version=6
+
+# Normal scoring (base mode)
+# - Top lane rollover: 5000
+# - Spinner: 10000
+
+variable_player:
+  # Top lanes (toggle logic is handled in base.yaml, but points are here)
+  s_60_top_lane_c_active:
+    score: 5000
+  s_61_top_lane_b_active:
+    score: 5000
+  s_62_top_lane_a_active:
+    score: 5000
+
+  # Spinners (base points)
+  s_71_spinner_left_active:
+    score: 10000
+  s_44_spinner_right_active:
+    score: 10000

@@ -12,6 +12,8 @@ when running on warrens Laptop
 mpf -xt
 and start Godot
 
+run another window in the virtul env and run
+mpf mon
 
 mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
 
