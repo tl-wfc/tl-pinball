@@ -5,17 +5,21 @@ mpf/Scripts/Activate.ps1
 machine
 cd C:\Users\tl\Documents\tl-pinball
 
+mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
+
+
+
 Warrens Laptop
 cd C:\C:\Users\warre\Documents\tl-pinball
 
 when running on warrens Laptop
-mpf -xt
+mpf -x (no hardware mode)
 and start Godot
 
 run another window in the virtul env and run
-mpf mon
+mpf monitor
 
-mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
+
 
 
 
