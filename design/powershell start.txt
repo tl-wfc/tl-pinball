@@ -2,9 +2,24 @@ cd C:\
 
 mpf/Scripts/Activate.ps1
 
+machine
 cd C:\Users\tl\Documents\tl-pinball
 
+Warrens Laptop
+cd C:\C:\Users\warre\Documents\tl-pinball
+
+when running on warrens Laptop
+mpf -xt
+and start Godot
+
+
 mpf both -x -G "C:\Godot_v4.3-stable_win64.exe"
+
+
+
+
+
+
 
 Power Shell Commands
 
