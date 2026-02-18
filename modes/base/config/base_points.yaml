@@ -1,11 +1,9 @@
 #config_version=6
 
 # Normal scoring (base mode)
-# - Top lane rollover: 5000
-# - Spinner: 10000
 
 variable_player:
-  # Top lanes (toggle logic is handled in base.yaml, but points are here)
+  # Top lanes
   s_60_top_lane_c_active:
     score: 5000
   s_61_top_lane_b_active:
@@ -13,8 +11,133 @@ variable_player:
   s_62_top_lane_a_active:
     score: 5000
 
+
+
   # Spinners (base points)
   s_71_spinner_left_active:
     score: 10000
   s_44_spinner_right_active:
     score: 10000
+
+
+
+  # Inlanes and outpanes (base points)
+  s_32_right_inlane_active:
+    score: 10000
+  s_33_right_outlane_active:
+    score: 67
+  s_35_left_inlane_active:
+    score: 10000
+  s_36_left_outlane_active:
+    score: 67
+ 
+
+
+  # Slings (base points)
+  s_34_right_sling_active:
+    score: 42
+  s_37_left_sling_active:
+    score: 42
+
+
+
+  # Rollovers (base points)
+  s_38_star_rollover_bottom_active:
+    score: 7500
+  s_39_star_rollover_top_active:
+    score: 7500
+
+
+
+  # individual standups (base points)
+  #impossible target
+  s_42_stand_up_target_1_active:
+    score: 42
+  # power shot past Left VUK
+  s_80_stand_up_target_2_active:
+    score: 42
+  # above top rollovers
+  s_63_stand_up_target_3_active:
+    score: 42
+  # rhs of right VUK
+  s_43_stand_up_target_4_active:
+    score: 42
+  #LHS of Vari target
+  s_40_stand_up_target_5_active:
+    score: 42
+  #RHS of Vari target
+  s_41_stand_up_target_6_active:
+    score: 42
+
+
+
+# POP BUMPERS (base points)
+  s_56_pop_bumper_right:
+  score: 42
+  s_57_pop_bumper_center:
+  score: 42
+  s_58_pop_bumper_left:
+  score: 42
+
+
+
+# SAUCERS  (base points)
+  s_81_saucer_left:
+  score: 42
+  s_59_saucer_right:
+  score: 42
+
+
+
+# VARI-TARGET (base points)
+  s_65_varitarget_poisition_2:
+  score: 42
+  s_66_varitarget_poisition_3:
+  score: 42
+  s_67_varitarget_poisition_4:
+  score: 42
+  s_68_varitarget_poisition_5:
+  score: 42
+  s_69_varitarget_poisition_6:
+  score: 42
+  s_70_varitarget_poisition_7:
+  score: 42
+
+
+
+# DROP TARGET SINGLE
+  s_72_single_drop_1:
+  score: 42
+
+
+
+# DROP TARGET 4-BANK
+  s_73_fourbank_drop_1:
+  score: 42
+  s_74_fourbank_drop_2:
+  score: 42
+  s_75_fourbank_drop_3:
+  score: 42
+  s_76_fourbank_drop_4:
+  score: 42
+  s_77_threebank_drop_1:
+  score: 42
+  s_78_threebank_drop_2:
+  score: 42
+  s_79_threebank_drop_3:
+  score: 42
+
+
+
+# Standups behind drops 6-BANK
+  s_82_stand_up_target_bank_1:
+  score: 42
+  s_83_stand_up_target_bank_2:
+  score: 42
+  s_84_stand_up_target_bank_3:
+  score: 42
+  s_85_stand_up_target_bank_4:
+  score: 42
+  s_86_stand_up_target_bank_5:
+  score: 42
+  s_87_stand_up_target_bank_6:
