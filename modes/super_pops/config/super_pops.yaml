@@ -1,8 +1,8 @@
 #config_version=6
 #super_pops.yaml
 mode:
-  start_events: game_started
-  stop_events: game_ended
+  start_events: mode_base_started
+  stop_events: mode_base_stopping, game_ended
   priority: 210
 
 config:
@@ -33,7 +33,9 @@ counters:
     count_complete_value: 5
     events_when_complete: super_pops_phase1_start
     enable_events: mode_super_pops_started
-    persist_state: true
+    reset_events: mode_super_pops_started
+    reset_on_complete: true
+    disable_on_complete: true
 
   super_pops_phase2_counter:
     count_events:
@@ -42,7 +44,10 @@ counters:
       - s_58_pop_bumper_left_active
     count_complete_value: 10
     events_when_complete: super_pops_phase2_start
-    persist_state: true
+    enable_events: super_pops_phase1_start
+    reset_events: super_pops_phase1_start
+    reset_on_complete: true
+    disable_on_complete: true
 
   super_pops_phase3_counter:
     count_events:
@@ -51,65 +56,116 @@ counters:
       - s_58_pop_bumper_left_active
     count_complete_value: 15
     events_when_complete: super_pops_phase3_start
-    persist_state: true
+    enable_events: super_pops_phase2_start
+    reset_events: super_pops_phase2_start
+    reset_on_complete: true
+    disable_on_complete: true
 
-  # repeats forever, every 100 hits after phase 3
   super_pops_mega_counter:
     count_events:
       - s_56_pop_bumper_right_active
       - s_57_pop_bumper_center_active
       - s_58_pop_bumper_left_active
     count_complete_value: 10
-    enable_events: super_pops_phase3_start
     events_when_complete: super_pops_mega_start
+    enable_events: super_pops_phase3_start
+    reset_events: super_pops_phase3_start
     reset_on_complete: true
     disable_on_complete: false
-    persist_state: true
+
 
 # -------------------------
 # TIMER
 # -------------------------
+# timers:
+#   super_pops_mult_timer:
+#     direction: down
+#     start_value: 1
+#     end_value: 0
+#     tick_interval: 1s
+#     control_events:
+#       - event: super_pops_timer_phase1
+#         action: jump
+#         value: mode_settings.phase1_time
+#       - event: super_pops_timer_phase1
+#         action: start
+
+#       - event: super_pops_timer_phase2
+#         action: jump
+#         value: mode_settings.phase2_time
+#       - event: super_pops_timer_phase2
+#         action: start
+
+#       - event: super_pops_timer_phase3
+#         action: jump
+#         value: mode_settings.phase3_time
+#       - event: super_pops_timer_phase3
+#         action: start
+
+#       - event: super_pops_timer_mega
+#         action: jump
+#         value: mode_settings.mega_time
+#       - event: super_pops_timer_mega
+#         action: start
 timers:
   super_pops_mult_timer:
     direction: down
-    start_value: 1
-    end_value: 0
     tick_interval: 1s
     control_events:
-      - event: super_pops_timer_phase1
+      - event: super_pops_timer_phase1_jump
         action: jump
-        value: mode_settings.phase1_time
-      - event: super_pops_timer_phase1
+        value: 10
+      - event: super_pops_timer_phase1_start
         action: start
 
-      - event: super_pops_timer_phase2
+      - event: super_pops_timer_phase2_jump
         action: jump
-        value: mode_settings.phase2_time
-      - event: super_pops_timer_phase2
+        value: 15
+      - event: super_pops_timer_phase2_start
         action: start
 
-      - event: super_pops_timer_phase3
+      - event: super_pops_timer_phase3_jump
         action: jump
-        value: mode_settings.phase3_time
-      - event: super_pops_timer_phase3
+        value: 15
+      - event: super_pops_timer_phase3_start
         action: start
 
-      - event: super_pops_timer_mega
+      - event: super_pops_timer_mega_jump
         action: jump
-        value: mode_settings.mega_time
-      - event: super_pops_timer_mega
+        value: 20
+      - event: super_pops_timer_mega_start
         action: start
+
 
 # -------------------------
 # EVENTS
 # -------------------------
 event_player:
+  super_pops_timer_phase1:
+    - super_pops_timer_phase1_jump
+    - super_pops_timer_phase1_start|0.1s
+
+  super_pops_timer_phase2:
+    - super_pops_timer_phase2_jump
+    - super_pops_timer_phase2_start|0.1s
+
+  super_pops_timer_phase3:
+    - super_pops_timer_phase3_jump
+    - super_pops_timer_phase3_start|0.1s
+
+  super_pops_timer_mega:
+    - super_pops_timer_mega_jump
+    - super_pops_timer_mega_start|0.1s
+ 
   super_pops_phase1_start:
     - super_pops_timer_phase1
+
   super_pops_phase2_start:
     - super_pops_timer_phase2
+
   super_pops_phase3_start:
     - super_pops_timer_phase3
+
   super_pops_mega_start:
     - super_pops_timer_mega
 
@@ -126,24 +182,25 @@ variable_player:
   super_pops_phase1_start:
     super_pops_multiplier:
       action: set
-      int: mode_settings.phase1_multiplier
+      int: 2
 
   super_pops_phase2_start:
     super_pops_multiplier:
       action: set
-      int: mode_settings.phase2_multiplier
+      int: 3
 
   super_pops_phase3_start:
     super_pops_multiplier:
       action: set
-      int: mode_settings.phase3_multiplier
+      int: 5
 
   super_pops_mega_start:
     super_pops_multiplier:
       action: set
-      int: mode_settings.mega_multiplier
+      int: 5
 
   timer_super_pops_mult_timer_complete:
     super_pops_multiplier:
       action: set
       int: 1
+

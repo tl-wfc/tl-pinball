@@ -1,5 +1,6 @@
 #config_version=6
 #super_pops_points.yaml
+# Super Pops scoring overlay (bonus points on top of base scoring)
 
 variable_player:
 
@@ -19,6 +20,14 @@ variable_player:
   s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 3}:
     score: 84
 
+  # 4x (bonus +3x)
+  s_56_pop_bumper_right_active{current_player.super_pops_multiplier == 4}:
+    score: 126
+  s_57_pop_bumper_center_active{current_player.super_pops_multiplier == 4}:
+    score: 126
+  s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 4}:
+    score: 126
+
   # 5x (bonus +4x)
   s_56_pop_bumper_right_active{current_player.super_pops_multiplier == 5}:
     score: 168
@@ -26,3 +35,5 @@ variable_player:
     score: 168
   s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 5}:
     score: 168
+
+
