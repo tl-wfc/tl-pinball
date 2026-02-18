@@ -91,6 +91,7 @@ modes:
     #- service
     - base
     - spinner_2x
+    - super_pops
 
 # ------------------------
 # PLAYFIELDS:

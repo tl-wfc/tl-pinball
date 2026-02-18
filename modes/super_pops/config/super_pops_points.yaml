@@ -1,0 +1,28 @@
+#config_version=6
+#super_pops_points.yaml
+
+variable_player:
+
+  # 2x (bonus +1x)
+  s_56_pop_bumper_right_active{current_player.super_pops_multiplier == 2}:
+    score: 42
+  s_57_pop_bumper_center_active{current_player.super_pops_multiplier == 2}:
+    score: 42
+  s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 2}:
+    score: 42
+
+  # 3x (bonus +2x)
+  s_56_pop_bumper_right_active{current_player.super_pops_multiplier == 3}:
+    score: 84
+  s_57_pop_bumper_center_active{current_player.super_pops_multiplier == 3}:
+    score: 84
+  s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 3}:
+    score: 84
+
+  # 5x (bonus +4x)
+  s_56_pop_bumper_right_active{current_player.super_pops_multiplier == 5}:
+    score: 168
+  s_57_pop_bumper_center_active{current_player.super_pops_multiplier == 5}:
+    score: 168
+  s_58_pop_bumper_left_active{current_player.super_pops_multiplier == 5}:
+    score: 168

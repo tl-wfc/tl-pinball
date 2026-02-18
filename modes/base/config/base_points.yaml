@@ -1,5 +1,5 @@
 #config_version=6
-
+#base_points.yaml
 # Normal scoring (base mode)
 
 variable_player:
@@ -72,72 +72,73 @@ variable_player:
 
 
 # POP BUMPERS (base points)
-  s_56_pop_bumper_right:
-  score: 42
-  s_57_pop_bumper_center:
-  score: 42
-  s_58_pop_bumper_left:
-  score: 42
+  s_56_pop_bumper_right_active:
+    score: 42
+  s_57_pop_bumper_center_active:
+    score: 42
+  s_58_pop_bumper_left_active:
+    score: 42
 
 
 
 # SAUCERS  (base points)
-  s_81_saucer_left:
-  score: 42
-  s_59_saucer_right:
-  score: 42
+  s_81_saucer_left_active:
+    score: 42
+  s_59_saucer_right_active:
+    score: 42
 
 
 
 # VARI-TARGET (base points)
-  s_65_varitarget_poisition_2:
-  score: 42
-  s_66_varitarget_poisition_3:
-  score: 42
-  s_67_varitarget_poisition_4:
-  score: 42
-  s_68_varitarget_poisition_5:
-  score: 42
-  s_69_varitarget_poisition_6:
-  score: 42
-  s_70_varitarget_poisition_7:
-  score: 42
+  s_65_varitarget_poisition_2_active:
+    score: 42
+  s_66_varitarget_poisition_3_active:
+    score: 42
+  s_67_varitarget_poisition_4_active:
+    score: 42
+  s_68_varitarget_poisition_5_active:
+    score: 42
+  s_69_varitarget_poisition_6_active:
+    score: 42
+  s_70_varitarget_poisition_7_active:
+    score: 42
 
 
 
 # DROP TARGET SINGLE
-  s_72_single_drop_1:
-  score: 42
+  s_72_single_drop_1_active:
+    score: 42
 
 
 
 # DROP TARGET 4-BANK
-  s_73_fourbank_drop_1:
-  score: 42
-  s_74_fourbank_drop_2:
-  score: 42
-  s_75_fourbank_drop_3:
-  score: 42
-  s_76_fourbank_drop_4:
-  score: 42
-  s_77_threebank_drop_1:
-  score: 42
-  s_78_threebank_drop_2:
-  score: 42
-  s_79_threebank_drop_3:
-  score: 42
+  s_73_fourbank_drop_1_active:
+    score: 42
+  s_74_fourbank_drop_2_active:
+    score: 42
+  s_75_fourbank_drop_3_active:
+    score: 42
+  s_76_fourbank_drop_4_active:
+    score: 42
+  s_77_threebank_drop_1_active:
+    score: 42
+  s_78_threebank_drop_2_active:
+    score: 42
+  s_79_threebank_drop_3_active:
+    score: 42
 
 
 
 # Standups behind drops 6-BANK
-  s_82_stand_up_target_bank_1:
-  score: 42
-  s_83_stand_up_target_bank_2:
-  score: 42
-  s_84_stand_up_target_bank_3:
-  score: 42
-  s_85_stand_up_target_bank_4:
-  score: 42
-  s_86_stand_up_target_bank_5:
-  score: 42
-  s_87_stand_up_target_bank_6:
+  s_82_stand_up_target_bank_1_active:
+    score: 42
+  s_83_stand_up_target_bank_2_active:
+    score: 42
+  s_84_stand_up_target_bank_3_active:
+    score: 42
+  s_85_stand_up_target_bank_4_active:
+    score: 42
+  s_86_stand_up_target_bank_5_active:
+    score: 42
+  s_87_stand_up_target_bank_6_active:
+    score: 42
