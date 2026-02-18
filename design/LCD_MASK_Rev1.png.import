@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4jces75x8cbp"
-path="res://.godot/imported/white_cross.png-9df192f903a362c334d6c2204d40aa44.ctex"
+uid="uid://dndngts3jkcd5"
+path="res://.godot/imported/LCD_MASK_Rev1.png-d077cf17e9ec5db88569e3ee44f55856.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://showcreator-master/shapes/white_cross.png"
-dest_files=["res://.godot/imported/white_cross.png-9df192f903a362c334d6c2204d40aa44.ctex"]
+source_file="res://design/LCD_MASK_Rev1.png"
+dest_files=["res://.godot/imported/LCD_MASK_Rev1.png-d077cf17e9ec5db88569e3ee44f55856.ctex"]
 
 [params]
 

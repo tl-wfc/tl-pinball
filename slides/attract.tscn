@@ -1,44 +1,55 @@
-[gd_scene load_steps=3 format=3 uid="uid://ci1ev5vr00m04"]
+[gd_scene format=3 uid="uid://ci1ev5vr00m04"]
 
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_d2e70"]
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_d2e70"]
+[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="3_hhxni"]
 
-[node name="Attract" type="Control"]
+[node name="Attract" type="Control" unique_id=2115222292]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_73kwx")
 
-[node name="MPFCarousel" type="Control" parent="."]
+[node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]
+position = Vector2(765, 1007)
+scale = Vector2(0.9869792, 1.2108433)
+texture = ExtResource("3_hhxni")
+
+[node name="MPFCarousel" type="Control" parent="." unique_id=822885334]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("2_d2e70")
 carousel_name = "attract"
 
-[node name="title" type="Label" parent="MPFCarousel"]
-layout_mode = 0
-offset_right = 622.0
-offset_bottom = 137.0
+[node name="title" type="Label" parent="MPFCarousel" unique_id=1585513837]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 656.0
+offset_top = 138.0
+offset_right = 1056.0
+offset_bottom = 206.51999
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_font_sizes/font_size = 100
 text = "title"
 
-[node name="credits" type="Label" parent="MPFCarousel"]
+[node name="credits" type="Label" parent="MPFCarousel" unique_id=1726326998]
 layout_mode = 0
-offset_left = 1681.0
-offset_top = -1.0
-offset_right = 2303.0
-offset_bottom = 136.0
+offset_left = 615.0
+offset_top = 857.0
+offset_right = 1237.0
+offset_bottom = 994.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_font_sizes/font_size = 100
 text = "credits"
 
-[node name="mpf_logo" type="Label" parent="MPFCarousel"]
+[node name="mpf_logo" type="Label" parent="MPFCarousel" unique_id=1159576895]
 layout_mode = 0
-offset_left = 1569.0
-offset_top = 1364.0
-offset_right = 2191.0
-offset_bottom = 1501.0
+offset_left = 567.0
+offset_top = 1611.0
+offset_right = 1189.0
+offset_bottom = 1748.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_font_sizes/font_size = 100
 text = "mpf_logo"
