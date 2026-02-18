@@ -1,0 +1,68 @@
+#config_version=6
+
+mode:
+  start_events: mode_base_started
+  stop_events: mode_base_stopping, ball_will_end
+  priority: 150
+
+# Ensure spinner_2x isn't left running unexpectedly
+event_player:
+  mode_spinner_2x_qualify_started: spinner_2x_stop
+
+  s_62_top_lane_a_active{current_player.top_lane_a_lit == 0}: top_lane_a_turn_on
+  s_62_top_lane_a_active{current_player.top_lane_a_lit == 1}: top_lane_a_turn_off
+
+  s_61_top_lane_b_active{current_player.top_lane_b_lit == 0}: top_lane_b_turn_on
+  s_61_top_lane_b_active{current_player.top_lane_b_lit == 1}: top_lane_b_turn_off
+
+  s_60_top_lane_c_active{current_player.top_lane_c_lit == 0}: top_lane_c_turn_on
+  s_60_top_lane_c_active{current_player.top_lane_c_lit == 1}: top_lane_c_turn_off
+
+  top_lane_a_turn_on: top_lanes_check
+  top_lane_a_turn_off: top_lanes_check
+  top_lane_b_turn_on: top_lanes_check
+  top_lane_b_turn_off: top_lanes_check
+  top_lane_c_turn_on: top_lanes_check
+  top_lane_c_turn_off: top_lanes_check
+
+  top_lanes_check{(current_player.top_lane_a_lit == 1) and (current_player.top_lane_b_lit == 1) and (current_player.top_lane_c_lit == 1)}: spinner_2x_start
+  top_lanes_check{not ((current_player.top_lane_a_lit == 1) and (current_player.top_lane_b_lit == 1) and (current_player.top_lane_c_lit == 1))}: spinner_2x_stop
+
+variable_player:
+  mode_spinner_2x_qualify_started:
+    top_lane_a_lit:
+      action: set
+      int: 0
+    top_lane_b_lit:
+      action: set
+      int: 0
+    top_lane_c_lit:
+      action: set
+      int: 0
+
+  top_lane_a_turn_on:
+    top_lane_a_lit:
+      action: set
+      int: 1
+  top_lane_a_turn_off:
+    top_lane_a_lit:
+      action: set
+      int: 0
+
+  top_lane_b_turn_on:
+    top_lane_b_lit:
+      action: set
+      int: 1
+  top_lane_b_turn_off:
+    top_lane_b_lit:
+      action: set
+      int: 0
+
+  top_lane_c_turn_on:
+    top_lane_c_lit:
+      action: set
+      int: 1
+  top_lane_c_turn_off:
+    top_lane_c_lit:
+      action: set
+      int: 0

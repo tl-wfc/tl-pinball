@@ -32,6 +32,7 @@ counters:
       - s_58_pop_bumper_left_active
     count_complete_value: 5
     events_when_complete: super_pops_phase1_start
+    enable_events: mode_super_pops_started
     persist_state: true
 
   super_pops_phase2_counter:
@@ -117,6 +118,7 @@ event_player:
 # -------------------------
 variable_player:
   mode_super_pops_started:
+    score: 1000000
     super_pops_multiplier:
       action: set
       int: 1

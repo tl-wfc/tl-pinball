@@ -72,6 +72,7 @@ variable_player:
 
 
 # POP BUMPERS (base points)
+  #ac_pop_1_active:
   s_56_pop_bumper_right_active:
     score: 42
   s_57_pop_bumper_center_active:

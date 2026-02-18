@@ -90,6 +90,7 @@ modes:
     - attract
     #- service
     - base
+    - spinner_2x_qualify
     - spinner_2x
     - super_pops
 
