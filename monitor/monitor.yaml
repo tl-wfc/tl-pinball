@@ -1256,24 +1256,45 @@ switch:
   s_64_varitarget_poisition_1:
     x: 0.7824222820321216
     y: 0.4151511400576679
+  s_64_varitarget_position_1:
+    x: 0.778511932393025
+    y: 0.41866666666666663
   s_65_varitarget_poisition_2:
     x: 0.7924748167049112
     y: 0.3965622830401604
+  s_65_varitarget_position_2:
+    x: 0.7953993929655419
+    y: 0.4062222222222222
   s_66_varitarget_poisition_3:
     x: 0.8042027738231656
     y: 0.38062897702515397
+  s_66_varitarget_position_3:
+    x: 0.8021543771945485
+    y: 0.3893333333333333
   s_67_varitarget_poisition_4:
     x: 0.8125798860504903
     y: 0.3646956710101476
+  s_67_varitarget_position_4:
+    x: 0.8139755995953103
+    y: 0.3724444444444444
   s_68_varitarget_poisition_5:
     x: 0.8226324207232798
     y: 0.34787718132764067
+  s_68_varitarget_position_5:
+    x: 0.8173530917098136
+    y: 0.35644444444444445
   s_69_varitarget_poisition_6:
     x: 0.8276586880596746
     y: 0.3354846099826357
+  s_69_varitarget_position_6:
+    x: 0.8308630601678271
+    y: 0.3431111111111111
   s_70_varitarget_poisition_7:
     x: 0.8343603778415343
     y: 0.32132167130262995
+  s_70_varitarget_position_7:
+    x: 0.8342405522823305
+    y: 0.32799999999999996
   s_71_spinner_left:
     x: 0.22618203013776533
     y: 0.1372034684625555

@@ -1,0 +1,61 @@
+#config_version=6
+# Phase 3: after successful phase 2, next switch must be vari-target position 2-7 (s_65..s_70)
+
+event_player:
+  s_65_varitarget_position_2_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_66_varitarget_position_3_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_67_varitarget_position_4_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_68_varitarget_position_5_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_69_varitarget_position_6_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_70_varitarget_position_7_active{current_player.skillshot_waiting_phase3 == 1}:
+    - skillshot_phase3_success
+    - skillshot_complete
+  s_32_right_inlane_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_33_right_outlane_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_34_right_sling_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_35_left_inlane_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_36_left_outlane_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_37_left_sling_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_38_star_rollover_bottom_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_39_star_rollover_top_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_40_stand_up_target_5_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_41_stand_up_target_6_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_42_stand_up_target_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_43_stand_up_target_4_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_44_spinner_right_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_56_pop_bumper_right_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_57_pop_bumper_center_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_58_pop_bumper_left_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_59_saucer_right_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_60_top_lane_c_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_61_top_lane_b_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_62_top_lane_a_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_63_stand_up_target_3_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_64_varitarget_position_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_71_spinner_left_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_72_single_drop_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_73_fourbank_drop_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_74_fourbank_drop_2_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_75_fourbank_drop_3_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_76_fourbank_drop_4_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_77_threebank_drop_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_78_threebank_drop_2_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_79_threebank_drop_3_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_80_stand_up_target_2_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_81_saucer_left_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_82_stand_up_target_bank_1_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_83_stand_up_target_bank_2_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_84_stand_up_target_bank_3_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_85_stand_up_target_bank_4_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_86_stand_up_target_bank_5_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete
+  s_87_stand_up_target_bank_6_active{current_player.skillshot_waiting_phase3 == 1}: skillshot_complete

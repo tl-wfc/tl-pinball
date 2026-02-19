@@ -1,0 +1,10 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  stop_events: ball_will_end, skillshot_complete
+  priority: 200
+
+config:
+  - skillshot_logic.yaml
+  - skillshot_phase1_switches.yaml
+  - skillshot_phase3_switches.yaml

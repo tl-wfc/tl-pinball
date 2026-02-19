@@ -1,0 +1,75 @@
+#config_version=6
+# 3-phase Skillshot mode (initial plunge only)
+
+event_player:
+  # Detect ball leaving the plunger lane (first time only per ball)
+  s_31_plunger_lane_inactive{current_player.skillshot_left_plunger == 0}: skillshot_plunger_left
+
+variable_player:
+  mode_skillshot_started:
+    skillshot_left_plunger:
+      action: set
+      int: 0
+    skillshot_first_switch_seen:
+      action: set
+      int: 0
+    skillshot_phase1_success:
+      action: set
+      int: 0
+    skillshot_phase2_success:
+      action: set
+      int: 0
+    skillshot_waiting_phase3:
+      action: set
+      int: 0
+    # Phase 1 base award; can be reduced if the ball re-enters the plunger lane after leaving
+    skillshot_award:
+      action: set
+      int: 500000
+
+  skillshot_plunger_left:
+    skillshot_left_plunger:
+      action: set
+      int: 1
+
+  # Penalty: if ball re-enters the plunger lane after it has left (before first switch is registered)
+  # Clamp at 0 using MPF expression template (NOT Jinja control blocks)
+  s_31_plunger_lane_active{current_player.skillshot_left_plunger == 1 and current_player.skillshot_first_switch_seen == 0}:
+    skillshot_award:
+      action: set
+      int: "(current_player.skillshot_award - 100000) if current_player.skillshot_award > 100000 else 0"
+
+  # Phase results / scoring
+  skillshot_first_fail:
+    skillshot_first_switch_seen:
+      action: set
+      int: 1
+
+  skillshot_phase1_success:
+    skillshot_first_switch_seen:
+      action: set
+      int: 1
+    skillshot_phase1_success:
+      action: set
+      int: 1
+    score:
+      action: add
+      int: "(current_player.skillshot_award)"
+
+  skillshot_phase2_success:
+    skillshot_phase2_success:
+      action: set
+      int: 1
+    score:
+      action: add
+      int: 1000000
+
+  skillshot_wait_phase3:
+    skillshot_waiting_phase3:
+      action: set
+      int: 1
+
+  skillshot_phase3_success:
+    score:
+      action: add
+      int: 10000000
