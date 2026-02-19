@@ -297,26 +297,26 @@ switches:
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - VARI-TARGET
 # ------------------------
-    s_64_varitarget_poisition_1:
+    s_64_varitarget_position_1:
         number: pf1-8
         type: NC
     #    label: "VariTarget - Position 1"
-    s_65_varitarget_poisition_2:
+    s_65_varitarget_position_2:
         number: pf1-9
     #    label: "VariTarget - Position 2"
-    s_66_varitarget_poisition_3:
+    s_66_varitarget_position_3:
         number: pf1-10
     #    label: "VariTarget - Position 3"
-    s_67_varitarget_poisition_4:
+    s_67_varitarget_position_4:
         number: pf1-11
     #    label: "VariTarget - Position 4"
-    s_68_varitarget_poisition_5:
+    s_68_varitarget_position_5:
         number: pf1-12
     #    label: "VariTarget - Position 5"
-    s_69_varitarget_poisition_6:
+    s_69_varitarget_position_6:
         number: pf1-13
     #    label: "VariTarget - Position 6"
-    s_70_varitarget_poisition_7:
+    s_70_varitarget_position_7:
         number: pf1-14
     #    label: "VariTarget - Position 7"
 # ------------------------
