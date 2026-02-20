@@ -6,3 +6,7 @@ mode:
 
 config:
   - base_points.yaml
+  - varitarget.yaml
+
+event_player:
+  mode_base_started: BASE_YAML_LOADED

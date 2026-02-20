@@ -1,4 +1,5 @@
 #config_version=6
+# config.yaml
 #
 game:
   balls_per_game: 3

@@ -1,4 +1,5 @@
 #config_version=6
+# config_ball_devices
 
 ball_devices:
     bd_plunger:

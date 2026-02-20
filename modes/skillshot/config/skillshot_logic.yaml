@@ -1,4 +1,5 @@
 #config_version=6
+# skillshot_logic.yaml
 # 3-phase Skillshot mode (initial plunge only)
 
 event_player:

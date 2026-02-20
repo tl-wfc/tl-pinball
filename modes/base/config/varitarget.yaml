@@ -1,0 +1,250 @@
+#config_version=6
+# varitarget.yaml
+
+# ------------------------
+# VARI-TARGET (7 positions)
+# ------------------------
+
+# 1) SHOTS (one per position switch)
+shots:
+  varitarget_p1:
+    switches: s_64_varitarget_position_1
+  varitarget_p2:
+    switches: s_65_varitarget_position_2
+  varitarget_p3:
+    switches: s_66_varitarget_position_3
+  varitarget_p4:
+    switches: s_67_varitarget_position_4
+  varitarget_p5:
+    switches: s_68_varitarget_position_5
+  varitarget_p6:
+    switches: s_69_varitarget_position_6
+  varitarget_p7:
+    switches: s_70_varitarget_position_7
+
+shot_groups:
+  varitarget_positions:
+    shots: varitarget_p1, varitarget_p2, varitarget_p3, varitarget_p4, varitarget_p5, varitarget_p6, varitarget_p7
+
+
+# 2) TIMERS
+timers:
+  # Reset stepper timer (pulses until home)
+  varitarget_reset_timer:
+    start_value: 0
+    end_value: 999999
+    direction: up
+    tick_interval: 0.20s
+    control_events:
+      - event: varitarget_reset_start
+        action: start
+      - event: varitarget_reset_stop
+        action: stop
+      - event: mode_base_stopping
+        action: stop
+
+  # Hit settle timer (ends the "current hit" after inactivity)
+  # (3.0 seconds for MPF Monitor testing: 30 * 0.1s)
+  varitarget_hit_settle:
+    start_value: 3
+    end_value: 0
+    direction: down
+    tick_interval: 0.1s
+    control_events:
+      - event: varitarget_hit_window_start
+        action: start
+      - event: varitarget_hit_window_restart
+        action: restart
+      - event: varitarget_hit_window_stop
+        action: stop
+      - event: mode_base_stopping
+        action: stop
+
+
+# 3) EVENT LOGIC
+event_player:
+  # Breadcrumb to prove file loaded
+  mode_base_started: varitarget_yaml_loaded
+  
+  s_43_stand_up_target_4_active: varitarget_reset_request
+  
+  # ------------------------
+  # Position changed events
+  # ------------------------
+  s_64_varitarget_position_1_active:
+    - varitarget_position_changed
+    - varitarget_reset_stop
+    - varitarget_reset_complete
+
+  s_65_varitarget_position_2_active: varitarget_position_changed
+  s_66_varitarget_position_3_active: varitarget_position_changed
+  s_67_varitarget_position_4_active: varitarget_position_changed
+  s_68_varitarget_position_5_active: varitarget_position_changed
+  s_69_varitarget_position_6_active: varitarget_position_changed
+  s_70_varitarget_position_7_active: varitarget_position_changed
+
+  # Explicit position events (optional)
+  shot_varitarget_p1_hit: varitarget_pos_1
+  shot_varitarget_p2_hit: varitarget_pos_2
+  shot_varitarget_p3_hit: varitarget_pos_3
+  shot_varitarget_p4_hit: varitarget_pos_4
+  shot_varitarget_p5_hit: varitarget_pos_5
+  shot_varitarget_p6_hit: varitarget_pos_6
+  shot_varitarget_p7_hit: varitarget_pos_7
+
+  # ------------------------
+  # Reset logic
+  # ------------------------
+  varitarget_reset_request: varitarget_reset_begin
+
+  varitarget_reset_begin:
+    - varitarget_reset_attempts_clear
+    - varitarget_reset_step
+    - varitarget_reset_start
+
+  timer_varitarget_reset_timer_tick{not device.switches.s_64_varitarget_position_1.state and current_player.varitarget_reset_attempts < 25}:
+    - varitarget_reset_step
+
+  timer_varitarget_reset_timer_tick{current_player.varitarget_reset_attempts >= 25}:
+    - varitarget_reset_stop
+    - varitarget_reset_failed
+
+  # ------------------------
+  # Hit strength tracking
+  # ------------------------
+  varitarget_position_changed{current_player.varitarget_hit_active == 0 and current_player.varitarget_position > current_player.varitarget_stable_position}:
+    - varitarget_hit_begin
+
+  varitarget_position_changed{current_player.varitarget_hit_active == 0 and current_player.varitarget_position <= current_player.varitarget_stable_position}:
+    - varitarget_update_stable
+
+  varitarget_position_changed{current_player.varitarget_hit_active == 1}:
+    - varitarget_hit_window_restart
+    - varitarget_hit_update_max
+
+  varitarget_hit_begin: varitarget_hit_window_start
+
+  timer_varitarget_hit_settle_complete: varitarget_hit_end
+
+  # Award mapping
+  varitarget_hit_end: varitarget_award_from_moved
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 6}: varitarget_moved_6
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 5}: varitarget_moved_5
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 4}: varitarget_moved_4
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 3}: varitarget_moved_3
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 2}: varitarget_moved_2
+  varitarget_award_from_moved{current_player.varitarget_hit_moved == 1}: varitarget_moved_1
+
+
+
+# 4) PLAYER VARIABLES
+variable_player:
+  mode_base_started:
+    varitarget_position:
+      action: set
+      int: 1
+    varitarget_reset_attempts:
+      action: set
+      int: 0
+
+    # hit-strength tracking vars
+    varitarget_stable_position:
+      action: set
+      int: 1
+    varitarget_hit_active:
+      action: set
+      int: 0
+    varitarget_hit_start_pos:
+      action: set
+      int: 1
+    varitarget_hit_max_pos:
+      action: set
+      int: 1
+    varitarget_hit_moved:
+      action: set
+      int: 0
+
+  # Whenever a position becomes active, store it.
+  s_64_varitarget_position_1_active:
+    varitarget_position:
+      action: set
+      int: 1
+  s_65_varitarget_position_2_active:
+    varitarget_position:
+      action: set
+      int: 2
+  s_66_varitarget_position_3_active:
+    varitarget_position:
+      action: set
+      int: 3
+  s_67_varitarget_position_4_active:
+    varitarget_position:
+      action: set
+      int: 4
+  s_68_varitarget_position_5_active:
+    varitarget_position:
+      action: set
+      int: 5
+  s_69_varitarget_position_6_active:
+    varitarget_position:
+      action: set
+      int: 6
+  s_70_varitarget_position_7_active:
+    varitarget_position:
+      action: set
+      int: 7
+
+  # Reset counter helpers
+  varitarget_reset_attempts_clear:
+    varitarget_reset_attempts:
+      action: set
+      int: 0
+
+  varitarget_reset_step:
+    varitarget_reset_attempts:
+      action: add
+      int: 1
+
+  # Hit begin: capture start position and initial max
+  varitarget_hit_begin:
+    varitarget_hit_active:
+      action: set
+      int: 1
+    varitarget_hit_start_pos:
+      action: set
+      int: current_player.varitarget_stable_position
+    varitarget_hit_max_pos:
+      action: set
+      int: current_player.varitarget_position
+
+  # Update stable outside hit (e.g. reset movement)
+  varitarget_update_stable:
+    varitarget_stable_position:
+      action: set
+      int: current_player.varitarget_position
+
+  # Update max only if we reached deeper than current max
+  varitarget_hit_update_max{current_player.varitarget_position > current_player.varitarget_hit_max_pos}:
+    varitarget_hit_max_pos:
+      action: set
+      int: current_player.varitarget_position
+
+  # End hit: compute moved and clear active; also lock stable to current resting pos
+  varitarget_hit_end:
+    varitarget_hit_active:
+      action: set
+      int: 0
+    varitarget_hit_moved:
+      action: set
+      int: current_player.varitarget_hit_max_pos - current_player.varitarget_hit_start_pos
+    varitarget_stable_position:
+      action: set
+      int: current_player.varitarget_position
+
+
+# 5) COIL CONTROL
+coil_player:
+  varitarget_reset_step:
+    c_16_varitarget_reset:
+      action: pulse
+      # pulse_ms: 5

@@ -1,4 +1,5 @@
 #config_version=6
+# spinner_2x_points
 
 # Bonus points while spinner_2x is active
 variable_player:

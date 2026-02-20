@@ -1,4 +1,5 @@
 #config_version=6
+# skillshot_phase1_switches
 # Phase 1/2: first switch after leaving plunger lane
 
 event_player:

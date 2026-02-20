@@ -1,4 +1,5 @@
 #config_version=6
+# skillshot_phase3_switches.yaml
 # Phase 3: after successful phase 2, next switch must be vari-target position 2-7 (s_65..s_70)
 
 event_player:
