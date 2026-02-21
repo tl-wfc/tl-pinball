@@ -1,4 +1,5 @@
 #config_version=6
+# config/device_config_lights_LED.yaml 
 # ------------------------
 # CONFIG:LEDS
 # FAST Board PN: FP-EXP-2000 ports 1-4 of the CPU board

@@ -1,5 +1,5 @@
 #config_version=6
-# config_testing.yaml
+# config/config_testing.yaml
 #
 coil_player:
   test_trip_single:

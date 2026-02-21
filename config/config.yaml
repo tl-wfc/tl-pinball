@@ -1,5 +1,5 @@
 #config_version=6
-# config.yaml
+# config/config.yaml
 #
 game:
   balls_per_game: 3
@@ -95,6 +95,7 @@ modes:
     - spinner_2x
     - super_pops
     - skillshot
+    - stars_mode
 
 # ------------------------
 # PLAYFIELDS:

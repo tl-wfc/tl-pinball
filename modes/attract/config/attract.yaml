@@ -1,5 +1,5 @@
 #config_version=6
-
+# modes/attract/config/attract.yaml
 # Attract mode that starts when the machine boots up, stops
 # whenever a game is started, and re-starts after the game ends.
 

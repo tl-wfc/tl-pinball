@@ -1,5 +1,5 @@
 #config_version=6
-# config_ball_devices
+# config/config_ball_devices.yaml
 
 ball_devices:
     bd_plunger:

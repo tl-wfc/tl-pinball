@@ -1,0 +1,200 @@
+#config_version=6
+# STARs Mode - qualify all ball, then 10x for 15s
+
+mode:
+  start_events: ball_started
+  stop_events: ball_will_end
+  priority: 210
+
+config:
+  - stars_mode_points.yaml
+
+timers:
+
+  # s_80 must remain ON this long before it counts as qualified
+  stars_s80_hold:
+    start_value: 0
+    end_value: 1
+    tick_interval: 2s      # <-- adjust hold time here
+    direction: up
+    control_events:
+      - event: stars_s80_hold_start
+        action: restart
+      - event: stars_s80_hold_stop
+        action: stop
+      - event: stars_s80_hold_reset
+        action: reset
+
+  # 10x scoring window
+  stars_10x_timer:
+    start_value: 0
+    end_value: 15          # <-- adjust 10x duration here
+    tick_interval: 1s
+    direction: up
+    control_events:
+      - event: stars_10x_begin
+        action: restart
+      - event: stars_10x_end
+        action: stop
+      - event: stars_10x_reset
+        action: reset
+
+event_player:
+
+  # -------------------------
+  # Toggle qualifiers
+  # -------------------------
+  s_40_stand_up_target_5_active{current_player.stars_t40 == 0}: stars_t40_on
+  s_40_stand_up_target_5_active{current_player.stars_t40 == 1}: stars_t40_off
+
+  s_41_stand_up_target_6_active{current_player.stars_t41 == 0}: stars_t41_on
+  s_41_stand_up_target_6_active{current_player.stars_t41 == 1}: stars_t41_off
+
+  s_42_stand_up_target_1_active{current_player.stars_t42 == 0}: stars_t42_on
+  s_42_stand_up_target_1_active{current_player.stars_t42 == 1}: stars_t42_off
+
+  s_43_stand_up_target_4_active{current_player.stars_t43 == 0}: stars_t43_on
+  s_43_stand_up_target_4_active{current_player.stars_t43 == 1}: stars_t43_off
+
+  s_63_stand_up_target_3_active{current_player.stars_t63 == 0}: stars_t63_on
+  s_63_stand_up_target_3_active{current_player.stars_t63 == 1}: stars_t63_off
+
+  # s_80 special toggle
+  s_80_stand_up_target_2_active{current_player.stars_s80_on == 0}: stars_s80_on_request
+  s_80_stand_up_target_2_active{current_player.stars_s80_on == 1}: stars_s80_off
+
+  # start/stop hold timer for s_80
+  stars_s80_on_request: stars_s80_hold_start, stars_monitor_s80_pending
+  stars_s80_off: stars_s80_hold_stop, stars_s80_hold_reset, stars_monitor_s80_off
+
+  # qualify s_80 after timer completes (if still ON)
+  timer_stars_s80_hold_complete{current_player.stars_s80_on == 1 and current_player.stars_s80_qualified == 0}:
+    stars_s80_qualified_on, stars_monitor_s80_on
+
+  # -------------------------
+  # Count updates (monitor event + completion check)
+  # -------------------------
+  stars_t40_on: stars_count_updated, stars_monitor_t40_on
+  stars_t40_off: stars_count_updated, stars_monitor_t40_off
+
+  stars_t41_on: stars_count_updated, stars_monitor_t41_on
+  stars_t41_off: stars_count_updated, stars_monitor_t41_off
+
+  stars_t42_on: stars_count_updated, stars_monitor_t42_on
+  stars_t42_off: stars_count_updated, stars_monitor_t42_off
+
+  stars_t43_on: stars_count_updated, stars_monitor_t43_on
+  stars_t43_off: stars_count_updated, stars_monitor_t43_off
+
+  stars_t63_on: stars_count_updated, stars_monitor_t63_on
+  stars_t63_off: stars_count_updated, stars_monitor_t63_off
+
+  stars_s80_qualified_on: stars_count_updated
+
+  # When count says complete, begin 10x
+  stars_count_updated{current_player.stars_targets_lit_count == 6 and current_player.stars_10x_active == 0}: stars_10x_begin
+
+  # -------------------------
+  # 10x window end conditions
+  # -------------------------
+  timer_stars_10x_timer_complete: stars_10x_end
+
+  # Abort 10x instantly on any qualifier hit
+  s_40_stand_up_target_5_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_41_stand_up_target_6_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_42_stand_up_target_1_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_43_stand_up_target_4_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_63_stand_up_target_3_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_80_stand_up_target_2_active{current_player.stars_10x_active == 1}: stars_10x_end
+
+  # Monitor events for 10x
+  stars_10x_begin: stars_10x_started
+  stars_10x_end: stars_10x_ended
+
+variable_player:
+
+  # Reset at the start of each ball
+  mode_stars_mode_started:
+    stars_t40: {action: set, int: 0}
+    stars_t41: {action: set, int: 0}
+    stars_t42: {action: set, int: 0}
+    stars_t43: {action: set, int: 0}
+    stars_t63: {action: set, int: 0}
+
+    stars_s80_on: {action: set, int: 0}
+    stars_s80_qualified: {action: set, int: 0}
+
+    stars_targets_lit_count: {action: set, int: 0}
+    stars_10x_active: {action: set, int: 0}
+
+  # Normal targets toggle count
+  stars_t40_on:
+    stars_t40: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t40_off:
+    stars_t40: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t41_on:
+    stars_t41: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t41_off:
+    stars_t41: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t42_on:
+    stars_t42: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t42_off:
+    stars_t42: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t43_on:
+    stars_t43: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t43_off:
+    stars_t43: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t63_on:
+    stars_t63: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t63_off:
+    stars_t63: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  # s_80 toggle + qualification
+  stars_s80_on_request:
+    stars_s80_on: {action: set, int: 1}
+
+  stars_s80_qualified_on:
+    stars_s80_qualified: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+
+  # If s_80 is turned off after it was qualified, remove it from count
+  stars_s80_off{current_player.stars_s80_qualified == 1}:
+    stars_s80_qualified: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  # Always clear s_80_on when turned off
+  stars_s80_off:
+    stars_s80_on: {action: set, int: 0}
+
+  # 10x active flag
+  stars_10x_begin:
+    stars_10x_active: {action: set, int: 1}
+
+  # End 10x (timeout or abort): reset everything OFF
+  stars_10x_end:
+    stars_10x_active: {action: set, int: 0}
+
+    stars_t40: {action: set, int: 0}
+    stars_t41: {action: set, int: 0}
+    stars_t42: {action: set, int: 0}
+    stars_t43: {action: set, int: 0}
+    stars_t63: {action: set, int: 0}
+
+    stars_s80_on: {action: set, int: 0}
+    stars_s80_qualified: {action: set, int: 0}
+
+    stars_targets_lit_count: {action: set, int: 0}

@@ -1,0 +1,22 @@
+#config_version=6
+# STARs Mode scoring overlay
+# 10x total = base scoring + 9x bonus (only while stars_10x_active == 1)
+
+variable_player:
+
+  # ---- Spinners ----
+  s_71_spinner_left_active{current_player.stars_10x_active == 1}:
+    score: 90000
+
+  s_44_spinner_right_active{current_player.stars_10x_active == 1}:
+    score: 90000
+
+  # ---- Pops ----
+  s_56_pop_bumper_right_active{current_player.stars_10x_active == 1}:
+    score: 378
+
+  s_57_pop_bumper_center_active{current_player.stars_10x_active == 1}:
+    score: 378
+
+  s_58_pop_bumper_left_active{current_player.stars_10x_active == 1}:
+    score: 378

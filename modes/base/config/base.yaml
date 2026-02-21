@@ -1,4 +1,5 @@
 #config_version=6
+# modes/base/config/base.yaml
 mode:
   start_events: ball_starting
   stop_events: ball_will_end
