@@ -66,7 +66,7 @@ event_player:
   # Breadcrumb to prove file loaded
   mode_base_started: varitarget_yaml_loaded
   
-  s_43_stand_up_target_4_active: varitarget_reset_request
+  s_00_service_esc_active: varitarget_reset_request
   
   # ------------------------
   # Position changed events

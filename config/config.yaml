@@ -1,13 +1,19 @@
 #config_version=6
 # config/config.yaml
 #
-game:
-  balls_per_game: 3
-  max_players: 4
-machine:
-  balls_installed: 1 #How many balls are physically in your game
-  min_balls: 1 #How few balls can be accounted for before you can start a game
-#
+# ------------------------
+# MODES::
+# ------------------------ 
+modes:
+    - attract
+    #- service
+    - base
+    - spinner_2x_qualify
+    - spinner_2x
+    - super_pops
+    - skillshot
+    - stars_mode
+    - brian_combo
 # --------------------
 # CONFIG::FILES
 # --------------------
@@ -20,15 +26,22 @@ config:
   - device_config_iomap_coils.yaml
   - config_testing.yaml
 
-
+# --------------------
+# CONFIG::GAME
+# --------------------
+#
+game:
+  balls_per_game: 3
+  max_players: 4
+machine:
+  balls_installed: 1 #How many balls are physically in your game
+  min_balls: 1 #How few balls can be accounted for before you can start a game
+#
 # ------------------------
 # CONFIG::MPF
 # ------------------------
 mpf:
   default_light_hw_update_hz: 24
-
-
-
 # ------------------------
 # CONFIG::HARDWARE
 # ------------------------
@@ -84,19 +97,6 @@ fast:
 #         address: 85
 #         led_fade_time: 50ms
 #         #ignore_led_errors: true
-# ------------------------
-# MODES::
-# ------------------------ 
-modes:
-    - attract
-    #- service
-    - base
-    - spinner_2x_qualify
-    - spinner_2x
-    - super_pops
-    - skillshot
-    - stars_mode
-
 # ------------------------
 # PLAYFIELDS:
 # ------------------------ 

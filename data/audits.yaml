@@ -1,41 +1,41 @@
 events:
   game_ended: 14
-  game_started: 95
+  game_started: 98
 missing_switches:
-  s_00_service_esc: 49
-  s_01_service_up: 49
-  s_02_service_down: 49
-  s_03_service_enter: 49
-  s_08_left_flipper: 11
+  s_01_service_up: 52
+  s_02_service_down: 52
+  s_03_service_enter: 52
+  s_08_left_flipper: 14
   s_0_service_esc: 46
-  s_11_start_button: 7
+  s_11_start_button: 10
   s_12_tilt_bob: 3
   s_13_coin_door: 3
-  s_17_right_flipper_upper: 32
+  s_16_right_flipper: 3
+  s_17_right_flipper_upper: 35
   s_19_cab_arrow_left: 3
   s_1_service_up: 46
   s_20_cab_arrow_right: 3
-  s_24_trough_1: 1
-  s_25_trough_2: 23
+  s_24_trough_1: 4
+  s_25_trough_2: 26
   s_25_trough_jam: 2
   s_26_trough_1: 1
-  s_26_trough_3: 30
-  s_27_trough_4: 30
+  s_26_trough_3: 33
+  s_27_trough_4: 33
   s_28_trough_3: 1
-  s_28_trough_5: 30
+  s_28_trough_5: 33
   s_29_trough_4: 1
-  s_29_trough_6: 26
+  s_29_trough_6: 29
   s_2_service_down: 46
-  s_30_trough_jam: 30
-  s_32_right_inlane: 12
-  s_33_right_outlane: 57
-  s_34_right_sling: 30
-  s_35_left_inlane: 37
-  s_36_left_outlane: 33
-  s_37_left_sling: 32
-  s_38_star_rollover_bottom: 92
+  s_30_trough_jam: 33
+  s_32_right_inlane: 15
+  s_33_right_outlane: 60
+  s_34_right_sling: 33
+  s_35_left_inlane: 40
+  s_36_left_outlane: 36
+  s_37_left_sling: 35
+  s_38_star_rollover_bottom: 95
   s_38_top_lane_a: 3
-  s_39_star_rollover_top: 6
+  s_39_star_rollover_top: 9
   s_39_top_lane_b: 3
   s_3_service_enter: 46
   s_40_top_lane_c: 3
@@ -55,10 +55,10 @@ missing_switches:
   s_54_single_drop_1: 3
   s_55_fourbank_drop_1: 3
   s_56_fourbank_drop_2: 3
-  s_56_pop_bumper_right: 8
+  s_56_pop_bumper_right: 11
   s_57_fourbank_drop_3: 2
   s_58_fourbank_drop_4: 2
-  s_59_saucer_right: 32
+  s_59_saucer_right: 35
   s_59_threebank_drop_1: 2
   s_60_threebank_drop_2: 2
   s_61_threebank_drop_3: 3
@@ -66,43 +66,41 @@ missing_switches:
   s_63_stand_up_target_2: 2
   s_64_stand_up_target_3: 2
   s_64_varitarget_poisition_1: 18
-  s_64_varitarget_position_1: 1
   s_65_stand_up_target_4: 3
   s_65_varitarget_poisition_2: 18
-  s_65_varitarget_position_2: 7
+  s_65_varitarget_position_2: 10
   s_66_stand_up_target_5: 3
   s_66_varitarget_poisition_3: 18
-  s_66_varitarget_position_3: 3
+  s_66_varitarget_position_3: 6
   s_67_stand_up_target_6: 3
   s_67_varitarget_poisition_4: 22
-  s_67_varitarget_position_4: 2
   s_68_stand_up_target_7: 2
   s_68_varitarget_poisition_5: 62
-  s_68_varitarget_position_5: 1
+  s_68_varitarget_position_5: 4
   s_69_stand_up_target_8: 1
   s_69_varitarget_poisition_6: 62
-  s_69_varitarget_position_6: 5
+  s_69_varitarget_position_6: 8
   s_70_stand_up_target_9: 3
   s_70_varitarget_poisition_7: 45
-  s_70_varitarget_position_7: 1
-  s_71_spinner_left: 11
+  s_70_varitarget_position_7: 4
+  s_71_spinner_left: 14
   s_71_stand_up_target_10: 3
-  s_72_single_drop_1: 12
+  s_72_single_drop_1: 1
   s_72_stand_up_target_11: 3
-  s_73_fourbank_drop_1: 37
-  s_74_fourbank_drop_2: 27
-  s_75_fourbank_drop_3: 27
-  s_76_fourbank_drop_4: 27
-  s_77_threebank_drop_1: 27
-  s_78_threebank_drop_2: 27
-  s_79_threebank_drop_3: 27
-  s_81_saucer_left: 12
-  s_82_stand_up_target_bank_1: 56
-  s_83_stand_up_target_bank_2: 41
-  s_84_stand_up_target_bank_3: 55
-  s_85_stand_up_target_bank_4: 50
-  s_86_stand_up_target_bank_5: 50
-  s_87_stand_up_target_bank_6: 27
+  s_73_fourbank_drop_1: 40
+  s_74_fourbank_drop_2: 30
+  s_75_fourbank_drop_3: 30
+  s_76_fourbank_drop_4: 30
+  s_77_threebank_drop_1: 30
+  s_78_threebank_drop_2: 30
+  s_79_threebank_drop_3: 30
+  s_81_saucer_left: 1
+  s_82_stand_up_target_bank_1: 59
+  s_83_stand_up_target_bank_2: 44
+  s_84_stand_up_target_bank_3: 58
+  s_85_stand_up_target_bank_4: 53
+  s_86_stand_up_target_bank_5: 53
+  s_87_stand_up_target_bank_6: 30
   s_8_left_flipper: 19
 player:
   score:
@@ -120,12 +118,12 @@ player:
     - 0
     total: 15
 shots:
-  varitarget_p1: 7
-  varitarget_p4: 1
+  varitarget_p1: 10
+  varitarget_p4: 2
   varitarget_p5: 1
   varitarget_p7: 5
 switches:
-  s_00_service_esc: 0
+  s_00_service_esc: 2
   s_01_service_up: 0
   s_02_service_down: 0
   s_03_service_enter: 0
@@ -153,7 +151,7 @@ switches:
   s_29_trough_6: 73
   s_2_service_down: 0
   s_30_trough_jam: 101
-  s_31_plunger_lane: 170
+  s_31_plunger_lane: 173
   s_32_right_inlane: 111
   s_33_right_outlane: 1
   s_34_right_sling: 635
@@ -165,20 +163,20 @@ switches:
   s_39_star_rollover_top: 16
   s_39_top_lane_b: 0
   s_3_service_enter: 0
-  s_40_stand_up_target_5: 12
+  s_40_stand_up_target_5: 15
   s_40_stand_up_target_7: 26
   s_40_top_lane_c: 0
   s_41_pop_bumper_1: 1
-  s_41_stand_up_target_6: 10
+  s_41_stand_up_target_6: 17
   s_41_stand_up_target_8: 32
   s_42_pop_bumper_2: 0
-  s_42_stand_up_target_1: 25
+  s_42_stand_up_target_1: 28
   s_42_stand_up_target_9: 69
   s_43_pop_bumper_3: 16
   s_43_stand_up_target_10: 40
-  s_43_stand_up_target_4: 19
+  s_43_stand_up_target_4: 22
   s_44_spinner_left: 8
-  s_44_spinner_right: 418
+  s_44_spinner_right: 422
   s_45_spinner_right: 0
   s_45_varitarget_poisition_1: 0
   s_46_varitarget_poisition_2: 0
@@ -194,23 +192,23 @@ switches:
   s_56_fourbank_drop_2: 0
   s_56_pop_bumper_right: 592
   s_57_fourbank_drop_3: 1
-  s_57_pop_bumper_center: 389
+  s_57_pop_bumper_center: 461
   s_58_fourbank_drop_4: 1
-  s_58_pop_bumper_left: 833
+  s_58_pop_bumper_left: 843
   s_59_saucer_right: 9
   s_59_threebank_drop_1: 1
   s_60_threebank_drop_2: 1
-  s_60_top_lane_c: 151
+  s_60_top_lane_c: 152
   s_61_threebank_drop_3: 0
-  s_61_top_lane_b: 87
+  s_61_top_lane_b: 88
   s_62_stand_up_target_1: 0
-  s_62_top_lane_a: 199
+  s_62_top_lane_a: 200
   s_63_stand_up_target_11: 43
   s_63_stand_up_target_2: 1
-  s_63_stand_up_target_3: 14
+  s_63_stand_up_target_3: 17
   s_64_stand_up_target_3: 1
   s_64_varitarget_poisition_1: 986
-  s_64_varitarget_position_1: 12
+  s_64_varitarget_position_1: 15
   s_65_stand_up_target_4: 0
   s_65_varitarget_poisition_2: 16
   s_65_varitarget_position_2: 1
@@ -219,7 +217,7 @@ switches:
   s_66_varitarget_position_3: 2
   s_67_stand_up_target_6: 0
   s_67_varitarget_poisition_4: 12
-  s_67_varitarget_position_4: 6
+  s_67_varitarget_position_4: 7
   s_68_stand_up_target_7: 1
   s_68_varitarget_poisition_5: 5
   s_68_varitarget_position_5: 2
@@ -231,7 +229,7 @@ switches:
   s_70_varitarget_position_7: 14
   s_71_spinner_left: 2119
   s_71_stand_up_target_10: 0
-  s_72_single_drop_1: 49
+  s_72_single_drop_1: 53
   s_72_stand_up_target_11: 0
   s_73_fourbank_drop_1: 253
   s_74_fourbank_drop_2: 108
@@ -241,8 +239,8 @@ switches:
   s_78_threebank_drop_2: 2178
   s_79_threebank_drop_3: 318
   s_80_stand_up_target_1: 72
-  s_80_stand_up_target_2: 14
-  s_81_saucer_left: 21
+  s_80_stand_up_target_2: 17
+  s_81_saucer_left: 25
   s_82_stand_up_target_bank_1: 25
   s_83_stand_up_target_bank_2: 56
   s_84_stand_up_target_bank_3: 41

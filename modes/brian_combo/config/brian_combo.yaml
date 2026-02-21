@@ -1,0 +1,46 @@
+#config_version=6
+# Brian Combo: s_41 -> s_72 -> s_81 awards 1,000,000 any time during gameplay
+
+mode:
+  start_events: ball_started
+  stop_events: ball_ended
+  priority: 120
+
+# Track progress with a simple state variable:
+# 0 = waiting for s_41
+# 1 = waiting for s_72
+# 2 = waiting for s_81
+event_player:
+  # Step 1
+  s_41_stand_up_target_6_active{current_player.brian_combo_step == 0}: brian_combo_step1
+
+  # Optional: if player hits s_41 again mid-sequence, restart at step 1
+  s_41_stand_up_target_6_active{current_player.brian_combo_step > 0}: brian_combo_step1
+
+  # Step 2
+  s_72_single_drop_1_active{current_player.brian_combo_step == 1}: brian_combo_step2
+
+  # Step 3 / Complete
+  s_81_saucer_left_active{current_player.brian_combo_step == 2}: brian_combo_complete
+
+variable_player:
+  mode_brian_combo_started:
+    brian_combo_step:
+      action: set
+      int: 0
+
+  brian_combo_step1:
+    brian_combo_step:
+      action: set
+      int: 1
+
+  brian_combo_step2:
+    brian_combo_step:
+      action: set
+      int: 2
+
+  brian_combo_complete:
+    score: 1000000
+    brian_combo_step:
+      action: set
+      int: 0

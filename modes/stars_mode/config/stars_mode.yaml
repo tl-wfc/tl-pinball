@@ -4,7 +4,7 @@
 mode:
   start_events: ball_started
   stop_events: ball_will_end
-  priority: 210
+  priority: 220
 
 config:
   - stars_mode_points.yaml

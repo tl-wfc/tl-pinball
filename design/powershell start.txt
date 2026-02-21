@@ -22,6 +22,9 @@ mpf monitor
 
 
 
+installing MPF monitor
+from the environment
+pip install mpf-monitor
 
 
 
