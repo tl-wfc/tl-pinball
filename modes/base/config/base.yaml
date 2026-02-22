@@ -11,3 +11,4 @@ config:
 
 event_player:
   mode_base_started: BASE_YAML_LOADED
+  s_03_service_enter_active: end_game

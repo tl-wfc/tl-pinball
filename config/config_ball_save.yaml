@@ -1,0 +1,38 @@
+#config_version=6
+# config/config_ball_save.yaml
+
+# ------------------------------------------------------------
+# BALL SAVE
+# ------------------------------------------------------------
+# Default ball save that can be enabled by posting the event:
+#   ball_save_request
+#
+# Current trigger:
+#   - When the ball leaves the shooter/plunger lane (s_31 becomes inactive)
+#
+# To add more triggers later, just post 'ball_save_request' from anywhere:
+#   event_player:
+#     some_new_event: ball_save_request
+# ------------------------------------------------------------
+
+ball_saves:
+  bs_default:
+    # Adjustable time the ball save stays active after being enabled
+    active_time: 5s
+
+    # Enable whenever we post this event (from any mode or config)
+    enable_events: ball_save_request
+
+    # Safety: make sure it is not running across balls/games
+    disable_events: ball_will_end, ball_ended, game_ending
+
+    # Typical defaults (explicit here so behavior is clear)
+    balls_to_save: 1
+    auto_launch: true
+
+
+event_player:
+  # Start ball save when the ball leaves the shooter lane
+  s_31_plunger_lane_inactive: ball_save_request
+  #some_event_you_add_later: ball_save_request
+

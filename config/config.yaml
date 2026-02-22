@@ -25,6 +25,7 @@ config:
   - device_config_iomap.yaml
   - device_config_iomap_coils.yaml
   - config_testing.yaml
+  - config_ball_save.yaml
 
 # --------------------
 # CONFIG::GAME
