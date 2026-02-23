@@ -14,6 +14,7 @@ modes:
     - skillshot
     - stars_mode
     - brian_combo
+    - consume
 # --------------------
 # CONFIG::FILES
 # --------------------

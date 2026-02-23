@@ -1,0 +1,157 @@
+#config_version=6
+# modes/base/config/consume_qualify.yaml
+#
+# Qualify "CONSUME" from base mode:
+#   Shot 1: (s_38 OR s_39) then s_44 within 2s
+#   Then within 20s:
+#   Shot 2: s_71 then s_60 within 2s
+#   => start CONSUME mode
+
+# ----------------------------
+# PLAYER STATE (simple gating)
+# ----------------------------
+variable_player:
+
+  mode_base_started:
+    consume_shot1_ready:
+      action: set
+      int: 0
+
+  # Shot 1 confirmed -> open the 20s window
+  consume_shot1_complete:
+    consume_shot1_ready:
+      action: set
+      int: 1
+
+  # 20s window expires -> reset qualification progress
+  timer_consume_qualify_window_complete:
+    consume_shot1_ready:
+      action: set
+      int: 0
+
+  # Starting the mode also clears the qualifier state
+  consume_start:
+    consume_shot1_ready:
+      action: set
+      int: 0
+
+
+# ----------------------------
+# TIMERS (2s sequence windows + 20s qualify window)
+# ----------------------------
+timers:
+
+  # 2s window after rollover (shot 1 step-1) to hit right spinner
+  consume_shot1_step_timer:
+    start_value: 2
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: consume_shot1_entry
+        action: restart
+      - event: consume_shot1_complete
+        action: stop
+      - event: ball_will_end
+        action: stop
+
+  # 2s window after left spinner (shot 2 step-1) to hit top lane C
+  consume_shot2_step_timer:
+    start_value: 2
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: consume_shot2_entry
+        action: restart
+      - event: consume_shot2_complete
+        action: stop
+      - event: ball_will_end
+        action: stop
+
+  # 20s window between Shot 1 completion and Shot 2 completion
+  consume_qualify_window:
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: consume_shot1_complete
+        action: restart
+      - event: consume_start
+        action: stop
+      - event: ball_will_end
+        action: stop
+
+
+# ----------------------------
+# EVENT LOGIC
+# ----------------------------
+event_player:
+
+  # ----------------
+  # SHOT 1: Right spinner loop qualify
+  #   (s_38 OR s_39) then s_44 within 2 seconds
+  # ----------------
+
+  # Either STAR rollover begins shot 1 step window
+  s_38_star_rollover_bottom_active: consume_shot1_entry
+  s_39_star_rollover_top_active: consume_shot1_entry
+
+  # Right spinner must happen while the 2s step timer is running
+  s_44_spinner_right_active{device.timers.consume_shot1_step_timer.running}: consume_shot1_complete
+
+  # Future: slide activation for Shot 1 success
+  # consume_shot1_complete:
+  #   - consume_shot1_slide_show
+
+  # Future: light show activation for Shot 1 success
+  # consume_shot1_complete:
+  #   - consume_shot1_light_show
+
+
+  # ----------------
+  # 20 second window (future effects)
+  # ----------------
+  # Future: while 20s qualify window is running, run slide show
+  # timer_consume_qualify_window_started:
+  #   - consume_qualify_window_slide_show
+  #
+  # Future: while 20s qualify window is running, run light show
+  # timer_consume_qualify_window_started:
+  #   - consume_qualify_window_light_show
+
+
+  # ----------------
+  # SHOT 2: Left orbit confirm
+  #   s_71 then s_60 within 2 seconds
+  #   (only valid if shot1_ready == 1 and still in 20s window)
+  # ----------------
+
+  # Only allow starting shot 2 sequence if shot 1 is already completed
+  s_71_spinner_left_active{current_player.consume_shot1_ready == 1}: consume_shot2_entry
+
+  # Confirm shot 2 if top lane C happens while shot2 step timer is running
+  s_60_top_lane_c_active{current_player.consume_shot1_ready == 1 and device.timers.consume_shot2_step_timer.running}: consume_shot2_complete
+
+  # Future: slide activation for Shot 2 success
+  # consume_shot2_complete:
+  #   - consume_shot2_slide_show
+  #
+  # Future: light show activation for Shot 2 success
+  # consume_shot2_complete:
+  #   - consume_shot2_light_show
+
+
+  # ----------------
+  # START CONSUME MODE
+  # ----------------
+  consume_shot2_complete{current_player.consume_shot1_ready == 1 and device.timers.consume_qualify_window.running}: consume_start
+
+  # Future: slide activation for mode start
+  # consume_start:
+  #   - consume_mode_start_slide_show
+  #
+  # Future: light show activation for mode start
+  # consume_start:
+  #   - consume_mode_start_light_show

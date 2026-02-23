@@ -1,0 +1,11 @@
+#config_version=6
+# modes/consume/config/consume.yaml
+
+mode:
+  start_events: consume_start
+  stop_events: ball_will_end
+  priority: 300
+
+event_player:
+  mode_consume_started: CONSUME_MODE_STARTED
+  mode_consume_stopped: CONSUME_MODE_STOPPED
