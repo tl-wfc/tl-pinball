@@ -1,0 +1,179 @@
+#config_version=6
+# modes/consume/config/consume_logic.yaml
+
+timers:
+  consume_mode_timer:
+    start_value: 270
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: mode_consume_started
+        action: restart
+      - event: mode_consume_stopping
+        action: stop
+      - event: ball_will_end
+        action: stop
+
+
+variable_player:
+  mode_consume_started:
+    consume_stage:
+      action: set
+      int: 0
+
+    consume_score_start:
+      action: set
+      int: current_player.score
+
+    consume_multiplier:
+      action: set
+      int: 2
+
+    consume_mb_ballsave_over:
+      action: set
+      int: 0
+
+    consume_objectives_complete:
+      action: set
+      int: 0
+    consume_saucer_complete:
+      action: set
+      int: 0
+    consume_spinners_complete:
+      action: set
+      int: 0
+    consume_varitarget_homed:
+      action: set
+      int: 0
+    consume_completed:
+      action: set
+      int: 0
+
+  consume_required_hits_complete:
+    consume_objectives_complete:
+      action: set
+      int: 1
+    consume_stage:
+      action: set
+      int: 1
+
+  consume_saucer_done:
+    consume_saucer_complete:
+      action: set
+      int: 1
+    consume_stage:
+      action: set
+      int: 2
+
+  consume_spinners_done:
+    consume_spinners_complete:
+      action: set
+      int: 1
+    consume_stage:
+      action: set
+      int: 3
+
+  consume_vt_homed:
+    consume_varitarget_homed:
+      action: set
+      int: 1
+    consume_stage:
+      action: set
+      int: 4
+
+  consume_mb_ballsave_over:
+    consume_mb_ballsave_over:
+      action: set
+      int: 1
+
+  ball_drain{mode.consume.active and current_player.consume_mb_ballsave_over == 1 and device.playfields.playfield.balls == 1}:
+    consume_multiplier:
+      action: set
+      int: 1
+
+  consume_complete:
+    consume_completed:
+      action: set
+      int: 1
+
+    # score add: bonus-from-multiplier + time-remaining bonus
+    score:
+      action: add
+      int: ((current_player.score - current_player.consume_score_start) * current_player.varitarget_hit_moved) + (device.timers.consume_mode_timer.ticks_remaining * 100000)
+
+
+coil_player:
+  mode_consume_started:
+    c_40_fourbank_drop_reset:
+      action: pulse
+    c_32_threebank_drop_reset:
+      action: pulse
+    c_31_single_drop_1_reset:
+      action: pulse
+
+
+ball_saves:
+  consume_mb_save:
+    active_time: 10s
+    balls_to_save: 2
+    auto_launch: true
+    enable_events: mode_consume_started
+    disable_events: mode_consume_stopping
+
+
+accruals:
+  consume_required_hits:
+    reset_on_complete: false
+    enable_events: mode_consume_started
+    events:
+      - s_72_single_drop_1_active
+      - s_73_fourbank_drop_1_active
+      - s_74_fourbank_drop_2_active
+      - s_75_fourbank_drop_3_active
+      - s_76_fourbank_drop_4_active
+      - s_77_threebank_drop_1_active
+      - s_78_threebank_drop_2_active
+      - s_79_threebank_drop_3_active
+      - s_82_stand_up_target_bank_1_active
+      - s_83_stand_up_target_bank_2_active
+      - s_84_stand_up_target_bank_3_active
+      - s_85_stand_up_target_bank_4_active
+      - s_86_stand_up_target_bank_5_active
+      - s_87_stand_up_target_bank_6_active
+    events_when_complete: consume_required_hits_complete
+
+
+counters:
+  consume_spinner_countdown:
+    starting_count: 20
+    count_complete_value: 0
+    direction: down
+    count_events: s_44_spinner_right_active
+    enable_events: consume_saucer_done
+    disable_events: mode_consume_stopping
+    reset_events: consume_saucer_done
+    events_when_complete: consume_spinner_countdown_complete
+
+
+event_player:
+
+  mode_consume_started: add_ball
+
+  ball_save_consume_mb_save_disabled: consume_mb_ballsave_over
+
+  s_81_saucer_left_active{mode.consume.active and current_player.consume_stage == 1}: consume_saucer_done
+
+  consume_spinner_countdown_complete{mode.consume.active and current_player.consume_stage == 2}: consume_spinners_done
+
+  varitarget_reset_request{mode.consume.active and current_player.consume_stage == 3}: consume_vt_reset_requested
+  varitarget_reset_complete{mode.consume.active and current_player.consume_stage == 3}: consume_vt_homed
+
+  varitarget_hit_end{mode.consume.active and current_player.consume_stage == 4}: consume_complete
+
+  consume_complete: stop_mode_consume
+
+  # --- future placeholders ---
+  # mode_consume_started:
+  #   - consume_mode_intro_slide
+  #   - consume_mode_intro_light_show

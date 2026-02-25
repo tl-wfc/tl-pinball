@@ -8,7 +8,7 @@ mode:
 config:
   - base_points.yaml
   - varitarget.yaml
-  - consume_qualify.yaml
+  #- consume_qualify.yaml
 
 event_player:
   mode_base_started: BASE_YAML_LOADED

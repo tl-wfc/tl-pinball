@@ -3,9 +3,8 @@
 
 mode:
   start_events: consume_start
-  stop_events: ball_will_end
+  stop_events: timer_consume_mode_timer_complete
   priority: 300
 
-event_player:
-  mode_consume_started: CONSUME_MODE_STARTED
-  mode_consume_stopped: CONSUME_MODE_STOPPED
+config:
+  - consume_logic.yaml

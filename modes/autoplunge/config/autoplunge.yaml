@@ -1,0 +1,33 @@
+#config_version=6
+
+mode:
+  start_events: ball_started
+  stop_events: ball_ending
+  priority: 200
+
+# 10-second (configurable) manual-plunge grace period
+timers:
+  t_auto_plunge:
+    start_value: 10        # <-- change this number to configure the grace time
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    restart_on_complete: false
+    control_events:
+      # start countdown when ball is sitting in shooter lane
+      - event: s_31_plunger_lane_active
+        action: start
+
+      # cancel countdown when the ball leaves (player plunged)
+      - event: s_31_plunger_lane_inactive
+        action: stop
+
+      # safety
+      - event: ball_ending
+        action: stop
+
+coil_player:
+  # if timer completes and the ball is still there, fire the auto-plunger coil
+  timer_t_auto_plunge_complete:
+    c_01_plunger: pulse

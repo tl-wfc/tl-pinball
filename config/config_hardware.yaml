@@ -1,0 +1,59 @@
+#config_version=6
+# config/config_hardware.yaml
+# ------------------------
+# CONFIG::MPF
+# ------------------------
+mpf:
+  default_light_hw_update_hz: 24
+# ------------------------
+# CONFIG::HARDWARE
+# ------------------------
+hardware:
+#    platform: smart_virtual
+    platform: fast
+# ------------------------
+# CONFIG::FAST
+# ------------------------
+fast:
+  net:
+    port: COM4
+    baud: 921600
+    controller: neuron
+    io_loop:
+      cab:
+        model: FP-I/O-0804
+        order: 1
+      pf1:
+        model: FP-I/O-1616
+        order: 2
+      pf2:
+        model: FP-I/O-3208
+        order: 3
+      pf3:
+        model: FP-I/O-1616
+        order: 4
+    debug: false
+    watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+  exp:
+    port: COM5
+    baud: 921600
+    boards:
+      ledneuron:
+        model: FP-EXP-2000
+        address: 48
+        led_fade_time: 100ms
+        ignore_led_errors: true
+      ledpf1:
+        model: FP-EXP-0081
+        address: 84
+        led_fade_time: 100ms
+        ignore_led_errors: true
+#       ledpf2:
+#         model: FP-EXP-0081
+#         address: 85
+#         led_fade_time: 50ms
+#         #ignore_led_errors: true
