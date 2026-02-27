@@ -13,3 +13,9 @@ config:
 event_player:
   mode_base_started: BASE_YAML_LOADED
   s_03_service_enter_active: end_game
+
+variable_player:
+  mode_base_started:
+    pf_multiplier:
+      action: set
+      int: 1

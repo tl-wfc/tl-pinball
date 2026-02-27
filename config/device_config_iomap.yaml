@@ -43,7 +43,7 @@ switches:
 # ------------------------  
     s_08_left_flipper:
         number: cab-4
-        tags: flipper_main_left, left_flipper
+        tags: flipper_main_left, left_flipper, service_up
     #    label: "Flipper - Main - Left"
 #    s_09_left_flipper_upper:
 #        number: cab-9
@@ -59,8 +59,7 @@ switches:
     #    label: "Start Button"
 #    s_12_tilt_bob:
 #        number: cab-12
-#        tags: tilt_warning
-#        label: "Tilt Bob"
+#        tags: tilt_bob, tilt_warning
 #    s_13_coin_door:
 #        number: cab-13
 #        label: "Coin Door"
@@ -81,7 +80,7 @@ switches:
     #    label: "Flipper - Main - Right"
     s_17_right_flipper_upper:
         number: cab-7
-        tags: flipper_main_right, right_flipper
+        tags: flipper_main_right, right_flipper, service_down
     #    label: "Flipper - Main - Right"
 #    s_18_right_secondary_button:
 #        number: 1-18
@@ -89,12 +88,10 @@ switches:
 #        label: "Button - Right - Sec"
 #    s_19_cab_arrow_left:
 #        number: 1-19
-#        tags: cab_arrow_left
-#        label: "Cab - Arrow - Left"
+#        tags: cab_arrow_left, service_esc
 #    s_20_cab_arrow_right:
 #        number: 1-20
-#        tags: cab_arrow_right
-#        label: "Cab - Arrow - right"      
+#        tags: cab_arrow_right, service_enter, action   
 #    s_21_SPARE:
 #        number: cab-21
 #        tags: SPARE_21
@@ -151,6 +148,7 @@ switches:
     #    label: "Trough - Jam"
     s_31_plunger_lane:
         number: pf2-7
+        tags: plunger_lane
     #    label: "Plunger Lane"
         ignore_window_ms: 500
 # ------------------------
@@ -158,87 +156,96 @@ switches:
 # ------------------------
     s_32_right_inlane:
         number: pf2-8
+        tags: right_return_lane, inlane, switch_hit
     #    label: "Return Lane - Right"
     s_33_right_outlane:
         number: pf2-9
+        tags: right_out_lane, outlane, switch_hit
     #    label: "Outlane - Right"
     s_34_right_sling:
         number: pf2-10
+        tags: slingshot, switch_hit, slingshot_r
     #    label: "Sling - Right"
     s_35_left_inlane:
         number: pf2-11
+        tags: left_return_lane, inlane, switch_hit
     #    label: "Return Lane - Left"
     s_36_left_outlane:
         number: pf2-12
+        tags: left_out_lane, outlane, switch_hit
     #    label: "Outlane - Left"
     s_37_left_sling:
         number: pf2-13
+        tags: slingshot, switch_hit, slingshot_l
     #    label: "Sling - Left"
     s_38_star_rollover_bottom:
         number: pf2-14
+        tags: rollover_bottom, rollover, switch_hit
     #    label: "Star Rollover - Bottom"
     s_39_star_rollover_top:
         number: pf2-15
+        tags: rollover_top, rollover, switch_hit
     #    label: "Star Rollover - Top"
 # ------------------------
 #    J6
 # ------------------------
     s_40_stand_up_target_5:
         number: pf2-16
+        tags: standup_vari_left, standups, switch_hit, stars
     #    label: "Standup Target 5 Left Side Vari"
     s_41_stand_up_target_6:
         number: pf2-17
+        tags: standup_vari_right, standups, switch_hit, stars
     #    label: "Standup Target 6 Right Side Vari"
     s_42_stand_up_target_1:
         number: pf2-18
+        tags: standup_imp, standups, switch_hit, stars
     #    label: "Standup Target 1"
     s_43_stand_up_target_4:
         number: pf2-19
+        tags: standup_pops, standups, switch_hit, stars
     #    label: "Standup Target 4"
     s_44_spinner_right:
         number: pf2-20
         type: 'NC'
-    #    label: "Spinner - Right"
+        tags: spinner_r, spinners, switch_hit
 #    s_45_SPARE:
 #        number: pf2-21
 #        tags: SPARE21
-#        label: "SPARE_21"
 #    s_46_SPARE:
 #        number: pf2-22
 #        tags: SPARE22
-#        label: "SPARE_22"
 #    s_47_SPARE:
 #        number: pf2-23
 #        tags: SPARE23
-#        label: "SPARE_23"  
 # ------------------------
 # ------------------------
 #    J9 - White wires
 # ------------------------
 #    s_48_SPARE:
 #        number: pf2-24
-#        label: "Standup Target 10 Pop"
-#    s_49_stand_up_target_10:
+#        tags:
+#    s_49_SPARE:
 #        number: pf2-25
-#        label: "Standup Target 10 Pop"
-#    s_50_stand_up_target_10:
+#        tags:
+#    s_50_SPARE:
 #        number: pf2-26
-#        label: "Standup Target 10 Pop"
-#    s_51_stand_up_target_10:
+#        tags:
+#    s_51_SPARE:
 #        number: pf2-27
-#        label: "Standup Target 10 Pop"
-#    s_52_stand_up_target_10:
+#        tags:
+#    s_52_SPARE:
 #        number: pf2-28
-#        label: "Standup Target 10 Pop"
-#    s_53_stand_up_target_10:
+#        tags:
+#    s_53_SPARE:
 #        number: pf2-29
-#        label: "Standup Target 10 Pop"
-#    s_54_stand_up_target_10:
+#        tags:
+#    s_54_SPARE:
 #        number: pf2-30
-#        label: "Standup Target 10 Pop"
-#    s_55_stand_up_target_10:
+#        tags:
+#    s_55_SPARE:
 #        number: pf2-31
-#        label: "Standup Target 10 Pop"
+#        tags: 
 #
 #-------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------
@@ -255,43 +262,44 @@ switches:
 # ------------------------
     s_56_pop_bumper_right:
         number: pf1-0
-        tags: pop_bumper_right
+        tags: pop_bumper_right, pops, switch_hit
     #    label: "Pop Bumper Right"
         ignore_window_ms: 100
     s_57_pop_bumper_center:
         number: pf1-1
-        tags: pop_bumper_center
+        tags: pop_bumper_center, pops, switch_hit
     #    label: "Pop Bumper Center"
         ignore_window_ms: 100
     s_58_pop_bumper_left:
         number: pf1-2
-        tags: pop_bumper_left
+        tags: pop_bumper_left, pops, switch_hit
     #    label: "Pop Bumper left"
         ignore_window_ms: 100
     s_59_saucer_right:
         number: pf1-3
-#        type: 'NC'
+        tags: saucer_r, right_scoop, right_lock, scoop, teleport, switch_hit
         ignore_window_ms: 2000
-    #    label: "Saucer - right"
+
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - PLAYFIELD TOP LANES
 # ------------------------
     s_60_top_lane_c:
         number: pf1-4
-    #    label: "Rollover - Top Lanes - C"
+        tags: top_lane_right, lane_c, top_lanes, switch_hit
     s_61_top_lane_b:
         number: pf1-5
-    #    label: "Rollover - Top Lanes - B"
+        tags: top_lane_mid, lane_b, top_lanes, switch_hit
     s_62_top_lane_a:
         number: pf1-6
-    #    label: "Rollover - Top Lanes - A"
+        tags: top_lane_left, lane_a, top_lanes, switch_hit
+
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGETS Singles
 # ------------------------
     s_63_stand_up_target_3:
         number: pf1-7
-        tags: top_standup_rollovers
-    #    label: "Standup Target 3"
+        tags: standup_top, standups, switch_hit, stars
+
 # ------------------------
 # J8 - Orange Wires
 # ------------------------
@@ -301,24 +309,31 @@ switches:
     s_64_varitarget_position_1:
         number: pf1-8
         type: NC
+        tags: vari_1, vari_home, vari
     #    label: "VariTarget - Position 1"
     s_65_varitarget_position_2:
         number: pf1-9
+        tags: vari_2, vari, switch_hit
     #    label: "VariTarget - Position 2"
     s_66_varitarget_position_3:
         number: pf1-10
+        tags: vari_3, vari, switch_hit
     #    label: "VariTarget - Position 3"
     s_67_varitarget_position_4:
         number: pf1-11
+        tags: vari_4, vari, switch_hit
     #    label: "VariTarget - Position 4"
     s_68_varitarget_position_5:
         number: pf1-12
+        tags: vari_5, vari, switch_hit
     #    label: "VariTarget - Position 5"
     s_69_varitarget_position_6:
         number: pf1-13
+        tags: vari_6, vari, switch_hit
     #    label: "VariTarget - Position 6"
     s_70_varitarget_position_7:
         number: pf1-14
+        tags: vari_7, vari, vari_end, switch_hit
     #    label: "VariTarget - Position 7"
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - SPINNERS
@@ -326,6 +341,7 @@ switches:
     s_71_spinner_left:
         number: pf1-15
         type: 'NC'
+        tags: spinner_l, spinners, switch_hit
     #    label: "Spinner - Left"
 #
 #-------------------------------------------------------------------------------------------
@@ -344,79 +360,71 @@ switches:
 # ------------------------
     s_72_single_drop_1:
         number: pf3-0
-        #type: 'NC'
+        tags: single_drop_hit, drop_8, drop_target, drops, switch_hit
     #    label: "Single Drop 1"
         ignore_window_ms: 300
 # ------------------------
-# CONFIG:SWITCHES:SINGLE - DROP TARGET 4-BANK
+# CONFIG:SWITCHES:SINGLE - DROP TARGET 7-BANK
 # ------------------------
     s_73_fourbank_drop_1:
         number: pf3-1
-        #type: 'NC'
-    #    label: "Four Bank Drop 1"
+        tags: fourbank_drop_1, drop_1, fourbank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_74_fourbank_drop_2:
         number: pf3-2
-        #type: 'NC'
-    #    label: "Four Bank Drop 2"
+        tags: fourbank_drop_2, drop_2, fourbank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_75_fourbank_drop_3:
         number: pf3-3
-        #type: 'NC'
-    #    label: "Four Bank Drop 3"
+        tags: fourbank_drop_3, drop_3, fourbank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_76_fourbank_drop_4:
         number: pf3-4
-        #type: 'NC'
-    #    label: "Four Bank Drop 4"
+        tags: fourbank_drop_4, drop_4, fourbank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_77_threebank_drop_1:
         number: pf3-5
-        #type: 'NC'
-    #    label: "Three Bank Drop 1"
+        tags: threebank_drop_1, drop_5, threebank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_78_threebank_drop_2:
         number: pf3-6
-        #type: 'NC'
-    #    label: "Three Bank Drop 2"
+        tags: threebank_drop_2, drop_6, threebank, drop_target, drops, switch_hit
         ignore_window_ms: 300
     s_79_threebank_drop_3:
         number: pf3-7
-        #type: 'NC'
-    #    label: "Three Bank Drop 3"
+        tags: threebank_drop_3, drop_7, threebank, drop_target, drops, switch_hit
         ignore_window_ms: 300
 # -------------------------------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGET after VUK
 # -------------------------------------------------
     s_80_stand_up_target_2:
         number: pf3-8
-    #    label: "Standup Target 2"
+        tags: standup_power, standups, switch_hit, stars
 # ----------------------------------------
 # CONFIG:SWITCHES:SINGLE - SAUCERS
 #-----------------------------------------
     s_81_saucer_left:
         number: pf3-9
-#        type: 'NC'
         ignore_window_ms: 2000
-    #    label: "Saucer - left"
+        tags: saucer_l, left_scoop, left_lock, scoop, switch_hit
 # ----------------------------------------
 # CONFIG:SWITCHES: 6-BANK
 #-----------------------------------------
     s_82_stand_up_target_bank_1:
         number: pf3-10
-    #    label: "Standup Target bank 1"
+        tags: target_1, target_green, targets, switch_hit
     s_83_stand_up_target_bank_2:
         number: pf3-11
-    #    label: "Standup Target bank 2"
+        tags: target_2, target_blue, targets, switch_hit
     s_84_stand_up_target_bank_3:
         number: pf3-12
-    #    label: "Standup Target bank 3"
+        tags: target_3, target_red, targets, switch_hit
     s_85_stand_up_target_bank_4:
         number: pf3-13
-    #    label: "Standup Target bank 4"
+        tags: target_4, target_red, targets, switch_hit
     s_86_stand_up_target_bank_5:
         number: pf3-14
-    #    label: "Standup Target bank 5"
+        tags: target_5, target_blue, targets, switch_hit
     s_87_stand_up_target_bank_6:
         number: pf3-15
-    #    label: "Standup Target bank 6"
+        tags: target_6, target_green, targets, switch_hit
