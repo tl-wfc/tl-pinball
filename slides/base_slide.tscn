@@ -3,6 +3,8 @@
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
 [ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_3761s"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
+[ext_resource type="VideoStream" uid="uid://b7m68obmro0ud" path="res://videos/base_loop.ogv" id="4_bf8jl"]
+[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_bu5wf"]
 
 [node name="BaseSlide" type="Control" unique_id=552737687]
 layout_mode = 3
@@ -14,6 +16,22 @@ metadata/_custom_type_script = "uid://dru3usokwlhd3"
 position = Vector2(765, 1007)
 scale = Vector2(0.9869792, 1.2108433)
 texture = ExtResource("2_3761s")
+
+[node name="base_video" type="VideoStreamPlayer" parent="." unique_id=1328694895]
+layout_mode = 0
+offset_left = 3.2646484
+offset_top = 2019.1368
+offset_right = 1283.2646
+offset_bottom = 3940.4404
+rotation = -1.5707964
+scale = Vector2(3.2, 3.2)
+stream = ExtResource("4_bf8jl")
+volume_db = -80.0
+autoplay = true
+loop = true
+script = ExtResource("4_bu5wf")
+preview_in_editor = true
+metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
 [node name="player_score" type="Label" parent="." unique_id=2140196080]
 layout_mode = 1
