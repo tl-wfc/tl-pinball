@@ -2,7 +2,9 @@
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_d2e70"]
+[ext_resource type="VideoStream" uid="uid://dpw4d3nebw1ej" path="res://videos/muse1.ogv" id="3_cq3lo"]
 [ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="3_hhxni"]
+[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_twbla"]
 
 [node name="Attract" type="Control" unique_id=2115222292]
 layout_mode = 3
@@ -13,6 +15,28 @@ script = ExtResource("1_73kwx")
 position = Vector2(765, 1007)
 scale = Vector2(0.9869792, 1.2108433)
 texture = ExtResource("3_hhxni")
+
+[node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="." unique_id=525313385]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 2052.0
+offset_right = 645.0
+offset_bottom = 2412.0
+rotation = -1.5707964
+scale = Vector2(3.2, 4.3)
+stream = ExtResource("3_cq3lo")
+volume_db = -80.0
+autoplay = true
+script = ExtResource("4_twbla")
+metadata/_custom_type_script = "uid://bov7mrgxslshq"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=216969078]
+layout_mode = 0
+offset_left = -81.0
+offset_top = -104.0
+offset_right = 1623.0
+offset_bottom = 2177.0
+color = Color(0, 0, 0, 0.90588236)
 
 [node name="MPFCarousel" type="Control" parent="." unique_id=822885334]
 anchors_preset = 0

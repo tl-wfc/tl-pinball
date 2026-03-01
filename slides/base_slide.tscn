@@ -19,12 +19,12 @@ texture = ExtResource("2_3761s")
 
 [node name="base_video" type="VideoStreamPlayer" parent="." unique_id=1328694895]
 layout_mode = 0
-offset_left = 3.2646484
-offset_top = 2019.1368
-offset_right = 1283.2646
-offset_bottom = 3940.4404
+offset_left = -5.999998
+offset_top = 2116.0
+offset_right = 1274.0
+offset_bottom = 2591.48
 rotation = -1.5707964
-scale = Vector2(3.2, 3.2)
+scale = Vector2(1.65, 3.35)
 stream = ExtResource("4_bf8jl")
 volume_db = -80.0
 autoplay = true
@@ -32,6 +32,14 @@ loop = true
 script = ExtResource("4_bu5wf")
 preview_in_editor = true
 metadata/_custom_type_script = "uid://bov7mrgxslshq"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1451691818]
+layout_mode = 0
+offset_left = -34.0
+offset_top = -59.0
+offset_right = 1583.0
+offset_bottom = 2179.0
+color = Color(0, 0, 0, 0.5411765)
 
 [node name="player_score" type="Label" parent="." unique_id=2140196080]
 layout_mode = 1
