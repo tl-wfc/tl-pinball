@@ -19,3 +19,6 @@ variable_player:
     pf_multiplier:
       action: set
       int: 1
+
+slide_player:
+  mode_base_started: base_slide

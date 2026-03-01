@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cefv5bs6vhbyb"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
+[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_3761s"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
+
+[node name="BaseSlide" type="Control" unique_id=552737687]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_a4vdr")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1625711034]
+position = Vector2(765, 1007)
+scale = Vector2(0.9869792, 1.2108433)
+texture = ExtResource("2_3761s")
+
+[node name="player_score" type="Label" parent="." unique_id=2140196080]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 451.0
+offset_top = 939.0
+offset_right = 1068.0
+offset_bottom = 1104.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.27058825, 0.14901961, 1)
+theme_override_constants/shadow_offset_y = 27
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 120
+text = "123456789"
+horizontal_alignment = 1
+script = ExtResource("3_bu5wf")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
