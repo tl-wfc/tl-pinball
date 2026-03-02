@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
 [ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_3761s"]
+[ext_resource type="VideoStream" uid="uid://deeiejif4e5mg" path="res://videos/attract_BG_1.ogv" id="3_bf8jl"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
-[ext_resource type="VideoStream" uid="uid://b7m68obmro0ud" path="res://videos/base_loop.ogv" id="4_bf8jl"]
 [ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_bu5wf"]
 
 [node name="BaseSlide" type="Control" unique_id=552737687]
@@ -19,14 +19,15 @@ texture = ExtResource("2_3761s")
 
 [node name="base_video" type="VideoStreamPlayer" parent="." unique_id=1328694895]
 layout_mode = 0
-offset_left = -5.999998
-offset_top = 2116.0
-offset_right = 1274.0
-offset_bottom = 2591.48
+offset_left = -1621.9999
+offset_top = 2145.0
+offset_right = 378.00012
+offset_bottom = 4221.912
 rotation = -1.5707964
-scale = Vector2(1.65, 3.35)
-stream = ExtResource("4_bf8jl")
+scale = Vector2(1.1, 2.4)
+stream = ExtResource("3_bf8jl")
 volume_db = -80.0
+speed_scale = 0.503
 autoplay = true
 loop = true
 script = ExtResource("4_bu5wf")
