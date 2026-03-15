@@ -5,6 +5,10 @@
 [ext_resource type="VideoStream" uid="uid://dpw4d3nebw1ej" path="res://videos/muse1.ogv" id="3_cq3lo"]
 [ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="3_hhxni"]
 [ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_twbla"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="6_nlvwg"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_twbla"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="8_hhnfk"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="9_h0ope"]
 
 [node name="Attract" type="Control" unique_id=2115222292]
 layout_mode = 3
@@ -18,25 +22,40 @@ texture = ExtResource("3_hhxni")
 
 [node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="." unique_id=525313385]
 layout_mode = 0
-offset_left = 5.0
-offset_top = 2052.0
-offset_right = 645.0
-offset_bottom = 2412.0
-rotation = -1.5707964
-scale = Vector2(3.2, 4.3)
+offset_left = -221.0
+offset_top = 5.0
+offset_right = 1779.0
+offset_bottom = 2005.0
 stream = ExtResource("3_cq3lo")
 volume_db = -80.0
+speed_scale = 1.1
 autoplay = true
+loop = true
 script = ExtResource("4_twbla")
 metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=216969078]
 layout_mode = 0
-offset_left = -81.0
-offset_top = -104.0
-offset_right = 1623.0
-offset_bottom = 2177.0
-color = Color(0, 0, 0, 0.90588236)
+offset_left = -2.0
+offset_top = -11.0
+offset_right = 1558.0
+offset_bottom = 2034.0
+color = Color(0, 0, 0, 0.7372549)
+
+[node name="credits" type="Label" parent="." unique_id=1453585509]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 1234.0
+offset_right = 1010.0
+offset_bottom = 1333.0
+theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_twbla")
+theme_override_font_sizes/font_size = 98
+text = "SAMPLE"
+script = ExtResource("8_hhnfk")
+variable_type = 2
+variable_name = "credits_string"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="MPFCarousel" type="Control" parent="." unique_id=822885334]
 anchors_preset = 0
@@ -50,30 +69,34 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 5.55
 anchor_bottom = 1.7120001
-offset_left = 656.0
-offset_top = 138.0
-offset_right = 1056.0
-offset_bottom = 206.51999
+offset_left = 237.0
+offset_top = 768.0
+offset_right = 1190.0
+offset_bottom = 1221.52
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_font_sizes/font_size = 100
-text = "title"
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("6_nlvwg")
+theme_override_font_sizes/font_size = 440
+text = "THEY LIVE"
 
-[node name="credits" type="Label" parent="MPFCarousel" unique_id=1726326998]
-layout_mode = 0
-offset_left = 615.0
-offset_top = 857.0
-offset_right = 1237.0
-offset_bottom = 994.0
-theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_font_sizes/font_size = 100
-text = "credits"
+[node name="title2" type="Label" parent="MPFCarousel" unique_id=435043496]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 246.0
+offset_top = 789.0
+offset_right = 1199.0
+offset_bottom = 1242.52
+theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("6_nlvwg")
+theme_override_font_sizes/font_size = 400
+text = "WE SLEEP"
 
-[node name="mpf_logo" type="Label" parent="MPFCarousel" unique_id=1159576895]
-layout_mode = 0
-offset_left = 567.0
-offset_top = 1611.0
-offset_right = 1189.0
-offset_bottom = 1748.0
-theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_font_sizes/font_size = 100
-text = "mpf_logo"
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=651609646]
+position = Vector2(766, 154)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("9_h0ope")

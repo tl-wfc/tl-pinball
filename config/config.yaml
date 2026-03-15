@@ -29,6 +29,7 @@ config:
   - device_config_iomap_coils.yaml
   - config_testing.yaml
   - config_ball_save.yaml
+  - seq_shots.yaml
 
 
 # --------------------

@@ -5,6 +5,8 @@
 [ext_resource type="VideoStream" uid="uid://deeiejif4e5mg" path="res://videos/attract_BG_1.ogv" id="3_bf8jl"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
 [ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_bu5wf"]
+[ext_resource type="Texture2D" uid="uid://bq0b5e8vgdxuw" path="res://addons/mpf-gmc/images/SCOREBOARD.png" id="5_pnqsj"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_ts8td"]
 
 [node name="BaseSlide" type="Control" unique_id=552737687]
 layout_mode = 3
@@ -36,11 +38,20 @@ metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1451691818]
 layout_mode = 0
-offset_left = -34.0
-offset_top = -59.0
-offset_right = 1583.0
-offset_bottom = 2179.0
+offset_left = -7.0
+offset_top = -114.0
+offset_right = 1610.0
+offset_bottom = 2124.0
 color = Color(0, 0, 0, 0.5411765)
+
+[node name="scoreboard" type="Sprite2D" parent="." unique_id=1144923126]
+position = Vector2(796, 497.00003)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_pnqsj")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=360575221]
+position = Vector2(458, 362)
+polygon = PackedVector2Array(6, -5, 3, -211, 686, -2, 686, 386, 11, 379)
 
 [node name="player_score" type="Label" parent="." unique_id=2140196080]
 layout_mode = 1
@@ -48,16 +59,20 @@ anchors_preset = 14
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = 451.0
-offset_top = 939.0
-offset_right = 1068.0
-offset_bottom = 1104.0
+offset_left = 438.00003
+offset_top = 342.00003
+offset_right = 1207.0
+offset_bottom = 442.00003
 grow_horizontal = 2
 grow_vertical = 2
+rotation = 0.12217305
+scale = Vector2(1, 3)
+pivot_offset = Vector2(100, 0)
 theme_override_colors/font_color = Color(1, 0.27058825, 0.14901961, 1)
 theme_override_constants/shadow_offset_y = 27
 theme_override_constants/outline_size = 16
-theme_override_font_sizes/font_size = 120
+theme_override_fonts/font = ExtResource("6_ts8td")
+theme_override_font_sizes/font_size = 100
 text = "123456789"
 horizontal_alignment = 1
 script = ExtResource("3_bu5wf")
