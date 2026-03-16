@@ -1,0 +1,5 @@
+2026-03-15 22:39:27,141 : INFO : root : Loading config.
+2026-03-15 22:39:27,144 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-15 22:39:27,145 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-03-15 22:39:27,168 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-03-15 22:39:27,168 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\monitor\config\config.yaml.
