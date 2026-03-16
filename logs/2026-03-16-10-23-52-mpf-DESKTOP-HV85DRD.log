@@ -621,3 +621,6 @@
 2026-03-16 12:17:45,568 : INFO : EventManager : Event: ======'s_16_right_flipper_active'====== Args={}
 2026-03-16 12:17:45,568 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
 2026-03-16 12:17:45,669 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' inactive >>>>>>>
+2026-03-16 13:09:07,178 : INFO : Machine : Shutting down...
+2026-03-16 13:09:07,179 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-16 13:09:07,189 : INFO : root : MPF run loop ended.
