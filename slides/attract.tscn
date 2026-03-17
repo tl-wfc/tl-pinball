@@ -1,135 +1,135 @@
-[gd_scene format=3 uid="uid://ci1ev5vr00m04"]
+[gd_scene format=3 uid="uid://cwhv54f0vdq7b"]
 
-[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_73kwx"]
-[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_d2e70"]
-[ext_resource type="VideoStream" uid="uid://dpw4d3nebw1ej" path="res://videos/muse1.ogv" id="3_cq3lo"]
-[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="3_hhxni"]
-[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_twbla"]
-[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="6_nlvwg"]
-[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_twbla"]
-[ext_resource type="Texture2D" uid="uid://beiqa5ea5n5n5" path="res://animations/press_start_sheet.png" id="7_vr35g"]
-[ext_resource type="Script" uid="uid://chbdch4b34tsc" path="res://slides/animated_sprite_2d.gd" id="8_bo6y5"]
-[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="8_hhnfk"]
-[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="9_h0ope"]
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_77688"]
+[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_huiut"]
+[ext_resource type="VideoStream" uid="uid://dpw4d3nebw1ej" path="res://videos/muse1.ogv" id="3_t6mj7"]
+[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_kkjrm"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="5_1jvl0"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="6_jy3bn"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="7_mi6it"]
+[ext_resource type="Texture2D" uid="uid://beiqa5ea5n5n5" path="res://animations/press_start_sheet.png" id="8_6u6pp"]
+[ext_resource type="Script" uid="uid://chbdch4b34tsc" path="res://slides/animated_sprite_2d.gd" id="9_f2m3o"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="10_74q5m"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="11_dwmbq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vr35g"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(0, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bo6y5"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(500, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bvyxe"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1000, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gvrry"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1500, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q4ha8"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2000, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qvr08"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2500, 0, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n85b2"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(0, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y7fsi"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(500, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o6dt0"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1000, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vm3lw"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1500, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_td1fl"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2000, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qt3nh"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2500, 256, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g3po3"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(0, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_30p4s"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(500, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cvprw"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1000, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5qr71"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1500, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v7t50"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2000, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uli2s"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2500, 512, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6dmm"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(0, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_evhv0"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(500, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0ingp"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1000, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b4xcr"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1500, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_my3u8"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2000, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_giw02"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2500, 768, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_epxba"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(0, 1024, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h6o3n"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(500, 1024, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2mao"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1000, 1024, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24nux"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(1500, 1024, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b7p0g"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2000, 1024, 500, 256)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f2qiq"]
-atlas = ExtResource("7_vr35g")
+atlas = ExtResource("8_6u6pp")
 region = Rect2(2500, 1024, 500, 256)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_608d4"]
@@ -243,12 +243,12 @@ animations = [{
 [node name="Attract" type="Control" unique_id=2115222292]
 layout_mode = 3
 anchors_preset = 0
-script = ExtResource("1_73kwx")
+script = ExtResource("1_77688")
 
 [node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]
 position = Vector2(765.2999, 1031.4501)
 scale = Vector2(1.17, 1.2464459)
-texture = ExtResource("3_hhxni")
+texture = ExtResource("2_huiut")
 
 [node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="." unique_id=525313385]
 layout_mode = 0
@@ -257,12 +257,12 @@ offset_top = -56.0
 offset_right = 1677.0
 offset_bottom = 1944.0
 scale = Vector2(1.1, 1.1)
-stream = ExtResource("3_cq3lo")
+stream = ExtResource("3_t6mj7")
 volume_db = -80.0
 speed_scale = 1.1
 autoplay = true
 loop = true
-script = ExtResource("4_twbla")
+script = ExtResource("4_kkjrm")
 metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=216969078]
@@ -280,13 +280,18 @@ offset_top = 101.0
 offset_right = 1030.0
 offset_bottom = 200.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_twbla")
+theme_override_fonts/font = ExtResource("5_1jvl0")
 theme_override_font_sizes/font_size = 98
 text = "SAMPLE"
-script = ExtResource("8_hhnfk")
+script = ExtResource("6_jy3bn")
 variable_type = 2
 variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="mpf_logo" type="Sprite2D" parent="." unique_id=651609646]
+position = Vector2(1237, 1761.0001)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("7_mi6it")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1054088647]
 position = Vector2(182.99997, 1742)
@@ -297,13 +302,13 @@ animation = &"press_start"
 frame = 21
 frame_progress = 0.5906938
 speed_scale = 0.6
-script = ExtResource("8_bo6y5")
+script = ExtResource("9_f2m3o")
 
 [node name="MPFCarousel" type="Control" parent="." unique_id=822885334]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("2_d2e70")
+script = ExtResource("10_74q5m")
 carousel_name = "attract"
 
 [node name="title" type="Label" parent="MPFCarousel" unique_id=1585513837]
@@ -318,7 +323,7 @@ offset_bottom = 1250.52
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
-theme_override_fonts/font = ExtResource("6_nlvwg")
+theme_override_fonts/font = ExtResource("11_dwmbq")
 theme_override_font_sizes/font_size = 440
 text = "THEY LIVE"
 
@@ -334,11 +339,6 @@ offset_bottom = 1279.52
 theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
-theme_override_fonts/font = ExtResource("6_nlvwg")
+theme_override_fonts/font = ExtResource("11_dwmbq")
 theme_override_font_sizes/font_size = 400
 text = "WE SLEEP"
-
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=651609646]
-position = Vector2(1237, 1761.0001)
-scale = Vector2(1.2, 1.2)
-texture = ExtResource("9_h0ope")

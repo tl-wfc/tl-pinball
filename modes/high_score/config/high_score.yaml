@@ -1,0 +1,40 @@
+#config_version=6
+# modes/high_score/config/high_score.yaml
+
+mode:
+  priority: 500
+  start_events: game_ending
+  use_wait_queue: true
+
+high_score:
+  _overwrite: true
+  enter_initials_timeout: 180s
+  award_slide_display_time: 10s
+
+  categories: !!omap
+    - score:
+        - GRAND CHAMPION
+        - HIGH SCORE 1
+        - HIGH SCORE 2
+        - HIGH SCORE 3
+        - HIGH SCORE 4
+
+  defaults:
+    score:
+      - BWC: 50000000
+      - APC: 25000000
+      - CLC: 10000000
+      - WFC: 5000000
+      - EYI: 1000000
+
+slide_player:
+  _overwrite: true
+  high_score_enter_initials: high_score_enter_initials
+  high_score_award_display: high_score_award_display
+
+event_player:
+  high_score_enter_initials:
+    tl_high_score_entry_started
+
+  high_score_award_display:
+    tl_high_score_award_display

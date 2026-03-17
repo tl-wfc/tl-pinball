@@ -8,6 +8,7 @@ modes:
     - attract
     #- service
     - base
+    - high_score
     - spinner_2x_qualify
     - spinner_2x
     - super_pops
@@ -37,7 +38,7 @@ config:
 # --------------------
 #
 game:
-  balls_per_game: 3
+  balls_per_game: 1
   max_players: 1
 machine:
   balls_installed: 1 #How many balls are physically in your game

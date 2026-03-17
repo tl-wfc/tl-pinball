@@ -7,7 +7,6 @@ mode_settings:
   selectable_items:
     - title
     - title2
-    - mpf_logo
   next_item_events: s_16_right_flipper_active, timer_attract_carousel_timer_complete
   previous_item_events: s_08_left_flipper_active
 
