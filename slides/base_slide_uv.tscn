@@ -1,28 +1,28 @@
-[gd_scene format=3 uid="uid://da8djesyl6x3v"]
+[gd_scene format=3 uid="uid://dvutjb01aemwq"]
 
-[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
-[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_3761s"]
-[ext_resource type="Texture2D" uid="uid://dfi1h45n0kvqd" path="res://assets/images/tl_img_cityskyline.jpg" id="3_8q07j"]
-[ext_resource type="VideoStream" uid="uid://deeiejif4e5mg" path="res://videos/attract_BG_1.ogv" id="3_bf8jl"]
-[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
-[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_bu5wf"]
-[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_ts8td"]
-[ext_resource type="Texture2D" uid="uid://dsvxommedw1mx" path="res://assets/images/tl_img_obey_norm.jpg" id="7_e3p2o"]
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_sedda"]
+[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_5w53y"]
+[ext_resource type="Texture2D" uid="uid://dfi1h45n0kvqd" path="res://assets/images/tl_img_cityskyline.jpg" id="3_k7rcd"]
+[ext_resource type="VideoStream" uid="uid://deeiejif4e5mg" path="res://videos/attract_BG_1.ogv" id="4_gxuo1"]
+[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="5_hs8eo"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_56rd0"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="7_2xp57"]
+[ext_resource type="Texture2D" uid="uid://hmilowqsjkk4" path="res://assets/images/tl_img_obey.jpg" id="8_sedda"]
 
 [node name="base_slide" type="Control" unique_id=2115222292]
 layout_mode = 3
 anchors_preset = 0
-script = ExtResource("1_a4vdr")
+script = ExtResource("1_sedda")
 
 [node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]
 position = Vector2(765.2999, 1031.4501)
 scale = Vector2(1.17, 1.2464459)
-texture = ExtResource("2_3761s")
+texture = ExtResource("2_5w53y")
 
 [node name="mpf_logo2" type="Sprite2D" parent="." unique_id=1152550384]
 position = Vector2(1886, 1043)
 scale = Vector2(1.8, 1.8)
-texture = ExtResource("3_8q07j")
+texture = ExtResource("3_k7rcd")
 
 [node name="base_video" type="VideoStreamPlayer" parent="." unique_id=2043882749]
 visible = false
@@ -33,12 +33,12 @@ offset_right = 586.0
 offset_bottom = 955.91187
 rotation = -1.5707964
 scale = Vector2(1.1, 2.4)
-stream = ExtResource("3_bf8jl")
+stream = ExtResource("4_gxuo1")
 volume_db = -80.0
 speed_scale = 0.503
 autoplay = true
 loop = true
-script = ExtResource("4_bu5wf")
+script = ExtResource("5_hs8eo")
 preview_in_editor = true
 metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
@@ -57,11 +57,11 @@ offset_top = 101.0
 offset_right = 1030.0
 offset_bottom = 200.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_ts8td")
+theme_override_fonts/font = ExtResource("6_56rd0")
 theme_override_font_sizes/font_size = 98
 text = "FREE_PLAY"
 horizontal_alignment = 1
-script = ExtResource("3_bu5wf")
+script = ExtResource("7_2xp57")
 variable_type = 2
 variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
@@ -69,7 +69,7 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="score_background_n" type="Sprite2D" parent="." unique_id=651609646]
 position = Vector2(749.99994, 648.9999)
 scale = Vector2(0.69, 0.69)
-texture = ExtResource("7_e3p2o")
+texture = ExtResource("8_sedda")
 
 [node name="player_score" type="Label" parent="." unique_id=236972507]
 layout_mode = 1
@@ -89,11 +89,11 @@ pivot_offset = Vector2(100, 0)
 theme_override_colors/font_color = Color(1, 0.27058825, 0.14901961, 1)
 theme_override_constants/shadow_offset_y = 27
 theme_override_constants/outline_size = 16
-theme_override_fonts/font = ExtResource("6_ts8td")
+theme_override_fonts/font = ExtResource("6_56rd0")
 theme_override_font_sizes/font_size = 100
 text = "123456789"
 horizontal_alignment = 1
-script = ExtResource("3_bu5wf")
+script = ExtResource("7_2xp57")
 variable_name = "score"
 comma_separate = true
 min_digits = 2
