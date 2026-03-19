@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://da8djesyl6x3v"]
+[gd_scene format=3 uid="uid://cefv5bs6vhbyb"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
 [ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="2_3761s"]
@@ -100,9 +100,9 @@ min_digits = 2
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="Line2D" type="Line2D" parent="." unique_id=1169401941]
-position = Vector2(749.99994, 648.9999)
-scale = Vector2(0.69, 0.69)
-points = PackedVector2Array(-628.9854, -581.15924, 673.9132, -581.15924, 978.2611, 581.1596, -933.33325, 581.1596, -628.9854, -581.15924)
+position = Vector2(748.08856, 648.9999)
+scale = Vector2(0.6637898, 0.69)
+points = PackedVector2Array(-610.26636, -581.15924, 673.9132, -581.15924, 997.1703, 573.91327, -965.80066, 573.91327, -625.33136, -581.15924)
 closed = true
 width = 40.0
 default_color = Color(1, 0, 0, 1)
