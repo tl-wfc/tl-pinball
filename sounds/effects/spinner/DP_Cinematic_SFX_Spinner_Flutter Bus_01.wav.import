@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dibbhh0owfb4i"
+path="res://.godot/imported/DP_Cinematic_SFX_Spinner_Flutter Bus_01.wav-99ddc3dff2687c2acf6d398670f8e42b.sample"
+
+[deps]
+
+source_file="res://sounds/effects/spinner/DP_Cinematic_SFX_Spinner_Flutter Bus_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Spinner_Flutter Bus_01.wav-99ddc3dff2687c2acf6d398670f8e42b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

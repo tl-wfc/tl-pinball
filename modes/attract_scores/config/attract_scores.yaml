@@ -1,0 +1,33 @@
+#config_version=6
+# modes/attract_scores/config/attract_scores.yaml
+
+mode:
+  start_events: start_mode_attract_scores
+  stop_events: stop_mode_attract_scores
+  priority: 9
+  game_mode: false
+  code: mpf.modes.carousel.code.carousel.Carousel
+
+mode_settings:
+  selectable_items:
+    - last_game_score
+    - grand_champion
+    - high_score_1
+    - high_score_2
+    - high_score_3
+    - high_score_4
+  next_item_events: s_16_right_flipper_active, timer_attract_scores_carousel_timer_complete
+  previous_item_events: s_08_left_flipper_active
+
+timers:
+  attract_scores_carousel_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    control_events:
+      - event: item_highlighted
+        action: restart
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: restart

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lqwdqonohqt8"
+path="res://.godot/imported/DP_Cinematic_SFX_Ramp Exit_Soft Dissappointment_01.wav-03a1071dac2bd4f67ee5d0d9f1a270d1.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Ramp Exit/DP_Cinematic_SFX_Ramp Exit_Soft Dissappointment_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Ramp Exit_Soft Dissappointment_01.wav-03a1071dac2bd4f67ee5d0d9f1a270d1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

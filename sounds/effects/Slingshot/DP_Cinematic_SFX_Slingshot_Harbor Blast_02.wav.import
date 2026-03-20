@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ss4y4ek3l36k"
+path="res://.godot/imported/DP_Cinematic_SFX_Slingshot_Harbor Blast_02.wav-0c313c7f12633a1e411181e3e8b346f7.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Slingshot/DP_Cinematic_SFX_Slingshot_Harbor Blast_02.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Slingshot_Harbor Blast_02.wav-0c313c7f12633a1e411181e3e8b346f7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -21,11 +21,11 @@ high_score:
 
   defaults:
     score:
-      - BWC: 50000000
-      - APC: 25000000
-      - CLC: 10000000
-      - WFC: 5000000
-      - EYI: 1000000
+      - BWC: 1000000
+      - APC: 500000
+      - CLC: 300000
+      - WFC: 200000
+      - EYI: 20000
 
 slide_player:
   _overwrite: true

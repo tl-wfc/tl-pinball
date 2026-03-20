@@ -8,6 +8,9 @@ mode:
 config:
   - base_points.yaml
   - varitarget.yaml
+  - shots.yaml
+  #- shot_groups.yaml
+ # - shot_profiles.yaml
   #- consume_qualify.yaml
 
 event_player:
@@ -22,3 +25,16 @@ variable_player:
 
 slide_player:
   mode_base_started: base_slide
+
+sound_player:
+  spinner_left_hit:
+    spinner:
+      bus: effects
+      #mode: random
+      max_queue_time: 5ms
+
+  spinner_right_hit:
+    spinner:
+      bus: effects
+      #mode: random
+      max_queue_time: 40ms

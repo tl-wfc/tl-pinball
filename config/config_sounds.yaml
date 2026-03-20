@@ -1,0 +1,8 @@
+#config_version=6
+# config/config_sounds.yaml
+#
+sounds:
+  spinner:
+    file: effects/spinner/spinner.wav
+    volume: 0.8
+

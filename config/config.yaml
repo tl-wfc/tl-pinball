@@ -6,6 +6,7 @@
 # ------------------------ 
 modes:
     - attract
+    - attract_scores
     #- service
     - base
     - high_score
@@ -24,6 +25,7 @@ modes:
 config:
   - config_hardware.yaml
   - config_ball_devices.yaml
+  - config_sounds.yaml
   - device_config_lights_led.yaml
   - device_config_game.yaml
   - device_config_iomap.yaml
@@ -32,6 +34,19 @@ config:
   - config_ball_save.yaml
   - seq_shots.yaml
 
+# ------------------------
+# Custom Machine Variables:
+# ------------------------ 
+
+machine_vars:
+  last_game_score:
+    initial_value: 0
+
+variable_player:
+  game_ended:
+    last_game_score:
+      action: set_machine
+      int: current_player.score
 
 # --------------------
 # CONFIG::GAME
@@ -50,3 +65,4 @@ playfields:
     playfield:
         default_source_device: bd_plunger
         tags: default
+

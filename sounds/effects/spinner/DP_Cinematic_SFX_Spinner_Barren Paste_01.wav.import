@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7ekq2qcea8wm"
+path="res://.godot/imported/DP_Cinematic_SFX_Spinner_Barren Paste_01.wav-f8a14d12302238d53bc97fd66110523b.sample"
+
+[deps]
+
+source_file="res://sounds/effects/spinner/DP_Cinematic_SFX_Spinner_Barren Paste_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Spinner_Barren Paste_01.wav-f8a14d12302238d53bc97fd66110523b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

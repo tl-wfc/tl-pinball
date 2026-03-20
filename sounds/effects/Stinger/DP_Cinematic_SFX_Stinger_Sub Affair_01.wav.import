@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqdfw4lt8les"
+path="res://.godot/imported/DP_Cinematic_SFX_Stinger_Sub Affair_01.wav-ea503196099ce2c3622c7029eec650a1.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Stinger/DP_Cinematic_SFX_Stinger_Sub Affair_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Stinger_Sub Affair_01.wav-ea503196099ce2c3622c7029eec650a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

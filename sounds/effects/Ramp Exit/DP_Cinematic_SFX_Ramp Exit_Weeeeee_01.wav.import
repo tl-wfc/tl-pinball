@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://00m1rlgo0b7o"
+path="res://.godot/imported/DP_Cinematic_SFX_Ramp Exit_Weeeeee_01.wav-7e3d4513185613770f389e11acfec018.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Ramp Exit/DP_Cinematic_SFX_Ramp Exit_Weeeeee_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Ramp Exit_Weeeeee_01.wav-7e3d4513185613770f389e11acfec018.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

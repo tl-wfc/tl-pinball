@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cljt0pffdv8w3"
+path="res://.godot/imported/DP_Cinematic_SFX_Scoop_Alphabet Scoop_01.wav-375c9bff5c3e4d334d6b1562a306792f.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Scoop Eject/DP_Cinematic_SFX_Scoop_Alphabet Scoop_01.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Scoop_Alphabet Scoop_01.wav-375c9bff5c3e4d334d6b1562a306792f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

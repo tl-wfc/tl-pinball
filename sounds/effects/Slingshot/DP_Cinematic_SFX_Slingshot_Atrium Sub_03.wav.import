@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4v57k3ittl0b"
+path="res://.godot/imported/DP_Cinematic_SFX_Slingshot_Atrium Sub_03.wav-81f75776ee73f4ad2a1f3bceb998b135.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Slingshot/DP_Cinematic_SFX_Slingshot_Atrium Sub_03.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Slingshot_Atrium Sub_03.wav-81f75776ee73f4ad2a1f3bceb998b135.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

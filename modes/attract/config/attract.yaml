@@ -3,6 +3,7 @@
 # Attract mode that starts when the machine boots up, stops
 # whenever a game is started, and re-starts after the game ends.
 
+
 mode_settings:
   selectable_items:
     - title
@@ -12,6 +13,10 @@ mode_settings:
 
 slide_player:
   mode_attract_started: attract
+
+event_player:
+  mode_attract_started: start_mode_attract_scores
+  mode_attract_will_stop: stop_mode_attract_scores
 
 sound_player:
   mode_attract_started:

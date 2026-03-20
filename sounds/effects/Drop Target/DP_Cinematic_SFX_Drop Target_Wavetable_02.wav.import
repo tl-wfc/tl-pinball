@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7m73k547wo45"
+path="res://.godot/imported/DP_Cinematic_SFX_Drop Target_Wavetable_02.wav-54e9084ac4da558bf5117dd7d4efdc59.sample"
+
+[deps]
+
+source_file="res://sounds/effects/Drop Target/DP_Cinematic_SFX_Drop Target_Wavetable_02.wav"
+dest_files=["res://.godot/imported/DP_Cinematic_SFX_Drop Target_Wavetable_02.wav-54e9084ac4da558bf5117dd7d4efdc59.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
