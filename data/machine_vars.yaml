@@ -1,12 +1,12 @@
+last_game_score:
+  expire: null
+  expire_secs: null
+  value: 1000000
 master_volume:
   expire: null
   expire_secs: null
-  value: 0.55
+  value: 0.5
 player1_score:
   expire: null
   expire_secs: null
-<<<<<<< HEAD
-  value: 31331050
-=======
-  value: 6275672
->>>>>>> origin/main
+  value: 1000000
