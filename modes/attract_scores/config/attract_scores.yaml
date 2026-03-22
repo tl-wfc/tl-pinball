@@ -17,7 +17,7 @@ mode_settings:
     - high_score_3
     - high_score_4
   next_item_events: s_16_right_flipper_active, timer_attract_scores_carousel_timer_complete
-  previous_item_events: s_08_left_flipper_active
+  #previous_item_events: s_08_left_flipper_active
 
 timers:
   attract_scores_carousel_timer:
