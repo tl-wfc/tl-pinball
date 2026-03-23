@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://chbdch4b34tsc" path="res://slides/animated_sprite_2d.gd" id="9_f2m3o"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="10_74q5m"]
 [ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="11_dwmbq"]
+[ext_resource type="Texture2D" uid="uid://coqw2d5l4ienn" path="res://assets/images/fastpinball_logo.png" id="12_bvyxe"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vr35g"]
 atlas = ExtResource("8_6u6pp")
@@ -288,11 +289,6 @@ script = ExtResource("6_jy3bn")
 variable_type = 2
 variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
-
-[node name="mpf_logo" type="Sprite2D" parent="." unique_id=651609646]
-position = Vector2(1237, 1907.0001)
-scale = Vector2(1.2, 1.2)
-texture = ExtResource("7_mi6it")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1054088647]
 position = Vector2(182.99995, 1888.0004)
@@ -699,3 +695,132 @@ variable_name = "score.....5_value"
 comma_separate = true
 initialize_empty = false
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="MPFCarousel3" type="Control" parent="." unique_id=479166597]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("10_74q5m")
+carousel_name = "attract_credits"
+
+[node name="credits_sfx" type="Control" parent="MPFCarousel3" unique_id=1426511143]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="sound_fx" type="Label" parent="MPFCarousel3/credits_sfx" unique_id=1119760353]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 785.0
+offset_top = 1737.0
+offset_right = 1317.0
+offset_bottom = 1985.52
+theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("11_dwmbq")
+theme_override_font_sizes/font_size = 125
+text = "Sound Design
+Jeff Dodson"
+horizontal_alignment = 1
+
+[node name="credits_mpf" type="Control" parent="MPFCarousel3" unique_id=1828334867]
+anchors_preset = 0
+offset_left = 6.0
+offset_top = 1583.0
+offset_right = 46.0
+offset_bottom = 1623.0
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel3/credits_mpf" unique_id=651609646]
+position = Vector2(1153, 301)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("7_mi6it")
+
+[node name="credits_code" type="Control" parent="MPFCarousel3" unique_id=533868642]
+anchors_preset = 0
+offset_left = 6.0
+offset_top = 1583.0
+offset_right = 46.0
+offset_bottom = 1623.0
+
+[node name="code_name" type="Label" parent="MPFCarousel3/credits_code" unique_id=1822265841]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 746.0
+offset_top = 128.0
+offset_right = 1301.0
+offset_bottom = 376.52
+theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("11_dwmbq")
+theme_override_font_sizes/font_size = 150
+text = "code design
+WFC"
+horizontal_alignment = 1
+
+[node name="credits_rules" type="Control" parent="MPFCarousel3" unique_id=1067450672]
+anchors_preset = 0
+offset_left = 6.0
+offset_top = 1583.0
+offset_right = 46.0
+offset_bottom = 1623.0
+
+[node name="rules_name" type="Label" parent="MPFCarousel3/credits_rules" unique_id=211626662]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 769.0
+offset_top = 123.0
+offset_right = 1306.0
+offset_bottom = 371.52
+theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("11_dwmbq")
+theme_override_font_sizes/font_size = 150
+text = "rules
+BWC"
+horizontal_alignment = 1
+
+[node name="credits_fast" type="Control" parent="MPFCarousel3" unique_id=411851131]
+anchors_preset = 0
+offset_left = 6.0
+offset_top = 1583.0
+offset_right = 46.0
+offset_bottom = 1623.0
+
+[node name="fast_logo" type="Sprite2D" parent="MPFCarousel3/credits_fast" unique_id=1684902916]
+position = Vector2(1153, 301)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("12_bvyxe")
+
+[node name="credits_cass" type="Control" parent="MPFCarousel3" unique_id=47769532]
+anchors_preset = 0
+offset_left = 6.0
+offset_top = 1583.0
+offset_right = 46.0
+offset_bottom = 1623.0
+
+[node name="label_high_score_4" type="Label" parent="MPFCarousel3/credits_cass" unique_id=2067481170]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 5.55
+anchor_bottom = 1.7120001
+offset_left = 777.0
+offset_top = 133.0
+offset_right = 1299.0
+offset_bottom = 381.52
+theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
+theme_override_constants/shadow_offset_y = 30
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("11_dwmbq")
+theme_override_font_sizes/font_size = 150
+text = "Support
+CLC"
+horizontal_alignment = 1

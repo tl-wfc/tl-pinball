@@ -15,8 +15,8 @@ slide_player:
   mode_attract_started: attract
 
 event_player:
-  mode_attract_started: start_mode_attract_scores
-  mode_attract_will_stop: stop_mode_attract_scores
+  mode_attract_started: start_mode_attract_scores, start_mode_attract_credits
+  mode_attract_will_stop: stop_mode_attract_scores, stop_mode_attract_credits
 
 sound_player:
   mode_attract_started:

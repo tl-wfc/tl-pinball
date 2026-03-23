@@ -7,6 +7,7 @@
 modes:
     - attract
     - attract_scores
+    - attract_credits
     #- service
     - base
     - high_score

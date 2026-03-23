@@ -6,6 +6,7 @@
 [ext_resource type="VideoStream" uid="uid://deeiejif4e5mg" path="res://videos/attract_BG_1.ogv" id="3_bf8jl"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_bu5wf"]
 [ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="4_bu5wf"]
+[ext_resource type="Texture2D" uid="uid://g7ivvo2aprk0" path="res://assets/images/tl_v_background_1.jpg" id="4_e3p2o"]
 [ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="6_ts8td"]
 [ext_resource type="Texture2D" uid="uid://dsvxommedw1mx" path="res://assets/images/tl_img_obey_norm.jpg" id="7_e3p2o"]
 
@@ -20,9 +21,18 @@ scale = Vector2(1.17, 1.2464459)
 texture = ExtResource("2_3761s")
 
 [node name="mpf_logo2" type="Sprite2D" parent="." unique_id=1152550384]
+visible = false
 position = Vector2(1886, 1043)
 scale = Vector2(1.8, 1.8)
 texture = ExtResource("3_8q07j")
+
+[node name="background_lower" type="Sprite2D" parent="." unique_id=1708585600]
+position = Vector2(1093, 1573)
+texture = ExtResource("4_e3p2o")
+
+[node name="background_upper" type="Sprite2D" parent="." unique_id=846713515]
+position = Vector2(-93, 517)
+texture = ExtResource("4_e3p2o")
 
 [node name="base_video" type="VideoStreamPlayer" parent="." unique_id=2043882749]
 visible = false
@@ -105,4 +115,4 @@ scale = Vector2(0.6637898, 0.69)
 points = PackedVector2Array(-610.26636, -581.15924, 673.9132, -581.15924, 997.1703, 573.91327, -965.80066, 573.91327, -625.33136, -581.15924)
 closed = true
 width = 40.0
-default_color = Color(1, 0, 0, 1)
+default_color = Color(0, 0, 0, 1)
