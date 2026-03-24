@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="6_jy3bn"]
 [ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="7_mi6it"]
 [ext_resource type="Texture2D" uid="uid://beiqa5ea5n5n5" path="res://animations/press_start_sheet.png" id="8_6u6pp"]
-[ext_resource type="Script" uid="uid://chbdch4b34tsc" path="res://slides/animated_sprite_2d.gd" id="9_f2m3o"]
+[ext_resource type="Script" uid="uid://bk0hfcvyduuse" path="res://slides/animated_sprite_2d_ps.gd" id="8_bvyxe"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="10_74q5m"]
 [ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="11_dwmbq"]
 [ext_resource type="Texture2D" uid="uid://coqw2d5l4ienn" path="res://assets/images/fastpinball_logo.png" id="12_bvyxe"]
@@ -296,10 +296,9 @@ rotation = 0.23387411
 scale = Vector2(1.2, 1.2)
 sprite_frames = SubResource("SpriteFrames_608d4")
 animation = &"press_start"
-frame = 21
-frame_progress = 0.5906938
+frame_progress = 0.568252
 speed_scale = 0.6
-script = ExtResource("9_f2m3o")
+script = ExtResource("8_bvyxe")
 
 [node name="MPFCarousel" type="Control" parent="." unique_id=822885334]
 anchors_preset = 0
