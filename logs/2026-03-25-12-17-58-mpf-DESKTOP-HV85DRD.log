@@ -1,0 +1,902 @@
+2026-03-25 12:17:58,748 : INFO : root : Loading config.
+2026-03-25 12:17:58,752 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-25 12:17:58,752 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-03-25 12:17:58,843 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-25 12:17:58,843 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-03-25 12:17:58,844 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-25 12:17:58,845 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-03-25 12:17:58,845 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-03-25 12:17:58,846 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-03-25 12:17:58,847 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-03-25 12:17:58,848 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-03-25 12:17:58,848 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-03-25 12:17:58,849 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-03-25 12:17:58,850 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-03-25 12:17:58,851 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-03-25 12:17:58,852 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-03-25 12:17:58,853 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-03-25 12:17:58,854 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-03-25 12:17:58,854 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-03-25-12-17-58-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-25-12-17-58-mpf-DESKTOP-HV85DRD.log'}
+2026-03-25 12:17:58,854 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-03-25 12:17:58,854 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-03-25 12:17:58,854 : INFO : Machine : Platform: win32
+2026-03-25 12:17:58,855 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-03-25 12:17:58,855 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-03-25 12:17:58,857 : INFO : Machine : Initializing MPF...
+2026-03-25 12:17:58,966 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-03-25 12:17:58,971 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-03-25 12:17:58,979 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-25 12:17:59,010 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-25 12:17:59,026 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-03-25 12:17:59,042 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-25 12:17:59,058 : ERROR : FAST [NET] : No node board found at I/O position 3, board pf3 will not be available. Please check your cable connections.
+2026-03-25 12:17:59,060 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-03-25 12:17:59,065 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-03-25 12:17:59,074 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-03-25 12:17:59,089 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-03-25 12:17:59,121 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-03-25 12:17:59,137 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-03-25 12:17:59,153 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-03-25 12:17:59,169 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,195 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,195 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,196 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,196 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,196 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,196 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,231 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,231 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,232 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,232 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,232 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,232 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-25-12-17-58-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-03-25 12:17:59,232 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-25 12:17:59,274 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-03-25 12:17:59,275 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-03-25 12:17:59,276 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_37_threebank_drop_1_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_37_threebank_drop_1_trip in platform. See error above
+2026-03-25 12:17:59,279 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_38_threebank_drop_2_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_38_threebank_drop_2_trip in platform. See error above
+2026-03-25 12:17:59,280 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_40_fourbank_drop_reset in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-15
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_40_fourbank_drop_reset in platform. See error above
+2026-03-25 12:17:59,282 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-85' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_72_single_drop_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_72_single_drop_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,283 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-86' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_73_fourbank_drop_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_73_fourbank_drop_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,284 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-87' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_74_fourbank_drop_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_74_fourbank_drop_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,286 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-88' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_75_fourbank_drop_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_75_fourbank_drop_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,287 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-89' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_76_fourbank_drop_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_76_fourbank_drop_4 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,288 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-90' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_77_threebank_drop_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_77_threebank_drop_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,289 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-91' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_78_threebank_drop_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_78_threebank_drop_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,289 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-92' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_79_threebank_drop_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_79_threebank_drop_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,290 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-93' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_80_stand_up_target_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_80_stand_up_target_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,291 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-94' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_81_saucer_left in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_81_saucer_left in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,292 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-95' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_82_stand_up_target_bank_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_82_stand_up_target_bank_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,293 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-96' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_83_stand_up_target_bank_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_83_stand_up_target_bank_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,294 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-97' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_84_stand_up_target_bank_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_84_stand_up_target_bank_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,295 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-98' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_85_stand_up_target_bank_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_85_stand_up_target_bank_4 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,296 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-99' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_86_stand_up_target_bank_5 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_86_stand_up_target_bank_5 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,297 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-100' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_87_stand_up_target_bank_6 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 490, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 577, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 492, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board pf3 does not exist for switch pf3-15
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_87_stand_up_target_bank_6 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/latest/logs)
+2026-03-25 12:17:59,298 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_29_saucer_left in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_29_saucer_left in platform. See error above
+2026-03-25 12:17:59,299 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_30_single_drop_1_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_30_single_drop_1_trip in platform. See error above
+2026-03-25 12:17:59,300 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_39_threebank_drop_3_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_39_threebank_drop_3_trip in platform. See error above
+2026-03-25 12:17:59,301 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_31_single_drop_1_reset in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_31_single_drop_1_reset in platform. See error above
+2026-03-25 12:17:59,302 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_32_threebank_drop_reset in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-7
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_32_threebank_drop_reset in platform. See error above
+2026-03-25 12:17:59,303 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_33_fourbank_drop_1_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_33_fourbank_drop_1_trip in platform. See error above
+2026-03-25 12:17:59,304 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_34_fourbank_drop_2_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_34_fourbank_drop_2_trip in platform. See error above
+2026-03-25 12:17:59,304 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_35_fourbank_drop_3_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_35_fourbank_drop_3_trip in platform. See error above
+2026-03-25 12:17:59,305 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_36_fourbank_drop_4_trip in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_36_fourbank_drop_4_trip in platform. See error above
+2026-03-25 12:17:59,307 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-25 12:17:59,307 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-25 12:17:59,307 : INFO : Machine : Shutting down...
+2026-03-25 12:17:59,307 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-25 12:18:00,422 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 346, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'pf3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 395, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 348, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board pf3 does not exist for driver pf3-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_37_threebank_drop_1_trip in platform. See error above
+2026-03-25 12:18:00,426 : INFO : root : MPF run loop ended.

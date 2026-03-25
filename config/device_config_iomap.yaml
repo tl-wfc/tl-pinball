@@ -42,7 +42,7 @@ switches:
 # J1 Cabinet Left
 # ------------------------  
     s_08_left_flipper:
-        number: cab-4
+        number: cab-8
         tags: flipper_main_left, left_flipper, service_up
     #    label: "Flipper - Main - Left"
 #    s_09_left_flipper_upper:
@@ -54,7 +54,7 @@ switches:
 #        tags: left_secondary_button
 #        label: "Button - Left - Sec"
     s_11_start_button:
-        number: cab-5
+        number: cab-11
         tags: start
     #    label: "Start Button"
 #    s_12_tilt_bob:
@@ -75,11 +75,11 @@ switches:
 # J9 Cabinet Right
 # ------------------------      
     s_16_right_flipper:
-        number: cab-6
+        number: cab-16
         tags: flipper_main_right, right_flipper
     #    label: "Flipper - Main - Right"
     s_17_right_flipper_upper:
-        number: cab-7
+        number: cab-17
         tags: flipper_main_right, right_flipper, service_down
     #    label: "Flipper - Main - Right"
 #    s_18_right_secondary_button:

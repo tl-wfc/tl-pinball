@@ -21,7 +21,7 @@ fast:
     controller: neuron
     io_loop:
       cab:
-        model: FP-I/O-0804
+        model: FP-I/O-0024
         order: 1
       pf1:
         model: FP-I/O-1616
