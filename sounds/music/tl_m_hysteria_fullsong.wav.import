@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://2onb4qag4ke0"
-path="res://.godot/imported/tl_m_hysteria-fullsong.wav-97882c2c5c5954fe09e073e8890ef04d.sample"
+path="res://.godot/imported/tl_m_hysteria_fullsong.wav-b798e0a119fd110bf9feecafd6775479.sample"
 
 [deps]
 
-source_file="res://sounds/music/tl_m_hysteria-fullsong.wav"
-dest_files=["res://.godot/imported/tl_m_hysteria-fullsong.wav-97882c2c5c5954fe09e073e8890ef04d.sample"]
+source_file="res://sounds/music/tl_m_hysteria_fullsong.wav"
+dest_files=["res://.godot/imported/tl_m_hysteria_fullsong.wav-b798e0a119fd110bf9feecafd6775479.sample"]
 
 [params]
 

@@ -5,4 +5,8 @@ sounds:
   spinner:
     file: effects/spinner/spinner.wav
     volume: 0.8
+  
+  tl_m_hysteria_fullsong:
+    file: music/tl_m_hysteria_fullsong.wav
+    volume: 0.8
 

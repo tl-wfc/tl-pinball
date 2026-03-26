@@ -33,6 +33,11 @@ sound_player:
       #mode: random
       max_queue_time: 5ms
 
+  mode_base_started:
+    tl_m_hysteria_fullsong:
+      bus: music
+      loops: -1
+
   spinner_right_hit:
     spinner:
       bus: effects
