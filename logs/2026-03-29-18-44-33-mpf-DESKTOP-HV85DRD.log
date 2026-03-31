@@ -1,0 +1,124 @@
+2026-03-29 18:44:33,269 : INFO : root : Loading config.
+2026-03-29 18:44:33,273 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-29 18:44:33,273 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-03-29 18:44:33,371 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-29 18:44:33,372 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-03-29 18:44:33,373 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-29 18:44:33,374 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-03-29 18:44:33,375 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-03-29 18:44:33,376 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-03-29 18:44:33,377 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-03-29 18:44:33,377 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-03-29 18:44:33,378 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-03-29 18:44:33,379 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-03-29 18:44:33,380 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-03-29 18:44:33,381 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-03-29 18:44:33,382 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-03-29 18:44:33,382 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-03-29 18:44:33,384 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-03-29 18:44:33,384 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-03-29-18-44-33-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-29-18-44-33-mpf-DESKTOP-HV85DRD.log'}
+2026-03-29 18:44:33,384 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-03-29 18:44:33,384 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-03-29 18:44:33,384 : INFO : Machine : Platform: win32
+2026-03-29 18:44:33,384 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-03-29 18:44:33,384 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-03-29 18:44:33,386 : INFO : Machine : Initializing MPF...
+2026-03-29 18:44:33,503 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-03-29 18:44:33,508 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-03-29 18:44:33,517 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-29 18:44:33,548 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-29 18:44:33,564 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-03-29 18:44:33,580 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-29 18:44:33,595 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-03-29 18:44:33,598 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-03-29 18:44:33,602 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-03-29 18:44:33,611 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-03-29 18:44:33,627 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-03-29 18:44:33,659 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-03-29 18:44:33,674 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-03-29 18:44:33,690 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-03-29 18:44:33,722 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+2026-03-29 18:44:33,738 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+2026-03-29 18:44:33,754 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+2026-03-29 18:44:33,769 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,796 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,823 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,823 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,823 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,824 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,824 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,824 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-29-18-44-33-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-03-29 18:44:33,824 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-29 18:44:33,970 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-03-29 18:44:33,970 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-03-29 18:44:33,972 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-261' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure light l_pf1_5_33 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 629, in configure_light
+    index = self.port_idx_to_hex(port, led, 32, config.name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 701, in port_idx_to_hex
+    self.raise_config_error(f"Device number {device_num} exceeds the number of devices per port "
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Device number 33 exceeds the number of devices per port (32) for LED l_pf1_5_33 Error Code: CFE-https://fastpinball.com/mpf/error-9 (https://missionpinball.org/latest/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    self.raise_config_error("Failed to configure light {} in platform. See error above".format(self.name), 7,
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light.l_pf1_5_33: Failed to configure light l_pf1_5_33 in platform. See error above Error Code: CFE-light-7 (https://missionpinball.org/latest/logs)
+2026-03-29 18:44:34,008 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-29 18:44:34,008 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-29 18:44:34,009 : INFO : Machine : Shutting down...
+2026-03-29 18:44:34,009 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-29 18:44:35,117 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 629, in configure_light
+    index = self.port_idx_to_hex(port, led, 32, config.name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 701, in port_idx_to_hex
+    self.raise_config_error(f"Device number {device_num} exceeds the number of devices per port "
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST: Device number 33 exceeds the number of devices per port (32) for LED l_pf1_5_33 Error Code: CFE-https://fastpinball.com/mpf/error-9 (https://missionpinball.org/latest/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 315, in _initialize
+    self._load_hw_drivers()
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    self.raise_config_error("Failed to configure light {} in platform. See error above".format(self.name), 7,
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light.l_pf1_5_33: Failed to configure light l_pf1_5_33 in platform. See error above Error Code: CFE-light-7 (https://missionpinball.org/latest/logs)
+2026-03-29 18:44:35,119 : INFO : root : MPF run loop ended.

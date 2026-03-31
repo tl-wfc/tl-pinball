@@ -1,0 +1,31 @@
+#show_version=6
+# shows/attract_led_test.yaml
+- duration: 1s
+  lights:
+    ledpf1-127:
+      color: white
+
+# - duration: 500ms
+#   lights:
+#     (playfield_leds):
+#       color: red
+
+# - duration: 500ms
+#   lights:
+#     (playfield_leds):
+#       color: green
+
+# - duration: 500ms
+#   lights:
+#     (playfield_leds):
+#       color: blue
+
+# - duration: 500ms
+#   lights:
+#     (playfield_leds):
+#       color: white
+
+# - duration: 500ms
+#   lights:
+#     (playfield_leds):
+#       color: off

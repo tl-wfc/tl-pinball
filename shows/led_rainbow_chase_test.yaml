@@ -1,0 +1,882 @@
+#show_version=6
+
+- duration: 100ms
+  lights:
+    (all_leds): off
+
+- duration: 80ms
+  lights:
+    l_pf1_1_1: red
+- duration: 80ms
+  lights:
+    l_pf1_1_2: orange
+- duration: 80ms
+  lights:
+    l_pf1_1_3: yellow
+- duration: 80ms
+  lights:
+    l_pf1_1_4: green
+- duration: 80ms
+  lights:
+    l_pf1_1_5: cyan
+- duration: 80ms
+  lights:
+    l_pf1_1_6: blue
+- duration: 80ms
+  lights:
+    l_pf1_1_7: purple
+- duration: 80ms
+  lights:
+    l_pf1_1_8: red
+- duration: 80ms
+  lights:
+    l_pf1_1_9: orange
+- duration: 80ms
+  lights:
+    l_pf1_1_10: yellow
+- duration: 80ms
+  lights:
+    l_pf1_1_11: green
+- duration: 80ms
+  lights:
+    l_pf1_1_12: cyan
+- duration: 80ms
+  lights:
+    l_pf1_1_13: blue
+- duration: 80ms
+  lights:
+    l_pf1_1_14: purple
+- duration: 80ms
+  lights:
+    l_pf1_1_15: red
+- duration: 80ms
+  lights:
+    l_pf1_1_16: orange
+- duration: 80ms
+  lights:
+    l_pf1_1_17: yellow
+- duration: 80ms
+  lights:
+    l_pf1_1_18: green
+- duration: 80ms
+  lights:
+    l_pf1_1_19: cyan
+- duration: 80ms
+  lights:
+    l_pf1_1_20: blue
+- duration: 80ms
+  lights:
+    l_pf1_1_21: purple
+- duration: 80ms
+  lights:
+    l_pf1_1_22: red
+- duration: 80ms
+  lights:
+    l_pf1_1_23: orange
+- duration: 80ms
+  lights:
+    l_pf1_1_24: yellow
+- duration: 80ms
+  lights:
+    l_pf1_1_25: green
+- duration: 80ms
+  lights:
+    l_pf1_1_26: cyan
+- duration: 80ms
+  lights:
+    l_pf1_1_27: blue
+- duration: 80ms
+  lights:
+    l_pf1_1_28: purple
+- duration: 80ms
+  lights:
+    l_pf1_1_29: red
+- duration: 80ms
+  lights:
+    l_pf1_1_30: orange
+- duration: 80ms
+  lights:
+    l_pf1_1_31: yellow
+- duration: 80ms
+  lights:
+    l_pf1_1_32: green
+
+- duration: 80ms
+  lights:
+    l_pf1_2_1: cyan
+- duration: 80ms
+  lights:
+    l_pf1_2_2: blue
+- duration: 80ms
+  lights:
+    l_pf1_2_3: purple
+- duration: 80ms
+  lights:
+    l_pf1_2_4: red
+- duration: 80ms
+  lights:
+    l_pf1_2_5: orange
+- duration: 80ms
+  lights:
+    l_pf1_2_6: yellow
+- duration: 80ms
+  lights:
+    l_pf1_2_7: green
+- duration: 80ms
+  lights:
+    l_pf1_2_8: cyan
+- duration: 80ms
+  lights:
+    l_pf1_2_9: blue
+- duration: 80ms
+  lights:
+    l_pf1_2_10: purple
+- duration: 80ms
+  lights:
+    l_pf1_2_11: red
+- duration: 80ms
+  lights:
+    l_pf1_2_12: orange
+- duration: 80ms
+  lights:
+    l_pf1_2_13: yellow
+- duration: 80ms
+  lights:
+    l_pf1_2_14: green
+- duration: 80ms
+  lights:
+    l_pf1_2_15: cyan
+- duration: 80ms
+  lights:
+    l_pf1_2_16: blue
+- duration: 80ms
+  lights:
+    l_pf1_2_17: purple
+- duration: 80ms
+  lights:
+    l_pf1_2_18: red
+- duration: 80ms
+  lights:
+    l_pf1_2_19: orange
+- duration: 80ms
+  lights:
+    l_pf1_2_20: yellow
+- duration: 80ms
+  lights:
+    l_pf1_2_21: green
+- duration: 80ms
+  lights:
+    l_pf1_2_22: cyan
+- duration: 80ms
+  lights:
+    l_pf1_2_23: blue
+- duration: 80ms
+  lights:
+    l_pf1_2_24: purple
+- duration: 80ms
+  lights:
+    l_pf1_2_25: red
+- duration: 80ms
+  lights:
+    l_pf1_2_26: orange
+- duration: 80ms
+  lights:
+    l_pf1_2_27: yellow
+- duration: 80ms
+  lights:
+    l_pf1_2_28: green
+- duration: 80ms
+  lights:
+    l_pf1_2_29: cyan
+- duration: 80ms
+  lights:
+    l_pf1_2_30: blue
+- duration: 80ms
+  lights:
+    l_pf1_2_31: purple
+- duration: 80ms
+  lights:
+    l_pf1_2_32: red
+
+- duration: 80ms
+  lights:
+    l_pf1_3_1: orange
+- duration: 80ms
+  lights:
+    l_pf1_3_2: yellow
+- duration: 80ms
+  lights:
+    l_pf1_3_3: green
+- duration: 80ms
+  lights:
+    l_pf1_3_4: cyan
+- duration: 80ms
+  lights:
+    l_pf1_3_5: blue
+- duration: 80ms
+  lights:
+    l_pf1_3_6: purple
+- duration: 80ms
+  lights:
+    l_pf1_3_7: red
+- duration: 80ms
+  lights:
+    l_pf1_3_8: orange
+- duration: 80ms
+  lights:
+    l_pf1_3_9: yellow
+- duration: 80ms
+  lights:
+    l_pf1_3_10: green
+- duration: 80ms
+  lights:
+    l_pf1_3_11: cyan
+- duration: 80ms
+  lights:
+    l_pf1_3_12: blue
+- duration: 80ms
+  lights:
+    l_pf1_3_13: purple
+- duration: 80ms
+  lights:
+    l_pf1_3_14: red
+- duration: 80ms
+  lights:
+    l_pf1_3_15: orange
+- duration: 80ms
+  lights:
+    l_pf1_3_16: yellow
+- duration: 80ms
+  lights:
+    l_pf1_3_17: green
+- duration: 80ms
+  lights:
+    l_pf1_3_18: cyan
+- duration: 80ms
+  lights:
+    l_pf1_3_19: blue
+- duration: 80ms
+  lights:
+    l_pf1_3_20: purple
+- duration: 80ms
+  lights:
+    l_pf1_3_21: red
+- duration: 80ms
+  lights:
+    l_pf1_3_22: orange
+- duration: 80ms
+  lights:
+    l_pf1_3_23: yellow
+- duration: 80ms
+  lights:
+    l_pf1_3_24: green
+- duration: 80ms
+  lights:
+    l_pf1_3_25: cyan
+- duration: 80ms
+  lights:
+    l_pf1_3_26: blue
+- duration: 80ms
+  lights:
+    l_pf1_3_27: purple
+- duration: 80ms
+  lights:
+    l_pf1_3_28: red
+- duration: 80ms
+  lights:
+    l_pf1_3_29: orange
+- duration: 80ms
+  lights:
+    l_pf1_3_30: yellow
+- duration: 80ms
+  lights:
+    l_pf1_3_31: green
+- duration: 80ms
+  lights:
+    l_pf1_3_32: cyan
+
+- duration: 80ms
+  lights:
+    l_pf1_4_1: blue
+- duration: 80ms
+  lights:
+    l_pf1_4_2: purple
+- duration: 80ms
+  lights:
+    l_pf1_4_3: red
+- duration: 80ms
+  lights:
+    l_pf1_4_4: orange
+- duration: 80ms
+  lights:
+    l_pf1_4_5: yellow
+- duration: 80ms
+  lights:
+    l_pf1_4_6: green
+- duration: 80ms
+  lights:
+    l_pf1_4_7: cyan
+- duration: 80ms
+  lights:
+    l_pf1_4_8: blue
+- duration: 80ms
+  lights:
+    l_pf1_4_9: purple
+- duration: 80ms
+  lights:
+    l_pf1_4_10: red
+- duration: 80ms
+  lights:
+    l_pf1_4_11: orange
+- duration: 80ms
+  lights:
+    l_pf1_4_12: yellow
+- duration: 80ms
+  lights:
+    l_pf1_4_13: green
+- duration: 80ms
+  lights:
+    l_pf1_4_14: cyan
+- duration: 80ms
+  lights:
+    l_pf1_4_15: blue
+- duration: 80ms
+  lights:
+    l_pf1_4_16: purple
+- duration: 80ms
+  lights:
+    l_pf1_4_17: red
+- duration: 80ms
+  lights:
+    l_pf1_4_18: orange
+- duration: 80ms
+  lights:
+    l_pf1_4_19: yellow
+- duration: 80ms
+  lights:
+    l_pf1_4_20: green
+- duration: 80ms
+  lights:
+    l_pf1_4_21: cyan
+- duration: 80ms
+  lights:
+    l_pf1_4_22: blue
+- duration: 80ms
+  lights:
+    l_pf1_4_23: purple
+- duration: 80ms
+  lights:
+    l_pf1_4_24: red
+- duration: 80ms
+  lights:
+    l_pf1_4_25: orange
+- duration: 80ms
+  lights:
+    l_pf1_4_26: yellow
+- duration: 80ms
+  lights:
+    l_pf1_4_27: green
+- duration: 80ms
+  lights:
+    l_pf1_4_28: cyan
+- duration: 80ms
+  lights:
+    l_pf1_4_29: blue
+- duration: 80ms
+  lights:
+    l_pf1_4_30: purple
+- duration: 80ms
+  lights:
+    l_pf1_4_31: red
+- duration: 80ms
+  lights:
+    l_pf1_4_32: orange
+
+- duration: 80ms
+  lights:
+    l_pf1_5_1: yellow
+- duration: 80ms
+  lights:
+    l_pf1_5_2: green
+- duration: 80ms
+  lights:
+    l_pf1_5_3: cyan
+- duration: 80ms
+  lights:
+    l_pf1_5_4: blue
+- duration: 80ms
+  lights:
+    l_pf1_5_5: purple
+- duration: 80ms
+  lights:
+    l_pf1_5_6: red
+- duration: 80ms
+  lights:
+    l_pf1_5_7: orange
+- duration: 80ms
+  lights:
+    l_pf1_5_8: yellow
+- duration: 80ms
+  lights:
+    l_pf1_5_9: green
+- duration: 80ms
+  lights:
+    l_pf1_5_10: cyan
+- duration: 80ms
+  lights:
+    l_pf1_5_11: blue
+- duration: 80ms
+  lights:
+    l_pf1_5_12: purple
+- duration: 80ms
+  lights:
+    l_pf1_5_13: red
+- duration: 80ms
+  lights:
+    l_pf1_5_14: orange
+- duration: 80ms
+  lights:
+    l_pf1_5_15: yellow
+- duration: 80ms
+  lights:
+    l_pf1_5_16: green
+- duration: 80ms
+  lights:
+    l_pf1_5_17: cyan
+- duration: 80ms
+  lights:
+    l_pf1_5_18: blue
+- duration: 80ms
+  lights:
+    l_pf1_5_19: purple
+- duration: 80ms
+  lights:
+    l_pf1_5_20: red
+- duration: 80ms
+  lights:
+    l_pf1_5_21: orange
+- duration: 80ms
+  lights:
+    l_pf1_5_22: yellow
+- duration: 80ms
+  lights:
+    l_pf1_5_23: green
+- duration: 80ms
+  lights:
+    l_pf1_5_24: cyan
+- duration: 80ms
+  lights:
+    l_pf1_5_25: blue
+- duration: 80ms
+  lights:
+    l_pf1_5_26: purple
+- duration: 80ms
+  lights:
+    l_pf1_5_27: red
+- duration: 80ms
+  lights:
+    l_pf1_5_28: orange
+- duration: 80ms
+  lights:
+    l_pf1_5_29: yellow
+- duration: 80ms
+  lights:
+    l_pf1_5_30: green
+- duration: 80ms
+  lights:
+    l_pf1_5_31: cyan
+- duration: 80ms
+  lights:
+    l_pf1_5_32: blue
+
+- duration: 80ms
+  lights:
+    l_pf2_5_1: purple
+- duration: 80ms
+  lights:
+    l_pf2_5_2: red
+- duration: 80ms
+  lights:
+    l_pf2_5_3: orange
+- duration: 80ms
+  lights:
+    l_pf2_5_4: yellow
+- duration: 80ms
+  lights:
+    l_pf2_5_5: green
+- duration: 80ms
+  lights:
+    l_pf2_5_6: cyan
+- duration: 80ms
+  lights:
+    l_pf2_5_7: blue
+- duration: 80ms
+  lights:
+    l_pf2_5_8: purple
+- duration: 80ms
+  lights:
+    l_pf2_5_9: red
+- duration: 80ms
+  lights:
+    l_pf2_5_10: orange
+- duration: 80ms
+  lights:
+    l_pf2_5_11: yellow
+- duration: 80ms
+  lights:
+    l_pf2_5_12: green
+- duration: 80ms
+  lights:
+    l_pf2_5_13: cyan
+- duration: 80ms
+  lights:
+    l_pf2_5_14: blue
+- duration: 80ms
+  lights:
+    l_pf2_5_15: purple
+- duration: 80ms
+  lights:
+    l_pf2_5_16: red
+- duration: 80ms
+  lights:
+    l_pf2_5_17: orange
+- duration: 80ms
+  lights:
+    l_pf2_5_18: yellow
+- duration: 80ms
+  lights:
+    l_pf2_5_19: green
+- duration: 80ms
+  lights:
+    l_pf2_5_20: cyan
+- duration: 80ms
+  lights:
+    l_pf2_5_21: blue
+- duration: 80ms
+  lights:
+    l_pf2_5_22: purple
+- duration: 80ms
+  lights:
+    l_pf2_5_23: red
+- duration: 80ms
+  lights:
+    l_pf2_5_24: orange
+- duration: 80ms
+  lights:
+    l_pf2_5_25: yellow
+- duration: 80ms
+  lights:
+    l_pf2_5_26: green
+- duration: 80ms
+  lights:
+    l_pf2_5_27: cyan
+- duration: 80ms
+  lights:
+    l_pf2_5_28: blue
+- duration: 80ms
+  lights:
+    l_pf2_5_29: purple
+- duration: 80ms
+  lights:
+    l_pf2_5_30: red
+- duration: 80ms
+  lights:
+    l_pf2_5_31: orange
+- duration: 80ms
+  lights:
+    l_pf2_5_32: yellow
+
+- duration: 80ms
+  lights:
+    l_pf2_6_1: green
+- duration: 80ms
+  lights:
+    l_pf2_6_2: cyan
+- duration: 80ms
+  lights:
+    l_pf2_6_3: blue
+- duration: 80ms
+  lights:
+    l_pf2_6_4: purple
+- duration: 80ms
+  lights:
+    l_pf2_6_5: red
+- duration: 80ms
+  lights:
+    l_pf2_6_6: orange
+- duration: 80ms
+  lights:
+    l_pf2_6_7: yellow
+- duration: 80ms
+  lights:
+    l_pf2_6_8: green
+- duration: 80ms
+  lights:
+    l_pf2_6_9: cyan
+- duration: 80ms
+  lights:
+    l_pf2_6_10: blue
+- duration: 80ms
+  lights:
+    l_pf2_6_11: purple
+- duration: 80ms
+  lights:
+    l_pf2_6_12: red
+- duration: 80ms
+  lights:
+    l_pf2_6_13: orange
+- duration: 80ms
+  lights:
+    l_pf2_6_14: yellow
+- duration: 80ms
+  lights:
+    l_pf2_6_15: green
+- duration: 80ms
+  lights:
+    l_pf2_6_16: cyan
+- duration: 80ms
+  lights:
+    l_pf2_6_17: blue
+- duration: 80ms
+  lights:
+    l_pf2_6_18: purple
+- duration: 80ms
+  lights:
+    l_pf2_6_19: red
+- duration: 80ms
+  lights:
+    l_pf2_6_20: orange
+- duration: 80ms
+  lights:
+    l_pf2_6_21: yellow
+- duration: 80ms
+  lights:
+    l_pf2_6_22: green
+- duration: 80ms
+  lights:
+    l_pf2_6_23: cyan
+- duration: 80ms
+  lights:
+    l_pf2_6_24: blue
+- duration: 80ms
+  lights:
+    l_pf2_6_25: purple
+- duration: 80ms
+  lights:
+    l_pf2_6_26: red
+- duration: 80ms
+  lights:
+    l_pf2_6_27: orange
+- duration: 80ms
+  lights:
+    l_pf2_6_28: yellow
+- duration: 80ms
+  lights:
+    l_pf2_6_29: green
+- duration: 80ms
+  lights:
+    l_pf2_6_30: cyan
+- duration: 80ms
+  lights:
+    l_pf2_6_31: blue
+- duration: 80ms
+  lights:
+    l_pf2_6_32: purple
+
+- duration: 80ms
+  lights:
+    l_pf2_7_1: red
+- duration: 80ms
+  lights:
+    l_pf2_7_2: orange
+- duration: 80ms
+  lights:
+    l_pf2_7_3: yellow
+- duration: 80ms
+  lights:
+    l_pf2_7_4: green
+- duration: 80ms
+  lights:
+    l_pf2_7_5: cyan
+- duration: 80ms
+  lights:
+    l_pf2_7_6: blue
+- duration: 80ms
+  lights:
+    l_pf2_7_7: purple
+- duration: 80ms
+  lights:
+    l_pf2_7_8: red
+- duration: 80ms
+  lights:
+    l_pf2_7_9: orange
+- duration: 80ms
+  lights:
+    l_pf2_7_10: yellow
+- duration: 80ms
+  lights:
+    l_pf2_7_11: green
+- duration: 80ms
+  lights:
+    l_pf2_7_12: cyan
+- duration: 80ms
+  lights:
+    l_pf2_7_13: blue
+- duration: 80ms
+  lights:
+    l_pf2_7_14: purple
+- duration: 80ms
+  lights:
+    l_pf2_7_15: red
+- duration: 80ms
+  lights:
+    l_pf2_7_16: orange
+- duration: 80ms
+  lights:
+    l_pf2_7_17: yellow
+- duration: 80ms
+  lights:
+    l_pf2_7_18: green
+- duration: 80ms
+  lights:
+    l_pf2_7_19: cyan
+- duration: 80ms
+  lights:
+    l_pf2_7_20: blue
+- duration: 80ms
+  lights:
+    l_pf2_7_21: purple
+- duration: 80ms
+  lights:
+    l_pf2_7_22: red
+- duration: 80ms
+  lights:
+    l_pf2_7_23: orange
+- duration: 80ms
+  lights:
+    l_pf2_7_24: yellow
+- duration: 80ms
+  lights:
+    l_pf2_7_25: green
+- duration: 80ms
+  lights:
+    l_pf2_7_26: cyan
+- duration: 80ms
+  lights:
+    l_pf2_7_27: blue
+- duration: 80ms
+  lights:
+    l_pf2_7_28: purple
+- duration: 80ms
+  lights:
+    l_pf2_7_29: red
+- duration: 80ms
+  lights:
+    l_pf2_7_30: orange
+- duration: 80ms
+  lights:
+    l_pf2_7_31: yellow
+- duration: 80ms
+  lights:
+    l_pf2_7_32: green
+
+- duration: 80ms
+  lights:
+    l_pf2_8_1: cyan
+- duration: 80ms
+  lights:
+    l_pf2_8_2: blue
+- duration: 80ms
+  lights:
+    l_pf2_8_3: purple
+- duration: 80ms
+  lights:
+    l_pf2_8_4: red
+- duration: 80ms
+  lights:
+    l_pf2_8_5: orange
+- duration: 80ms
+  lights:
+    l_pf2_8_6: yellow
+- duration: 80ms
+  lights:
+    l_pf2_8_7: green
+- duration: 80ms
+  lights:
+    l_pf2_8_8: cyan
+- duration: 80ms
+  lights:
+    l_pf2_8_9: blue
+- duration: 80ms
+  lights:
+    l_pf2_8_10: purple
+- duration: 80ms
+  lights:
+    l_pf2_8_11: red
+- duration: 80ms
+  lights:
+    l_pf2_8_12: orange
+- duration: 80ms
+  lights:
+    l_pf2_8_13: yellow
+- duration: 80ms
+  lights:
+    l_pf2_8_14: green
+- duration: 80ms
+  lights:
+    l_pf2_8_15: cyan
+- duration: 80ms
+  lights:
+    l_pf2_8_16: blue
+- duration: 80ms
+  lights:
+    l_pf2_8_17: purple
+- duration: 80ms
+  lights:
+    l_pf2_8_18: red
+- duration: 80ms
+  lights:
+    l_pf2_8_19: orange
+- duration: 80ms
+  lights:
+    l_pf2_8_20: yellow
+- duration: 80ms
+  lights:
+    l_pf2_8_21: green
+- duration: 80ms
+  lights:
+    l_pf2_8_22: cyan
+- duration: 80ms
+  lights:
+    l_pf2_8_23: blue
+- duration: 80ms
+  lights:
+    l_pf2_8_24: purple
+- duration: 80ms
+  lights:
+    l_pf2_8_25: red
+- duration: 80ms
+  lights:
+    l_pf2_8_26: orange
+- duration: 80ms
+  lights:
+    l_pf2_8_27: yellow
+- duration: 80ms
+  lights:
+    l_pf2_8_28: green
+- duration: 80ms
+  lights:
+    l_pf2_8_29: cyan
+- duration: 80ms
+  lights:
+    l_pf2_8_30: blue
+- duration: 80ms
+  lights:
+    l_pf2_8_31: purple
+- duration: 80ms
+  lights:
+    l_pf2_8_32: red
+
+- duration: 200ms
+  lights:
+    (all_leds): off

@@ -1,0 +1,7 @@
+2026-03-29 10:07:56,511 : INFO : root : Loading config.
+2026-03-29 10:07:56,531 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-29 10:07:56,531 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-03-29 10:07:56,605 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml
+2026-03-29 10:07:56,605 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-03-29 10:07:56,621 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-03-29 10:07:56,621 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml.

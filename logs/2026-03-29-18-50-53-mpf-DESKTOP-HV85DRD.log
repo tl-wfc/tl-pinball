@@ -1,0 +1,183 @@
+2026-03-29 18:50:53,918 : INFO : root : Loading config.
+2026-03-29 18:50:53,922 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-29 18:50:53,923 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-03-29 18:50:54,026 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-29 18:50:54,026 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-03-29 18:50:54,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-03-29 18:50:54,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-03-29 18:50:54,029 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-03-29 18:50:54,029 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-03-29 18:50:54,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-03-29 18:50:54,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-03-29 18:50:54,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-03-29 18:50:54,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-03-29 18:50:54,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-03-29 18:50:54,034 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-03-29 18:50:54,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-03-29 18:50:54,036 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-03-29 18:50:54,037 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-03-29 18:50:54,037 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-03-29-18-50-53-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-29-18-50-53-mpf-DESKTOP-HV85DRD.log'}
+2026-03-29 18:50:54,037 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-03-29 18:50:54,037 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-03-29 18:50:54,037 : INFO : Machine : Platform: win32
+2026-03-29 18:50:54,037 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-03-29 18:50:54,037 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-03-29 18:50:54,039 : INFO : Machine : Initializing MPF...
+2026-03-29 18:50:54,144 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-03-29 18:50:54,148 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-03-29 18:50:54,161 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-03-29 18:50:54,193 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-03-29 18:50:54,209 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-03-29 18:50:54,225 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-03-29 18:50:54,241 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-03-29 18:50:54,243 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-03-29 18:50:54,247 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-03-29 18:50:54,257 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-03-29 18:50:54,273 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-03-29 18:50:54,305 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-03-29 18:50:54,320 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-03-29 18:50:54,336 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-03-29 18:50:54,368 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+2026-03-29 18:50:54,384 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+2026-03-29 18:50:54,400 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+2026-03-29 18:50:54,416 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,440 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,466 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-03-29-18-50-53-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-03-29 18:50:54,467 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-03-29 18:50:54,610 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-03-29 18:50:54,610 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-03-29 18:50:57,023 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-03-29 18:50:57,023 : INFO : SwitchController : <<<<<<< 's_56_pop_bumper_right' active >>>>>>>
+2026-03-29 18:50:57,023 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-03-29 18:50:57,105 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-03-29 18:50:57,105 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-03-29 18:50:57,105 : INFO : SwitchController : Found active switch: (24, [FAST Platform Interface]) <switch.s_56_pop_bumper_right>
+2026-03-29 18:50:57,105 : INFO : SwitchController : Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 2531176, 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'EEE', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 1638150, 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 1578150, 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,118 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,119 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,119 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1550789, 'prev_value': None, 'change': True}
+2026-03-29 18:50:57,119 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-03-29 18:50:57,121 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-03-29 18:51:09,593 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:09,593 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:09,593 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:09,783 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,404 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,404 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,404 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,516 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,531 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,531 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,531 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,531 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,547 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,547 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,547 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,673 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,737 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,737 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,737 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,769 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,785 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,785 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,785 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,817 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,832 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,832 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,832 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,864 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:51:10,880 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:51:10,880 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:51:10,880 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:51:10,975 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:41,147 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:41,147 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:41,147 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:41,987 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:42,482 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:42,482 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:42,482 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:42,544 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:42,560 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:42,560 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:42,560 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:42,608 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:42,847 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:42,847 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:42,847 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:43,913 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:54,445 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:54,445 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:54,445 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:55,049 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:55,065 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:55,065 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:55,065 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:55,097 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:52:59,600 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:52:59,600 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:52:59,600 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:52:59,600 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:09,212 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:09,212 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:09,212 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:09,243 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:09,259 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:09,259 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:09,259 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:09,291 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:09,307 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:09,307 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:09,307 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:09,482 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:09,513 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:09,513 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:09,513 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:09,608 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:16,038 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:16,038 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:16,038 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:16,054 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:16,086 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:16,086 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:16,086 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:16,276 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:16,626 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:16,626 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:16,626 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:16,866 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:17,295 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:17,295 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:17,295 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:17,423 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 18:53:21,496 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-03-29 18:53:21,496 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p1'}
+2026-03-29 18:53:21,496 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-03-29 18:53:21,814 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-03-29 19:10:48,283 : INFO : Machine : Starting the main run loop with active modes: []
+2026-03-29 19:10:48,283 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-03-29 19:10:48,284 : INFO : Machine : Shutting down...
+2026-03-29 19:10:48,284 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-03-29 19:10:49,387 : INFO : root : MPF run loop ended.

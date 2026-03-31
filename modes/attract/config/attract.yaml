@@ -18,6 +18,30 @@ event_player:
   mode_attract_started: start_mode_attract_scores, start_mode_attract_credits
   mode_attract_will_stop: stop_mode_attract_scores, stop_mode_attract_credits
 
+show_player:
+  #mode_attract_started:
+    # led_rainbow_chase_test:
+    #   loops: -1
+    #   priority: 100
+  mode_attract_started:
+    led_flash_rgb_chain_test:
+      loops: -1
+      priority: 100
+
+
+
+
+# light_player:
+#   mode_attract_started:
+#     ledpf1-127:
+#       color: white
+#       fade: 0ms
+
+  # mode_attract_will_stop:
+  #   ledpf1-127: off
+
+
+
 sound_player:
   mode_attract_started:
     tl-m-Hysteria-smallintro:

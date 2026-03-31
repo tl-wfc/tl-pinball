@@ -1,0 +1,5769 @@
+#show_version=6
+# led_flash_rgb_chain_test.yaml
+- duration: 100ms
+  lights:
+    (all_leds): off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_1: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_1: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_2: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_2: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_3: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_3: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_4: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_4: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_6: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_6: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_7: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_7: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_8: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_8: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_9: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_9: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_10: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_10: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_11: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_11: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_12: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_12: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_13: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_13: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_14: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_14: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_15: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_15: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_16: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_16: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_17: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_17: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_18: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_18: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_19: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_19: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_20: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_20: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_21: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_21: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_22: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_22: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_23: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_23: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_24: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_24: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_25: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_25: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_26: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_26: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_27: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_27: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_28: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_28: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_29: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_29: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_30: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_30: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_31: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_31: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_1_32: red
+
+- duration: 120ms
+  lights:
+    l_pf1_1_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_32: green
+
+- duration: 120ms
+  lights:
+    l_pf1_1_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_1_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_1: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_1: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_2: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_2: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_3: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_3: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_4: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_4: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_5: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_5: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_6: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_6: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_7: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_7: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_8: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_8: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_9: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_9: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_10: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_10: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_11: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_11: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_12: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_12: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_13: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_13: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_14: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_14: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_15: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_15: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_16: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_16: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_17: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_17: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_18: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_18: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_19: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_19: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_20: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_20: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_21: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_21: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_22: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_22: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_23: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_23: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_24: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_24: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_25: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_25: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_26: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_26: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_27: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_27: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_28: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_28: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_29: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_29: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_30: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_30: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_31: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_31: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_2_32: red
+
+- duration: 120ms
+  lights:
+    l_pf1_2_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_32: green
+
+- duration: 120ms
+  lights:
+    l_pf1_2_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_2_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_1: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_1: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_2: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_2: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_3: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_3: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_4: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_4: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_5: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_5: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_6: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_6: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_7: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_7: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_8: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_8: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_9: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_9: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_10: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_10: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_11: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_11: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_12: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_12: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_13: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_13: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_14: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_14: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_15: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_15: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_16: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_16: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_17: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_17: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_18: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_18: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_19: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_19: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_20: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_20: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_21: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_21: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_22: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_22: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_23: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_23: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_24: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_24: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_25: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_25: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_26: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_26: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_27: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_27: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_28: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_28: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_29: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_29: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_30: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_30: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_31: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_31: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_3_32: red
+
+- duration: 120ms
+  lights:
+    l_pf1_3_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_32: green
+
+- duration: 120ms
+  lights:
+    l_pf1_3_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_3_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_1: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_1: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_2: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_2: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_3: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_3: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_4: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_4: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_5: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_5: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_6: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_6: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_7: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_7: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_8: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_8: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_9: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_9: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_10: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_10: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_11: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_11: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_12: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_12: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_13: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_13: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_14: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_14: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_15: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_15: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_16: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_16: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_17: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_17: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_18: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_18: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_19: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_19: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_20: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_20: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_21: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_21: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_22: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_22: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_23: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_23: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_24: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_24: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_25: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_25: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_26: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_26: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_27: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_27: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_28: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_28: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_29: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_29: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_30: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_30: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_31: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_31: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_4_32: red
+
+- duration: 120ms
+  lights:
+    l_pf1_4_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_32: green
+
+- duration: 120ms
+  lights:
+    l_pf1_4_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_4_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_1: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_1: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_1: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_2: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_2: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_2: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_3: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_3: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_3: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_4: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_4: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_4: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_5: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_5: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_5: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_6: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_6: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_6: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_7: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_7: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_7: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_8: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_8: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_8: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_9: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_9: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_9: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_10: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_10: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_10: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_11: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_11: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_11: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_12: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_12: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_12: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_13: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_13: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_13: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_14: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_14: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_14: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_15: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_15: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_15: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_16: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_16: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_16: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_17: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_17: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_17: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_18: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_18: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_18: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_19: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_19: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_19: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_20: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_20: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_20: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_21: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_21: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_21: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_22: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_22: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_22: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_23: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_23: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_23: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_24: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_24: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_24: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_25: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_25: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_25: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_26: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_26: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_26: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_27: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_27: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_27: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_28: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_28: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_28: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_29: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_29: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_29: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_30: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_30: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_30: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_31: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_31: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_31: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf1_5_32: red
+
+- duration: 120ms
+  lights:
+    l_pf1_5_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_32: green
+
+- duration: 120ms
+  lights:
+    l_pf1_5_32: off
+
+- duration: 120ms
+  lights:
+    l_pf1_5_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_1: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_1: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_2: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_2: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_3: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_3: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_4: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_4: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_5: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_5: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_6: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_6: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_7: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_7: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_8: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_8: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_9: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_9: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_10: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_10: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_11: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_11: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_12: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_12: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_13: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_13: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_14: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_14: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_15: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_15: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_16: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_16: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_17: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_17: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_18: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_18: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_19: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_19: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_20: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_20: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_21: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_21: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_22: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_22: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_23: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_23: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_24: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_24: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_25: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_25: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_26: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_26: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_27: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_27: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_28: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_28: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_29: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_29: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_30: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_30: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_31: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_31: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_5_32: red
+
+- duration: 120ms
+  lights:
+    l_pf2_5_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_32: green
+
+- duration: 120ms
+  lights:
+    l_pf2_5_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_5_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_1: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_1: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_2: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_2: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_3: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_3: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_4: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_4: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_5: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_5: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_6: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_6: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_7: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_7: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_8: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_8: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_9: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_9: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_10: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_10: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_11: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_11: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_12: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_12: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_13: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_13: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_14: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_14: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_15: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_15: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_16: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_16: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_17: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_17: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_18: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_18: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_19: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_19: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_20: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_20: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_21: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_21: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_22: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_22: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_23: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_23: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_24: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_24: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_25: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_25: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_26: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_26: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_27: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_27: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_28: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_28: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_29: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_29: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_30: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_30: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_31: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_31: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_6_32: red
+
+- duration: 120ms
+  lights:
+    l_pf2_6_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_32: green
+
+- duration: 120ms
+  lights:
+    l_pf2_6_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_6_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_1: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_1: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_2: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_2: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_3: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_3: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_4: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_4: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_5: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_5: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_6: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_6: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_7: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_7: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_8: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_8: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_9: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_9: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_10: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_10: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_11: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_11: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_12: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_12: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_13: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_13: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_14: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_14: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_15: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_15: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_16: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_16: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_17: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_17: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_18: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_18: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_19: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_19: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_20: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_20: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_21: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_21: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_22: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_22: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_23: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_23: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_24: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_24: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_25: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_25: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_26: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_26: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_27: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_27: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_28: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_28: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_29: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_29: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_30: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_30: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_31: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_31: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_7_32: red
+
+- duration: 120ms
+  lights:
+    l_pf2_7_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_32: green
+
+- duration: 120ms
+  lights:
+    l_pf2_7_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_7_32: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_1: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_1: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_1: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_1: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_2: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_2: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_2: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_2: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_3: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_3: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_3: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_3: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_4: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_4: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_4: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_4: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_5: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_5: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_5: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_6: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_6: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_6: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_6: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_7: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_7: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_7: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_7: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_8: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_8: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_8: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_8: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_9: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_9: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_9: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_9: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_10: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_10: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_10: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_10: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_11: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_11: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_11: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_11: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_12: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_12: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_12: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_12: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_13: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_13: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_13: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_13: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_14: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_14: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_14: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_14: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_15: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_15: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_15: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_15: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_16: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_16: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_16: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_16: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_17: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_17: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_17: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_17: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_18: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_18: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_18: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_18: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_19: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_19: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_19: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_19: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_20: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_20: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_20: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_20: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_21: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_21: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_21: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_21: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_22: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_22: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_22: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_22: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_23: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_23: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_23: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_23: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_24: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_24: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_24: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_24: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_25: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_25: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_25: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_25: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_26: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_26: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_26: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_26: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_27: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_27: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_27: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_27: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_28: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_28: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_28: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_28: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_29: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_29: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_29: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_29: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_30: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_30: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_30: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_30: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_31: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_31: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_31: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_31: blue
+
+- duration: 120ms
+  lights:
+    l_pf2_8_32: red
+
+- duration: 120ms
+  lights:
+    l_pf2_8_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_32: green
+
+- duration: 120ms
+  lights:
+    l_pf2_8_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_8_32: blue
+
+- duration: 500ms
+  lights:
+    (all_leds): off

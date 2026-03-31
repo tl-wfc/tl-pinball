@@ -51,9 +51,9 @@ fast:
         model: FP-EXP-0081
         address: 84
         led_fade_time: 100ms
-        ignore_led_errors: true
+        ignore_led_errors: false
       ledpf2:
         model: FP-EXP-0081
         address: 85
         led_fade_time: 50ms
-        #ignore_led_errors: true
+        ignore_led_errors: false
