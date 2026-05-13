@@ -274,6 +274,14 @@ offset_right = 1703.0
 offset_bottom = 2152.0
 color = Color(0, 0, 0, 0.7372549)
 
+[node name="blockout zone" type="ColorRect" parent="." unique_id=1396228582]
+layout_mode = 0
+offset_left = -199.0
+offset_top = 1848.0
+offset_right = 1703.0
+offset_bottom = 2072.0
+color = Color(0, 1, 0, 0.7372549)
+
 [node name="credits" type="Label" parent="." unique_id=1453585509]
 layout_mode = 0
 offset_left = 502.0
@@ -291,7 +299,7 @@ variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1054088647]
-position = Vector2(182.99995, 1888.0004)
+position = Vector2(182.99995, 1691.0005)
 rotation = 0.23387411
 scale = Vector2(1.2, 1.2)
 sprite_frames = SubResource("SpriteFrames_608d4")
@@ -313,9 +321,9 @@ anchors_preset = -1
 anchor_right = 5.55
 anchor_bottom = 1.7120001
 offset_left = 216.0
-offset_top = 797.0
+offset_top = 600.0
 offset_right = 1169.0
-offset_bottom = 1250.52
+offset_bottom = 1053.52
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
@@ -329,9 +337,9 @@ anchors_preset = -1
 anchor_right = 5.55
 anchor_bottom = 1.7120001
 offset_left = 237.0
-offset_top = 826.0
+offset_top = 629.0
 offset_right = 1190.0
-offset_bottom = 1279.52
+offset_bottom = 1082.52
 theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
@@ -357,9 +365,9 @@ anchors_preset = -1
 anchor_right = 5.55
 anchor_bottom = 1.7120001
 offset_left = -2.0
-offset_top = 1412.0
+offset_top = 1215.0
 offset_right = 1315.0
-offset_bottom = 1500.52
+offset_bottom = 1303.52
 theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
@@ -371,9 +379,9 @@ horizontal_alignment = 1
 [node name="last_game_score" type="Label" parent="MPFCarousel2/last_game_score" unique_id=695201925]
 layout_mode = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 1535.0
-offset_bottom = 1682.0
+offset_bottom = 1485.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_fonts/font = ExtResource("5_1jvl0")
 theme_override_font_sizes/font_size = 98
@@ -388,9 +396,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="grand_champion" type="Control" parent="MPFCarousel2" unique_id=320656348]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_grand_champion" type="Label" parent="MPFCarousel2/grand_champion" unique_id=1075719096]
 layout_mode = 1
@@ -450,9 +458,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="high_score_1" type="Control" parent="MPFCarousel2" unique_id=1271493217]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_high_score_1" type="Label" parent="MPFCarousel2/high_score_1" unique_id=1965590545]
 layout_mode = 1
@@ -512,9 +520,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="high_score_2" type="Control" parent="MPFCarousel2" unique_id=1325973565]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_high_score_2" type="Label" parent="MPFCarousel2/high_score_2" unique_id=1275075415]
 layout_mode = 1
@@ -574,9 +582,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="high_score_3" type="Control" parent="MPFCarousel2" unique_id=1730893106]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_high_score_3" type="Label" parent="MPFCarousel2/high_score_3" unique_id=136170231]
 layout_mode = 1
@@ -636,9 +644,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="high_score_4" type="Control" parent="MPFCarousel2" unique_id=948592817]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_high_score_4" type="Label" parent="MPFCarousel2/high_score_4" unique_id=431653881]
 layout_mode = 1
@@ -713,9 +721,9 @@ anchors_preset = -1
 anchor_right = 5.55
 anchor_bottom = 1.7120001
 offset_left = 785.0
-offset_top = 1737.0
+offset_top = 1540.0
 offset_right = 1317.0
-offset_bottom = 1985.52
+offset_bottom = 1788.52
 theme_override_colors/font_color = Color(0.35502833, 0.72616315, 0.7963392, 1)
 theme_override_constants/shadow_offset_y = 30
 theme_override_constants/outline_size = 50
@@ -728,9 +736,9 @@ horizontal_alignment = 1
 [node name="credits_mpf" type="Control" parent="MPFCarousel3" unique_id=1828334867]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel3/credits_mpf" unique_id=651609646]
 position = Vector2(1153, 301)
@@ -740,9 +748,9 @@ texture = ExtResource("7_mi6it")
 [node name="credits_code" type="Control" parent="MPFCarousel3" unique_id=533868642]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="code_name" type="Label" parent="MPFCarousel3/credits_code" unique_id=1822265841]
 layout_mode = 1
@@ -765,9 +773,9 @@ horizontal_alignment = 1
 [node name="credits_rules" type="Control" parent="MPFCarousel3" unique_id=1067450672]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="rules_name" type="Label" parent="MPFCarousel3/credits_rules" unique_id=211626662]
 layout_mode = 1
@@ -790,9 +798,9 @@ horizontal_alignment = 1
 [node name="credits_fast" type="Control" parent="MPFCarousel3" unique_id=411851131]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="fast_logo" type="Sprite2D" parent="MPFCarousel3/credits_fast" unique_id=1684902916]
 position = Vector2(1153, 301)
@@ -802,9 +810,9 @@ texture = ExtResource("12_bvyxe")
 [node name="credits_cass" type="Control" parent="MPFCarousel3" unique_id=47769532]
 anchors_preset = 0
 offset_left = 6.0
-offset_top = 1583.0
+offset_top = 1386.0
 offset_right = 46.0
-offset_bottom = 1623.0
+offset_bottom = 1426.0
 
 [node name="label_high_score_4" type="Label" parent="MPFCarousel3/credits_cass" unique_id=2067481170]
 layout_mode = 1
