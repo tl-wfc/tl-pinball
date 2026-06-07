@@ -26,8 +26,12 @@ position = Vector2(1886, 1043)
 scale = Vector2(1.8, 1.8)
 texture = ExtResource("3_8q07j")
 
+[node name="background_lower2" type="Sprite2D" parent="." unique_id=606910160]
+position = Vector2(1093, 1492)
+texture = ExtResource("4_e3p2o")
+
 [node name="background_lower" type="Sprite2D" parent="." unique_id=1708585600]
-position = Vector2(1093, 1573)
+position = Vector2(1093, 1401)
 texture = ExtResource("4_e3p2o")
 
 [node name="background_upper" type="Sprite2D" parent="." unique_id=846713515]
@@ -116,3 +120,12 @@ points = PackedVector2Array(-610.26636, -581.15924, 673.9132, -581.15924, 997.17
 closed = true
 width = 40.0
 default_color = Color(0, 0, 0, 1)
+
+[node name="blockout zone" type="ColorRect" parent="." unique_id=349633300]
+visible = false
+layout_mode = 0
+offset_left = -199.0
+offset_top = 1848.0
+offset_right = 1703.0
+offset_bottom = 2072.0
+color = Color(0, 1, 0, 0.7372549)
