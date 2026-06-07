@@ -244,6 +244,8 @@ animations = [{
 [node name="Attract" type="Control" unique_id=2115222292]
 layout_mode = 3
 anchors_preset = 0
+offset_top = -2.0
+offset_bottom = -2.0
 script = ExtResource("1_77688")
 
 [node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]

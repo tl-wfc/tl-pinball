@@ -1,0 +1,8 @@
+2026-06-07 19:06:20,687 : INFO : root : Loading MPF Monitor Version 0.57.2
+2026-06-07 19:06:20,824 : INFO : Core : Looking for MPF at localhost:5051
+2026-06-07 19:20:27,775 : INFO : BCP Client : Connected to MPF.
+2026-06-07 19:23:27,030 : INFO : BCP Client : Connected to MPF.
+2026-06-07 19:28:36,862 : INFO : BCP Client : Connected to MPF.
+2026-06-07 19:31:21,505 : INFO : BCP Client : Connected to MPF.
+2026-06-07 19:46:44,570 : INFO : BCP Client : Connected to MPF.
+2026-06-07 23:00:41,742 : INFO : Core : Quitting due to quit on close

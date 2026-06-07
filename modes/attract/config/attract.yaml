@@ -19,14 +19,31 @@ event_player:
   mode_attract_will_stop: stop_mode_attract_scores, stop_mode_attract_credits
 
 show_player:
-  #mode_attract_started:
-    # led_rainbow_chase_test:
+  mode_attract_started:
+    # led_flash_rgb_chain_test:
     #   loops: -1
     #   priority: 100
-  mode_attract_started:
-    led_flash_rgb_chain_test:
+    # rainbow_pops_1:
+    #   loops: -1
+    #   priority: 200
+    # red_cross_1:
+    #   loops: -1
+    #   priority: 300
+    # show_brain_1:
+    #   loops: -1
+    #   priority: 400
+    show_coloursweeps_1:
       loops: -1
       priority: 100
+    # show_bluedrops_1:
+    #   loops: -1
+    #   priority: 200
+    # show_greendrops_1:
+    #   loops: -1
+    #   priority: 300
+    # show_whitedrops_1:
+    #   loops: -1
+    #   priority: 400
 
 
 
