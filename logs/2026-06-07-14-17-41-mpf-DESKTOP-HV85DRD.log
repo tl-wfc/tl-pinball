@@ -1,0 +1,271 @@
+2026-06-07 14:17:41,358 : INFO : root : Loading config.
+2026-06-07 14:17:41,374 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-07 14:17:41,374 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-06-07 14:17:41,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+2026-06-07 14:17:41,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+2026-06-07 14:17:41,483 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-06-07 14:17:41,483 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-07-14-17-41-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-07-14-17-41-mpf-DESKTOP-HV85DRD.log'}
+2026-06-07 14:17:41,483 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-06-07 14:17:41,483 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-06-07 14:17:41,483 : INFO : Machine : Platform: win32
+2026-06-07 14:17:41,483 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-06-07 14:17:41,483 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-06-07 14:17:41,483 : INFO : Machine : Initializing MPF...
+2026-06-07 14:17:41,608 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-07 14:17:41,624 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-07 14:17:41,640 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-07 14:17:41,671 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-06-07 14:17:41,686 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-07 14:17:41,702 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-07 14:17:41,718 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-07 14:17:41,718 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-06-07 14:17:41,718 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-06-07 14:17:41,733 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-06-07 14:17:41,749 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-06-07 14:17:41,780 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-06-07 14:17:41,796 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-06-07 14:17:41,811 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-06-07 14:17:41,843 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+2026-06-07 14:17:41,858 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+2026-06-07 14:17:41,874 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+2026-06-07 14:17:41,890 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 1005000, 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1005000, 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,921 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-07-14-17-41-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-06-07 14:17:41,952 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-07 14:17:42,093 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-06-07 14:17:42,093 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-06-07 14:17:46,540 : INFO : SwitchController : <<<<<<< 's_34_right_sling' active >>>>>>>
+2026-06-07 14:17:46,540 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-06-07 14:17:46,540 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-06-07 14:17:46,540 : INFO : SwitchController : <<<<<<< 's_66_varitarget_position_3' active >>>>>>>
+2026-06-07 14:17:46,540 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-06-07 14:17:46,618 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-07 14:17:46,618 : INFO : SwitchController : Found active switch: (50, [FAST Platform Interface]) <switch.s_34_right_sling>
+2026-06-07 14:17:46,618 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-06-07 14:17:46,618 : INFO : SwitchController : Found active switch: (32, [FAST Platform Interface]) <switch.s_64_varitarget_position_1>
+2026-06-07 14:17:46,618 : INFO : SwitchController : Found active switch: (34, [FAST Platform Interface]) <switch.s_66_varitarget_position_3>
+2026-06-07 14:17:46,618 : INFO : SwitchController : Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 2531176, 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'EEE', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'CAS', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 1880840, 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 1792394, 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1680944, 'prev_value': None, 'change': True}
+2026-06-07 14:17:46,633 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-06-07 14:17:46,633 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-06-07 14:19:30,055 : INFO : SwitchController : <<<<<<< 's_24_trough_1' active >>>>>>>
+2026-06-07 14:19:30,055 : INFO : SwitchController : <<<<<<< 's_26_trough_3' active >>>>>>>
+2026-06-07 14:19:30,055 : INFO : SwitchController : <<<<<<< 's_25_trough_2' active >>>>>>>
+2026-06-07 14:19:30,055 : INFO : SwitchController : <<<<<<< 's_30_trough_jam' active >>>>>>>
+2026-06-07 14:19:30,071 : INFO : SwitchController : <<<<<<< 's_00_service_esc' active >>>>>>>
+2026-06-07 14:19:30,071 : INFO : SwitchController : <<<<<<< 's_01_service_up' active >>>>>>>
+2026-06-07 14:19:30,071 : INFO : SwitchController : <<<<<<< 's_02_service_down' active >>>>>>>
+2026-06-07 14:19:30,071 : INFO : SwitchController : <<<<<<< 's_03_service_enter' active >>>>>>>
+2026-06-07 14:19:30,071 : INFO : SwitchController : <<<<<<< 's_08_left_flipper' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_11_start_button' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_16_right_flipper'}
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_17_right_flipper_upper' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_56_pop_bumper_right' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_57_pop_bumper_center' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_58_pop_bumper_left' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_59_saucer_right' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_60_top_lane_c' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : EventManager : Event: ======'s_60_top_lane_c_active'====== Args={}
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_61_top_lane_b' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_62_top_lane_a' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_63_stand_up_target_3' active >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' inactive >>>>>>>
+2026-06-07 14:19:30,072 : INFO : SwitchController : <<<<<<< 's_65_varitarget_position_2' active >>>>>>>
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p2'}
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_67_varitarget_position_4' active >>>>>>>
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p4'}
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_68_varitarget_position_5' active >>>>>>>
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p5'}
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_69_varitarget_position_6' active >>>>>>>
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p6'}
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_70_varitarget_position_7' active >>>>>>>
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'varitarget_p7'}
+2026-06-07 14:19:30,073 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' inactive >>>>>>>
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_24_trough_1' inactive >>>>>>>
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_25_trough_2' inactive >>>>>>>
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_26_trough_3' inactive >>>>>>>
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_30_trough_jam' inactive >>>>>>>
+2026-06-07 14:19:30,073 : INFO : SwitchController : <<<<<<< 's_31_plunger_lane' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_32_right_inlane' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_32_right_inlane_active'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_33_right_outlane' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_35_left_inlane' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_35_left_inlane_active'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_36_left_outlane' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_37_left_sling' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_slingshot_l'}
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_38_star_rollover_bottom' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_rollover_bottom'}
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_38_star_rollover_bottom_active'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_39_star_rollover_top' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_rollover_top'}
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_39_star_rollover_top_active'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_40_stand_up_target_5' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_40_stand_up_target_5_active'====== Args={}
+2026-06-07 14:19:30,074 : INFO : SwitchController : <<<<<<< 's_41_stand_up_target_6' active >>>>>>>
+2026-06-07 14:19:30,074 : INFO : EventManager : Event: ======'s_41_stand_up_target_6_active'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_42_stand_up_target_1' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_impossible'}
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_43_stand_up_target_4' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'s_43_stand_up_target_4_active'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' inactive >>>>>>>
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_72_single_drop_1' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_1'}
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_2'}
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_3'}
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_4'}
+2026-06-07 14:19:30,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,075 : INFO : SwitchController : <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_5'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_6'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_dt_7'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_80_stand_up_target_2' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_81_saucer_left' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_82_stand_up_target_bank_1' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_1'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_green'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,076 : INFO : SwitchController : <<<<<<< 's_83_stand_up_target_bank_2' active >>>>>>>
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_2'}
+2026-06-07 14:19:30,076 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_blue'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : SwitchController : <<<<<<< 's_84_stand_up_target_bank_3' active >>>>>>>
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_3'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_red'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : SwitchController : <<<<<<< 's_85_stand_up_target_bank_4' active >>>>>>>
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_4'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_red'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : SwitchController : <<<<<<< 's_86_stand_up_target_bank_5' active >>>>>>>
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_5'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_blue'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : SwitchController : <<<<<<< 's_87_stand_up_target_bank_6' active >>>>>>>
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_6'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'shot_sut_green'}
+2026-06-07 14:19:30,077 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-06-07 14:19:30,078 : INFO : EventManager : Event: ======'ssh_posts_v_hit'====== Args={'elapsed': 0.0}
+2026-06-07 14:19:30,118 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x00000236C55AD2B0>
+transport: SerialTransport(<ProactorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x00000236C55AD2B0>, Serial<id=0x236c55ad360, open=True>(port='COM4', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-06-07 14:19:30,161 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x00000236C55D2A50>
+transport: SerialTransport(<ProactorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x00000236C55D2A50>, Serial<id=0x236c55d2b00, open=True>(port='COM5', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-06-07 14:19:30,163 : WARNING : FAST [NET] : Serial error: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-06-07 14:19:30,163 : WARNING : FAST [EXP] : Serial error: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-06-07 14:19:30,163 : INFO : Machine : Starting the main run loop with active modes: []
+2026-06-07 14:19:30,163 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-06-07 14:19:30,164 : INFO : Machine : Shutting down...
+2026-06-07 14:19:30,164 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-07 14:19:30,277 : ERROR : root : ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 706, in run
+    self._run_loop()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 806, in _run_loop
+    self._crash_shutdown()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 751, in _crash_shutdown
+    self._do_stop()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 742, in _do_stop
+    self.shutdown()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 772, in shutdown
+    self._platform_stop()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 822, in _platform_stop
+    hardware_platform.stop()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\fast.py", line 176, in stop
+    connection.stop()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 244, in stop
+    self.machine.clock.loop.run_until_complete(self.writer.wait_closed())
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\mpf\Lib\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
