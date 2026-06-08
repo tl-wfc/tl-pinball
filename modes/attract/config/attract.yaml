@@ -32,8 +32,8 @@ show_player:
     # show_brain_1:
     #   loops: -1
     #   priority: 400
-    show_coloursweeps_1:
-      loops: -1
+    show_pops_redsweep_1:
+      loops: 10
       priority: 100
     # show_bluedrops_1:
     #   loops: -1
