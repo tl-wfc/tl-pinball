@@ -29,9 +29,9 @@ show_player:
     # red_cross_1:
     #   loops: -1
     #   priority: 300
-    # show_brain_1:
-    #   loops: -1
-    #   priority: 400
+    show_multi_attract_1:
+      loops: -1
+      priority: 500
     show_modeinserts_sweep_green_1:
       loops: -1
       priority: 100
@@ -41,9 +41,15 @@ show_player:
     show_rorbit_rgb_1:
       loops: -1
       priority: 300
-    # show_whitedrops_1:
-    #   loops: 3
-    #   priority: 400
+    show_shotgun_attract_1:
+      loops: -1
+      priority: 400
+    show_tv_staticbreath_1:
+      loops: -1
+      priority: 600
+    show_tv_staticfast_1:
+      loops: -1
+      priority: 600
 
 
 

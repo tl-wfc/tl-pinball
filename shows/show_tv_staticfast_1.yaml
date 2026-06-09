@@ -1,0 +1,73 @@
+#show_version=6
+
+- duration: 25ms
+  lights:
+    l_pf1_3_16: 'FF'
+    l_pf1_3_17: '00'
+    l_pf1_3_15: '80'
+    l_pf1_3_18: '20'
+    l_pf1_3_14: 'FF'
+    l_pf1_3_19: '00'
+
+- duration: 35ms
+  lights:
+    l_pf1_3_16: '10'
+    l_pf1_3_17: 'D0'
+    l_pf1_3_15: '00'
+    l_pf1_3_18: 'FF'
+    l_pf1_3_14: '30'
+    l_pf1_3_19: '80'
+
+- duration: 20ms
+  lights:
+    l_pf1_3_16: '00'
+    l_pf1_3_17: 'FF'
+    l_pf1_3_15: '30'
+    l_pf1_3_18: 'A0'
+    l_pf1_3_14: 'FF'
+    l_pf1_3_19: '10'
+
+- duration: 45ms
+  lights:
+    l_pf1_3_16: '90'
+    l_pf1_3_17: '20'
+    l_pf1_3_15: 'FF'
+    l_pf1_3_18: '00'
+    l_pf1_3_14: '40'
+    l_pf1_3_19: 'C0'
+
+- duration: 30ms
+  lights:
+    l_pf1_3_16: 'FF'
+    l_pf1_3_17: '40'
+    l_pf1_3_15: '00'
+    l_pf1_3_18: '00'
+    l_pf1_3_14: 'B0'
+    l_pf1_3_19: 'FF'
+
+- duration: 25ms
+  lights:
+    l_pf1_3_16: '00'
+    l_pf1_3_17: '80'
+    l_pf1_3_15: 'FF'
+    l_pf1_3_18: '20'
+    l_pf1_3_14: '60'
+    l_pf1_3_19: 'FF'
+
+- duration: 55ms
+  lights:
+    l_pf1_3_16: '20'
+    l_pf1_3_17: '00'
+    l_pf1_3_15: 'C0'
+    l_pf1_3_18: 'FF'
+    l_pf1_3_14: '00'
+    l_pf1_3_19: '70'
+
+- duration: 30ms
+  lights:
+    l_pf1_3_16: 'FF'
+    l_pf1_3_17: 'FF'
+    l_pf1_3_15: '00'
+    l_pf1_3_18: '10'
+    l_pf1_3_14: '40'
+    l_pf1_3_19: '00'

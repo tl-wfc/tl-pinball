@@ -1,0 +1,1185 @@
+#show_version=6
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000400'
+    l_pf1_4_21: '000400'
+    l_pf1_4_18: '000400'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '005401'
+    l_pf1_4_21: '005401'
+    l_pf1_4_18: '005401'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00EF04'
+    l_pf1_4_21: '00EF04'
+    l_pf1_4_18: '00EF04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00FF04'
+    l_pf1_4_21: '00FF04'
+    l_pf1_4_18: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00F704'
+    l_pf1_4_21: '00F704'
+    l_pf1_4_18: '00F704'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '008C02'
+    l_pf1_4_21: '008C02'
+    l_pf1_4_18: '008C02'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000B00'
+    l_pf1_4_21: '000B00'
+    l_pf1_4_18: '000B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '001000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_20: '001000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_17: '001000'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00B103'
+    l_pf1_4_20: '00B103'
+    l_pf1_4_17: '00B103'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00FF04'
+    l_pf1_4_20: '00FF04'
+    l_pf1_4_17: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00EB04'
+    l_pf1_4_20: '00EB04'
+    l_pf1_4_17: '00EB04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '002901'
+    l_pf1_4_20: '002901'
+    l_pf1_4_17: '002901'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '000000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '001000'
+    l_pf1_4_19: '001000'
+    l_pf1_4_16: '001000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00B103'
+    l_pf1_4_19: '00B103'
+    l_pf1_4_16: '00B103'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00FD04'
+    l_pf1_4_19: '00FD04'
+    l_pf1_4_16: '00FD04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00FF04'
+    l_pf1_4_19: '00FF04'
+    l_pf1_4_16: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00EB04'
+    l_pf1_4_19: '00EB04'
+    l_pf1_4_16: '00EB04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '002901'
+    l_pf1_4_19: '002901'
+    l_pf1_4_16: '002901'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000400'
+    l_pf1_4_21: '000400'
+    l_pf1_4_18: '000400'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '005401'
+    l_pf1_4_21: '005401'
+    l_pf1_4_18: '005401'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00EF04'
+    l_pf1_4_21: '00EF04'
+    l_pf1_4_18: '00EF04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00FF04'
+    l_pf1_4_21: '00FF04'
+    l_pf1_4_18: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00F704'
+    l_pf1_4_21: '00F704'
+    l_pf1_4_18: '00F704'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '008C02'
+    l_pf1_4_21: '008C02'
+    l_pf1_4_18: '008C02'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000B00'
+    l_pf1_4_21: '000B00'
+    l_pf1_4_18: '000B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '001B00'
+    l_pf1_4_24: '000000'
+    l_pf1_4_20: '001B00'
+    l_pf1_4_21: '000000'
+    l_pf1_4_17: '001B00'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00DB03'
+    l_pf1_4_20: '00DB03'
+    l_pf1_4_17: '00DB03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00FF04'
+    l_pf1_4_20: '00FF04'
+    l_pf1_4_17: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00DE03'
+    l_pf1_4_20: '00DE03'
+    l_pf1_4_17: '00DE03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '001700'
+    l_pf1_4_20: '001700'
+    l_pf1_4_17: '001700'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '000000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '001000'
+    l_pf1_4_19: '001000'
+    l_pf1_4_16: '001000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00DB03'
+    l_pf1_4_19: '00DB03'
+    l_pf1_4_16: '00DB03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00FF04'
+    l_pf1_4_19: '00FF04'
+    l_pf1_4_16: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00DE03'
+    l_pf1_4_19: '00DE03'
+    l_pf1_4_16: '00DE03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '001700'
+    l_pf1_4_19: '001700'
+    l_pf1_4_16: '001700'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000400'
+    l_pf1_4_21: '000400'
+    l_pf1_4_18: '000400'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '005401'
+    l_pf1_4_21: '005401'
+    l_pf1_4_18: '005401'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00EF04'
+    l_pf1_4_21: '00EF04'
+    l_pf1_4_18: '00EF04'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00FF04'
+    l_pf1_4_21: '00FF04'
+    l_pf1_4_18: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '00F704'
+    l_pf1_4_21: '00F704'
+    l_pf1_4_18: '00F704'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '002901'
+    l_pf1_4_21: '002901'
+    l_pf1_4_18: '002901'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '000000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '001B00'
+    l_pf1_4_20: '001B00'
+    l_pf1_4_17: '001B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00DB03'
+    l_pf1_4_20: '00DB03'
+    l_pf1_4_17: '00DB03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00FF04'
+    l_pf1_4_20: '00FF04'
+    l_pf1_4_17: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '00DE03'
+    l_pf1_4_20: '00DE03'
+    l_pf1_4_17: '00DE03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '000B00'
+    l_pf1_4_20: '000B00'
+    l_pf1_4_17: '000B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '000000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '001B00'
+    l_pf1_4_19: '001B00'
+    l_pf1_4_16: '001B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00DB03'
+    l_pf1_4_19: '00DB03'
+    l_pf1_4_16: '00DB03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00FF04'
+    l_pf1_4_19: '00FF04'
+    l_pf1_4_16: '00FF04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '00DE03'
+    l_pf1_4_19: '00DE03'
+    l_pf1_4_16: '00DE03'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000B00'
+    l_pf1_4_19: '000B00'
+    l_pf1_4_16: '000B00'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '100000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: 'FF0000'
+    l_pf1_4_21: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: '400000'
+    l_pf1_4_18: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: 'FF0000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_18: 'F70000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: 'FF0000'
+    l_pf1_4_17: 'FF0000'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: 'FF0000'
+    l_pf1_4_24: 'F70000'
+    l_pf1_4_19: '010000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_24: 'FF0000'
+    l_pf1_4_19: 'FF0000'
+    l_pf1_4_16: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_23: '2A0000'
+    l_pf1_4_24: 'B50000'
+    l_pf1_4_21: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: 'FF0000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: '000000'
+    l_pf1_4_18: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: 'F00000'
+    l_pf1_4_20: 'FF0000'
+    l_pf1_4_21: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: 'FF0000'
+    l_pf1_4_23: '000000'
+    l_pf1_4_24: 'FF0000'
+    l_pf1_4_21: 'B20000'
+    l_pf1_4_17: 'FF0000'
+    l_pf1_4_18: '020000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: 'FF0000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_21: 'FF0000'
+    l_pf1_4_18: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_23: '0E0000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_21: '770000'
+    l_pf1_4_17: '320000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: 'FF0000'
+    l_pf1_4_19: '050000'
+    l_pf1_4_20: 'FF0000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_16: 'FF0000'
+    l_pf1_4_17: '000000'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_23: 'F20000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_17: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '160000'
+    l_pf1_4_23: '000000'
+    l_pf1_4_24: 'FF0000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_16: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: 'FF0000'
+    l_pf1_4_19: 'FF0000'
+    l_pf1_4_21: '080000'
+    l_pf1_4_16: '060000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: 'EB0000'
+    l_pf1_4_23: 'FF0000'
+    l_pf1_4_24: '0E0000'
+    l_pf1_4_21: 'FF0000'
+    l_pf1_4_16: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: 'F30000'
+    l_pf1_4_18: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '080000'
+    l_pf1_4_23: '1D0000'
+    l_pf1_4_20: 'FF0000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_16: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: 'FF0000'
+    l_pf1_4_23: '000000'
+    l_pf1_4_17: 'FF0000'
+    l_pf1_4_18: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: 'FF0000'
+    l_pf1_4_20: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_22: '000000'
+    l_pf1_4_16: 'ED0000'
+    l_pf1_4_17: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '000000'
+    l_pf1_4_16: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_16: 'FA0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_16: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '00FC04'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_19: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_20: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf1_4_21: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
