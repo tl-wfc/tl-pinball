@@ -1,0 +1,26 @@
+2026-06-09 18:40:55,740 : INFO : root : Loading config.
+2026-06-09 18:40:55,744 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-09 18:40:55,745 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-06-09 18:40:55,745 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-09 18:40:55,767 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-09 18:40:55,767 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-06-09 18:40:55,777 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-06-09 18:40:55,779 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_hardware.yaml
+2026-06-09 18:40:55,789 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-06-09 18:40:55,797 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_sounds.yaml
+2026-06-09 18:40:55,797 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2026-06-09 18:40:55,850 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-06-09 18:40:55,862 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-06-09 18:40:55,869 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-06-09 18:40:55,875 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-06-09 18:40:55,887 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_testing.yaml
+2026-06-09 18:40:55,898 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_save.yaml
+2026-06-09 18:40:55,909 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\seq_shots.yaml
+2026-06-09 18:40:55,917 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-06-09 18:40:56,012 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-09 18:40:56,013 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-06-09 18:40:56,014 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-09 18:40:56,015 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-06-09 18:40:56,016 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-06-09 18:40:56,017 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-06-09 18:40:56,018 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\shotgun\config\shotgun.yaml.

@@ -10,6 +10,7 @@ modes:
     - attract_credits
     #- service
     - base
+    - shotgun
     - high_score
     - spinner_2x_qualify
     - spinner_2x

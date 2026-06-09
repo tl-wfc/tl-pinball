@@ -1,0 +1,388 @@
+#config_version=6
+# modes/shotgun/config/shotgun.yaml
+
+mode:
+  start_events: mode_base_started
+  stop_events: mode_base_stopped
+  priority: 120
+
+timers:
+  top_lane_a_countdown_timer:
+    start_value: 30
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: shotgun_lane_a_charged
+        action: restart
+      - event: shotgun_stop_all
+        action: stop
+      - event: mode_shotgun_stopping
+        action: stop
+
+  top_lane_b_countdown_timer:
+    start_value: 30
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: shotgun_lane_b_charged
+        action: restart
+      - event: shotgun_stop_all
+        action: stop
+      - event: mode_shotgun_stopping
+        action: stop
+
+  shotgun_reset_check_timer:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 300ms
+    start_running: false
+    control_events:
+      - event: shotgun_reset_check_start
+        action: restart
+      - event: shotgun_stop_all
+        action: stop
+      - event: mode_shotgun_stopping
+        action: stop
+
+event_player:
+  mode_shotgun_started:
+    - shotgun_vars_reset
+    - shotgun_all_lights_off
+
+  s_62_top_lane_a_active:
+    - shotgun_lane_a_charged
+
+  s_61_top_lane_b_active:
+    - shotgun_lane_b_charged
+
+  shotgun_lane_a_charged{current_player.shotgun_lane_b_active == 1 and current_player.shotgun_qualified == 0}:
+    - shotgun_qualified
+
+  shotgun_lane_b_charged{current_player.shotgun_lane_a_active == 1 and current_player.shotgun_qualified == 0}:
+    - shotgun_qualified
+
+  shotgun_qualified:
+    - shotgun_reset_attempts_clear
+    - shotgun_reset_try
+
+  shotgun_reset_try:
+    - shotgun_reset_check_start
+
+  timer_shotgun_reset_check_timer_complete{not device.switches.s_73_fourbank_drop_1.state and not device.switches.s_74_fourbank_drop_2.state and not device.switches.s_75_fourbank_drop_3.state and not device.switches.s_76_fourbank_drop_4.state}:
+    - shotgun_bank_ready
+
+  timer_shotgun_reset_check_timer_complete{current_player.shotgun_reset_attempts < 3}:
+    - shotgun_reset_try
+
+  timer_shotgun_reset_check_timer_complete{current_player.shotgun_reset_attempts >= 3}:
+    - shotgun_bank_ready
+
+  shotgun_bank_ready:
+    - shotgun_trip_first_three_drops
+
+  s_76_fourbank_drop_4_active{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 1 and current_player.shotgun_lane_b_active == 1}:
+    - shotgun_hit
+
+  timer_top_lane_a_countdown_timer_complete:
+    - shotgun_lane_a_expired
+
+  timer_top_lane_b_countdown_timer_complete:
+    - shotgun_lane_b_expired
+
+  shotgun_lane_a_expired{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_b_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
+    - shotgun_failed
+
+  shotgun_lane_b_expired{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
+    - shotgun_failed
+
+  shotgun_hit:
+    - shotgun_stop_all
+
+  shotgun_failed:
+    - shotgun_stop_all
+
+variable_player:
+  shotgun_vars_reset:
+    shotgun_lane_a_active:
+      action: set
+      int: 0
+    shotgun_lane_b_active:
+      action: set
+      int: 0
+    shotgun_qualified:
+      action: set
+      int: 0
+    shotgun_reset_attempts:
+      action: set
+      int: 0
+
+  shotgun_lane_a_charged:
+    shotgun_lane_a_active:
+      action: set
+      int: 1
+
+  shotgun_lane_b_charged:
+    shotgun_lane_b_active:
+      action: set
+      int: 1
+
+  shotgun_qualified:
+    shotgun_qualified:
+      action: set
+      int: 1
+
+  shotgun_reset_attempts_clear:
+    shotgun_reset_attempts:
+      action: set
+      int: 0
+
+  shotgun_reset_try:
+    shotgun_reset_attempts:
+      action: add
+      int: 1
+
+  shotgun_lane_a_expired:
+    shotgun_lane_a_active:
+      action: set
+      int: 0
+
+  shotgun_lane_b_expired:
+    shotgun_lane_b_active:
+      action: set
+      int: 0
+
+  shotgun_hit:
+    score: 500000
+    shotgun_lane_a_active:
+      action: set
+      int: 0
+    shotgun_lane_b_active:
+      action: set
+      int: 0
+    shotgun_qualified:
+      action: set
+      int: 0
+
+  shotgun_failed:
+    shotgun_lane_a_active:
+      action: set
+      int: 0
+    shotgun_lane_b_active:
+      action: set
+      int: 0
+    shotgun_qualified:
+      action: set
+      int: 0
+
+coil_player:
+  shotgun_reset_try:
+    c_40_fourbank_drop_reset:
+      action: pulse
+
+  shotgun_trip_first_three_drops:
+    c_33_fourbank_drop_1_trip:
+      action: pulse
+    c_34_fourbank_drop_2_trip:
+      action: pulse
+    c_35_fourbank_drop_3_trip:
+      action: pulse
+
+  shotgun_failed:
+    c_36_fourbank_drop_4_trip:
+      action: pulse
+
+light_player:
+  shotgun_all_lights_off:
+    l_pf1_2_31: off
+    l_pf1_2_30: off
+    l_pf1_2_29: off
+    l_pf1_2_24: off
+    l_pf1_2_25: off
+    l_pf1_2_26: off
+    l_pf1_2_28: off
+
+  shotgun_stop_all:
+    l_pf1_2_31: off
+    l_pf1_2_30: off
+    l_pf1_2_29: off
+    l_pf1_2_24: off
+    l_pf1_2_25: off
+    l_pf1_2_26: off
+
+  timer_top_lane_a_countdown_timer_complete:
+    l_pf1_2_31: off
+    l_pf1_2_30: off
+    l_pf1_2_29: off
+
+  timer_top_lane_b_countdown_timer_complete:
+    l_pf1_2_24: off
+    l_pf1_2_25: off
+    l_pf1_2_26: off
+
+shows:
+  shotgun_lane_a_countdown:
+    - duration: 11s
+      lights:
+        l_pf1_2_31: '00ff00'
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_31: off
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_31: off
+        l_pf1_2_30: off
+        l_pf1_2_29: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: off
+        l_pf1_2_29: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: off
+        l_pf1_2_29: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: off
+        l_pf1_2_29: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: '00ff00'
+        l_pf1_2_29: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_30: off
+        l_pf1_2_29: off
+    - duration: 9s
+      lights:
+        l_pf1_2_31: off
+        l_pf1_2_30: off
+        l_pf1_2_29: '00ff00'
+    - duration: 83ms
+      lights:
+        l_pf1_2_29: off
+
+  shotgun_lane_b_countdown:
+    - duration: 11s
+      lights:
+        l_pf1_2_24: '00ff00'
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_24: off
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_24: off
+        l_pf1_2_25: off
+        l_pf1_2_26: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: off
+        l_pf1_2_26: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: off
+        l_pf1_2_26: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: off
+        l_pf1_2_26: off
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: '00ff00'
+        l_pf1_2_26: '00ff00'
+    - duration: 250ms
+      lights:
+        l_pf1_2_25: off
+        l_pf1_2_26: off
+    - duration: 9s
+      lights:
+        l_pf1_2_24: off
+        l_pf1_2_25: off
+        l_pf1_2_26: '00ff00'
+    - duration: 83ms
+      lights:
+        l_pf1_2_26: off
+
+  shotgun_red_breathe:
+    - duration: 700ms
+      lights:
+        l_pf1_2_28: 'ff0000'
+    - duration: 700ms
+      lights:
+        l_pf1_2_28: '220000'
+
+show_player:
+  shotgun_lane_a_charged:
+    shotgun_red_breathe:
+      action: stop
+      key: shotgun_success_breathe
+    shotgun_lane_a_countdown:
+      key: shotgun_lane_a_countdown_show
+      loops: 0
+
+  shotgun_lane_b_charged:
+    shotgun_red_breathe:
+      action: stop
+      key: shotgun_success_breathe
+    shotgun_lane_b_countdown:
+      key: shotgun_lane_b_countdown_show
+      loops: 0
+
+  shotgun_stop_all:
+    shotgun_lane_a_countdown:
+      action: stop
+      key: shotgun_lane_a_countdown_show
+    shotgun_lane_b_countdown:
+      action: stop
+      key: shotgun_lane_b_countdown_show
+
+  timer_top_lane_a_countdown_timer_complete:
+    shotgun_lane_a_countdown:
+      action: stop
+      key: shotgun_lane_a_countdown_show
+
+  timer_top_lane_b_countdown_timer_complete:
+    shotgun_lane_b_countdown:
+      action: stop
+      key: shotgun_lane_b_countdown_show
+
+  shotgun_hit:
+    shotgun_red_breathe:
+      key: shotgun_success_breathe
+      loops: -1
