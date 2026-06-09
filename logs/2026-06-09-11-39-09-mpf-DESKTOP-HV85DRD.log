@@ -1,0 +1,1336 @@
+2026-06-09 11:39:09,021 : INFO : root : Loading config.
+2026-06-09 11:39:09,026 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-09 11:39:09,026 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-06-09 11:39:09,113 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-09 11:39:09,114 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-06-09 11:39:09,115 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-09 11:39:09,116 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-06-09 11:39:09,116 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-06-09 11:39:09,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-06-09 11:39:09,118 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-06-09 11:39:09,119 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-06-09 11:39:09,119 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-06-09 11:39:09,120 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-06-09 11:39:09,121 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-06-09 11:39:09,123 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-06-09 11:39:09,124 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-06-09 11:39:09,124 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-06-09 11:39:09,125 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+2026-06-09 11:39:09,127 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+2026-06-09 11:39:09,128 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+2026-06-09 11:39:09,129 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+2026-06-09 11:39:09,130 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+2026-06-09 11:39:09,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+2026-06-09 11:39:09,137 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+2026-06-09 11:39:09,138 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+2026-06-09 11:39:09,139 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+2026-06-09 11:39:09,140 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+2026-06-09 11:39:09,141 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+2026-06-09 11:39:09,142 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+2026-06-09 11:39:09,143 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+2026-06-09 11:39:09,144 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+2026-06-09 11:39:09,145 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+2026-06-09 11:39:09,145 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+2026-06-09 11:39:09,147 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+2026-06-09 11:39:09,149 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+2026-06-09 11:39:09,150 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+2026-06-09 11:39:09,150 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+2026-06-09 11:39:09,151 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+2026-06-09 11:39:09,152 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+2026-06-09 11:39:09,153 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-06-09 11:39:09,153 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-09-11-39-09-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-09-11-39-09-mpf-DESKTOP-HV85DRD.log'}
+2026-06-09 11:39:09,153 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-06-09 11:39:09,153 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-06-09 11:39:09,153 : INFO : Machine : Platform: win32
+2026-06-09 11:39:09,153 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-06-09 11:39:09,153 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-06-09 11:39:09,155 : INFO : Machine : Initializing MPF...
+2026-06-09 11:39:09,260 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-09 11:39:09,264 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-09 11:39:09,275 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-09 11:39:09,307 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-06-09 11:39:09,323 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-09 11:39:09,339 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-09 11:39:09,355 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-09 11:39:09,358 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-06-09 11:39:09,362 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-06-09 11:39:09,371 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-06-09 11:39:09,387 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-06-09 11:39:09,419 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-06-09 11:39:09,435 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-06-09 11:39:09,451 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-06-09 11:39:09,483 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+2026-06-09 11:39:09,499 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+2026-06-09 11:39:09,515 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+2026-06-09 11:39:09,531 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,574 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 1005000, 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,574 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,574 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1005000, 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,575 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,575 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,575 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-09-11-39-09-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-06-09 11:39:09,603 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-09 11:39:09,746 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-06-09 11:39:09,746 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-06-09 11:39:12,175 : INFO : SwitchController : <<<<<<< 's_34_right_sling' active >>>>>>>
+2026-06-09 11:39:12,175 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-06-09 11:39:12,175 : INFO : SwitchController : <<<<<<< 's_64_varitarget_position_1' active >>>>>>>
+2026-06-09 11:39:12,175 : INFO : SwitchController : <<<<<<< 's_66_varitarget_position_3' active >>>>>>>
+2026-06-09 11:39:12,175 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-06-09 11:39:12,257 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-09 11:39:12,257 : INFO : SwitchController : Found active switch: (50, [FAST Platform Interface]) <switch.s_34_right_sling>
+2026-06-09 11:39:12,257 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-06-09 11:39:12,257 : INFO : SwitchController : Found active switch: (32, [FAST Platform Interface]) <switch.s_64_varitarget_position_1>
+2026-06-09 11:39:12,257 : INFO : SwitchController : Found active switch: (34, [FAST Platform Interface]) <switch.s_66_varitarget_position_3>
+2026-06-09 11:39:12,257 : INFO : SwitchController : Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-06-09 11:39:12,281 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,281 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,281 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 2531176, 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'EEE', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 2194524, 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'CAS', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 1880840, 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 1792394, 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 1680944, 'prev_value': None, 'change': True}
+2026-06-09 11:39:12,282 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-06-09 11:39:12,285 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-06-09 11:40:49,384 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-06-09 11:40:49,385 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-06-09 11:40:49,386 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-06-09 11:40:49,386 : INFO : ball_device.bd_plunger : State: idle
+2026-06-09 11:40:49,387 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-06-09 11:40:49,387 : INFO : ball_device.bd_trough : State: idle
+2026-06-09 11:40:49,388 : INFO : ball_device.bd_left_vuk : BCH: Initial count: 0
+2026-06-09 11:40:49,388 : INFO : ball_device.bd_left_vuk : State: idle
+2026-06-09 11:40:49,388 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 0
+2026-06-09 11:40:49,389 : INFO : ball_device.bd_right_vuk : State: idle
+2026-06-09 11:40:49,420 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-06-09 11:40:50,470 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-06-09 11:40:50,471 : INFO : BallController : Initial balls found: 0
+2026-06-09 11:40:50,473 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 84, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,473 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_00_service_esc'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_01_service_up'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_02_service_down'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_03_service_enter'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_08_left_flipper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_11_start_button'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_16_right_flipper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_17_right_flipper_upper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_32_right_inlane'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_33_right_outlane'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_34_right_sling'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_35_left_inlane'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_36_left_outlane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_37_left_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_38_star_rollover_bottom'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_39_star_rollover_top'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_40_stand_up_target_5'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_41_stand_up_target_6'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_42_stand_up_target_1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_43_stand_up_target_4'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_44_spinner_right'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_56_pop_bumper_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,474 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_57_pop_bumper_center'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_58_pop_bumper_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_59_saucer_right'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_61_top_lane_b'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_62_top_lane_a'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_63_stand_up_target_3'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_64_varitarget_position_1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_65_varitarget_position_2'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_66_varitarget_position_3'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_67_varitarget_position_4'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_68_varitarget_position_5'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_69_varitarget_position_6'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_70_varitarget_position_7'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_71_spinner_left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_72_single_drop_1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_73_fourbank_drop_1'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_74_fourbank_drop_2'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_75_fourbank_drop_3'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_76_fourbank_drop_4'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_77_threebank_drop_1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_78_threebank_drop_2'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_79_threebank_drop_3'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,475 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_80_stand_up_target_2'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_81_saucer_left'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_82_stand_up_target_bank_1'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_83_stand_up_target_bank_2'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_84_stand_up_target_bank_3'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_85_stand_up_target_bank_4'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_86_stand_up_target_bank_5'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_87_stand_up_target_bank_6'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1264614, 'top': [2531176, 2194524, 1880840, 1792394, 1680944, 1638150, 1578150, 1550789, 1547313, 1540168], 'total': 84}, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_1'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_2'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_3'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_4'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_5'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_6'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_dt_7'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_impossible'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_rollover_top'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_slingshot_l'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_slingshot_r'====== Args={'value': 302, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_1'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_2'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,476 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_3'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_4'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_5'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_6'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_blue'====== Args={'value': 130, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_green'====== Args={'value': 67, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_shot_sut_red'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_spinner_left'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_spinner_right'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p1'====== Args={'value': 146, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p3'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p4'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p5'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p6'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_varitarget_p7'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_00_service_esc'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_01_service_up'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_02_service_down'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_03_service_enter'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_08_left_flipper'====== Args={'value': 1333, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_11_start_button'====== Args={'value': 118, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,477 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_16_right_flipper'====== Args={'value': 2004, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_17_right_flipper_upper'====== Args={'value': 1554, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_24_trough_1'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_25_trough_2'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_26_trough_3'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_27_trough_4'====== Args={'value': 98, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_28_trough_5'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_29_trough_6'====== Args={'value': 117, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_30_trough_jam'====== Args={'value': 138, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_31_plunger_lane'====== Args={'value': 248, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_32_right_inlane'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_33_right_outlane'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_34_right_sling'====== Args={'value': 302, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_35_left_inlane'====== Args={'value': 82, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_36_left_outlane'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_37_left_sling'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_38_star_rollover_bottom'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_39_star_rollover_top'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_40_stand_up_target_5'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_41_stand_up_target_6'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_42_stand_up_target_1'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_43_stand_up_target_4'====== Args={'value': 75, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_44_spinner_right'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_56_pop_bumper_right'====== Args={'value': 124, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_57_pop_bumper_center'====== Args={'value': 244, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_58_pop_bumper_left'====== Args={'value': 362, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_59_saucer_right'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_60_top_lane_c'====== Args={'value': 116, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_61_top_lane_b'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_62_top_lane_a'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_63_stand_up_target_3'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_64_varitarget_position_1'====== Args={'value': 146, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_65_varitarget_position_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_66_varitarget_position_3'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_67_varitarget_position_4'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_68_varitarget_position_5'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_69_varitarget_position_6'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_70_varitarget_position_7'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_71_spinner_left'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_72_single_drop_1'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_73_fourbank_drop_1'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_74_fourbank_drop_2'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_75_fourbank_drop_3'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,479 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_76_fourbank_drop_4'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_77_threebank_drop_1'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_78_threebank_drop_2'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_79_threebank_drop_3'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_80_stand_up_target_2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_81_saucer_left'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_82_stand_up_target_bank_1'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_83_stand_up_target_bank_2'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_84_stand_up_target_bank_3'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_85_stand_up_target_bank_4'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_86_stand_up_target_bank_5'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,480 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_87_stand_up_target_bank_6'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2026-06-09 11:40:50,481 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-06-09 11:40:50,481 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-06-09 11:40:50,482 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-06-09 11:40:50,493 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-06-09 11:40:50,494 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-06-09 11:40:50,494 : INFO : drop_target_bank.dt_bank_1_4 : All targets are already up. Will not reset bank.
+2026-06-09 11:40:50,494 : INFO : drop_target_bank.dt_bank_5_7 : All targets are already up. Will not reset bank.
+2026-06-09 11:40:50,495 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-06-09 11:40:50,495 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-06-09 11:40:50,495 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:40:50,495 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,495 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,496 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-06-09 11:40:50,496 : INFO : Mode.attract : Started. Priority: 10
+2026-06-09 11:40:50,497 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-06-09 11:40:50,497 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-06-09 11:40:50,497 : INFO : EventManager : Event: ======'start_mode_attract_scores'====== Args={'priority': 0}
+2026-06-09 11:40:50,497 : INFO : EventManager : Event: ======'start_mode_attract_credits'====== Args={'priority': 0}
+2026-06-09 11:40:50,499 : INFO : EventManager : Event: ======'mode_attract_scores_will_start'====== Args={'priority': 0}
+2026-06-09 11:40:50,499 : INFO : Timer.attract_scores_carousel_timer : Starting Timer.
+2026-06-09 11:40:50,499 : INFO : EventManager : Event: ======'timer_attract_scores_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,499 : INFO : EventManager : Event: ======'timer_attract_scores_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,500 : INFO : EventManager : Event: ======'mode_attract_scores_starting'====== Args={'priority': 0}
+2026-06-09 11:40:50,500 : INFO : EventManager : Event: ======'mode_attract_credits_will_start'====== Args={'priority': 0}
+2026-06-09 11:40:50,500 : INFO : Timer.attract_credits_carousel_timer : Starting Timer.
+2026-06-09 11:40:50,500 : INFO : EventManager : Event: ======'timer_attract_credits_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,500 : INFO : EventManager : Event: ======'timer_attract_credits_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'mode_attract_credits_starting'====== Args={'priority': 0}
+2026-06-09 11:40:50,501 : INFO : Mode.attract_credits : Started. Priority: 8
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'mode_attract_credits_started'====== Args={'priority': 0}
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_credits', 'direction': None, 'item': 'credits_sfx'}
+2026-06-09 11:40:50,501 : INFO : Mode.attract_scores : Started. Priority: 9
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'mode_attract_scores_started'====== Args={'priority': 0}
+2026-06-09 11:40:50,501 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_scores', 'direction': None, 'item': 'last_game_score'}
+2026-06-09 11:40:50,502 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-06-09 11:40:50,502 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-06-09 11:40:50,503 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>, <Mode.attract_scores>, <Mode.attract_credits>]
+2026-06-09 11:40:50,825 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-06-09 11:40:50,826 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-06-09 11:40:50,827 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-06-09 11:40:55,486 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:40:55,486 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:40:55,486 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,486 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,486 : INFO : Timer.attract_credits_carousel_timer : Timer Complete
+2026-06-09 11:40:55,486 : INFO : Timer.attract_credits_carousel_timer : Stopping Timer
+2026-06-09 11:40:55,486 : INFO : EventManager : Event: ======'timer_attract_credits_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,486 : INFO : EventManager : Event: ======'timer_attract_credits_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,487 : INFO : Timer.attract_scores_carousel_timer : Timer Complete
+2026-06-09 11:40:55,487 : INFO : Timer.attract_scores_carousel_timer : Stopping Timer
+2026-06-09 11:40:55,487 : INFO : EventManager : Event: ======'timer_attract_scores_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,487 : INFO : EventManager : Event: ======'timer_attract_scores_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:40:55,487 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:40:55,487 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:40:55,488 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:55,488 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:40:55,488 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_credits', 'direction': 'forwards', 'item': 'credits_mpf'}
+2026-06-09 11:40:55,488 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_scores', 'direction': 'forwards', 'item': 'grand_champion'}
+2026-06-09 11:41:00,425 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' active >>>>>>>
+2026-06-09 11:41:00,425 : INFO : EventManager : Event: ======'s_16_right_flipper_active'====== Args={}
+2026-06-09 11:41:00,425 : INFO : SwitchController : <<<<<<< 's_17_right_flipper_upper' active >>>>>>>
+2026-06-09 11:41:00,426 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:00,426 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_scores', 'direction': 'forwards', 'item': 'high_score_1'}
+2026-06-09 11:41:00,426 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:00,504 : INFO : SwitchController : <<<<<<< 's_17_right_flipper_upper' inactive >>>>>>>
+2026-06-09 11:41:00,505 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' inactive >>>>>>>
+2026-06-09 11:41:02,044 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' active >>>>>>>
+2026-06-09 11:41:02,044 : INFO : EventManager : Event: ======'s_16_right_flipper_active'====== Args={}
+2026-06-09 11:41:02,045 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:02,045 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_scores', 'direction': 'forwards', 'item': 'high_score_2'}
+2026-06-09 11:41:02,045 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:02,092 : INFO : SwitchController : <<<<<<< 's_17_right_flipper_upper' active >>>>>>>
+2026-06-09 11:41:03,742 : INFO : SwitchController : <<<<<<< 's_17_right_flipper_upper' inactive >>>>>>>
+2026-06-09 11:41:03,838 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' inactive >>>>>>>
+2026-06-09 11:41:04,343 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' active >>>>>>>
+2026-06-09 11:41:04,343 : INFO : EventManager : Event: ======'s_16_right_flipper_active'====== Args={}
+2026-06-09 11:41:04,344 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:04,344 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_scores', 'direction': 'forwards', 'item': 'high_score_3'}
+2026-06-09 11:41:04,344 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:04,772 : INFO : SwitchController : <<<<<<< 's_16_right_flipper' inactive >>>>>>>
+2026-06-09 11:41:09,340 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:09,340 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:09,340 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:09,340 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:09,341 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:09,341 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:09,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:09,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:14,347 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:14,347 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:14,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:14,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:14,348 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:14,348 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:14,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:14,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:19,341 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:19,341 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:19,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:19,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:19,342 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:19,342 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:19,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:19,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:24,349 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:24,349 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:24,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:24,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:24,350 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:24,350 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:24,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:24,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:29,341 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:29,341 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:29,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:29,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:29,342 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:29,342 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:29,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:29,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:34,352 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:34,352 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:34,352 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:34,352 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:34,353 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:34,353 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:34,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:34,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:39,338 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:39,338 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:39,338 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:39,338 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:39,339 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:39,339 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:39,339 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:39,339 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:44,347 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:44,347 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:44,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:44,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:44,347 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:44,347 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:44,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:44,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:49,341 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:49,341 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:49,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:49,341 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:49,342 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:49,342 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:49,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:49,342 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:54,351 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:54,351 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:54,351 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:54,351 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:54,352 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:41:54,352 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:54,352 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:54,352 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:59,349 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:41:59,349 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:41:59,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:59,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:41:59,350 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:41:59,350 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:41:59,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:41:59,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:04,343 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:04,343 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:04,343 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:04,343 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:04,344 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:04,344 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:04,344 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:04,344 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:07,779 : INFO : BcpServer : New client connected.
+2026-06-09 11:42:09,348 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:09,348 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:09,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:09,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:09,349 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:09,349 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:09,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:09,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:14,347 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:14,347 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:14,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:14,347 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:14,348 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:14,348 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:14,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:14,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:19,348 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:19,348 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:19,348 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:19,349 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:19,349 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:19,350 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:19,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:19,350 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:24,338 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:24,338 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:24,338 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:24,338 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:24,339 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:24,340 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:24,340 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:24,340 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:29,369 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:29,369 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:29,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:29,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:29,376 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:29,377 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:29,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:29,377 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:34,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:34,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:34,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:34,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:34,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:34,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:34,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:34,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:39,367 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:39,367 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:39,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:39,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:39,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:39,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:44,362 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:44,362 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:44,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:44,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:44,363 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:44,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:44,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:44,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:49,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:49,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:49,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:49,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:49,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:49,355 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:54,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:54,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:54,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:54,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:54,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:42:54,355 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:54,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:54,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:59,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:42:59,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:42:59,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:59,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:42:59,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:42:59,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:42:59,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:42:59,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:04,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:04,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:04,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:04,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:04,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:04,355 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:04,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:04,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:09,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:09,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:09,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:09,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:09,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:09,356 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:09,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:09,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:14,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:14,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:14,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:14,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:14,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:14,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:14,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:14,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:19,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:19,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:19,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:19,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:19,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:19,363 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:24,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:24,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:24,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:24,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:24,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:24,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:24,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:29,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:29,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:29,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:29,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:29,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:29,356 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:29,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:29,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:34,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:34,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:34,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:34,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:34,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:34,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:34,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:34,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:39,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:39,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:39,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:39,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:44,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:44,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:44,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:44,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:44,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:44,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:44,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:44,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:49,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:49,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:49,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:49,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:49,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:49,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:54,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:54,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:54,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:54,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:54,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:43:54,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:54,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:54,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:59,367 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:43:59,367 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:43:59,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:59,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:43:59,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:43:59,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:43:59,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:43:59,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:04,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:04,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:04,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:04,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:04,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:04,363 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:04,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:04,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:09,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:09,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:09,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:09,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:09,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:09,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:09,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:09,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:14,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:14,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:14,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:14,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:14,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:14,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:19,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:19,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:19,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:19,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:19,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:19,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:19,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:19,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:24,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:24,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:24,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:24,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:24,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:24,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:24,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:24,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:29,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:29,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:29,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:29,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:29,361 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:29,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:29,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:29,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:34,360 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:34,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:34,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:34,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:34,361 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:34,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:34,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:34,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:39,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:39,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:39,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:39,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:39,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:39,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:39,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:39,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:44,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:44,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:44,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:44,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:44,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:44,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:44,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:44,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:49,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:49,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:49,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:49,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:49,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:49,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:49,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:49,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:54,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:54,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:54,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:54,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:54,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:44:54,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:54,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:54,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:59,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:44:59,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:44:59,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:59,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:44:59,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:44:59,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:44:59,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:44:59,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:04,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:04,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:04,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:04,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:04,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:04,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:09,367 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:09,367 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:09,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:09,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:09,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:09,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:09,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:09,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:14,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:14,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:14,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:14,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:14,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:14,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:14,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:14,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:19,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:19,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:19,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:19,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:19,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:19,363 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:24,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:24,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:24,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:24,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:29,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:29,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:29,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:29,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:29,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:29,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:34,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:34,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:34,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:34,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:34,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:34,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:34,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:34,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:39,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:39,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:39,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:39,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:39,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:44,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:44,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:44,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:44,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:44,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:44,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:44,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:44,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:49,369 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:49,369 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:49,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:49,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:49,370 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:49,370 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:49,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:49,371 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:54,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:54,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:54,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:54,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:54,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:45:54,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:54,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:54,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:59,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:45:59,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:45:59,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:59,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:45:59,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:45:59,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:45:59,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:45:59,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:04,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:04,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:04,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:04,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:04,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:04,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:04,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:04,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:09,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:09,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:09,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:09,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:09,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:09,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:14,357 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:14,357 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:14,358 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:14,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:19,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:19,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:19,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:19,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:19,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:19,356 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:19,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:19,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:24,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:24,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:24,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:24,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:24,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:29,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:29,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:29,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:29,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:29,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:29,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:29,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:29,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:34,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:34,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:34,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:34,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:34,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:34,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:34,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:34,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:39,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:39,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:39,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:39,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:39,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:39,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:39,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:39,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:44,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:44,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:44,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:44,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:44,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:44,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:44,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:44,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:49,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:49,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:49,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:49,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:49,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:49,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:49,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:49,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:54,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:54,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:54,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:54,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:54,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:46:54,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:54,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:54,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:59,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:46:59,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:46:59,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:59,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:46:59,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:46:59,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:46:59,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:46:59,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:04,360 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:04,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:04,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:04,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:04,361 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:04,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:09,353 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:09,353 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:09,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:09,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:09,354 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:09,355 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:09,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:09,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:14,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:14,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:14,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:14,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:14,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:14,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:19,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:19,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:19,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:19,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:19,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:19,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:19,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:24,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:24,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:24,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:24,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:24,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:24,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:24,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:24,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:29,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:29,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:29,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:29,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:29,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:29,356 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:29,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:29,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:34,361 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:34,361 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:34,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:34,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:34,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:34,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:34,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:34,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:39,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:39,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:39,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:39,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:39,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:39,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:39,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:39,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:44,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:44,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:44,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:44,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:44,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:44,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:44,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:44,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:49,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:49,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:49,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:49,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:49,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:49,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:49,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:49,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:54,362 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:54,362 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:54,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:54,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:54,363 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:47:54,363 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:54,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:54,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:59,353 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:47:59,353 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:47:59,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:59,353 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:47:59,354 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:47:59,354 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:47:59,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:47:59,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:04,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:04,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:04,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:04,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:04,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:04,361 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:04,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:09,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:09,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:09,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:09,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:09,358 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:09,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:09,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:09,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:14,357 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:14,357 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:14,358 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:14,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:14,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:14,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:19,367 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:19,367 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:19,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:19,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:19,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:19,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:19,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:19,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:24,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:24,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:24,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:24,363 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:24,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:24,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:24,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:24,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:29,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:29,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:29,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:29,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:29,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:29,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:34,355 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:34,355 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:34,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:34,355 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:34,356 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:34,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:34,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:34,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:39,360 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:39,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:39,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:39,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:39,361 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:39,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:39,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:39,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:44,368 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:44,368 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:44,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:44,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:44,369 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:44,369 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:44,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:44,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:49,363 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:49,363 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:49,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:49,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:49,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:49,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:49,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:49,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:54,362 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:54,362 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:54,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:54,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:54,363 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:48:54,364 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:54,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:54,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:59,368 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:48:59,368 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:48:59,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:59,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:48:59,369 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:48:59,369 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:48:59,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:48:59,370 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:04,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:04,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:04,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:04,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:04,364 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:04,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:04,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:04,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:09,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:09,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:09,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:09,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:09,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:09,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:14,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:14,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:14,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:14,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:14,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:14,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:14,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:19,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:19,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:19,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:19,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:19,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:19,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:19,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:19,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:24,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:24,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:24,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:24,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:24,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:29,360 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:29,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:29,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:29,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:29,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:29,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:29,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:29,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:34,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:34,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:34,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:34,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:34,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:34,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:34,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:34,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:39,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:39,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:39,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:39,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:39,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:44,367 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:44,367 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:44,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:44,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:44,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:44,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:44,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:44,369 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:49,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:49,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:49,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:49,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:49,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:49,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:49,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:49,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:54,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:54,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:54,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:54,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:54,355 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:49:54,355 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:54,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:54,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:59,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:49:59,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:49:59,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:59,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:49:59,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:49:59,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:49:59,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:49:59,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:04,354 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:04,354 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:04,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:04,354 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:04,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:04,357 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:04,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:04,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:09,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:09,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:09,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:09,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:09,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:09,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:09,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:14,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:14,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:14,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:14,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:14,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:14,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:14,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:19,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:19,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:19,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:19,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:19,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:19,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:19,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:19,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:24,359 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:24,359 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:24,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:24,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:24,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:24,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:24,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:29,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:29,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:29,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:29,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:29,368 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:29,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:29,368 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:34,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:34,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:34,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:34,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:34,359 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:34,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:34,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:34,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:39,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:39,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:39,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:39,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:39,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:39,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:39,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:39,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:44,364 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:44,364 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:44,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:44,364 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:44,365 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:44,365 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:44,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:44,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:49,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:49,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:49,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:49,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:49,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:49,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:49,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:54,365 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:54,365 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:54,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:54,365 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:54,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:50:54,366 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:54,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:54,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:59,356 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:50:59,356 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:50:59,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:59,356 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:50:59,357 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:50:59,358 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:50:59,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:50:59,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:04,358 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:51:04,358 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:51:04,358 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:04,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:04,360 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:51:04,360 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:51:04,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:04,360 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:09,360 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:51:09,360 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:51:09,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:09,361 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:09,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:51:09,362 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:51:09,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:09,362 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:14,366 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:51:14,366 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:51:14,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:14,366 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:14,367 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-06-09 11:51:14,367 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:51:14,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:14,367 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:19,357 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-06-09 11:51:19,357 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-06-09 11:51:19,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:19,357 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-06-09 11:51:19,358 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title2'}
+2026-06-09 11:51:19,359 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-06-09 11:51:19,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:19,359 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-06-09 11:51:24,222 : INFO : Machine : Shutting down...
+2026-06-09 11:51:24,222 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-09 11:51:24,332 : INFO : root : MPF run loop ended.

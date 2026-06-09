@@ -316,27 +316,27 @@ lights:
   l_pf1_3_14:
     number: ledpf1-3-14
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_15:
     number: ledpf1-3-15
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_16:
     number: ledpf1-3-16
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_17:
     number: ledpf1-3-17
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_18:
     number: ledpf1-3-18
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_19:
     number: ledpf1-3-19
     type: rgb
-    tags: all_leds, pf1_leds, pf1_port3
+    tags: all_leds, pf1_leds, pf1_port3, tv
   l_pf1_3_20:
     number: ledpf1-3-20
     type: grb

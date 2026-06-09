@@ -23,9 +23,9 @@ show_player:
     # led_flash_rgb_chain_test:
     #   loops: -1
     #   priority: 100
-    # rainbow_pops_1:
-    #   loops: -1
-    #   priority: 200
+    rainbow_pops_1:
+      loops: -1
+      priority: 200
     # red_cross_1:
     #   loops: -1
     #   priority: 300
