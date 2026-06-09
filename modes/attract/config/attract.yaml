@@ -26,9 +26,9 @@ show_player:
     rainbow_pops_1:
       loops: -1
       priority: 200
-    # red_cross_1:
-    #   loops: -1
-    #   priority: 300
+    show_reel_1:
+      loops: -1
+      priority: 300
     show_multi_attract_1:
       loops: -1
       priority: 500
