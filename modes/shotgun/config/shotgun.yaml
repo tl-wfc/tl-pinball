@@ -380,6 +380,12 @@ event_player:
     - shotgun_drop_all_targets
     - shotgun_overall_reset
 
+  shotgun_failed{current_player.alien_first_achieved == 0}:
+    - alien_first_failed
+
+  shotgun_failed{current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 0}:
+    - alien_second_failed
+
   shotgun_failed:
     - shotgun_stop_all
     - shotgun_sequence_reset
@@ -1042,6 +1048,13 @@ shows:
         l_pf1_2_27: 'ff0000'
 
 show_player:
+
+  shotgun_mode_active_started:
+    show_shotgunmode_active_1:
+      key: shotgun_mode_active_show
+      loops: -1
+      speed: 1
+
   shotgun_lane_a_charged:
     shotgun_lane_a_2hz:
       action: stop
@@ -1109,15 +1122,28 @@ show_player:
       action: stop
     shotgun_lane_b_6hz:
       action: stop
+    shotgun_mode_active_show:
+      action: stop
 
   alien_first_hit:
+    show_greendrops_1:
+      loops: 0
+      speed: 2.0
     shotgun_red_breathe:
       key: alien_first_breathe
       loops: -1
       show_tokens:
         led: l_pf1_2_28
 
+  alien_second_part1_hit:
+    show_greendrops_1:
+      loops: 0
+      speed: 2.5
+
   alien_second_final_hit:
+    show_greendrops_1:
+      loops: 0
+      speed: 2.5
     shotgun_red_breathe:
       key: alien_second_breathe
       loops: -1
@@ -1132,6 +1158,33 @@ show_player:
     alien_panic_red_green:
       key: alien_third_panic
       loops: -1
+    show_shotgunmode_active_1:
+      key: shotgun_mode_active_show
+      loops: -1
+      speed: 3
+
+  alien_third_achieved:
+    show_greendrops_1:
+      loops: 2
+      speed: 3.0
+    show_reddrops_1:
+      loops: 2
+      speed: 3.0
+
+  alien_first_failed:
+    show_bluedrops_1:
+      loops: 1
+      speed: 3.0
+  
+  alien_second_failed:
+    show_bluedrops_1:
+      loops: 2
+      speed: 3.0
+
+  alien_third_failed:
+    show_bluedrops_1:
+      loops: 3
+      speed: 3.0
 
   alien_third_cleanup:
     alien_third_panic:
