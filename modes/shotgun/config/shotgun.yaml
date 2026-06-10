@@ -18,6 +18,8 @@ timers:
         action: restart
       - event: shotgun_stop_all
         action: stop
+      - event: shotgun_stop_all
+        action: reset
       - event: mode_shotgun_stopping
         action: stop
 
@@ -32,6 +34,8 @@ timers:
         action: restart
       - event: shotgun_stop_all
         action: stop
+      - event: shotgun_stop_all
+        action: reset
       - event: mode_shotgun_stopping
         action: stop
 
@@ -130,7 +134,17 @@ event_player:
   shotgun_lane_b_charged{current_player.shotgun_lane_a_active == 1 and current_player.shotgun_qualified == 0}:
     - shotgun_qualified
 
-  shotgun_qualified:
+  shotgun_qualified{current_player.alien_first_achieved == 0}:
+    - alien_first_started
+
+  shotgun_qualified{current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 0}:
+    - alien_second_started
+
+  alien_first_started:
+    - fourbank_reset_attempts_clear
+    - fourbank_reset_request
+
+  alien_second_started:
     - fourbank_reset_attempts_clear
     - fourbank_reset_request
 
@@ -170,8 +184,21 @@ event_player:
   timer_threebank_drop_3_trip_timer_complete:
     - threebank_drop_3_tripped
 
-  s_76_fourbank_drop_4_active{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 1 and current_player.shotgun_lane_b_active == 1}:
-    - shotgun_hit
+  threebank_drop_3_tripped{current_player.shotgun_lane_a_active == 1 or current_player.shotgun_lane_b_active == 1}:
+    - shotgun_mode_active_started
+
+  s_76_fourbank_drop_4_active{current_player.shotgun_mode_active == 1 and current_player.alien_first_achieved == 0}:
+    - alien_first_hit
+
+  s_76_fourbank_drop_4_active{current_player.shotgun_mode_active == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved_part1 == 0 and current_player.alien_second_achieved == 0}:
+    - alien_second_part1_hit
+
+  s_76_fourbank_drop_4_active{current_player.shotgun_mode_active == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved_part1 == 1 and current_player.alien_second_achieved == 0}:
+    - alien_second_final_hit
+
+  alien_second_part1_hit:
+    - fourbank_reset_attempts_clear
+    - fourbank_reset_request
 
   timer_top_lane_a_countdown_timer_complete:
     - shotgun_lane_a_expired
@@ -185,11 +212,17 @@ event_player:
   shotgun_lane_b_expired{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
     - shotgun_failed
 
-  shotgun_hit:
+  alien_first_hit:
     - shotgun_stop_all
+    - shotgun_sequence_reset
+
+  alien_second_final_hit:
+    - shotgun_stop_all
+    - shotgun_sequence_reset
 
   shotgun_failed:
     - shotgun_stop_all
+    - shotgun_sequence_reset
 
 variable_player:
   shotgun_vars_reset:
@@ -200,6 +233,56 @@ variable_player:
       action: set
       int: 0
     shotgun_qualified:
+      action: set
+      int: 0
+    shotgun_mode_active:
+      action: set
+      int: 0
+    alien_first_achieved:
+      action: set
+      int: 0
+    alien_second_started:
+      action: set
+      int: 0
+    alien_second_achieved_part1:
+      action: set
+      int: 0
+    alien_second_achieved:
+      action: set
+      int: 0
+    fourbank_reset_request:
+      action: set
+      int: 0
+    fourbank_reset_requested:
+      action: set
+      int: 0
+    fourbank_reset_confirmed:
+      action: set
+      int: 0
+    fourbank_reset_failed:
+      action: set
+      int: 0
+    fourbank_reset_attempts:
+      action: set
+      int: 0
+
+  shotgun_sequence_reset:
+    shotgun_lane_a_active:
+      action: set
+      int: 0
+    shotgun_lane_b_active:
+      action: set
+      int: 0
+    shotgun_qualified:
+      action: set
+      int: 0
+    shotgun_mode_active:
+      action: set
+      int: 0
+    alien_second_started:
+      action: set
+      int: 0
+    alien_second_achieved_part1:
       action: set
       int: 0
     fourbank_reset_request:
@@ -233,6 +316,27 @@ variable_player:
       action: set
       int: 1
 
+  alien_first_started:
+    shotgun_mode_active:
+      action: set
+      int: 0
+
+  alien_second_started:
+    alien_second_started:
+      action: set
+      int: 1
+    alien_second_achieved_part1:
+      action: set
+      int: 0
+    shotgun_mode_active:
+      action: set
+      int: 0
+
+  shotgun_mode_active_started:
+    shotgun_mode_active:
+      action: set
+      int: 1
+
   fourbank_reset_attempts_clear:
     fourbank_reset_attempts:
       action: set
@@ -255,6 +359,9 @@ variable_player:
       action: set
       int: 0
     fourbank_reset_failed:
+      action: set
+      int: 0
+    shotgun_mode_active:
       action: set
       int: 0
     fourbank_reset_attempts:
@@ -301,15 +408,30 @@ variable_player:
       action: set
       int: 0
 
-  shotgun_hit:
+  alien_first_hit:
     score: 500000
-    shotgun_lane_a_active:
+    alien_first_achieved:
+      action: set
+      int: 1
+    shotgun_mode_active:
       action: set
       int: 0
-    shotgun_lane_b_active:
+
+  alien_second_part1_hit:
+    score: 500000
+    alien_second_achieved_part1:
+      action: set
+      int: 1
+    shotgun_mode_active:
       action: set
       int: 0
-    shotgun_qualified:
+
+  alien_second_final_hit:
+    score: 2000000
+    alien_second_achieved:
+      action: set
+      int: 1
+    shotgun_mode_active:
       action: set
       int: 0
 
@@ -321,6 +443,9 @@ variable_player:
       action: set
       int: 0
     shotgun_qualified:
+      action: set
+      int: 0
+    shotgun_mode_active:
       action: set
       int: 0
 
@@ -365,6 +490,7 @@ light_player:
     l_pf1_2_24: off
     l_pf1_2_25: off
     l_pf1_2_26: off
+    l_pf1_2_27: off
     l_pf1_2_28: off
 
   shotgun_stop_all:
@@ -431,23 +557,19 @@ shows:
   shotgun_red_breathe:
     - duration: 700ms
       lights:
-        l_pf1_2_28: 'ff0000'
+        (led): 'ff0000'
     - duration: 700ms
       lights:
-        l_pf1_2_28: '220000'
+        (led): '220000'
 
 show_player:
   shotgun_lane_a_charged:
-    shotgun_success_breathe:
-      action: stop
     shotgun_lane_a_2hz:
       action: stop
     shotgun_lane_a_6hz:
       action: stop
 
   shotgun_lane_b_charged:
-    shotgun_success_breathe:
-      action: stop
     shotgun_lane_b_2hz:
       action: stop
     shotgun_lane_b_6hz:
@@ -509,7 +631,16 @@ show_player:
     shotgun_lane_b_6hz:
       action: stop
 
-  shotgun_hit:
+  alien_first_hit:
     shotgun_red_breathe:
-      key: shotgun_success_breathe
+      key: alien_first_breathe
       loops: -1
+      show_tokens:
+        led: l_pf1_2_28
+
+  alien_second_final_hit:
+    shotgun_red_breathe:
+      key: alien_second_breathe
+      loops: -1
+      show_tokens:
+        led: l_pf1_2_27
