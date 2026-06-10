@@ -173,25 +173,25 @@ coils:
 # ------------------------ 
     c_33_fourbank_drop_1_trip:
         number: pf3-8
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_34_fourbank_drop_2_trip:
         number: pf3-9
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_35_fourbank_drop_3_trip:
         number: pf3-10
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_36_fourbank_drop_4_trip:
         number: pf3-11
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_37_threebank_drop_1_trip:
         number: pf3-12
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_38_threebank_drop_2_trip:
         number: pf3-13
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_39_threebank_drop_3_trip:
         number: pf3-14
-        default_pulse_ms: 1
+        default_pulse_ms: 8
     c_40_fourbank_drop_reset:
         number: pf3-15
         default_pulse_ms: 10
