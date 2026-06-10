@@ -16,8 +16,6 @@ timers:
     control_events:
       - event: shotgun_lane_a_charged
         action: restart
-      - event: alien_third_countdown_restart
-        action: restart
       - event: shotgun_stop_all
         action: stop
       - event: shotgun_stop_all
@@ -33,8 +31,6 @@ timers:
     start_running: false
     control_events:
       - event: shotgun_lane_b_charged
-        action: restart
-      - event: alien_third_countdown_restart
         action: restart
       - event: shotgun_stop_all
         action: stop
@@ -149,55 +145,15 @@ timers:
       - event: threebank_drop_2_tripped
         action: restart
 
-  drop_1_4_7_step_2_timer:
-    start_value: 0
-    end_value: 1
-    direction: up
-    tick_interval: 200ms
-    start_running: false
-    control_events:
-      - event: drop_1_4_7_step_1_done
-        action: restart
-
-  drop_1_4_7_step_3_timer:
-    start_value: 0
-    end_value: 1
-    direction: up
-    tick_interval: 200ms
-    start_running: false
-    control_events:
-      - event: drop_1_4_7_step_2_done
-        action: restart
-
-  drop_1_4_7_step_4_timer:
-    start_value: 0
-    end_value: 1
-    direction: up
-    tick_interval: 200ms
-    start_running: false
-    control_events:
-      - event: drop_1_4_7_step_3_done
-        action: restart
-
-  drop_1_4_7_ready_timer:
-    start_value: 0
-    end_value: 1
-    direction: up
-    tick_interval: 200ms
-    start_running: false
-    control_events:
-      - event: drop_1_4_7_step_4_done
-        action: restart
-
 event_player:
   mode_shotgun_started:
     - shotgun_vars_reset
     - shotgun_all_lights_off
 
-  s_62_top_lane_a_active{current_player.alien_third_active == 0}:
+  s_62_top_lane_a_active:
     - shotgun_lane_a_charged
 
-  s_61_top_lane_b_active{current_player.alien_third_active == 0}:
+  s_61_top_lane_b_active:
     - shotgun_lane_b_charged
 
   shotgun_lane_a_charged{current_player.shotgun_lane_b_active == 1 and current_player.shotgun_qualified == 0}:
@@ -212,9 +168,6 @@ event_player:
   shotgun_qualified{current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 0}:
     - alien_second_started
 
-  shotgun_qualified{current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 1}:
-    - alien_third_started
-
   alien_first_started:
     - fourbank_reset_attempts_clear
     - fourbank_reset_request
@@ -222,12 +175,6 @@ event_player:
   alien_second_started:
     - fourbank_reset_attempts_clear
     - fourbank_reset_request
-
-  alien_third_started:
-    - fourbank_reset_attempts_clear
-    - threebank_reset_attempts_clear
-    - fourbank_reset_request
-    - threebank_reset_request
 
   fourbank_reset_request:
     - fourbank_reset_requested
@@ -241,14 +188,8 @@ event_player:
   timer_fourbank_reset_retry_timer_complete{current_player.fourbank_reset_attempts < 3}:
     - fourbank_reset_request
 
-  timer_fourbank_reset_retry_timer_complete{current_player.fourbank_reset_attempts >= 3 and current_player.alien_third_setup_active == 0}:
+  timer_fourbank_reset_retry_timer_complete{current_player.fourbank_reset_attempts >= 3}:
     - fourbank_drop_4_only
-
-  timer_fourbank_reset_retry_timer_complete{current_player.fourbank_reset_attempts >= 3 and current_player.alien_third_setup_active == 1}:
-    - fourbank_reset_give_up
-
-  fourbank_reset_give_up:
-    - fourbank_reset_confirmed
 
   threebank_reset_request:
     - threebank_reset_requested
@@ -265,17 +206,8 @@ event_player:
   timer_threebank_reset_retry_timer_complete{current_player.threebank_reset_attempts >= 3}:
     - threebank_reset_give_up
 
-  threebank_reset_give_up:
-    - threebank_reset_confirmed
-
-  fourbank_reset_confirmed{current_player.alien_third_setup_active == 0}:
+  fourbank_reset_confirmed:
     - fourbank_drop_4_only
-
-  fourbank_reset_confirmed{current_player.alien_third_setup_active == 1 and current_player.threebank_reset_confirmed == 1}:
-    - drop_1_4_7_active
-
-  threebank_reset_confirmed{current_player.alien_third_setup_active == 1 and current_player.fourbank_reset_confirmed == 1}:
-    - drop_1_4_7_active
 
   fourbank_drop_4_only:
     - fourbank_drop_1_tripped
@@ -298,22 +230,6 @@ event_player:
   threebank_drop_3_tripped{current_player.shotgun_lane_a_active == 1 or current_player.shotgun_lane_b_active == 1}:
     - shotgun_mode_active_started
 
-  drop_1_4_7_active:
-    - drop_1_4_7_step_1_done
-
-  timer_drop_1_4_7_step_2_timer_complete:
-    - drop_1_4_7_step_2_done
-
-  timer_drop_1_4_7_step_3_timer_complete:
-    - drop_1_4_7_step_3_done
-
-  timer_drop_1_4_7_step_4_timer_complete:
-    - drop_1_4_7_step_4_done
-
-  timer_drop_1_4_7_ready_timer_complete:
-    - alien_third_countdown_restart
-    - alien_third_active_started
-
   s_76_fourbank_drop_4_active{current_player.shotgun_mode_active == 1 and current_player.alien_first_achieved == 0}:
     - alien_first_hit
 
@@ -327,37 +243,16 @@ event_player:
     - fourbank_reset_attempts_clear
     - fourbank_reset_request
 
-  s_73_fourbank_drop_1_active{current_player.alien_third_active == 1 and device.switches.s_76_fourbank_drop_4.state and device.switches.s_79_threebank_drop_3.state}:
-    - alien_third_achieved
-
-  s_76_fourbank_drop_4_active{current_player.alien_third_active == 1 and device.switches.s_73_fourbank_drop_1.state and device.switches.s_79_threebank_drop_3.state}:
-    - alien_third_achieved
-
-  s_79_threebank_drop_3_active{current_player.alien_third_active == 1 and device.switches.s_73_fourbank_drop_1.state and device.switches.s_76_fourbank_drop_4.state}:
-    - alien_third_achieved
-
-  s_83_stand_up_target_bank_2_active{current_player.alien_third_active == 1}:
-    - alien_third_failed
-
-  s_86_stand_up_target_bank_5_active{current_player.alien_third_active == 1}:
-    - alien_third_failed
-
   timer_top_lane_a_countdown_timer_complete:
     - shotgun_lane_a_expired
 
   timer_top_lane_b_countdown_timer_complete:
     - shotgun_lane_b_expired
 
-  shotgun_lane_a_expired{current_player.alien_third_active == 1 and current_player.shotgun_lane_b_active == 0}:
-    - alien_third_failed
-
-  shotgun_lane_b_expired{current_player.alien_third_active == 1 and current_player.shotgun_lane_a_active == 0}:
-    - alien_third_failed
-
-  shotgun_lane_a_expired{current_player.alien_third_active == 0 and current_player.shotgun_qualified == 1 and current_player.shotgun_lane_b_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
+  shotgun_lane_a_expired{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_b_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
     - shotgun_failed
 
-  shotgun_lane_b_expired{current_player.alien_third_active == 0 and current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
+  shotgun_lane_b_expired{current_player.shotgun_qualified == 1 and current_player.shotgun_lane_a_active == 0 and not device.switches.s_76_fourbank_drop_4.state}:
     - shotgun_failed
 
   alien_first_hit:
@@ -367,18 +262,6 @@ event_player:
   alien_second_final_hit:
     - shotgun_stop_all
     - shotgun_sequence_reset
-
-  alien_third_achieved:
-    - shotgun_stop_all
-    - alien_third_cleanup
-    - shotgun_drop_all_targets
-    - shotgun_overall_reset
-
-  alien_third_failed:
-    - shotgun_stop_all
-    - alien_third_cleanup
-    - shotgun_drop_all_targets
-    - shotgun_overall_reset
 
   shotgun_failed:
     - shotgun_stop_all
@@ -401,28 +284,13 @@ variable_player:
     alien_first_achieved:
       action: set
       int: 0
-    alien_second_active:
+    alien_second_started:
       action: set
       int: 0
     alien_second_achieved_part1:
       action: set
       int: 0
     alien_second_achieved:
-      action: set
-      int: 0
-    alien_third_setup_active:
-      action: set
-      int: 0
-    alien_third_active:
-      action: set
-      int: 0
-    alien_third_achieved:
-      action: set
-      int: 0
-    alien_third_failed:
-      action: set
-      int: 0
-    drop_1_4_7_active:
       action: set
       int: 0
     fourbank_reset_request:
@@ -469,93 +337,10 @@ variable_player:
     shotgun_mode_active:
       action: set
       int: 0
-    alien_second_active:
+    alien_second_started:
       action: set
       int: 0
     alien_second_achieved_part1:
-      action: set
-      int: 0
-    alien_third_setup_active:
-      action: set
-      int: 0
-    alien_third_active:
-      action: set
-      int: 0
-    alien_third_failed:
-      action: set
-      int: 0
-    drop_1_4_7_active:
-      action: set
-      int: 0
-    fourbank_reset_request:
-      action: set
-      int: 0
-    fourbank_reset_requested:
-      action: set
-      int: 0
-    fourbank_reset_confirmed:
-      action: set
-      int: 0
-    fourbank_reset_failed:
-      action: set
-      int: 0
-    fourbank_reset_attempts:
-      action: set
-      int: 0
-    threebank_reset_request:
-      action: set
-      int: 0
-    threebank_reset_requested:
-      action: set
-      int: 0
-    threebank_reset_confirmed:
-      action: set
-      int: 0
-    threebank_reset_failed:
-      action: set
-      int: 0
-    threebank_reset_attempts:
-      action: set
-      int: 0
-
-  shotgun_overall_reset:
-    shotgun_lane_a_active:
-      action: set
-      int: 0
-    shotgun_lane_b_active:
-      action: set
-      int: 0
-    shotgun_qualified:
-      action: set
-      int: 0
-    shotgun_mode_active:
-      action: set
-      int: 0
-    alien_first_achieved:
-      action: set
-      int: 0
-    alien_second_active:
-      action: set
-      int: 0
-    alien_second_achieved_part1:
-      action: set
-      int: 0
-    alien_second_achieved:
-      action: set
-      int: 0
-    alien_third_setup_active:
-      action: set
-      int: 0
-    alien_third_active:
-      action: set
-      int: 0
-    alien_third_achieved:
-      action: set
-      int: 0
-    alien_third_failed:
-      action: set
-      int: 0
-    drop_1_4_7_active:
       action: set
       int: 0
     fourbank_reset_request:
@@ -610,7 +395,7 @@ variable_player:
       int: 0
 
   alien_second_started:
-    alien_second_active:
+    alien_second_started:
       action: set
       int: 1
     alien_second_achieved_part1:
@@ -620,47 +405,8 @@ variable_player:
       action: set
       int: 0
 
-  alien_third_started:
-    alien_third_setup_active:
-      action: set
-      int: 1
-    alien_third_active:
-      action: set
-      int: 0
-    alien_third_achieved:
-      action: set
-      int: 0
-    alien_third_failed:
-      action: set
-      int: 0
-    drop_1_4_7_active:
-      action: set
-      int: 0
-    shotgun_mode_active:
-      action: set
-      int: 0
-
   shotgun_mode_active_started:
     shotgun_mode_active:
-      action: set
-      int: 1
-
-  alien_third_active_started:
-    alien_third_active:
-      action: set
-      int: 1
-    shotgun_mode_active:
-      action: set
-      int: 0
-    shotgun_lane_a_active:
-      action: set
-      int: 1
-    shotgun_lane_b_active:
-      action: set
-      int: 1
-
-  drop_1_4_7_active:
-    drop_1_4_7_active:
       action: set
       int: 1
 
@@ -831,23 +577,6 @@ variable_player:
       action: set
       int: 0
 
-  alien_third_achieved:
-    score: 10000000
-    alien_third_achieved:
-      action: set
-      int: 1
-    alien_third_active:
-      action: set
-      int: 0
-
-  alien_third_failed:
-    alien_third_failed:
-      action: set
-      int: 1
-    alien_third_active:
-      action: set
-      int: 0
-
   shotgun_failed:
     shotgun_lane_a_active:
       action: set
@@ -895,38 +624,6 @@ coil_player:
     c_39_threebank_drop_3_trip:
       action: pulse
 
-  drop_1_4_7_active:
-    c_34_fourbank_drop_2_trip:
-      action: pulse
-
-  timer_drop_1_4_7_step_2_timer_complete:
-    c_35_fourbank_drop_3_trip:
-      action: pulse
-
-  timer_drop_1_4_7_step_3_timer_complete:
-    c_37_threebank_drop_1_trip:
-      action: pulse
-
-  timer_drop_1_4_7_step_4_timer_complete:
-    c_38_threebank_drop_2_trip:
-      action: pulse
-
-  shotgun_drop_all_targets:
-    c_33_fourbank_drop_1_trip:
-      action: pulse
-    c_34_fourbank_drop_2_trip:
-      action: pulse
-    c_35_fourbank_drop_3_trip:
-      action: pulse
-    c_36_fourbank_drop_4_trip:
-      action: pulse
-    c_37_threebank_drop_1_trip:
-      action: pulse
-    c_38_threebank_drop_2_trip:
-      action: pulse
-    c_39_threebank_drop_3_trip:
-      action: pulse
-
   shotgun_failed:
     c_36_fourbank_drop_4_trip:
       action: pulse
@@ -949,10 +646,6 @@ light_player:
     l_pf1_2_24: off
     l_pf1_2_25: off
     l_pf1_2_26: off
-
-  alien_third_cleanup:
-    l_pf1_2_27: off
-    l_pf1_2_28: off
 
   shotgun_lane_a_charged:
     l_pf1_2_31: '00ff00'
@@ -1014,32 +707,6 @@ shows:
     - duration: 700ms
       lights:
         (led): '220000'
-
-  alien_panic_red_green:
-    - duration: 80ms
-      lights:
-        l_pf1_2_28: 'ff0000'
-        l_pf1_2_27: '00ff00'
-    - duration: 120ms
-      lights:
-        l_pf1_2_28: '00ff00'
-        l_pf1_2_27: 'ff0000'
-    - duration: 60ms
-      lights:
-        l_pf1_2_28: off
-        l_pf1_2_27: 'ff0000'
-    - duration: 90ms
-      lights:
-        l_pf1_2_28: 'ff0000'
-        l_pf1_2_27: off
-    - duration: 150ms
-      lights:
-        l_pf1_2_28: '00ff00'
-        l_pf1_2_27: '00ff00'
-    - duration: 70ms
-      lights:
-        l_pf1_2_28: 'ff0000'
-        l_pf1_2_27: 'ff0000'
 
 show_player:
   shotgun_lane_a_charged:
@@ -1123,20 +790,3 @@ show_player:
       loops: -1
       show_tokens:
         led: l_pf1_2_27
-
-  alien_third_started:
-    alien_first_breathe:
-      action: stop
-    alien_second_breathe:
-      action: stop
-    alien_panic_red_green:
-      key: alien_third_panic
-      loops: -1
-
-  alien_third_cleanup:
-    alien_third_panic:
-      action: stop
-    alien_first_breathe:
-      action: stop
-    alien_second_breathe:
-      action: stop
