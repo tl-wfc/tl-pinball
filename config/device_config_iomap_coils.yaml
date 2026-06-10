@@ -14,7 +14,7 @@ coils:
         default_pulse_ms: 11
     c_02_trough_eject:
         number: pf2-1
-        default_pulse_ms: 15
+        default_pulse_ms: 13
     
     
     c_03_left_flipper_main:
