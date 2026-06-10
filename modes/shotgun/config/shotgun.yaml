@@ -67,6 +67,34 @@ timers:
       - event: mode_shotgun_stopping
         action: stop
 
+  threebank_reset_check_timer:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 250ms
+    start_running: false
+    control_events:
+      - event: threebank_reset_requested
+        action: restart
+      - event: shotgun_stop_all
+        action: stop
+      - event: mode_shotgun_stopping
+        action: stop
+
+  threebank_reset_retry_timer:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: threebank_reset_failed
+        action: restart
+      - event: shotgun_stop_all
+        action: stop
+      - event: mode_shotgun_stopping
+        action: stop
+
   fourbank_drop_2_trip_timer:
     start_value: 0
     end_value: 1
@@ -162,6 +190,21 @@ event_player:
 
   timer_fourbank_reset_retry_timer_complete{current_player.fourbank_reset_attempts >= 3}:
     - fourbank_drop_4_only
+
+  threebank_reset_request:
+    - threebank_reset_requested
+
+  timer_threebank_reset_check_timer_complete{not device.switches.s_77_threebank_drop_1.state and not device.switches.s_78_threebank_drop_2.state and not device.switches.s_79_threebank_drop_3.state}:
+    - threebank_reset_confirmed
+
+  timer_threebank_reset_check_timer_complete{device.switches.s_77_threebank_drop_1.state or device.switches.s_78_threebank_drop_2.state or device.switches.s_79_threebank_drop_3.state}:
+    - threebank_reset_failed
+
+  timer_threebank_reset_retry_timer_complete{current_player.threebank_reset_attempts < 3}:
+    - threebank_reset_request
+
+  timer_threebank_reset_retry_timer_complete{current_player.threebank_reset_attempts >= 3}:
+    - threebank_reset_give_up
 
   fourbank_reset_confirmed:
     - fourbank_drop_4_only
@@ -265,6 +308,21 @@ variable_player:
     fourbank_reset_attempts:
       action: set
       int: 0
+    threebank_reset_request:
+      action: set
+      int: 0
+    threebank_reset_requested:
+      action: set
+      int: 0
+    threebank_reset_confirmed:
+      action: set
+      int: 0
+    threebank_reset_failed:
+      action: set
+      int: 0
+    threebank_reset_attempts:
+      action: set
+      int: 0
 
   shotgun_sequence_reset:
     shotgun_lane_a_active:
@@ -298,6 +356,21 @@ variable_player:
       action: set
       int: 0
     fourbank_reset_attempts:
+      action: set
+      int: 0
+    threebank_reset_request:
+      action: set
+      int: 0
+    threebank_reset_requested:
+      action: set
+      int: 0
+    threebank_reset_confirmed:
+      action: set
+      int: 0
+    threebank_reset_failed:
+      action: set
+      int: 0
+    threebank_reset_attempts:
       action: set
       int: 0
 
@@ -398,6 +471,75 @@ variable_player:
       action: set
       int: 0
 
+  threebank_reset_attempts_clear:
+    threebank_reset_attempts:
+      action: set
+      int: 0
+    threebank_reset_confirmed:
+      action: set
+      int: 0
+    threebank_reset_failed:
+      action: set
+      int: 0
+
+  threebank_reset_request:
+    threebank_reset_request:
+      action: set
+      int: 1
+    threebank_reset_requested:
+      action: set
+      int: 0
+    threebank_reset_confirmed:
+      action: set
+      int: 0
+    threebank_reset_failed:
+      action: set
+      int: 0
+    shotgun_mode_active:
+      action: set
+      int: 0
+    threebank_reset_attempts:
+      action: add
+      int: 1
+
+  threebank_reset_requested:
+    threebank_reset_requested:
+      action: set
+      int: 1
+
+  threebank_reset_confirmed:
+    threebank_reset_confirmed:
+      action: set
+      int: 1
+    threebank_reset_request:
+      action: set
+      int: 0
+    threebank_reset_requested:
+      action: set
+      int: 0
+    threebank_reset_failed:
+      action: set
+      int: 0
+
+  threebank_reset_failed:
+    threebank_reset_failed:
+      action: set
+      int: 1
+    threebank_reset_request:
+      action: set
+      int: 0
+    threebank_reset_requested:
+      action: set
+      int: 0
+
+  threebank_reset_give_up:
+    threebank_reset_request:
+      action: set
+      int: 0
+    threebank_reset_requested:
+      action: set
+      int: 0
+
   shotgun_lane_a_expired:
     shotgun_lane_a_active:
       action: set
@@ -452,6 +594,10 @@ variable_player:
 coil_player:
   fourbank_reset_request:
     c_40_fourbank_drop_reset:
+      action: pulse
+
+  threebank_reset_request:
+    c_32_threebank_drop_reset:
       action: pulse
 
   fourbank_drop_4_only:
