@@ -43,3 +43,13 @@ sound_player:
       bus: effects
       #mode: random
       max_queue_time: 40ms
+
+show_player:
+  spinner_left_hit:
+    show_greendrops_1:
+      loops: 1
+      speed: 2.5
+  spinner_right_hit:
+    show_bluedrops_1:
+      loops: 1
+      speed: 4

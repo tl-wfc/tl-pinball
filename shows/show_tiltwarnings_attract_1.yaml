@@ -1,0 +1,249 @@
+#show_version=6
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '681F2D'
+    l_pf1_3_2: '800000'
+    l_pf1_3_3: '800000'
+    l_pf1_3_4: '7F0001'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '800000'
+    l_pf1_3_4: '800000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '6C1827'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '432157'
+    l_pf1_3_2: '090080'
+    l_pf1_3_3: '090080'
+    l_pf1_3_4: '37155E'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '090080'
+    l_pf1_3_4: '090080'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '800000'
+    l_pf1_3_3: '800000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '800000'
+    l_pf1_3_4: '800000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '090080'
+    l_pf1_3_3: '090080'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '090080'
+    l_pf1_3_4: '090080'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '6E0E20'
+    l_pf1_3_3: '800000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '800000'
+    l_pf1_3_2: '800000'
+    l_pf1_3_4: '800000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '7F0101'
+    l_pf1_3_3: '1D0C77'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '090080'
+    l_pf1_3_2: '090080'
+    l_pf1_3_3: '090080'
+    l_pf1_3_4: '090080'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '46154D'
+    l_pf1_3_2: '800000'
+    l_pf1_3_3: '800000'
+    l_pf1_3_4: '240063'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '800000'
+    l_pf1_3_4: '800000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '7D0507'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '6A1E2B'
+    l_pf1_3_2: '090080'
+    l_pf1_3_3: '090080'
+    l_pf1_3_4: '6F0619'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '090080'
+    l_pf1_3_4: '090080'
+    

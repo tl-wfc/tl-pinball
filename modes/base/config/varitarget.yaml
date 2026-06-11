@@ -1,5 +1,5 @@
 #config_version=6
-# varitarget.yaml
+#modes/base/config/varitarget.yaml
 
 # ------------------------
 # VARI-TARGET (7 positions)
@@ -66,6 +66,9 @@ event_player:
   # Breadcrumb to prove file loaded
   mode_base_started: varitarget_yaml_loaded
   
+  # Reset vari-target at start of every ball
+  ball_started: varitarget_reset_request
+
   s_00_service_esc_active: varitarget_reset_request
   
   # ------------------------
@@ -95,6 +98,7 @@ event_player:
   # ------------------------
   # Reset logic
   # ------------------------
+
   varitarget_reset_request: varitarget_reset_begin
 
   varitarget_reset_begin:
@@ -102,7 +106,7 @@ event_player:
     - varitarget_reset_step
     - varitarget_reset_start
 
-  timer_varitarget_reset_timer_tick{not device.switches.s_64_varitarget_position_1.state and current_player.varitarget_reset_attempts < 25}:
+  timer_varitarget_reset_timer_tick{current_player.varitarget_reset_attempts < 25}:
     - varitarget_reset_step
 
   timer_varitarget_reset_timer_tick{current_player.varitarget_reset_attempts >= 25}:

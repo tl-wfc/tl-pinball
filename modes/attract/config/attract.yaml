@@ -59,6 +59,14 @@ show_player:
       loops: -1
       speed: 2.0
       priority: 910
+    show_tiltwarnings_attract_1:
+      loops: -1
+      speed: 5.0
+      priority: 910
+    show_gi_attract_1:
+      loops: -1
+      speed: 1.0
+      
 
 
 

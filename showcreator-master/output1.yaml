@@ -1,0 +1,264 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_4: '363600'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'EBEB00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: '646400'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'E3E300'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '767600'
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: 'FFFF00'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '010100'
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'F0F000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: '757500'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: 'FFFF00'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: 'FFFF00'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: 'FFFF00'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: '494900'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_4: '040400'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: 'FFFF00'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FEFE00'
+    l_pf1_3_4: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_4: '363600'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_4: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'FFFF00'
+    l_pf1_3_2: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_2: 'FFFF00'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: 'EBEB00'
+    l_pf1_3_2: '000000'
+    l_pf1_3_3: '646400'
+    
+- time: '+1'
+  lights:
+    l_pf1_3_1: '000000'
+    l_pf1_3_3: '000000'
+    

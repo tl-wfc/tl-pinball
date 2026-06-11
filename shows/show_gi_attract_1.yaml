@@ -1,0 +1,79 @@
+#show_version=6
+
+- duration: 1s
+  lights:
+    l_pf1_3_5: white
+    l_pf1_1_1: white
+    l_pf1_3_20: white
+    l_pf1_2_22: white
+    l_pf1_2_23: white
+    l_pf2_8_1: white
+    l_pf1_3_32: white
+    l_pf1_3_24: white
+    l_pf1_3_6: white
+    l_pf1_1_2: white
+
+- duration: 1.5s
+  lights:
+    l_pf1_3_5: off
+    l_pf1_1_1: white
+    l_pf1_3_20: off
+    l_pf1_2_22: white
+    l_pf1_2_23: off
+    l_pf2_8_1: white
+    l_pf1_3_32: off
+    l_pf1_3_24: white
+    l_pf1_3_6: off
+    l_pf1_1_2: white
+
+- duration: 1.5s
+  lights:
+    l_pf1_3_5: white
+    l_pf1_1_1: off
+    l_pf1_3_20: white
+    l_pf1_2_22: off
+    l_pf1_2_23: white
+    l_pf2_8_1: off
+    l_pf1_3_32: white
+    l_pf1_3_24: off
+    l_pf1_3_6: white
+    l_pf1_1_2: off
+
+- duration: 2s
+  lights:
+    l_pf1_3_5: white
+    l_pf1_1_1: white
+    l_pf1_3_20: white
+    l_pf1_2_22: white
+    l_pf1_2_23: white
+    l_pf2_8_1: white
+    l_pf1_3_32: white
+    l_pf1_3_24: white
+    l_pf1_3_6: white
+    l_pf1_1_2: white
+
+- duration: 1s
+  lights:
+    l_pf1_3_5: off
+    l_pf1_1_1: off
+    l_pf1_3_20: off
+    l_pf1_2_22: off
+    l_pf1_2_23: off
+    l_pf2_8_1: off
+    l_pf1_3_32: off
+    l_pf1_3_24: off
+    l_pf1_3_6: off
+    l_pf1_1_2: off
+
+- duration: 2s
+  lights:
+    l_pf1_3_5: white
+    l_pf1_1_1: white
+    l_pf1_3_20: white
+    l_pf1_2_22: white
+    l_pf1_2_23: white
+    l_pf2_8_1: white
+    l_pf1_3_32: white
+    l_pf1_3_24: white
+    l_pf1_3_6: white
+    l_pf1_1_2: white
