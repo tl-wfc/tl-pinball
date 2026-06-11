@@ -52,10 +52,23 @@ show_player:
     show_greendrops_1:
       loops: 1
       speed: 2.5
+
   spinner_right_hit:
     show_bluedrops_1:
       loops: 1
       speed: 4
+
+  ball_started:
+    show_muse_hysteria_radio_full:
+      loops: 0
+      speed: 1.0
+      priority: 10
+      key: hysteria_background
+  
+  ball_will_end:
+    hysteria_background:
+      action: stop
+
 
 combo_switches:
   cab_arrows_ball_search:
@@ -63,3 +76,4 @@ combo_switches:
     switches_2: s_20_cab_arrow_right
     hold_time: 5s
     events_when_both: manual_ball_search_requested
+

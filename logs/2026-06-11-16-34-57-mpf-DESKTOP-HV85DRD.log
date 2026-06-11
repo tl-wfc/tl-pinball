@@ -1,0 +1,229 @@
+2026-06-11 16:34:57,698 : INFO : root : Loading config.
+2026-06-11 16:34:57,704 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-11 16:34:57,704 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-06-11 16:34:57,808 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-11 16:34:57,809 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-06-11 16:34:57,810 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-11 16:34:57,811 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-06-11 16:34:57,812 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-06-11 16:34:57,812 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-06-11 16:34:57,813 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+2026-06-11 16:34:57,815 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+2026-06-11 16:34:57,817 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\354636526653009b6f35f36c4dc3e189.mpf_cache
+2026-06-11 16:34:57,818 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-06-11 16:34:57,818 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-06-11 16:34:57,819 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-06-11 16:34:57,820 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-06-11 16:34:57,821 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-06-11 16:34:57,822 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-06-11 16:34:57,822 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-06-11 16:34:57,824 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+2026-06-11 16:34:57,826 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+2026-06-11 16:34:57,827 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+2026-06-11 16:34:57,828 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+2026-06-11 16:34:57,830 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+2026-06-11 16:34:57,837 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+2026-06-11 16:34:57,838 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+2026-06-11 16:34:57,839 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+2026-06-11 16:34:57,840 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+2026-06-11 16:34:57,841 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+2026-06-11 16:34:57,842 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+2026-06-11 16:34:57,843 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+2026-06-11 16:34:57,843 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+2026-06-11 16:34:57,844 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+2026-06-11 16:34:57,845 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+2026-06-11 16:34:57,846 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+2026-06-11 16:34:57,848 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+2026-06-11 16:34:57,895 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+2026-06-11 16:34:57,897 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+2026-06-11 16:34:57,898 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+2026-06-11 16:34:57,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+2026-06-11 16:34:57,900 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+2026-06-11 16:34:57,902 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+2026-06-11 16:34:57,903 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+2026-06-11 16:34:57,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+2026-06-11 16:34:57,904 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+2026-06-11 16:34:57,905 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+2026-06-11 16:34:57,906 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+2026-06-11 16:34:57,907 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+2026-06-11 16:34:57,907 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+2026-06-11 16:34:57,908 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+2026-06-11 16:34:57,909 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+2026-06-11 16:34:57,910 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-06-11 16:34:57,910 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-11-16-34-57-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-11-16-34-57-mpf-DESKTOP-HV85DRD.log'}
+2026-06-11 16:34:57,910 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-06-11 16:34:57,910 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-06-11 16:34:57,910 : INFO : Machine : Platform: win32
+2026-06-11 16:34:57,910 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-06-11 16:34:57,911 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-06-11 16:34:57,912 : INFO : Machine : Initializing MPF...
+2026-06-11 16:34:58,040 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-11 16:34:58,044 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-11 16:34:58,048 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-11 16:34:58,079 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-06-11 16:34:58,095 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-11 16:34:58,111 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-11 16:34:58,127 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-11 16:34:58,129 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-06-11 16:34:58,134 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-06-11 16:34:58,143 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-06-11 16:34:58,159 : INFO : FAST [EXP] : Verifying hardware for EXP "ledneuron" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-06-11 16:34:58,191 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+2026-06-11 16:34:58,207 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+2026-06-11 16:34:58,223 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+2026-06-11 16:34:58,255 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+2026-06-11 16:34:58,271 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+2026-06-11 16:34:58,286 : INFO : FAST [EXP] : Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+2026-06-11 16:34:58,303 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,347 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,348 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1504326, 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,348 : INFO : EventManager : Event: ======'machine_var_last_game_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,348 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,348 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,348 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,404 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,404 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,405 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,405 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,405 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,405 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-11-16-34-57-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+2026-06-11 16:34:58,405 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-11 16:34:58,557 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+2026-06-11 16:34:58,557 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+2026-06-11 16:35:00,979 : INFO : SwitchController : <<<<<<< 's_34_right_sling' active >>>>>>>
+2026-06-11 16:35:00,979 : INFO : SwitchController : <<<<<<< 's_44_spinner_right' active >>>>>>>
+2026-06-11 16:35:00,979 : INFO : SwitchController : <<<<<<< 's_71_spinner_left' active >>>>>>>
+2026-06-11 16:35:01,060 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-11 16:35:01,060 : INFO : SwitchController : Found active switch: (50, [FAST Platform Interface]) <switch.s_34_right_sling>
+2026-06-11 16:35:01,060 : INFO : SwitchController : Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+2026-06-11 16:35:01,060 : INFO : SwitchController : Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'BWC', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 60018463, 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'BWC', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 8670083, 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'CCC', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 2601386, 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,086 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 2531176, 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,087 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,087 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,087 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 2259284, 'prev_value': None, 'change': True}
+2026-06-11 16:35:01,087 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-06-11 16:35:01,089 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-06-11 16:35:01,103 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-06-11 16:35:01,103 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-06-11 16:35:01,104 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-06-11 16:35:01,104 : INFO : ball_device.bd_plunger : State: idle
+2026-06-11 16:35:01,105 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-06-11 16:35:01,105 : INFO : ball_device.bd_trough : State: idle
+2026-06-11 16:35:01,106 : INFO : ball_device.bd_left_vuk : BCH: Initial count: 0
+2026-06-11 16:35:01,106 : INFO : ball_device.bd_left_vuk : State: idle
+2026-06-11 16:35:01,106 : INFO : ball_device.bd_right_vuk : BCH: Initial count: 0
+2026-06-11 16:35:01,107 : INFO : ball_device.bd_right_vuk : State: idle
+2026-06-11 16:35:01,123 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-06-11 16:35:03,062 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...color 80008')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...color 80008')>)>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: 80008
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "show_muse_hysteria_radio_full" >> Failed to load config player show_muse_hysteria_radio_full:lights with settings {'l_pf1_1_1': 80008, 'l_pf1_1_10': '000000', 'l_pf1_1_11': '000000', 'l_pf1_1_12': '000000', 'l_pf1_1_13': '000000', 'l_pf1_1_14': '000000', 'l_pf1_1_15': '000000', 'l_pf1_1_16': '000000', 'l_pf1_1_17': '000000', 'l_pf1_1_18': '000000', 'l_pf1_1_19': '000000', 'l_pf1_1_2': 80008, 'l_pf1_1_20': '000000', 'l_pf1_1_21': '000000', 'l_pf1_1_22': '000000', 'l_pf1_1_23': '000000', 'l_pf1_1_24': '000000', 'l_pf1_1_25': '000000', 'l_pf1_1_26': '000000', 'l_pf1_1_27': '000000', 'l_pf1_1_28': '000000', 'l_pf1_1_29': '000000', 'l_pf1_1_3': '000000', 'l_pf1_1_30': '000000', 'l_pf1_1_31': '000000', 'l_pf1_1_4': '000000', 'l_pf1_1_5': '000000', 'l_pf1_1_6': '000000', 'l_pf1_1_7': '000000', 'l_pf1_1_8': '000000', 'l_pf1_1_9': '000000', 'l_pf1_2_1': '000000', 'l_pf1_2_10': '000000', 'l_pf1_2_11': '000000', 'l_pf1_2_12': '000000', 'l_pf1_2_13': '000000', 'l_pf1_2_14': '000000', 'l_pf1_2_15': '000000', 'l_pf1_2_16': '000000', 'l_pf1_2_17': '000000', 'l_pf1_2_18': '000000', 'l_pf1_2_19': '000000', 'l_pf1_2_2': '000000', 'l_pf1_2_20': '000000', 'l_pf1_2_21': '000000', 'l_pf1_2_22': '000000', 'l_pf1_2_23': '000000', 'l_pf1_2_24': '000000', 'l_pf1_2_25': '000000', 'l_pf1_2_26': '000000', 'l_pf1_2_27': '000000', 'l_pf1_2_28': '000000', 'l_pf1_2_29': '000000', 'l_pf1_2_3': '000000', 'l_pf1_2_30': '000000', 'l_pf1_2_31': '000000', 'l_pf1_2_32': '000000', 'l_pf1_2_4': '000000', 'l_pf1_2_5': '000000', 'l_pf1_2_6': '000000', 'l_pf1_2_7': '000000', 'l_pf1_2_8': '000000', 'l_pf1_2_9': '000000', 'l_pf1_3_1': 80008, 'l_pf1_3_10': 'B000FF', 'l_pf1_3_11': 'B000FF', 'l_pf1_3_12': 'B000FF', 'l_pf1_3_13': 'B000FF', 'l_pf1_3_14': 'B000FF', 'l_pf1_3_15': 'B000FF', 'l_pf1_3_16': 80008, 'l_pf1_3_17': 80008, 'l_pf1_3_18': 80008, 'l_pf1_3_19': 80008, 'l_pf1_3_2': 'B000FF', 'l_pf1_3_20': '000000', 'l_pf1_3_21': 'B000FF', 'l_pf1_3_22': 'B000FF', 'l_pf1_3_23': 'B000FF', 'l_pf1_3_24': 80008, 'l_pf1_3_25': 80008, 'l_pf1_3_26': 80008, 'l_pf1_3_27': 80008, 'l_pf1_3_28': 80008, 'l_pf1_3_29': 80008, 'l_pf1_3_3': 'B000FF', 'l_pf1_3_30': 80008, 'l_pf1_3_31': 80008, 'l_pf1_3_32': '000000', 'l_pf1_3_4': 'B000FF', 'l_pf1_3_5': 'B000FF', 'l_pf1_3_6': 'B000FF', 'l_pf1_3_7': 'B000FF', 'l_pf1_3_8': 'B000FF', 'l_pf1_3_9': 'B000FF', 'l_pf1_4_1': 80008, 'l_pf1_4_10': 80008, 'l_pf1_4_11': 80008, 'l_pf1_4_12': 80008, 'l_pf1_4_13': 80008, 'l_pf1_4_14': 80008, 'l_pf1_4_15': 80008, 'l_pf1_4_16': 80008, 'l_pf1_4_17': 80008, 'l_pf1_4_18': 80008, 'l_pf1_4_19': 80008, 'l_pf1_4_2': 80008, 'l_pf1_4_20': 80008, 'l_pf1_4_21': 80008, 'l_pf1_4_22': 80008, 'l_pf1_4_23': 80008, 'l_pf1_4_24': 80008, 'l_pf1_4_25': 'B000FF', 'l_pf1_4_26': 'B000FF', 'l_pf1_4_27': 'B000FF', 'l_pf1_4_28': 'B000FF', 'l_pf1_4_29': 'B000FF', 'l_pf1_4_3': 80008, 'l_pf1_4_30': 'B000FF', 'l_pf1_4_4': 80008, 'l_pf1_4_5': 80008, 'l_pf1_4_6': 80008, 'l_pf1_4_7': 80008, 'l_pf1_4_8': 80008, 'l_pf1_4_9': 80008, 'l_pf1_5_1': 'B000FF', 'l_pf1_5_10': 'B000FF', 'l_pf1_5_11': 'B000FF', 'l_pf1_5_12': 'B000FF', 'l_pf1_5_13': 'B000FF', 'l_pf1_5_14': 'B000FF', 'l_pf1_5_15': 'B000FF', 'l_pf1_5_16': 'B000FF', 'l_pf1_5_17': 'B000FF', 'l_pf1_5_18': 'B000FF', 'l_pf1_5_19': 'B000FF', 'l_pf1_5_2': 'B000FF', 'l_pf1_5_20': 'B000FF', 'l_pf1_5_21': 'B000FF', 'l_pf1_5_22': 'B000FF', 'l_pf1_5_23': 'B000FF', 'l_pf1_5_24': 'B000FF', 'l_pf1_5_25': 'B000FF', 'l_pf1_5_26': 'B000FF', 'l_pf1_5_27': 'B000FF', 'l_pf1_5_28': 'B000FF', 'l_pf1_5_29': 'B000FF', 'l_pf1_5_3': 'B000FF', 'l_pf1_5_30': 'B000FF', 'l_pf1_5_31': 'B000FF', 'l_pf1_5_32': 'B000FF', 'l_pf1_5_4': 'B000FF', 'l_pf1_5_5': 'B000FF', 'l_pf1_5_6': 'B000FF', 'l_pf1_5_7': 'B000FF', 'l_pf1_5_8': 'B000FF', 'l_pf1_5_9': 'B000FF', 'l_pf2_3_9': 80008, 'l_pf2_5_1': 80008, 'l_pf2_5_10': '000000', 'l_pf2_5_11': '000000', 'l_pf2_5_12': '000000', 'l_pf2_5_13': 80008, 'l_pf2_5_14': 80008, 'l_pf2_5_15': 80008, 'l_pf2_5_16': 80008, 'l_pf2_5_17': 80008, 'l_pf2_5_18': 80008, 'l_pf2_5_19': '000000', 'l_pf2_5_2': 80008, 'l_pf2_5_20': '000000', 'l_pf2_5_21': '000000', 'l_pf2_5_22': '000000', 'l_pf2_5_23': '000000', 'l_pf2_5_24': '000000', 'l_pf2_5_3': 80008, 'l_pf2_5_4': 80008, 'l_pf2_5_5': 80008, 'l_pf2_5_6': '000000', 'l_pf2_5_7': '000000', 'l_pf2_5_8': '000000', 'l_pf2_5_9': '000000', 'l_pf2_6_1': '000000', 'l_pf2_6_10': '000000', 'l_pf2_6_11': '000000', 'l_pf2_6_12': '000000', 'l_pf2_6_13': '000000', 'l_pf2_6_14': '000000', 'l_pf2_6_15': 80008, 'l_pf2_6_16': 80008, 'l_pf2_6_17': 80008, 'l_pf2_6_18': '000000', 'l_pf2_6_19': '000000', 'l_pf2_6_2': '000000', 'l_pf2_6_20': '000000', 'l_pf2_6_21': '000000', 'l_pf2_6_22': '000000', 'l_pf2_6_23': '000000', 'l_pf2_6_24': '000000', 'l_pf2_6_3': 80008, 'l_pf2_6_4': 80008, 'l_pf2_6_5': '000000', 'l_pf2_6_6': '000000', 'l_pf2_6_7': '000000', 'l_pf2_6_8': '000000', 'l_pf2_6_9': '000000', 'l_pf2_7_1': '000000', 'l_pf2_7_10': '000000', 'l_pf2_7_11': '000000', 'l_pf2_7_12': '000000', 'l_pf2_7_13': '000000', 'l_pf2_7_14': '000000', 'l_pf2_7_15': '000000', 'l_pf2_7_16': '000000', 'l_pf2_7_17': '000000', 'l_pf2_7_18': '000000', 'l_pf2_7_19': '000000', 'l_pf2_7_2': '000000', 'l_pf2_7_20': '000000', 'l_pf2_7_21': '000000', 'l_pf2_7_22': '000000', 'l_pf2_7_23': '000000', 'l_pf2_7_24': '000000', 'l_pf2_7_25': '000000', 'l_pf2_7_3': '000000', 'l_pf2_7_4': '000000', 'l_pf2_7_5': '000000', 'l_pf2_7_6': '000000', 'l_pf2_7_7': '000000', 'l_pf2_7_8': '000000', 'l_pf2_7_9': '000000', 'l_pf2_8_1': '000000'} >> Failed to expand entry "l_pf1_1_1". >> Invalid color 80008 Error Code: CFE-light_player-1 (https://missionpinball.org/latest/logs)
+2026-06-11 16:35:03,067 : INFO : Machine : Starting the main run loop with active modes: []
+2026-06-11 16:35:03,067 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-06-11 16:35:03,068 : INFO : Machine : Shutting down...
+2026-06-11 16:35:03,068 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-11 16:35:04,181 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: 80008
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\mpf\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "C:\mpf\Lib\site-packages\mpf\config_players\device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\config_players\light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "C:\mpf\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "show_muse_hysteria_radio_full" >> Failed to load config player show_muse_hysteria_radio_full:lights with settings {'l_pf1_1_1': 80008, 'l_pf1_1_10': '000000', 'l_pf1_1_11': '000000', 'l_pf1_1_12': '000000', 'l_pf1_1_13': '000000', 'l_pf1_1_14': '000000', 'l_pf1_1_15': '000000', 'l_pf1_1_16': '000000', 'l_pf1_1_17': '000000', 'l_pf1_1_18': '000000', 'l_pf1_1_19': '000000', 'l_pf1_1_2': 80008, 'l_pf1_1_20': '000000', 'l_pf1_1_21': '000000', 'l_pf1_1_22': '000000', 'l_pf1_1_23': '000000', 'l_pf1_1_24': '000000', 'l_pf1_1_25': '000000', 'l_pf1_1_26': '000000', 'l_pf1_1_27': '000000', 'l_pf1_1_28': '000000', 'l_pf1_1_29': '000000', 'l_pf1_1_3': '000000', 'l_pf1_1_30': '000000', 'l_pf1_1_31': '000000', 'l_pf1_1_4': '000000', 'l_pf1_1_5': '000000', 'l_pf1_1_6': '000000', 'l_pf1_1_7': '000000', 'l_pf1_1_8': '000000', 'l_pf1_1_9': '000000', 'l_pf1_2_1': '000000', 'l_pf1_2_10': '000000', 'l_pf1_2_11': '000000', 'l_pf1_2_12': '000000', 'l_pf1_2_13': '000000', 'l_pf1_2_14': '000000', 'l_pf1_2_15': '000000', 'l_pf1_2_16': '000000', 'l_pf1_2_17': '000000', 'l_pf1_2_18': '000000', 'l_pf1_2_19': '000000', 'l_pf1_2_2': '000000', 'l_pf1_2_20': '000000', 'l_pf1_2_21': '000000', 'l_pf1_2_22': '000000', 'l_pf1_2_23': '000000', 'l_pf1_2_24': '000000', 'l_pf1_2_25': '000000', 'l_pf1_2_26': '000000', 'l_pf1_2_27': '000000', 'l_pf1_2_28': '000000', 'l_pf1_2_29': '000000', 'l_pf1_2_3': '000000', 'l_pf1_2_30': '000000', 'l_pf1_2_31': '000000', 'l_pf1_2_32': '000000', 'l_pf1_2_4': '000000', 'l_pf1_2_5': '000000', 'l_pf1_2_6': '000000', 'l_pf1_2_7': '000000', 'l_pf1_2_8': '000000', 'l_pf1_2_9': '000000', 'l_pf1_3_1': 80008, 'l_pf1_3_10': 'B000FF', 'l_pf1_3_11': 'B000FF', 'l_pf1_3_12': 'B000FF', 'l_pf1_3_13': 'B000FF', 'l_pf1_3_14': 'B000FF', 'l_pf1_3_15': 'B000FF', 'l_pf1_3_16': 80008, 'l_pf1_3_17': 80008, 'l_pf1_3_18': 80008, 'l_pf1_3_19': 80008, 'l_pf1_3_2': 'B000FF', 'l_pf1_3_20': '000000', 'l_pf1_3_21': 'B000FF', 'l_pf1_3_22': 'B000FF', 'l_pf1_3_23': 'B000FF', 'l_pf1_3_24': 80008, 'l_pf1_3_25': 80008, 'l_pf1_3_26': 80008, 'l_pf1_3_27': 80008, 'l_pf1_3_28': 80008, 'l_pf1_3_29': 80008, 'l_pf1_3_3': 'B000FF', 'l_pf1_3_30': 80008, 'l_pf1_3_31': 80008, 'l_pf1_3_32': '000000', 'l_pf1_3_4': 'B000FF', 'l_pf1_3_5': 'B000FF', 'l_pf1_3_6': 'B000FF', 'l_pf1_3_7': 'B000FF', 'l_pf1_3_8': 'B000FF', 'l_pf1_3_9': 'B000FF', 'l_pf1_4_1': 80008, 'l_pf1_4_10': 80008, 'l_pf1_4_11': 80008, 'l_pf1_4_12': 80008, 'l_pf1_4_13': 80008, 'l_pf1_4_14': 80008, 'l_pf1_4_15': 80008, 'l_pf1_4_16': 80008, 'l_pf1_4_17': 80008, 'l_pf1_4_18': 80008, 'l_pf1_4_19': 80008, 'l_pf1_4_2': 80008, 'l_pf1_4_20': 80008, 'l_pf1_4_21': 80008, 'l_pf1_4_22': 80008, 'l_pf1_4_23': 80008, 'l_pf1_4_24': 80008, 'l_pf1_4_25': 'B000FF', 'l_pf1_4_26': 'B000FF', 'l_pf1_4_27': 'B000FF', 'l_pf1_4_28': 'B000FF', 'l_pf1_4_29': 'B000FF', 'l_pf1_4_3': 80008, 'l_pf1_4_30': 'B000FF', 'l_pf1_4_4': 80008, 'l_pf1_4_5': 80008, 'l_pf1_4_6': 80008, 'l_pf1_4_7': 80008, 'l_pf1_4_8': 80008, 'l_pf1_4_9': 80008, 'l_pf1_5_1': 'B000FF', 'l_pf1_5_10': 'B000FF', 'l_pf1_5_11': 'B000FF', 'l_pf1_5_12': 'B000FF', 'l_pf1_5_13': 'B000FF', 'l_pf1_5_14': 'B000FF', 'l_pf1_5_15': 'B000FF', 'l_pf1_5_16': 'B000FF', 'l_pf1_5_17': 'B000FF', 'l_pf1_5_18': 'B000FF', 'l_pf1_5_19': 'B000FF', 'l_pf1_5_2': 'B000FF', 'l_pf1_5_20': 'B000FF', 'l_pf1_5_21': 'B000FF', 'l_pf1_5_22': 'B000FF', 'l_pf1_5_23': 'B000FF', 'l_pf1_5_24': 'B000FF', 'l_pf1_5_25': 'B000FF', 'l_pf1_5_26': 'B000FF', 'l_pf1_5_27': 'B000FF', 'l_pf1_5_28': 'B000FF', 'l_pf1_5_29': 'B000FF', 'l_pf1_5_3': 'B000FF', 'l_pf1_5_30': 'B000FF', 'l_pf1_5_31': 'B000FF', 'l_pf1_5_32': 'B000FF', 'l_pf1_5_4': 'B000FF', 'l_pf1_5_5': 'B000FF', 'l_pf1_5_6': 'B000FF', 'l_pf1_5_7': 'B000FF', 'l_pf1_5_8': 'B000FF', 'l_pf1_5_9': 'B000FF', 'l_pf2_3_9': 80008, 'l_pf2_5_1': 80008, 'l_pf2_5_10': '000000', 'l_pf2_5_11': '000000', 'l_pf2_5_12': '000000', 'l_pf2_5_13': 80008, 'l_pf2_5_14': 80008, 'l_pf2_5_15': 80008, 'l_pf2_5_16': 80008, 'l_pf2_5_17': 80008, 'l_pf2_5_18': 80008, 'l_pf2_5_19': '000000', 'l_pf2_5_2': 80008, 'l_pf2_5_20': '000000', 'l_pf2_5_21': '000000', 'l_pf2_5_22': '000000', 'l_pf2_5_23': '000000', 'l_pf2_5_24': '000000', 'l_pf2_5_3': 80008, 'l_pf2_5_4': 80008, 'l_pf2_5_5': 80008, 'l_pf2_5_6': '000000', 'l_pf2_5_7': '000000', 'l_pf2_5_8': '000000', 'l_pf2_5_9': '000000', 'l_pf2_6_1': '000000', 'l_pf2_6_10': '000000', 'l_pf2_6_11': '000000', 'l_pf2_6_12': '000000', 'l_pf2_6_13': '000000', 'l_pf2_6_14': '000000', 'l_pf2_6_15': 80008, 'l_pf2_6_16': 80008, 'l_pf2_6_17': 80008, 'l_pf2_6_18': '000000', 'l_pf2_6_19': '000000', 'l_pf2_6_2': '000000', 'l_pf2_6_20': '000000', 'l_pf2_6_21': '000000', 'l_pf2_6_22': '000000', 'l_pf2_6_23': '000000', 'l_pf2_6_24': '000000', 'l_pf2_6_3': 80008, 'l_pf2_6_4': 80008, 'l_pf2_6_5': '000000', 'l_pf2_6_6': '000000', 'l_pf2_6_7': '000000', 'l_pf2_6_8': '000000', 'l_pf2_6_9': '000000', 'l_pf2_7_1': '000000', 'l_pf2_7_10': '000000', 'l_pf2_7_11': '000000', 'l_pf2_7_12': '000000', 'l_pf2_7_13': '000000', 'l_pf2_7_14': '000000', 'l_pf2_7_15': '000000', 'l_pf2_7_16': '000000', 'l_pf2_7_17': '000000', 'l_pf2_7_18': '000000', 'l_pf2_7_19': '000000', 'l_pf2_7_2': '000000', 'l_pf2_7_20': '000000', 'l_pf2_7_21': '000000', 'l_pf2_7_22': '000000', 'l_pf2_7_23': '000000', 'l_pf2_7_24': '000000', 'l_pf2_7_25': '000000', 'l_pf2_7_3': '000000', 'l_pf2_7_4': '000000', 'l_pf2_7_5': '000000', 'l_pf2_7_6': '000000', 'l_pf2_7_7': '000000', 'l_pf2_7_8': '000000', 'l_pf2_7_9': '000000', 'l_pf2_8_1': '000000'} >> Failed to expand entry "l_pf1_1_1". >> Invalid color 80008 Error Code: CFE-light_player-1 (https://missionpinball.org/latest/logs)
+2026-06-11 16:35:04,184 : INFO : root : MPF run loop ended.
