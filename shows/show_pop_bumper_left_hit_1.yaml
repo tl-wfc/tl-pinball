@@ -1,0 +1,181 @@
+#show_version=6
+
+- duration: 30ms
+  lights:
+    l_pf2_5_1: 'FFFFFF'
+    l_pf2_5_13: 'FFFFFF'
+    l_pf2_5_14: 'FFFFFF'
+
+- duration: 30ms
+  lights:
+    l_pf2_5_1: '000000'
+    l_pf2_5_13: 'FF0000'
+    l_pf2_5_14: '0066FF'
+    l_pf2_5_2: 'FFFFFF'
+    l_pf2_5_15: 'FFFFFF'
+    l_pf2_5_16: 'FFFFFF'
+    l_pf2_5_12: 'FFFFFF'
+    l_pf2_5_24: 'FFFFFF'
+
+- duration: 30ms
+  lights:
+    l_pf2_5_2: '000000'
+    l_pf2_5_12: '000000'
+    l_pf2_5_15: '000000'
+    l_pf2_5_16: '000000'
+    l_pf2_5_24: '000000'
+    l_pf2_5_3: 'FFFFFF'
+    l_pf2_5_4: 'FFFFFF'
+    l_pf2_5_17: 'FFFFFF'
+    l_pf2_5_18: 'FFFFFF'
+
+- duration: 30ms
+  lights:
+    l_pf2_5_3: 'FF0000'
+    l_pf2_5_4: '0066FF'
+    l_pf2_5_17: 'FFFFFF'
+    l_pf2_5_18: 'FFFFFF'
+    l_pf2_5_5: 'FFFFFF'
+    l_pf2_5_6: 'FFFFFF'
+    l_pf2_5_19: 'FFFFFF'
+    l_pf2_5_20: 'FFFFFF'
+
+- duration: 25ms
+  lights:
+    l_pf2_5_1: 'FFFFFF'
+    l_pf2_5_2: 'FFFFFF'
+    l_pf2_5_3: 'FFFFFF'
+    l_pf2_5_4: 'FFFFFF'
+    l_pf2_5_5: 'FFFFFF'
+    l_pf2_5_6: 'FFFFFF'
+    l_pf2_5_7: 'FFFFFF'
+    l_pf2_5_8: 'FFFFFF'
+    l_pf2_5_9: 'FFFFFF'
+    l_pf2_5_10: 'FFFFFF'
+    l_pf2_5_11: 'FFFFFF'
+    l_pf2_5_12: 'FFFFFF'
+    l_pf2_5_13: 'FFFFFF'
+    l_pf2_5_14: 'FFFFFF'
+    l_pf2_5_15: 'FFFFFF'
+    l_pf2_5_16: 'FFFFFF'
+    l_pf2_5_17: 'FFFFFF'
+    l_pf2_5_18: 'FFFFFF'
+    l_pf2_5_19: 'FFFFFF'
+    l_pf2_5_20: 'FFFFFF'
+    l_pf2_5_21: 'FFFFFF'
+    l_pf2_5_22: 'FFFFFF'
+    l_pf2_5_23: 'FFFFFF'
+    l_pf2_5_24: 'FFFFFF'
+
+- duration: 25ms
+  lights:
+    l_pf2_5_1: '000000'
+    l_pf2_5_2: '000000'
+    l_pf2_5_3: '000000'
+    l_pf2_5_4: '000000'
+    l_pf2_5_5: '000000'
+    l_pf2_5_6: '000000'
+    l_pf2_5_7: '000000'
+    l_pf2_5_8: '000000'
+    l_pf2_5_9: '000000'
+    l_pf2_5_10: '000000'
+    l_pf2_5_11: '000000'
+    l_pf2_5_12: '000000'
+    l_pf2_5_13: '000000'
+    l_pf2_5_14: '000000'
+    l_pf2_5_15: '000000'
+    l_pf2_5_16: '000000'
+    l_pf2_5_17: '000000'
+    l_pf2_5_18: '000000'
+    l_pf2_5_19: '000000'
+    l_pf2_5_20: '000000'
+    l_pf2_5_21: '000000'
+    l_pf2_5_22: '000000'
+    l_pf2_5_23: '000000'
+    l_pf2_5_24: '000000'
+
+- duration: 35ms
+  lights:
+    l_pf2_5_7: 'FFFFFF'
+    l_pf2_5_8: 'FFFFFF'
+    l_pf2_5_20: 'FFFFFF'
+    l_pf2_5_21: 'FFFFFF'
+
+- duration: 35ms
+  lights:
+    l_pf2_5_7: '000000'
+    l_pf2_5_8: '000000'
+    l_pf2_5_20: '000000'
+    l_pf2_5_21: '000000'
+    l_pf2_5_9: 'FF0000'
+    l_pf2_5_10: 'FFFFFF'
+    l_pf2_5_22: '0066FF'
+    l_pf2_5_23: 'FFFFFF'
+
+- duration: 35ms
+  lights:
+    l_pf2_5_9: '000000'
+    l_pf2_5_10: '000000'
+    l_pf2_5_22: '000000'
+    l_pf2_5_23: '000000'
+    l_pf2_5_11: 'FFFFFF'
+    l_pf2_5_12: 'FFFFFF'
+    l_pf2_5_24: 'FFFFFF'
+    l_pf2_5_13: 'FFFFFF'
+
+- duration: 40ms
+  lights:
+    l_pf2_5_1: 'FFFFFF'
+    l_pf2_5_3: 'FFFFFF'
+    l_pf2_5_5: 'FFFFFF'
+    l_pf2_5_7: 'FFFFFF'
+    l_pf2_5_9: 'FFFFFF'
+    l_pf2_5_11: 'FFFFFF'
+    l_pf2_5_13: 'FF0000'
+    l_pf2_5_15: '0066FF'
+    l_pf2_5_17: 'FFFFFF'
+    l_pf2_5_19: 'FFFFFF'
+    l_pf2_5_21: 'FFFFFF'
+    l_pf2_5_23: 'FFFFFF'
+
+- duration: 40ms
+  lights:
+    l_pf2_5_1: '000000'
+    l_pf2_5_3: '000000'
+    l_pf2_5_5: '000000'
+    l_pf2_5_7: '000000'
+    l_pf2_5_9: '000000'
+    l_pf2_5_11: '000000'
+    l_pf2_5_13: '000000'
+    l_pf2_5_15: '000000'
+    l_pf2_5_17: '000000'
+    l_pf2_5_19: '000000'
+    l_pf2_5_21: '000000'
+    l_pf2_5_23: '000000'
+    l_pf2_5_2: 'FFFFFF'
+    l_pf2_5_4: 'FFFFFF'
+    l_pf2_5_6: 'FFFFFF'
+    l_pf2_5_8: 'FFFFFF'
+    l_pf2_5_10: 'FFFFFF'
+    l_pf2_5_12: 'FFFFFF'
+    l_pf2_5_14: 'FFFFFF'
+    l_pf2_5_16: 'FFFFFF'
+    l_pf2_5_18: 'FFFFFF'
+    l_pf2_5_20: 'FFFFFF'
+    l_pf2_5_22: 'FFFFFF'
+    l_pf2_5_24: 'FFFFFF'
+
+- duration: 80ms
+  lights:
+    l_pf2_5_2: '000000'
+    l_pf2_5_4: '000000'
+    l_pf2_5_6: '000000'
+    l_pf2_5_8: '000000'
+    l_pf2_5_10: '000000'
+    l_pf2_5_12: '000000'
+    l_pf2_5_14: '000000'
+    l_pf2_5_16: '000000'
+    l_pf2_5_18: '000000'
+    l_pf2_5_20: '000000'
+    l_pf2_5_22: '000000'
+    l_pf2_5_24: '000000'

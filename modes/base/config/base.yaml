@@ -48,15 +48,35 @@ sound_player:
       max_queue_time: 40ms
 
 show_player:
-  spinner_left_hit:
-    show_greendrops_1:
+  s_58_pop_bumper_left_active:
+    show_pop_bumper_left_hit_1:
       loops: 1
-      speed: 2.5
+      speed: 1.0
+      priority: 500
+  
+  s_57_pop_bumper_center_active:
+    show_pop_bumper_center_hit_1:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  s_56_pop_bumper_right_active:
+    show_pop_bumper_right_hit_1:
+      loops: 1
+      speed: 1.0
+      priority: 500
+  
+  spinner_left_hit:
+    show_left_spinner_white_strobe_1:
+      loops: 1
+      speed: 1.0
+      priority: 100
 
   spinner_right_hit:
-    show_bluedrops_1:
+    show_right_spinner_white_strobe_1:
       loops: 1
-      speed: 4
+      speed: 1.0
+      priority: 100
 
   ball_started:
     show_muse_hysteria_radio_full:

@@ -1,0 +1,55 @@
+#show_version=6
+
+- duration: 20ms
+  lights:
+    l_pf1_3_29: 'FFFFFF'
+    l_pf1_3_30: 'FFFFFF'
+    l_pf1_3_31: 'FFFFFF'
+    l_pf1_3_26: 'FFFFFF'
+    l_pf1_3_27: 'FFFFFF'
+    l_pf1_3_28: 'FFFFFF'
+
+- duration: 20ms
+  lights:
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
+
+- duration: 20ms
+  lights:
+    l_pf1_3_29: 'FFFFFF'
+    l_pf1_3_30: 'FFFFFF'
+    l_pf1_3_31: 'FFFFFF'
+    l_pf1_3_26: 'FFFFFF'
+    l_pf1_3_27: 'FFFFFF'
+    l_pf1_3_28: 'FFFFFF'
+
+- duration: 20ms
+  lights:
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
+
+- duration: 30ms
+  lights:
+    l_pf1_3_29: 'FFFFFF'
+    l_pf1_3_30: 'FFFFFF'
+    l_pf1_3_31: 'FFFFFF'
+    l_pf1_3_26: 'FFFFFF'
+    l_pf1_3_27: 'FFFFFF'
+    l_pf1_3_28: 'FFFFFF'
+
+- duration: 80ms
+  lights:
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
