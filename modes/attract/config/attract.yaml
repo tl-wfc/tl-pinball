@@ -20,37 +20,45 @@ event_player:
 
 show_player:
   mode_attract_started:
-    # led_flash_rgb_chain_test:
+    show_tv_staticbreath_1:
+      loops: -1
+      priority: 100
+    show_tv_staticfast_1:
+      loops: -1
+      priority: 100
+    show_fig8_attract_2:
+      loops: -1
+      speed: 1.0
+      priority: 200
+    # show_rightorbit_1:
     #   loops: -1
-    #   priority: 100
+    #   priority: 200
     rainbow_pops_1:
       loops: -1
-      priority: 200
+      priority: 300
     show_reel_1:
       loops: -1
-      priority: 300
+      priority: 400
     show_multi_attract_1:
       loops: -1
       priority: 500
     show_modeinserts_sweep_green_1:
       loops: -1
-      priority: 100
+      priority: 600
     show_vari_red_1:
       loops: -1
-      priority: 200
-    show_rorbit_rgb_1:
+      priority: 700
+    show_leftramp_attract_1:
       loops: -1
-      priority: 300
+      speed: 1.0
+      priority: 800
     show_shotgun_attract_1:
       loops: -1
-      priority: 400
-    show_tv_staticbreath_1:
+      priority: 900
+    show_inlaneinserts_attract_1:
       loops: -1
-      priority: 600
-    show_tv_staticfast_1:
-      loops: -1
-      priority: 600
-
+      speed: 2.0
+      priority: 910
 
 
 

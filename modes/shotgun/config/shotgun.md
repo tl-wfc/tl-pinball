@@ -80,7 +80,164 @@ shotgun_overall_reset
 
 
 
-#####################################################################################################################################
+############################################
+
+For Godot, I would ignore most of the low-level events and focus on the "story" events that represent meaningful moments in the mode.
+
+Best Godot Video / Audio Triggers
+Shotgun Qualified
+shotgun_qualified
+
+Use for:
+
+"SHOTGUN CHARGED"
+Weapon loading animation
+Short shotgun cocking sound
+Stage 1
+Stage 1 Start
+alien_first_started
+
+Use for:
+
+"ALIEN DETECTED"
+Reveal animation
+Background music change
+Stage 1 Success
+alien_first_hit
+
+Use for:
+
+Alien death animation
+Shotgun blast
+500k award animation
+Stage 2
+Stage 2 Start
+alien_second_started
+
+Use for:
+
+"MORE ARE COMING"
+Escalation video
+Music intensifies
+Stage 2 Part 1
+alien_second_part1_hit
+
+Use for:
+
+First shotgun blast
+Alien stagger animation
+500k award
+Stage 2 Final Success
+alien_second_final_hit
+
+Use for:
+
+Alien destruction
+Large explosion
+2M award animation
+Stage 3
+Stage 3 Start
+alien_third_started
+
+Use for:
+
+"THEY LIVE"
+Wizard mode intro
+Major music change
+1/4/7 Pattern Built
+drop_1_4_7_active
+
+Use for:
+
+Highlight targets 1,4,7
+Explain objective
+Stage 3 Active
+alien_third_active_started
+
+Use for:
+
+Start countdown music
+High tension video
+Stage 3 Success
+alien_third_achieved
+
+Use for:
+
+Wizard mode victory
+Massive explosion
+10M award sequence
+Stage 3 Failure
+alien_third_failed
+
+Use for:
+
+Alien escape
+Failure animation
+Sad sting
+General Failure
+Stage 1 or 2 Failure
+shotgun_failed
+
+Use for:
+
+Shotgun jam
+"Target Escaped"
+Failure sound
+Bank Reset Events
+
+These are great for mechanical sound effects:
+
+fourbank_reset_request
+fourbank_reset_confirmed
+fourbank_reset_failed
+
+threebank_reset_request
+threebank_reset_confirmed
+threebank_reset_failed
+
+Use for:
+
+Servo/mechanical sounds
+Computer voice callouts
+My Recommended Godot Event List
+
+If I were building the Godot package today, I'd subscribe to only these:
+
+shotgun_qualified
+
+alien_first_started
+alien_first_hit
+
+alien_second_started
+alien_second_part1_hit
+alien_second_final_hit
+
+alien_third_started
+drop_1_4_7_active
+alien_third_active_started
+alien_third_achieved
+alien_third_failed
+
+shotgun_failed
+
+fourbank_reset_confirmed
+threebank_reset_confirmed
+
+These 12 events give you everything needed for:
+
+Intro videos
+Music transitions
+Award animations
+Failure sequences
+Wizard mode progression
+
+without flooding Godot with every internal state-machine event.
+
+
+
+
+
+#########################################################################################
 SHOTGUN MASTER STATE MACHINE
 shotgun_lane_a_charged
 shotgun_lane_b_charged

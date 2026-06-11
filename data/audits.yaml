@@ -1,55 +1,27 @@
 events:
-  game_ended: 101
-  game_started: 135
+  game_ended: 102
+  game_started: 136
 missing_switches:
-  s_00_service_esc: 135
-  s_01_service_up: 135
-  s_02_service_down: 135
-  s_03_service_enter: 135
-  s_08_left_flipper: 21
-  s_11_start_button: 12
-  s_16_right_flipper: 6
-  s_17_right_flipper_upper: 6
-  s_24_trough_1: 7
-  s_25_trough_2: 7
-  s_26_trough_3: 7
-  s_27_trough_4: 7
-  s_28_trough_5: 7
-  s_29_trough_6: 7
-  s_32_right_inlane: 21
-  s_33_right_outlane: 66
-  s_34_right_sling: 56
-  s_35_left_inlane: 11
-  s_36_left_outlane: 5
-  s_37_left_sling: 11
-  s_38_star_rollover_bottom: 135
-  s_39_star_rollover_top: 26
-  s_40_stand_up_target_5: 5
-  s_41_stand_up_target_6: 5
-  s_42_stand_up_target_1: 26
-  s_43_stand_up_target_4: 5
-  s_44_spinner_right: 5
-  s_56_pop_bumper_right: 5
-  s_59_saucer_right: 5
-  s_63_stand_up_target_3: 3
-  s_64_varitarget_position_1: 95
-  s_65_varitarget_position_2: 96
-  s_66_varitarget_position_3: 36
-  s_67_varitarget_position_4: 53
-  s_68_varitarget_position_5: 24
-  s_70_varitarget_position_7: 18
-  s_72_single_drop_1: 5
-  s_80_stand_up_target_2: 56
-  s_81_saucer_left: 5
-  s_82_stand_up_target_bank_1: 5
-  s_85_stand_up_target_bank_4: 27
-  s_86_stand_up_target_bank_5: 27
-  s_87_stand_up_target_bank_6: 24
+  s_00_service_esc: 136
+  s_01_service_up: 136
+  s_02_service_down: 136
+  s_03_service_enter: 136
+  s_34_right_sling: 57
+  s_36_left_outlane: 6
+  s_38_star_rollover_bottom: 136
+  s_42_stand_up_target_1: 27
+  s_64_varitarget_position_1: 96
+  s_65_varitarget_position_2: 97
+  s_66_varitarget_position_3: 37
+  s_67_varitarget_position_4: 54
+  s_68_varitarget_position_5: 25
+  s_70_varitarget_position_7: 19
 player:
   score:
-    average: 1886535
+    average: 1953040
     top:
     - 60018463
+    - 8670083
     - 3120756
     - 2601386
     - 2531176
@@ -58,97 +30,96 @@ player:
     - 1880840
     - 1792394
     - 1680944
-    - 1638150
-    total: 101
+    total: 102
 shots:
-  shot_dt_1: 243
-  shot_dt_2: 256
-  shot_dt_3: 265
-  shot_dt_4: 285
-  shot_dt_5: 94
-  shot_dt_6: 93
-  shot_dt_7: 82
+  shot_dt_1: 253
+  shot_dt_2: 266
+  shot_dt_3: 275
+  shot_dt_4: 296
+  shot_dt_5: 97
+  shot_dt_6: 96
+  shot_dt_7: 85
   shot_impossible: 24
-  shot_rollover_top: 24
-  shot_slingshot_l: 107
+  shot_rollover_top: 25
+  shot_slingshot_l: 111
   shot_slingshot_r: 302
-  shot_sut_1: 55
-  shot_sut_2: 121
-  shot_sut_3: 61
-  shot_sut_4: 65
-  shot_sut_5: 95
-  shot_sut_6: 56
-  shot_sut_blue: 216
-  shot_sut_green: 111
-  shot_sut_red: 126
-  spinner_left: 368
-  spinner_right: 168
+  shot_sut_1: 56
+  shot_sut_2: 126
+  shot_sut_3: 65
+  shot_sut_4: 67
+  shot_sut_5: 100
+  shot_sut_6: 57
+  shot_sut_blue: 226
+  shot_sut_green: 113
+  shot_sut_red: 132
+  spinner_left: 417
+  spinner_right: 190
   varitarget_p1: 146
   varitarget_p2: 2
   varitarget_p3: 21
   varitarget_p4: 7
   varitarget_p5: 65
-  varitarget_p6: 161
+  varitarget_p6: 189
   varitarget_p7: 83
 switches:
   s_00_service_esc: 0
   s_01_service_up: 0
   s_02_service_down: 0
   s_03_service_enter: 0
-  s_08_left_flipper: 1466
-  s_11_start_button: 154
-  s_16_right_flipper: 2165
-  s_17_right_flipper_upper: 1674
-  s_24_trough_1: 193
-  s_25_trough_2: 176
-  s_26_trough_3: 141
-  s_27_trough_4: 129
-  s_28_trough_5: 127
-  s_29_trough_6: 154
-  s_30_trough_jam: 213
-  s_31_plunger_lane: 320
-  s_32_right_inlane: 50
-  s_33_right_outlane: 4
+  s_08_left_flipper: 1498
+  s_11_start_button: 158
+  s_16_right_flipper: 2208
+  s_17_right_flipper_upper: 1710
+  s_24_trough_1: 194
+  s_25_trough_2: 177
+  s_26_trough_3: 142
+  s_27_trough_4: 130
+  s_28_trough_5: 128
+  s_29_trough_6: 156
+  s_30_trough_jam: 214
+  s_31_plunger_lane: 321
+  s_32_right_inlane: 53
+  s_33_right_outlane: 5
   s_34_right_sling: 302
-  s_35_left_inlane: 89
+  s_35_left_inlane: 91
   s_36_left_outlane: 33
-  s_37_left_sling: 107
+  s_37_left_sling: 111
   s_38_star_rollover_bottom: 0
-  s_39_star_rollover_top: 24
-  s_40_stand_up_target_5: 70
-  s_41_stand_up_target_6: 104
+  s_39_star_rollover_top: 25
+  s_40_stand_up_target_5: 72
+  s_41_stand_up_target_6: 106
   s_42_stand_up_target_1: 24
-  s_43_stand_up_target_4: 88
-  s_44_spinner_right: 169
-  s_56_pop_bumper_right: 168
-  s_57_pop_bumper_center: 317
-  s_58_pop_bumper_left: 544
-  s_59_saucer_right: 10
-  s_60_top_lane_c: 172
-  s_61_top_lane_b: 612
-  s_62_top_lane_a: 557
-  s_63_stand_up_target_3: 67
+  s_43_stand_up_target_4: 101
+  s_44_spinner_right: 191
+  s_56_pop_bumper_right: 181
+  s_57_pop_bumper_center: 334
+  s_58_pop_bumper_left: 587
+  s_59_saucer_right: 15
+  s_60_top_lane_c: 197
+  s_61_top_lane_b: 623
+  s_62_top_lane_a: 569
+  s_63_stand_up_target_3: 70
   s_64_varitarget_position_1: 146
   s_65_varitarget_position_2: 2
   s_66_varitarget_position_3: 21
   s_67_varitarget_position_4: 7
   s_68_varitarget_position_5: 65
-  s_69_varitarget_position_6: 161
+  s_69_varitarget_position_6: 189
   s_70_varitarget_position_7: 83
-  s_71_spinner_left: 368
-  s_72_single_drop_1: 40
-  s_73_fourbank_drop_1: 243
-  s_74_fourbank_drop_2: 257
-  s_75_fourbank_drop_3: 270
-  s_76_fourbank_drop_4: 299
-  s_77_threebank_drop_1: 137
-  s_78_threebank_drop_2: 99
-  s_79_threebank_drop_3: 83
-  s_80_stand_up_target_2: 8
-  s_81_saucer_left: 47
-  s_82_stand_up_target_bank_1: 55
-  s_83_stand_up_target_bank_2: 121
-  s_84_stand_up_target_bank_3: 61
-  s_85_stand_up_target_bank_4: 65
-  s_86_stand_up_target_bank_5: 95
-  s_87_stand_up_target_bank_6: 56
+  s_71_spinner_left: 417
+  s_72_single_drop_1: 41
+  s_73_fourbank_drop_1: 253
+  s_74_fourbank_drop_2: 267
+  s_75_fourbank_drop_3: 280
+  s_76_fourbank_drop_4: 310
+  s_77_threebank_drop_1: 143
+  s_78_threebank_drop_2: 102
+  s_79_threebank_drop_3: 86
+  s_80_stand_up_target_2: 11
+  s_81_saucer_left: 54
+  s_82_stand_up_target_bank_1: 56
+  s_83_stand_up_target_bank_2: 126
+  s_84_stand_up_target_bank_3: 65
+  s_85_stand_up_target_bank_4: 67
+  s_86_stand_up_target_bank_5: 100
+  s_87_stand_up_target_bank_6: 57
