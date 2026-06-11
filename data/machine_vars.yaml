@@ -1,7 +1,3 @@
-last_game_score:
-  expire: null
-  expire_secs: null
-  value: 1522772
 master_volume:
   expire: null
   expire_secs: null
@@ -9,4 +5,4 @@ master_volume:
 player1_score:
   expire: null
   expire_secs: null
-  value: 1522772
+  value: 1504326

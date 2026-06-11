@@ -16,6 +16,9 @@ config:
 event_player:
   mode_base_started: BASE_YAML_LOADED
   s_03_service_enter_active: end_game
+  
+  manual_ball_search_requested:
+    - start_manual_ball_search
 
 variable_player:
   mode_base_started:
@@ -53,3 +56,10 @@ show_player:
     show_bluedrops_1:
       loops: 1
       speed: 4
+
+combo_switches:
+  cab_arrows_ball_search:
+    switches_1: s_19_cab_arrow_left
+    switches_2: s_20_cab_arrow_right
+    hold_time: 5s
+    events_when_both: manual_ball_search_requested

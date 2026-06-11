@@ -1,0 +1,192 @@
+#config_version=6
+# modes/manual_ball_search/config/manual_ball_search.yaml
+
+mode:
+  start_events: start_manual_ball_search
+  stop_events: timer_manual_ball_search_complete
+  priority: 500
+
+timers:
+  manual_ball_search:
+    start_value: 0
+    end_value: 54
+    tick_interval: 500ms
+    start_running: true
+
+coil_player:
+
+  # -------------------------
+  # PASS 1
+  # -------------------------
+
+  timer_manual_ball_search_tick{ticks==1}:
+    c_30_single_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==2}:
+    c_33_fourbank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==3}:
+    c_34_fourbank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==4}:
+    c_35_fourbank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==5}:
+    c_36_fourbank_drop_4_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==6}:
+    c_37_threebank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==7}:
+    c_38_threebank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==8}:
+    c_39_threebank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==9}:
+    c_31_single_drop_1_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==10}:
+    c_32_threebank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==11}:
+    c_40_fourbank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==12}:
+    c_16_varitarget_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==13}:
+    c_15_saucer_right: pulse
+
+  timer_manual_ball_search_tick{ticks==14}:
+    c_29_saucer_left: pulse
+
+  timer_manual_ball_search_tick{ticks==15}:
+    c_12_pop_bumper_center: pulse
+
+  timer_manual_ball_search_tick{ticks==16}:
+    c_13_pop_bumper_right: pulse
+
+  timer_manual_ball_search_tick{ticks==17}:
+    c_14_pop_bumper_left: pulse
+
+  timer_manual_ball_search_tick{ticks==18}:
+    c_02_trough_eject: pulse
+
+
+  # -------------------------
+  # PASS 2
+  # -------------------------
+
+  timer_manual_ball_search_tick{ticks==19}:
+    c_30_single_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==20}:
+    c_33_fourbank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==21}:
+    c_34_fourbank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==22}:
+    c_35_fourbank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==23}:
+    c_36_fourbank_drop_4_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==24}:
+    c_37_threebank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==25}:
+    c_38_threebank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==26}:
+    c_39_threebank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==27}:
+    c_31_single_drop_1_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==28}:
+    c_32_threebank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==29}:
+    c_40_fourbank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==30}:
+    c_16_varitarget_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==31}:
+    c_15_saucer_right: pulse
+
+  timer_manual_ball_search_tick{ticks==32}:
+    c_29_saucer_left: pulse
+
+  timer_manual_ball_search_tick{ticks==33}:
+    c_12_pop_bumper_center: pulse
+
+  timer_manual_ball_search_tick{ticks==34}:
+    c_13_pop_bumper_right: pulse
+
+  timer_manual_ball_search_tick{ticks==35}:
+    c_14_pop_bumper_left: pulse
+
+  timer_manual_ball_search_tick{ticks==36}:
+    c_02_trough_eject: pulse
+
+
+  # -------------------------
+  # PASS 3
+  # -------------------------
+
+  timer_manual_ball_search_tick{ticks==37}:
+    c_30_single_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==38}:
+    c_33_fourbank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==39}:
+    c_34_fourbank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==40}:
+    c_35_fourbank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==41}:
+    c_36_fourbank_drop_4_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==42}:
+    c_37_threebank_drop_1_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==43}:
+    c_38_threebank_drop_2_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==44}:
+    c_39_threebank_drop_3_trip: pulse
+
+  timer_manual_ball_search_tick{ticks==45}:
+    c_31_single_drop_1_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==46}:
+    c_32_threebank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==47}:
+    c_40_fourbank_drop_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==48}:
+    c_16_varitarget_reset: pulse
+
+  timer_manual_ball_search_tick{ticks==49}:
+    c_15_saucer_right: pulse
+
+  timer_manual_ball_search_tick{ticks==50}:
+    c_29_saucer_left: pulse
+
+  timer_manual_ball_search_tick{ticks==51}:
+    c_12_pop_bumper_center: pulse
+
+  timer_manual_ball_search_tick{ticks==52}:
+    c_13_pop_bumper_right: pulse
+
+  timer_manual_ball_search_tick{ticks==53}:
+    c_14_pop_bumper_left: pulse
+
+  timer_manual_ball_search_tick{ticks==54}:
+    c_02_trough_eject: pulse

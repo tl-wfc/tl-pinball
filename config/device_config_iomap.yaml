@@ -86,12 +86,12 @@ switches:
 #        number: 1-18
 #        tags: right_secondary_button
 #        label: "Button - Right - Sec"
-#    s_19_cab_arrow_left:
-#        number: 1-19
-#        tags: cab_arrow_left, service_esc
-#    s_20_cab_arrow_right:
-#        number: 1-20
-#        tags: cab_arrow_right, service_enter, action   
+    s_19_cab_arrow_left:
+        number: cab-19
+        tags: cab_arrow_left, service_esc
+    s_20_cab_arrow_right:
+        number: cab-20
+        tags: cab_arrow_right, service_enter, action   
 #    s_21_SPARE:
 #        number: cab-21
 #        tags: SPARE_21
