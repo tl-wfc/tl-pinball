@@ -10,6 +10,7 @@ modes:
     - attract_credits
     #- service
     - base
+    - resistance
     - manual_ball_search
     - shotgun
     - high_score

@@ -1,0 +1,379 @@
+#config_version=6
+# modes/resistance/config/resistance.yaml
+
+mode:
+  start_events: ball_started
+  stop_events: ball_ending
+  priority: 500
+
+timers:
+  right_inlane_countdown_timer:
+    start_value: 15
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: resistance_qualification_started
+        action: restart
+      - event: right_inlane_countdown_timer_reset
+        action: restart
+      - event: resistance_qualification_complete
+        action: stop
+
+  resistance_qual_lights_15_11_timer:
+    start_value: 4
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: resistance_qualification_started
+        action: restart
+      - event: right_inlane_countdown_timer_reset
+        action: restart
+      - event: resistance_qualification_complete
+        action: stop
+      - event: timer_right_inlane_countdown_timer_complete
+        action: stop
+
+  resistance_qual_lights_10_5_timer:
+    start_value: 5
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: timer_resistance_qual_lights_15_11_timer_complete
+        action: restart
+      - event: right_inlane_countdown_timer_reset
+        action: stop
+      - event: resistance_qualification_complete
+        action: stop
+      - event: timer_right_inlane_countdown_timer_complete
+        action: stop
+
+  resistance_qual_lights_4_0_timer:
+    start_value: 4
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: timer_resistance_qual_lights_10_5_timer_complete
+        action: restart
+      - event: right_inlane_countdown_timer_reset
+        action: stop
+      - event: resistance_qualification_complete
+        action: stop
+      - event: timer_right_inlane_countdown_timer_complete
+        action: stop
+
+  state_2_resistance_active_timer:
+    start_value: 15
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: state_2_resistance_active_pt1
+        action: restart
+      - event: state_2_resistance_active_pt1_complete
+        action: stop
+
+  state_3_resistance_active_timer:
+    start_value: 15
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: state_3_resistance_active_pt2
+        action: restart
+      - event: state_3_resistance_active_pt2_complete
+        action: stop
+
+  state_4_resistance_active_timer:
+    start_value: 15
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: state_4_resistance_active_pt3
+        action: restart
+      - event: state_4_resistance_active_pt3_complete
+        action: stop
+
+  state_5_resistance_active_timer:
+    start_value: 10
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: state_5_resistance_active_pt4
+        action: restart
+      - event: state_5_resistance_complete
+        action: stop
+      - event: state_5_resistance_failed
+        action: stop
+
+
+shots:
+  resistance_qualify_target_5:
+    switch: s_40_stand_up_target_5
+    enable_events:
+      - resistance_qualification_started
+      - right_inlane_countdown_timer_reset
+    reset_events:
+      - resistance_qualification_started
+      - right_inlane_countdown_timer_reset
+      - resistance_waiting_for_qualification
+    disable_events:
+      - resistance_qualification_complete
+      - timer_right_inlane_countdown_timer_complete
+
+  resistance_qualify_target_6:
+    switch: s_41_stand_up_target_6
+    enable_events:
+      - resistance_qualification_started
+      - right_inlane_countdown_timer_reset
+    reset_events:
+      - resistance_qualification_started
+      - right_inlane_countdown_timer_reset
+      - resistance_waiting_for_qualification
+    disable_events:
+      - resistance_qualification_complete
+      - timer_right_inlane_countdown_timer_complete
+
+  resistance_top_lane_stage_2:
+    switch: s_60_top_lane_c
+    enable_events: state_2_resistance_active_pt1
+    reset_events:
+      - state_2_resistance_active_pt1
+      - resistance_waiting_for_qualification
+    disable_events:
+      - state_2_resistance_active_pt1_complete
+      - timer_state_2_resistance_active_timer_complete
+
+  resistance_top_lane_stage_3:
+    switch: s_60_top_lane_c
+    enable_events: state_3_resistance_active_pt2
+    reset_events:
+      - state_3_resistance_active_pt2
+      - resistance_waiting_for_qualification
+    disable_events:
+      - state_3_resistance_active_pt2_complete
+      - timer_state_3_resistance_active_timer_complete
+
+  resistance_top_lane_stage_4:
+    switch: s_60_top_lane_c
+    enable_events: state_4_resistance_active_pt3
+    reset_events:
+      - state_4_resistance_active_pt3
+      - resistance_waiting_for_qualification
+    disable_events:
+      - state_4_resistance_active_pt3_complete
+      - timer_state_4_resistance_active_timer_complete
+
+  resistance_single_drop_stage_5:
+    switch: s_72_single_drop_1
+    enable_events: state_5_resistance_active_pt4
+    reset_events:
+      - state_5_resistance_active_pt4
+      - resistance_waiting_for_qualification
+    disable_events:
+      - resistance_single_drop_stage_5_hit
+      - timer_state_5_resistance_active_timer_complete
+
+  resistance_saucer_stage_5:
+    switch: s_81_saucer_left
+    enable_events: resistance_single_drop_stage_5_hit
+    reset_events:
+      - resistance_single_drop_stage_5_hit
+      - resistance_waiting_for_qualification
+    disable_events:
+      - state_5_resistance_complete
+      - timer_state_5_resistance_active_timer_complete
+
+
+event_player:
+  mode_resistance_started:
+    - resistance_waiting_for_qualification
+
+  s_32_right_inlane_active:
+    - resistance_qualification_started
+    - right_inlane_countdown_timer_reset
+
+  resistance_qualify_target_5_hit:
+    - resistance_qualification_complete
+
+  resistance_qualify_target_6_hit:
+    - resistance_qualification_complete
+
+  resistance_qualification_complete:
+    - state_2_resistance_active_pt1
+
+  timer_right_inlane_countdown_timer_complete:
+    - right_inlane_countdown_timer_expired
+    - resistance_qualification_failed
+    - resistance_waiting_for_qualification
+
+  resistance_top_lane_stage_2_hit:
+    - state_2_resistance_active_pt1_complete
+    - state_3_resistance_active_pt2
+
+  timer_state_2_resistance_active_timer_complete:
+    - state_2_resistance_active_pt1_failed
+    - resistance_waiting_for_qualification
+
+  resistance_top_lane_stage_3_hit:
+    - state_3_resistance_active_pt2_complete
+    - state_4_resistance_active_pt3
+
+  timer_state_3_resistance_active_timer_complete:
+    - state_3_resistance_active_pt2_failed
+    - resistance_waiting_for_qualification
+
+  resistance_top_lane_stage_4_hit:
+    - state_4_resistance_active_pt3_complete
+    - state_5_resistance_active_pt4
+
+  timer_state_4_resistance_active_timer_complete:
+    - state_4_resistance_active_pt3_failed
+    - resistance_waiting_for_qualification
+
+  resistance_saucer_stage_5_hit:
+    - state_5_resistance_complete
+    - resistance_waiting_for_qualification
+
+  timer_state_5_resistance_active_timer_complete:
+    - state_5_resistance_failed
+    - resistance_waiting_for_qualification
+
+
+variable_player:
+  resistance_qualification_complete:
+    score: 100000
+
+  state_2_resistance_active_pt1_complete:
+    score: 300000
+
+  state_3_resistance_active_pt2_complete:
+    score: 10000000
+
+  state_4_resistance_active_pt3_complete:
+    score: 25000000
+
+  state_5_resistance_complete:
+    score: 50000000
+
+
+coil_player:
+  state_5_resistance_active_pt4:
+    c_31_single_drop_1_reset:
+      action: pulse
+
+
+show_player:
+  resistance_qualification_started:
+    show_resistance_qual_15_11:
+      action: play
+      loops: -1
+      speed: 1
+      priority: 500
+
+  right_inlane_countdown_timer_reset:
+    show_resistance_qual_15_11:
+      action: play
+      loops: -1
+      speed: 1
+    show_resistance_qual_10_5:
+      action: stop
+    show_resistance_qual_4_0:
+      action: stop
+
+  timer_resistance_qual_lights_15_11_timer_complete:
+    show_resistance_qual_15_11:
+      action: stop
+    show_resistance_qual_10_5:
+      action: play
+      loops: -1
+      speed: 1
+
+  timer_resistance_qual_lights_10_5_timer_complete:
+    show_resistance_qual_10_5:
+      action: stop
+    show_resistance_qual_4_0:
+      action: play
+      loops: -1
+      speed: 1
+
+  resistance_qualification_complete:
+    show_resistance_qual_15_11:
+      action: stop
+    show_resistance_qual_10_5:
+      action: stop
+    show_resistance_qual_4_0:
+      action: stop
+
+  timer_right_inlane_countdown_timer_complete:
+    show_resistance_qual_15_11:
+      action: stop
+    show_resistance_qual_10_5:
+      action: stop
+    show_resistance_qual_4_0:
+      action: stop
+
+  state_2_resistance_active_pt1:
+    show_resistance_stage_2:
+      action: play
+      loops: -1
+      speed: 1
+      priority: 500
+
+  state_2_resistance_active_pt1_complete:
+    show_resistance_stage_2:
+      action: stop
+
+  timer_state_2_resistance_active_timer_complete:
+    show_resistance_stage_2:
+      action: stop
+
+  state_3_resistance_active_pt2:
+    show_resistance_stage_3:
+      action: play
+      loops: -1
+      speed: 1
+      priority: 500
+
+  state_3_resistance_active_pt2_complete:
+    show_resistance_stage_3:
+      action: stop
+
+  timer_state_3_resistance_active_timer_complete:
+    show_resistance_stage_3:
+      action: stop
+
+  state_4_resistance_active_pt3:
+    show_resistance_stage_4:
+      action: play
+      loops: -1
+      speed: 1
+      priority: 500
+
+  state_4_resistance_active_pt3_complete:
+    show_resistance_stage_4:
+      action: stop
+
+  timer_state_4_resistance_active_timer_complete:
+    show_resistance_stage_4:
+      action: stop
+
+  state_5_resistance_active_pt4:
+    show_resistance_stage_5:
+      action: play
+      loops: -1
+      speed: 1
+      priority: 500
+
+  state_5_resistance_complete:
+    show_resistance_stage_5:
+      action: stop
+
+  timer_state_5_resistance_active_timer_complete:
+    show_resistance_stage_5:
+      action: stop

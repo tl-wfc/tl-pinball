@@ -1,0 +1,23 @@
+#show_version=6
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: 'ffaa00'
+    l_pf1_1_4: 'ffaa00'
+    l_pf1_1_3: 'ffaa00'
+    l_pf1_1_21: 'ffaa00'
+    l_pf1_1_22: 'ffaa00'
+    l_pf1_1_6: 'ffaa00'
+    l_pf1_1_7: 'ffaa00'
+    l_pf1_1_8: 'ffaa00'
+
+- duration: 120ms
+  lights:
+    l_pf1_1_5: 'ffaa00'
+    l_pf1_1_4: 'ffaa00'
+    l_pf1_1_3: 'ffaa00'
+    l_pf1_1_21: '000000'
+    l_pf1_1_22: '000000'
+    l_pf1_1_6: '000000'
+    l_pf1_1_7: '000000'
+    l_pf1_1_8: '000000'
