@@ -42,7 +42,7 @@ fast:
     port: COM5
     baud: 921600
     boards:
-      ledneuron:
+      ledcab:
         model: FP-EXP-2000
         address: 48
         led_fade_time: 100ms

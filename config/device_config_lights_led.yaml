@@ -2107,529 +2107,529 @@ lights:
 
 
 
-
-
-
 # FAST Board PN: FP-EXP-2000 ports 1-4 of the CPU board
-# Node
+#
+#
+#port 1 - playfield light bar
 
-#   led1-1:               # These names are arbitrary. Make them whatever you want
-#     number: 0  # ledneuron LED Port 1, 1st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-2:               # These names are arbitrary. Make them whatever you want
-#     number: 1  # ledneuron LED Port 1, 2nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-3:               # These names are arbitrary. Make them whatever you want
-#     number: 2  # ledneuron LED Port 1, 3rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-4:               # These names are arbitrary. Make them whatever you want
-#     number: 3  # ledneuron LED Port 1, 4th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-5:               # These names are arbitrary. Make them whatever you want
-#     number: 4  # ledneuron LED Port 1, 5th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-6:               # These names are arbitrary. Make them whatever you want
-#     number: 5  # ledneuron LED Port 1, 6th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-7:               # These names are arbitrary. Make them whatever you want
-#     number: 6  # ledneuron LED Port 1, 7th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-8:               # These names are arbitrary. Make them whatever you want
-#     number: 7  # ledneuron LED Port 1, 8th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-9:               # These names are arbitrary. Make them whatever you want
-#     number: 8  # ledneuron LED Port 1, 9th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-10:               # These names are arbitrary. Make them whatever you want
-#     number: 9  # ledneuron LED Port 1, 10th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-11:               # These names are arbitrary. Make them whatever you want
-#     number: 10  # ledneuron LED Port 1, 11th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-12:               # These names are arbitrary. Make them whatever you want
-#     number: 11  # ledneuron LED Port 1, 12th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-13:               # These names are arbitrary. Make them whatever you want
-#     number: 12  # ledneuron LED Port 1, 13th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-14:               # These names are arbitrary. Make them whatever you want
-#     number: 13  # ledneuron LED Port 1, 14th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-15:               # These names are arbitrary. Make them whatever you want
-#     number: 14  # ledneuron LED Port 1, 15th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-16:               # These names are arbitrary. Make them whatever you want
-#     number: 15  # ledneuron LED Port 1, 16th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-17:               # These names are arbitrary. Make them whatever you want
-#     number: 16  # ledneuron LED Port 1, 17th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-18:               # These names are arbitrary. Make them whatever you want
-#     number: 17  # ledneuron LED Port 1, 18th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-19:               # These names are arbitrary. Make them whatever you want
-#     number: 18  # ledneuron LED Port 1, 19th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-20:               # These names are arbitrary. Make them whatever you want
-#     number: 19  # ledneuron LED Port 1, 20th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-21:               # These names are arbitrary. Make them whatever you want
-#     number: 20  # ledneuron LED Port 1, 21st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-22:               # These names are arbitrary. Make them whatever you want
-#     number: 21  # ledneuron LED Port 1, 22nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-23:               # These names are arbitrary. Make them whatever you want
-#     number: 22  # ledneuron LED Port 1, 23th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-24:               # These names are arbitrary. Make them whatever you want
-#     number: 23  # ledneuron LED Port 1, 24th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-25:               # These names are arbitrary. Make them whatever you want
-#     number: 24  # ledneuron LED Port 1, 25th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-26:               # These names are arbitrary. Make them whatever you want
-#     number: 25  # ledneuron LED Port 1, 26th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-27:               # These names are arbitrary. Make them whatever you want
-#     number: 26  # ledneuron LED Port 1, 27th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-28:               # These names are arbitrary. Make them whatever you want
-#     number: 27  # ledneuron LED Port 1, 28th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-29:               # These names are arbitrary. Make them whatever you want
-#     number: 28  # ledneuron LED Port 1, 29th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-30:               # These names are arbitrary. Make them whatever you want
-#     number: 29  # ledneuron LED Port 1, 30th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-31:               # These names are arbitrary. Make them whatever you want
-#     number: 30  # ledneuron LED Port 1, 31st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led1-32:               # These names are arbitrary. Make them whatever you want
-#     number: 31  # ledneuron LED Port 1, 32nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-# #
-# #
-#   led2-1:               # These names are arbitrary. Make them whatever you want
-#     number: 32  # ledneuron LED Port 2, 1st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-2:               # These names are arbitrary. Make them whatever you want
-#     number: 33  # ledneuron LED Port 2, 2nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-3:               # These names are arbitrary. Make them whatever you want
-#     number: 34  # ledneuron LED Port 2, 3rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-4:               # These names are arbitrary. Make them whatever you want
-#     number: 35  # ledneuron LED Port 2, 4th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-5:               # These names are arbitrary. Make them whatever you want
-#     number: 36  # ledneuron LED Port 2, 5th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-6:               # These names are arbitrary. Make them whatever you want
-#     number: 37  # ledneuron LED Port 2, 6th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-7:               # These names are arbitrary. Make them whatever you want
-#     number: 38  # ledneuron LED Port 2, 7th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-8:               # These names are arbitrary. Make them whatever you want
-#     number: 39  # ledneuron LED Port 2, 8th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-9:               # These names are arbitrary. Make them whatever you want
-#     number: 40  # ledneuron LED Port 2, 9th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-10:               # These names are arbitrary. Make them whatever you want
-#     number: 41  # ledneuron LED Port 2, 10th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-11:               # These names are arbitrary. Make them whatever you want
-#     number: 42  # ledneuron LED Port 2, 11th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-12:               # These names are arbitrary. Make them whatever you want
-#     number: 43  # ledneuron LED Port 2, 12th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-13:               # These names are arbitrary. Make them whatever you want
-#     number: 44  # ledneuron LED Port 2, 13th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-14:               # These names are arbitrary. Make them whatever you want
-#     number: 45  # ledneuron LED Port 2, 14th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-15:               # These names are arbitrary. Make them whatever you want
-#     number: 46  # ledneuron LED Port 2, 15th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-16:               # These names are arbitrary. Make them whatever you want
-#     number: 47  # ledneuron LED Port 2, 16th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-17:               # These names are arbitrary. Make them whatever you want
-#     number: 48  # ledneuron LED Port 2, 17th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-18:               # These names are arbitrary. Make them whatever you want
-#     number: 49  # ledneuron LED Port 2, 18th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-19:               # These names are arbitrary. Make them whatever you want
-#     number: 50  # ledneuron LED Port 2, 19th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-20:               # These names are arbitrary. Make them whatever you want
-#     number: 51  # ledneuron LED Port 2, 20th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-21:               # These names are arbitrary. Make them whatever you want
-#     number: 52  # ledneuron LED Port 2, 21st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-22:               # These names are arbitrary. Make them whatever you want
-#     number: 53  # ledneuron LED Port 2, 22nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-23:               # These names are arbitrary. Make them whatever you want
-#     number: 54  # ledneuron LED Port 2, 23rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-24:               # These names are arbitrary. Make them whatever you want
-#     number: 55  # ledneuron LED Port 2, 24th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-25:               # These names are arbitrary. Make them whatever you want
-#     number: 56  # ledneuron LED Port 2, 25th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-26:               # These names are arbitrary. Make them whatever you want
-#     number: 57  # ledneuron LED Port 2, 26th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-27:               # These names are arbitrary. Make them whatever you want
-#     number: 58  # ledneuron LED Port 2, 27th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-28:               # These names are arbitrary. Make them whatever you want
-#     number: 59  # ledneuron LED Port 2, 28th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-29:               # These names are arbitrary. Make them whatever you want
-#     number: 60  # ledneuron LED Port 2, 29th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-30:               # These names are arbitrary. Make them whatever you want
-#     number: 61  # ledneuron LED Port 2, 30th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-31:               # These names are arbitrary. Make them whatever you want
-#     number: 62  # ledneuron LED Port 2, 31st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led2-32:               # These names are arbitrary. Make them whatever you want
-#     number: 63  # ledneuron LED Port 2, 32nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-# #
-# #
-#   led3-1:               # These names are arbitrary. Make them whatever you want
-#     number: 64  # ledneuron LED Port 3, 1st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-2:               # These names are arbitrary. Make them whatever you want
-#     number: 65  # ledneuron LED Port 3, 2nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-3:               # These names are arbitrary. Make them whatever you want
-#     number: 66  # ledneuron LED Port 3, 3rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-4:               # These names are arbitrary. Make them whatever you want
-#     number: 67  # ledneuron LED Port 3, 4th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-5:               # These names are arbitrary. Make them whatever you want
-#     number: 68  # ledneuron LED Port 3, 5th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-6:               # These names are arbitrary. Make them whatever you want
-#     number: 69  # ledneuron LED Port 3, 6th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-7:               # These names are arbitrary. Make them whatever you want
-#     number: 70  # ledneuron LED Port 3, 7th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-8:               # These names are arbitrary. Make them whatever you want
-#     number: 71  # ledneuron LED Port 3, 8th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-9:               # These names are arbitrary. Make them whatever you want
-#     number: 72  # ledneuron LED Port 3, 9th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-10:               # These names are arbitrary. Make them whatever you want
-#     number: 73  # ledneuron LED Port 3, 10th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-11:               # These names are arbitrary. Make them whatever you want
-#     number: 74  # ledneuron LED Port 3, 11th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-12:               # These names are arbitrary. Make them whatever you want
-#     number: 75  # ledneuron LED Port 3, 12th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-13:               # These names are arbitrary. Make them whatever you want
-#     number: 76  # ledneuron LED Port 3, 13th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-14:               # These names are arbitrary. Make them whatever you want
-#     number: 77  # ledneuron LED Port 3, 14th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-15:               # These names are arbitrary. Make them whatever you want
-#     number: 78  # ledneuron LED Port 3, 15th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-16:               # These names are arbitrary. Make them whatever you want
-#     number: 79  # ledneuron LED Port 3, 16th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-17:               # These names are arbitrary. Make them whatever you want
-#     number: 80  # ledneuron LED Port 3, 17th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-18:               # These names are arbitrary. Make them whatever you want
-#     number: 81  # ledneuron LED Port 3, 18th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-19:               # These names are arbitrary. Make them whatever you want
-#     number: 82  # ledneuron LED Port 3, 19th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-20:               # These names are arbitrary. Make them whatever you want
-#     number: 83  # ledneuron LED Port 3, 20th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-21:               # These names are arbitrary. Make them whatever you want
-#     number: 84  # ledneuron LED Port 3, 21st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-22:               # These names are arbitrary. Make them whatever you want
-#     number: 85  # ledneuron LED Port 3, 22nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-23:               # These names are arbitrary. Make them whatever you want
-#     number: 86  # ledneuron LED Port 3, 23rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-24:               # These names are arbitrary. Make them whatever you want
-#     number: 87  # ledneuron LED Port 3, 24th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-25:               # These names are arbitrary. Make them whatever you want
-#     number: 88  # ledneuron LED Port 3, 25th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-26:               # These names are arbitrary. Make them whatever you want
-#     number: 89  # ledneuron LED Port 3, 26th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-27:               # These names are arbitrary. Make them whatever you want
-#     number: 90  # ledneuron LED Port 3, 27th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-28:               # These names are arbitrary. Make them whatever you want
-#     number: 91  # ledneuron LED Port 3, 28th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-29:               # These names are arbitrary. Make them whatever you want
-#     number: 92  # ledneuron LED Port 3, 29th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-30:               # These names are arbitrary. Make them whatever you want
-#     number: 93  # ledneuron LED Port 3, 30th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-31:               # These names are arbitrary. Make them whatever you want
-#     number: 94  # ledneuron LED Port 3, 31st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led3-32:               # These names are arbitrary. Make them whatever you want
-#     number: 95  # ledneuron LED Port 3, 32nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-# #
-# #
-#   led4-1:               # These names are arbitrary. Make them whatever you want
-#     number: 96  # ledneuron LED Port 4, 1st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-2:               # These names are arbitrary. Make them whatever you want
-#     number: 97  # ledneuron LED Port 4, 2nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-3:               # These names are arbitrary. Make them whatever you want
-#     number: 98  # ledneuron LED Port 4, 3rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-4:               # These names are arbitrary. Make them whatever you want
-#     number: 99  # ledneuron LED Port 4, 4th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-5:               # These names are arbitrary. Make them whatever you want
-#     number: 100  # ledneuron LED Port 4, 5th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-6:               # These names are arbitrary. Make them whatever you want
-#     number: 101  # ledneuron LED Port 4, 6th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-7:               # These names are arbitrary. Make them whatever you want
-#     number: 102  # ledneuron LED Port 4, 7th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-8:               # These names are arbitrary. Make them whatever you want
-#     number: 103  # ledneuron LED Port 4, 8th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-9:               # These names are arbitrary. Make them whatever you want
-#     number: 104  # ledneuron LED Port 4, 9th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-10:               # These names are arbitrary. Make them whatever you want
-#     number: 105  # ledneuron LED Port 4, 10th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-11:               # These names are arbitrary. Make them whatever you want
-#     number: 106  # ledneuron LED Port 4, 11th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-12:               # These names are arbitrary. Make them whatever you want
-#     number: 107  # ledneuron LED Port 4, 12th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-13:               # These names are arbitrary. Make them whatever you want
-#     number: 108  # ledneuron LED Port 4, 13th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-14:               # These names are arbitrary. Make them whatever you want
-#     number: 109  # ledneuron LED Port 4, 14th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-15:               # These names are arbitrary. Make them whatever you want
-#     number: 110  # ledneuron LED Port 4, 15th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-16:               # These names are arbitrary. Make them whatever you want
-#     number: 111  # ledneuron LED Port 4, 16th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-17:               # These names are arbitrary. Make them whatever you want
-#     number: 112  # ledneuron LED Port 4, 17th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-18:               # These names are arbitrary. Make them whatever you want
-#     number: 113  # ledneuron LED Port 4, 18th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-19:               # These names are arbitrary. Make them whatever you want
-#     number: 114  # ledneuron LED Port 4, 19th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-20:               # These names are arbitrary. Make them whatever you want
-#     number: 115  # ledneuron LED Port 4, 20th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-21:               # These names are arbitrary. Make them whatever you want
-#     number: 116  # ledneuron LED Port 4, 21st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-22:               # These names are arbitrary. Make them whatever you want
-#     number: 117  # ledneuron LED Port 4, 22nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-23:               # These names are arbitrary. Make them whatever you want
-#     number: 118  # ledneuron LED Port 4, 23rd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-24:               # These names are arbitrary. Make them whatever you want
-#     number: 119  # ledneuron LED Port 4, 24th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-25:               # These names are arbitrary. Make them whatever you want
-#     number: 120  # ledneuron LED Port 4, 25th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-26:               # These names are arbitrary. Make them whatever you want
-#     number: 121  # ledneuron LED Port 4, 26th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-27:               # These names are arbitrary. Make them whatever you want
-#     number: 122  # ledneuron LED Port 4, 27th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-28:               # These names are arbitrary. Make them whatever you want
-#     number: 123  # ledneuron LED Port 4, 28th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-29:               # These names are arbitrary. Make them whatever you want
-#     number: 124  # ledneuron LED Port 4, 29th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-30:               # These names are arbitrary. Make them whatever you want
-#     number: 125  # ledneuron LED Port 4, 30th LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-31:               # These names are arbitrary. Make them whatever you want
-#     number: 126  # ledneuron LED Port 4, 31st LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-#   led4-32:               # These names are arbitrary. Make them whatever you want
-#     number: 127  # ledneuron LED Port 4, 32nd LED in the chain
-#     type: rgb
-#     tags: all_leds, playfield_leds
-# #
-# #
+  l_cab_1_1:
+    number: ledcab-1-1
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_2:
+    number: ledcab-1-2
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_3:
+    number: ledcab-1-3
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_4:
+    number: ledcab-1-4
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_5:
+    number: ledcab-1-5
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_6:
+    number: ledcab-1-6
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_7:
+    number: ledcab-1-7
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_8:
+    number: ledcab-1-8
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_9:
+    number: ledcab-1-9
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_10:
+    number: ledcab-1-10
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_11:
+    number: ledcab-1-11
+    type: grb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_12:
+    number: ledcab-1-12
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_13:
+    number: ledcab-1-13
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_14:
+    number: ledcab-1-14
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_15:
+    number: ledcab-1-15
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_16:
+    number: ledcab-1-16
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_17:
+    number: ledcab-1-17
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_18:
+    number: ledcab-1-18
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_19:
+    number: ledcab-1-19
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_20:
+    number: ledcab-1-20
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_21:
+    number: ledcab-1-21
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_22:
+    number: ledcab-1-22
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_23:
+    number: ledcab-1-23
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_24:
+    number: ledcab-1-24
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_25:
+    number: ledcab-1-25
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_26:
+    number: ledcab-1-26
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_27:
+    number: ledcab-1-27
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_28:
+    number: ledcab-1-28
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_29:
+    number: ledcab-1-29
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_30:
+    number: ledcab-1-30
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_31:
+    number: ledcab-1-31
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+  l_cab_1_32:
+    number: ledcab-1-32
+    type: rgb
+    tags: all_leds, cab_leds, cab_port1
+
+
+#port 2 - Spare
+  l_cab_2_1:
+    number: ledcab-2-1
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_2:
+    number: ledcab-2-2
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_3:
+    number: ledcab-2-3
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_4:
+    number: ledcab-2-4
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_5:
+    number: ledcab-2-5
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_6:
+    number: ledcab-2-6
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_7:
+    number: ledcab-2-7
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_8:
+    number: ledcab-2-8
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_9:
+    number: ledcab-2-9
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_10:
+    number: ledcab-2-10
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_11:
+    number: ledcab-2-11
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_12:
+    number: ledcab-2-12
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_13:
+    number: ledcab-2-13
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_14:
+    number: ledcab-2-14
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_15:
+    number: ledcab-2-15
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_16:
+    number: ledcab-2-16
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_17:
+    number: ledcab-2-17
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_18:
+    number: ledcab-2-18
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_19:
+    number: ledcab-2-19
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_20:
+    number: ledcab-2-20
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_21:
+    number: ledcab-2-21
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_22:
+    number: ledcab-2-22
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_23:
+    number: ledcab-2-23
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_24:
+    number: ledcab-2-24
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_25:
+    number: ledcab-2-25
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_26:
+    number: ledcab-2-26
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_27:
+    number: ledcab-2-27
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_28:
+    number: ledcab-2-28
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_29:
+    number: ledcab-2-29
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_30:
+    number: ledcab-2-30
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_31:
+    number: ledcab-2-31
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+  l_cab_2_32:
+    number: ledcab-2-32
+    type: rgb
+    tags: all_leds, cab_leds, cab_port2
+
+
+#port 3 - Spare
+  l_cab_3_1:
+    number: ledcab-3-1
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_2:
+    number: ledcab-3-2
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_3:
+    number: ledcab-3-3
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_4:
+    number: ledcab-3-4
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_5:
+    number: ledcab-3-5
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_6:
+    number: ledcab-3-6
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_7:
+    number: ledcab-3-7
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_8:
+    number: ledcab-3-8
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_9:
+    number: ledcab-3-9
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_10:
+    number: ledcab-3-10
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_11:
+    number: ledcab-3-11
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_12:
+    number: ledcab-3-12
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_13:
+    number: ledcab-3-13
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_14:
+    number: ledcab-3-14
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_15:
+    number: ledcab-3-15
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_16:
+    number: ledcab-3-16
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_17:
+    number: ledcab-3-17
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_18:
+    number: ledcab-3-18
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_19:
+    number: ledcab-3-19
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_20:
+    number: ledcab-3-20
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_21:
+    number: ledcab-3-21
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_22:
+    number: ledcab-3-22
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_23:
+    number: ledcab-3-23
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_24:
+    number: ledcab-3-24
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_25:
+    number: ledcab-3-25
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_26:
+    number: ledcab-3-26
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_27:
+    number: ledcab-3-27
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_28:
+    number: ledcab-3-28
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_29:
+    number: ledcab-3-29
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_30:
+    number: ledcab-3-30
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_31:
+    number: ledcab-3-31
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+  l_cab_3_32:
+    number: ledcab-3-32
+    type: rgb
+    tags: all_leds, cab_leds, cab_port3
+
+
+#port 4 - Spare
+  l_cab_4_1:
+    number: ledcab-4-1
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_2:
+    number: ledcab-4-2
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_3:
+    number: ledcab-4-3
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_4:
+    number: ledcab-4-4
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_5:
+    number: ledcab-4-5
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_6:
+    number: ledcab-4-6
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_7:
+    number: ledcab-4-7
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_8:
+    number: ledcab-4-8
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_9:
+    number: ledcab-4-9
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_10:
+    number: ledcab-4-10
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_11:
+    number: ledcab-4-11
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_12:
+    number: ledcab-4-12
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_13:
+    number: ledcab-4-13
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_14:
+    number: ledcab-4-14
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_15:
+    number: ledcab-4-15
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_16:
+    number: ledcab-4-16
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_17:
+    number: ledcab-4-17
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_18:
+    number: ledcab-4-18
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_19:
+    number: ledcab-4-19
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_20:
+    number: ledcab-4-20
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_21:
+    number: ledcab-4-21
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_22:
+    number: ledcab-4-22
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_23:
+    number: ledcab-4-23
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_24:
+    number: ledcab-4-24
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_25:
+    number: ledcab-4-25
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_26:
+    number: ledcab-4-26
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_27:
+    number: ledcab-4-27
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_28:
+    number: ledcab-4-28
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_29:
+    number: ledcab-4-29
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_30:
+    number: ledcab-4-30
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_31:
+    number: ledcab-4-31
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4
+  l_cab_4_32:
+    number: ledcab-4-32
+    type: rgb
+    tags: all_leds, cab_leds, cab_port4

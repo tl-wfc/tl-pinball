@@ -1,0 +1,368 @@
+#show_version=6
+
+# Rear cab flood bar: l_cab_1_2 to l_cab_1_11
+# Theme: They Live / Muse / dystopian surveillance
+
+- duration: 2
+  lights:
+    l_cab_1_2: '220000'
+    l_cab_1_3: '330000'
+    l_cab_1_4: '440000'
+    l_cab_1_5: '550000'
+    l_cab_1_6: '660000'
+    l_cab_1_7: '660000'
+    l_cab_1_8: '550000'
+    l_cab_1_9: '440000'
+    l_cab_1_10: '330000'
+    l_cab_1_11: '220000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '111111'
+    l_cab_1_4: '222222'
+    l_cab_1_5: '444444'
+    l_cab_1_6: '888888'
+    l_cab_1_7: '888888'
+    l_cab_1_8: '444444'
+    l_cab_1_9: '222222'
+    l_cab_1_10: '111111'
+    l_cab_1_11: '000000'
+
+- duration: 1
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 1
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: 'FFFFFF'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: 'FFFFFF'
+    l_cab_1_11: '000000'
+
+- duration: 1
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: 'FFFFFF'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: 'FFFFFF'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'
+
+- duration: 1
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: 'FFFFFF'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: 'FFFFFF'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'
+
+- duration: 1
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '001122'
+    l_cab_1_3: '002244'
+    l_cab_1_4: '003366'
+    l_cab_1_5: '004488'
+    l_cab_1_6: '0066AA'
+    l_cab_1_7: '0066AA'
+    l_cab_1_8: '004488'
+    l_cab_1_9: '003366'
+    l_cab_1_10: '002244'
+    l_cab_1_11: '001122'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '660000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '660000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '660000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '660000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '660000'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '660000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '660000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '660000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '660000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '660000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: 'FFFFFF'
+    l_cab_1_4: 'FFFFFF'
+    l_cab_1_5: 'FFFFFF'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: 'FFFFFF'
+    l_cab_1_9: 'FFFFFF'
+    l_cab_1_10: 'FFFFFF'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 1
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '880000'
+    l_cab_1_3: 'AA0000'
+    l_cab_1_4: 'CC0000'
+    l_cab_1_5: 'FF0000'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: 'FF0000'
+    l_cab_1_9: 'CC0000'
+    l_cab_1_10: 'AA0000'
+    l_cab_1_11: '880000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000044'
+    l_cab_1_3: '000066'
+    l_cab_1_4: '000088'
+    l_cab_1_5: '0000AA'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: '0000AA'
+    l_cab_1_9: '000088'
+    l_cab_1_10: '000066'
+    l_cab_1_11: '000044'
+
+- duration: 2
+  lights:
+    l_cab_1_2: 'FF0000'
+    l_cab_1_3: 'FF0000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: 'FF0000'
+    l_cab_1_11: 'FF0000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '111111'
+    l_cab_1_4: 'FFFFFF'
+    l_cab_1_5: '111111'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '111111'
+    l_cab_1_9: 'FFFFFF'
+    l_cab_1_10: '111111'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: 'AA5500'
+    l_cab_1_3: '000000'
+    l_cab_1_4: 'AA5500'
+    l_cab_1_5: '000000'
+    l_cab_1_6: 'AA5500'
+    l_cab_1_7: '000000'
+    l_cab_1_8: 'AA5500'
+    l_cab_1_9: '000000'
+    l_cab_1_10: 'AA5500'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: 'AA5500'
+    l_cab_1_4: '000000'
+    l_cab_1_5: 'AA5500'
+    l_cab_1_6: '000000'
+    l_cab_1_7: 'AA5500'
+    l_cab_1_8: '000000'
+    l_cab_1_9: 'AA5500'
+    l_cab_1_10: '000000'
+    l_cab_1_11: 'AA5500'
+
+- duration: 3
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: 'CCCCCC'
+    l_cab_1_4: '999999'
+    l_cab_1_5: '666666'
+    l_cab_1_6: '333333'
+    l_cab_1_7: '333333'
+    l_cab_1_8: '666666'
+    l_cab_1_9: '999999'
+    l_cab_1_10: 'CCCCCC'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 3
+  lights:
+    l_cab_1_2: '220000'
+    l_cab_1_3: '440000'
+    l_cab_1_4: '660000'
+    l_cab_1_5: '880000'
+    l_cab_1_6: 'AA0000'
+    l_cab_1_7: 'AA0000'
+    l_cab_1_8: '880000'
+    l_cab_1_9: '660000'
+    l_cab_1_10: '440000'
+    l_cab_1_11: '220000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: '000000'
+    l_cab_1_4: 'FFFFFF'
+    l_cab_1_5: '000000'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: '000000'
+    l_cab_1_8: 'FFFFFF'
+    l_cab_1_9: '000000'
+    l_cab_1_10: 'FFFFFF'
+    l_cab_1_11: '000000'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: 'FFFFFF'
+    l_cab_1_4: '000000'
+    l_cab_1_5: 'FFFFFF'
+    l_cab_1_6: '000000'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: '000000'
+    l_cab_1_9: 'FFFFFF'
+    l_cab_1_10: '000000'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 4
+  lights:
+    l_cab_1_2: '110011'
+    l_cab_1_3: '220022'
+    l_cab_1_4: '330033'
+    l_cab_1_5: '440044'
+    l_cab_1_6: '660066'
+    l_cab_1_7: '660066'
+    l_cab_1_8: '440044'
+    l_cab_1_9: '330033'
+    l_cab_1_10: '220022'
+    l_cab_1_11: '110011'
+
+- duration: 3
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '330000'
+    l_cab_1_5: '660000'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: '660000'
+    l_cab_1_9: '330000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'
+
+- duration: 3
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: 'FFFFFF'
+    l_cab_1_4: 'AA0000'
+    l_cab_1_5: '660000'
+    l_cab_1_6: '220000'
+    l_cab_1_7: '220000'
+    l_cab_1_8: '660000'
+    l_cab_1_9: 'AA0000'
+    l_cab_1_10: 'FFFFFF'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 2
+  lights:
+    l_cab_1_2: 'FF0000'
+    l_cab_1_3: 'FF0000'
+    l_cab_1_4: 'FF0000'
+    l_cab_1_5: 'FF0000'
+    l_cab_1_6: 'FF0000'
+    l_cab_1_7: 'FF0000'
+    l_cab_1_8: 'FF0000'
+    l_cab_1_9: 'FF0000'
+    l_cab_1_10: 'FF0000'
+    l_cab_1_11: 'FF0000'
+
+- duration: 1
+  lights:
+    l_cab_1_2: 'FFFFFF'
+    l_cab_1_3: 'FFFFFF'
+    l_cab_1_4: 'FFFFFF'
+    l_cab_1_5: 'FFFFFF'
+    l_cab_1_6: 'FFFFFF'
+    l_cab_1_7: 'FFFFFF'
+    l_cab_1_8: 'FFFFFF'
+    l_cab_1_9: 'FFFFFF'
+    l_cab_1_10: 'FFFFFF'
+    l_cab_1_11: 'FFFFFF'
+
+- duration: 2
+  lights:
+    l_cab_1_2: '000000'
+    l_cab_1_3: '000000'
+    l_cab_1_4: '000000'
+    l_cab_1_5: '000000'
+    l_cab_1_6: '000000'
+    l_cab_1_7: '000000'
+    l_cab_1_8: '000000'
+    l_cab_1_9: '000000'
+    l_cab_1_10: '000000'
+    l_cab_1_11: '000000'

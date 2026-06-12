@@ -84,6 +84,12 @@ show_player:
       speed: 1.0
       priority: 10
       key: hysteria_background
+    
+    show_floods_hysteria_bassline_1:
+      loops: 0
+      speed: 1.0
+      priority: 200
+      key: hysteria_cab
   
   ball_will_end:
     hysteria_background:
