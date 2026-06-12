@@ -1,0 +1,19 @@
+#show_version=6
+- duration: 55s
+  events: knights_intro_start
+- duration: 33s
+  events: knights_build_1_start
+- duration: 47s
+  events: knights_main_riff_start
+- duration: 55s
+  events: knights_verse_1_start
+- duration: 55s
+  events: knights_build_2_start
+- duration: 37s
+  events: knights_take_me_alive_1_start
+- duration: 33s
+  events: knights_gallop_start
+- duration: 40s
+  events: knights_build_3_start
+- duration: 13s
+  events: knights_take_me_alive_final_start

@@ -1,5 +1,6 @@
 #config_version=6
 # modes/base/config/base.yaml
+
 mode:
   start_events: ball_starting
   stop_events: ball_will_end
@@ -10,15 +11,19 @@ config:
   - varitarget.yaml
   - shots.yaml
   #- shot_groups.yaml
- # - shot_profiles.yaml
+  #- shot_profiles.yaml
   #- consume_qualify.yaml
 
 event_player:
   mode_base_started: BASE_YAML_LOADED
+
   s_03_service_enter_active: end_game
-  
+
   manual_ball_search_requested:
     - start_manual_ball_search
+
+  ball_started{current_player.ball==3}:
+    - knights_of_cydonia_started
 
 variable_player:
   mode_base_started:
@@ -27,7 +32,7 @@ variable_player:
       int: 1
 
 slide_player:
-  mode_base_started: 
+  mode_base_started:
     base_slide:
       priority: 300
 
@@ -35,18 +40,26 @@ sound_player:
   spinner_left_hit:
     spinner:
       bus: effects
-      #mode: random
       max_queue_time: 5ms
 
-  mode_base_started:
+  ball_started{current_player.ball==1}:
     tl_m_hysteria_fullsong:
+      bus: music
+      loops: -1
+
+  ball_started{current_player.ball==2}:
+    tl_m_mapofprob_fullsong:
+      bus: music
+      loops: -1
+
+  ball_started{current_player.ball==3}:
+    tl_m_koc_fullsong:
       bus: music
       loops: -1
 
   spinner_right_hit:
     spinner:
       bus: effects
-      #mode: random
       max_queue_time: 40ms
 
 show_player:
@@ -55,7 +68,7 @@ show_player:
       loops: 1
       speed: 1.0
       priority: 500
-  
+
   s_57_pop_bumper_center_active:
     show_pop_bumper_center_hit_1:
       loops: 1
@@ -67,7 +80,7 @@ show_player:
       loops: 1
       speed: 1.0
       priority: 500
-  
+
   spinner_left_hit:
     show_left_spinner_white_strobe_1:
       loops: 1
@@ -80,23 +93,93 @@ show_player:
       speed: 1.0
       priority: 100
 
-  ball_started:
+  ball_started{current_player.ball==1}:
     show_muse_hysteria_radio_full:
       loops: 0
       speed: 1.0
       priority: 10
       key: hysteria_background
-    
+
     show_floods_hysteria_bassline_1:
       loops: 0
       speed: 1.0
       priority: 200
       key: hysteria_cab
-  
+
   ball_will_end:
     hysteria_background:
       action: stop
+    hysteria_cab:
+      action: stop
+    knights_master:
+      action: stop
 
+  ball_started{current_player.ball==2}:
+    show_muse_mapofprob_radio_full:
+      loops: 0
+      speed: 1.0
+      priority: 100
+
+  knights_of_cydonia_started:
+    show_muse_knights_master:
+      loops: 1
+      speed: 1.0
+      priority: 100
+      key: knights_master
+
+  knights_intro_start:
+    show_knights_intro:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_build_1_start:
+    show_knights_build_1:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_main_riff_start:
+    show_knights_main_riff:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_verse_1_start:
+    show_knights_verse_1:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_build_2_start:
+    show_knights_build_2:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_take_me_alive_1_start:
+    show_knights_take_me_alive_1:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_gallop_start:
+    show_knights_gallop:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_build_3_start:
+    show_knights_build_3:
+      loops: 1
+      speed: 1.0
+      priority: 500
+
+  knights_take_me_alive_final_start:
+    show_knights_take_me_alive_final:
+      loops: 1
+      speed: 1.0
+      priority: 500
 
 combo_switches:
   cab_arrows_ball_search:
@@ -104,4 +187,3 @@ combo_switches:
     switches_2: s_20_cab_arrow_right
     hold_time: 5s
     events_when_both: manual_ball_search_requested
-

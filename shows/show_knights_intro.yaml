@@ -1,0 +1,5007 @@
+#show_version=6
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '0B0B0B'
+    l_pf1_1_24: '0B0B0B'
+    l_pf1_1_25: '0B0B0B'
+    l_pf1_1_26: '0B0B0B'
+    l_pf1_1_27: '0B0B0B'
+    l_pf1_1_28: '0B0B0B'
+    l_pf1_2_1: '231503'
+    l_pf1_3_10: '0B0701'
+    l_pf1_3_13: '0E0801'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '101010'
+    l_pf1_3_19: '101010'
+    l_pf1_3_8: '402606'
+    l_pf1_3_9: '1C1102'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '161616'
+    l_pf1_1_24: '161616'
+    l_pf1_1_25: '161616'
+    l_pf1_1_26: '161616'
+    l_pf1_1_27: '161616'
+    l_pf1_1_28: '161616'
+    l_pf1_2_1: '462A06'
+    l_pf1_3_10: '160E02'
+    l_pf1_3_13: '1C1002'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_19: '202020'
+    l_pf1_3_8: '804D0C'
+    l_pf1_3_9: '392205'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '222222'
+    l_pf1_1_24: '222222'
+    l_pf1_1_25: '222222'
+    l_pf1_1_26: '222222'
+    l_pf1_1_27: '222222'
+    l_pf1_1_28: '222222'
+    l_pf1_2_1: '693F0A'
+    l_pf1_3_10: '221403'
+    l_pf1_3_13: '2A1904'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_19: '2F2F2F'
+    l_pf1_3_8: 'BF7412'
+    l_pf1_3_9: '563408'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_1: '8C540D'
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_17: '101010'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '202020'
+    l_pf1_3_17: '202020'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '101010'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '0B0701'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '160E02'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '221403'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '0B0701'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '160E02'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '221403'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202A39'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101F36'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_18: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '202020'
+    l_pf1_3_18: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '101010'
+    l_pf1_3_18: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+- duration: 62ms
+  lights:
+    l_pf1_5_16: '160D02'
+    l_pf1_5_20: '160D02'
+    l_pf1_5_24: '160D02'
+    l_pf1_5_28: '160D02'
+    l_pf1_5_32: '160D02'
+- duration: 62ms
+  lights:
+    l_pf1_5_16: '2C1A04'
+    l_pf1_5_20: '2C1A04'
+    l_pf1_5_24: '2C1A04'
+    l_pf1_5_28: '2C1A04'
+    l_pf1_5_32: '2C1A04'
+- duration: 62ms
+  lights:
+    l_pf1_5_16: '432806'
+    l_pf1_5_20: '432806'
+    l_pf1_5_24: '432806'
+    l_pf1_5_28: '432806'
+    l_pf1_5_32: '432806'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_2: '231503'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_2_2: '462A06'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_2_2: '693F0A'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_2_2: '8C540D'
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F343C'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202A39'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101F36'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_16: '2F343C'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '101F36'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_16: '202A39'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '202A39'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_16: '101F36'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '2F343C'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_3: '231503'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_2_3: '462A06'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_2_3: '693F0A'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_3: '8C540D'
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '2F2F2F'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '202020'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '101010'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_17: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202020'
+    l_pf1_3_17: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101010'
+    l_pf1_3_17: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_4: '231503'
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_2_4: '462A06'
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_2_4: '693F0A'
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_2_4: '8C540D'
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_17: '101010'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_17: '202020'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101F36'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202A39'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '202020'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '101010'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_16: '2F343C'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_16: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_16: '101F36'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_5: '231503'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_2_5: '462A06'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_2_5: '693F0A'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_5: '8C540D'
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_14: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '101010'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_14: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '202020'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_2_6: '231503'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_19: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_2_6: '462A06'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '202020'
+    l_pf1_3_19: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_2_6: '693F0A'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '101010'
+    l_pf1_3_19: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_2_6: '8C540D'
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_17: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_17: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_17: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_2_7: '231503'
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '101010'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_2_7: '462A06'
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '202020'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_2_7: '693F0A'
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '2F2F2F'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_7: '8C540D'
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '101F36'
+    l_pf1_3_19: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '202A39'
+    l_pf1_3_19: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '2F343C'
+    l_pf1_3_19: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_16: '101010'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_16: '202020'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_2_8: '231503'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_17: '2F343C'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_2_8: '462A06'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_17: '202A39'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_2_8: '693F0A'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_17: '101F36'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_2_8: '8C540D'
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_16: '2F343C'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_16: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_16: '101F36'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_17: '101F36'
+    l_pf1_3_18: '2F343C'
+    l_pf1_3_19: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '202020'
+    l_pf1_3_17: '202A39'
+    l_pf1_3_18: '202A39'
+    l_pf1_3_19: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '101010'
+    l_pf1_3_17: '2F343C'
+    l_pf1_3_18: '101F36'
+    l_pf1_3_19: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_2_9: '231503'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_2_9: '462A06'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_2_9: '693F0A'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_9: '8C540D'
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '2F343C'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_14: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '202A39'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_14: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '101F36'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '101F36'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_16: '101F36'
+    l_pf1_3_17: '101F36'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_16: '202A39'
+    l_pf1_3_17: '202A39'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_16: '2F343C'
+    l_pf1_3_17: '2F343C'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_10: '231503'
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_14: '101F36'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_2_10: '462A06'
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_14: '202A39'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '202020'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_2_10: '693F0A'
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '101010'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_2_10: '8C540D'
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '101F36'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '202A39'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '2F343C'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '00050D'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '101F36'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000A1A'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '000F26'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '2F343C'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+    l_pf1_3_14: '101F36'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+    l_pf1_3_14: '202A39'
+    l_pf1_3_16: '202020'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_16: '101010'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '001433'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_11: '231503'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_2_11: '462A06'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_2_11: '693F0A'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_11: '8C540D'
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_17: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_17: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_17: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_14: '202A39'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_14: '101F36'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101F36'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202A39'
+    l_pf1_3_17: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_17: '101010'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_12: '231503'
+    l_pf1_3_17: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_2_12: '462A06'
+    l_pf1_3_17: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_2_12: '693F0A'
+    l_pf1_3_17: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_2_12: '8C540D'
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_18: '101010'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_14: '202A39'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_14: '101F36'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101F36'
+    l_pf1_3_17: '101010'
+    l_pf1_3_19: '101F36'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202A39'
+    l_pf1_3_17: '202020'
+    l_pf1_3_19: '202A39'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_19: '2F343C'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '3F3F3F'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '2F2F2F'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '202020'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '101010'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_13: '231503'
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '101010'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_2_13: '462A06'
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '202020'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_2_13: '693F0A'
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '2F2F2F'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_1_23: '2D2D2D'
+    l_pf1_1_24: '2D2D2D'
+    l_pf1_1_25: '2D2D2D'
+    l_pf1_1_26: '2D2D2D'
+    l_pf1_1_27: '2D2D2D'
+    l_pf1_1_28: '2D2D2D'
+    l_pf1_2_13: '8C540D'
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '001433'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '000F26'
+    l_pf1_3_17: '000F26'
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_17: '000A1A'
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_16: '00050D'
+    l_pf1_3_17: '00050D'
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_19: '101010'
+- duration: 62ms
+  lights:
+    l_pf1_3_19: '202020'
+- duration: 62ms
+  lights:
+    l_pf1_3_19: '2F2F2F'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '3F3F3F'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_19: '2F343C'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_19: '202A39'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_19: '101F36'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '955A0E'
+    l_pf1_3_11: '3E2606'
+    l_pf1_3_12: '352005'
+    l_pf1_3_9: 'CD7C13'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'B87011'
+    l_pf1_3_11: '503007'
+    l_pf1_3_12: '321E04'
+    l_pf1_3_9: '9C5E0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'DC8514'
+    l_pf1_3_11: '613A08'
+    l_pf1_3_12: '301C04'
+    l_pf1_3_9: '6A3F0A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'FF9A18'
+    l_pf1_3_11: '72450A'
+    l_pf1_3_12: '2D1B04'
+    l_pf1_3_9: '382105'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: 'CD7C13'
+    l_pf1_3_11: '955A0E'
+    l_pf1_3_12: '3E2606'
+    l_pf1_3_13: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '9C5E0E'
+    l_pf1_3_11: 'B87011'
+    l_pf1_3_12: '503007'
+    l_pf1_3_13: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '6A3F0A'
+    l_pf1_3_11: 'DC8514'
+    l_pf1_3_12: '613A08'
+    l_pf1_3_13: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_2_14: '231503'
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_2_14: '462A06'
+    l_pf1_3_14: '202A39'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_2_14: '693F0A'
+    l_pf1_3_14: '101F36'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_2_14: '8C540D'
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '001433'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '101F36'
+    l_pf1_3_16: '101010'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '202A39'
+    l_pf1_3_16: '202020'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_14: '2F343C'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '382105'
+    l_pf1_3_11: 'FF9A18'
+    l_pf1_3_12: '72450A'
+    l_pf1_3_13: '2D1B04'
+    l_pf1_3_14: '3F3F3F'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '3F3F3F'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '001433'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: 'CD7C13'
+    l_pf1_3_12: '955A0E'
+    l_pf1_3_13: '3E2606'
+    l_pf1_3_8: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '9C5E0E'
+    l_pf1_3_12: 'B87011'
+    l_pf1_3_13: '503007'
+    l_pf1_3_8: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '6A3F0A'
+    l_pf1_3_12: 'DC8514'
+    l_pf1_3_13: '613A08'
+    l_pf1_3_8: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+    l_pf1_5_16: '593508'
+    l_pf1_5_20: '593508'
+    l_pf1_5_24: '593508'
+    l_pf1_5_28: '593508'
+    l_pf1_5_32: '593508'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_11: '382105'
+    l_pf1_3_12: 'FF9A18'
+    l_pf1_3_13: '72450A'
+    l_pf1_3_8: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: 'CD7C13'
+    l_pf1_3_13: '955A0E'
+    l_pf1_3_8: '3E2606'
+    l_pf1_3_9: '352005'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '9C5E0E'
+    l_pf1_3_13: 'B87011'
+    l_pf1_3_8: '503007'
+    l_pf1_3_9: '321E04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '6A3F0A'
+    l_pf1_3_13: 'DC8514'
+    l_pf1_3_8: '613A08'
+    l_pf1_3_9: '301C04'
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_12: '382105'
+    l_pf1_3_13: 'FF9A18'
+    l_pf1_3_8: '72450A'
+    l_pf1_3_9: '2D1B04'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '352005'
+    l_pf1_3_13: 'CD7C13'
+    l_pf1_3_14: '2F2F2F'
+    l_pf1_3_15: '101010'
+    l_pf1_3_16: '2F2F2F'
+    l_pf1_3_18: '00050D'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '955A0E'
+    l_pf1_3_9: '3E2606'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '321E04'
+    l_pf1_3_13: '9C5E0E'
+    l_pf1_3_14: '202020'
+    l_pf1_3_15: '202020'
+    l_pf1_3_16: '202020'
+    l_pf1_3_18: '000A1A'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: 'B87011'
+    l_pf1_3_9: '503007'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '301C04'
+    l_pf1_3_13: '6A3F0A'
+    l_pf1_3_14: '101010'
+    l_pf1_3_15: '2F2F2F'
+    l_pf1_3_16: '101010'
+    l_pf1_3_18: '000F26'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: 'DC8514'
+    l_pf1_3_9: '613A08'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '3F3F3F'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '001433'
+    l_pf1_3_19: '000000'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '2F343C'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '101F36'
+    l_pf1_3_19: '00050D'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '202A39'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '202A39'
+    l_pf1_3_19: '000A1A'
+- duration: 62ms
+  lights:
+    l_pf1_3_15: '101F36'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '2F343C'
+    l_pf1_3_19: '000F26'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '001433'
+    l_pf1_3_16: '001433'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '3F3F3F'
+    l_pf1_3_19: '001433'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights: {}
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '2D1B04'
+    l_pf1_3_13: '382105'
+    l_pf1_3_8: 'FF9A18'
+    l_pf1_3_9: '72450A'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '3E2606'
+    l_pf1_3_11: '352005'
+    l_pf1_3_8: 'CD7C13'
+    l_pf1_3_9: '955A0E'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '503007'
+    l_pf1_3_11: '321E04'
+    l_pf1_3_8: '9C5E0E'
+    l_pf1_3_9: 'B87011'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '613A08'
+    l_pf1_3_11: '301C04'
+    l_pf1_3_8: '6A3F0A'
+    l_pf1_3_9: 'DC8514'
+- duration: 62ms
+  lights:
+    l_pf1_3_10: '72450A'
+    l_pf1_3_11: '2D1B04'
+    l_pf1_3_8: '382105'
+    l_pf1_3_9: 'FF9A18'
+- duration: 12ms
+  lights:
+    l_pf1_1_23: '222222'
+    l_pf1_1_24: '222222'
+    l_pf1_1_25: '222222'
+    l_pf1_1_26: '222222'
+    l_pf1_1_27: '222222'
+    l_pf1_1_28: '222222'
+    l_pf1_2_1: '693F0A'
+    l_pf1_2_10: '693F0A'
+    l_pf1_2_11: '693F0A'
+    l_pf1_2_12: '693F0A'
+    l_pf1_2_13: '693F0A'
+    l_pf1_2_14: '693F0A'
+    l_pf1_2_2: '693F0A'
+    l_pf1_2_3: '693F0A'
+    l_pf1_2_4: '693F0A'
+    l_pf1_2_5: '693F0A'
+    l_pf1_2_6: '693F0A'
+    l_pf1_2_7: '693F0A'
+    l_pf1_2_8: '693F0A'
+    l_pf1_2_9: '693F0A'
+    l_pf1_3_10: '563408'
+    l_pf1_3_11: '221403'
+    l_pf1_3_12: '2A1904'
+    l_pf1_3_13: '2A1904'
+    l_pf1_3_15: '000F26'
+    l_pf1_3_16: '000F26'
+    l_pf1_3_18: '2F2F2F'
+    l_pf1_3_19: '000F26'
+    l_pf1_3_8: '2A1904'
+    l_pf1_3_9: 'BF7412'
+    l_pf1_5_16: '432806'
+    l_pf1_5_20: '432806'
+    l_pf1_5_24: '432806'
+    l_pf1_5_28: '432806'
+    l_pf1_5_32: '432806'
+- duration: 12ms
+  lights:
+    l_pf1_1_23: '161616'
+    l_pf1_1_24: '161616'
+    l_pf1_1_25: '161616'
+    l_pf1_1_26: '161616'
+    l_pf1_1_27: '161616'
+    l_pf1_1_28: '161616'
+    l_pf1_2_1: '462A06'
+    l_pf1_2_10: '462A06'
+    l_pf1_2_11: '462A06'
+    l_pf1_2_12: '462A06'
+    l_pf1_2_13: '462A06'
+    l_pf1_2_14: '462A06'
+    l_pf1_2_2: '462A06'
+    l_pf1_2_3: '462A06'
+    l_pf1_2_4: '462A06'
+    l_pf1_2_5: '462A06'
+    l_pf1_2_6: '462A06'
+    l_pf1_2_7: '462A06'
+    l_pf1_2_8: '462A06'
+    l_pf1_2_9: '462A06'
+    l_pf1_3_10: '392205'
+    l_pf1_3_11: '160E02'
+    l_pf1_3_12: '1C1002'
+    l_pf1_3_13: '1C1002'
+    l_pf1_3_15: '000A1A'
+    l_pf1_3_16: '000A1A'
+    l_pf1_3_18: '202020'
+    l_pf1_3_19: '000A1A'
+    l_pf1_3_8: '1C1002'
+    l_pf1_3_9: '804D0C'
+    l_pf1_5_16: '2C1A04'
+    l_pf1_5_20: '2C1A04'
+    l_pf1_5_24: '2C1A04'
+    l_pf1_5_28: '2C1A04'
+    l_pf1_5_32: '2C1A04'
+- duration: 12ms
+  lights:
+    l_pf1_1_23: '0B0B0B'
+    l_pf1_1_24: '0B0B0B'
+    l_pf1_1_25: '0B0B0B'
+    l_pf1_1_26: '0B0B0B'
+    l_pf1_1_27: '0B0B0B'
+    l_pf1_1_28: '0B0B0B'
+    l_pf1_2_1: '231503'
+    l_pf1_2_10: '231503'
+    l_pf1_2_11: '231503'
+    l_pf1_2_12: '231503'
+    l_pf1_2_13: '231503'
+    l_pf1_2_14: '231503'
+    l_pf1_2_2: '231503'
+    l_pf1_2_3: '231503'
+    l_pf1_2_4: '231503'
+    l_pf1_2_5: '231503'
+    l_pf1_2_6: '231503'
+    l_pf1_2_7: '231503'
+    l_pf1_2_8: '231503'
+    l_pf1_2_9: '231503'
+    l_pf1_3_10: '1C1102'
+    l_pf1_3_11: '0B0701'
+    l_pf1_3_12: '0E0801'
+    l_pf1_3_13: '0E0801'
+    l_pf1_3_15: '00050D'
+    l_pf1_3_16: '00050D'
+    l_pf1_3_18: '101010'
+    l_pf1_3_19: '00050D'
+    l_pf1_3_8: '0E0801'
+    l_pf1_3_9: '402606'
+    l_pf1_5_16: '160D02'
+    l_pf1_5_20: '160D02'
+    l_pf1_5_24: '160D02'
+    l_pf1_5_28: '160D02'
+    l_pf1_5_32: '160D02'
+- duration: 12ms
+  lights:
+    l_pf1_1_1: '000000'
+    l_pf1_1_10: '000000'
+    l_pf1_1_11: '000000'
+    l_pf1_1_12: '000000'
+    l_pf1_1_13: '000000'
+    l_pf1_1_14: '000000'
+    l_pf1_1_15: '000000'
+    l_pf1_1_16: '000000'
+    l_pf1_1_17: '000000'
+    l_pf1_1_18: '000000'
+    l_pf1_1_19: '000000'
+    l_pf1_1_2: '000000'
+    l_pf1_1_20: '000000'
+    l_pf1_1_23: '000000'
+    l_pf1_1_24: '000000'
+    l_pf1_1_25: '000000'
+    l_pf1_1_26: '000000'
+    l_pf1_1_27: '000000'
+    l_pf1_1_28: '000000'
+    l_pf1_1_3: '000000'
+    l_pf1_1_30: '000000'
+    l_pf1_1_31: '000000'
+    l_pf1_1_4: '000000'
+    l_pf1_1_5: '000000'
+    l_pf1_1_6: '000000'
+    l_pf1_1_7: '000000'
+    l_pf1_1_8: '000000'
+    l_pf1_1_9: '000000'
+    l_pf1_2_1: '000000'
+    l_pf1_2_10: '000000'
+    l_pf1_2_11: '000000'
+    l_pf1_2_12: '000000'
+    l_pf1_2_13: '000000'
+    l_pf1_2_14: '000000'
+    l_pf1_2_15: '000000'
+    l_pf1_2_16: '000000'
+    l_pf1_2_17: '000000'
+    l_pf1_2_18: '000000'
+    l_pf1_2_19: '000000'
+    l_pf1_2_2: '000000'
+    l_pf1_2_20: '000000'
+    l_pf1_2_21: '000000'
+    l_pf1_2_22: '000000'
+    l_pf1_2_23: '000000'
+    l_pf1_2_24: '000000'
+    l_pf1_2_25: '000000'
+    l_pf1_2_26: '000000'
+    l_pf1_2_27: '000000'
+    l_pf1_2_28: '000000'
+    l_pf1_2_29: '000000'
+    l_pf1_2_3: '000000'
+    l_pf1_2_30: '000000'
+    l_pf1_2_31: '000000'
+    l_pf1_2_4: '000000'
+    l_pf1_2_5: '000000'
+    l_pf1_2_6: '000000'
+    l_pf1_2_7: '000000'
+    l_pf1_2_8: '000000'
+    l_pf1_2_9: '000000'
+    l_pf1_3_1: '000000'
+    l_pf1_3_10: '000000'
+    l_pf1_3_11: '000000'
+    l_pf1_3_12: '000000'
+    l_pf1_3_13: '000000'
+    l_pf1_3_14: '000000'
+    l_pf1_3_15: '000000'
+    l_pf1_3_16: '000000'
+    l_pf1_3_17: '000000'
+    l_pf1_3_18: '000000'
+    l_pf1_3_19: '000000'
+    l_pf1_3_2: '000000'
+    l_pf1_3_20: '000000'
+    l_pf1_3_24: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
+    l_pf1_3_29: '000000'
+    l_pf1_3_3: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_32: '000000'
+    l_pf1_3_4: '000000'
+    l_pf1_3_5: '000000'
+    l_pf1_3_6: '000000'
+    l_pf1_3_8: '000000'
+    l_pf1_3_9: '000000'
+    l_pf1_4_1: '000000'
+    l_pf1_4_10: '000000'
+    l_pf1_4_11: '000000'
+    l_pf1_4_12: '000000'
+    l_pf1_4_13: '000000'
+    l_pf1_4_14: '000000'
+    l_pf1_4_15: '000000'
+    l_pf1_4_16: '000000'
+    l_pf1_4_17: '000000'
+    l_pf1_4_18: '000000'
+    l_pf1_4_19: '000000'
+    l_pf1_4_2: '000000'
+    l_pf1_4_20: '000000'
+    l_pf1_4_21: '000000'
+    l_pf1_4_22: '000000'
+    l_pf1_4_23: '000000'
+    l_pf1_4_24: '000000'
+    l_pf1_4_25: '000000'
+    l_pf1_4_26: '000000'
+    l_pf1_4_27: '000000'
+    l_pf1_4_28: '000000'
+    l_pf1_4_29: '000000'
+    l_pf1_4_3: '000000'
+    l_pf1_4_30: '000000'
+    l_pf1_4_4: '000000'
+    l_pf1_4_5: '000000'
+    l_pf1_4_6: '000000'
+    l_pf1_4_7: '000000'
+    l_pf1_4_8: '000000'
+    l_pf1_4_9: '000000'
+    l_pf1_5_1: '000000'
+    l_pf1_5_10: '000000'
+    l_pf1_5_11: '000000'
+    l_pf1_5_12: '000000'
+    l_pf1_5_13: '000000'
+    l_pf1_5_16: '000000'
+    l_pf1_5_17: '000000'
+    l_pf1_5_18: '000000'
+    l_pf1_5_19: '000000'
+    l_pf1_5_2: '000000'
+    l_pf1_5_20: '000000'
+    l_pf1_5_21: '000000'
+    l_pf1_5_22: '000000'
+    l_pf1_5_23: '000000'
+    l_pf1_5_24: '000000'
+    l_pf1_5_25: '000000'
+    l_pf1_5_26: '000000'
+    l_pf1_5_27: '000000'
+    l_pf1_5_28: '000000'
+    l_pf1_5_29: '000000'
+    l_pf1_5_3: '000000'
+    l_pf1_5_30: '000000'
+    l_pf1_5_31: '000000'
+    l_pf1_5_32: '000000'
+    l_pf1_5_4: '000000'
+    l_pf1_5_5: '000000'
+    l_pf1_5_6: '000000'
+    l_pf1_5_7: '000000'
+    l_pf1_5_8: '000000'
+    l_pf1_5_9: '000000'
+    l_pf2_5_1: '000000'
+    l_pf2_5_10: '000000'
+    l_pf2_5_11: '000000'
+    l_pf2_5_12: '000000'
+    l_pf2_5_13: '000000'
+    l_pf2_5_14: '000000'
+    l_pf2_5_15: '000000'
+    l_pf2_5_16: '000000'
+    l_pf2_5_17: '000000'
+    l_pf2_5_18: '000000'
+    l_pf2_5_19: '000000'
+    l_pf2_5_2: '000000'
+    l_pf2_5_20: '000000'
+    l_pf2_5_21: '000000'
+    l_pf2_5_22: '000000'
+    l_pf2_5_23: '000000'
+    l_pf2_5_24: '000000'
+    l_pf2_5_3: '000000'
+    l_pf2_5_4: '000000'
+    l_pf2_5_5: '000000'
+    l_pf2_5_6: '000000'
+    l_pf2_5_7: '000000'
+    l_pf2_5_8: '000000'
+    l_pf2_5_9: '000000'
+    l_pf2_6_1: '000000'
+    l_pf2_6_10: '000000'
+    l_pf2_6_11: '000000'
+    l_pf2_6_12: '000000'
+    l_pf2_6_13: '000000'
+    l_pf2_6_14: '000000'
+    l_pf2_6_15: '000000'
+    l_pf2_6_16: '000000'
+    l_pf2_6_17: '000000'
+    l_pf2_6_18: '000000'
+    l_pf2_6_19: '000000'
+    l_pf2_6_2: '000000'
+    l_pf2_6_20: '000000'
+    l_pf2_6_21: '000000'
+    l_pf2_6_22: '000000'
+    l_pf2_6_23: '000000'
+    l_pf2_6_24: '000000'
+    l_pf2_6_3: '000000'
+    l_pf2_6_4: '000000'
+    l_pf2_6_5: '000000'
+    l_pf2_6_6: '000000'
+    l_pf2_6_7: '000000'
+    l_pf2_6_8: '000000'
+    l_pf2_6_9: '000000'
+    l_pf2_7_1: '000000'
+    l_pf2_7_10: '000000'
+    l_pf2_7_11: '000000'
+    l_pf2_7_12: '000000'
+    l_pf2_7_13: '000000'
+    l_pf2_7_14: '000000'
+    l_pf2_7_15: '000000'
+    l_pf2_7_16: '000000'
+    l_pf2_7_17: '000000'
+    l_pf2_7_18: '000000'
+    l_pf2_7_19: '000000'
+    l_pf2_7_2: '000000'
+    l_pf2_7_20: '000000'
+    l_pf2_7_21: '000000'
+    l_pf2_7_22: '000000'
+    l_pf2_7_23: '000000'
+    l_pf2_7_24: '000000'
+    l_pf2_7_3: '000000'
+    l_pf2_7_4: '000000'
+    l_pf2_7_5: '000000'
+    l_pf2_7_6: '000000'
+    l_pf2_7_7: '000000'
+    l_pf2_7_8: '000000'
+    l_pf2_7_9: '000000'
+    l_pf2_8_1: '000000'
