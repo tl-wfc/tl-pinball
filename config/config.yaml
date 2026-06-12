@@ -57,7 +57,7 @@ variable_player:
 # --------------------
 #
 game:
-  balls_per_game: 1
+  balls_per_game: 3
   max_players: 1
 machine:
   balls_installed: 1 #How many balls are physically in your game
