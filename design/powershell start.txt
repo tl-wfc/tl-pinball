@@ -1,3 +1,8 @@
+remove temp files - reload all
+
+Remove-Item "$env:TEMP\*.mpf_cache" -Force
+
+
 cd C:\
 
 mpf/Scripts/Activate.ps1
