@@ -67,7 +67,6 @@ func play_sounds(s: Dictionary) -> void:
 	self.log.debug("play_sounds called with: %s", s)
 	for asset in s.settings.keys():
 		var settings: Dictionary = s.settings[asset]
-
 		assert(self.mpf.media.sounds.has(asset), "Unknown sound file or resource '%s'" % asset)
 		# A key can override the default value
 		if not settings.get("key"):

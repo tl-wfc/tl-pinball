@@ -12,7 +12,9 @@ mode_settings:
   previous_item_events: s_08_left_flipper_active
 
 slide_player:
-  mode_attract_started: attract
+  mode_attract_started: 
+    attract:
+      priority: 200
 
 event_player:
   mode_attract_started: start_mode_attract_scores, start_mode_attract_credits

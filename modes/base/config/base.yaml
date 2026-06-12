@@ -27,7 +27,9 @@ variable_player:
       int: 1
 
 slide_player:
-  mode_base_started: base_slide
+  mode_base_started: 
+    base_slide:
+      priority: 300
 
 sound_player:
   spinner_left_hit:
