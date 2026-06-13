@@ -25,6 +25,7 @@ event_player:
   ball_started{current_player.ball==3}:
     - knights_of_cydonia_started
 
+
 variable_player:
   mode_base_started:
     pf_multiplier:
@@ -63,6 +64,61 @@ sound_player:
       max_queue_time: 40ms
 
 show_player:
+  knights_of_cydonia_started:
+    show_koc_vocal_solo_pops_only:
+    #show_koc_vocal_solo:
+      loops: 1
+      speed: 1.0
+      priority: 1000
+      key: koc__vocal_solo
+
+    show_muse_knights_cue_master:
+      loops: 1
+      speed: 1.0
+      priority: 1
+      key: koc_cue_master
+
+    show_koc_rhythm_background_layer:
+      loops: 1
+      speed: 1.0
+      priority: 300
+      key: koc_rhythm_layer
+
+    show_koc_bass_vu_layer:
+      loops: 1
+      speed: 1.0
+      priority: 450
+      key: koc_bass_layer
+
+    show_koc_lead_guitar_layer:
+      loops: 1
+      speed: 1.0
+      priority: 550
+      key: koc_lead_layer
+
+    show_koc_drum_macro_layer:
+      loops: 1
+      speed: 1.0
+      priority: 700
+      key: koc_drum_layer
+
+    show_koc_vocal_cue_layer:
+      loops: 1
+      speed: 1.0
+      priority: 850
+      key: koc_vocal_layer
+
+    # show_koc_final_survive_overlay:
+    #   loops: 1
+    #   speed: 1.0
+    #   priority: 1500
+    #   key: koc_final_survive_overlay
+
+
+  
+  
+  
+  
   s_58_pop_bumper_left_active:
     show_pop_bumper_left_hit_1:
       loops: 1
@@ -111,8 +167,22 @@ show_player:
       action: stop
     hysteria_cab:
       action: stop
-    knights_master:
+    koc_cue_master:
       action: stop
+    koc_vocal_layer:
+      action: stop
+    koc_drum_layer:
+      action: stop
+    koc_bass_layer:
+      action: stop
+    koc_lead_layer:
+      action: stop
+    koc_rhythm_layer:
+      action: stop
+    koc_final_survive_overlay:
+      action: stop
+    # knights_master:
+    #   action: stop
 
   ball_started{current_player.ball==2}:
     show_muse_mapofprob_radio_full:
@@ -120,66 +190,66 @@ show_player:
       speed: 1.0
       priority: 100
 
-  knights_of_cydonia_started:
-    show_muse_knights_master:
-      loops: 1
-      speed: 1.0
-      priority: 100
-      key: knights_master
+  # knights_of_cydonia_started:
+  #   show_muse_knights_master:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 100
+  #     key: knights_master
 
-  knights_intro_start:
-    show_knights_intro:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_intro_start:
+  #   show_knights_intro:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_build_1_start:
-    show_knights_build_1:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_build_1_start:
+  #   show_knights_build_1:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_main_riff_start:
-    show_knights_main_riff:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_main_riff_start:
+  #   show_knights_main_riff:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_verse_1_start:
-    show_knights_verse_1:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_verse_1_start:
+  #   show_knights_verse_1:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_build_2_start:
-    show_knights_build_2:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_build_2_start:
+  #   show_knights_build_2:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_take_me_alive_1_start:
-    show_knights_take_me_alive_1:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_take_me_alive_1_start:
+  #   show_knights_take_me_alive_1:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_gallop_start:
-    show_knights_gallop:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_gallop_start:
+  #   show_knights_gallop:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_build_3_start:
-    show_knights_build_3:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_build_3_start:
+  #   show_knights_build_3:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
-  knights_take_me_alive_final_start:
-    show_knights_take_me_alive_final:
-      loops: 1
-      speed: 1.0
-      priority: 500
+  # knights_take_me_alive_final_start:
+  #   show_knights_take_me_alive_final:
+  #     loops: 1
+  #     speed: 1.0
+  #     priority: 500
 
 combo_switches:
   cab_arrows_ball_search:

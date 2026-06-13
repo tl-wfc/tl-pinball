@@ -4,7 +4,7 @@
 # CONFIG::MPF
 # ------------------------
 mpf:
-  default_light_hw_update_hz: 24
+  default_light_hw_update_hz: 120
 # ------------------------
 # CONFIG::HARDWARE
 # ------------------------
@@ -45,15 +45,15 @@ fast:
       ledcab:
         model: FP-EXP-2000
         address: 48
-        led_fade_time: 100ms
+        led_fade_time: 1ms
         ignore_led_errors: true
       ledpf1:
         model: FP-EXP-0081
         address: 84
-        led_fade_time: 100ms
+        led_fade_time: 1ms
         ignore_led_errors: false
       ledpf2:
         model: FP-EXP-0081
         address: 85
-        led_fade_time: 50ms
+        led_fade_time: 1ms
         ignore_led_errors: false

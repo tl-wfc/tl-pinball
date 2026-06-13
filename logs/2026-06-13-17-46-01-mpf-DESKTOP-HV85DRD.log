@@ -1,0 +1,323 @@
+2026-06-13 17:46:01,609 : INFO : root : Loading config.
+2026-06-13 17:46:01,654 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\tl\AppData\Local\Temp\config_spec.mpf_cache
+2026-06-13 17:46:01,654 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-13 17:46:01,655 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-13 17:46:01,666 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-13 17:46:01,667 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\config\config.yaml.
+2026-06-13 17:46:01,668 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config.yaml
+2026-06-13 17:46:01,670 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_hardware.yaml
+2026-06-13 17:46:01,672 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_devices.yaml
+2026-06-13 17:46:01,672 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_sounds.yaml
+2026-06-13 17:46:01,673 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2026-06-13 17:46:01,725 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_lights_led.yaml
+2026-06-13 17:46:01,732 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_game.yaml
+2026-06-13 17:46:01,739 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap.yaml
+2026-06-13 17:46:01,745 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\device_config_iomap_coils.yaml
+2026-06-13 17:46:01,749 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_testing.yaml
+2026-06-13 17:46:01,753 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\config_ball_save.yaml
+2026-06-13 17:46:01,757 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\config\seq_shots.yaml
+2026-06-13 17:46:01,765 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-06-13 17:46:01,866 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-06-13 17:46:01,867 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-06-13 17:46:01,867 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml.
+2026-06-13 17:46:01,871 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml
+2026-06-13 17:46:01,871 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-13 17:46:01,872 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2026-06-13 17:46:01,873 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2026-06-13 17:46:01,874 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-06-13 17:46:01,874 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-06-13 17:46:01,876 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract_scores\config\attract_scores.yaml.
+2026-06-13 17:46:01,877 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\attract_scores\config\attract_scores.yaml
+2026-06-13 17:46:01,878 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-06-13 17:46:01,879 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract_credits\config\attract_credits.yaml.
+2026-06-13 17:46:01,880 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\attract_credits\config\attract_credits.yaml
+2026-06-13 17:46:01,880 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-06-13 17:46:01,881 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml.
+2026-06-13 17:46:01,887 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\base\config\base.yaml
+2026-06-13 17:46:01,889 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\base\config\base_points.yaml
+2026-06-13 17:46:01,894 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\base\config\varitarget.yaml
+2026-06-13 17:46:01,896 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\base\config\shots.yaml
+2026-06-13 17:46:01,897 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-06-13 17:46:01,898 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\config\resistance.yaml.
+2026-06-13 17:46:01,906 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\config\resistance.yaml
+2026-06-13 17:46:01,907 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+2026-06-13 17:46:01,907 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\manual_ball_search\config\manual_ball_search.yaml.
+2026-06-13 17:46:01,911 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\manual_ball_search\config\manual_ball_search.yaml
+2026-06-13 17:46:01,911 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+2026-06-13 17:46:01,912 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\shotgun\config\shotgun.yaml.
+2026-06-13 17:46:01,935 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\shotgun\config\shotgun.yaml
+2026-06-13 17:46:01,938 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+2026-06-13 17:46:01,939 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\spinner_2x_qualify\config\spinner_2x_qualify.yaml.
+2026-06-13 17:46:01,941 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\spinner_2x_qualify\config\spinner_2x_qualify.yaml
+2026-06-13 17:46:01,941 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-06-13 17:46:01,942 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\spinner_2x\config\spinner_2x.yaml.
+2026-06-13 17:46:01,943 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\spinner_2x\config\spinner_2x.yaml
+2026-06-13 17:46:01,944 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\spinner_2x\config\spinner_2x_points.yaml
+2026-06-13 17:46:01,944 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-06-13 17:46:01,945 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\super_pops\config\super_pops.yaml.
+2026-06-13 17:46:01,948 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\super_pops\config\super_pops.yaml
+2026-06-13 17:46:01,949 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\super_pops\config\super_pops_points.yaml
+2026-06-13 17:46:01,951 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-06-13 17:46:01,951 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\skillshot\config\skillshot.yaml.
+2026-06-13 17:46:01,952 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\skillshot\config\skillshot.yaml
+2026-06-13 17:46:01,954 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\skillshot\config\skillshot_logic.yaml
+2026-06-13 17:46:01,957 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\skillshot\config\skillshot_phase1_switches.yaml
+2026-06-13 17:46:01,959 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\skillshot\config\skillshot_phase3_switches.yaml
+2026-06-13 17:46:01,960 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-06-13 17:46:01,961 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\stars_mode\config\stars_mode.yaml.
+2026-06-13 17:46:01,966 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\stars_mode\config\stars_mode.yaml
+2026-06-13 17:46:01,967 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\stars_mode\config\stars_mode_points.yaml
+2026-06-13 17:46:01,968 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-06-13 17:46:01,969 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\brian_combo\config\brian_combo.yaml.
+2026-06-13 17:46:01,970 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\brian_combo\config\brian_combo.yaml
+2026-06-13 17:46:01,971 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-06-13 17:46:01,972 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\autoplunge\config\autoplunge.yaml.
+2026-06-13 17:46:01,973 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\autoplunge\config\autoplunge.yaml
+2026-06-13 17:46:01,974 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-06-13 17:46:01,975 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\led_flash_rgb_chain_test.yaml.
+2026-06-13 17:46:02,073 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\led_flash_rgb_chain_test.yaml
+2026-06-13 17:46:02,075 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+2026-06-13 17:46:02,076 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\led_rainbow_chase_test.yaml.
+2026-06-13 17:46:02,096 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\led_rainbow_chase_test.yaml
+2026-06-13 17:46:02,097 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+2026-06-13 17:46:02,097 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\rainbow_pops_1.yaml.
+2026-06-13 17:46:02,124 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\rainbow_pops_1.yaml
+2026-06-13 17:46:02,125 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+2026-06-13 17:46:02,126 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\red_cross_1.yaml.
+2026-06-13 17:46:02,178 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\red_cross_1.yaml
+2026-06-13 17:46:02,180 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+2026-06-13 17:46:02,181 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_attract_1.yaml.
+2026-06-13 17:46:02,544 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_attract_1.yaml
+2026-06-13 17:46:02,551 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+2026-06-13 17:46:02,552 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_bluedrops_1.yaml.
+2026-06-13 17:46:02,561 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_bluedrops_1.yaml
+2026-06-13 17:46:02,562 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+2026-06-13 17:46:02,562 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_brain_1.yaml.
+2026-06-13 17:46:02,579 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_brain_1.yaml
+2026-06-13 17:46:02,580 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+2026-06-13 17:46:02,581 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_cab_hysteria_floods.yaml.
+2026-06-13 17:46:02,888 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_cab_hysteria_floods.yaml
+2026-06-13 17:46:02,895 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+2026-06-13 17:46:02,896 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_cab_test_1.yaml.
+2026-06-13 17:46:02,898 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_cab_test_1.yaml
+2026-06-13 17:46:02,899 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+2026-06-13 17:46:02,899 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_coloursweeps_1.yaml.
+2026-06-13 17:46:02,938 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_coloursweeps_1.yaml
+2026-06-13 17:46:02,940 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+2026-06-13 17:46:02,941 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_fig8_attract_1.yaml.
+2026-06-13 17:46:02,949 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_fig8_attract_1.yaml
+2026-06-13 17:46:02,950 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+2026-06-13 17:46:02,951 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_fig8_attract_2.yaml.
+2026-06-13 17:46:02,954 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_fig8_attract_2.yaml
+2026-06-13 17:46:02,955 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+2026-06-13 17:46:02,955 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_floods_hysteria_bassline_1.yaml.
+2026-06-13 17:46:03,349 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_floods_hysteria_bassline_1.yaml
+2026-06-13 17:46:03,357 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+2026-06-13 17:46:03,358 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_gi_attract_1.yaml.
+2026-06-13 17:46:03,360 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_gi_attract_1.yaml
+2026-06-13 17:46:03,360 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+2026-06-13 17:46:03,361 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_greendrops_1.yaml.
+2026-06-13 17:46:03,370 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_greendrops_1.yaml
+2026-06-13 17:46:03,371 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+2026-06-13 17:46:03,371 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_inlaneinserts_attract_1.yaml.
+2026-06-13 17:46:03,384 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_inlaneinserts_attract_1.yaml
+2026-06-13 17:46:03,385 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+2026-06-13 17:46:03,385 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_1.yaml.
+2026-06-13 17:46:03,634 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_1.yaml
+2026-06-13 17:46:03,642 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+2026-06-13 17:46:03,642 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_2.yaml.
+2026-06-13 17:46:04,215 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_2.yaml
+2026-06-13 17:46:04,225 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+2026-06-13 17:46:04,226 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_3.yaml.
+2026-06-13 17:46:04,524 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_build_3.yaml
+2026-06-13 17:46:04,531 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+2026-06-13 17:46:04,531 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_gallop.yaml.
+2026-06-13 17:46:04,954 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_gallop.yaml
+2026-06-13 17:46:04,962 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+2026-06-13 17:46:04,962 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_intro.yaml.
+2026-06-13 17:46:04,997 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_intro.yaml
+2026-06-13 17:46:04,999 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+2026-06-13 17:46:04,999 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_main_riff.yaml.
+2026-06-13 17:46:05,360 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_main_riff.yaml
+2026-06-13 17:46:05,367 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+2026-06-13 17:46:05,368 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_take_me_alive_1.yaml.
+2026-06-13 17:46:06,454 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_take_me_alive_1.yaml
+2026-06-13 17:46:06,476 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+2026-06-13 17:46:06,477 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_take_me_alive_final.yaml.
+2026-06-13 17:46:06,857 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_take_me_alive_final.yaml
+2026-06-13 17:46:06,864 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+2026-06-13 17:46:06,865 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_verse_1.yaml.
+2026-06-13 17:46:07,098 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_knights_verse_1.yaml
+2026-06-13 17:46:07,104 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+2026-06-13 17:46:07,105 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_bass_vu_layer.yaml.
+2026-06-13 17:46:11,537 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_bass_vu_layer.yaml
+2026-06-13 17:46:11,649 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+2026-06-13 17:46:11,650 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_drum_macro_layer.yaml.
+2026-06-13 17:46:19,516 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_drum_macro_layer.yaml
+2026-06-13 17:46:19,755 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+2026-06-13 17:46:19,756 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_final_survive_overlay.yaml.
+2026-06-13 17:46:29,984 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_final_survive_overlay.yaml
+2026-06-13 17:46:30,290 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+2026-06-13 17:46:30,291 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_lead_guitar_layer.yaml.
+2026-06-13 17:46:36,234 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_lead_guitar_layer.yaml
+2026-06-13 17:46:36,393 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+2026-06-13 17:46:36,394 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_rhythm_background_layer.yaml.
+2026-06-13 17:46:52,403 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_rhythm_background_layer.yaml
+2026-06-13 17:46:52,951 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+2026-06-13 17:46:52,952 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_vocal_cue_layer.yaml.
+2026-06-13 17:46:56,202 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_vocal_cue_layer.yaml
+2026-06-13 17:46:56,277 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+2026-06-13 17:46:56,278 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_vocal_orange_fullmachine_ramps.yaml.
+2026-06-13 17:46:58,324 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_koc_vocal_orange_fullmachine_ramps.yaml
+2026-06-13 17:46:58,363 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4fe2cc0468161c674ca476b86514e28e.mpf_cache
+2026-06-13 17:46:58,364 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_leftramp_attract_1.yaml.
+2026-06-13 17:46:58,377 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_leftramp_attract_1.yaml
+2026-06-13 17:46:58,378 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+2026-06-13 17:46:58,379 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_left_spinner_white_strobe_1.yaml.
+2026-06-13 17:46:58,380 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_left_spinner_white_strobe_1.yaml
+2026-06-13 17:46:58,381 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+2026-06-13 17:46:58,381 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_light_bar_attract_1.yaml.
+2026-06-13 17:46:58,388 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_light_bar_attract_1.yaml
+2026-06-13 17:46:58,388 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+2026-06-13 17:46:58,389 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_modeinserts_sweep_green_1.yaml.
+2026-06-13 17:46:58,398 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_modeinserts_sweep_green_1.yaml
+2026-06-13 17:46:58,399 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+2026-06-13 17:46:58,399 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_multi_attract_1.yaml.
+2026-06-13 17:46:58,468 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_multi_attract_1.yaml
+2026-06-13 17:46:58,469 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+2026-06-13 17:46:58,470 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_hysteria_radio_full.yaml.
+2026-06-13 17:47:06,643 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_hysteria_radio_full.yaml
+2026-06-13 17:47:06,887 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+2026-06-13 17:47:06,887 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_knights_cue_master.yaml.
+2026-06-13 17:47:07,921 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_knights_cue_master.yaml
+2026-06-13 17:47:07,949 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+2026-06-13 17:47:07,949 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_knights_master.yaml.
+2026-06-13 17:47:07,951 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_knights_master.yaml
+2026-06-13 17:47:07,951 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+2026-06-13 17:47:07,952 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_mapofprob_radio_full.yaml.
+2026-06-13 17:47:17,149 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_muse_mapofprob_radio_full.yaml
+2026-06-13 17:47:17,421 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+2026-06-13 17:47:17,421 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_pop1_breath_green_1.yaml.
+2026-06-13 17:47:17,445 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_pop1_breath_green_1.yaml
+2026-06-13 17:47:17,447 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+2026-06-13 17:47:17,447 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_pops_redsweep_1.yaml.
+2026-06-13 17:47:17,483 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_pops_redsweep_1.yaml
+2026-06-13 17:47:17,485 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+2026-06-13 17:47:17,486 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_center_hit_1.yaml.
+2026-06-13 17:47:17,489 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_center_hit_1.yaml
+2026-06-13 17:47:17,490 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+2026-06-13 17:47:17,490 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_left_hit_1.yaml.
+2026-06-13 17:47:17,494 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_left_hit_1.yaml
+2026-06-13 17:47:17,495 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+2026-06-13 17:47:17,495 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_right_hit_1.yaml.
+2026-06-13 17:47:17,498 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_pop_bumper_right_hit_1.yaml
+2026-06-13 17:47:17,499 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+2026-06-13 17:47:17,499 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_reddrops_1.yaml.
+2026-06-13 17:47:17,509 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_reddrops_1.yaml
+2026-06-13 17:47:17,510 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+2026-06-13 17:47:17,510 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_redtop_bluebot_1.yaml.
+2026-06-13 17:47:17,524 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_redtop_bluebot_1.yaml
+2026-06-13 17:47:17,526 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+2026-06-13 17:47:17,526 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_red_blue_fast_1.yaml.
+2026-06-13 17:47:17,581 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_red_blue_fast_1.yaml
+2026-06-13 17:47:17,584 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+2026-06-13 17:47:17,585 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_reel_1.yaml.
+2026-06-13 17:47:17,589 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_reel_1.yaml
+2026-06-13 17:47:17,590 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+2026-06-13 17:47:17,590 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_rightorbit_1.yaml.
+2026-06-13 17:47:17,603 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_rightorbit_1.yaml
+2026-06-13 17:47:17,604 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+2026-06-13 17:47:17,604 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_right_spinner_white_strobe_1.yaml.
+2026-06-13 17:47:17,606 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_right_spinner_white_strobe_1.yaml
+2026-06-13 17:47:17,606 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+2026-06-13 17:47:17,607 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_rorbit_rgb_1.yaml.
+2026-06-13 17:47:17,615 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_rorbit_rgb_1.yaml
+2026-06-13 17:47:17,615 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+2026-06-13 17:47:17,616 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_shotgunmode_active_1.yaml.
+2026-06-13 17:47:17,623 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_shotgunmode_active_1.yaml
+2026-06-13 17:47:17,624 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+2026-06-13 17:47:17,624 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_shotgun_attract_1.yaml.
+2026-06-13 17:47:17,656 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_shotgun_attract_1.yaml
+2026-06-13 17:47:17,658 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+2026-06-13 17:47:17,658 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_tiltwarnings_attract_1.yaml.
+2026-06-13 17:47:17,662 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_tiltwarnings_attract_1.yaml
+2026-06-13 17:47:17,662 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+2026-06-13 17:47:17,663 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_tv_staticbreath_1.yaml.
+2026-06-13 17:47:17,664 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_tv_staticbreath_1.yaml
+2026-06-13 17:47:17,665 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+2026-06-13 17:47:17,665 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_tv_staticfast_1.yaml.
+2026-06-13 17:47:17,667 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_tv_staticfast_1.yaml
+2026-06-13 17:47:17,667 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+2026-06-13 17:47:17,668 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_vari_red_1.yaml.
+2026-06-13 17:47:17,675 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_vari_red_1.yaml
+2026-06-13 17:47:17,675 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+2026-06-13 17:47:17,676 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_whitedrops_1.yaml.
+2026-06-13 17:47:17,686 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\shows\.\show_whitedrops_1.yaml
+2026-06-13 17:47:17,687 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+2026-06-13 17:47:17,688 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_10_5.yaml.
+2026-06-13 17:47:17,689 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_10_5.yaml
+2026-06-13 17:47:17,689 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+2026-06-13 17:47:17,690 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_15_11.yaml.
+2026-06-13 17:47:17,691 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_15_11.yaml
+2026-06-13 17:47:17,691 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+2026-06-13 17:47:17,692 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_4_0.yaml.
+2026-06-13 17:47:17,693 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_qual_4_0.yaml
+2026-06-13 17:47:17,693 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+2026-06-13 17:47:17,694 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_2.yaml.
+2026-06-13 17:47:17,697 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_2.yaml
+2026-06-13 17:47:17,697 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+2026-06-13 17:47:17,698 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_3.yaml.
+2026-06-13 17:47:17,699 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_3.yaml
+2026-06-13 17:47:17,700 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+2026-06-13 17:47:17,700 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_4.yaml.
+2026-06-13 17:47:17,701 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_4.yaml
+2026-06-13 17:47:17,702 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+2026-06-13 17:47:17,702 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_5.yaml.
+2026-06-13 17:47:17,703 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\resistance\shows\.\show_resistance_stage_5.yaml
+2026-06-13 17:47:17,704 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+2026-06-13 17:47:17,705 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-06-13 17:47:17,705 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-13-17-46-01-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-13-17-46-01-mpf-DESKTOP-HV85DRD.log'}
+2026-06-13 17:47:17,705 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-06-13 17:47:17,705 : INFO : Machine : Machine path: C:\Users\tl\Documents\tl-pinball
+2026-06-13 17:47:17,705 : INFO : Machine : Platform: win32
+2026-06-13 17:47:17,705 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-06-13 17:47:17,705 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2026-06-13 17:47:17,707 : INFO : Machine : Initializing MPF...
+2026-06-13 17:47:17,820 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-13 17:47:17,825 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-13 17:47:17,835 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-13 17:47:17,867 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2026-06-13 17:47:17,883 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-13 17:47:17,899 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-13 17:47:17,915 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2026-06-13 17:47:17,917 : INFO : FAST [EXP] : Trying to connect to COM5 at 921600bps
+2026-06-13 17:47:17,922 : INFO : FAST [EXP] : Connected to COM5 at 921600bps
+2026-06-13 17:47:17,930 : INFO : FAST [EXP] : Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+2026-06-13 17:47:17,946 : INFO : FAST [EXP] : Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+2026-06-13 17:47:40,047 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe... Interface]')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... Interface]')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 413, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 373, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 382, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\net_neuron.py", line 333, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "C:\mpf\Lib\site-packages\mpf\core\switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch 16 to state 1. platform: [FAST Platform Interface]
+2026-06-13 17:47:40,050 : INFO : Machine : Starting the main run loop with active modes: []
+2026-06-13 17:47:40,050 : ERROR : root : 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
