@@ -1,0 +1,24 @@
+2026-06-14 14:00:08,601 : INFO : root : Loading MPF Monitor Version 0.57.2
+2026-06-14 14:00:09,386 : INFO : Core : Looking for MPF at localhost:5051
+2026-06-14 14:02:02,029 : INFO : BCP Client : Connected to MPF.
+2026-06-14 14:51:17,393 : INFO : BCP Client : Connected to MPF.
+2026-06-14 15:33:56,770 : INFO : BCP Client : Connected to MPF.
+2026-06-14 15:46:25,947 : INFO : BCP Client : Connected to MPF.
+2026-06-14 15:50:38,923 : INFO : BCP Client : Connected to MPF.
+2026-06-14 15:56:31,477 : INFO : BCP Client : Connected to MPF.
+2026-06-14 16:19:40,965 : INFO : BCP Client : Connected to MPF.
+2026-06-14 16:28:23,304 : INFO : BCP Client : Connected to MPF.
+2026-06-14 16:49:52,196 : INFO : BCP Client : Connected to MPF.
+2026-06-14 16:54:30,987 : INFO : BCP Client : Connected to MPF.
+2026-06-14 17:00:48,097 : INFO : BCP Client : Connected to MPF.
+2026-06-14 17:21:54,760 : INFO : BCP Client : Connected to MPF.
+2026-06-14 17:28:44,916 : INFO : BCP Client : Connected to MPF.
+2026-06-14 17:39:21,827 : INFO : BCP Client : Connected to MPF.
+2026-06-14 17:50:02,643 : INFO : BCP Client : Connected to MPF.
+2026-06-14 18:17:09,681 : INFO : BCP Client : Connected to MPF.
+2026-06-14 18:26:48,273 : INFO : BCP Client : Connected to MPF.
+2026-06-14 18:33:40,213 : INFO : BCP Client : Connected to MPF.
+2026-06-14 18:34:12,166 : INFO : Core : Quitting due to quit on close
+2026-06-14 18:34:12,182 : INFO : root : MPF Monitor run loop ended.
+2026-06-14 18:34:12,184 : INFO : root : Stopping child threads... (1 remaining)
+2026-06-14 18:34:13,397 : INFO : root : All child threads stopped.

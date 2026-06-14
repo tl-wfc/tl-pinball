@@ -1,0 +1,25 @@
+#show_version=6
+
+- duration: 40ms
+  lights:
+    l_pf1_1_30: blue
+
+- duration: 20ms
+  lights:
+    l_pf1_1_30: off
+
+- duration: 40ms
+  lights:
+    l_pf1_1_30: blue
+
+- duration: 20ms
+  lights:
+    l_pf1_1_30: off
+
+- duration: 40ms
+  lights:
+    l_pf1_1_30: blue
+
+- duration: 20ms
+  lights:
+    l_pf1_1_30: off

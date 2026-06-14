@@ -1,0 +1,9 @@
+#show_version=6
+
+- duration: 250ms
+  lights:
+    (led): green
+
+- duration: 250ms
+  lights:
+    (led): off

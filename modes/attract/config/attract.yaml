@@ -1,8 +1,5 @@
 #config_version=6
 # modes/attract/config/attract.yaml
-# Attract mode that starts when the machine boots up, stops
-# whenever a game is started, and re-starts after the game ends.
-
 
 mode_settings:
   selectable_items:
@@ -12,13 +9,26 @@ mode_settings:
   previous_item_events: s_08_left_flipper_active
 
 slide_player:
-  mode_attract_started: 
+  mode_attract_started:
     attract:
       priority: 200
 
 event_player:
-  mode_attract_started: start_mode_attract_scores, start_mode_attract_credits
-  mode_attract_will_stop: stop_mode_attract_scores, stop_mode_attract_credits
+  mode_attract_started:
+    - start_mode_attract_scores
+    - start_mode_attract_credits
+    - attract_music_start
+
+  mode_attract_will_stop:
+    - stop_mode_attract_scores
+    - stop_mode_attract_credits
+    - attract_music_stop
+
+  timer_attract_music_on_timer_complete:
+    - attract_music_stop
+
+  s_08_left_flipper_active: attract_music_start
+  s_16_right_flipper_active: attract_music_start
 
 show_player:
   mode_attract_started:
@@ -32,9 +42,6 @@ show_player:
       loops: -1
       speed: 1.0
       priority: 200
-    # show_rightorbit_1:
-    #   loops: -1
-    #   priority: 200
     rainbow_pops_1:
       loops: -1
       priority: 300
@@ -68,25 +75,22 @@ show_player:
     show_gi_attract_1:
       loops: -1
       speed: 1.0
-    # show_cab_test_1:
-    #   loops: -1
-    #   speed: 1.0
     show_light_bar_attract_1:
       loops: -1
       speed: 1.0
 
-
-
 sound_player:
-  mode_attract_started:
+  attract_music_start:
     tl-m-Hysteria-smallintro:
+      action: play
       bus: music
       loops: -1
+      fade_in: 2s
 
-  mode_attract_will_stop:
+  attract_music_stop:
     tl-m-Hysteria-smallintro:
       action: stop
-
+      fade_out: 5s
 
 timers:
   attract_carousel_timer:
@@ -104,3 +108,17 @@ timers:
         action: stop
       - event: flipper_cradle_release
         action: restart
+
+  attract_music_on_timer:
+    start_value: 10   # change to 180 once tested
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: attract_music_start
+        action: restart
+      - event: attract_music_stop
+        action: stop
+      - event: mode_attract_will_stop
+        action: stop

@@ -1,0 +1,150 @@
+#config_version=6
+# modes/attract/config/attract.yaml
+# Attract mode that starts when the machine boots up, stops
+# whenever a game is started, and re-starts after the game ends.
+
+
+mode_settings:
+  selectable_items:
+    - title
+    - title2
+  next_item_events: s_16_right_flipper_active, timer_attract_carousel_timer_complete
+  previous_item_events: s_08_left_flipper_active
+
+slide_player:
+  mode_attract_started: 
+    attract:
+      priority: 200
+
+event_player:
+  mode_attract_started:
+    - start_mode_attract_scores
+    - start_mode_attract_credits
+    - attract_music_start
+
+  mode_attract_will_stop:
+    - stop_mode_attract_scores
+    - stop_mode_attract_credits
+    - attract_music_stop
+
+  timer_attract_music_on_timer_complete:
+    - attract_music_stop
+    - attract_music_on_timer_stop
+
+  s_08_left_flipper_active: attract_music_start
+  s_16_right_flipper_active: attract_music_start
+
+
+show_player:
+  mode_attract_started:
+    show_tv_staticbreath_1:
+      loops: -1
+      priority: 100
+    show_tv_staticfast_1:
+      loops: -1
+      priority: 100
+    show_fig8_attract_2:
+      loops: -1
+      speed: 1.0
+      priority: 200
+    # show_rightorbit_1:
+    #   loops: -1
+    #   priority: 200
+    rainbow_pops_1:
+      loops: -1
+      priority: 300
+    show_reel_1:
+      loops: -1
+      priority: 400
+    show_multi_attract_1:
+      loops: -1
+      priority: 500
+    show_modeinserts_sweep_green_1:
+      loops: -1
+      priority: 600
+    show_vari_red_1:
+      loops: -1
+      priority: 700
+    show_leftramp_attract_1:
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_shotgun_attract_1:
+      loops: -1
+      priority: 900
+    show_inlaneinserts_attract_1:
+      loops: -1
+      speed: 2.0
+      priority: 910
+    show_tiltwarnings_attract_1:
+      loops: -1
+      speed: 5.0
+      priority: 910
+    show_gi_attract_1:
+      loops: -1
+      speed: 1.0
+    # show_cab_test_1:
+    #   loops: -1
+    #   speed: 1.0
+    show_light_bar_attract_1:
+      loops: -1
+      speed: 1.0
+
+
+
+sound_player:
+  attract_music_start:
+    tl-m-Hysteria-smallintro:
+      action: replace
+      bus: music
+      loops: -1
+      fade_in: 2s
+      key: attract_music
+
+  attract_music_stop:
+    tl-m-Hysteria-smallintro:
+      action: stop
+      fade_out: 5s
+      key: attract_music
+  # mode_attract_started:
+  #   tl-m-Hysteria-smallintro:
+  #     bus: music
+  #     loops: -1
+
+  # mode_attract_will_stop:
+  #   tl-m-Hysteria-smallintro:
+  #     action: stop
+
+
+timers:
+  attract_carousel_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    control_events:
+      - event: timer_attract_carousel_timer_complete
+        action: restart
+      - event: s_16_right_flipper_active
+        action: restart
+      - event: s_08_left_flipper_active
+        action: restart
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: restart
+
+  attract_music_on_timer:
+    start_value: 10
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - event: attract_music_start
+        action: restart
+      - event: attract_music_stop
+        action: stop
+      - event: mode_attract_will_stop
+        action: stop
+      - event: attract_music_on_timer_stop
+        action: stop

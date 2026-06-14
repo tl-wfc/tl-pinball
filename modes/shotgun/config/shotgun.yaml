@@ -1053,6 +1053,7 @@ show_player:
     show_shotgunmode_active_1:
       key: shotgun_mode_active_show
       loops: -1
+      priority: 200
       speed: 1
 
   shotgun_lane_a_charged:
@@ -1060,6 +1061,7 @@ show_player:
       action: stop
     shotgun_lane_a_6hz:
       action: stop
+
 
   shotgun_lane_b_charged:
     shotgun_lane_b_2hz:
@@ -1071,6 +1073,7 @@ show_player:
     shotgun_flash_2hz:
       key: shotgun_lane_a_2hz
       loops: -1
+      priority: 200
       show_tokens:
         led1: l_pf1_2_30
         led2: l_pf1_2_29
@@ -1081,6 +1084,7 @@ show_player:
     shotgun_flash_6hz:
       key: shotgun_lane_a_6hz
       loops: -1
+      priority: 200
       show_tokens:
         led: l_pf1_2_29
 
@@ -1088,6 +1092,7 @@ show_player:
     shotgun_flash_2hz:
       key: shotgun_lane_b_2hz
       loops: -1
+      priority: 200
       show_tokens:
         led1: l_pf1_2_25
         led2: l_pf1_2_26
@@ -1098,6 +1103,7 @@ show_player:
     shotgun_flash_6hz:
       key: shotgun_lane_b_6hz
       loops: -1
+      priority: 200
       show_tokens:
         led: l_pf1_2_26
 
@@ -1129,24 +1135,29 @@ show_player:
     show_greendrops_1:
       loops: 0
       speed: 2.0
+      priority: 200
     shotgun_red_breathe:
       key: alien_first_breathe
       loops: -1
+      priority: 200
       show_tokens:
         led: l_pf1_2_28
 
   alien_second_part1_hit:
     show_greendrops_1:
       loops: 0
+      priority: 200
       speed: 2.5
 
   alien_second_final_hit:
     show_greendrops_1:
       loops: 0
+      priority: 200
       speed: 2.5
     shotgun_red_breathe:
       key: alien_second_breathe
       loops: -1
+      priority: 200
       show_tokens:
         led: l_pf1_2_27
 
@@ -1161,29 +1172,35 @@ show_player:
     show_shotgunmode_active_1:
       key: shotgun_mode_active_show
       loops: -1
+      priority: 200
       speed: 3
 
   alien_third_achieved:
     show_greendrops_1:
       loops: 2
+      priority: 200
       speed: 3.0
     show_reddrops_1:
       loops: 2
+      priority: 200
       speed: 3.0
 
   alien_first_failed:
     show_bluedrops_1:
       loops: 1
+      priority: 200
       speed: 3.0
   
   alien_second_failed:
     show_bluedrops_1:
       loops: 2
+      priority: 200
       speed: 3.0
 
   alien_third_failed:
     show_bluedrops_1:
       loops: 3
+      priority: 200
       speed: 3.0
 
   alien_third_cleanup:

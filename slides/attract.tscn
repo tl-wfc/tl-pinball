@@ -277,6 +277,7 @@ offset_bottom = 2152.0
 color = Color(0, 0, 0, 0.7372549)
 
 [node name="blockout zone" type="ColorRect" parent="." unique_id=1396228582]
+visible = false
 layout_mode = 0
 offset_left = -199.0
 offset_top = 1848.0
@@ -334,6 +335,7 @@ theme_override_font_sizes/font_size = 440
 text = "THEY LIVE"
 
 [node name="title2" type="Label" parent="MPFCarousel" unique_id=435043496]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 5.55
