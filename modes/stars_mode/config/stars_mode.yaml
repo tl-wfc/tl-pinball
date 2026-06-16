@@ -1,5 +1,5 @@
 #config_version=6
-# STARs Mode - qualify all ball, then 10x for 15s
+# STARs Mode - qualify all targets, then 10x spinner scoring for 30s
 
 mode:
   start_events: ball_started
@@ -26,7 +26,7 @@ timers:
 
   stars_10x_timer:
     start_value: 0
-    end_value: 15
+    end_value: 30
     tick_interval: 1s
     direction: up
     control_events:
@@ -83,13 +83,6 @@ event_player:
   stars_count_updated{current_player.stars_targets_lit_count == 6 and current_player.stars_10x_active == 0}: stars_10x_begin
 
   timer_stars_10x_timer_complete: stars_10x_end
-
-  s_40_stand_up_target_5_active{current_player.stars_10x_active == 1}: stars_10x_end
-  s_41_stand_up_target_6_active{current_player.stars_10x_active == 1}: stars_10x_end
-  s_42_stand_up_target_1_active{current_player.stars_10x_active == 1}: stars_10x_end
-  s_43_stand_up_target_4_active{current_player.stars_10x_active == 1}: stars_10x_end
-  s_63_stand_up_target_3_active{current_player.stars_10x_active == 1}: stars_10x_end
-  s_80_stand_up_target_2_active{current_player.stars_10x_active == 1}: stars_10x_end
 
   stars_10x_begin: stars_10x_started
   stars_10x_end: stars_10x_ended
@@ -176,7 +169,7 @@ show_player:
     show_stars_target_green_flash:
       key: stars_t42_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_3_7
 
@@ -184,19 +177,11 @@ show_player:
     stars_t42_green:
       action: stop
 
-  stars_t80_on_request:
-    show_stars_target_green_flash:
-      key: stars_t80_green
-      loops: -1
-      priority: 700
-      show_tokens:
-        led: l_pf1_3_25
-
   stars_s80_on_request:
     show_stars_target_green_flash:
       key: stars_s80_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_3_25
 
@@ -208,7 +193,7 @@ show_player:
     show_stars_target_green_flash:
       key: stars_t63_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_2_32
 
@@ -220,7 +205,7 @@ show_player:
     show_stars_target_green_flash:
       key: stars_t43_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_1_29
 
@@ -232,7 +217,7 @@ show_player:
     show_stars_target_green_flash:
       key: stars_t40_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_1_22
 
@@ -244,13 +229,19 @@ show_player:
     show_stars_target_green_flash:
       key: stars_t41_green
       loops: -1
-      priority: 700
+      priority: 10000
       show_tokens:
         led: l_pf1_1_21
 
   stars_t41_off:
     stars_t41_green:
       action: stop
+
+  stars_10x_begin:
+    show_stars_10x_spinner_green_circle:
+      key: stars_10x_spinner_green_circle
+      loops: -1
+      priority: 10000
 
   stars_10x_end:
     stars_t40_green:
@@ -265,6 +256,8 @@ show_player:
       action: stop
     stars_s80_green:
       action: stop
+    stars_10x_spinner_green_circle:
+      action: stop
 
   mode_stars_mode_stopping:
     stars_t40_green:
@@ -278,4 +271,6 @@ show_player:
     stars_t63_green:
       action: stop
     stars_s80_green:
+      action: stop
+    stars_10x_spinner_green_circle:
       action: stop

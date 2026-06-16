@@ -69,7 +69,7 @@ show_player:
     #show_koc_vocal_solo:
       loops: 1
       speed: 1.0
-      priority: 99
+      priority: 200
       key: koc__vocal_solo
 
 
@@ -110,11 +110,11 @@ show_player:
       priority: 85
       key: koc_vocal_layer
 
-    # show_koc_final_survive_overlay:
-    #   loops: 1
-    #   speed: 1.0
-    #   priority: 1500
-    #   key: koc_final_survive_overlay
+    show_koc_final_survive_overlay:
+      loops: 1
+      speed: 1.0
+      priority: 90
+      key: koc_final_survive_overlay
 
 
   s_38_star_rollover_bottom_active:

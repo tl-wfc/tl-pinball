@@ -1,0 +1,281 @@
+#config_version=6
+# STARs Mode - qualify all ball, then 10x for 15s
+
+mode:
+  start_events: ball_started
+  stop_events: ball_will_end
+  priority: 220
+
+config:
+  - stars_mode_points.yaml
+
+timers:
+
+  stars_s80_hold:
+    start_value: 0
+    end_value: 1
+    tick_interval: 2s
+    direction: up
+    control_events:
+      - event: stars_s80_hold_start
+        action: restart
+      - event: stars_s80_hold_stop
+        action: stop
+      - event: stars_s80_hold_reset
+        action: reset
+
+  stars_10x_timer:
+    start_value: 0
+    end_value: 15
+    tick_interval: 1s
+    direction: up
+    control_events:
+      - event: stars_10x_begin
+        action: restart
+      - event: stars_10x_end
+        action: stop
+      - event: stars_10x_reset
+        action: reset
+
+event_player:
+
+  s_40_stand_up_target_5_active{current_player.stars_t40 == 0}: stars_t40_on
+  s_40_stand_up_target_5_active{current_player.stars_t40 == 1}: stars_t40_off
+
+  s_41_stand_up_target_6_active{current_player.stars_t41 == 0}: stars_t41_on
+  s_41_stand_up_target_6_active{current_player.stars_t41 == 1}: stars_t41_off
+
+  s_42_stand_up_target_1_active{current_player.stars_t42 == 0}: stars_t42_on
+  s_42_stand_up_target_1_active{current_player.stars_t42 == 1}: stars_t42_off
+
+  s_43_stand_up_target_4_active{current_player.stars_t43 == 0}: stars_t43_on
+  s_43_stand_up_target_4_active{current_player.stars_t43 == 1}: stars_t43_off
+
+  s_63_stand_up_target_3_active{current_player.stars_t63 == 0}: stars_t63_on
+  s_63_stand_up_target_3_active{current_player.stars_t63 == 1}: stars_t63_off
+
+  s_80_stand_up_target_2_active{current_player.stars_s80_on == 0}: stars_s80_on_request
+  s_80_stand_up_target_2_active{current_player.stars_s80_on == 1}: stars_s80_off
+
+  stars_s80_on_request: stars_s80_hold_start, stars_monitor_s80_pending
+  stars_s80_off: stars_s80_hold_stop, stars_s80_hold_reset, stars_monitor_s80_off
+
+  timer_stars_s80_hold_complete{current_player.stars_s80_on == 1 and current_player.stars_s80_qualified == 0}:
+    stars_s80_qualified_on, stars_monitor_s80_on
+
+  stars_t40_on: stars_count_updated, stars_monitor_t40_on
+  stars_t40_off: stars_count_updated, stars_monitor_t40_off
+
+  stars_t41_on: stars_count_updated, stars_monitor_t41_on
+  stars_t41_off: stars_count_updated, stars_monitor_t41_off
+
+  stars_t42_on: stars_count_updated, stars_monitor_t42_on
+  stars_t42_off: stars_count_updated, stars_monitor_t42_off
+
+  stars_t43_on: stars_count_updated, stars_monitor_t43_on
+  stars_t43_off: stars_count_updated, stars_monitor_t43_off
+
+  stars_t63_on: stars_count_updated, stars_monitor_t63_on
+  stars_t63_off: stars_count_updated, stars_monitor_t63_off
+
+  stars_s80_qualified_on: stars_count_updated
+
+  stars_count_updated{current_player.stars_targets_lit_count == 6 and current_player.stars_10x_active == 0}: stars_10x_begin
+
+  timer_stars_10x_timer_complete: stars_10x_end
+
+  s_40_stand_up_target_5_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_41_stand_up_target_6_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_42_stand_up_target_1_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_43_stand_up_target_4_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_63_stand_up_target_3_active{current_player.stars_10x_active == 1}: stars_10x_end
+  s_80_stand_up_target_2_active{current_player.stars_10x_active == 1}: stars_10x_end
+
+  stars_10x_begin: stars_10x_started
+  stars_10x_end: stars_10x_ended
+
+variable_player:
+
+  mode_stars_mode_started:
+    stars_t40: {action: set, int: 0}
+    stars_t41: {action: set, int: 0}
+    stars_t42: {action: set, int: 0}
+    stars_t43: {action: set, int: 0}
+    stars_t63: {action: set, int: 0}
+    stars_s80_on: {action: set, int: 0}
+    stars_s80_qualified: {action: set, int: 0}
+    stars_targets_lit_count: {action: set, int: 0}
+    stars_10x_active: {action: set, int: 0}
+
+  stars_t40_on:
+    stars_t40: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t40_off:
+    stars_t40: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t41_on:
+    stars_t41: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t41_off:
+    stars_t41: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t42_on:
+    stars_t42: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t42_off:
+    stars_t42: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t43_on:
+    stars_t43: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t43_off:
+    stars_t43: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_t63_on:
+    stars_t63: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+  stars_t63_off:
+    stars_t63: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_s80_on_request:
+    stars_s80_on: {action: set, int: 1}
+
+  stars_s80_qualified_on:
+    stars_s80_qualified: {action: set, int: 1}
+    stars_targets_lit_count: {action: add, int: 1}
+
+  stars_s80_off{current_player.stars_s80_qualified == 1}:
+    stars_s80_qualified: {action: set, int: 0}
+    stars_targets_lit_count: {action: add, int: -1}
+
+  stars_s80_off:
+    stars_s80_on: {action: set, int: 0}
+
+  stars_10x_begin:
+    stars_10x_active: {action: set, int: 1}
+
+  stars_10x_end:
+    stars_10x_active: {action: set, int: 0}
+    stars_t40: {action: set, int: 0}
+    stars_t41: {action: set, int: 0}
+    stars_t42: {action: set, int: 0}
+    stars_t43: {action: set, int: 0}
+    stars_t63: {action: set, int: 0}
+    stars_s80_on: {action: set, int: 0}
+    stars_s80_qualified: {action: set, int: 0}
+    stars_targets_lit_count: {action: set, int: 0}
+
+show_player:
+
+  stars_t42_on:
+    show_stars_target_green_flash:
+      key: stars_t42_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_3_7
+
+  stars_t42_off:
+    stars_t42_green:
+      action: stop
+
+  # stars_t80_on_request:
+  #   show_stars_target_green_flash:
+  #     key: stars_t80_green
+  #     loops: -1
+  #     priority: 2500
+  #     show_tokens:
+  #       led: l_pf1_3_25
+
+  stars_s80_on_request:
+    show_stars_target_green_flash:
+      key: stars_s80_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_3_25
+
+  stars_s80_off:
+    stars_s80_green:
+      action: stop
+
+  stars_t63_on:
+    show_stars_target_green_flash:
+      key: stars_t63_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_2_32
+
+  stars_t63_off:
+    stars_t63_green:
+      action: stop
+
+  stars_t43_on:
+    show_stars_target_green_flash:
+      key: stars_t43_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_1_29
+
+  stars_t43_off:
+    stars_t43_green:
+      action: stop
+
+  stars_t40_on:
+    show_stars_target_green_flash:
+      key: stars_t40_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_1_22
+
+  stars_t40_off:
+    stars_t40_green:
+      action: stop
+
+  stars_t41_on:
+    show_stars_target_green_flash:
+      key: stars_t41_green
+      loops: -1
+      priority: 2500
+      show_tokens:
+        led: l_pf1_1_21
+
+  stars_t41_off:
+    stars_t41_green:
+      action: stop
+
+  stars_10x_end:
+    stars_t40_green:
+      action: stop
+    stars_t41_green:
+      action: stop
+    stars_t42_green:
+      action: stop
+    stars_t43_green:
+      action: stop
+    stars_t63_green:
+      action: stop
+    stars_s80_green:
+      action: stop
+
+  mode_stars_mode_stopping:
+    stars_t40_green:
+      action: stop
+    stars_t41_green:
+      action: stop
+    stars_t42_green:
+      action: stop
+    stars_t43_green:
+      action: stop
+    stars_t63_green:
+      action: stop
+    stars_s80_green:
+      action: stop

@@ -1,0 +1,84 @@
+#config_version=6
+
+mode:
+  start_events: brain_rot_start
+  stop_events: brain_rot_complete, brain_rot_failed, ball_will_end
+  priority: 700
+
+random_event_player:
+  mode_brain_rot_started:
+    events:
+      - godot_brain_rot_video_1
+      - godot_brain_rot_video_2
+      - godot_brain_rot_video_3
+      - godot_brain_rot_video_4
+
+shots:
+  brain_rot_shot_1:
+    switches: s_71_spinner_left
+
+  brain_rot_shot_2:
+    switches: s_71_spinner_left
+
+  brain_rot_shot_3:
+    switches: s_71_spinner_left
+
+  brain_rot_shot_4:
+    switches: s_71_spinner_left
+
+counters:
+  brain_rot_hit_counter:
+    starting_count: 0
+    count_complete_value: 10
+    direction: up
+    count_events:
+      - brain_rot_shot_1_hit
+      - brain_rot_shot_2_hit
+      - brain_rot_shot_3_hit
+      - brain_rot_shot_4_hit
+    events_when_complete: brain_rot_complete
+    reset_events: mode_brain_rot_started
+
+timers:
+  brain_rot_timer:
+    start_value: 30
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: brain_rot_start
+        action: restart
+      - event: brain_rot_complete
+        action: stop
+      - event: ball_will_end
+        action: stop
+
+
+
+variable_player:
+  brain_rot_shot_1_hit:
+    score: 50000
+
+  brain_rot_shot_2_hit:
+    score: 50000
+
+  brain_rot_shot_3_hit:
+    score: 50000
+
+  brain_rot_shot_4_hit:
+    score: 50000
+
+  brain_rot_complete:
+    score: 1000000
+
+event_player:
+  mode_brain_rot_started:
+    - godot_brain_rot_started
+
+  brain_rot_complete:
+    - godot_brain_rot_complete
+
+  brain_rot_failed:
+    - godot_brain_rot_failed
+  timer_brain_rot_timer_complete:
+    - brain_rot_failed

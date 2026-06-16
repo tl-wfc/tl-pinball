@@ -1,0 +1,139 @@
+#show_version=6
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '66FF00'
+    l_pf1_2_17: '66FF00'
+    l_pf1_2_18: '66FF00'
+    l_pf1_2_19: '000000'
+    l_pf1_2_20: '000000'
+    l_pf1_2_21: '000000'
+
+    # Left spinner
+    l_pf1_3_29: '66FF00'
+    l_pf1_3_30: '66FF00'
+    l_pf1_3_31: '66FF00'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
+
+    # 10x insert triangle
+    l_pf1_4_16: '66FF00'
+    l_pf1_4_17: '000000'
+    l_pf1_4_18: '000000'
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '000000'
+    l_pf1_2_17: '66FF00'
+    l_pf1_2_18: '66FF00'
+    l_pf1_2_19: '66FF00'
+    l_pf1_2_20: '000000'
+    l_pf1_2_21: '000000'
+
+    # Left spinner
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '66FF00'
+    l_pf1_3_31: '66FF00'
+    l_pf1_3_26: '66FF00'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '000000'
+
+    # 10x insert triangle
+    l_pf1_4_16: '66FF00'
+    l_pf1_4_17: '66FF00'
+    l_pf1_4_18: '000000'
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '000000'
+    l_pf1_2_17: '000000'
+    l_pf1_2_18: '66FF00'
+    l_pf1_2_19: '66FF00'
+    l_pf1_2_20: '66FF00'
+    l_pf1_2_21: '000000'
+
+    # Left spinner
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '66FF00'
+    l_pf1_3_26: '66FF00'
+    l_pf1_3_27: '66FF00'
+    l_pf1_3_28: '000000'
+
+    # 10x insert triangle
+    l_pf1_4_16: '66FF00'
+    l_pf1_4_17: '66FF00'
+    l_pf1_4_18: '66FF00'
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '000000'
+    l_pf1_2_17: '000000'
+    l_pf1_2_18: '000000'
+    l_pf1_2_19: '66FF00'
+    l_pf1_2_20: '66FF00'
+    l_pf1_2_21: '66FF00'
+
+    # Left spinner
+    l_pf1_3_29: '000000'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '66FF00'
+    l_pf1_3_27: '66FF00'
+    l_pf1_3_28: '66FF00'
+
+    # 10x insert triangle
+    l_pf1_4_16: '000000'
+    l_pf1_4_17: '66FF00'
+    l_pf1_4_18: '66FF00'
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '66FF00'
+    l_pf1_2_17: '000000'
+    l_pf1_2_18: '000000'
+    l_pf1_2_19: '000000'
+    l_pf1_2_20: '66FF00'
+    l_pf1_2_21: '66FF00'
+
+    # Left spinner
+    l_pf1_3_29: '66FF00'
+    l_pf1_3_30: '000000'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '66FF00'
+    l_pf1_3_28: '66FF00'
+
+    # 10x insert triangle
+    l_pf1_4_16: '000000'
+    l_pf1_4_17: '000000'
+    l_pf1_4_18: '66FF00'
+
+- duration: 40ms
+  lights:
+    # Right spinner
+    l_pf1_2_16: '66FF00'
+    l_pf1_2_17: '66FF00'
+    l_pf1_2_18: '000000'
+    l_pf1_2_19: '000000'
+    l_pf1_2_20: '000000'
+    l_pf1_2_21: '66FF00'
+
+    # Left spinner
+    l_pf1_3_29: '66FF00'
+    l_pf1_3_30: '66FF00'
+    l_pf1_3_31: '000000'
+    l_pf1_3_26: '000000'
+    l_pf1_3_27: '000000'
+    l_pf1_3_28: '66FF00'
+
+    # 10x insert triangle
+    l_pf1_4_16: '66FF00'
+    l_pf1_4_17: '000000'
+    l_pf1_4_18: '66FF00'
