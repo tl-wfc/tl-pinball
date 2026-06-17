@@ -7,3 +7,7 @@
 2026-06-16 12:15:34,147 : INFO : BCP Client : Connected to MPF.
 2026-06-16 12:27:04,458 : INFO : BCP Client : Connected to MPF.
 2026-06-16 12:36:41,603 : INFO : BCP Client : Connected to MPF.
+2026-06-16 15:17:19,900 : INFO : Core : Quitting due to quit on close
+2026-06-16 15:17:19,908 : INFO : root : MPF Monitor run loop ended.
+2026-06-16 15:17:19,908 : INFO : root : Stopping child threads... (1 remaining)
+2026-06-16 15:17:20,113 : INFO : root : All child threads stopped.

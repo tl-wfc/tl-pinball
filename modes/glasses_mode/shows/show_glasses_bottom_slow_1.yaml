@@ -1,0 +1,14 @@
+#show_version=6
+# Slow green/purple fade for bottom glasses LEDs.
+
+- duration: 1s
+  lights:
+    l_pf1_1_9: 00FF00
+    l_pf1_1_10: 00FF00
+    l_pf1_1_11: 00FF00
+
+- duration: 1s
+  lights:
+    l_pf1_1_9: 8000FF
+    l_pf1_1_10: 8000FF
+    l_pf1_1_11: 8000FF

@@ -10,6 +10,7 @@ modes:
     - attract_credits
     #- service
     - base
+    - glasses_mode
     - resistance
     - manual_ball_search
     - shotgun

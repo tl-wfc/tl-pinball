@@ -1,0 +1,545 @@
+#config_version=6
+# modes/glasses_mode/config/glasses_mode.yaml
+#
+# GLASSES MODE
+# Vari-target driven UV/glasses state machine.
+
+mode:
+  start_events: mode_base_started
+  stop_events: mode_base_stopping
+  priority: 800
+
+timers:
+
+  glasses_position_confirm:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 1s
+    control_events:
+      - event: glasses_position_confirm_restart
+        action: restart
+      - event: glasses_position_confirm_stop
+        action: stop
+      - event: glasses_position_confirm_reset
+        action: reset
+      - event: mode_glasses_mode_stopping
+        action: stop
+
+  glasses_state_timer:
+    start_value: 0
+    end_value: 10
+    direction: up
+    tick_interval: 1s
+    control_events:
+      - event: glasses_state_timer_restart
+        action: restart
+      - event: glasses_state_timer_stop
+        action: stop
+      - event: mode_glasses_mode_stopping
+        action: stop
+
+  glasses_home_pulse_timer:
+    start_value: 0
+    end_value: 10
+    direction: up
+    tick_interval: 200ms
+    control_events:
+      - event: glasses_home_pulse_timer_restart
+        action: restart
+      - event: glasses_home_pulse_timer_stop
+        action: stop
+      - event: mode_glasses_mode_stopping
+        action: stop
+
+
+event_player:
+
+  mode_glasses_mode_started:
+    - glasses_mode_loaded
+    - glasses_stop_all_shows
+    - glasses_init_vars
+
+  mode_glasses_mode_stopping:
+    - glasses_stop_all_shows
+    - glasses_position_confirm_stop
+    - glasses_state_timer_stop
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+
+  # ---------------------------------------------------------------------------
+  # RAW VARI-TARGET SWITCHES -> PENDING POSITION -> 1s CONFIRM TIMER
+  # Do NOT cancel this timer on inactive, because the vari-target is rough.
+  # ---------------------------------------------------------------------------
+
+  s_64_varitarget_position_1_active: glasses_pending_position_1
+  s_65_varitarget_position_2_active: glasses_pending_position_2
+  s_66_varitarget_position_3_active: glasses_pending_position_3
+  s_67_varitarget_position_4_active: glasses_pending_position_4
+  s_68_varitarget_position_5_active: glasses_pending_position_5
+  s_69_varitarget_position_6_active: glasses_pending_position_6
+  s_70_varitarget_position_7_active: glasses_pending_position_7
+
+  glasses_pending_position_1: glasses_position_confirm_restart
+  glasses_pending_position_2: glasses_position_confirm_restart
+  glasses_pending_position_3: glasses_position_confirm_restart
+  glasses_pending_position_4: glasses_position_confirm_restart
+  glasses_pending_position_5: glasses_position_confirm_restart
+  glasses_pending_position_6: glasses_position_confirm_restart
+  glasses_pending_position_7: glasses_position_confirm_restart
+
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 1}: varitarget_position_1_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 2}: varitarget_position_2_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 3}: varitarget_position_3_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 4}: varitarget_position_4_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 5}: varitarget_position_5_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 6}: varitarget_position_6_confirmed
+  timer_glasses_position_confirm_complete{current_player.glasses_pending_position == 7}: varitarget_position_7_confirmed
+
+  # ---------------------------------------------------------------------------
+  # HOMING INTERRUPTION / SUCCESS EVENTS
+  # ---------------------------------------------------------------------------
+
+  varitarget_position_1_confirmed{current_player.glasses_homing_active == 1}: varitarget_home_success
+
+  varitarget_position_2_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 2}: varitarget_home_interrupted
+  varitarget_position_3_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 3}: varitarget_home_interrupted
+  varitarget_position_4_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 4}: varitarget_home_interrupted
+  varitarget_position_5_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 5}: varitarget_home_interrupted
+  varitarget_position_6_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 6}: varitarget_home_interrupted
+  varitarget_position_7_confirmed{current_player.glasses_homing_active == 1 and current_player.glasses_home_start_pos < 7}: varitarget_home_interrupted
+
+  varitarget_home_success:
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+
+  varitarget_home_interrupted:
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+
+  # ---------------------------------------------------------------------------
+  # CONFIRMED POSITION EVENTS -> STATE ENTRY
+  # ---------------------------------------------------------------------------
+
+  varitarget_position_1_confirmed:
+    - glasses_enter_state_1
+
+  varitarget_position_2_confirmed:
+    - glasses_enter_state_2
+
+  varitarget_position_3_confirmed:
+    - glasses_enter_state_3
+
+  varitarget_position_4_confirmed:
+    - glasses_enter_state_4
+
+  varitarget_position_5_confirmed:
+    - glasses_enter_state_5
+
+  varitarget_position_6_confirmed:
+    - glasses_enter_state_6
+
+  varitarget_position_7_confirmed:
+    - glasses_enter_state_7
+
+  # ---------------------------------------------------------------------------
+  # STATE ENTRY
+  # Cleanup happens first, then separate start events fire the shows.
+  # ---------------------------------------------------------------------------
+
+  glasses_enter_state_1:
+    - glasses_stop_all_shows
+    - glasses_state_timer_stop
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+
+  glasses_enter_state_2:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_2
+
+  glasses_enter_state_3:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_3
+
+  glasses_enter_state_4:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_4
+
+  glasses_enter_state_5:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_5
+
+  glasses_enter_state_6:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_6
+
+  glasses_enter_state_7:
+    - glasses_stop_all_shows
+    - glasses_state_timer_restart
+    - glasses_home_pulse_timer_stop
+    - glasses_homing_cancel
+    - glasses_start_state_7
+
+  # ---------------------------------------------------------------------------
+  # 10 SECOND STATE COMPLETION -> HOMING
+  # ---------------------------------------------------------------------------
+
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 2}: varitarget_position_2_complete
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 3}: varitarget_position_3_complete
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 4}: varitarget_position_4_complete
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 5}: varitarget_position_5_complete
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 6}: varitarget_position_6_complete
+  timer_glasses_state_timer_complete{current_player.glasses_current_state == 7}: varitarget_position_7_complete
+
+  varitarget_position_2_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  varitarget_position_3_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  varitarget_position_4_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  varitarget_position_5_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  varitarget_position_6_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  varitarget_position_7_complete:
+    - glasses_stop_all_shows
+    - varitarget_homing
+
+  # ---------------------------------------------------------------------------
+  # HOMING COMMAND
+  # ---------------------------------------------------------------------------
+
+  varitarget_homing:
+    - glasses_stop_all_shows
+    - glasses_state_timer_stop
+    - glasses_homing_setup
+    - glasses_home_pulse_timer_restart
+
+  timer_glasses_home_pulse_timer_tick{current_player.glasses_homing_active == 1 and current_player.glasses_home_pulse_count < 10}:
+    - glasses_home_pulse
+
+  timer_glasses_home_pulse_timer_complete{current_player.glasses_homing_active == 1}:
+    - glasses_home_pulse_timer_stop
+    - varitarget_homing_failed
+
+  varitarget_homing_failed:
+    - glasses_homing_cancel
+
+
+variable_player:
+
+  glasses_init_vars:
+    glasses_current_state: {action: set, int: 1}
+    glasses_homing_active: {action: set, int: 0}
+    glasses_home_start_pos: {action: set, int: 1}
+    glasses_pending_position: {action: set, int: 1}
+    glasses_confirmed_position: {action: set, int: 1}
+    glasses_home_pulse_count: {action: set, int: 0}
+
+  glasses_pending_position_1:
+    glasses_pending_position: {action: set, int: 1}
+
+  glasses_pending_position_2:
+    glasses_pending_position: {action: set, int: 2}
+
+  glasses_pending_position_3:
+    glasses_pending_position: {action: set, int: 3}
+
+  glasses_pending_position_4:
+    glasses_pending_position: {action: set, int: 4}
+
+  glasses_pending_position_5:
+    glasses_pending_position: {action: set, int: 5}
+
+  glasses_pending_position_6:
+    glasses_pending_position: {action: set, int: 6}
+
+  glasses_pending_position_7:
+    glasses_pending_position: {action: set, int: 7}
+
+  glasses_enter_state_1:
+    glasses_current_state: {action: set, int: 1}
+    glasses_confirmed_position: {action: set, int: 1}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_2:
+    glasses_current_state: {action: set, int: 2}
+    glasses_confirmed_position: {action: set, int: 2}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_3:
+    glasses_current_state: {action: set, int: 3}
+    glasses_confirmed_position: {action: set, int: 3}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_4:
+    glasses_current_state: {action: set, int: 4}
+    glasses_confirmed_position: {action: set, int: 4}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_5:
+    glasses_current_state: {action: set, int: 5}
+    glasses_confirmed_position: {action: set, int: 5}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_6:
+    glasses_current_state: {action: set, int: 6}
+    glasses_confirmed_position: {action: set, int: 6}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_enter_state_7:
+    glasses_current_state: {action: set, int: 7}
+    glasses_confirmed_position: {action: set, int: 7}
+    glasses_homing_active: {action: set, int: 0}
+
+  glasses_homing_setup:
+    glasses_current_state: {action: set, int: 0}
+    glasses_homing_active: {action: set, int: 1}
+    glasses_home_pulse_count: {action: set, int: 0}
+    glasses_home_start_pos: {action: set, int: current_player.glasses_confirmed_position}
+
+  glasses_home_pulse:
+    glasses_home_pulse_count: {action: add, int: 1}
+
+  glasses_homing_cancel:
+    glasses_homing_active: {action: set, int: 0}
+
+
+coil_player:
+
+  glasses_home_pulse:
+    c_16_varitarget_reset:
+      action: pulse
+
+
+show_player:
+
+  glasses_stop_all_shows:
+    glasses_bottom_fast:
+      action: stop
+    glasses_bottom_slow:
+      action: stop
+    glasses_mid_fast:
+      action: stop
+    glasses_mid_slow:
+      action: stop
+    glasses_top_fast:
+      action: stop
+    glasses_top_slow:
+      action: stop
+    glasses_all:
+      action: stop
+    uv_slings:
+      action: stop
+    uv_drops:
+      action: stop
+    uv_pop_left:
+      action: stop
+    uv_top_left:
+      action: stop
+    uv_top_right:
+      action: stop
+    uv_mid_pop:
+      action: stop
+
+  glasses_start_state_2:
+    show_glasses_bottom_fast_1:
+      key: glasses_bottom_fast
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+
+  glasses_start_state_3:
+    show_glasses_bottom_slow_1:
+      key: glasses_bottom_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_mid_fast_1:
+      key: glasses_mid_fast
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_drops_1:
+      key: uv_drops
+      loops: -1
+      speed: 1.0
+      priority: 800
+
+  glasses_start_state_4:
+    show_glasses_bottom_slow_1:
+      key: glasses_bottom_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_mid_slow_1:
+      key: glasses_mid_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_drops_1:
+      key: uv_drops
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_pop_left_1:
+      key: uv_pop_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+
+  glasses_start_state_5:
+    show_glasses_bottom_slow_1:
+      key: glasses_bottom_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_mid_slow_1:
+      key: glasses_mid_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_top_fast_1:
+      key: glasses_top_fast
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_drops_1:
+      key: uv_drops
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_pop_left_1:
+      key: uv_pop_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_top_left_1:
+      key: uv_top_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+
+  glasses_start_state_6:
+    show_glasses_bottom_slow_1:
+      key: glasses_bottom_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_mid_slow_1:
+      key: glasses_mid_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_glasses_top_slow_1:
+      key: glasses_top_slow
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_drops_1:
+      key: uv_drops
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_pop_left_1:
+      key: uv_pop_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_top_left_1:
+      key: uv_top_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_top_right_1:
+      key: uv_top_right
+      loops: -1
+      speed: 1.0
+      priority: 800
+
+  glasses_start_state_7:
+    show_glasses_all_1:
+      key: glasses_all
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_slings_1:
+      key: uv_slings
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_drops_1:
+      key: uv_drops
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_pop_left_1:
+      key: uv_pop_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_top_left_1:
+      key: uv_top_left
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_top_right_1:
+      key: uv_top_right
+      loops: -1
+      speed: 1.0
+      priority: 800
+    show_uvleds_mid_pop_1:
+      key: uv_mid_pop
+      loops: -1
+      speed: 1.0
+      priority: 800

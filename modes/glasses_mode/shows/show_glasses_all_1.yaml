@@ -1,0 +1,56 @@
+#show_version=6
+# State 7 glasses sweep. Bottom, then middle, then top.
+
+- duration: 700ms
+  lights:
+    l_pf1_1_9: 00FF00
+    l_pf1_1_10: 00FF00
+    l_pf1_1_11: 00FF00
+    l_pf1_1_12: off
+    l_pf1_1_13: off
+    l_pf1_1_14: off
+    l_pf1_1_15: off
+    l_pf1_1_16: off
+    l_pf1_1_17: off
+
+- duration: 700ms
+  lights:
+    l_pf1_1_9: 8000FF
+    l_pf1_1_10: 8000FF
+    l_pf1_1_11: 8000FF
+
+- duration: 700ms
+  lights:
+    l_pf1_1_9: off
+    l_pf1_1_10: off
+    l_pf1_1_11: off
+    l_pf1_1_12: 00FF00
+    l_pf1_1_13: 00FF00
+    l_pf1_1_14: 00FF00
+
+- duration: 700ms
+  lights:
+    l_pf1_1_12: 8000FF
+    l_pf1_1_13: 8000FF
+    l_pf1_1_14: 8000FF
+
+- duration: 700ms
+  lights:
+    l_pf1_1_12: off
+    l_pf1_1_13: off
+    l_pf1_1_14: off
+    l_pf1_1_15: 00FF00
+    l_pf1_1_16: 00FF00
+    l_pf1_1_17: 00FF00
+
+- duration: 700ms
+  lights:
+    l_pf1_1_15: 8000FF
+    l_pf1_1_16: 8000FF
+    l_pf1_1_17: 8000FF
+
+- duration: 200ms
+  lights:
+    l_pf1_1_15: off
+    l_pf1_1_16: off
+    l_pf1_1_17: off

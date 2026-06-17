@@ -1,0 +1,14 @@
+#show_version=6
+# Fast green/purple fade for top glasses LEDs.
+
+- duration: 500ms
+  lights:
+    l_pf1_1_15: 00FF00
+    l_pf1_1_16: 00FF00
+    l_pf1_1_17: 00FF00
+
+- duration: 500ms
+  lights:
+    l_pf1_1_15: 8000FF
+    l_pf1_1_16: 8000FF
+    l_pf1_1_17: 8000FF

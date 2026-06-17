@@ -1,0 +1,8 @@
+#show_version=6
+# Static red UV LED group. Run with loops: -1 and stop by key.
+
+- duration: 1s
+  lights:
+    l_pf2_1_15: red
+    l_pf2_1_16: red
+    l_pf2_1_17: red

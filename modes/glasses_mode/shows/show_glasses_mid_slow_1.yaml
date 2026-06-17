@@ -1,0 +1,14 @@
+#show_version=6
+# Slow green/purple fade for middle glasses LEDs.
+
+- duration: 1s
+  lights:
+    l_pf1_1_12: 00FF00
+    l_pf1_1_13: 00FF00
+    l_pf1_1_14: 00FF00
+
+- duration: 1s
+  lights:
+    l_pf1_1_12: 8000FF
+    l_pf1_1_13: 8000FF
+    l_pf1_1_14: 8000FF

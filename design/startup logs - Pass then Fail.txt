@@ -1,0 +1,1387 @@
+
+MPF environment activated.
+Now in tl-pinball folder.
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:18:02.762 : INFO [root] Loading config.
+15:18:02.766 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:18:02.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:18:02.859 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:18:02.859 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:18:02.860 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:18:02.861 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:18:02.862 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:18:02.862 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:18:02.863 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:18:02.864 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:18:02.865 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:18:02.866 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:18:02.867 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:18:02.867 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:18:02.868 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:18:02.869 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:18:02.870 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:18:02.871 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:18:02.872 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:18:02.872 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:18:02.873 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:18:02.874 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:18:02.876 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:18:02.877 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:18:02.878 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:18:02.879 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:18:02.886 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:18:02.887 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:18:02.888 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:18:02.894 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:18:02.894 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:18:02.896 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:18:02.896 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:18:02.897 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:18:02.903 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:18:02.904 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:18:02.905 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:18:02.906 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:18:02.910 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:18:02.919 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:18:02.925 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:18:02.931 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:18:02.932 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:18:02.938 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:18:02.950 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:18:02.956 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:18:02.960 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:18:03.009 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:18:03.112 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:18:03.237 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:18:03.308 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:18:03.492 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:18:03.532 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:18:03.546 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:18:03.551 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:18:03.552 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:18:03.553 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:18:03.553 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:18:03.554 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:18:03.555 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:18:03.646 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:18:03.662 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:18:03.663 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:18:03.766 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:18:03.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:18:03.769 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:18:03.770 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:18:03.770 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:18:03.771 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:18:03.771 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:18:03.772 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:18:03.774 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:18:03.774 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:18:03.775 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:18:03.776 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:18:03.777 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:18:03.777 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:18:03.778 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:18:03.779 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:18:03.804 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:18:03.805 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:18:03.806 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:18:03.806 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:18:03.807 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:18:03.808 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:18:03.809 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:18:03.810 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:18:03.811 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:18:03.811 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:18:03.812 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:18:03.812 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:18:03.813 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:18:03.813 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:18:03.815 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:18:03.816 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:18:03.817 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:18:03.817 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-18-02-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-18-02-mpf-DESKTOP-HV85DRD.log'}
+15:18:03.817 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:18:03.817 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:18:03.817 : INFO [Machine] Platform: win32
+15:18:03.817 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:18:03.817 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:18:03.819 : INFO [Machine] Initializing MPF...
+15:18:03.987 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:18:03.991 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:18:03.999 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:18:04.030 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:18:04.046 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:18:04.062 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:18:04.078 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:18:04.081 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:18:04.086 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:18:04.094 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:18:04.110 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:18:04.142 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:18:04.157 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:18:04.173 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:18:04.205 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+15:18:04.221 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+15:18:04.237 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+15:18:04.253 : INFO [EventManager] Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+15:18:04.277 : INFO [EventManager] Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+15:18:04.277 : INFO [EventManager] Event: ======'machine_var_player1_score'====== Args={'value': 16952098, 'prev_value': None, 'change': True}
+15:18:04.278 : INFO [EventManager] Event: ======'machine_var_last_game_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+15:18:04.278 : INFO [EventManager] Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+15:18:04.278 : INFO [EventManager] Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+15:18:04.278 : INFO [EventManager] Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-18-02-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+15:18:04.306 : INFO [EventManager] Event: ======'init_phase_1'====== Args={}
+15:18:04.450 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+15:18:04.450 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_24_trough_1' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_38_star_rollover_bottom' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_44_spinner_right' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_71_spinner_left' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_72_single_drop_1' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+15:18:06.880 : INFO [SwitchController] <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+15:18:06.881 : INFO [SwitchController] <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+15:18:06.881 : INFO [SwitchController] <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+15:18:06.881 : INFO [SwitchController] <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+15:18:06.962 : INFO [EventManager] Event: ======'init_phase_2'====== Args={}
+15:18:06.963 : INFO [SwitchController] Found active switch: (40, [FAST Platform Interface]) <switch.s_24_trough_1>
+15:18:06.963 : INFO [SwitchController] Found active switch: (54, [FAST Platform Interface]) <switch.s_38_star_rollover_bottom>
+15:18:06.963 : INFO [SwitchController] Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+15:18:06.963 : INFO [SwitchController] Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+15:18:06.963 : INFO [SwitchController] Found active switch: (72, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+15:18:06.963 : INFO [SwitchController] Found active switch: (73, [FAST Platform Interface]) <switch.s_73_fourbank_drop_1>
+15:18:06.963 : INFO [SwitchController] Found active switch: (74, [FAST Platform Interface]) <switch.s_74_fourbank_drop_2>
+15:18:06.963 : INFO [SwitchController] Found active switch: (75, [FAST Platform Interface]) <switch.s_75_fourbank_drop_3>
+15:18:06.964 : INFO [SwitchController] Found active switch: (76, [FAST Platform Interface]) <switch.s_76_fourbank_drop_4>
+15:18:06.964 : INFO [SwitchController] Found active switch: (77, [FAST Platform Interface]) <switch.s_77_threebank_drop_1>
+15:18:06.964 : INFO [SwitchController] Found active switch: (78, [FAST Platform Interface]) <switch.s_78_threebank_drop_2>
+15:18:06.964 : INFO [SwitchController] Found active switch: (79, [FAST Platform Interface]) <switch.s_79_threebank_drop_3>
+15:18:06.991 : INFO [EventManager] Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+15:18:06.993 : INFO [BCPClientSocket] Connecting BCP to 'local_display' at localhost:5050...
+15:19:44.726 : INFO [Machine] Starting the main run loop with active modes: []
+15:19:44.726 : WARNING [Machine] Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+15:19:44.726 : INFO [Machine] Shutting down...
+15:19:44.726 : INFO [EventManager] Event: ======'shutdown'====== Args={}
+Shutdown reason: SIGINT or keyboard interrupt
+15:19:45.821 : INFO [root] MPF run loop ended.
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:20:20.570 : INFO [root] Loading config.
+15:20:20.575 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:20:20.576 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:20:20.665 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:20:20.666 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:20:20.667 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:20:20.668 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:20:20.669 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:20:20.669 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:20:20.670 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:20:20.671 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:20:20.672 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:20:20.673 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:20:20.674 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:20:20.675 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:20:20.676 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:20:20.677 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:20:20.678 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:20:20.679 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:20:20.681 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:20:20.681 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:20:20.682 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:20:20.683 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:20:20.685 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:20:20.686 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:20:20.687 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:20:20.689 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:20:20.695 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:20:20.696 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:20:20.696 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:20:20.703 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:20:20.703 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:20:20.704 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:20:20.705 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:20:20.706 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:20:20.711 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:20:20.712 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:20:20.712 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:20:20.713 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:20:20.718 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:20:20.726 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:20:20.732 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:20:20.738 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:20:20.739 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:20:20.744 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:20:20.757 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:20:20.763 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:20:20.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:20:20.816 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:20:20.911 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:20:21.045 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:20:21.115 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:20:21.297 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:20:21.338 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:20:21.353 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:20:21.358 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:20:21.359 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:20:21.359 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:20:21.360 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:20:21.361 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:20:21.362 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:20:21.454 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:20:21.470 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:20:21.471 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:20:21.573 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:20:21.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:20:21.576 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:20:21.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:20:21.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:20:21.578 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:20:21.578 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:20:21.579 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:20:21.581 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:20:21.582 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:20:21.582 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:20:21.583 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:20:21.584 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:20:21.584 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:20:21.585 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:20:21.586 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:20:21.587 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:20:21.587 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:20:21.588 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:20:21.588 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:20:21.589 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:20:21.590 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:20:21.590 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:20:21.592 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:20:21.593 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:20:21.593 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:20:21.594 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:20:21.595 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:20:21.595 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:20:21.596 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:20:21.597 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:20:21.597 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:20:21.598 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:20:21.598 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-20-20-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-20-20-mpf-DESKTOP-HV85DRD.log'}
+15:20:21.598 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:20:21.598 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:20:21.598 : INFO [Machine] Platform: win32
+15:20:21.598 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:20:21.598 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:20:21.601 : INFO [Machine] Initializing MPF...
+15:20:21.791 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:20:21.795 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:20:21.799 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:20:21.831 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:20:21.847 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:20:21.863 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:20:21.879 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:20:21.881 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:20:21.886 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:20:21.895 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:20:21.911 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:20:21.943 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:20:21.959 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:20:21.975 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:20:22.007 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+15:20:22.023 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+15:20:22.039 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+15:20:22.055 : INFO [EventManager] Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_player1_score'====== Args={'value': 16952098, 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_last_game_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+15:20:22.080 : INFO [EventManager] Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-20-20-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+15:20:22.108 : INFO [EventManager] Event: ======'init_phase_1'====== Args={}
+15:20:22.253 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+15:20:22.253 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_24_trough_1' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_38_star_rollover_bottom' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_44_spinner_right' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_71_spinner_left' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_72_single_drop_1' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+15:20:24.684 : INFO [SwitchController] <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+15:20:24.766 : INFO [EventManager] Event: ======'init_phase_2'====== Args={}
+15:20:24.767 : INFO [SwitchController] Found active switch: (40, [FAST Platform Interface]) <switch.s_24_trough_1>
+15:20:24.767 : INFO [SwitchController] Found active switch: (54, [FAST Platform Interface]) <switch.s_38_star_rollover_bottom>
+15:20:24.767 : INFO [SwitchController] Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+15:20:24.767 : INFO [SwitchController] Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+15:20:24.767 : INFO [SwitchController] Found active switch: (72, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+15:20:24.767 : INFO [SwitchController] Found active switch: (73, [FAST Platform Interface]) <switch.s_73_fourbank_drop_1>
+15:20:24.767 : INFO [SwitchController] Found active switch: (74, [FAST Platform Interface]) <switch.s_74_fourbank_drop_2>
+15:20:24.767 : INFO [SwitchController] Found active switch: (75, [FAST Platform Interface]) <switch.s_75_fourbank_drop_3>
+15:20:24.768 : INFO [SwitchController] Found active switch: (76, [FAST Platform Interface]) <switch.s_76_fourbank_drop_4>
+15:20:24.768 : INFO [SwitchController] Found active switch: (77, [FAST Platform Interface]) <switch.s_77_threebank_drop_1>
+15:20:24.768 : INFO [SwitchController] Found active switch: (78, [FAST Platform Interface]) <switch.s_78_threebank_drop_2>
+15:20:24.768 : INFO [SwitchController] Found active switch: (79, [FAST Platform Interface]) <switch.s_79_threebank_drop_3>
+15:20:24.797 : INFO [EventManager] Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+15:20:24.799 : INFO [BCPClientSocket] Connecting BCP to 'local_display' at localhost:5050...
+15:20:57.862 : INFO [Machine] Starting the main run loop with active modes: []
+15:20:57.862 : WARNING [Machine] Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+15:20:57.862 : INFO [Machine] Shutting down...
+15:20:57.862 : INFO [EventManager] Event: ======'shutdown'====== Args={}
+Shutdown reason: SIGINT or keyboard interrupt
+15:20:58.959 : INFO [root] MPF run loop ended.
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:01.430 : INFO [root] Loading config.
+15:21:01.434 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:01.435 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:01.523 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:01.524 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:01.525 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:01.526 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:01.526 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:01.527 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:01.528 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:01.529 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:01.530 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:01.531 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:01.532 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:01.533 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:01.534 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:01.535 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:01.536 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:01.537 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:01.538 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:01.539 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:01.539 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:01.540 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:01.542 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:01.543 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:01.544 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:01.545 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:01.551 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:01.552 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:01.553 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:01.559 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:01.560 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:01.561 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:01.562 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:01.562 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:01.569 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:01.569 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:01.570 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:01.571 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:01.576 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:01.585 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:01.590 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:01.596 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:01.598 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:01.603 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:01.616 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:01.621 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:01.625 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:01.675 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:01.775 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:01.899 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:01.969 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:02.152 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:02.191 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:02.205 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:02.212 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:02.213 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:02.213 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:02.214 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:02.215 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:02.216 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:02.306 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:02.321 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:02.322 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:02.424 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:02.425 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:02.426 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:02.427 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:02.427 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:02.428 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:02.428 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:02.429 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:02.431 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:02.432 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:02.457 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:02.457 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:02.458 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:02.458 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:02.459 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:02.460 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:02.461 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:02.462 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:02.463 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:02.464 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:02.464 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:02.465 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:02.465 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:02.467 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:02.468 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:02.468 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:02.469 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:02.469 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:02.470 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:02.471 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:02.472 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:02.472 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:02.473 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:02.473 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-01-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-01-mpf-DESKTOP-HV85DRD.log'}
+15:21:02.473 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:02.473 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:02.473 : INFO [Machine] Platform: win32
+15:21:02.473 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:02.473 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:02.476 : INFO [Machine] Initializing MPF...
+15:21:02.642 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:02.646 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:02.652 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:02.684 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:02.700 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:02.716 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:02.732 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:02.734 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:02.739 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:02.748 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:02.764 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:03.767 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:04.767 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:04.797 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:04.813 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:04.829 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:05.845 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:05.859 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:05.859 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:05.862 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:05.862 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:18.884 : INFO [root] Loading config.
+15:21:18.889 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:18.890 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:18.978 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:18.979 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:18.980 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:18.981 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:18.981 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:18.982 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:18.983 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:18.984 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:18.985 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:18.986 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:18.987 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:18.988 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:18.989 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:18.990 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:18.991 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:18.992 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:18.993 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:18.994 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:18.994 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:18.995 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:18.997 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:18.999 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:19.000 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:19.001 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:19.007 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:19.008 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:19.009 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:19.015 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:19.016 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:19.017 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:19.018 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:19.018 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:19.024 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:19.025 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:19.026 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:19.026 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:19.031 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:19.040 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:19.045 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:19.051 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:19.053 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:19.058 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:19.071 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:19.077 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:19.080 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:19.130 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:19.230 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:19.354 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:19.424 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:19.605 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:19.646 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:19.660 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:19.665 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:19.666 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:19.667 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:19.667 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:19.668 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:19.669 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:19.759 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:19.774 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:19.775 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:19.878 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:19.879 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:19.881 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:19.881 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:19.882 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:19.882 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:19.883 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:19.883 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:19.885 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:19.886 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:19.887 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:19.887 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:19.888 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:19.889 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:19.889 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:19.890 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:19.917 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:19.917 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:19.918 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:19.919 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:19.919 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:19.920 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:19.920 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:19.922 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:19.922 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:19.923 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:19.923 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:19.924 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:19.925 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:19.925 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:19.927 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:19.927 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:19.928 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:19.928 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-18-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-18-mpf-DESKTOP-HV85DRD.log'}
+15:21:19.928 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:19.928 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:19.928 : INFO [Machine] Platform: win32
+15:21:19.928 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:19.928 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:19.931 : INFO [Machine] Initializing MPF...
+15:21:20.098 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:20.103 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:20.106 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:20.138 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:20.154 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:20.170 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:20.186 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:20.188 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:20.193 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:20.202 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:20.218 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:20.250 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:20.266 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:20.282 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:20.314 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "EXP FP-EXP-0081  0.48", board address 85
+15:21:20.330 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 850
+15:21:20.346 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf2" (FP-EXP-0081, @85) with ID string "BRK FP-EXP-0081  0.48", board address 851
+15:21:20.362 : INFO [EventManager] Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_player1_score'====== Args={'value': 16952098, 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_last_game_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+15:21:20.387 : INFO [EventManager] Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-18-mpf-DESKTOP-HV85DRD.log', 'prev_value': None, 'change': True}
+15:21:20.415 : INFO [EventManager] Event: ======'init_phase_1'====== Args={}
+15:21:20.558 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_1_4_up'====== Args={}
+15:21:20.558 : INFO [EventManager] Event: ======'drop_target_bank_dt_bank_5_7_up'====== Args={}
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_24_trough_1' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_38_star_rollover_bottom' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_44_spinner_right' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_71_spinner_left' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_72_single_drop_1' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_73_fourbank_drop_1' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_74_fourbank_drop_2' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_75_fourbank_drop_3' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_76_fourbank_drop_4' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_77_threebank_drop_1' active >>>>>>>
+15:21:22.984 : INFO [SwitchController] <<<<<<< 's_78_threebank_drop_2' active >>>>>>>
+15:21:22.985 : INFO [SwitchController] <<<<<<< 's_79_threebank_drop_3' active >>>>>>>
+15:21:23.065 : INFO [EventManager] Event: ======'init_phase_2'====== Args={}
+15:21:23.066 : INFO [SwitchController] Found active switch: (40, [FAST Platform Interface]) <switch.s_24_trough_1>
+15:21:23.066 : INFO [SwitchController] Found active switch: (54, [FAST Platform Interface]) <switch.s_38_star_rollover_bottom>
+15:21:23.066 : INFO [SwitchController] Found active switch: (60, [FAST Platform Interface]) <switch.s_44_spinner_right>
+15:21:23.066 : INFO [SwitchController] Found active switch: (39, [FAST Platform Interface]) <switch.s_71_spinner_left>
+15:21:23.066 : INFO [SwitchController] Found active switch: (72, [FAST Platform Interface]) <switch.s_72_single_drop_1>
+15:21:23.066 : INFO [SwitchController] Found active switch: (73, [FAST Platform Interface]) <switch.s_73_fourbank_drop_1>
+15:21:23.066 : INFO [SwitchController] Found active switch: (74, [FAST Platform Interface]) <switch.s_74_fourbank_drop_2>
+15:21:23.066 : INFO [SwitchController] Found active switch: (75, [FAST Platform Interface]) <switch.s_75_fourbank_drop_3>
+15:21:23.067 : INFO [SwitchController] Found active switch: (76, [FAST Platform Interface]) <switch.s_76_fourbank_drop_4>
+15:21:23.067 : INFO [SwitchController] Found active switch: (77, [FAST Platform Interface]) <switch.s_77_threebank_drop_1>
+15:21:23.067 : INFO [SwitchController] Found active switch: (78, [FAST Platform Interface]) <switch.s_78_threebank_drop_2>
+15:21:23.067 : INFO [SwitchController] Found active switch: (79, [FAST Platform Interface]) <switch.s_79_threebank_drop_3>
+15:21:23.094 : INFO [EventManager] Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+15:21:23.096 : INFO [BCPClientSocket] Connecting BCP to 'local_display' at localhost:5050...
+15:21:24.790 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:24.790 : WARNING [Machine] Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+15:21:24.790 : INFO [Machine] Shutting down...
+15:21:24.790 : INFO [EventManager] Event: ======'shutdown'====== Args={}
+Shutdown reason: SIGINT or keyboard interrupt
+15:21:25.903 : INFO [root] MPF run loop ended.
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:27.579 : INFO [root] Loading config.
+15:21:27.584 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:27.584 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:27.672 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:27.673 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:27.674 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:27.675 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:27.676 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:27.676 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:27.677 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:27.678 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:27.679 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:27.680 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:27.681 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:27.682 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:27.683 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:27.684 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:27.686 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:27.687 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:27.689 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:27.690 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:27.691 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:27.692 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:27.694 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:27.695 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:27.696 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:27.697 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:27.704 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:27.704 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:27.705 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:27.711 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:27.712 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:27.713 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:27.714 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:27.714 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:27.720 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:27.721 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:27.722 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:27.722 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:27.727 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:27.735 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:27.741 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:27.747 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:27.749 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:27.754 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:27.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:27.772 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:27.776 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:27.826 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:27.919 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:28.053 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:28.123 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:28.305 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:28.344 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:28.358 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:28.363 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:28.364 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:28.365 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:28.365 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:28.366 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:28.367 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:28.457 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:28.473 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:28.474 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:28.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:28.579 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:28.580 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:28.581 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:28.581 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:28.582 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:28.582 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:28.583 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:28.585 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:28.586 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:28.587 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:28.587 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:28.588 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:28.588 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:28.589 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:28.590 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:28.591 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:28.591 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:28.592 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:28.593 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:28.593 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:28.594 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:28.595 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:28.596 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:28.597 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:28.597 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:28.598 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:28.598 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:28.599 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:28.599 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:28.601 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:28.602 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:28.602 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:28.602 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-27-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-27-mpf-DESKTOP-HV85DRD.log'}
+15:21:28.602 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:28.602 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:28.602 : INFO [Machine] Platform: win32
+15:21:28.602 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:28.603 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:28.605 : INFO [Machine] Initializing MPF...
+15:21:28.795 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:28.799 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:28.817 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:28.849 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:28.865 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:28.881 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:28.897 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:28.900 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:28.904 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:28.913 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:28.929 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:28.961 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:28.977 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:28.993 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:29.979 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:29.994 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:29.994 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:29.997 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:29.997 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:36.573 : INFO [root] Loading config.
+15:21:36.578 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:36.579 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:36.667 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:36.668 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:36.669 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:36.670 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:36.670 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:36.671 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:36.672 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:36.673 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:36.674 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:36.675 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:36.676 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:36.676 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:36.677 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:36.678 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:36.679 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:36.680 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:36.682 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:36.682 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:36.683 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:36.684 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:36.686 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:36.687 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:36.688 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:36.689 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:36.696 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:36.696 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:36.697 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:36.703 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:36.704 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:36.705 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:36.706 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:36.706 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:36.711 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:36.712 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:36.713 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:36.714 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:36.718 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:36.726 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:36.732 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:36.738 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:36.740 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:36.745 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:36.758 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:36.764 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:36.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:36.818 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:36.918 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:37.041 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:37.111 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:37.293 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:37.332 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:37.346 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:37.352 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:37.352 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:37.353 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:37.354 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:37.354 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:37.355 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:37.445 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:37.461 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:37.462 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:37.565 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:37.567 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:37.568 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:37.569 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:37.569 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:37.570 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:37.570 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:37.571 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:37.572 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:37.573 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:37.574 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:37.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:37.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:37.576 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:37.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:37.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:37.603 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:37.603 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:37.604 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:37.604 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:37.605 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:37.606 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:37.607 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:37.608 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:37.609 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:37.609 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:37.609 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:37.610 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:37.610 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:37.611 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:37.612 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:37.613 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:37.614 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:37.614 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-36-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-36-mpf-DESKTOP-HV85DRD.log'}
+15:21:37.614 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:37.614 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:37.614 : INFO [Machine] Platform: win32
+15:21:37.614 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:37.614 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:37.617 : INFO [Machine] Initializing MPF...
+15:21:37.784 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:37.789 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:37.796 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:37.828 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:37.844 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:37.860 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:37.875 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:37.877 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:37.882 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:37.890 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:37.906 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:37.938 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:37.953 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:37.968 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:38.984 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:38.999 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:39.000 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:39.002 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:39.002 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:41.797 : INFO [root] Loading config.
+15:21:41.802 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:41.802 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:41.889 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:41.890 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:41.891 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:41.892 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:41.893 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:41.893 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:41.894 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:41.895 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:41.896 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:41.897 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:41.898 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:41.899 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:41.900 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:41.901 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:41.902 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:41.903 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:41.904 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:41.905 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:41.906 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:41.906 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:41.908 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:41.909 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:41.910 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:41.912 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:41.918 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:41.919 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:41.920 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:41.926 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:41.926 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:41.928 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:41.928 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:41.929 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:41.934 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:41.935 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:41.936 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:41.936 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:41.941 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:41.949 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:41.954 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:41.961 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:41.962 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:41.967 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:41.980 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:41.985 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:41.989 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:42.039 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:42.139 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:42.262 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:42.332 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:42.516 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:42.555 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:42.569 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:42.574 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:42.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:42.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:42.576 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:42.577 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:42.578 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:42.668 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:42.683 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:42.684 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:42.785 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:42.787 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:42.788 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:42.789 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:42.789 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:42.789 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:42.790 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:42.791 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:42.792 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:42.793 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:42.794 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:42.795 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:42.795 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:42.796 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:42.796 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:42.797 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:42.822 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:42.823 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:42.824 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:42.825 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:42.825 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:42.826 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:42.826 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:42.827 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:42.828 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:42.829 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:42.829 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:42.830 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:42.830 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:42.831 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:42.832 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:42.833 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:42.834 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:42.834 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-41-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-41-mpf-DESKTOP-HV85DRD.log'}
+15:21:42.834 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:42.834 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:42.834 : INFO [Machine] Platform: win32
+15:21:42.834 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:42.835 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:42.837 : INFO [Machine] Initializing MPF...
+15:21:43.004 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:43.009 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:43.020 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:43.052 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:43.068 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:43.084 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:43.100 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:43.104 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:43.108 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:43.116 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:43.132 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:44.118 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:45.107 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:45.138 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:45.154 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:45.170 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:46.191 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:46.206 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:46.206 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:46.208 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:46.209 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:48.390 : INFO [root] Loading config.
+15:21:48.394 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:48.394 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:48.482 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:48.483 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:48.484 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:48.485 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:48.485 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:48.486 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:48.487 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:48.488 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:48.489 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:48.490 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:48.491 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:48.491 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:48.492 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:48.493 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:48.494 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:48.495 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:48.497 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:48.497 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:48.498 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:48.499 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:48.501 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:48.502 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:48.503 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:48.504 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:48.511 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:48.512 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:48.513 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:48.519 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:48.520 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:48.521 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:48.522 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:48.522 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:48.527 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:48.528 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:48.529 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:48.530 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:48.534 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:48.543 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:48.549 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:48.555 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:48.556 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:48.562 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:48.575 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:48.580 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:48.584 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:48.634 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:48.728 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:48.863 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:48.933 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:49.116 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:49.155 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:49.169 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:49.174 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:49.174 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:49.175 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:49.176 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:49.177 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:49.177 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:49.269 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:49.285 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:49.286 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:49.389 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:49.390 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:49.391 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:49.392 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:49.392 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:49.393 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:49.394 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:49.394 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:49.396 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:49.396 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:49.397 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:49.398 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:49.399 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:49.399 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:49.400 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:49.401 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:49.402 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:49.403 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:49.403 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:49.404 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:49.404 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:49.405 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:49.406 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:49.407 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:49.408 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:49.409 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:49.409 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:49.410 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:49.410 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:49.411 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:49.412 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:49.412 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:49.413 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:49.413 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-48-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-48-mpf-DESKTOP-HV85DRD.log'}
+15:21:49.413 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:49.413 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:49.413 : INFO [Machine] Platform: win32
+15:21:49.413 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:49.413 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:49.416 : INFO [Machine] Initializing MPF...
+15:21:49.606 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:49.611 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:49.615 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:49.646 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:49.662 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:49.678 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:49.694 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:49.696 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:49.701 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:49.710 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:49.726 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:49.758 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:49.774 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:49.790 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:50.810 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:50.825 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:50.825 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:50.827 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:50.828 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball> mpf -t
+15:21:54.654 : INFO [root] Loading config.
+15:21:54.658 : INFO [YamlMultifileConfigLoader] Machine config file #1: config.yaml
+15:21:54.659 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+15:21:54.746 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:54.747 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+15:21:54.748 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+15:21:54.749 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+15:21:54.750 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+15:21:54.750 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+15:21:54.751 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+15:21:54.752 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+15:21:54.753 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+15:21:54.754 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+15:21:54.755 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+15:21:54.756 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+15:21:54.757 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+15:21:54.758 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+15:21:54.759 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+15:21:54.759 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+15:21:54.761 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+15:21:54.762 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+15:21:54.763 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+15:21:54.763 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+15:21:54.765 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+15:21:54.766 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+15:21:54.767 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+15:21:54.769 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+15:21:54.775 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1a8067b3018dc540f40ee09fbd30147e.mpf_cache
+15:21:54.776 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34d2c1cbec8fdaa1db7761a61cc7c1b6.mpf_cache
+15:21:54.777 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4065fa59aedcbd523b942a40672a4db1.mpf_cache
+15:21:54.783 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\911efd7252939128e304c2322100ac37.mpf_cache
+15:21:54.783 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\95a50568c399a025ef217996526f3494.mpf_cache
+15:21:54.785 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4fa9cf92dccc774be532e383b837572e.mpf_cache
+15:21:54.786 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7d6afe43d2cd59003bd26d29f6951346.mpf_cache
+15:21:54.786 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ec53097f46dd8f92da5caf7a9362729.mpf_cache
+15:21:54.792 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c36da47bad15180a41187d147cb7917e.mpf_cache
+15:21:54.792 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ca9866041621d35ab6358609b63e90d5.mpf_cache
+15:21:54.793 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d3b229dc9cb99a8202099f03c2a43090.mpf_cache
+15:21:54.794 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\81582981e74d3995e366d06d8338d799.mpf_cache
+15:21:54.798 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5b34afe52ee194dd00e9309f3b7b7351.mpf_cache
+15:21:54.807 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\879969db85bf719d2fcb9e04ce9b1f2c.mpf_cache
+15:21:54.812 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\b4093eb1dd81447678927dbfa4b9c600.mpf_cache
+15:21:54.818 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e35a82f552c222d594bf16e07246473c.mpf_cache
+15:21:54.819 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\a4723462ff8ee54e9440eae8a1a4781c.mpf_cache
+15:21:54.825 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33800f163ed2f7721971ef060d638387.mpf_cache
+15:21:54.838 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cfac8a12b8c870509d27980bb08852ae.mpf_cache
+15:21:54.844 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\83c76c71cb0df61411f4c0eb7dea7353.mpf_cache
+15:21:54.847 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7db44b334d172168fab831ef3c57ff8b.mpf_cache
+15:21:54.897 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0209fa69c7ceb7b65d8e49418413a2d4.mpf_cache
+15:21:54.990 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9eec954e3a0a7462dea03c8c17cb64d9.mpf_cache
+15:21:55.123 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\456118bf1ce6b85e98a4b068670426da.mpf_cache
+15:21:55.192 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5d7ea21ac1dbbe8d902c44335cb580f3.mpf_cache
+15:21:55.374 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3c338cf0a5e3d861413d7d2f266c3053.mpf_cache
+15:21:55.412 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7da579784f035f2b4609b04d18d514d9.mpf_cache
+15:21:55.427 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ffa5a16e3925fe77c4aff5ce9d0caddb.mpf_cache
+15:21:55.432 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\08e4cfee44032ad50b613fdfc1c76afd.mpf_cache
+15:21:55.433 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\8f542fdb27a9c7af6359517ab8d171a1.mpf_cache
+15:21:55.433 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c899bce83960d7b8a909fd30af5ba34c.mpf_cache
+15:21:55.434 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\e3f8c10279e680757f03e6b0889aa739.mpf_cache
+15:21:55.435 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\ff087817282734556151e8020b1fd49c.mpf_cache
+15:21:55.436 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\17b17d6e70b510a409968e15bd8ba63c.mpf_cache
+15:21:55.526 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7597473749050946854e5e52d7c2d79a.mpf_cache
+15:21:55.541 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\31f3b89ebad27aaf6ad1cb7b6e8c1ae3.mpf_cache
+15:21:55.542 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5bdc262ac811f8916946a10b325faaed.mpf_cache
+15:21:55.644 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4262986a441bb7754780f112bb0e0c56.mpf_cache
+15:21:55.646 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\d572a2de143bf480090a737668938cb0.mpf_cache
+15:21:55.647 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e7beac76d3bca457a3a521575ba4ead.mpf_cache
+15:21:55.648 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c0931ffc6b13496fd8fae8b9d1b7a08.mpf_cache
+15:21:55.648 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\62404ae2e9ee2b95d65f52fccac154f0.mpf_cache
+15:21:55.649 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\537cd9276618929e3a64b374ceb3437f.mpf_cache
+15:21:55.650 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\cf29873bc64cfbd46b5a5b4c47c95532.mpf_cache
+15:21:55.651 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\16182b247314d06896cbae33110acd4c.mpf_cache
+15:21:55.653 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\13826b94a4b36b65ca4171a1d326006f.mpf_cache
+15:21:55.653 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\34a4b7622c4ff26b43be2fcb96c6a855.mpf_cache
+15:21:55.654 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\0560061596499ba9c1490154fdcef2ca.mpf_cache
+15:21:55.655 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c1896ec26ad05d4cb3e6ad50fd8dc123.mpf_cache
+15:21:55.655 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\9894a77e77ebcad772e6ab40ada6f893.mpf_cache
+15:21:55.656 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\33a0313dc768edabc6062a57466c6435.mpf_cache
+15:21:55.657 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\51d1034df3c2d8154cfea3abae2369be.mpf_cache
+15:21:55.657 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2904ce8d8b78981642dc8b63141b390e.mpf_cache
+15:21:55.658 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\de3c199f73b407edda0c6227f08684dc.mpf_cache
+15:21:55.659 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\5951b01dcffceee156e3aba13b4691bc.mpf_cache
+15:21:55.660 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3ef5173c7a910a36727c66b6285f9c3e.mpf_cache
+15:21:55.660 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\1671f2a7e01818367d14934820caa625.mpf_cache
+15:21:55.661 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\f222a647edf3886b9afe02940fb5218b.mpf_cache
+15:21:55.661 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2856cb3dd9823be7f227bcd3e9e74d9c.mpf_cache
+15:21:55.662 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\7bc597beac49bd83589c0f432d6df3a7.mpf_cache
+15:21:55.663 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\701f2c032cd9e807d4fb3fa2828f9b37.mpf_cache
+15:21:55.664 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c801690053c2da5c09f6d10b42ee9917.mpf_cache
+15:21:55.665 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\2e335ca9623f971cc8240d357e9bde21.mpf_cache
+15:21:55.665 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\291432155100441a6a6d1cc35a9827e6.mpf_cache
+15:21:55.666 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\3a13ce866f38c1bdfd88cdf5d8a37b57.mpf_cache
+15:21:55.666 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\67766e06be15afe44bf4653d2e0643ac.mpf_cache
+15:21:55.667 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\4d0875bd28a5b9899fb2c6e9ca5fbaa0.mpf_cache
+15:21:55.668 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\013b41c20fe074e5f42d4da80ff7d4bd.mpf_cache
+15:21:55.669 : INFO [ConfigProcessor] Loading config from cache: C:\Users\tl\AppData\Local\Temp\c0155b29343fe146f8483b349919ea50.mpf_cache
+15:21:55.670 : INFO [Machine] Mission Pinball Framework Core Engine v0.80.0.dev12
+15:21:55.670 : INFO [Machine] Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-16-15-21-54-mpf-DESKTOP-HV85DRD.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\tl\\Documents\\tl-pinball\\logs\\2026-06-16-15-21-54-mpf-DESKTOP-HV85DRD.log'}
+15:21:55.670 : INFO [Machine] MPF path: C:\mpf\Lib\site-packages\mpf
+15:21:55.670 : INFO [Machine] Machine path: C:\Users\tl\Documents\tl-pinball
+15:21:55.670 : INFO [Machine] Platform: win32
+15:21:55.670 : INFO [Machine] Python executable location: C:\mpf\Scripts\python.exe
+15:21:55.670 : INFO [Machine] Python version: 3.12.7 (64-bit)
+15:21:55.672 : INFO [Machine] Initializing MPF...
+15:21:55.864 : INFO [FAST [NET]] Trying to connect to COM4 at 921600bps
+15:21:55.868 : INFO [FAST [NET]] Connected to COM4 at 921600bps
+15:21:55.874 : INFO [FAST [NET]] Connected to FP-CPU-2000 with firmware v02.26
+15:21:55.906 : INFO [FAST [NET]] Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+15:21:55.922 : INFO [FAST [NET]] Registered I/O Board 1: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:55.938 : INFO [FAST [NET]] Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+15:21:55.954 : INFO [FAST [NET]] Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+15:21:55.956 : INFO [FAST [EXP]] Trying to connect to COM5 at 921600bps
+15:21:55.961 : INFO [FAST [EXP]] Connected to COM5 at 921600bps
+15:21:55.970 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "EXP FP-EXP-2000  0.42", board address 48
+15:21:55.986 : INFO [FAST [EXP]] Verifying hardware for EXP "ledcab" (FP-EXP-2000, @48) with ID string "BRK FP-EXP-2000  0.42", board address 480
+15:21:56.989 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:57.993 : ERROR [FAST [EXP]] Timeout waiting for response to BR@48:. Retrying...
+15:21:58.024 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.38", board address 84
+15:21:58.040 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 840
+15:21:58.056 : INFO [FAST [EXP]] Verifying hardware for EXP "ledpf1" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.38", board address 841
+15:21:59.060 : ERROR [FAST [EXP]] Timeout waiting for response to ID@85:. Retrying...
+15:21:59.075 : WARNING [FAST [EXP]] Interference / bad data received: b'*aA\x81\x19A\xb5\x15aA\xb5\xc1\xc1\xe1\xc5\x81\x81\xc1\xb9\xd1\xe15\xffID:EXP FP-EXP-0081  0.48'
+15:21:59.075 : ERROR [asyncio] Exception in callback Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions(<Task finishe... start byte')>) at C:\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\tl\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 428, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\mpf\Lib\site-packages\mpf\platforms\fast\communicators\base.py", line 375, in parse_incoming_raw_bytes
+    msg = msg.decode()
+          ^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x81 in position 3: invalid start byte
+15:21:59.078 : INFO [Machine] Starting the main run loop with active modes: []
+15:21:59.078 : ERROR [root] 'attract'
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 703, in run
+    if not self.modes['attract'] in self.mode_controller.active_modes:
+           ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'attract'
+PS C:\Users\tl\Documents\tl-pinball>
