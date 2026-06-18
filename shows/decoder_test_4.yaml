@@ -1,0 +1,74 @@
+#show_version=6
+# shows/show_esp32_decoder_test_4.yaml
+# 5 not working?
+# Channel 1 
+# l_pf2_1_1 - Port 1 - UVLEDx
+# l_pf2_1_1 - Port 2 - UVLEDx
+
+# Channel 2 
+# l_pf2_1_2 - Port 1 - UVLEDx
+# l_pf2_1_2 - Port 2 - UVLEDx
+
+# Channel 3 
+# l_pf2_1_3 - Port 1 - UVLEDx
+# l_pf2_1_3 - Port 2 - UVLEDx
+
+# Channel 4 Port 1
+# l_pf2_1_4 - Port 1 - UVLEDx
+# l_pf2_1_4 - Port 2 - UVLEDx
+
+# Channel 5 Port 1
+# l_pf2_1_5 - Port 1 - UVLEDx
+# l_pf2_1_5 - Port 2 - UVLEDx
+
+# Channel 6 Port 1
+# l_pf2_1_6 - Port 1 - UVLEDx
+# l_pf2_1_6 - Port 2 - UVLEDx
+
+# Channel 7 Port 1
+# l_pf2_1_7 - Port 1 - UVLED3 - No Imagination
+# l_pf2_1_7 - Port 2 - UVLED19 - Do Not Question Authority
+
+# Channel 8 Port 1
+# l_pf2_1_8 - Port 1 - UVLED18 - No Independant Thought
+# l_pf2_1_8 - Port 2 - UVLED15 - Work
+
+# Channel 9 Port 1 - 
+# l_pf2_1_9 - Port 1 - UVLED16 - conform
+# l_pf2_1_9 - Port 2 - UVLED17 - submit
+
+# Channel 10
+# l_pf2_1_10 - Port 1 - UVLED2 - Alien Male
+# l_pf2_1_10 - Port 2 - UVLED20 - Alien Female
+
+# Channel 11
+# l_pf2_1_11 - Port 1 - UVLED1 - We
+# l_pf2_1_11 - Port 2 - UVLED21 - Sleep
+
+- duration: 1500ms
+  lights:
+    l_pf2_1_11: red
+    l_pf2_1_10: red
+    l_pf2_1_9: red
+    l_pf2_1_8: red
+    l_pf2_1_7: red
+    l_pf2_1_6: red
+    l_pf2_1_5: red
+    l_pf2_1_4: red
+    l_pf2_1_3: red
+    l_pf2_1_2: red
+    l_pf2_1_1: red
+
+- duration: 1000ms
+  lights:
+    l_pf2_1_11: off
+    l_pf2_1_10: off
+    l_pf2_1_9: off
+    l_pf2_1_8: off
+    l_pf2_1_7: off
+    l_pf2_1_6: off
+    l_pf2_1_5: off
+    l_pf2_1_4: off
+    l_pf2_1_3: off
+    l_pf2_1_2: off
+    l_pf2_1_1: off

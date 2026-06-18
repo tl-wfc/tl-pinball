@@ -1,0 +1,248 @@
+#show_version=6
+# shows/show_broken_red_lamp_flicker_long.yaml
+
+- duration: 180ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 18ms
+  lights:
+    l_pf2_1_3: off
+    l_pf2_1_7: off
+
+- duration: 12ms
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_2: off
+    l_pf2_1_4: off
+    l_pf2_1_8: off
+
+- duration: 25ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 140ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 40ms
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_2: off
+    l_pf2_1_3: off
+    l_pf2_1_4: off
+    l_pf2_1_5: off
+    l_pf2_1_6: off
+    l_pf2_1_7: off
+    l_pf2_1_8: off
+    l_pf2_1_9: off
+    l_pf2_1_10: off
+    l_pf2_1_11: off
+
+- duration: 15ms
+  lights:
+    l_pf2_1_2: red
+    l_pf2_1_5: red
+    l_pf2_1_9: red
+
+- duration: 10ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_6: red
+    l_pf2_1_8: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 18ms
+  lights:
+    l_pf2_1_7: red
+
+- duration: 250ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 14ms
+  lights:
+    l_pf2_1_4: off
+
+- duration: 9ms
+  lights:
+    l_pf2_1_8: off
+
+- duration: 11ms
+  lights:
+    l_pf2_1_4: red
+    l_pf2_1_8: red
+
+- duration: 160ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 70ms
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_3: off
+    l_pf2_1_5: off
+    l_pf2_1_7: off
+    l_pf2_1_9: off
+    l_pf2_1_11: off
+
+- duration: 35ms
+  lights:
+    l_pf2_1_2: off
+    l_pf2_1_4: off
+    l_pf2_1_6: off
+    l_pf2_1_8: off
+    l_pf2_1_10: off
+
+- duration: 8ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 8ms
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_2: off
+    l_pf2_1_3: off
+    l_pf2_1_4: off
+    l_pf2_1_5: off
+    l_pf2_1_6: off
+    l_pf2_1_7: off
+    l_pf2_1_8: off
+    l_pf2_1_9: off
+    l_pf2_1_10: off
+    l_pf2_1_11: off
+
+- duration: 8ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 300ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+
+- duration: 120ms
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_2: off
+    l_pf2_1_3: off
+    l_pf2_1_4: off
+    l_pf2_1_5: off
+    l_pf2_1_6: off
+    l_pf2_1_7: off
+    l_pf2_1_8: off
+    l_pf2_1_9: off
+    l_pf2_1_10: off
+    l_pf2_1_11: off
+
+- duration: 20ms
+  lights:
+    l_pf2_1_6: red
+
+- duration: 20ms
+  lights:
+    l_pf2_1_6: off
+
+- duration: 20ms
+  lights:
+    l_pf2_1_6: red
+
+- duration: 20ms
+  lights:
+    l_pf2_1_6: off
+
+- duration: 400ms
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red

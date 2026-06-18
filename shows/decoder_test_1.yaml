@@ -1,168 +1,131 @@
 #show_version=6
 # shows/show_esp32_decoder_test_32.yaml
 
-- duration: 250ms
+- duration: 5s
   lights:
     l_pf2_1_1: red
-
-- duration: 250ms
+    l_pf2_1_21: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_1: off
-    l_pf2_1_2: red
+    l_pf2_1_21: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_2: red
+    l_pf2_1_22: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_2: off
-    l_pf2_1_3: red
+    l_pf2_1_22: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+- duration: 5s
+  lights:
+    l_pf2_1_3: red
+    l_pf2_1_23: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_3: off
-    l_pf2_1_4: red
+    l_pf2_1_23: off #not real just used for mpf monitor
 
-- duration: 250ms
+- duration: 5s
+  lights:
+    l_pf2_1_4: red
+    l_pf2_1_24: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_4: off
-    l_pf2_1_5: red
+    l_pf2_1_24: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+- duration: 5s
+  lights:
+    l_pf2_1_5: red
+    l_pf2_1_25: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_5: off
-    l_pf2_1_6: red
+    l_pf2_1_25: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_6: red
+    l_pf2_1_26: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_6: off
-    l_pf2_1_7: red
+    l_pf2_1_26: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_7: red
+    l_pf2_1_27: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_7: off
-    l_pf2_1_8: red
+    l_pf2_1_27: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_8: red
+    l_pf2_1_28: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_8: off
-    l_pf2_1_9: red
+    l_pf2_1_28: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+- duration: 5s
+  lights:
+    l_pf2_1_9: red
+    l_pf2_1_29: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_9: off
-    l_pf2_1_10: red
+    l_pf2_1_29: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_10: red
+    l_pf2_1_30: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_10: off
-    l_pf2_1_11: red
+    l_pf2_1_30: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_11: red
+    l_pf2_1_31: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_11: off
-    l_pf2_1_12: red
+    l_pf2_1_31: off #not real just used for mpf monitor
 
-- duration: 250ms
+
+
+- duration: 5s
+  lights:
+    l_pf2_1_12: red
+    l_pf2_1_32: red #not real just used for mpf monitor
+- duration: 5s
   lights:
     l_pf2_1_12: off
-    l_pf2_1_13: red
+    l_pf2_1_32: off #not real just used for mpf monitor
 
-- duration: 250ms
-  lights:
-    l_pf2_1_13: off
-    l_pf2_1_14: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_14: off
-    l_pf2_1_15: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_15: off
-    l_pf2_1_16: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_16: off
-    l_pf2_1_17: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_17: off
-    l_pf2_1_18: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_18: off
-    l_pf2_1_19: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_19: off
-    l_pf2_1_20: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_20: off
-    l_pf2_1_21: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_21: off
-    l_pf2_1_22: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_22: off
-    l_pf2_1_23: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_23: off
-    l_pf2_1_24: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_24: off
-    l_pf2_1_25: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_25: off
-    l_pf2_1_26: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_26: off
-    l_pf2_1_27: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_27: off
-    l_pf2_1_28: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_28: off
-    l_pf2_1_29: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_29: off
-    l_pf2_1_30: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_30: off
-    l_pf2_1_31: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_31: off
-    l_pf2_1_32: red
-
-- duration: 250ms
-  lights:
-    l_pf2_1_32: off
 
 - duration: 1s
   lights:
@@ -178,26 +141,6 @@
     l_pf2_1_10: red
     l_pf2_1_11: red
     l_pf2_1_12: red
-    l_pf2_1_13: red
-    l_pf2_1_14: red
-    l_pf2_1_15: red
-    l_pf2_1_16: red
-    l_pf2_1_17: red
-    l_pf2_1_18: red
-    l_pf2_1_19: red
-    l_pf2_1_20: red
-    l_pf2_1_21: red
-    l_pf2_1_22: red
-    l_pf2_1_23: red
-    l_pf2_1_24: red
-    l_pf2_1_25: red
-    l_pf2_1_26: red
-    l_pf2_1_27: red
-    l_pf2_1_28: red
-    l_pf2_1_29: red
-    l_pf2_1_30: red
-    l_pf2_1_31: red
-    l_pf2_1_32: red
 
 - duration: 1s
   lights:
@@ -213,23 +156,34 @@
     l_pf2_1_10: off
     l_pf2_1_11: off
     l_pf2_1_12: off
-    l_pf2_1_13: off
-    l_pf2_1_14: off
-    l_pf2_1_15: off
-    l_pf2_1_16: off
-    l_pf2_1_17: off
-    l_pf2_1_18: off
-    l_pf2_1_19: off
-    l_pf2_1_20: off
-    l_pf2_1_21: off
-    l_pf2_1_22: off
-    l_pf2_1_23: off
-    l_pf2_1_24: off
-    l_pf2_1_25: off
-    l_pf2_1_26: off
-    l_pf2_1_27: off
-    l_pf2_1_28: off
-    l_pf2_1_29: off
-    l_pf2_1_30: off
-    l_pf2_1_31: off
-    l_pf2_1_32: off
+
+- duration: 1s
+  lights:
+    l_pf2_1_1: red
+    l_pf2_1_2: red
+    l_pf2_1_3: red
+    l_pf2_1_4: red
+    l_pf2_1_5: red
+    l_pf2_1_6: red
+    l_pf2_1_7: red
+    l_pf2_1_8: red
+    l_pf2_1_9: red
+    l_pf2_1_10: red
+    l_pf2_1_11: red
+    l_pf2_1_12: red
+
+- duration: 1s
+  lights:
+    l_pf2_1_1: off
+    l_pf2_1_2: off
+    l_pf2_1_3: off
+    l_pf2_1_4: off
+    l_pf2_1_5: off
+    l_pf2_1_6: off
+    l_pf2_1_7: off
+    l_pf2_1_8: off
+    l_pf2_1_9: off
+    l_pf2_1_10: off
+    l_pf2_1_11: off
+    l_pf2_1_12: off
+
