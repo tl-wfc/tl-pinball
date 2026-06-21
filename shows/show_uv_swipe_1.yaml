@@ -1,0 +1,436 @@
+#show_version=6
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_11: '8E0000'
+    l_pf2_1_31: '570000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_11: 'FF0000'
+    l_pf2_1_31: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_11: '000000'
+    l_pf2_1_31: '1C0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_31: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_30: '1F0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_10: 'F70000'
+    l_pf2_1_30: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_10: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_10: 'CE0000'
+    l_pf2_1_30: '580000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_10: '000000'
+    l_pf2_1_20: 'F20000'
+    l_pf2_1_30: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_20: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_20: 'CE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_20: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_27: '8E0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_27: 'FF0000'
+    l_pf2_1_7: 'F70000'
+    l_pf2_1_8: '570000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_7: 'FF0000'
+    l_pf2_1_8: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_27: '1C0000'
+    l_pf2_1_7: 'CE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_27: '000000'
+    l_pf2_1_7: '000000'
+    l_pf2_1_8: '1C0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_8: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_22: 'F20000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_22: 'FF0000'
+    l_pf2_1_4: 'EE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_4: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_22: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_2: 'C50000'
+    l_pf2_1_4: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_2: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_2: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_19: '8E0000'
+    l_pf2_1_6: '1F0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_19: 'FF0000'
+    l_pf2_1_6: 'FB0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_6: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_9: 'EE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_9: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_29: '8E0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_19: '000000'
+    l_pf2_1_29: 'FF0000'
+    l_pf2_1_6: '580000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_6: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_26: 'F70000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_26: 'FF0000'
+    l_pf2_1_9: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_21: 'EE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_21: 'FF0000'
+    l_pf2_1_29: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_26: 'CE0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_26: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_28: '8E0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_21: '000000'
+    l_pf2_1_28: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_24: '570000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_24: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_23: '570000'
+    l_pf2_1_28: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_23: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_5: '1F0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_1: 'FB0000'
+    l_pf2_1_24: '1C0000'
+    l_pf2_1_5: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_1: 'FF0000'
+    l_pf2_1_24: '000000'
+    l_pf2_1_25: 'F70000'
+    l_pf2_1_3: 'F70000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_25: 'FF0000'
+    l_pf2_1_3: 'FF0000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_23: '580000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_23: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_1: '920000'
+    l_pf2_1_5: '580000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_1: '000000'
+    l_pf2_1_25: '920000'
+    l_pf2_1_3: '920000'
+    l_pf2_1_5: '000000'
+    
+- time: '+0.05'
+  lights:
+    l_pf2_1_25: '000000'
+    l_pf2_1_3: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.05'
+    

@@ -1,189 +1,189 @@
 #show_version=6
 # shows/show_esp32_decoder_test_32.yaml
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_1: red
     l_pf2_1_21: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_1: off
     l_pf2_1_21: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_2: red
     l_pf2_1_22: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_2: off
     l_pf2_1_22: off #not real just used for mpf monitor
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_3: red
     l_pf2_1_23: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_3: off
     l_pf2_1_23: off #not real just used for mpf monitor
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_4: red
     l_pf2_1_24: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_4: off
     l_pf2_1_24: off #not real just used for mpf monitor
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_5: red
     l_pf2_1_25: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_5: off
     l_pf2_1_25: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_6: red
     l_pf2_1_26: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_6: off
     l_pf2_1_26: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_7: red
     l_pf2_1_27: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_7: off
     l_pf2_1_27: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_8: red
     l_pf2_1_28: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_8: off
     l_pf2_1_28: off #not real just used for mpf monitor
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_9: red
     l_pf2_1_29: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_9: off
     l_pf2_1_29: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_10: red
     l_pf2_1_30: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_10: off
     l_pf2_1_30: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
+- duration: 7s
   lights:
     l_pf2_1_11: red
     l_pf2_1_31: red #not real just used for mpf monitor
-- duration: 5s
+- duration: 1s
   lights:
     l_pf2_1_11: off
     l_pf2_1_31: off #not real just used for mpf monitor
 
 
 
-- duration: 5s
-  lights:
-    l_pf2_1_12: red
-    l_pf2_1_32: red #not real just used for mpf monitor
-- duration: 5s
-  lights:
-    l_pf2_1_12: off
-    l_pf2_1_32: off #not real just used for mpf monitor
+# - duration: 7s
+#   lights:
+#     l_pf2_1_12: red
+#     l_pf2_1_32: red #not real just used for mpf monitor
+# - duration: 1s
+#   lights:
+#     l_pf2_1_12: off
+#     l_pf2_1_32: off #not real just used for mpf monitor
 
 
-- duration: 1s
-  lights:
-    l_pf2_1_1: red
-    l_pf2_1_2: red
-    l_pf2_1_3: red
-    l_pf2_1_4: red
-    l_pf2_1_5: red
-    l_pf2_1_6: red
-    l_pf2_1_7: red
-    l_pf2_1_8: red
-    l_pf2_1_9: red
-    l_pf2_1_10: red
-    l_pf2_1_11: red
-    l_pf2_1_12: red
+# - duration: 7s
+#   lights:
+#     l_pf2_1_1: red
+#     l_pf2_1_2: red
+#     l_pf2_1_3: red
+#     l_pf2_1_4: red
+#     l_pf2_1_5: red
+#     l_pf2_1_6: red
+#     l_pf2_1_7: red
+#     l_pf2_1_8: red
+#     l_pf2_1_9: red
+#     l_pf2_1_10: red
+#     l_pf2_1_11: red
+#     # l_pf2_1_12: red
 
-- duration: 1s
-  lights:
-    l_pf2_1_1: off
-    l_pf2_1_2: off
-    l_pf2_1_3: off
-    l_pf2_1_4: off
-    l_pf2_1_5: off
-    l_pf2_1_6: off
-    l_pf2_1_7: off
-    l_pf2_1_8: off
-    l_pf2_1_9: off
-    l_pf2_1_10: off
-    l_pf2_1_11: off
-    l_pf2_1_12: off
+# - duration: 1s
+#   lights:
+#     l_pf2_1_1: off
+#     l_pf2_1_2: off
+#     l_pf2_1_3: off
+#     l_pf2_1_4: off
+#     l_pf2_1_5: off
+#     l_pf2_1_6: off
+#     l_pf2_1_7: off
+#     l_pf2_1_8: off
+#     l_pf2_1_9: off
+#     l_pf2_1_10: off
+#     l_pf2_1_11: off
+#     # l_pf2_1_12: off
 
-- duration: 1s
-  lights:
-    l_pf2_1_1: red
-    l_pf2_1_2: red
-    l_pf2_1_3: red
-    l_pf2_1_4: red
-    l_pf2_1_5: red
-    l_pf2_1_6: red
-    l_pf2_1_7: red
-    l_pf2_1_8: red
-    l_pf2_1_9: red
-    l_pf2_1_10: red
-    l_pf2_1_11: red
-    l_pf2_1_12: red
+# - duration: 7s
+#   lights:
+#     l_pf2_1_1: red
+#     l_pf2_1_2: red
+#     l_pf2_1_3: red
+#     l_pf2_1_4: red
+#     l_pf2_1_5: red
+#     l_pf2_1_6: red
+#     l_pf2_1_7: red
+#     l_pf2_1_8: red
+#     l_pf2_1_9: red
+#     l_pf2_1_10: red
+#     l_pf2_1_11: red
+#     # l_pf2_1_12: red
 
-- duration: 1s
-  lights:
-    l_pf2_1_1: off
-    l_pf2_1_2: off
-    l_pf2_1_3: off
-    l_pf2_1_4: off
-    l_pf2_1_5: off
-    l_pf2_1_6: off
-    l_pf2_1_7: off
-    l_pf2_1_8: off
-    l_pf2_1_9: off
-    l_pf2_1_10: off
-    l_pf2_1_11: off
-    l_pf2_1_12: off
+# - duration: 1s
+#   lights:
+#     l_pf2_1_1: off
+#     l_pf2_1_2: off
+#     l_pf2_1_3: off
+#     l_pf2_1_4: off
+#     l_pf2_1_5: off
+#     l_pf2_1_6: off
+#     l_pf2_1_7: off
+#     l_pf2_1_8: off
+#     l_pf2_1_9: off
+#     l_pf2_1_10: off
+#     l_pf2_1_11: off
+#     # l_pf2_1_12: off
 
