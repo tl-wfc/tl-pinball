@@ -71,3 +71,13 @@ playfields:
         default_source_device: bd_plunger
         tags: default
 
+custom_code:
+  - code.audio_command.AudioCommand
+
+# to use this
+#
+# event_player:
+#   some_event_name:
+#     audio_command:
+#       command: 1
+# where the command number is the file name

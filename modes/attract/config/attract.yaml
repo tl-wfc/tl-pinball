@@ -18,11 +18,22 @@ event_player:
     - start_mode_attract_scores
     - start_mode_attract_credits
     - attract_music_start
+    - play_directional_attract_audio
 
   mode_attract_will_stop:
     - stop_mode_attract_scores
     - stop_mode_attract_credits
     - attract_music_stop
+    - stop_directional_audio
+  
+  play_directional_attract_audio:
+    audio_command:
+      command: 1
+
+  stop_directional_audio:
+    audio_command:
+      command: 0
+
 
   timer_attract_music_on_timer_complete:
     - attract_music_stop
@@ -87,9 +98,9 @@ show_player:
     show_uv_searchlight_1:
       loops: -1
       speed: 1.0
-    speaker_test_1:
-      loops: -1
-      speed: 1.0
+    # speaker_test_1:
+    #   loops: -1
+    #   speed: 1.0
       
 sound_player:
   attract_music_start:

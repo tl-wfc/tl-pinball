@@ -2242,39 +2242,39 @@ lights:
     tags: all_leds, cab_leds, cab_port1
 
 
-#port 2 - Spare
+#port 2 - Directional Speaker Data Channel 1-8
   l_cab_2_1:
     number: ledcab-2-1
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_2:
     number: ledcab-2-2
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_3:
     number: ledcab-2-3
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_4:
     number: ledcab-2-4
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_5:
     number: ledcab-2-5
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_6:
     number: ledcab-2-6
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+   # tags: all_leds, cab_leds, cab_port2
   l_cab_2_7:
     number: ledcab-2-7
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_8:
     number: ledcab-2-8
     type: rgb
-    tags: all_leds, cab_leds, cab_port2
+    #tags: all_leds, cab_leds, cab_port2
   l_cab_2_9:
     number: ledcab-2-9
     type: rgb
