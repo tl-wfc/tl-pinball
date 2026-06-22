@@ -1,0 +1,73 @@
+#show_version=6
+
+- duration: 1s
+  #stop command
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+  
+  #Track 1 Command
+- duration: 20s
+  lights:
+    l_pf2_2_1: red   # bit 0 = 1
+    l_pf2_2_2: off   # bit 1 = 0
+    l_pf2_2_3: off   # bit 2 = 1
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+
+  #stop command
+- duration: 0.5s
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+
+  #Track 2 Command
+- duration: 10s
+  lights:
+    l_pf2_2_1: red   # bit 0 = 1
+    l_pf2_2_2: red   # bit 1 = 1
+    l_pf2_2_3: off   # bit 2 = 0
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+
+  #Track 1 Command
+- duration: 20s
+  lights:
+    l_pf2_2_1: red   # bit 0 = 1
+    l_pf2_2_2: off   # bit 1 = 0
+    l_pf2_2_3: off   # bit 2 = 1
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+
+  #stop command
+- duration: 5s
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off

@@ -87,6 +87,9 @@ show_player:
     show_uv_searchlight_1:
       loops: -1
       speed: 1.0
+    speaker_test_1:
+      loops: -1
+      speed: 1.0
       
 sound_player:
   attract_music_start:
