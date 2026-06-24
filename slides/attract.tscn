@@ -271,9 +271,9 @@ metadata/_custom_type_script = "uid://bov7mrgxslshq"
 [node name="ColorRect" type="ColorRect" parent="." unique_id=216969078]
 layout_mode = 0
 offset_left = -199.0
-offset_top = -129.0
+offset_top = -130.0
 offset_right = 1703.0
-offset_bottom = 2152.0
+offset_bottom = 2151.0
 color = Color(0, 0, 0, 0.7372549)
 
 [node name="blockout zone" type="ColorRect" parent="." unique_id=1396228582]

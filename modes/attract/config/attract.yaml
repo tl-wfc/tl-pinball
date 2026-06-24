@@ -13,11 +13,14 @@ slide_player:
     attract:
       priority: 200
 
+
+
+
 event_player:
   mode_attract_started:
     - start_mode_attract_scores
     - start_mode_attract_credits
-    - attract_music_start
+    #- attract_music_start
     # - play_directional_attract_audio
 
   mode_attract_will_stop:
@@ -32,7 +35,7 @@ event_player:
 
   set_directional_volume_15:
     audio_command:
-      command: 242
+      command: 245
 
   # Command 0 = pause/stop
   # Command 1-239 = play matching track"
@@ -56,7 +59,7 @@ event_player:
 
   attract_step_audio_2:
     - play_directional_track_2
-    - attract_step_5
+    - attract_step_8
 
   play_directional_track_2:
     audio_command:
@@ -66,8 +69,8 @@ event_player:
     audio_command:
       command: 0
 
-  timer_attract_music_on_timer_complete:
-    - attract_music_stop
+  # timer_attract_music_on_timer_complete:
+  #   - attract_music_stop
 
   s_08_left_flipper_active: attract_music_start
   s_16_right_flipper_active: attract_music_start
@@ -75,53 +78,67 @@ event_player:
 show_player:
   mode_attract_started:
     show_tv_staticbreath_1:
-      loops: 0
+      loops: 5
+      priority: 100
+    show_tv_staticfast_1:
+      loops: 5
       priority: 100
       events_when_completed: attract_step_audio_1
   
   attract_step_2:    
-    show_tv_staticfast_1:
-      loops: 0
-      priority: 100
-      events_when_completed: attract_step_3
-
-  attract_step_3:
-    show_fig8_attract_2:
-      loops: 0
+    show_reel_1:
+      loops: 5
       speed: 1.0
       priority: 200
+    show_fig8_attract_2:
+      loops: 5
+      speed: 1.0
+      priority: 200
+      events_when_completed: attract_step_3
+  
+  attract_step_3:
+    rainbow_pops_1:
+      loops: 3
+      speed: 2
+      priority: 300
       events_when_completed: attract_step_4
 
   attract_step_4:
-    rainbow_pops_1:
-      loops: 0
-      priority: 300
-      events_when_completed: attract_step_audio_2
+    show_modeinserts_sweep_green_1:
+      loops: 2
+      priority: 600
+      speed: 2
+      events_when_completed: attract_step_5
   
   attract_step_5:
-    show_reel_1:
-      loops: 0
-      priority: 400
-      events_when_completed: attract_step_6
-
-  attract_step_6:
     show_multi_attract_1:
       loops: 0
       priority: 500
+      events_when_completed: attract_step_6
+
+  attract_step_6:
+    show_vari_red_1:
+      loops: 0
+      priority: 700
       events_when_completed: attract_step_7
 
 
   attract_step_7:
-    show_modeinserts_sweep_green_1:
+    show_shotgun_attract_1:
       loops: 0
-      priority: 600
-      events_when_completed: attract_step_8
+      speed: 1.0
+      priority: 900
 
-
+    show_inlaneinserts_attract_1:
+      loops: 0
+      speed: 2.0
+      priority: 910
+      events_when_completed: attract_step_audio_2
+  
   attract_step_8:
-    show_vari_red_1:
-      loops: 0
-      priority: 700
+    show_uv_swipe_1:
+      loops: 4
+      speed: 1.0
       events_when_completed: attract_step_9
 
 
@@ -130,49 +147,112 @@ show_player:
       loops: 0
       speed: 1.0
       priority: 800
-      events_when_completed: attract_step_10
 
-
-  attract_step_10:
-    show_shotgun_attract_1:
-      loops: 0
-      priority: 900
-      events_when_completed: attract_step_11
-
-
-  attract_step_11:
-    show_inlaneinserts_attract_1:
-      loops: 0
-      speed: 2.0
-      priority: 910
-      events_when_completed: attract_step_13
-
-  attract_step_12:
     show_tiltwarnings_attract_1:
       loops: 0
       speed: 5.0
       priority: 910
-      events_when_completed: attract_step_13
+      events_when_completed: attract_step_10
 
-  attract_step_13:
+  attract_step_10:
     show_gi_attract_1:
       loops: 0
       speed: 1.0
-      events_when_completed: attract_step_15
 
-  attract_step_14:
     show_light_bar_attract_1:
       loops: 0
       speed: 1.0
-      events_when_completed: attract_step_15
+      events_when_completed: attract_step_11
 
-  attract_step_15:
+  attract_step_11:
+    show_rainbow_spin_1:
+      loops: 0
+      speed: 1.0
+      events_when_completed: attract_step_12
+      
+  attract_step_12:
     show_uv_swipe_1:
       loops: 0
       speed: 1.0
-      events_when_completed: attract_step_16
+      events_when_completed: attract_step_13
 
-  attract_step_16:
+  attract_step_13:
+    show_uv_searchlight_1:
+      loops: 0
+      speed: 1.0
+      events_when_completed: attract_step_14
+
+  attract_step_14:
+    show_tv_staticbreath_1:
+      loops: 5
+      priority: 100
+    
+    show_tv_staticfast_1:
+      loops: 5
+      priority: 100
+
+    show_reel_1:
+      loops: 5
+      speed: 1.0
+      priority: 200
+    
+    show_fig8_attract_2:
+      loops: 5
+      speed: 1.0
+      priority: 200
+  
+    rainbow_pops_1:
+      loops: 3
+      speed: 2
+      priority: 300
+
+    show_modeinserts_sweep_green_1:
+      loops: 2
+      priority: 600
+      speed: 2
+  
+    show_multi_attract_1:
+      loops: 0
+      priority: 500
+
+    show_vari_red_1:
+      loops: 0
+      priority: 700
+
+    show_shotgun_attract_1:
+      loops: 0
+      speed: 1.0
+      priority: 900
+
+    show_inlaneinserts_attract_1:
+      loops: 0
+      speed: 2.0
+      priority: 910
+
+    show_leftramp_attract_1:
+      loops: 0
+      speed: 1.0
+      priority: 800
+
+    show_tiltwarnings_attract_1:
+      loops: 0
+      speed: 5.0
+      priority: 910
+
+    show_gi_attract_1:
+      loops: 0
+      speed: 1.0
+
+    show_light_bar_attract_1:
+      loops: 0
+      speed: 1.0
+
+    show_rainbow_spin_1:
+      loops: 0
+      speed: 1.0
+      events_when_completed: attract_step_15
+      
+  attract_step_15:
     show_uv_searchlight_1:
       loops: 0
       speed: 1.0
@@ -183,13 +263,18 @@ show_player:
   #     loops: -1
   #     speed: 1.0
   #     events_when_completed: attract_step_3
-      
+
+sounds:
+  tl-m-Hysteria-smallintro:
+    simultaneous_limit: 1
+    stealing_method: skip
+
 sound_player:
   attract_music_start:
     tl-m-Hysteria-smallintro:
       action: play
       bus: music
-      loops: -1
+      loops: 3
       fade_in: 2s
 
   attract_music_stop:
@@ -224,16 +309,16 @@ timers:
       - event: flipper_cradle_release
         action: restart
 
-  attract_music_on_timer:
-    start_value: 10   # change to 180 once tested
-    end_value: 0
-    direction: down
-    tick_interval: 1s
-    start_running: false
-    control_events:
-      - event: attract_music_start
-        action: restart
-      - event: attract_music_stop
-        action: stop
-      - event: mode_attract_will_stop
-        action: stop
+  # attract_music_on_timer:
+  #   start_value: 10   # change to 180 once tested
+  #   end_value: 0
+  #   direction: down
+  #   tick_interval: 1s
+  #   start_running: false
+  #   control_events:
+  #     - event: attract_music_start
+  #       action: restart
+  #     - event: attract_music_stop
+  #       action: stop
+  #     - event: mode_attract_will_stop
+  #       action: stop

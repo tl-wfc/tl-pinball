@@ -87,6 +87,10 @@ event_player:
   stars_10x_begin: stars_10x_started
   stars_10x_end: stars_10x_ended
 
+  s_36_left_outlane_active{current_player.stars_t42 == 1}:
+    - ball_save_request
+    - stars_t42_off
+
 variable_player:
 
   mode_stars_mode_started:
@@ -274,3 +278,13 @@ show_player:
       action: stop
     stars_10x_spinner_green_circle:
       action: stop
+
+  stars_left_outlane_save:
+    show_left_outlane_save:
+      loops: 1
+      priority: 2000
+
+# sound_player:
+#   stars_left_outlane_save:
+#     kickback:
+#       bus: effects
