@@ -18,7 +18,7 @@ event_player:
     - start_mode_attract_scores
     - start_mode_attract_credits
     - attract_music_start
-    - play_directional_attract_audio
+    # - play_directional_attract_audio
 
   mode_attract_will_stop:
     - stop_mode_attract_scores
@@ -26,14 +26,45 @@ event_player:
     - attract_music_stop
     - stop_directional_audio
   
+  attract_step_audio_1:
+    - set_directional_volume_15
+    - start_directional_track_1_delay
+
+  set_directional_volume_15:
+    audio_command:
+      command: 242
+
+  # Command 0 = pause/stop
+  # Command 1-239 = play matching track"
+  # Command 240 = volume 5
+  # Command 241 = volume 10
+  # Command 242 = volume 15
+  # Command 243 = volume 20
+  # Command 244 = volume 25
+  # Command 245 = volume 30
+  # Command 246-255 = reserved
+
+
+
+  timer_directional_track_1_delay_complete:
+    - play_directional_attract_audio
+    - attract_step_2
+
   play_directional_attract_audio:
     audio_command:
       command: 1
 
+  attract_step_audio_2:
+    - play_directional_track_2
+    - attract_step_5
+
+  play_directional_track_2:
+    audio_command:
+      command: 2
+
   stop_directional_audio:
     audio_command:
       command: 0
-
 
   timer_attract_music_on_timer_complete:
     - attract_music_stop
@@ -46,61 +77,112 @@ show_player:
     show_tv_staticbreath_1:
       loops: 0
       priority: 100
+      events_when_completed: attract_step_audio_1
+  
+  attract_step_2:    
     show_tv_staticfast_1:
       loops: 0
       priority: 100
+      events_when_completed: attract_step_3
+
+  attract_step_3:
     show_fig8_attract_2:
       loops: 0
       speed: 1.0
       priority: 200
+      events_when_completed: attract_step_4
+
+  attract_step_4:
     rainbow_pops_1:
       loops: 0
       priority: 300
+      events_when_completed: attract_step_audio_2
+  
+  attract_step_5:
     show_reel_1:
       loops: 0
       priority: 400
+      events_when_completed: attract_step_6
+
+  attract_step_6:
     show_multi_attract_1:
       loops: 0
       priority: 500
+      events_when_completed: attract_step_7
+
+
+  attract_step_7:
     show_modeinserts_sweep_green_1:
       loops: 0
       priority: 600
+      events_when_completed: attract_step_8
+
+
+  attract_step_8:
     show_vari_red_1:
       loops: 0
       priority: 700
+      events_when_completed: attract_step_9
+
+
+  attract_step_9:
     show_leftramp_attract_1:
       loops: 0
       speed: 1.0
       priority: 800
+      events_when_completed: attract_step_10
+
+
+  attract_step_10:
     show_shotgun_attract_1:
       loops: 0
       priority: 900
+      events_when_completed: attract_step_11
+
+
+  attract_step_11:
     show_inlaneinserts_attract_1:
       loops: 0
       speed: 2.0
       priority: 910
+      events_when_completed: attract_step_13
+
+  attract_step_12:
     show_tiltwarnings_attract_1:
       loops: 0
       speed: 5.0
       priority: 910
+      events_when_completed: attract_step_13
+
+  attract_step_13:
     show_gi_attract_1:
       loops: 0
       speed: 1.0
+      events_when_completed: attract_step_15
+
+  attract_step_14:
     show_light_bar_attract_1:
       loops: 0
       speed: 1.0
-    # decoder_test_1:
-    #   loops: 0
-    #   speed: 1.0
-    # show_uv_swipe_1:
-    #   loops: -1
-    #   speed: 1.0
-    show_uv_searchlight_1:
-      loops: -1
+      events_when_completed: attract_step_15
+
+  attract_step_15:
+    show_uv_swipe_1:
+      loops: 0
       speed: 1.0
-    # speaker_test_1:
-    #   loops: -1
-    #   speed: 1.0
+      events_when_completed: attract_step_16
+
+  attract_step_16:
+    show_uv_searchlight_1:
+      loops: 0
+      speed: 1.0
+      events_when_completed: mode_attract_started
+
+  # attract_step_17:
+  #   speaker_test_1:
+  #     loops: -1
+  #     speed: 1.0
+  #     events_when_completed: attract_step_3
       
 sound_player:
   attract_music_start:
@@ -116,6 +198,16 @@ sound_player:
       fade_out: 5s
 
 timers:
+  directional_track_1_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 100ms
+    start_running: false
+    control_events:
+      - event: start_directional_track_1_delay
+        action: restart
+
   attract_carousel_timer:
     end_value: 1
     tick_interval: 5s

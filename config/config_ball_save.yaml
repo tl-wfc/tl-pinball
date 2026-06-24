@@ -17,22 +17,36 @@
 
 ball_saves:
   bs_default:
-    # Adjustable time the ball save stays active after being enabled
-    active_time: 5s
-
-    # Enable whenever we post this event (from any mode or config)
-    enable_events: ball_save_request
-
-    # Safety: make sure it is not running across balls/games
-    disable_events: ball_will_end, ball_ended, game_ending
-
+    active_time: 15s    # Adjustable time the ball save stays active after being enabled
+    hurry_up_time: 5s
+    enable_events: ball_save_request   # Enable whenever we post this event (from any mode or config)
+    disable_events: ball_will_end, ball_ended, game_ending # Safety: make sure it is not running across balls/games
     # Typical defaults (explicit here so behavior is clear)
     balls_to_save: 1
     auto_launch: true
 
-
 event_player:
-  # Start ball save when the ball leaves the shooter lane
-  s_31_plunger_lane_inactive: ball_save_request
-  #some_event_you_add_later: ball_save_request
+  s_31_plunger_lane_inactive{current_player.launch_ball_save_used == 0}:
+    ball_save_request
 
+show_player:
+
+  ball_save_bs_default_enabled:
+    show_ball_save_insert_purple_white_slow:
+      key: ball_save_insert
+      loops: -1
+      priority: 20000
+
+  ball_save_bs_default_hurry_up:
+    show_ball_save_insert_purple_white_fast:
+      key: ball_save_insert
+      loops: -1
+      priority: 20000
+
+  ball_save_bs_default_disabled:
+    ball_save_insert:
+      action: stop
+
+  ball_will_end:
+    ball_save_insert:
+      action: stop

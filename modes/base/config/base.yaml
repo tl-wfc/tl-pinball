@@ -33,6 +33,16 @@ variable_player:
       action: set
       int: 1
 
+  ball_started:
+    launch_ball_save_used:
+      action: set
+      int: 0
+
+  ball_save_request:
+    launch_ball_save_used:
+      action: set
+      int: 1
+
 slide_player:
   mode_base_started:
     base_slide:
