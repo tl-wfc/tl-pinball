@@ -1,0 +1,475 @@
+#show_version=6
+# shows/show_pf2_2_3_4_decoder_test.yaml
+
+- duration: 250ms
+  lights:
+    l_pf2_2_1: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_2: off
+    l_pf2_2_3: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_3: off
+    l_pf2_2_4: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_4: off
+    l_pf2_2_5: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_5: off
+    l_pf2_2_6: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_6: off
+    l_pf2_2_7: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_7: off
+    l_pf2_2_8: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_8: off
+    l_pf2_2_9: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_9: off
+    l_pf2_2_10: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_10: off
+    l_pf2_2_11: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_11: off
+    l_pf2_2_12: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_12: off
+    l_pf2_2_13: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_13: off
+    l_pf2_2_14: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_14: off
+    l_pf2_2_15: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_16: off
+    l_pf2_2_17: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_17: off
+    l_pf2_2_18: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_18: off
+    l_pf2_2_19: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_19: off
+    l_pf2_2_20: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_20: off
+    l_pf2_2_21: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_21: off
+    l_pf2_2_22: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_22: off
+    l_pf2_2_23: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_23: off
+    l_pf2_2_24: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_24: off
+    l_pf2_2_25: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_25: off
+    l_pf2_2_26: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_26: off
+    l_pf2_2_27: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_27: off
+    l_pf2_2_28: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_28: off
+    l_pf2_2_29: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_29: off
+    l_pf2_2_30: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_30: off
+    l_pf2_2_31: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_31: off
+    l_pf2_2_32: red
+
+- duration: 250ms
+  lights:
+    l_pf2_2_32: off
+    l_pf2_3_1: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_1: off
+    l_pf2_3_2: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_2: off
+    l_pf2_3_3: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_3: off
+    l_pf2_3_4: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_4: off
+    l_pf2_3_5: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_5: off
+    l_pf2_3_6: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_6: off
+    l_pf2_3_7: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_7: off
+    l_pf2_3_8: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_8: off
+    l_pf2_3_9: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_9: off
+    l_pf2_3_10: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_10: off
+    l_pf2_3_11: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_11: off
+    l_pf2_3_12: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_13: off
+    l_pf2_3_14: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_14: off
+    l_pf2_3_15: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_15: off
+    l_pf2_3_16: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_16: off
+    l_pf2_3_17: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_17: off
+    l_pf2_3_18: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_18: off
+    l_pf2_3_19: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_19: off
+    l_pf2_3_20: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_20: off
+    l_pf2_3_21: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_21: off
+    l_pf2_3_22: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_22: off
+    l_pf2_3_23: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_23: off
+    l_pf2_3_24: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_24: off
+    l_pf2_3_25: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_25: off
+    l_pf2_3_26: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_26: off
+    l_pf2_3_27: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_27: off
+    l_pf2_3_28: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_28: off
+    l_pf2_3_29: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_29: off
+    l_pf2_3_30: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_30: off
+    l_pf2_3_31: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_31: off
+    l_pf2_3_32: red
+
+- duration: 250ms
+  lights:
+    l_pf2_3_32: off
+    l_pf2_4_1: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_1: off
+    l_pf2_4_2: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_2: off
+    l_pf2_4_3: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_3: off
+    l_pf2_4_4: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_4: off
+    l_pf2_4_5: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_5: off
+    l_pf2_4_6: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_6: off
+    l_pf2_4_7: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_7: off
+    l_pf2_4_8: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_8: off
+    l_pf2_4_9: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_9: off
+    l_pf2_4_10: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_10: off
+    l_pf2_4_11: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_11: off
+    l_pf2_4_12: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_12: off
+    l_pf2_4_13: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_13: off
+    l_pf2_4_14: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_14: off
+    l_pf2_4_15: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_15: off
+    l_pf2_4_16: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_16: off
+    l_pf2_4_17: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_17: off
+    l_pf2_4_18: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_18: off
+    l_pf2_4_19: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_19: off
+    l_pf2_4_20: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_20: off
+    l_pf2_4_21: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_21: off
+    l_pf2_4_22: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_22: off
+    l_pf2_4_23: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_23: off
+    l_pf2_4_24: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_24: off
+    l_pf2_4_25: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_25: off
+    l_pf2_4_26: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_26: off
+    l_pf2_4_27: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_27: off
+    l_pf2_4_28: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_28: off
+    l_pf2_4_29: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_29: off
+    l_pf2_4_30: red
+
+- duration: 250ms
+  lights:
+    l_pf2_4_30: off

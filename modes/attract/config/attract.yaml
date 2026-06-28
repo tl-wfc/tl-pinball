@@ -83,6 +83,9 @@ show_player:
     show_tv_staticfast_1:
       loops: 5
       priority: 100
+    show_translight_demo:
+      loops: 100
+      priority: 100
       events_when_completed: attract_step_audio_1
   
   attract_step_2:    
