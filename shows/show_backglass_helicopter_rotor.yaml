@@ -1,0 +1,198 @@
+#show_version=6
+# shows/show_backglass_helicopter_rotor.yaml
+
+# Large helicopter rotor
+#
+# 25 = Left
+# 26 = Left
+# 27 = Centre
+# 28 = Centre
+# 29 = Right
+# 30 = Right
+
+# ------------------------------------------------------------
+# OFF
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_25: off
+    l_pf2_4_26: off
+    l_pf2_4_27: off
+    l_pf2_4_28: off
+    l_pf2_4_29: off
+    l_pf2_4_30: off
+
+# ------------------------------------------------------------
+# ROTOR STARTING
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_25: FFFFFF
+    l_pf2_4_26: D0FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: D0FFFF
+
+# ------------------------------------------------------------
+# BUILDING SPEED
+# ------------------------------------------------------------
+
+- duration: 50ms
+  lights:
+    l_pf2_4_25: FFFFFF
+    l_pf2_4_26: C0FFFF
+    l_pf2_4_27: 60FFFF
+    l_pf2_4_28: off
+    l_pf2_4_29: off
+    l_pf2_4_30: 60FFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_4_25: off
+    l_pf2_4_26: 60FFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: 60FFFF
+    l_pf2_4_30: off
+
+- duration: 50ms
+  lights:
+    l_pf2_4_25: 60FFFF
+    l_pf2_4_26: off
+    l_pf2_4_27: off
+    l_pf2_4_28: 60FFFF
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: C0FFFF
+
+# ------------------------------------------------------------
+# FULL SPEED ROTATION
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_4_25: FFFFFF
+    l_pf2_4_26: E0FFFF
+    l_pf2_4_27: 60FFFF
+    l_pf2_4_28: off
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: E0FFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_4_25: 60FFFF
+    l_pf2_4_26: FFFFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: 60FFFF
+    l_pf2_4_30: off
+
+- duration: 35ms
+  lights:
+    l_pf2_4_25: off
+    l_pf2_4_26: 60FFFF
+    l_pf2_4_27: E0FFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: off
+    l_pf2_4_30: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_4_25: 60FFFF
+    l_pf2_4_26: off
+    l_pf2_4_27: off
+    l_pf2_4_28: E0FFFF
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: E0FFFF
+
+# ------------------------------------------------------------
+# MOTION BLUR
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_25: C0FFFF
+    l_pf2_4_26: E0FFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: E0FFFF
+    l_pf2_4_30: C0FFFF
+
+- duration: 60ms
+  lights:
+    l_pf2_4_25: 80FFFF
+    l_pf2_4_26: D0FFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: D0FFFF
+    l_pf2_4_30: 80FFFF
+
+# ------------------------------------------------------------
+# SUNLIGHT GLINT
+# ------------------------------------------------------------
+
+- duration: 25ms
+  lights:
+    l_pf2_4_25: FFFFFF
+    l_pf2_4_26: FFFFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_4_25: C0FFFF
+    l_pf2_4_26: E0FFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: E0FFFF
+    l_pf2_4_30: C0FFFF
+
+# ------------------------------------------------------------
+# HIGH SPEED CONTINUOUS ROTOR
+# ------------------------------------------------------------
+
+- duration: 30ms
+  lights:
+    l_pf2_4_25: FFFFFF
+    l_pf2_4_26: A0FFFF
+    l_pf2_4_27: off
+    l_pf2_4_28: A0FFFF
+    l_pf2_4_29: FFFFFF
+    l_pf2_4_30: A0FFFF
+
+- duration: 30ms
+  lights:
+    l_pf2_4_25: A0FFFF
+    l_pf2_4_26: FFFFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: A0FFFF
+    l_pf2_4_30: off
+
+- duration: 30ms
+  lights:
+    l_pf2_4_25: off
+    l_pf2_4_26: A0FFFF
+    l_pf2_4_27: FFFFFF
+    l_pf2_4_28: A0FFFF
+    l_pf2_4_29: off
+    l_pf2_4_30: FFFFFF
+
+- duration: 30ms
+  lights:
+    l_pf2_4_25: A0FFFF
+    l_pf2_4_26: off
+    l_pf2_4_27: off
+    l_pf2_4_28: FFFFFF
+    l_pf2_4_29: A0FFFF
+    l_pf2_4_30: FFFFFF

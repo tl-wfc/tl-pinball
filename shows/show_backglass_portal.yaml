@@ -1,0 +1,611 @@
+#show_version=6
+# shows/show_backglass_portal_slow_blue_breath.yaml
+
+# Slow bright blue breathing portal
+# 75% bright / 25% dim
+# No red-heavy or green-heavy colours
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+- duration: 700ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 500ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 300ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+# Tiny instability
+
+- duration: 35ms
+  lights:
+    l_pf2_3_5: '00C0FF'
+    l_pf2_3_6: '00FFFF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00A0FF'
+
+- duration: 25ms
+  lights:
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+
+
+#standard lightshow
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+- duration: 700ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 500ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 300ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+# Electrical crackle
+
+- duration: 20ms
+  lights:
+    l_pf2_3_4: '0080FF'
+    l_pf2_3_7: '00FFFF'
+    l_pf2_3_8: '00FFFF'
+    l_pf2_3_11: '0080FF'
+
+- duration: 45ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_11: '0040FF'
+
+#standard lightshow
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+- duration: 700ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 500ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 300ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+# Portal shimmers
+
+- duration: 30ms
+  lights:
+    l_pf2_3_5: '00D0FF'
+    l_pf2_3_7: '00FFFF'
+    l_pf2_3_9: '00D0FF'
+
+- duration: 25ms
+  lights:
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_9: '0060FF'
+
+#standard lightshow
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 450ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+- duration: 700ms
+  lights:
+    l_pf2_3_4: '0030D0'
+    l_pf2_3_5: '0040FF'
+    l_pf2_3_6: '0060FF'
+    l_pf2_3_7: '0080FF'
+    l_pf2_3_8: '0080FF'
+    l_pf2_3_9: '0060FF'
+    l_pf2_3_10: '0040FF'
+    l_pf2_3_11: '0030D0'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 1200ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'
+
+- duration: 900ms
+  lights:
+    l_pf2_3_4: '0040FF'
+    l_pf2_3_5: '0060FF'
+    l_pf2_3_6: '0080FF'
+    l_pf2_3_7: '00A0FF'
+    l_pf2_3_8: '00A0FF'
+    l_pf2_3_9: '0080FF'
+    l_pf2_3_10: '0060FF'
+    l_pf2_3_11: '0040FF'
+
+- duration: 500ms
+  lights:
+    l_pf2_3_4: '002080'
+    l_pf2_3_5: '0030A0'
+    l_pf2_3_6: '0040C0'
+    l_pf2_3_7: '0050E0'
+    l_pf2_3_8: '0050E0'
+    l_pf2_3_9: '0040C0'
+    l_pf2_3_10: '0030A0'
+    l_pf2_3_11: '002080'
+
+- duration: 300ms
+  lights:
+    l_pf2_3_4: '001040'
+    l_pf2_3_5: '002060'
+    l_pf2_3_6: '003080'
+    l_pf2_3_7: '0040A0'
+    l_pf2_3_8: '0040A0'
+    l_pf2_3_9: '003080'
+    l_pf2_3_10: '002060'
+    l_pf2_3_11: '001040'
+
+# Energy burp
+
+- duration: 15ms
+  lights:
+    l_pf2_3_4: '00D0FF'
+    l_pf2_3_5: '00FFFF'
+    l_pf2_3_6: '00FFFF'
+    l_pf2_3_7: '00FFFF'
+    l_pf2_3_8: '00FFFF'
+    l_pf2_3_9: '00FFFF'
+    l_pf2_3_10: '00FFFF'
+    l_pf2_3_11: '00D0FF'
+
+- duration: 40ms
+  lights:
+    l_pf2_3_4: '0050FF'
+    l_pf2_3_5: '0070FF'
+    l_pf2_3_6: '0090FF'
+    l_pf2_3_7: '00B0FF'
+    l_pf2_3_8: '00B0FF'
+    l_pf2_3_9: '0090FF'
+    l_pf2_3_10: '0070FF'
+    l_pf2_3_11: '0050FF'

@@ -1,0 +1,181 @@
+#show_version=6
+# shows/show_backglass_small_helicopter_searchlight.yaml
+
+# Small helicopter searchlight
+#
+# 12 = Closest to helicopter
+# 8  = Furthest from helicopter
+
+# ------------------------------------------------------------
+# OFF
+# ------------------------------------------------------------
+
+- duration: 100ms
+  lights:
+    l_pf2_4_8: off
+    l_pf2_4_9: off
+    l_pf2_4_10: off
+    l_pf2_4_11: off
+    l_pf2_4_12: off
+
+# ------------------------------------------------------------
+# LAMP POWERS UP
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: E0FFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: D0FFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: D0FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: E0FFFF
+    l_pf2_4_8: D0FFFF
+
+# ------------------------------------------------------------
+# FULL BRIGHT BEAM
+# ------------------------------------------------------------
+
+- duration: 180ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: E0FFFF
+    l_pf2_4_8: C0FFFF
+
+# ------------------------------------------------------------
+# SWEEP OUT
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: D0FFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: FFFFFF
+    l_pf2_4_8: E0FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: A0FFFF
+    l_pf2_4_11: D0FFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: FFFFFF
+    l_pf2_4_8: FFFFFF
+
+# ------------------------------------------------------------
+# OVEREXPOSED FLASH
+# ------------------------------------------------------------
+
+- duration: 30ms
+  lights:
+    l_pf2_4_8: FFFFFF
+    l_pf2_4_9: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_12: FFFFFF
+
+- duration: 90ms
+  lights:
+    l_pf2_4_12: A0FFFF
+    l_pf2_4_11: D0FFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: FFFFFF
+    l_pf2_4_8: FFFFFF
+
+# ------------------------------------------------------------
+# SWEEP BACK
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: D0FFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: FFFFFF
+    l_pf2_4_8: E0FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: D0FFFF
+    l_pf2_4_8: A0FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: D0FFFF
+    l_pf2_4_9: A0FFFF
+    l_pf2_4_8: 60FFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: D0FFFF
+    l_pf2_4_10: A0FFFF
+    l_pf2_4_9: 60FFFF
+    l_pf2_4_8: 30FFFF
+
+# ------------------------------------------------------------
+# ENGINE FLICKER
+# ------------------------------------------------------------
+
+- duration: 40ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: E0FFFF
+    l_pf2_4_9: A0FFFF
+    l_pf2_4_8: 60FFFF
+
+- duration: 30ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: E0FFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: D0FFFF
+    l_pf2_4_8: 80FFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: E0FFFF
+    l_pf2_4_8: C0FFFF
+
+# ------------------------------------------------------------
+# IDLE HOLD
+# ------------------------------------------------------------
+
+- duration: 180ms
+  lights:
+    l_pf2_4_12: FFFFFF
+    l_pf2_4_11: FFFFFF
+    l_pf2_4_10: FFFFFF
+    l_pf2_4_9: E0FFFF
+    l_pf2_4_8: C0FFFF

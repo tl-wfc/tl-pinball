@@ -1,0 +1,202 @@
+#show_version=6
+# shows/show_main_alien_head.yaml
+
+# Main alien head
+# 1 = right eye
+# 2 = nose
+# 3 = left eye
+# 4 = mouth top
+# 5 = mouth bottom
+
+# ------------------------------------------------------------
+# WAKE UP / FACE APPEARS
+# ------------------------------------------------------------
+
+- duration: 120ms
+  lights:
+    l_pf2_4_1: off
+    l_pf2_4_2: off
+    l_pf2_4_3: off
+    l_pf2_4_4: off
+    l_pf2_4_5: off
+
+- duration: 120ms
+  lights:
+    l_pf2_4_1: '200000'
+    l_pf2_4_3: '200000'
+
+- duration: 120ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: '302000'
+
+- duration: 180ms
+  lights:
+    l_pf2_4_1: FF4000
+    l_pf2_4_3: FF4000
+    l_pf2_4_2: '806020'
+    l_pf2_4_4: '201010'
+    l_pf2_4_5: '201010'
+
+# ------------------------------------------------------------
+# ALIEN FACE GLOW
+# ------------------------------------------------------------
+
+- duration: 250ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: C0FFC0
+    l_pf2_4_4: 70FF70
+    l_pf2_4_5: 40C040
+
+- duration: 180ms
+  lights:
+    l_pf2_4_1: FFFFFF
+    l_pf2_4_3: FFFFFF
+    l_pf2_4_2: FFE0A0
+    l_pf2_4_4: A0FFA0
+    l_pf2_4_5: 70FF70
+
+- duration: 220ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: 80FF80
+    l_pf2_4_4: 40FF40
+    l_pf2_4_5: '208020'
+
+# ------------------------------------------------------------
+# HYPNOTIC EYE PULSE
+# ------------------------------------------------------------
+
+- duration: 100ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: '400000'
+    l_pf2_4_2: 40FF40
+    l_pf2_4_4: '202020'
+    l_pf2_4_5: '101010'
+
+- duration: 100ms
+  lights:
+    l_pf2_4_1: '400000'
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: 40FF40
+
+- duration: 100ms
+  lights:
+    l_pf2_4_1: FF4000
+    l_pf2_4_3: FF4000
+    l_pf2_4_2: 80FF80
+
+- duration: 80ms
+  lights:
+    l_pf2_4_1: FFFFFF
+    l_pf2_4_3: FFFFFF
+    l_pf2_4_2: C0FFC0
+
+- duration: 120ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: 40FF40
+
+# ------------------------------------------------------------
+# MOUTH / SPEAKING FLICKER
+# ------------------------------------------------------------
+
+- duration: 70ms
+  lights:
+    l_pf2_4_4: FFFFFF
+    l_pf2_4_5: 40FF40
+
+- duration: 70ms
+  lights:
+    l_pf2_4_4: 40FF40
+    l_pf2_4_5: FFFFFF
+
+- duration: 60ms
+  lights:
+    l_pf2_4_4: FF0000
+    l_pf2_4_5: FF4000
+
+- duration: 80ms
+  lights:
+    l_pf2_4_4: 40FF40
+    l_pf2_4_5: '208020'
+
+- duration: 60ms
+  lights:
+    l_pf2_4_4: FFFFFF
+    l_pf2_4_5: FFFFFF
+
+- duration: 90ms
+  lights:
+    l_pf2_4_4: 30A030
+    l_pf2_4_5: '106010'
+
+# ------------------------------------------------------------
+# SUBLIMINAL GLITCH
+# ------------------------------------------------------------
+
+- duration: 40ms
+  lights:
+    l_pf2_4_1: FFFFFF
+    l_pf2_4_2: FFFFFF
+    l_pf2_4_3: FFFFFF
+    l_pf2_4_4: FFFFFF
+    l_pf2_4_5: FFFFFF
+
+- duration: 40ms
+  lights:
+    l_pf2_4_1: off
+    l_pf2_4_2: 00FF00
+    l_pf2_4_3: off
+    l_pf2_4_4: FF0000
+    l_pf2_4_5: off
+
+- duration: 40ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_2: off
+    l_pf2_4_3: FF0000
+    l_pf2_4_4: off
+    l_pf2_4_5: FFFFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_4_1: FFFFFF
+    l_pf2_4_2: FFFFFF
+    l_pf2_4_3: FFFFFF
+    l_pf2_4_4: FFFFFF
+    l_pf2_4_5: FFFFFF
+
+# ------------------------------------------------------------
+# RETURN TO ALIEN FACE
+# ------------------------------------------------------------
+
+- duration: 160ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: 80FF80
+    l_pf2_4_4: 40FF40
+    l_pf2_4_5: '208020'
+
+- duration: 180ms
+  lights:
+    l_pf2_4_1: FF4000
+    l_pf2_4_3: FF4000
+    l_pf2_4_2: C0FFC0
+    l_pf2_4_4: 70FF70
+    l_pf2_4_5: 40C040
+
+- duration: 220ms
+  lights:
+    l_pf2_4_1: FF0000
+    l_pf2_4_3: FF0000
+    l_pf2_4_2: 40FF40
+    l_pf2_4_4: '209020'
+    l_pf2_4_5: '106010'

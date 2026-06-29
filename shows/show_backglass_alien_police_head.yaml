@@ -1,0 +1,204 @@
+#show_version=6
+# shows/show_backglass_alien_police_head.yaml
+
+# Large alien head
+# l_pf2_4_18 = mouth bottom
+# l_pf2_4_19 = mouth top
+# l_pf2_4_20 = left eye
+# l_pf2_4_21 = left eye
+# l_pf2_4_22 = nose
+# l_pf2_4_23 = right eye
+# l_pf2_4_24 = right eye
+
+- duration: 100ms
+  lights:
+    l_pf2_4_18: off
+    l_pf2_4_19: off
+    l_pf2_4_20: off
+    l_pf2_4_21: off
+    l_pf2_4_22: off
+    l_pf2_4_23: off
+    l_pf2_4_24: off
+
+# Eyes appear
+- duration: 120ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF3000
+    l_pf2_4_23: FF3000
+    l_pf2_4_24: FF0000
+
+- duration: 100ms
+  lights:
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: C0FFC0
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FFFFFF
+
+- duration: 180ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF4000
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: FF4000
+    l_pf2_4_24: FF0000
+    l_pf2_4_19: 90FF90
+    l_pf2_4_18: 40FF40
+
+# Bright alien face glow
+- duration: 220ms
+  lights:
+    l_pf2_4_20: FF4000
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: D0FFD0
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FF4000
+    l_pf2_4_19: C0FFC0
+    l_pf2_4_18: 80FF80
+
+- duration: 60ms
+  lights:
+    l_pf2_4_18: FFFFFF
+    l_pf2_4_19: FFFFFF
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FFFFFF
+
+- duration: 180ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF3000
+    l_pf2_4_22: D0FFD0
+    l_pf2_4_23: FF3000
+    l_pf2_4_24: FF0000
+    l_pf2_4_19: A0FFA0
+    l_pf2_4_18: 50FF50
+
+# Hypnotic eye pulse
+- duration: 80ms
+  lights:
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FF8000
+    l_pf2_4_23: FF2000
+    l_pf2_4_24: FF0000
+    l_pf2_4_22: A0FFA0
+
+- duration: 80ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF2000
+    l_pf2_4_23: FF8000
+    l_pf2_4_24: FFFFFF
+    l_pf2_4_22: A0FFA0
+
+- duration: 80ms
+  lights:
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FFFFFF
+    l_pf2_4_22: FFFFFF
+
+- duration: 120ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF3000
+    l_pf2_4_23: FF3000
+    l_pf2_4_24: FF0000
+    l_pf2_4_22: C0FFC0
+
+# Mouth speaking / transmission flicker
+- duration: 55ms
+  lights:
+    l_pf2_4_19: FFFFFF
+    l_pf2_4_18: 40FF40
+
+- duration: 55ms
+  lights:
+    l_pf2_4_19: 40FF40
+    l_pf2_4_18: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_4_19: FFFFFF
+    l_pf2_4_18: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_4_19: 90FF90
+    l_pf2_4_18: 40FF40
+
+- duration: 45ms
+  lights:
+    l_pf2_4_19: FF0000
+    l_pf2_4_18: FFFFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_4_19: C0FFC0
+    l_pf2_4_18: 80FF80
+
+# Subliminal white-hot glitch
+- duration: 35ms
+  lights:
+    l_pf2_4_18: FFFFFF
+    l_pf2_4_19: FFFFFF
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_4_18: off
+    l_pf2_4_19: FF0000
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: off
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: off
+    l_pf2_4_24: FF0000
+
+- duration: 35ms
+  lights:
+    l_pf2_4_18: FFFFFF
+    l_pf2_4_19: off
+    l_pf2_4_20: off
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: off
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: off
+
+- duration: 45ms
+  lights:
+    l_pf2_4_18: FFFFFF
+    l_pf2_4_19: FFFFFF
+    l_pf2_4_20: FFFFFF
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FFFFFF
+
+# Return to bright alien face
+- duration: 180ms
+  lights:
+    l_pf2_4_20: FF0000
+    l_pf2_4_21: FF4000
+    l_pf2_4_22: FFFFFF
+    l_pf2_4_23: FF4000
+    l_pf2_4_24: FF0000
+    l_pf2_4_19: C0FFC0
+    l_pf2_4_18: 80FF80
+
+- duration: 220ms
+  lights:
+    l_pf2_4_20: FF4000
+    l_pf2_4_21: FFFFFF
+    l_pf2_4_22: D0FFD0
+    l_pf2_4_23: FFFFFF
+    l_pf2_4_24: FF4000
+    l_pf2_4_19: A0FFA0
+    l_pf2_4_18: 50FF50

@@ -77,27 +77,114 @@ event_player:
 
 show_player:
   mode_attract_started:
+ 
+ # ENVIRONMENT - always running
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+
+    show_backglass_helicopter_rotor:
+      loops: 50
+      priority: 110
+
+    show_backglass_small_helicopter_searchlight:
+      loops: 20
+      priority: 120
+
+    show_backglass_left_helicopter_searchlight:
+      loops: 20
+      priority: 120
+
+    # First story beat
+    show_backglass_they_live_title:
+      loops: 2
+      priority: 200
+      events_when_completed: attract_backglass_main_alien
+
+
+  attract_backglass_main_alien:
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+
+    show_backglass_main_alien_head:
+      loops: 4
+      priority: 210
+    show_backglass_dual_machine_guns:
+      loops: 5
+      priority: 240
+      events_when_completed: attract_backglass_police_alien
+
+
+  attract_backglass_police_alien:
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+
+    show_backglass_alien_police_head:
+      loops: 4
+      priority: 210
+
+
+    show_backglass_dual_machine_guns:
+      loops: 5
+      priority: 240
+
+    show_backglass_they_live_broken_buzz:
+      loops: 5
+      priority: 240
+      events_when_completed: attract_backglass_watch
+
+
+  attract_backglass_watch:
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+    show_backglass_watch_transporter_open:
+      loops: 3
+      priority: 220
+      events_when_completed: attract_backglass_signs
+
+
+  attract_backglass_signs:
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+    show_backglass_subliminal_signs:
+      loops: 4
+      priority: 230
+      events_when_completed: attract_backglass_guns
+
+
+  attract_backglass_guns:
+    show_backglass_portal:
+      loops: 20
+      priority: 100
+    show_backglass_dual_machine_guns:
+      loops: 5
+      priority: 240
+      events_when_completed: attract_step_audio_1
+
+
+  attract_step_2:
     show_tv_staticbreath_1:
       loops: 5
       priority: 100
+
     show_tv_staticfast_1:
       loops: 5
       priority: 100
-    show_translight_demo:
-      loops: 100
-      priority: 100
-      events_when_completed: attract_step_audio_1
-  
-  attract_step_2:    
+
     show_reel_1:
       loops: 5
       speed: 1.0
       priority: 200
+
     show_fig8_attract_2:
       loops: 5
       speed: 1.0
       priority: 200
-      events_when_completed: attract_step_3
+      events_when_completed: mode_attract_started
   
   attract_step_3:
     rainbow_pops_1:

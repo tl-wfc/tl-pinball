@@ -1,0 +1,227 @@
+#show_version=6
+# shows/show_backglass_subliminal_signs.yaml
+
+# SUBMIT: l_pf2_4_13, l_pf2_4_14
+# MARRY: l_pf2_4_17
+# REPRODUCE: l_pf2_4_15, l_pf2_4_16
+# CONFORM: l_pf2_4_6, l_pf2_4_7
+# CONSUME newspaper: l_pf2_3_1, l_pf2_3_2, l_pf2_3_3
+
+# ------------------------------------------------------------
+# ALL SIGNS OFF
+# ------------------------------------------------------------
+
+- duration: 100ms
+  lights:
+    l_pf2_3_1: off
+    l_pf2_3_2: off
+    l_pf2_3_3: off
+    l_pf2_4_6: off
+    l_pf2_4_7: off
+    l_pf2_4_13: off
+    l_pf2_4_14: off
+    l_pf2_4_15: off
+    l_pf2_4_16: off
+    l_pf2_4_17: off
+
+# ------------------------------------------------------------
+# OBEY-STYLE SUBLIMINAL SIGN REVEALS
+# ------------------------------------------------------------
+
+# CONSUME
+- duration: 180ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+
+# SUBMIT
+- duration: 180ms
+  lights:
+    l_pf2_3_1: '303030'
+    l_pf2_3_2: '404040'
+    l_pf2_3_3: '303030'
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: FFFFFF
+
+# MARRY
+- duration: 180ms
+  lights:
+    l_pf2_4_13: '303030'
+    l_pf2_4_14: '303030'
+    l_pf2_4_17: FFFFFF
+
+# REPRODUCE
+- duration: 180ms
+  lights:
+    l_pf2_4_17: '303030'
+    l_pf2_4_15: FFFFFF
+    l_pf2_4_16: FFFFFF
+
+# CONFORM
+- duration: 180ms
+  lights:
+    l_pf2_4_15: '303030'
+    l_pf2_4_16: '303030'
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: FFFFFF
+
+# ------------------------------------------------------------
+# ALL SIGNS WHITE-HOT
+# ------------------------------------------------------------
+
+- duration: 300ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: FFFFFF
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: FFFFFF
+    l_pf2_4_15: FFFFFF
+    l_pf2_4_16: FFFFFF
+    l_pf2_4_17: FFFFFF
+
+# ------------------------------------------------------------
+# DIRTY BILLBOARD / CRT FLICKER
+# ------------------------------------------------------------
+
+- duration: 60ms
+  lights:
+    l_pf2_3_1: B0B0B0
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: B0B0B0
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: '707070'
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: B0B0B0
+    l_pf2_4_15: '808080'
+    l_pf2_4_16: FFFFFF
+    l_pf2_4_17: FFFFFF
+
+- duration: 40ms
+  lights:
+    l_pf2_3_1: off
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: off
+    l_pf2_4_6: '505050'
+    l_pf2_4_7: FFFFFF
+    l_pf2_4_13: off
+    l_pf2_4_14: FFFFFF
+    l_pf2_4_15: FFFFFF
+    l_pf2_4_16: off
+    l_pf2_4_17: '808080'
+
+- duration: 50ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: FFFFFF
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: FFFFFF
+    l_pf2_4_15: FFFFFF
+    l_pf2_4_16: FFFFFF
+    l_pf2_4_17: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_3_1: '101010'
+    l_pf2_3_2: '101010'
+    l_pf2_3_3: '101010'
+    l_pf2_4_6: off
+    l_pf2_4_7: off
+    l_pf2_4_13: off
+    l_pf2_4_14: off
+    l_pf2_4_15: off
+    l_pf2_4_16: off
+    l_pf2_4_17: off
+
+- duration: 70ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: D0FFD0
+    l_pf2_3_3: FFFFFF
+    l_pf2_4_6: D0FFD0
+    l_pf2_4_7: FFFFFF
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: D0FFD0
+    l_pf2_4_15: D0FFD0
+    l_pf2_4_16: FFFFFF
+    l_pf2_4_17: FFFFFF
+
+# ------------------------------------------------------------
+# COMMAND TRANSMISSION PULSE
+# ------------------------------------------------------------
+
+- duration: 120ms
+  lights:
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: FFFFFF
+    l_pf2_4_15: '303030'
+    l_pf2_4_16: '303030'
+    l_pf2_4_17: '303030'
+    l_pf2_4_6: '303030'
+    l_pf2_4_7: '303030'
+    l_pf2_3_1: '303030'
+    l_pf2_3_2: '303030'
+    l_pf2_3_3: '303030'
+
+- duration: 120ms
+  lights:
+    l_pf2_4_13: '303030'
+    l_pf2_4_14: '303030'
+    l_pf2_4_17: FFFFFF
+
+- duration: 120ms
+  lights:
+    l_pf2_4_17: '303030'
+    l_pf2_4_15: FFFFFF
+    l_pf2_4_16: FFFFFF
+
+- duration: 120ms
+  lights:
+    l_pf2_4_15: '303030'
+    l_pf2_4_16: '303030'
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: FFFFFF
+
+- duration: 120ms
+  lights:
+    l_pf2_4_6: '303030'
+    l_pf2_4_7: '303030'
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+
+# ------------------------------------------------------------
+# FINAL HYPNOTIC HOLD
+# ------------------------------------------------------------
+
+- duration: 250ms
+  lights:
+    l_pf2_3_1: E0E0E0
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: E0E0E0
+    l_pf2_4_6: FFFFFF
+    l_pf2_4_7: E0E0E0
+    l_pf2_4_13: FFFFFF
+    l_pf2_4_14: E0E0E0
+    l_pf2_4_15: E0E0E0
+    l_pf2_4_16: FFFFFF
+    l_pf2_4_17: FFFFFF
+
+- duration: 250ms
+  lights:
+    l_pf2_3_1: '202020'
+    l_pf2_3_2: '303030'
+    l_pf2_3_3: '202020'
+    l_pf2_4_6: '303030'
+    l_pf2_4_7: '202020'
+    l_pf2_4_13: '303030'
+    l_pf2_4_14: '202020'
+    l_pf2_4_15: '202020'
+    l_pf2_4_16: '303030'
+    l_pf2_4_17: '303030'

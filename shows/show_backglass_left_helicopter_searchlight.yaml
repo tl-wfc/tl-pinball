@@ -1,0 +1,227 @@
+#show_version=6
+# shows/show_backglass_left_helicopter_searchlight.yaml
+
+# Left helicopter searchlight beam
+# 17 = closest to helicopter
+# 26 = furthest from helicopter
+
+- duration: 100ms
+  lights:
+    l_pf2_3_17: off
+    l_pf2_3_18: off
+    l_pf2_3_19: off
+    l_pf2_3_20: off
+    l_pf2_3_21: off
+    l_pf2_3_22: off
+    l_pf2_3_23: off
+    l_pf2_3_24: off
+    l_pf2_3_25: off
+    l_pf2_3_26: off
+
+# Beam powers up from helicopter outward
+- duration: 70ms
+  lights:
+    l_pf2_3_17: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: FFE8A0
+    l_pf2_3_18: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: FFC060
+    l_pf2_3_18: FFE8A0
+    l_pf2_3_19: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: FFA030
+    l_pf2_3_18: FFC060
+    l_pf2_3_19: FFE8A0
+    l_pf2_3_20: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: '806020'
+    l_pf2_3_18: FFA030
+    l_pf2_3_19: FFC060
+    l_pf2_3_20: FFE8A0
+    l_pf2_3_21: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: '302010'
+    l_pf2_3_18: '806020'
+    l_pf2_3_19: FFA030
+    l_pf2_3_20: FFC060
+    l_pf2_3_21: FFE8A0
+    l_pf2_3_22: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_17: off
+    l_pf2_3_18: '302010'
+    l_pf2_3_19: '806020'
+    l_pf2_3_20: FFA030
+    l_pf2_3_21: FFC060
+    l_pf2_3_22: FFE8A0
+    l_pf2_3_23: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_18: off
+    l_pf2_3_19: '302010'
+    l_pf2_3_20: '806020'
+    l_pf2_3_21: FFA030
+    l_pf2_3_22: FFC060
+    l_pf2_3_23: FFE8A0
+    l_pf2_3_24: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_19: off
+    l_pf2_3_20: '302010'
+    l_pf2_3_21: '806020'
+    l_pf2_3_22: FFA030
+    l_pf2_3_23: FFC060
+    l_pf2_3_24: FFE8A0
+    l_pf2_3_25: FFFFFF
+
+- duration: 90ms
+  lights:
+    l_pf2_3_20: off
+    l_pf2_3_21: '302010'
+    l_pf2_3_22: '806020'
+    l_pf2_3_23: FFA030
+    l_pf2_3_24: FFC060
+    l_pf2_3_25: FFE8A0
+    l_pf2_3_26: FFFFFF
+
+# Beam holds fully lit, warm near helicopter, white at search point
+- duration: 300ms
+  lights:
+    l_pf2_3_17: '201000'
+    l_pf2_3_18: '403020'
+    l_pf2_3_19: '806040'
+    l_pf2_3_20: C09050
+    l_pf2_3_21: FFC060
+    l_pf2_3_22: FFE080
+    l_pf2_3_23: FFFFFF
+    l_pf2_3_24: FFFFFF
+    l_pf2_3_25: FFE080
+    l_pf2_3_26: FFC060
+
+# Searchlight flicker / scanning intensity
+- duration: 80ms
+  lights:
+    l_pf2_3_17: '100800'
+    l_pf2_3_18: '302010'
+    l_pf2_3_19: '604020'
+    l_pf2_3_20: A07030
+    l_pf2_3_21: FFA030
+    l_pf2_3_22: FFC060
+    l_pf2_3_23: FFE080
+    l_pf2_3_24: FFFFFF
+    l_pf2_3_25: FFFFFF
+    l_pf2_3_26: FFE080
+
+- duration: 80ms
+  lights:
+    l_pf2_3_17: '201000'
+    l_pf2_3_18: '403020'
+    l_pf2_3_19: '806040'
+    l_pf2_3_20: C09050
+    l_pf2_3_21: FFC060
+    l_pf2_3_22: FFE080
+    l_pf2_3_23: FFFFFF
+    l_pf2_3_24: FFFFFF
+    l_pf2_3_25: FFE080
+    l_pf2_3_26: FFC060
+
+- duration: 60ms
+  lights:
+    l_pf2_3_23: FFC060
+    l_pf2_3_24: FFE080
+    l_pf2_3_25: FFFFFF
+    l_pf2_3_26: FFFFFF
+
+- duration: 60ms
+  lights:
+    l_pf2_3_22: FFC060
+    l_pf2_3_23: FFE080
+    l_pf2_3_24: FFFFFF
+    l_pf2_3_25: FFFFFF
+    l_pf2_3_26: FFE080
+
+- duration: 60ms
+  lights:
+    l_pf2_3_21: FFC060
+    l_pf2_3_22: FFE080
+    l_pf2_3_23: FFFFFF
+    l_pf2_3_24: FFFFFF
+    l_pf2_3_25: FFE080
+    l_pf2_3_26: FFC060
+
+# Beam collapses back toward helicopter
+- duration: 70ms
+  lights:
+    l_pf2_3_26: off
+    l_pf2_3_25: FFC060
+    l_pf2_3_24: FFE080
+    l_pf2_3_23: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_25: off
+    l_pf2_3_24: FFC060
+    l_pf2_3_23: FFE080
+    l_pf2_3_22: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_24: off
+    l_pf2_3_23: FFC060
+    l_pf2_3_22: FFE080
+    l_pf2_3_21: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_23: off
+    l_pf2_3_22: FFC060
+    l_pf2_3_21: FFE080
+    l_pf2_3_20: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_22: off
+    l_pf2_3_21: FFC060
+    l_pf2_3_20: FFE080
+    l_pf2_3_19: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_21: off
+    l_pf2_3_20: FFC060
+    l_pf2_3_19: FFE080
+    l_pf2_3_18: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_20: off
+    l_pf2_3_19: FFC060
+    l_pf2_3_18: FFE080
+    l_pf2_3_17: FFFFFF
+
+- duration: 100ms
+  lights:
+    l_pf2_3_17: off
+    l_pf2_3_18: off
+    l_pf2_3_19: off
+    l_pf2_3_20: off
+    l_pf2_3_21: off
+    l_pf2_3_22: off
+    l_pf2_3_23: off
+    l_pf2_3_24: off
+    l_pf2_3_25: off
+    l_pf2_3_26: off

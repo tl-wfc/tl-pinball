@@ -1,0 +1,477 @@
+#show_version=6
+# shows/show_backglass_they_live_broken_buzz.yaml
+
+# Broken buzzing neon title sign
+# Neon pink / blue / white
+# l_pf2_2_15 to l_pf2_2_18 are gun flash LEDs, kept off
+
+- duration: 100ms
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+    l_pf2_2_9: off
+    l_pf2_2_10: off
+    l_pf2_2_11: off
+    l_pf2_2_12: off
+    l_pf2_2_13: off
+    l_pf2_2_14: off
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+    l_pf2_2_19: off
+    l_pf2_2_20: off
+    l_pf2_2_21: off
+    l_pf2_2_22: off
+    l_pf2_2_23: off
+    l_pf2_2_24: off
+    l_pf2_2_25: off
+    l_pf2_2_26: off
+    l_pf2_2_27: off
+    l_pf2_2_28: off
+    l_pf2_2_29: off
+    l_pf2_2_30: off
+    l_pf2_2_31: off
+
+# First unstable buzz
+- duration: 60ms
+  lights:
+    l_pf2_2_10: FF1493
+    l_pf2_2_12: 00BFFF
+    l_pf2_2_14: FF1493
+
+- duration: 40ms
+  lights:
+    l_pf2_2_10: off
+    l_pf2_2_12: off
+    l_pf2_2_14: off
+
+- duration: 70ms
+  lights:
+    l_pf2_2_7: 00BFFF
+    l_pf2_2_8: FF1493
+    l_pf2_2_9: 00BFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_8: off
+
+- duration: 90ms
+  lights:
+    l_pf2_2_8: FFFFFF
+    l_pf2_2_4: FF1493
+    l_pf2_2_5: 00BFFF
+    l_pf2_2_6: FF1493
+
+- duration: 45ms
+  lights:
+    l_pf2_2_4: off
+    l_pf2_2_6: off
+    l_pf2_2_8: '202020'
+
+# THEY tries to light
+- duration: 160ms
+  lights:
+    l_pf2_2_1: 00BFFF
+    l_pf2_2_2: FF1493
+    l_pf2_2_3: 00BFFF
+    l_pf2_2_4: FF1493
+    l_pf2_2_5: 00BFFF
+    l_pf2_2_6: FF1493
+    l_pf2_2_7: 00BFFF
+    l_pf2_2_8: FF1493
+    l_pf2_2_9: 00BFFF
+    l_pf2_2_10: FF1493
+    l_pf2_2_11: FF1493
+    l_pf2_2_12: 00BFFF
+    l_pf2_2_13: FF1493
+    l_pf2_2_14: 00BFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_2_2: off
+    l_pf2_2_5: off
+    l_pf2_2_11: off
+    l_pf2_2_13: off
+
+- duration: 45ms
+  lights:
+    l_pf2_2_2: FFFFFF
+    l_pf2_2_5: FFFFFF
+    l_pf2_2_11: FFFFFF
+    l_pf2_2_13: FFFFFF
+
+- duration: 60ms
+  lights:
+    l_pf2_2_1: '302030'
+    l_pf2_2_3: '302030'
+    l_pf2_2_7: '202030'
+    l_pf2_2_9: '202030'
+    l_pf2_2_12: '202030'
+    l_pf2_2_14: '202030'
+
+# LIVE sputters on
+- duration: 120ms
+  lights:
+    l_pf2_2_29: FF1493
+    l_pf2_2_30: 00BFFF
+    l_pf2_2_31: FF1493
+
+- duration: 40ms
+  lights:
+    l_pf2_2_29: off
+    l_pf2_2_30: off
+    l_pf2_2_31: off
+
+- duration: 80ms
+  lights:
+    l_pf2_2_26: 00BFFF
+    l_pf2_2_27: FFFFFF
+    l_pf2_2_28: 00BFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_2_27: off
+
+- duration: 90ms
+  lights:
+    l_pf2_2_23: FF1493
+    l_pf2_2_24: 00BFFF
+    l_pf2_2_25: FF1493
+    l_pf2_2_27: FF1493
+
+- duration: 70ms
+  lights:
+    l_pf2_2_19: 00BFFF
+    l_pf2_2_20: FF1493
+    l_pf2_2_21: FF1493
+    l_pf2_2_22: 00BFFF
+
+# Whole sign unstable
+- duration: 250ms
+  lights:
+    l_pf2_2_1: FF1493
+    l_pf2_2_2: 00BFFF
+    l_pf2_2_3: FF1493
+    l_pf2_2_4: 00BFFF
+    l_pf2_2_5: FF1493
+    l_pf2_2_6: 00BFFF
+    l_pf2_2_7: FF1493
+    l_pf2_2_8: 00BFFF
+    l_pf2_2_9: FF1493
+    l_pf2_2_10: 00BFFF
+    l_pf2_2_11: FF1493
+    l_pf2_2_12: 00BFFF
+    l_pf2_2_13: FF1493
+    l_pf2_2_14: 00BFFF
+    l_pf2_2_19: FF1493
+    l_pf2_2_20: 00BFFF
+    l_pf2_2_21: FF1493
+    l_pf2_2_22: 00BFFF
+    l_pf2_2_23: FF1493
+    l_pf2_2_24: 00BFFF
+    l_pf2_2_25: FF1493
+    l_pf2_2_26: 00BFFF
+    l_pf2_2_27: FF1493
+    l_pf2_2_28: 00BFFF
+    l_pf2_2_29: FF1493
+    l_pf2_2_30: 00BFFF
+    l_pf2_2_31: FF1493
+
+# Random buzzing sections
+- duration: 35ms
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_8: off
+    l_pf2_2_20: off
+    l_pf2_2_24: off
+    l_pf2_2_30: off
+
+- duration: 45ms
+  lights:
+    l_pf2_2_1: FFFFFF
+    l_pf2_2_8: FFFFFF
+    l_pf2_2_20: FFFFFF
+    l_pf2_2_24: FFFFFF
+    l_pf2_2_30: FFFFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_2_1: FF1493
+    l_pf2_2_8: 00BFFF
+    l_pf2_2_20: FF1493
+    l_pf2_2_24: 00BFFF
+    l_pf2_2_30: FF1493
+
+- duration: 30ms
+  lights:
+    l_pf2_2_4: off
+    l_pf2_2_5: off
+    l_pf2_2_6: off
+    l_pf2_2_23: off
+    l_pf2_2_24: off
+    l_pf2_2_25: off
+
+- duration: 40ms
+  lights:
+    l_pf2_2_4: FFFFFF
+    l_pf2_2_5: FFFFFF
+    l_pf2_2_6: FFFFFF
+    l_pf2_2_23: FFFFFF
+    l_pf2_2_24: FFFFFF
+    l_pf2_2_25: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_2_4: 00BFFF
+    l_pf2_2_5: FF1493
+    l_pf2_2_6: 00BFFF
+    l_pf2_2_23: FF1493
+    l_pf2_2_24: 00BFFF
+    l_pf2_2_25: FF1493
+
+- duration: 300ms
+  lights:
+    l_pf2_2_1: '701060'
+    l_pf2_2_2: '004060'
+    l_pf2_2_3: '701060'
+    l_pf2_2_4: '004060'
+    l_pf2_2_5: '701060'
+    l_pf2_2_6: '004060'
+    l_pf2_2_7: '701060'
+    l_pf2_2_8: '004060'
+    l_pf2_2_9: '701060'
+    l_pf2_2_10: '004060'
+    l_pf2_2_11: '701060'
+    l_pf2_2_12: '004060'
+    l_pf2_2_13: '701060'
+    l_pf2_2_14: '004060'
+    l_pf2_2_19: '701060'
+    l_pf2_2_20: '004060'
+    l_pf2_2_21: '701060'
+    l_pf2_2_22: '004060'
+    l_pf2_2_23: '701060'
+    l_pf2_2_24: '004060'
+    l_pf2_2_25: '701060'
+    l_pf2_2_26: '004060'
+    l_pf2_2_27: '701060'
+    l_pf2_2_28: '004060'
+    l_pf2_2_29: '701060'
+    l_pf2_2_30: '004060'
+    l_pf2_2_31: '701060'
+
+# Sudden bright buzz
+- duration: 25ms
+  lights:
+    l_pf2_2_1: FFFFFF
+    l_pf2_2_2: FFFFFF
+    l_pf2_2_3: FFFFFF
+    l_pf2_2_4: FFFFFF
+    l_pf2_2_5: FFFFFF
+    l_pf2_2_6: FFFFFF
+    l_pf2_2_7: FFFFFF
+    l_pf2_2_8: FFFFFF
+    l_pf2_2_9: FFFFFF
+    l_pf2_2_10: FFFFFF
+    l_pf2_2_11: FFFFFF
+    l_pf2_2_12: FFFFFF
+    l_pf2_2_13: FFFFFF
+    l_pf2_2_14: FFFFFF
+    l_pf2_2_19: FFFFFF
+    l_pf2_2_20: FFFFFF
+    l_pf2_2_21: FFFFFF
+    l_pf2_2_22: FFFFFF
+    l_pf2_2_23: FFFFFF
+    l_pf2_2_24: FFFFFF
+    l_pf2_2_25: FFFFFF
+    l_pf2_2_26: FFFFFF
+    l_pf2_2_27: FFFFFF
+    l_pf2_2_28: FFFFFF
+    l_pf2_2_29: FFFFFF
+    l_pf2_2_30: FFFFFF
+    l_pf2_2_31: FFFFFF
+
+- duration: 40ms
+  lights:
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+    l_pf2_2_10: off
+    l_pf2_2_11: off
+    l_pf2_2_19: off
+    l_pf2_2_22: off
+    l_pf2_2_27: off
+    l_pf2_2_31: off
+
+- duration: 60ms
+  lights:
+    l_pf2_2_2: 00BFFF
+    l_pf2_2_3: FF1493
+    l_pf2_2_10: FF1493
+    l_pf2_2_11: 00BFFF
+    l_pf2_2_19: FF1493
+    l_pf2_2_22: 00BFFF
+    l_pf2_2_27: FFFFFF
+    l_pf2_2_31: FF1493
+
+# Letter dropouts
+- duration: 120ms
+  lights:
+    l_pf2_2_1: off
+    l_pf2_2_2: off
+    l_pf2_2_3: off
+
+- duration: 90ms
+  lights:
+    l_pf2_2_1: FF1493
+    l_pf2_2_2: FFFFFF
+    l_pf2_2_3: 00BFFF
+
+- duration: 100ms
+  lights:
+    l_pf2_2_29: off
+    l_pf2_2_30: off
+    l_pf2_2_31: off
+
+- duration: 80ms
+  lights:
+    l_pf2_2_29: 00BFFF
+    l_pf2_2_30: FFFFFF
+    l_pf2_2_31: FF1493
+
+- duration: 70ms
+  lights:
+    l_pf2_2_7: off
+    l_pf2_2_8: off
+    l_pf2_2_9: off
+    l_pf2_2_23: off
+    l_pf2_2_24: off
+    l_pf2_2_25: off
+
+- duration: 50ms
+  lights:
+    l_pf2_2_7: FFFFFF
+    l_pf2_2_8: FFFFFF
+    l_pf2_2_9: FFFFFF
+    l_pf2_2_23: FFFFFF
+    l_pf2_2_24: FFFFFF
+    l_pf2_2_25: FFFFFF
+
+- duration: 140ms
+  lights:
+    l_pf2_2_7: FF1493
+    l_pf2_2_8: 00BFFF
+    l_pf2_2_9: FF1493
+    l_pf2_2_23: 00BFFF
+    l_pf2_2_24: FF1493
+    l_pf2_2_25: 00BFFF
+
+# Long uneven buzz hold
+- duration: 400ms
+  lights:
+    l_pf2_2_1: FF1493
+    l_pf2_2_2: 00BFFF
+    l_pf2_2_3: FF1493
+    l_pf2_2_4: 00BFFF
+    l_pf2_2_5: FF1493
+    l_pf2_2_6: 00BFFF
+    l_pf2_2_7: FF1493
+    l_pf2_2_8: 00BFFF
+    l_pf2_2_9: FF1493
+    l_pf2_2_10: FF1493
+    l_pf2_2_11: 00BFFF
+    l_pf2_2_12: FF1493
+    l_pf2_2_13: FFFFFF
+    l_pf2_2_14: FF1493
+    l_pf2_2_19: 00BFFF
+    l_pf2_2_20: FF1493
+    l_pf2_2_21: 00BFFF
+    l_pf2_2_22: FF1493
+    l_pf2_2_23: FF1493
+    l_pf2_2_24: 00BFFF
+    l_pf2_2_25: FF1493
+    l_pf2_2_26: 00BFFF
+    l_pf2_2_27: FF1493
+    l_pf2_2_28: 00BFFF
+    l_pf2_2_29: FF1493
+    l_pf2_2_30: 00BFFF
+    l_pf2_2_31: FF1493
+
+# Broken transformer sputter
+- duration: 30ms
+  lights:
+    l_pf2_2_5: off
+    l_pf2_2_13: off
+    l_pf2_2_21: off
+    l_pf2_2_28: off
+
+- duration: 30ms
+  lights:
+    l_pf2_2_5: FFFFFF
+    l_pf2_2_13: FFFFFF
+    l_pf2_2_21: FFFFFF
+    l_pf2_2_28: FFFFFF
+
+- duration: 30ms
+  lights:
+    l_pf2_2_5: off
+    l_pf2_2_13: off
+    l_pf2_2_21: off
+    l_pf2_2_28: off
+
+- duration: 45ms
+  lights:
+    l_pf2_2_5: FF1493
+    l_pf2_2_13: FF1493
+    l_pf2_2_21: 00BFFF
+    l_pf2_2_28: 00BFFF
+
+- duration: 90ms
+  lights:
+    l_pf2_2_4: off
+    l_pf2_2_6: off
+    l_pf2_2_20: off
+    l_pf2_2_22: off
+
+- duration: 60ms
+  lights:
+    l_pf2_2_4: 00BFFF
+    l_pf2_2_6: 00BFFF
+    l_pf2_2_20: FF1493
+    l_pf2_2_22: FF1493
+
+# Final buzz before repeat
+- duration: 500ms
+  lights:
+    l_pf2_2_1: '401030'
+    l_pf2_2_2: '002040'
+    l_pf2_2_3: '401030'
+    l_pf2_2_4: '002040'
+    l_pf2_2_5: '401030'
+    l_pf2_2_6: '002040'
+    l_pf2_2_7: '401030'
+    l_pf2_2_8: '002040'
+    l_pf2_2_9: '401030'
+    l_pf2_2_10: '002040'
+    l_pf2_2_11: '401030'
+    l_pf2_2_12: '002040'
+    l_pf2_2_13: '401030'
+    l_pf2_2_14: '002040'
+    l_pf2_2_19: '401030'
+    l_pf2_2_20: '002040'
+    l_pf2_2_21: '401030'
+    l_pf2_2_22: '002040'
+    l_pf2_2_23: '401030'
+    l_pf2_2_24: '002040'
+    l_pf2_2_25: '401030'
+    l_pf2_2_26: '002040'
+    l_pf2_2_27: '401030'
+    l_pf2_2_28: '002040'
+    l_pf2_2_29: '401030'
+    l_pf2_2_30: '002040'
+    l_pf2_2_31: '401030'

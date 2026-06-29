@@ -1,0 +1,185 @@
+#show_version=6
+# shows/show_backglass_watch_transporter_open.yaml
+
+# Alien Watch Transporter
+# 27 = closest to watch
+# 32 = furthest
+
+- duration: 100ms
+  lights:
+    l_pf2_3_27: off
+    l_pf2_3_28: off
+    l_pf2_3_29: off
+    l_pf2_3_30: off
+    l_pf2_3_31: off
+    l_pf2_3_32: off
+
+# ------------------------------------------------------------
+# Small blue spark
+# ------------------------------------------------------------
+
+- duration: 120ms
+  lights:
+    l_pf2_3_27: '001040'
+
+- duration: 120ms
+  lights:
+    l_pf2_3_27: 0030A0
+    l_pf2_3_28: '001040'
+
+- duration: 100ms
+  lights:
+    l_pf2_3_27: 0080FF
+    l_pf2_3_28: 0030A0
+    l_pf2_3_29: '001040'
+
+# ------------------------------------------------------------
+# Portal begins opening
+# ------------------------------------------------------------
+
+- duration: 90ms
+  lights:
+    l_pf2_3_27: FFFFFF
+    l_pf2_3_28: 40C0FF
+    l_pf2_3_29: 0080FF
+    l_pf2_3_30: '002060'
+
+- duration: 90ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: FFFFFF
+    l_pf2_3_29: 40C0FF
+    l_pf2_3_30: 0080FF
+    l_pf2_3_31: '002060'
+
+- duration: 90ms
+  lights:
+    l_pf2_3_27: 80E0FF
+    l_pf2_3_28: B0FFFF
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: 40C0FF
+    l_pf2_3_31: 0080FF
+    l_pf2_3_32: 0030A0
+
+# ------------------------------------------------------------
+# FULLY OPEN
+# ------------------------------------------------------------
+
+- duration: 250ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: D0FFFF
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: FFFFFF
+    l_pf2_3_31: B0FFFF
+    l_pf2_3_32: 40C0FF
+
+# ------------------------------------------------------------
+# Energy pulses
+# ------------------------------------------------------------
+
+- duration: 70ms
+  lights:
+    l_pf2_3_27: 40C0FF
+    l_pf2_3_28: 80E0FF
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: D0FFFF
+    l_pf2_3_31: 80E0FF
+    l_pf2_3_32: 0080FF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: FFFFFF
+    l_pf2_3_29: D0FFFF
+    l_pf2_3_30: FFFFFF
+    l_pf2_3_31: D0FFFF
+    l_pf2_3_32: 40C0FF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_27: FFFFFF
+    l_pf2_3_28: B0FFFF
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: D0FFFF
+    l_pf2_3_31: 80E0FF
+    l_pf2_3_32: 0080FF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: D0FFFF
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: FFFFFF
+    l_pf2_3_31: B0FFFF
+    l_pf2_3_32: 40C0FF
+
+# ------------------------------------------------------------
+# Destabilising
+# ------------------------------------------------------------
+
+- duration: 45ms
+  lights:
+    l_pf2_3_27: FFFFFF
+    l_pf2_3_28: off
+    l_pf2_3_29: FFFFFF
+    l_pf2_3_30: off
+    l_pf2_3_31: B0FFFF
+    l_pf2_3_32: off
+
+- duration: 45ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: D0FFFF
+    l_pf2_3_29: off
+    l_pf2_3_30: FFFFFF
+    l_pf2_3_31: off
+    l_pf2_3_32: 40C0FF
+
+- duration: 45ms
+  lights:
+    l_pf2_3_27: FFFFFF
+    l_pf2_3_28: off
+    l_pf2_3_29: D0FFFF
+    l_pf2_3_30: off
+    l_pf2_3_31: FFFFFF
+    l_pf2_3_32: off
+
+# ------------------------------------------------------------
+# Collapse back into the watch
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_3_27: FFFFFF
+    l_pf2_3_28: B0FFFF
+    l_pf2_3_29: 40C0FF
+    l_pf2_3_30: off
+    l_pf2_3_31: off
+    l_pf2_3_32: off
+
+- duration: 80ms
+  lights:
+    l_pf2_3_27: B0FFFF
+    l_pf2_3_28: 40C0FF
+    l_pf2_3_29: off
+    l_pf2_3_30: off
+    l_pf2_3_31: off
+    l_pf2_3_32: off
+
+- duration: 80ms
+  lights:
+    l_pf2_3_27: 0080FF
+    l_pf2_3_28: off
+    l_pf2_3_29: off
+    l_pf2_3_30: off
+    l_pf2_3_31: off
+    l_pf2_3_32: off
+
+- duration: 120ms
+  lights:
+    l_pf2_3_27: '002060'
+
+- duration: 150ms
+  lights:
+    l_pf2_3_27: off

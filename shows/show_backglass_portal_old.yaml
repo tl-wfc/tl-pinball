@@ -1,0 +1,309 @@
+#show_version=6
+# shows/show_backglass_portal.yaml
+
+# Brighter aqua portal
+# 4 = Right edge
+# 11 = Left edge
+
+- duration: 80ms
+  lights:
+    l_pf2_3_4: off
+    l_pf2_3_5: off
+    l_pf2_3_6: off
+    l_pf2_3_7: off
+    l_pf2_3_8: off
+    l_pf2_3_9: off
+    l_pf2_3_10: off
+    l_pf2_3_11: off
+
+# ------------------------------------------------------------
+# BRIGHT IGNITION FROM CENTRE
+# ------------------------------------------------------------
+
+- duration: 90ms
+  lights:
+    l_pf2_3_7: 80FFFF
+    l_pf2_3_8: 80FFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_6: C0FFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: C0FFFF
+
+- duration: 40ms
+  lights:
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: FFFFFF
+
+- duration: 80ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: D0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: D0FFFF
+    l_pf2_3_11: 80FFFF
+
+# ------------------------------------------------------------
+# FULL OPEN WHITE CORE / AQUA EDGES
+# ------------------------------------------------------------
+
+- duration: 220ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: C0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: C0FFFF
+    l_pf2_3_11: 80FFFF
+
+# ------------------------------------------------------------
+# OVEREXPOSED FLASH
+# ------------------------------------------------------------
+
+- duration: 30ms
+  lights:
+    l_pf2_3_4: FFFFFF
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: FFFFFF
+    l_pf2_3_11: FFFFFF
+
+- duration: 90ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: D0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: D0FFFF
+    l_pf2_3_11: 80FFFF
+
+# ------------------------------------------------------------
+# ROTATING PLASMA RING
+# Order: 7 -> 6 -> 5 -> 4 -> 11 -> 10 -> 9 -> 8
+# ------------------------------------------------------------
+
+- duration: 55ms
+  lights:
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_6: D0FFFF
+    l_pf2_3_5: 80FFFF
+    l_pf2_3_4: 40FFFF
+    l_pf2_3_11: 40FFFF
+    l_pf2_3_10: 80FFFF
+    l_pf2_3_9: D0FFFF
+    l_pf2_3_8: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_5: D0FFFF
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_11: 40FFFF
+    l_pf2_3_10: 40FFFF
+    l_pf2_3_9: 80FFFF
+    l_pf2_3_8: D0FFFF
+    l_pf2_3_7: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_4: D0FFFF
+    l_pf2_3_11: 80FFFF
+    l_pf2_3_10: 40FFFF
+    l_pf2_3_9: 40FFFF
+    l_pf2_3_8: 80FFFF
+    l_pf2_3_7: D0FFFF
+    l_pf2_3_6: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_4: FFFFFF
+    l_pf2_3_11: D0FFFF
+    l_pf2_3_10: 80FFFF
+    l_pf2_3_9: 40FFFF
+    l_pf2_3_8: 40FFFF
+    l_pf2_3_7: 80FFFF
+    l_pf2_3_6: D0FFFF
+    l_pf2_3_5: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_11: FFFFFF
+    l_pf2_3_10: D0FFFF
+    l_pf2_3_9: 80FFFF
+    l_pf2_3_8: 40FFFF
+    l_pf2_3_7: 40FFFF
+    l_pf2_3_6: 80FFFF
+    l_pf2_3_5: D0FFFF
+    l_pf2_3_4: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_10: FFFFFF
+    l_pf2_3_9: D0FFFF
+    l_pf2_3_8: 80FFFF
+    l_pf2_3_7: 40FFFF
+    l_pf2_3_6: 40FFFF
+    l_pf2_3_5: 80FFFF
+    l_pf2_3_4: D0FFFF
+    l_pf2_3_11: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_8: D0FFFF
+    l_pf2_3_7: 80FFFF
+    l_pf2_3_6: 40FFFF
+    l_pf2_3_5: 40FFFF
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_11: D0FFFF
+    l_pf2_3_10: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_7: D0FFFF
+    l_pf2_3_6: 80FFFF
+    l_pf2_3_5: 40FFFF
+    l_pf2_3_4: 40FFFF
+    l_pf2_3_11: 80FFFF
+    l_pf2_3_10: D0FFFF
+    l_pf2_3_9: FFFFFF
+
+# ------------------------------------------------------------
+# ENERGY SURGE / WHITE-HOT PORTAL
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_3_4: FFFFFF
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: FFFFFF
+    l_pf2_3_11: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_4: A0FFFF
+    l_pf2_3_5: E0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: E0FFFF
+    l_pf2_3_11: A0FFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_3_4: FFFFFF
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: FFFFFF
+    l_pf2_3_11: FFFFFF
+
+- duration: 100ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: C0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: C0FFFF
+    l_pf2_3_11: 80FFFF
+
+# ------------------------------------------------------------
+# BRIGHT SHIMMER
+# ------------------------------------------------------------
+
+- duration: 50ms
+  lights:
+    l_pf2_3_4: C0FFFF
+    l_pf2_3_5: FFFFFF
+    l_pf2_3_6: E0FFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: D0FFFF
+    l_pf2_3_10: FFFFFF
+    l_pf2_3_11: C0FFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_3_4: FFFFFF
+    l_pf2_3_5: C0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: E0FFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: C0FFFF
+    l_pf2_3_11: FFFFFF
+
+- duration: 50ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: E0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: E0FFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: E0FFFF
+    l_pf2_3_11: 80FFFF
+
+# ------------------------------------------------------------
+# BREATHING BUT STILL BRIGHT
+# ------------------------------------------------------------
+
+- duration: 160ms
+  lights:
+    l_pf2_3_4: 60FFFF
+    l_pf2_3_5: A0FFFF
+    l_pf2_3_6: D0FFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: D0FFFF
+    l_pf2_3_10: A0FFFF
+    l_pf2_3_11: 60FFFF
+
+- duration: 160ms
+  lights:
+    l_pf2_3_4: C0FFFF
+    l_pf2_3_5: E0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: E0FFFF
+    l_pf2_3_11: C0FFFF
+
+- duration: 160ms
+  lights:
+    l_pf2_3_4: 80FFFF
+    l_pf2_3_5: C0FFFF
+    l_pf2_3_6: FFFFFF
+    l_pf2_3_7: FFFFFF
+    l_pf2_3_8: FFFFFF
+    l_pf2_3_9: FFFFFF
+    l_pf2_3_10: C0FFFF
+    l_pf2_3_11: 80FFFF

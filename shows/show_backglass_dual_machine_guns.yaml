@@ -1,0 +1,386 @@
+#show_version=6
+# shows/show_backglass_dual_machine_guns.yaml
+
+# Right gun flash:
+# l_pf2_2_15 base
+# l_pf2_2_16 mid
+# l_pf2_2_17 mid
+# l_pf2_2_18 tip
+
+# Left gun flash:
+# l_pf2_3_12 base
+# l_pf2_3_13 mid
+# l_pf2_3_14 mid
+# l_pf2_3_15 mid
+# l_pf2_3_16 tip
+
+# ------------------------------------------------------------
+# ALL GUN FLASHES OFF
+# ------------------------------------------------------------
+
+- duration: 80ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+# ------------------------------------------------------------
+# BOTH MACHINE GUNS FIRE TOGETHER
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FF8000
+    l_pf2_2_18: off
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FF8000
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: off
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FF8000
+    l_pf2_2_16: FFFFFF
+    l_pf2_2_17: FFC000
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: FF8000
+    l_pf2_3_13: FFFFFF
+    l_pf2_3_14: FFC000
+    l_pf2_3_15: FFA000
+    l_pf2_3_16: FFFFFF
+
+- duration: 45ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+# ------------------------------------------------------------
+# RIGHT GUN ONLY
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FF8000
+    l_pf2_2_18: off
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FF8000
+    l_pf2_2_16: FFFFFF
+    l_pf2_2_17: FFC000
+    l_pf2_2_18: FFFFFF
+
+- duration: 45ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+
+# ------------------------------------------------------------
+# LEFT GUN ONLY
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FF8000
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: off
+
+- duration: 35ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_3_12: FF8000
+    l_pf2_3_13: FFFFFF
+    l_pf2_3_14: FFC000
+    l_pf2_3_15: FFA000
+    l_pf2_3_16: FFFFFF
+
+- duration: 45ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+# ------------------------------------------------------------
+# ALTERNATING FIRE - RIGHT / LEFT / RIGHT / LEFT
+# ------------------------------------------------------------
+
+- duration: 40ms
+  lights:
+    l_pf2_2_15: FFA000
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FFFFFF
+    l_pf2_2_18: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+
+- duration: 40ms
+  lights:
+    l_pf2_3_12: FFA000
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FFE0A0
+    l_pf2_3_15: FFFFFF
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+- duration: 40ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FF8000
+    l_pf2_2_18: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+
+- duration: 40ms
+  lights:
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FF8000
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+# ------------------------------------------------------------
+# STAGGERED SWEEP - LEFT BASE TO TIP, RIGHT BASE TO TIP
+# ------------------------------------------------------------
+
+- duration: 30ms
+  lights:
+    l_pf2_3_12: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_3_12: FFC000
+    l_pf2_3_13: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_3_12: off
+    l_pf2_3_13: FFFFFF
+    l_pf2_3_14: FFC000
+    l_pf2_3_15: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_3_13: off
+    l_pf2_3_14: FFFFFF
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+- duration: 30ms
+  lights:
+    l_pf2_2_15: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_2_15: FFC000
+    l_pf2_2_16: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FF8000
+
+- duration: 30ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: FFFFFF
+    l_pf2_2_17: FFC000
+    l_pf2_2_18: FFFFFF
+
+- duration: 45ms
+  lights:
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+
+# ------------------------------------------------------------
+# CHAOTIC FULL AUTO - BOTH GUNS
+# ------------------------------------------------------------
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FF8000
+    l_pf2_2_18: off
+    l_pf2_3_12: off
+    l_pf2_3_13: FFFFFF
+    l_pf2_3_14: FFC000
+    l_pf2_3_15: FF8000
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: FFFFFF
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: off
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FF8000
+    l_pf2_2_16: FFFFFF
+    l_pf2_2_17: FFC000
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: FF8000
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FFFFFF
+    l_pf2_3_15: off
+    l_pf2_3_16: FFFFFF
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: FFA000
+    l_pf2_2_17: off
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: FFA000
+    l_pf2_3_15: FFFFFF
+    l_pf2_3_16: off
+
+- duration: 35ms
+  lights:
+    l_pf2_2_15: FFA000
+    l_pf2_2_16: FFC000
+    l_pf2_2_17: FFFFFF
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFC000
+    l_pf2_3_14: FF8000
+    l_pf2_3_15: FFC000
+    l_pf2_3_16: FFFFFF
+
+- duration: 55ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off
+
+# ------------------------------------------------------------
+# FINAL BIG DOUBLE FLASH
+# ------------------------------------------------------------
+
+- duration: 60ms
+  lights:
+    l_pf2_2_15: FFFFFF
+    l_pf2_2_16: FFFFFF
+    l_pf2_2_17: FFC000
+    l_pf2_2_18: FFFFFF
+    l_pf2_3_12: FFFFFF
+    l_pf2_3_13: FFFFFF
+    l_pf2_3_14: FFC000
+    l_pf2_3_15: FFE0A0
+    l_pf2_3_16: FFFFFF
+
+- duration: 70ms
+  lights:
+    l_pf2_2_15: off
+    l_pf2_2_16: off
+    l_pf2_2_17: off
+    l_pf2_2_18: off
+    l_pf2_3_12: off
+    l_pf2_3_13: off
+    l_pf2_3_14: off
+    l_pf2_3_15: off
+    l_pf2_3_16: off

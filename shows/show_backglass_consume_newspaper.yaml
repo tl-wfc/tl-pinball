@@ -1,0 +1,95 @@
+#show_version=6
+# shows/show_backglass_consume_newspaper.yaml
+
+# Alien newspaper - CONSUME
+# Cold fluorescent flicker
+
+- duration: 120ms
+  lights:
+    l_pf2_3_1: '202020'
+    l_pf2_3_2: '303030'
+    l_pf2_3_3: '202020'
+
+- duration: 100ms
+  lights:
+    l_pf2_3_1: '505050'
+    l_pf2_3_2: '707070'
+    l_pf2_3_3: '505050'
+
+- duration: 80ms
+  lights:
+    l_pf2_3_1: D0FFD0
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: D0FFD0
+
+- duration: 40ms
+  lights:
+    l_pf2_3_1: '101010'
+    l_pf2_3_2: '101010'
+    l_pf2_3_3: '101010'
+
+- duration: 60ms
+  lights:
+    l_pf2_3_1: C0FFC0
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: C0FFC0
+
+- duration: 180ms
+  lights:
+    l_pf2_3_1: '808080'
+    l_pf2_3_2: B0B0B0
+    l_pf2_3_3: '808080'
+
+- duration: 35ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+
+- duration: 45ms
+  lights:
+    l_pf2_3_1: off
+    l_pf2_3_2: off
+    l_pf2_3_3: off
+
+- duration: 70ms
+  lights:
+    l_pf2_3_1: B0FFB0
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: B0FFB0
+
+- duration: 120ms
+  lights:
+    l_pf2_3_1: '606060'
+    l_pf2_3_2: '909090'
+    l_pf2_3_3: '606060'
+
+- duration: 30ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+
+- duration: 30ms
+  lights:
+    l_pf2_3_1: off
+    l_pf2_3_2: off
+    l_pf2_3_3: off
+
+- duration: 40ms
+  lights:
+    l_pf2_3_1: FFFFFF
+    l_pf2_3_2: FFFFFF
+    l_pf2_3_3: FFFFFF
+
+- duration: 200ms
+  lights:
+    l_pf2_3_1: '404040'
+    l_pf2_3_2: '606060'
+    l_pf2_3_3: '404040'
+
+- duration: 250ms
+  lights:
+    l_pf2_3_1: '202020'
+    l_pf2_3_2: '303030'
+    l_pf2_3_3: '202020'
