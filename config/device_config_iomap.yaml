@@ -156,11 +156,11 @@ switches:
 # ------------------------
     s_32_right_inlane:
         number: pf2-8
-        tags: right_return_lane, inlane, switch_hit
+        tags: playfield_active, right_return_lane, inlane, switch_hit
     #    label: "Return Lane - Right"
     s_33_right_outlane:
         number: pf2-9
-        tags: right_out_lane, outlane, switch_hit
+        tags: playfield_active, right_out_lane, outlane, switch_hit
     #    label: "Outlane - Right"
     s_34_right_sling:
         number: pf2-10
@@ -168,11 +168,11 @@ switches:
     #    label: "Sling - Right"
     s_35_left_inlane:
         number: pf2-11
-        tags: left_return_lane, inlane, switch_hit
+        tags: playfield_active, left_return_lane, inlane, switch_hit
     #    label: "Return Lane - Left"
     s_36_left_outlane:
         number: pf2-12
-        tags: left_out_lane, outlane, switch_hit
+        tags: playfield_active, left_out_lane, outlane, switch_hit
     #    label: "Outlane - Left"
     s_37_left_sling:
         number: pf2-13
@@ -180,35 +180,35 @@ switches:
     #    label: "Sling - Left"
     s_38_star_rollover_bottom:
         number: pf2-14
-        tags: rollover_bottom, rollover, switch_hit
+        tags: playfield_active, rollover_bottom, rollover, switch_hit
     #    label: "Star Rollover - Bottom"
     s_39_star_rollover_top:
         number: pf2-15
-        tags: rollover_top, rollover, switch_hit
+        tags: playfield_active, rollover_top, rollover, switch_hit
     #    label: "Star Rollover - Top"
 # ------------------------
 #    J6
 # ------------------------
     s_40_stand_up_target_5:
         number: pf2-16
-        tags: standup_vari_left, standups, switch_hit, stars
+        tags: playfield_active, standup_vari_left, standups, switch_hit, stars
     #    label: "Standup Target 5 Left Side Vari"
     s_41_stand_up_target_6:
         number: pf2-17
-        tags: standup_vari_right, standups, switch_hit, stars
+        tags: playfield_active, standup_vari_right, standups, switch_hit, stars
     #    label: "Standup Target 6 Right Side Vari"
     s_42_stand_up_target_1:
         number: pf2-18
-        tags: standup_imp, standups, switch_hit, stars
+        tags: playfield_active, standup_imp, standups, switch_hit, stars
     #    label: "Standup Target 1"
     s_43_stand_up_target_4:
         number: pf2-19
-        tags: standup_pops, standups, switch_hit, stars
+        tags: playfield_active, standup_pops, standups, switch_hit, stars
     #    label: "Standup Target 4"
     s_44_spinner_right:
         number: pf2-20
         type: 'NC'
-        tags: spinner_r, spinners, switch_hit
+        tags: playfield_active, spinner_r, spinners, switch_hit
 #    s_45_SPARE:
 #        number: pf2-21
 #        tags: SPARE21
@@ -285,20 +285,20 @@ switches:
 # ------------------------
     s_60_top_lane_c:
         number: pf1-4
-        tags: top_lane_right, lane_c, top_lanes, switch_hit
+        tags: playfield_active, top_lane_right, lane_c, top_lanes, switch_hit
     s_61_top_lane_b:
         number: pf1-5
-        tags: top_lane_mid, lane_b, top_lanes, switch_hit
+        tags: playfield_active, top_lane_mid, lane_b, top_lanes, switch_hit
     s_62_top_lane_a:
         number: pf1-6
-        tags: top_lane_left, lane_a, top_lanes, switch_hit
+        tags: playfield_active, top_lane_left, lane_a, top_lanes, switch_hit
 
 # ------------------------
 # CONFIG:SWITCHES:SINGLE - STANDUP TARGETS Singles
 # ------------------------
     s_63_stand_up_target_3:
         number: pf1-7
-        tags: standup_top, standups, switch_hit, stars
+        tags: playfield_active, standup_top, standups, switch_hit, stars
 
 # ------------------------
 # J8 - Orange Wires
@@ -341,7 +341,7 @@ switches:
     s_71_spinner_left:
         number: pf1-15
         type: 'NC'
-        tags: spinner_l, spinners, switch_hit
+        tags: playfield_active, spinner_l, spinners, switch_hit
     #    label: "Spinner - Left"
 #
 #-------------------------------------------------------------------------------------------
@@ -399,7 +399,7 @@ switches:
 # -------------------------------------------------
     s_80_stand_up_target_2:
         number: pf3-8
-        tags: standup_power, standups, switch_hit, stars
+        tags: playfield_active, standup_power, standups, switch_hit, stars
 # ----------------------------------------
 # CONFIG:SWITCHES:SINGLE - SAUCERS
 #-----------------------------------------
@@ -412,19 +412,19 @@ switches:
 #-----------------------------------------
     s_82_stand_up_target_bank_1:
         number: pf3-10
-        tags: target_1, target_green, targets, switch_hit
+        tags: playfield_active, target_1, target_green, targets, switch_hit
     s_83_stand_up_target_bank_2:
         number: pf3-11
-        tags: target_2, target_blue, targets, switch_hit
+        tags: playfield_active, target_2, target_blue, targets, switch_hit
     s_84_stand_up_target_bank_3:
         number: pf3-12
-        tags: target_3, target_red, targets, switch_hit
+        tags: playfield_active, target_3, target_red, targets, switch_hit
     s_85_stand_up_target_bank_4:
         number: pf3-13
-        tags: target_4, target_red, targets, switch_hit
+        tags: playfield_active, target_4, target_red, targets, switch_hit
     s_86_stand_up_target_bank_5:
         number: pf3-14
-        tags: target_5, target_blue, targets, switch_hit
+        tags: playfield_active, target_5, target_blue, targets, switch_hit
     s_87_stand_up_target_bank_6:
         number: pf3-15
-        tags: target_6, target_green, targets, switch_hit
+        tags: playfield_active, target_6, target_green, targets, switch_hit

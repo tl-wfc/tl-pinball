@@ -29,9 +29,6 @@ event_player:
     - stop_mode_attract_credits
     - attract_music_stop
     - stop_directional_audio
-
-  timer_backglass_cycle_restart_delay_complete:
-    - attract_backglass_cycle_start
   
   attract_step_audio_1:
     - set_directional_volume_15
@@ -223,7 +220,7 @@ show_player:
       loops: 5
       speed: 1.0
       priority: 200
-      events_when_completed: attract_step_3
+      events_when_completed: mode_attract_started
   
   attract_step_3:
     rainbow_pops_1:
@@ -385,7 +382,7 @@ show_player:
     show_uv_searchlight_1:
       loops: 0
       speed: 1.0
-      events_when_completed: attract_step_2
+      events_when_completed: mode_attract_started
 
   # attract_step_17:
   #   speaker_test_1:
@@ -412,18 +409,6 @@ sound_player:
       fade_out: 5s
 
 timers:
-  backglass_cycle_restart_delay:
-    start_value: 0
-    end_value: 2
-    direction: up
-    tick_interval: 1s
-    start_running: false
-    control_events:
-      - event: attract_backglass_cycle_restart_delay
-        action: restart
-      - event: mode_attract_will_stop
-        action: stop
-
   directional_track_1_delay:
     start_value: 0
     end_value: 1

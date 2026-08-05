@@ -1,0 +1,116 @@
+#show_version=6
+# shows/show_backglass_all_white.yaml
+#
+# Permanent white illumination underneath the individual
+# backglass animation shows.
+
+- duration: 1s
+  lights:
+
+    # --------------------------------------------------------
+    # BACKGLASS STRING 2
+    # l_pf2_2_1 to l_pf2_2_31
+    # --------------------------------------------------------
+    l_pf2_2_1: white
+    l_pf2_2_2: white
+    l_pf2_2_3: white
+    l_pf2_2_4: white
+    l_pf2_2_5: white
+    l_pf2_2_6: white
+    l_pf2_2_7: white
+    l_pf2_2_8: white
+    l_pf2_2_9: white
+    l_pf2_2_10: white
+    l_pf2_2_11: white
+    l_pf2_2_12: white
+    l_pf2_2_13: white
+    l_pf2_2_14: white
+    l_pf2_2_15: white
+    l_pf2_2_16: white
+    l_pf2_2_17: white
+    l_pf2_2_18: white
+    l_pf2_2_19: white
+    l_pf2_2_20: white
+    l_pf2_2_21: white
+    l_pf2_2_22: white
+    l_pf2_2_23: white
+    l_pf2_2_24: white
+    l_pf2_2_25: white
+    l_pf2_2_26: white
+    l_pf2_2_27: white
+    l_pf2_2_28: white
+    l_pf2_2_29: white
+    l_pf2_2_30: white
+    l_pf2_2_31: white
+
+    # --------------------------------------------------------
+    # BACKGLASS STRING 3
+    # l_pf2_3_1 to l_pf2_3_32
+    # --------------------------------------------------------
+    l_pf2_3_1: white
+    l_pf2_3_2: white
+    l_pf2_3_3: white
+    l_pf2_3_4: white
+    l_pf2_3_5: white
+    l_pf2_3_6: white
+    l_pf2_3_7: white
+    l_pf2_3_8: white
+    l_pf2_3_9: white
+    l_pf2_3_10: white
+    l_pf2_3_11: white
+    l_pf2_3_12: white
+    l_pf2_3_13: white
+    l_pf2_3_14: white
+    l_pf2_3_15: white
+    l_pf2_3_16: white
+    l_pf2_3_17: white
+    l_pf2_3_18: white
+    l_pf2_3_19: white
+    l_pf2_3_20: white
+    l_pf2_3_21: white
+    l_pf2_3_22: white
+    l_pf2_3_23: white
+    l_pf2_3_24: white
+    l_pf2_3_25: white
+    l_pf2_3_26: white
+    l_pf2_3_27: white
+    l_pf2_3_28: white
+    l_pf2_3_29: white
+    l_pf2_3_30: white
+    l_pf2_3_31: white
+    l_pf2_3_32: white
+
+    # --------------------------------------------------------
+    # BACKGLASS STRING 4
+    # l_pf2_4_1 to l_pf2_4_30
+    # --------------------------------------------------------
+    l_pf2_4_1: white
+    l_pf2_4_2: white
+    l_pf2_4_3: white
+    l_pf2_4_4: white
+    l_pf2_4_5: white
+    l_pf2_4_6: white
+    l_pf2_4_7: white
+    l_pf2_4_8: white
+    l_pf2_4_9: white
+    l_pf2_4_10: white
+    l_pf2_4_11: white
+    l_pf2_4_12: white
+    l_pf2_4_13: white
+    l_pf2_4_14: white
+    l_pf2_4_15: white
+    l_pf2_4_16: white
+    l_pf2_4_17: white
+    l_pf2_4_18: white
+    l_pf2_4_19: white
+    l_pf2_4_20: white
+    l_pf2_4_21: white
+    l_pf2_4_22: white
+    l_pf2_4_23: white
+    l_pf2_4_24: white
+    l_pf2_4_25: white
+    l_pf2_4_26: white
+    l_pf2_4_27: white
+    l_pf2_4_28: white
+    l_pf2_4_29: white
+    l_pf2_4_30: white

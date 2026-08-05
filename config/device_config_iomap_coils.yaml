@@ -11,10 +11,12 @@ coils:
 # ------------------------
     c_01_plunger:
         number: pf2-0
-        default_pulse_ms: 11
+        default_pulse_ms: 14
+        #11 works but not always strong enough
     c_02_trough_eject:
         number: pf2-1
-        default_pulse_ms: 13
+        default_pulse_ms: 16
+        #13 works but not reliable
     
     
     c_03_left_flipper_main:
