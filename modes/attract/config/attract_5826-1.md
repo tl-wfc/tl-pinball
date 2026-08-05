@@ -21,7 +21,6 @@ event_player:
     - start_mode_attract_scores
     - start_mode_attract_credits
     - attract_backglass_cycle_start
-    - attract_playfield_lightshow
     #- attract_music_start
     # - play_directional_attract_audio
 
@@ -56,6 +55,7 @@ event_player:
 
   timer_directional_track_1_delay_complete:
     - play_directional_attract_audio
+    - attract_step_2
 
   play_directional_attract_audio:
     audio_command:
@@ -98,11 +98,7 @@ show_player:
       key: backglass_white_base
       loops: -1
       priority: 50
-    
-    show_playfield_gi_all_white:
-      key: playfield_gi_white
-      loops: -1
-      priority: 25
+
 
   # ==========================================================
   # BACKGLASS INDIVIDUAL SHOW SEQUENCE
@@ -209,7 +205,7 @@ show_player:
         - attract_backglass_cycle_restart_delay
 
 
-  attract_playfield_lightshow:
+  attract_step_2:
     show_tv_staticbreath_1:
       loops: 5
       priority: 100
@@ -389,7 +385,7 @@ show_player:
     show_uv_searchlight_1:
       loops: 0
       speed: 1.0
-      events_when_completed: attract_playfield_lightshow
+      events_when_completed: attract_step_2
 
   # attract_step_17:
   #   speaker_test_1:

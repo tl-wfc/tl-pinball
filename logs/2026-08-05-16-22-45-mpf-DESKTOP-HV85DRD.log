@@ -1,0 +1,46 @@
+2026-08-05 16:22:45,867 : INFO : root : Loading config.
+2026-08-05 16:22:45,871 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-08-05 16:22:45,871 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-08-05 16:22:45,968 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml
+2026-08-05 16:22:45,968 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-08-05 16:22:45,970 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-08-05 16:22:45,970 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml.
+2026-08-05 16:22:45,980 : INFO : ConfigProcessor : Loading config: C:\Users\tl\Documents\tl-pinball\modes\attract\config\attract.yaml
+2026-08-05 16:22:45,980 : ERROR : ConfigProcessor : Config section 'sounds' is removed in MPF 0.80 and will be ignored.
+2026-08-05 16:22:45,981 : INFO : ConfigProcessor : Config file cache created: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-05 16:22:45,981 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-08-05 16:22:45,982 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-05 16:22:46,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-08-05 16:22:46,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-08-05 16:22:46,005 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-08-05 16:22:46,006 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\3f4b5828320b2882d8f6d86277da0e3c.mpf_cache
+2026-08-05 16:22:46,007 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\e0885cd80287b6cf2bdb3b3b7e551419.mpf_cache
+2026-08-05 16:22:46,008 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\21a3b6af72788c31c1bb21496f7d3280.mpf_cache
+2026-08-05 16:22:46,008 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5ad868424699ac3c9402d8d89c5742fa.mpf_cache
+2026-08-05 16:22:46,010 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\b41aec6702196d0bd650320fa331266f.mpf_cache
+2026-08-05 16:22:46,010 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a951eeea2c167365e5a009cce33f51d8.mpf_cache
+2026-08-05 16:22:46,011 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f020dca9eec5e09763b9289397e6c32f.mpf_cache
+2026-08-05 16:22:46,012 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\edce5a74ebf86ee6330810859c361ede.mpf_cache
+2026-08-05 16:22:46,013 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7c825e76f3d981841c3099d018a06a8f.mpf_cache
+2026-08-05 16:22:46,014 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\4c1252d1f04cb61ecc91110937cfd225.mpf_cache
+2026-08-05 16:22:46,015 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\8d6d681afe5a7b6e9186321cd98f18ca.mpf_cache
+2026-08-05 16:22:46,016 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\6ca6a8b9cb340c3b8d36233eeb0719a5.mpf_cache
+2026-08-05 16:22:46,017 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d7f9969d1a13fb8a4ff98949110a3363.mpf_cache
+2026-08-05 16:22:46,018 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ea483b3190585f1b6f58e5d4b3be4053.mpf_cache
+2026-08-05 16:22:46,018 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\29a24a1f58555604e17f1620fab88485.mpf_cache
+2026-08-05 16:22:46,019 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\9e4f4ac993fe3c13c573513cb70c74c1.mpf_cache
+2026-08-05 16:22:46,019 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\271b31ea91f7fc416a689202738fcb25.mpf_cache
+2026-08-05 16:22:46,021 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\d5113bae71fe9b2600b29bf116525aac.mpf_cache
+2026-08-05 16:22:46,022 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\ae5d383473e063efe671bf30ab478239.mpf_cache
+2026-08-05 16:22:46,023 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\46870b44a1c011c86a746a823adf6b5a.mpf_cache
+2026-08-05 16:22:46,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\0cf169c51710e2e034dc49f1aab9dfdd.mpf_cache
+2026-08-05 16:22:46,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\7f1f48089af53c0812f6ef7352fae9fc.mpf_cache
+2026-08-05 16:22:46,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\2cc33be7b212147eeee1bdfcda64fa9a.mpf_cache
+2026-08-05 16:22:46,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\a16abf331f3e7de6af87e663850f3d9e.mpf_cache
+2026-08-05 16:22:46,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\38e2b0a0c5cbde9df196d324be754e6f.mpf_cache
+2026-08-05 16:22:46,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\e80dee9eca7c5982ccbcb422c91db859.mpf_cache
+2026-08-05 16:22:46,033 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\0109be63d67329a8885529bd2a71548c.mpf_cache
+2026-08-05 16:22:46,034 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\61bab561dcce3f0c07355166d6e0f761.mpf_cache
+2026-08-05 16:22:46,034 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\25d2f8081a4f10d84b73dba07eba574c.mpf_cache
+2026-08-05 16:22:46,035 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\shows\.\show_backglass_portal.yaml
+2026-08-05 16:22:46,035 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\shows\.\show_backglass_portal.yaml.

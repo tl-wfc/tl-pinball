@@ -1,0 +1,27 @@
+#show_version=6
+
+- duration: 1s
+  lights:
+    # Cabinet floods
+    l_cab_1_2: white
+    l_cab_1_3: white
+    l_cab_1_4: white
+    l_cab_1_5: white
+    l_cab_1_6: white
+    l_cab_1_7: white
+    l_cab_1_8: white
+    l_cab_1_9: white
+    l_cab_1_10: white
+    l_cab_1_11: white
+
+    # Playfield GI
+    l_pf1_3_5: white
+    l_pf1_1_1: white
+    l_pf1_3_20: white
+    l_pf1_2_22: white
+    l_pf1_2_23: white
+    l_pf2_8_1: white
+    l_pf1_3_32: white
+    l_pf1_3_24: white
+    l_pf1_3_6: white
+    l_pf1_1_2: white
