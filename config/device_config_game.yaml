@@ -107,7 +107,10 @@ drop_target_banks:
   dt_bank_1_4:
     drop_targets: dt_1, dt_2, dt_3, dt_4
     reset_coil: c_40_fourbank_drop_reset
-
+    reset_events:
+      - machine_reset_phase_3
   dt_bank_5_7:
     drop_targets: dt_5, dt_6, dt_7
     reset_coil: c_32_threebank_drop_reset
+    reset_events:
+      - machine_reset_phase_3

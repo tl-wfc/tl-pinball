@@ -82,7 +82,7 @@ event_player:
 show_player:
 
   # ==========================================================
-  # PERMANENT BACKGLASS WHITE BASE LAYER
+  # PERMANENT BACKGLASS & PLATFIELD WHITE BASE LAYER
   # ==========================================================
   #
   # Priority 50 keeps the entire backglass white.
@@ -208,10 +208,13 @@ show_player:
         - attract_step_audio_1
         - attract_backglass_cycle_restart_delay
 
-
+  # ==========================================================
+  # PLAYFIELD INDIVIDUAL SHOW SEQUENCE
+  # ==========================================================
   attract_playfield_lightshow:
-    show_tv_staticbreath_1:
-      loops: 5
+    show_muse_hysteria_radio_full:
+    #show_tv_staticbreath_1:
+      loops: 1
       priority: 100
 
     show_tv_staticfast_1:

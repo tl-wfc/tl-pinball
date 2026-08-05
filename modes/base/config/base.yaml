@@ -80,7 +80,7 @@ show_player:
     #show_koc_vocal_solo:
       loops: 1
       speed: 1.0
-      priority: 200
+      priority: 20
       key: koc__vocal_solo
 
 
@@ -88,7 +88,7 @@ show_player:
     show_muse_knights_cue_master:
       loops: 1
       speed: 1.0
-      priority: 1
+      priority: 10
       key: koc_cue_master
 
     show_koc_rhythm_background_layer:
@@ -100,25 +100,25 @@ show_player:
     show_koc_bass_vu_layer:
       loops: 1
       speed: 1.0
-      priority: 45
+      priority: 40
       key: koc_bass_layer
 
     show_koc_lead_guitar_layer:
       loops: 1
       speed: 1.0
-      priority: 55
+      priority: 50
       key: koc_lead_layer
 
     show_koc_drum_macro_layer:
       loops: 1
       speed: 1.0
-      priority: 70
+      priority: 60
       key: koc_drum_layer
 
     show_koc_vocal_cue_layer:
       loops: 1
       speed: 1.0
-      priority: 85
+      priority: 70
       key: koc_vocal_layer
 
     show_koc_final_survive_overlay:
@@ -132,55 +132,55 @@ show_player:
     show_rollover_bottom_hit_1:
       loops: 1
       speed: 1.0
-      priority: 500
+      priority: 50
   
   s_39_star_rollover_top_active:
     show_rollover_top_hit_1:
       loops: 3
       speed: 1.0
-      priority: 1500
+      priority: 150
   
   s_37_left_sling_active:
     show_sling_left_green_1:
       loops: 1
       speed: 2.0
-      priority: 500
+      priority: 50
   
   s_34_right_sling_active:
     show_sling_right_green_1:
       loops: 1
       speed: 2.0
-      priority: 500
+      priority: 50
   
   s_58_pop_bumper_left_active:
     show_pop_bumper_left_hit_1:
       loops: 1
       speed: 1.0
-      priority: 500
+      priority: 50
 
   s_57_pop_bumper_center_active:
     show_pop_bumper_center_hit_1:
       loops: 1
       speed: 1.0
-      priority: 500
+      priority: 50
 
   s_56_pop_bumper_right_active:
     show_pop_bumper_right_hit_1:
       loops: 1
       speed: 1.0
-      priority: 500
+      priority: 50
 
   spinner_left_hit:
     show_left_spinner_white_strobe_1:
       loops: 4
       speed: 2.0
-      priority: 500
+      priority: 50
 
   spinner_right_hit:
     show_right_spinner_white_strobe_1:
       loops: 4
       speed: 2.0
-      priority: 500
+      priority: 50
 
   ball_started{current_player.ball==1}:
     show_muse_hysteria_radio_full:
@@ -192,7 +192,7 @@ show_player:
     show_floods_hysteria_bassline_1:
       loops: 0
       speed: 1.0
-      priority: 200
+      priority: 20
       key: hysteria_cab
 
   ball_will_end:

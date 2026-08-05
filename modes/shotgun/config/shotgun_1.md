@@ -220,36 +220,6 @@ event_player:
   mode_shotgun_started{current_player.ball > 1 and current_player.alien_second_achieved == 1}:
     - alien_second_status_relight
 
-  # CARRYOVER CHANGE: if a Shotgun alien stage was active when the previous
-  # ball drained, rebuild the physical drop-target layout for that stage.
-  # These use dedicated restore events so no saved progress is cleared.
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 0}:
-    - shotgun_restore_alien_first_stage
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 0}:
-    - shotgun_restore_alien_second_stage
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 1}:
-    - shotgun_restore_alien_third_stage
-
-  # Restoring Alien 1 or Alien 2 resets the four-bank. After that reset is
-  # confirmed, the existing fourbank_drop_4_only sequence trips targets 1, 2,
-  # and 3, then continues through targets 5, 6, and 7. This guarantees that
-  # only target 4 is left standing even if another rule raised the three-bank.
-  shotgun_restore_alien_first_stage:
-    - fourbank_reset_attempts_clear
-    - fourbank_reset_request
-
-  shotgun_restore_alien_second_stage:
-    - fourbank_reset_attempts_clear
-    - fourbank_reset_request
-
-  shotgun_restore_alien_third_stage:
-    - fourbank_reset_attempts_clear
-    - threebank_reset_attempts_clear
-    - fourbank_reset_request
-    - threebank_reset_request
-
   s_62_top_lane_a_active{current_player.alien_third_active == 0}:
     - shotgun_lane_a_charged
 
@@ -351,10 +321,7 @@ event_player:
   timer_threebank_drop_3_trip_timer_complete:
     - threebank_drop_3_tripped
 
-  # Target 7 is the final step of the Alien 1/2 restore layout. Once it is
-  # forced down, restore the active Shotgun state. shotgun_mode_active_started
-  # also restarts show_shotgunmode_active_1 through show_player below.
-  threebank_drop_3_tripped{current_player.shotgun_qualified == 1 and current_player.alien_third_active == 0}:
+  threebank_drop_3_tripped{current_player.shotgun_lane_a_active == 1 or current_player.shotgun_lane_b_active == 1}:
     - shotgun_mode_active_started
 
   drop_1_4_7_active:

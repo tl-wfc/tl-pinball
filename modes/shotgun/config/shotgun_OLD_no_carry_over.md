@@ -14,12 +14,10 @@ timers:
     tick_interval: 1s
     start_running: false
     control_events:
-      # CARRYOVER CHANGE: disabled so Lane A never expires
-      # - event: shotgun_lane_a_charged
-      #   action: restart
-      # CARRYOVER CHANGE: disabled with permanent lane qualification
-      # - event: alien_third_countdown_restart
-      #   action: restart
+      - event: shotgun_lane_a_charged
+        action: restart
+      - event: alien_third_countdown_restart
+        action: restart
       - event: shotgun_stop_all
         action: stop
       - event: shotgun_stop_all
@@ -34,12 +32,10 @@ timers:
     tick_interval: 1s
     start_running: false
     control_events:
-      # CARRYOVER CHANGE: disabled so Lane B never expires
-      # - event: shotgun_lane_b_charged
-      #   action: restart
-      # CARRYOVER CHANGE: disabled with permanent lane qualification
-      # - event: alien_third_countdown_restart
-      #   action: restart
+      - event: shotgun_lane_b_charged
+        action: restart
+      - event: alien_third_countdown_restart
+        action: restart
       - event: shotgun_stop_all
         action: stop
       - event: shotgun_stop_all
@@ -194,61 +190,9 @@ timers:
         action: restart
 
 event_player:
-  # CARRYOVER CHANGE: initialise once on Ball 1 only.
-  # On later balls, the player variables retain Lane A/B progress.
-  mode_shotgun_started{current_player.ball == 1}:
+  mode_shotgun_started:
     - shotgun_vars_reset
     - shotgun_all_lights_off
-
-  # On later balls clear the physical lamps first, then restore any lanes
-  # already collected by this player.
-  mode_shotgun_started{current_player.ball > 1}:
-    - shotgun_all_lights_off
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_lane_a_active == 1}:
-    - shotgun_lane_a_relight
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_lane_b_active == 1}:
-    - shotgun_lane_b_relight
-
-  # CARRYOVER CHANGE: restore completed alien status indicators on later balls.
-  # The achieved player variables already persist because shotgun_vars_reset
-  # now only runs on Ball 1. These events only restore the lamp shows.
-  mode_shotgun_started{current_player.ball > 1 and current_player.alien_first_achieved == 1}:
-    - alien_first_status_relight
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.alien_second_achieved == 1}:
-    - alien_second_status_relight
-
-  # CARRYOVER CHANGE: if a Shotgun alien stage was active when the previous
-  # ball drained, rebuild the physical drop-target layout for that stage.
-  # These use dedicated restore events so no saved progress is cleared.
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 0}:
-    - shotgun_restore_alien_first_stage
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 0}:
-    - shotgun_restore_alien_second_stage
-
-  mode_shotgun_started{current_player.ball > 1 and current_player.shotgun_qualified == 1 and current_player.alien_first_achieved == 1 and current_player.alien_second_achieved == 1}:
-    - shotgun_restore_alien_third_stage
-
-  # Restoring Alien 1 or Alien 2 resets the four-bank. After that reset is
-  # confirmed, the existing fourbank_drop_4_only sequence trips targets 1, 2,
-  # and 3, then continues through targets 5, 6, and 7. This guarantees that
-  # only target 4 is left standing even if another rule raised the three-bank.
-  shotgun_restore_alien_first_stage:
-    - fourbank_reset_attempts_clear
-    - fourbank_reset_request
-
-  shotgun_restore_alien_second_stage:
-    - fourbank_reset_attempts_clear
-    - fourbank_reset_request
-
-  shotgun_restore_alien_third_stage:
-    - fourbank_reset_attempts_clear
-    - threebank_reset_attempts_clear
-    - fourbank_reset_request
-    - threebank_reset_request
 
   s_62_top_lane_a_active{current_player.alien_third_active == 0}:
     - shotgun_lane_a_charged
@@ -351,10 +295,7 @@ event_player:
   timer_threebank_drop_3_trip_timer_complete:
     - threebank_drop_3_tripped
 
-  # Target 7 is the final step of the Alien 1/2 restore layout. Once it is
-  # forced down, restore the active Shotgun state. shotgun_mode_active_started
-  # also restarts show_shotgunmode_active_1 through show_player below.
-  threebank_drop_3_tripped{current_player.shotgun_qualified == 1 and current_player.alien_third_active == 0}:
+  threebank_drop_3_tripped{current_player.shotgun_lane_a_active == 1 or current_player.shotgun_lane_b_active == 1}:
     - shotgun_mode_active_started
 
   drop_1_4_7_active:
@@ -401,13 +342,11 @@ event_player:
   s_86_stand_up_target_bank_5_active{current_player.alien_third_active == 1}:
     - alien_third_failed
 
-  # CARRYOVER CHANGE: countdown expiry disabled. Original lines retained
-  # below so the old behaviour can be restored quickly.
-  # timer_top_lane_a_countdown_timer_complete:
-  #   - shotgun_lane_a_expired
-  #
-  # timer_top_lane_b_countdown_timer_complete:
-  #   - shotgun_lane_b_expired
+  timer_top_lane_a_countdown_timer_complete:
+    - shotgun_lane_a_expired
+
+  timer_top_lane_b_countdown_timer_complete:
+    - shotgun_lane_b_expired
 
   shotgun_lane_a_expired{current_player.alien_third_active == 1 and current_player.shotgun_lane_b_active == 0}:
     - alien_third_failed
@@ -1010,61 +949,26 @@ light_player:
     l_pf1_2_28: off
 
   shotgun_stop_all:
-    l_pf1_2_31: stop
-    l_pf1_2_30: stop
-    l_pf1_2_29: stop
-    l_pf1_2_24: stop
-    l_pf1_2_25: stop
-    l_pf1_2_26: stop
+    l_pf1_2_31: off
+    l_pf1_2_30: off
+    l_pf1_2_29: off
+    l_pf1_2_24: off
+    l_pf1_2_25: off
+    l_pf1_2_26: off
 
   alien_third_cleanup:
-    l_pf1_2_27: stop
-    l_pf1_2_28: stop
+    l_pf1_2_27: off
+    l_pf1_2_28: off
 
   shotgun_lane_a_charged:
-    l_pf1_2_31:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_30:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_29:
-      color: '00ff00'
-      priority: 200
+    l_pf1_2_31: '00ff00'
+    l_pf1_2_30: '00ff00'
+    l_pf1_2_29: '00ff00'
 
   shotgun_lane_b_charged:
-    l_pf1_2_24:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_25:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_26:
-      color: '00ff00'
-      priority: 200
-
-  # CARRYOVER CHANGE: lamp-only restore events used at the start of later balls.
-  shotgun_lane_a_relight:
-    l_pf1_2_31:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_30:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_29:
-      color: '00ff00'
-      priority: 200
-
-  shotgun_lane_b_relight:
-    l_pf1_2_24:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_25:
-      color: '00ff00'
-      priority: 200
-    l_pf1_2_26:
-      color: '00ff00'
-      priority: 200
+    l_pf1_2_24: '00ff00'
+    l_pf1_2_25: '00ff00'
+    l_pf1_2_26: '00ff00'
 
   timer_top_lane_a_countdown_timer_tick{ticks_remaining == 19}:
     l_pf1_2_31: off
@@ -1257,24 +1161,6 @@ show_player:
       show_tokens:
         led: l_pf1_2_27
 
-  # CARRYOVER CHANGE: restart the achieved-status breathing lamps after
-  # shotgun_all_lights_off clears them at the beginning of a later ball.
-  alien_first_status_relight:
-    shotgun_red_breathe:
-      key: alien_first_breathe
-      loops: -1
-      priority: 200
-      show_tokens:
-        led: l_pf1_2_28
-
-  alien_second_status_relight:
-    shotgun_red_breathe:
-      key: alien_second_breathe
-      loops: -1
-      priority: 200
-      show_tokens:
-        led: l_pf1_2_27
-
   alien_third_started:
     alien_first_breathe:
       action: stop
@@ -1283,7 +1169,6 @@ show_player:
     alien_panic_red_green:
       key: alien_third_panic
       loops: -1
-      priority: 200
     show_shotgunmode_active_1:
       key: shotgun_mode_active_show
       loops: -1
