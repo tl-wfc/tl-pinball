@@ -15,11 +15,6 @@ layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_a4vdr")
 
-[node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]
-position = Vector2(765.2999, 1031.4501)
-scale = Vector2(1.17, 1.2464459)
-texture = ExtResource("2_3761s")
-
 [node name="mpf_logo2" type="Sprite2D" parent="." unique_id=1152550384]
 visible = false
 position = Vector2(1886, 1043)
@@ -56,6 +51,12 @@ script = ExtResource("4_bu5wf")
 preview_in_editor = true
 metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
+[node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=1890047346]
+visible = false
+position = Vector2(765.2999, 1031.4501)
+scale = Vector2(1.17, 1.2464459)
+texture = ExtResource("2_3761s")
+
 [node name="ColorRect" type="ColorRect" parent="." unique_id=216969078]
 layout_mode = 0
 offset_left = -159.0
@@ -67,9 +68,9 @@ color = Color(0, 0, 0, 0.19607843)
 [node name="credits" type="Label" parent="." unique_id=1453585509]
 layout_mode = 0
 offset_left = 502.0
-offset_top = 101.0
-offset_right = 1030.0
-offset_bottom = 200.0
+offset_top = 61.0
+offset_right = 1034.0
+offset_bottom = 160.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_fonts/font = ExtResource("6_ts8td")
 theme_override_font_sizes/font_size = 98
@@ -80,8 +81,24 @@ variable_type = 2
 variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
+[node name="ball" type="Label" parent="." unique_id=1346296672]
+layout_mode = 0
+offset_left = 493.0
+offset_top = 160.0
+offset_right = 1025.0
+offset_bottom = 259.0
+theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_ts8td")
+theme_override_font_sizes/font_size = 98
+text = "BALL"
+horizontal_alignment = 1
+script = ExtResource("3_bu5wf")
+variable_name = "ball"
+template_string = "BALL %s / 3"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
 [node name="score_background_n" type="Sprite2D" parent="." unique_id=651609646]
-position = Vector2(749.99994, 648.9999)
+position = Vector2(753, 675)
 scale = Vector2(0.69, 0.69)
 texture = ExtResource("7_e3p2o")
 
@@ -114,9 +131,9 @@ min_digits = 2
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="Line2D" type="Line2D" parent="." unique_id=1169401941]
-position = Vector2(748.08856, 648.9999)
+position = Vector2(754.99994, 683)
 scale = Vector2(0.6637898, 0.69)
-points = PackedVector2Array(-610.26636, -581.15924, 673.9132, -581.15924, 997.1703, 573.91327, -965.80066, 573.91327, -625.33136, -581.15924)
+points = PackedVector2Array(-610.26636, -581.15924, 468.6704, -581.1592, 673.9132, -581.15924, 997.1703, 573.91327, -965.80066, 573.91327, -625.33136, -581.15924)
 closed = true
 width = 40.0
 default_color = Color(0, 0, 0, 1)
