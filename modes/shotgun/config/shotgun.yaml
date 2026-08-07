@@ -1325,3 +1325,142 @@ show_player:
       action: stop
     alien_second_breathe:
       action: stop
+
+
+widget_player:
+
+  # ------------------------------------------------------------
+  # SHOTGUN QUALIFICATION
+  # ------------------------------------------------------------
+
+  # shotgun_lane_a_charged:
+  #   award_popup_widget:
+  #     action: play
+  #     expire: 2s
+  #     priority: 5000
+  #     tokens:
+  #       award_text: "LANE A LIT"
+
+  # shotgun_lane_b_charged:
+  #   award_popup_widget:
+  #     action: play
+  #     expire: 2s
+  #     priority: 5000
+  #     tokens:
+  #       award_text: "LANE B LIT"
+
+  shotgun_qualified:
+    award_popup_widget:
+      action: play
+      expire: 5s
+      priority: 5000
+      tokens:
+        award_text: "SHOTGUN QUALIFIED"
+
+
+  # ------------------------------------------------------------
+  # ALIEN 1
+  # ------------------------------------------------------------
+
+  # fourbank_reset_confirmed:
+  #   award_popup_widget:
+  #     action: play
+  #     expire: 4s
+  #     priority: 6000
+  #     tokens:
+  #       award_text: "HIT RED ALIEN"
+
+  alien_first_hit:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "ALIEN DESTROYED"
+
+
+  # ------------------------------------------------------------
+  # ALIEN 2
+  # ------------------------------------------------------------
+
+  alien_second_started:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "HIT RED ALIEN"
+
+  alien_second_part1_hit:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "HIT RED ALIEN"
+
+  alien_second_final_hit:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "ALIEN DESTROYED"
+
+
+  # ------------------------------------------------------------
+  # ALIEN 3
+  # ------------------------------------------------------------
+
+  # alien_third_started:
+  #   award_popup_widget:
+  #     action: play
+  #     expire: 2s
+  #     priority: 5000
+  #     tokens:
+  #       award_text: "FINAL ALIEN"
+
+  alien_third_active_started:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "HIT ALIENS"
+
+  alien_third_achieved:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "ALIENS DESTROYED"
+
+
+  # ------------------------------------------------------------
+  # FAILURE
+  # ------------------------------------------------------------
+
+  alien_first_failed:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "MODE FAILED"
+
+  alien_second_failed:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "MODE FAILED"
+
+  alien_third_failed:
+    award_popup_widget:
+      action: play
+      expire: 2s
+      priority: 5000
+      tokens:
+        award_text: "MODE FAILED"
