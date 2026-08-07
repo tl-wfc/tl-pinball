@@ -50,3 +50,10 @@ show_player:
   ball_will_end:
     ball_save_insert:
       action: stop
+
+widget_player:
+
+  ball_save_bs_default_saving_ball:
+    ball_saved_widget:
+      action: play
+      priority: 5000
