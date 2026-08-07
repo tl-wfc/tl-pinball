@@ -54,6 +54,8 @@ show_player:
 widget_player:
 
   ball_save_bs_default_saving_ball:
-    ball_saved_widget:
+    award_popup_widget:
       action: play
       priority: 5000
+      tokens:
+        award_text: "BALL SAVED"
