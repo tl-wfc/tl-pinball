@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c2dse8acn3p76"]
 
-[ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_i4jax"]
+[ext_resource type="Script" uid="uid://dwi0pqanm0pda" path="res://scripts/award_popup.gd" id="1_qewtf"]
+[ext_resource type="Script" uid="uid://bov7mrgxslshq" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="2_gcebs"]
 [ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_qewtf"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_gcebs"]
 
@@ -70,7 +71,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("1_i4jax")
+script = ExtResource("1_qewtf")
 animation_player = NodePath("AnimationPlayer")
 metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
 
@@ -79,6 +80,19 @@ anchors_preset = 0
 offset_right = 1536.0
 offset_bottom = 2048.0
 mouse_filter = 2
+
+[node name="AwardVideo" type="VideoStreamPlayer" parent="WidgetLayout" unique_id=359769500]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.9
+offset_top = -45.0
+offset_bottom = -45.0
+volume_db = 20.0
+script = ExtResource("2_gcebs")
+end_behavior = 1
+metadata/_custom_type_script = "uid://bov7mrgxslshq"
 
 [node name="AnimatedContainer" type="Control" parent="WidgetLayout" unique_id=1076516633]
 modulate = Color(1, 1, 1, 0)
@@ -96,7 +110,7 @@ mouse_filter = 2
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.505
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 40
 theme_override_fonts/font = ExtResource("2_qewtf")

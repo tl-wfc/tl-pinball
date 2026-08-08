@@ -56,6 +56,10 @@ widget_player:
   ball_save_bs_default_saving_ball:
     award_popup_widget:
       action: play
+      #expire: 2s
       priority: 5000
       tokens:
-        award_text: "BALL SAVED"
+          award_text: |
+           ball
+           saved
+          award_video: "ball_saved"

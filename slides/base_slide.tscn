@@ -65,32 +65,16 @@ offset_right = 1743.0
 offset_bottom = 2178.0
 color = Color(0, 0, 0, 0.19607843)
 
-[node name="credits" type="Label" parent="." unique_id=1453585509]
-layout_mode = 0
-offset_left = 502.0
-offset_top = 61.0
-offset_right = 1034.0
-offset_bottom = 160.0
-theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_ts8td")
-theme_override_font_sizes/font_size = 98
-text = "FREE_PLAY"
-horizontal_alignment = 1
-script = ExtResource("3_bu5wf")
-variable_type = 2
-variable_name = "credits_string"
-metadata/_custom_type_script = "uid://bfvhmv2eirpua"
-
 [node name="ball" type="Label" parent="." unique_id=1346296672]
 layout_mode = 0
 offset_left = 493.0
-offset_top = 160.0
+offset_top = 95.0
 offset_right = 1025.0
-offset_bottom = 259.0
+offset_bottom = 194.0
 theme_override_colors/font_color = Color(0.964706, 0, 0, 1)
 theme_override_fonts/font = ExtResource("6_ts8td")
 theme_override_font_sizes/font_size = 98
-text = "BALL"
+text = "BALL X / Y"
 horizontal_alignment = 1
 script = ExtResource("3_bu5wf")
 variable_name = "ball"

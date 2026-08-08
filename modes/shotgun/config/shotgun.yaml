@@ -1352,10 +1352,13 @@ widget_player:
   shotgun_qualified:
     award_popup_widget:
       action: play
-      expire: 5s
+      #expire: 5s
       priority: 5000
       tokens:
-        award_text: "SHOTGUN QUALIFIED"
+        award_text: |
+          shotgun
+          qualified
+        award_video: "muse1"
 
 
   # ------------------------------------------------------------
@@ -1373,10 +1376,12 @@ widget_player:
   alien_first_hit:
     award_popup_widget:
       action: play
-      expire: 2s
+      #expire: 2s
       priority: 5000
       tokens:
-        award_text: "ALIEN DESTROYED"
+        award_text: |
+          ALIEN
+          DESTROYED
 
 
   # ------------------------------------------------------------
