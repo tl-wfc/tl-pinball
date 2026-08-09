@@ -428,42 +428,36 @@ widget_player:
   awareness_reached_25:
     award_popup_widget:
       action: play
-      priority: 5000
+      priority: 10000
       tokens:
         award_text: |
-          static
-          detected
-        award_video: "PLACEHOLDER_AWARENESS_25_VIDEO"
+          awareness
+          25
+        #award_video: "PLACEHOLDER_AWARENESS_25_VIDEO"
 
 
   awareness_reached_50:
     award_popup_widget:
       action: play
-      priority: 5000
+      priority: 10000
       tokens:
-        award_text: |
-          you are
-          beginning to see
-        award_video: "PLACEHOLDER_AWARENESS_50_VIDEO"
+        award_text: "50"
+        #award_video: "PLACEHOLDER_AWARENESS_50_VIDEO"
 
 
   awareness_reached_75:
     award_popup_widget:
       action: play
-      priority: 5000
+      priority: 10000
       tokens:
-        award_text: |
-          put on
-          the glasses
-        award_video: "PLACEHOLDER_AWARENESS_75_VIDEO"
+        award_text: "75"
+        #award_video: "PLACEHOLDER_AWARENESS_75_VIDEO"
 
 
   awareness_qualified:
     award_popup_widget:
       action: play
-      priority: 5000
+      priority: 10000
       tokens:
-        award_text: |
-          mystery lit
-          shoot right saucer
-        award_video: "PLACEHOLDER_AWARENESS_QUALIFIED_VIDEO"
+        award_text: "qual"
+        #award_video: "PLACEHOLDER_AWARENESS_QUALIFIED_VIDEO"
