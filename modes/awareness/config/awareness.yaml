@@ -1,0 +1,469 @@
+#config_version=6
+# modes/awareness/config/awareness.yaml
+#
+# ------------------------------------------------------------
+# THEY LIVE - AWARENESS / MYSTERY QUALIFICATION
+# ------------------------------------------------------------
+#
+# Build Awareness through normal gameplay.
+#
+# Qualification targets:
+#
+#   Mystery 1 = 100
+#   Mystery 2 = 175
+#   Mystery 3 = 275
+#   Mystery 4+ = 400
+#
+# When qualified:
+#   s_59_saucer_right starts BRAIN ROT
+#
+# Awareness progress is per-player and carries between balls.
+# ------------------------------------------------------------
+
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 105
+
+
+# ------------------------------------------------------------
+# EVENT LOGIC
+# ------------------------------------------------------------
+
+event_player:
+
+  # ----------------------------------------------------------
+  # POPS
+  # +1
+  # ----------------------------------------------------------
+
+  s_56_pop_bumper_right_active{current_player.awareness_qualified == 0}:
+    awareness_add_1
+
+  s_57_pop_bumper_center_active{current_player.awareness_qualified == 0}:
+    awareness_add_1
+
+  s_58_pop_bumper_left_active{current_player.awareness_qualified == 0}:
+    awareness_add_1
+
+
+  # ----------------------------------------------------------
+  # SLINGSHOTS
+  # +1
+  # ----------------------------------------------------------
+
+  s_34_right_sling_active{current_player.awareness_qualified == 0}:
+    awareness_add_1
+
+  s_37_left_sling_active{current_player.awareness_qualified == 0}:
+    awareness_add_1
+
+
+  # ----------------------------------------------------------
+  # INLANES
+  # +2
+  # ----------------------------------------------------------
+
+  s_32_right_inlane_active{current_player.awareness_qualified == 0}:
+    awareness_add_2
+
+  s_35_left_inlane_active{current_player.awareness_qualified == 0}:
+    awareness_add_2
+
+
+  # ----------------------------------------------------------
+  # SPINNERS
+  # +2 per pulse
+  # ----------------------------------------------------------
+
+  s_71_spinner_left_active{current_player.awareness_qualified == 0}:
+    awareness_add_2
+
+  s_44_spinner_right_active{current_player.awareness_qualified == 0}:
+    awareness_add_2
+
+
+  # ----------------------------------------------------------
+  # TOP LANES
+  # +3
+  # ----------------------------------------------------------
+
+  s_60_top_lane_c_active{current_player.awareness_qualified == 0}:
+    awareness_add_3
+
+  s_61_top_lane_b_active{current_player.awareness_qualified == 0}:
+    awareness_add_3
+
+  s_62_top_lane_a_active{current_player.awareness_qualified == 0}:
+    awareness_add_3
+
+
+  # ----------------------------------------------------------
+  # INDIVIDUAL STANDUPS
+  # +4
+  # ----------------------------------------------------------
+
+  s_40_stand_up_target_5_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_41_stand_up_target_6_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_42_stand_up_target_1_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_43_stand_up_target_4_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_63_stand_up_target_3_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_80_stand_up_target_2_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+
+  # ----------------------------------------------------------
+  # SIX STANDUPS BEHIND DROP TARGETS
+  # +4
+  # ----------------------------------------------------------
+
+  s_82_stand_up_target_bank_1_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_83_stand_up_target_bank_2_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_84_stand_up_target_bank_3_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_85_stand_up_target_bank_4_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_86_stand_up_target_bank_5_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  s_87_stand_up_target_bank_6_active{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+
+  # ----------------------------------------------------------
+  # DROP TARGETS
+  # +5
+  # ----------------------------------------------------------
+
+  s_72_single_drop_1_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_73_fourbank_drop_1_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_74_fourbank_drop_2_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_75_fourbank_drop_3_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_76_fourbank_drop_4_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_77_threebank_drop_1_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_78_threebank_drop_2_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+  s_79_threebank_drop_3_active{current_player.awareness_qualified == 0}:
+    awareness_add_5
+
+
+  # ----------------------------------------------------------
+  # VARI-TARGET
+  #
+  # Existing varitarget.yaml posts:
+  #
+  #   varitarget_moved_1
+  #   ...
+  #   varitarget_moved_6
+  # ----------------------------------------------------------
+
+  varitarget_moved_1{current_player.awareness_qualified == 0}:
+    awareness_add_2
+
+  varitarget_moved_2{current_player.awareness_qualified == 0}:
+    awareness_add_4
+
+  varitarget_moved_3{current_player.awareness_qualified == 0}:
+    awareness_add_6
+
+  varitarget_moved_4{current_player.awareness_qualified == 0}:
+    awareness_add_8
+
+  varitarget_moved_5{current_player.awareness_qualified == 0}:
+    awareness_add_12
+
+  varitarget_moved_6{current_player.awareness_qualified == 0}:
+    awareness_add_20
+
+
+  # ----------------------------------------------------------
+  # MILESTONE CHECKS
+  # ----------------------------------------------------------
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_25 == 0 and current_player.awareness * 4 >= current_player.awareness_target}:
+    awareness_reached_25
+
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_50 == 0 and current_player.awareness * 2 >= current_player.awareness_target}:
+    awareness_reached_50
+
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_75 == 0 and current_player.awareness * 4 >= current_player.awareness_target * 3}:
+    awareness_reached_75
+
+
+  # ----------------------------------------------------------
+  # FULL QUALIFICATION
+  # ----------------------------------------------------------
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness >= current_player.awareness_target}:
+    awareness_qualified
+
+
+  # ----------------------------------------------------------
+  # START BRAIN ROT
+  #
+  # Correct actual right-saucer switch.
+  # ----------------------------------------------------------
+
+  s_59_saucer_right_active{current_player.awareness_qualified == 1}:
+    start_mode_brain_rot
+
+
+  # ----------------------------------------------------------
+  # BRAIN ROT HAS COMPLETED
+  #
+  # Do NOT reset Awareness yet.
+  #
+  # Leave Mystery qualified while the completion animation
+  # and locked-ball releases occur.
+  # ----------------------------------------------------------
+
+  brain_rot_complete:
+    awareness_brain_rot_won
+
+
+  # ----------------------------------------------------------
+  # BRAIN ROT MODE HAS FINISHED
+  #
+  # Now consume the qualification and start the next cycle.
+  # ----------------------------------------------------------
+
+  mode_brain_rot_stopped:
+    awareness_finish_brain_rot
+
+
+  # ----------------------------------------------------------
+  # DETERMINE NEXT QUALIFICATION TARGET
+  #
+  # This happens BEFORE the collection count is incremented.
+  # ----------------------------------------------------------
+
+  awareness_finish_brain_rot{current_player.awareness_mysteries_collected == 0}:
+    awareness_next_target_175
+
+  awareness_finish_brain_rot{current_player.awareness_mysteries_collected == 1}:
+    awareness_next_target_275
+
+  awareness_finish_brain_rot{current_player.awareness_mysteries_collected >= 2}:
+    awareness_next_target_400
+
+
+# ------------------------------------------------------------
+# PLAYER VARIABLES
+# ------------------------------------------------------------
+
+variable_player:
+
+  # ----------------------------------------------------------
+  # AWARENESS AWARDS
+  # ----------------------------------------------------------
+
+  awareness_add_1:
+    awareness:
+      action: add
+      int: 1
+
+  awareness_add_2:
+    awareness:
+      action: add
+      int: 2
+
+  awareness_add_3:
+    awareness:
+      action: add
+      int: 3
+
+  awareness_add_4:
+    awareness:
+      action: add
+      int: 4
+
+  awareness_add_5:
+    awareness:
+      action: add
+      int: 5
+
+  awareness_add_6:
+    awareness:
+      action: add
+      int: 6
+
+  awareness_add_8:
+    awareness:
+      action: add
+      int: 8
+
+  awareness_add_12:
+    awareness:
+      action: add
+      int: 12
+
+  awareness_add_20:
+    awareness:
+      action: add
+      int: 20
+
+
+  # ----------------------------------------------------------
+  # MILESTONES
+  # ----------------------------------------------------------
+
+  awareness_reached_25:
+    awareness_milestone_25:
+      action: set
+      int: 1
+
+  awareness_reached_50:
+    awareness_milestone_50:
+      action: set
+      int: 1
+
+  awareness_reached_75:
+    awareness_milestone_75:
+      action: set
+      int: 1
+
+
+  # ----------------------------------------------------------
+  # QUALIFIED
+  # ----------------------------------------------------------
+
+  awareness_qualified:
+    awareness_qualified:
+      action: set
+      int: 1
+
+
+  # ----------------------------------------------------------
+  # BRAIN ROT FINISHED
+  #
+  # Reset the old qualification only AFTER Brain Rot has
+  # completely stopped.
+  # ----------------------------------------------------------
+
+  awareness_finish_brain_rot:
+
+    awareness:
+      action: set
+      int: 0
+
+    awareness_qualified:
+      action: set
+      int: 0
+
+    awareness_milestone_25:
+      action: set
+      int: 0
+
+    awareness_milestone_50:
+      action: set
+      int: 0
+
+    awareness_milestone_75:
+      action: set
+      int: 0
+
+    awareness_mysteries_collected:
+      action: add
+      int: 1
+
+
+  # ----------------------------------------------------------
+  # NEXT QUALIFICATION TARGET
+  # ----------------------------------------------------------
+
+  awareness_next_target_175:
+    awareness_target:
+      action: set
+      int: 175
+
+  awareness_next_target_275:
+    awareness_target:
+      action: set
+      int: 275
+
+  awareness_next_target_400:
+    awareness_target:
+      action: set
+      int: 400
+
+
+# ------------------------------------------------------------
+# GODOT AWARD POPUP WIDGETS
+# ------------------------------------------------------------
+
+widget_player:
+
+  awareness_reached_25:
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_text: |
+          static
+          detected
+        award_video: "PLACEHOLDER_AWARENESS_25_VIDEO"
+
+
+  awareness_reached_50:
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_text: |
+          you are
+          beginning to see
+        award_video: "PLACEHOLDER_AWARENESS_50_VIDEO"
+
+
+  awareness_reached_75:
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_text: |
+          put on
+          the glasses
+        award_video: "PLACEHOLDER_AWARENESS_75_VIDEO"
+
+
+  awareness_qualified:
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_text: |
+          mystery lit
+          shoot right saucer
+        award_video: "PLACEHOLDER_AWARENESS_QUALIFIED_VIDEO"

@@ -8,8 +8,10 @@ modes:
     - attract
     - attract_scores
     - attract_credits
+    - awareness
     #- service
     - base
+    - brain_rot
     - glasses_mode
     - resistance
     - manual_ball_search
@@ -28,6 +30,7 @@ modes:
 # --------------------
 #
 config:
+  - awareness_player_vars.yaml
   - config_hardware.yaml
   - config_ball_devices.yaml
   - config_sounds.yaml
@@ -61,7 +64,7 @@ game:
   balls_per_game: 3
   max_players: 1
 machine:
-  balls_installed: 1 #How many balls are physically in your game
+  balls_installed: 3 #How many balls are physically in your game
   min_balls: 1 #How few balls can be accounted for before you can start a game
 # ------------------------
 # PLAYFIELDS:

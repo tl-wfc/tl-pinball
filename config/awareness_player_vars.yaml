@@ -1,0 +1,35 @@
+#config_version=6
+# config/awareness_player_vars.yaml
+#
+# Persistent per-player state for Awareness / Mystery qualification.
+
+
+player_vars:
+
+  awareness:
+    initial_value: 0
+    value_type: int
+
+  awareness_target:
+    initial_value: 100
+    value_type: int
+
+  awareness_qualified:
+    initial_value: 0
+    value_type: int
+
+  awareness_mysteries_collected:
+    initial_value: 0
+    value_type: int
+
+  awareness_milestone_25:
+    initial_value: 0
+    value_type: int
+
+  awareness_milestone_50:
+    initial_value: 0
+    value_type: int
+
+  awareness_milestone_75:
+    initial_value: 0
+    value_type: int

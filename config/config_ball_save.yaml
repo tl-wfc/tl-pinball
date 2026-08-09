@@ -62,4 +62,4 @@ widget_player:
           award_text: |
            ball
            saved
-          award_video: "ball_saved"
+          award_video: "tl-v-more-yes"
