@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://urm5prkqa5op"]
+
+[ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_230ay"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_8fkey"]
+
+[node name="ConsumeQualifiedWidget" type="Control" unique_id=418603060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_230ay")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1006575155]
+layout_mode = 0
+offset_right = 1536.0
+offset_bottom = 2048.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1053350605]
+layout_mode = 2
+
+[node name="HitRightLock" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1465957793]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_8fkey")
+theme_override_font_sizes/font_size = 100
+text = "hit  right  lock"
+horizontal_alignment = 1
+
+[node name="ToStart" type="Label" parent="CenterContainer/VBoxContainer" unique_id=2012965536]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_8fkey")
+theme_override_font_sizes/font_size = 100
+text = "to  start"
+horizontal_alignment = 1
+
+[node name="Consume" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1085980429]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_8fkey")
+theme_override_font_sizes/font_size = 100
+text = "consume"
+horizontal_alignment = 1

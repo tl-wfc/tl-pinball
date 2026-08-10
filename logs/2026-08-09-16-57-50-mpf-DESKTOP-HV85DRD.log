@@ -1,0 +1,10 @@
+2026-08-09 16:57:50,901 : INFO : root : Loading config.
+2026-08-09 16:57:50,905 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-08-09 16:57:50,906 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-08-09 16:57:51,019 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-09 16:57:51,020 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-08-09 16:57:51,021 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-09 16:57:51,022 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-08-09 16:57:51,023 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-08-09 16:57:51,023 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\modes\awareness\config\awareness.yaml
+2026-08-09 16:57:51,024 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\awareness\config\awareness.yaml.

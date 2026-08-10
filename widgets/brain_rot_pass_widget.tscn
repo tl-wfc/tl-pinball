@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://dvnc1b4cu705v"]
+
+[ext_resource type="Script" uid="uid://bdgb28wjbulls" path="res://scripts/brain_rot_pass_widget.gd" id="1_j4jl4"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_sdtos"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_3e3gm"]
+
+[sub_resource type="Animation" id="Animation_vs3rd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(500, 500)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_y1lyw"]
+resource_name = "pass_pulse"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.15, 1.15), Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_j4jl4"]
+resource_name = "pass_shiver"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8, 0.88, 0.96, 1.04, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(500, 500), Vector2(488, 503), Vector2(513, 496), Vector2(491, 504), Vector2(510, 498), Vector2(486, 501), Vector2(514, 497), Vector2(493, 503), Vector2(508, 498), Vector2(489, 502), Vector2(511, 497), Vector2(494, 501), Vector2(506, 499), Vector2(500, 500), Vector2(500, 500)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CenterContainer/VBoxContainer/PulseHolder/PulseNode:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8, 0.89, 0.96, 1.04, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.034906585, 0.034906585, -0.02617994, 0.034906585, -0.034906585, 0.02617994, -0.034906585, 0.034906585, -0.017453292, 0.017453292, -0.008726646, 0.008726646, 0.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_aunsh"]
+_data = {
+&"RESET": SubResource("Animation_vs3rd"),
+&"pass_pulse": SubResource("Animation_y1lyw"),
+&"pass_shiver": SubResource("Animation_j4jl4")
+}
+
+[node name="BrainRotPassWidget" type="Control" unique_id=1331287185 node_paths=PackedStringArray("animation_player")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1536.0
+offset_bottom = 2048.0
+script = ExtResource("1_j4jl4")
+animation_player = NodePath("AnimationPlayer")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1494370846]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=176838773]
+layout_mode = 2
+
+[node name="PulseHolder" type="Control" parent="CenterContainer/VBoxContainer" unique_id=870813783]
+custom_minimum_size = Vector2(1000, 1000)
+layout_mode = 2
+
+[node name="PulseNode" type="Node2D" parent="CenterContainer/VBoxContainer/PulseHolder" unique_id=321106696]
+position = Vector2(500, 500)
+
+[node name="PopupLabel" type="Label" parent="CenterContainer/VBoxContainer/PulseHolder/PulseNode" unique_id=1869497494]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -150.0
+offset_right = 205.0
+offset_bottom = 167.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_sdtos")
+theme_override_font_sizes/font_size = 150
+text = "BRAIN ROT
+BROKEN"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_3e3gm")
+variable_type = 1
+variable_name = "award_text"
+initialize_empty = false
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2078510396]
+libraries/ = SubResource("AnimationLibrary_aunsh")

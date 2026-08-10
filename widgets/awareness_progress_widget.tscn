@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://0wp36yi63aa1"]
+
+[ext_resource type="Script" uid="uid://cceiefl4pnju8" path="res://scripts/awareness_progress_widget.gd" id="1_2oick"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_2oick"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_cgr4v"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="3_yt0ng"]
+
+[node name="AwarenessProgressWidget" type="Control" unique_id=418603060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2oick")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1006575155]
+layout_mode = 0
+offset_right = 1536.0
+offset_bottom = 2048.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1053350605]
+layout_mode = 2
+
+[node name="AwarenessLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1561260585]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_2oick")
+theme_override_font_sizes/font_size = 100
+text = "AWARENESS"
+horizontal_alignment = 1
+
+[node name="AwarenessBar" type="ProgressBar" parent="CenterContainer/VBoxContainer" unique_id=1312563446]
+custom_minimum_size = Vector2(400, 30)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.80683273, 0.23000395, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_2oick")
+theme_override_font_sizes/font_size = 200
+value = 25.0
+show_percentage = false
+
+[node name="AwarenessPercent" type="Label" parent="CenterContainer/VBoxContainer" unique_id=994151283]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99999994, 0.22893748, 0.8792181, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("3_yt0ng")
+theme_override_font_sizes/font_size = 100
+text = "25"
+horizontal_alignment = 1
+script = ExtResource("2_cgr4v")
+variable_name = "awareness_percent"
+template_string = "%s%%"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

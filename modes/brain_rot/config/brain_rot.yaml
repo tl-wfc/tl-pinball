@@ -372,116 +372,133 @@ coil_player:
   brain_rot_eject_start_ball:
     c_15_saucer_right:
       action: pulse
+
+
 # ------------------------------------------------------------
-# GODOT AWARD POPUP WIDGET
+# GODOT AWARD POPUP / OBJECTIVE WIDGETS
 # ------------------------------------------------------------
 
 widget_player:
+
+  # ----------------------------------------------------------
+  # INTRO VIDEO
+  # Stays active for the entire Brain Rot mode
+  # ----------------------------------------------------------
 
   brain_rot_intro:
     award_popup_widget:
       action: play
       priority: 5000
       tokens:
-        award_text: |
-          brain
-          rot
-        award_video: "PLACEHOLDER_BRAIN_ROT_INTRO_VIDEO"
+        award_text: "CONSUME"
+        award_video: "tl-v-aerobic"
 
+
+  # ----------------------------------------------------------
+  # STAGE 1 - HIT LEFT SPINNER
+  # ----------------------------------------------------------
 
   brain_rot_left_spinner_objective:
-    award_popup_widget:
+    objective_widget:
       action: play
-      priority: 5000
+      priority: 6000
       tokens:
         award_text: |
-          break the signal
-          hit left spinner
-        award_video: "PLACEHOLDER_BRAIN_ROT_LEFT_SPINNER_VIDEO"
+          HIT LEFT
+          SPINNER
 
+
+  # ----------------------------------------------------------
+  # STAGE 2 - LEFT SAUCER OPEN
+  # ----------------------------------------------------------
 
   brain_rot_left_saucer_open:
-    award_popup_widget:
-      action: play
-      priority: 5000
+    objective_widget:
+      action: update
       tokens:
         award_text: |
-          left saucer open
-          lock a ball
-        award_video: "PLACEHOLDER_BRAIN_ROT_LEFT_SAUCER_OPEN_VIDEO"
+          LEFT LOCK
+          LIT
 
 
-  brain_rot_left_ball_locked:
-    award_popup_widget:
-      action: play
-      priority: 5000
-      tokens:
-        award_text: |
-          left ball locked
-          hit right spinner
-        award_video: "PLACEHOLDER_BRAIN_ROT_LEFT_LOCK_VIDEO"
-
+  # ----------------------------------------------------------
+  # STAGE 3 - HIT RIGHT SPINNER
+  # ----------------------------------------------------------
 
   brain_rot_right_spinner_objective:
-    award_popup_widget:
-      action: play
-      priority: 5000
+    objective_widget:
+      action: update
       tokens:
         award_text: |
-          break the signal
-          hit right spinner
-        award_video: "PLACEHOLDER_BRAIN_ROT_RIGHT_SPINNER_VIDEO"
+          HIT RIGHT
+          SPINNER
 
+
+  # ----------------------------------------------------------
+  # STAGE 4 - RIGHT SAUCER OPEN
+  # ----------------------------------------------------------
 
   brain_rot_right_saucer_open:
-    award_popup_widget:
-      action: play
-      priority: 5000
+    objective_widget:
+      action: update
       tokens:
         award_text: |
-          right saucer open
-          lock a ball
-        award_video: "PLACEHOLDER_BRAIN_ROT_RIGHT_SAUCER_OPEN_VIDEO"
+          RIGHT LOCK
+          LIT
 
 
-  brain_rot_right_ball_locked:
-    award_popup_widget:
-      action: play
-      priority: 5000
-      tokens:
-        award_text: |
-          signal exposed
-          hit vari target
-        award_video: "PLACEHOLDER_BRAIN_ROT_RIGHT_LOCK_VIDEO"
-
+  # ----------------------------------------------------------
+  # STAGE 5 - HIT VARI TARGET
+  # ----------------------------------------------------------
 
   brain_rot_varitarget_objective:
-    award_popup_widget:
-      action: play
-      priority: 5000
+    objective_widget:
+      action: update
       tokens:
         award_text: |
-          destroy the signal
-          hit vari target
-        award_video: "PLACEHOLDER_BRAIN_ROT_VARITARGET_VIDEO"
+          HIT VARI
+          TARGET
 
+
+  # ----------------------------------------------------------
+  # MODE WON
+  # Remove objective and replace/update intro popup
+  # ----------------------------------------------------------
 
   brain_rot_reward_won:
+
+    objective_widget:
+      action: remove
+
     award_popup_widget:
+      action: remove
+
+    brain_rot_pass_widget:
       action: play
-      priority: 5000
+      priority: 9000
       tokens:
         award_text: |
-          brain rot broken
-          mystery won
-        award_video: "PLACEHOLDER_BRAIN_ROT_WIN_VIDEO"
+          BRAIN ROT
+          BROKEN
+
+
+  # ----------------------------------------------------------
+  # MODE FAILED
+  # Remove objective and replace/update intro popup
+  # ----------------------------------------------------------
 
   brain_rot_failed:
+
+    objective_widget:
+      action: remove
+
     award_popup_widget:
+      action: remove
+
+    brain_rot_fail_widget:
       action: play
-      priority: 5000
+      priority: 9000
       tokens:
         award_text: |
-          signal restored
-          brain rot failed
-        award_video: "PLACEHOLDER_BRAIN_ROT_FAILED_VIDEO"
+          BRAIN ROT
+          FAILED

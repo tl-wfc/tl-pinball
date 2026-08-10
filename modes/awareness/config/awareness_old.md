@@ -2,7 +2,7 @@
 # modes/awareness/config/awareness.yaml
 #
 # ------------------------------------------------------------
-# THEY LIVE - AWARENESS / CONSUME QUALIFICATION
+# THEY LIVE - AWARENESS / MYSTERY QUALIFICATION
 # ------------------------------------------------------------
 #
 # Build Awareness through normal gameplay.
@@ -14,34 +14,8 @@
 #   Mystery 3 = 275
 #   Mystery 4+ = 400
 #
-# DISPLAY:
-#
-#   0% - 24%
-#       No Awareness widget
-#
-#   25% - 99%
-#       Persistent awareness_progress_widget
-#       Godot will display:
-#
-#           AWARENESS
-#           XX%
-#
-#       Percentage will be calculated from:
-#
-#           awareness / awareness_target
-#
-#   100%
-#       Remove awareness_progress_widget
-#
-#       Show consume_qualified_widget:
-#
-#           HIT RIGHT LOCK
-#           TO START CONSUME
-#
-#       Start CONSUME-qualified lightshow
-#
 # When qualified:
-#   s_59_saucer_right starts BRAIN ROT / CONSUME
+#   s_59_saucer_right starts BRAIN ROT
 #
 # Awareness progress is per-player and carries between balls.
 # ------------------------------------------------------------
@@ -58,26 +32,6 @@ mode:
 # ------------------------------------------------------------
 
 event_player:
-
-  # ----------------------------------------------------------
-  # RESTORE DISPLAY ON A NEW BALL
-  #
-  # Awareness player variables persist between balls, but
-  # mode widgets/shows may be removed when the previous ball
-  # ends.
-  #
-  # If the player is already >=25%, restore the progress
-  # widget.
-  #
-  # If already qualified, restore the CONSUME-ready display.
-  # ----------------------------------------------------------
-
-  mode_awareness_started{current_player.awareness_qualified == 0 and current_player.awareness * 4 >= current_player.awareness_target}:
-    awareness_progress_display_start
-
-  mode_awareness_started{current_player.awareness_qualified == 1}:
-    awareness_consume_ready_display
-
 
   # ----------------------------------------------------------
   # POPS
@@ -253,21 +207,23 @@ event_player:
 
 
   # ----------------------------------------------------------
-  # AWARENESS PROGRESS DISPLAY
-  #
-  # Start the persistent widget ONLY when Awareness crosses
-  # from below 25% to 25% or above.
-  #
-  # value and prev_value are supplied by the player_awareness
-  # event.
+  # MILESTONE CHECKS
   # ----------------------------------------------------------
 
-  player_awareness{current_player.awareness_qualified == 0 and value * 4 >= current_player.awareness_target and prev_value * 4 < current_player.awareness_target}:
-    awareness_progress_display_start
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_25 == 0 and current_player.awareness * 4 >= current_player.awareness_target}:
+    awareness_reached_25
+
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_50 == 0 and current_player.awareness * 2 >= current_player.awareness_target}:
+    awareness_reached_50
+
+
+  player_awareness{current_player.awareness_qualified == 0 and current_player.awareness_milestone_75 == 0 and current_player.awareness * 4 >= current_player.awareness_target * 3}:
+    awareness_reached_75
 
 
   # ----------------------------------------------------------
-  # FULL QUALIFICATION - 100%
+  # FULL QUALIFICATION
   # ----------------------------------------------------------
 
   player_awareness{current_player.awareness_qualified == 0 and current_player.awareness >= current_player.awareness_target}:
@@ -275,34 +231,13 @@ event_player:
 
 
   # ----------------------------------------------------------
-  # QUALIFIED PRESENTATION
-  #
-  # Replace the progress widget with:
-  #
-  #   HIT RIGHT LOCK
-  #   TO START CONSUME
-  #
-  # Also start the qualification lightshow event.
-  # ----------------------------------------------------------
-
-  awareness_qualified:
-    - awareness_consume_ready_display
-    - awareness_consume_ready_lightshow_start
-
-
-  # ----------------------------------------------------------
-  # START BRAIN ROT / CONSUME
+  # START BRAIN ROT
   #
   # Correct actual right-saucer switch.
-  #
-  # First remove the qualification presentation, then start
-  # the mode.
   # ----------------------------------------------------------
 
   s_59_saucer_right_active{current_player.awareness_qualified == 1}:
-    - awareness_consume_ready_display_stop
-    - awareness_consume_ready_lightshow_stop
-    - start_mode_brain_rot
+    start_mode_brain_rot
 
 
   # ----------------------------------------------------------
@@ -310,8 +245,8 @@ event_player:
   #
   # Do NOT reset Awareness yet.
   #
-  # Leave qualification state intact while the completion
-  # animation and locked-ball releases occur.
+  # Leave Mystery qualified while the completion animation
+  # and locked-ball releases occur.
   # ----------------------------------------------------------
 
   brain_rot_complete:
@@ -398,24 +333,26 @@ variable_player:
     awareness:
       action: add
       int: 20
+
+
   # ----------------------------------------------------------
-  # INITIALISE AWARENESS PERCENTAGE
+  # MILESTONES
   # ----------------------------------------------------------
 
-  mode_awareness_started{current_player.awareness_target > 0}:
-    awareness_percent:
+  awareness_reached_25:
+    awareness_milestone_25:
       action: set
-      int: (current_player.awareness * 100) / current_player.awareness_target
+      int: 1
 
-
-  # ----------------------------------------------------------
-  # UPDATE AWARENESS PERCENTAGE
-  # ----------------------------------------------------------
-
-  player_awareness{current_player.awareness_target > 0}:
-    awareness_percent:
+  awareness_reached_50:
+    awareness_milestone_50:
       action: set
-      int: (current_player.awareness * 100) / current_player.awareness_target
+      int: 1
+
+  awareness_reached_75:
+    awareness_milestone_75:
+      action: set
+      int: 1
 
 
   # ----------------------------------------------------------
@@ -423,14 +360,13 @@ variable_player:
   # ----------------------------------------------------------
 
   awareness_qualified:
-
     awareness_qualified:
       action: set
       int: 1
 
 
   # ----------------------------------------------------------
-  # BRAIN ROT / CONSUME FINISHED
+  # BRAIN ROT FINISHED
   #
   # Reset the old qualification only AFTER Brain Rot has
   # completely stopped.
@@ -441,12 +377,20 @@ variable_player:
     awareness:
       action: set
       int: 0
-    
-    awareness_percent:
+
+    awareness_qualified:
       action: set
       int: 0
 
-    awareness_qualified:
+    awareness_milestone_25:
+      action: set
+      int: 0
+
+    awareness_milestone_50:
+      action: set
+      int: 0
+
+    awareness_milestone_75:
       action: set
       int: 0
 
@@ -460,137 +404,60 @@ variable_player:
   # ----------------------------------------------------------
 
   awareness_next_target_175:
-
     awareness_target:
       action: set
       int: 175
 
-
   awareness_next_target_275:
-
     awareness_target:
       action: set
       int: 275
 
-
   awareness_next_target_400:
-
     awareness_target:
       action: set
       int: 400
 
 
 # ------------------------------------------------------------
-# GODOT WIDGETS
-# ------------------------------------------------------------
-#
-# These are the TWO new widgets we will create in Godot next:
-#
-#   awareness_progress_widget
-#
-#       Persistent from 25% through 99%.
-#
-#       Godot will use:
-#
-#           player awareness
-#           player awareness_target
-#
-#       to calculate and display the current percentage.
-#
-#
-#   consume_qualified_widget
-#
-#       Persistent after 100% qualification.
-#
-#       Displays:
-#
-#           HIT RIGHT LOCK
-#           TO START CONSUME
-#
+# GODOT AWARD POPUP WIDGETS
 # ------------------------------------------------------------
 
 widget_player:
 
-  # ----------------------------------------------------------
-  # 25% - 99%
-  #
-  # Start the persistent Awareness progress display.
-  #
-  # NO EXPIRE.
-  # It remains present until explicitly removed.
-  # ----------------------------------------------------------
-
-  awareness_progress_display_start:
-
-    awareness_progress_widget:
-      action: play
-      priority: 10000
-
-
-  # ----------------------------------------------------------
-  # 100% QUALIFIED
-  #
-  # Remove Awareness percentage widget.
-  # Replace it with the CONSUME-ready widget.
-  # ----------------------------------------------------------
-
-  awareness_consume_ready_display:
-
-    awareness_progress_widget:
-      action: remove
-
-    consume_qualified_widget:
+  awareness_reached_25:
+    award_popup_widget:
       action: play
       priority: 10000
       tokens:
         award_text: |
-          HIT RIGHT LOCK
-          TO START CONSUME
+          awareness
+          25
+        #award_video: "PLACEHOLDER_AWARENESS_25_VIDEO"
 
 
-  # ----------------------------------------------------------
-  # RIGHT LOCK HIT / CONSUME STARTING
-  #
-  # Remove the qualification widget.
-  # ----------------------------------------------------------
-
-  awareness_consume_ready_display_stop:
-
-    consume_qualified_widget:
-      action: remove
+  awareness_reached_50:
+    award_popup_widget:
+      action: play
+      priority: 10000
+      tokens:
+        award_text: "50"
+        #award_video: "PLACEHOLDER_AWARENESS_50_VIDEO"
 
 
-# ------------------------------------------------------------
-# CONSUME QUALIFIED LIGHTSHOW
-# ------------------------------------------------------------
-#
-# The events below already exist in the rules:
-#
-#   awareness_consume_ready_lightshow_start
-#   awareness_consume_ready_lightshow_stop
-#
-# When you create the actual lightshow, uncomment this section
-# and replace:
-#
-#   PLACEHOLDER_SHOW_CONSUME_QUALIFIED
-#
-# with the real show name.
-#
-# It is intentionally commented out for now so MPF does not
-# try to load a show which does not yet exist.
-# ------------------------------------------------------------
+  awareness_reached_75:
+    award_popup_widget:
+      action: play
+      priority: 10000
+      tokens:
+        award_text: "75"
+        #award_video: "PLACEHOLDER_AWARENESS_75_VIDEO"
 
-# show_player:
-#
-#   awareness_consume_ready_lightshow_start:
-#
-#     PLACEHOLDER_SHOW_CONSUME_QUALIFIED:
-#       action: play
-#       priority: 1000
-#       loops: -1
-#
-#
-#   awareness_consume_ready_lightshow_stop:
-#
-#     PLACEHOLDER_SHOW_CONSUME_QUALIFIED:
-#       action: stop
+
+  awareness_qualified:
+    award_popup_widget:
+      action: play
+      priority: 10000
+      tokens:
+        award_text: "qual"
+        #award_video: "PLACEHOLDER_AWARENESS_QUALIFIED_VIDEO"
