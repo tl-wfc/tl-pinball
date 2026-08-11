@@ -1,0 +1,12 @@
+2026-08-11 11:10:34,917 : INFO : root : Loading config.
+2026-08-11 11:10:34,922 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-08-11 11:10:34,923 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\86f932e179f318f5dae29f066573dee9.mpf_cache
+2026-08-11 11:10:35,045 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-11 11:10:35,046 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-08-11 11:10:35,047 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\5e7e3dd8e04e0aa46ea76018297218da.mpf_cache
+2026-08-11 11:10:35,048 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\078e3f4c59f1cd1bf0ff8685cc9e7ff5.mpf_cache
+2026-08-11 11:10:35,048 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\279434e09bc5e8b073f441f36778b3c5.mpf_cache
+2026-08-11 11:10:35,049 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\0f8a6fed03551fa5e1f599b5c511b7ce.mpf_cache
+2026-08-11 11:10:35,050 : INFO : ConfigProcessor : Loading config from cache: C:\Users\tl\AppData\Local\Temp\f7ef3217062c4a128670875e2cb05ce9.mpf_cache
+2026-08-11 11:10:35,051 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\tl\Documents\tl-pinball\modes\brain_rot\config\brain_rot.yaml
+2026-08-11 11:10:35,051 : INFO : ConfigProcessor : Loading config from file C:\Users\tl\Documents\tl-pinball\modes\brain_rot\config\brain_rot.yaml.

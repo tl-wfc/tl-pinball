@@ -33,15 +33,15 @@
 #   100%
 #       Remove awareness_progress_widget
 #
-#       Show consume_qualified_widget:
+#       Show objective_widget:
 #
-#           HIT RIGHT LOCK
+#           HIT LEFT LOCK
 #           TO START CONSUME
 #
 #       Start CONSUME-qualified lightshow
 #
 # When qualified:
-#   s_59_saucer_right starts BRAIN ROT / CONSUME
+#   s_81_saucer_left starts BRAIN ROT / CONSUME
 #
 # Awareness progress is per-player and carries between balls.
 # ------------------------------------------------------------
@@ -279,7 +279,7 @@ event_player:
   #
   # Replace the progress widget with:
   #
-  #   HIT RIGHT LOCK
+  #   HIT LEFT LOCK
   #   TO START CONSUME
   #
   # Also start the qualification lightshow event.
@@ -293,13 +293,13 @@ event_player:
   # ----------------------------------------------------------
   # START BRAIN ROT / CONSUME
   #
-  # Correct actual right-saucer switch.
+  # Left saucer starts Brain Rot / CONSUME.
   #
   # First remove the qualification presentation, then start
   # the mode.
   # ----------------------------------------------------------
 
-  s_59_saucer_right_active{current_player.awareness_qualified == 1}:
+  s_81_saucer_left_active{current_player.awareness_qualified == 1}:
     - awareness_consume_ready_display_stop
     - awareness_consume_ready_lightshow_stop
     - start_mode_brain_rot
@@ -349,6 +349,7 @@ event_player:
 # ------------------------------------------------------------
 
 variable_player:
+  
 
   # ----------------------------------------------------------
   # AWARENESS AWARDS
@@ -498,13 +499,13 @@ variable_player:
 #       to calculate and display the current percentage.
 #
 #
-#   consume_qualified_widget
+#   objective_widget
 #
 #       Persistent after 100% qualification.
 #
 #       Displays:
 #
-#           HIT RIGHT LOCK
+#           HIT LEFT LOCK
 #           TO START CONSUME
 #
 # ------------------------------------------------------------
@@ -539,24 +540,24 @@ widget_player:
     awareness_progress_widget:
       action: remove
 
-    consume_qualified_widget:
+    objective_widget:
       action: play
       priority: 10000
       tokens:
-        award_text: |
-          HIT RIGHT LOCK
+        objective_text: |
+          HIT LEFT LOCK
           TO START CONSUME
 
 
   # ----------------------------------------------------------
-  # RIGHT LOCK HIT / CONSUME STARTING
+  # LEFT LOCK HIT / CONSUME STARTING
   #
   # Remove the qualification widget.
   # ----------------------------------------------------------
 
   awareness_consume_ready_display_stop:
 
-    consume_qualified_widget:
+    objective_widget:
       action: remove
 
 

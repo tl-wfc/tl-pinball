@@ -62,10 +62,14 @@ ball_holds:
 
 
 # ------------------------------------------------------------
-# END DELAY
+# TIMERS
 # ------------------------------------------------------------
 
 timers:
+
+  # ----------------------------------------------------------
+  # MODE END DELAY
+  # ----------------------------------------------------------
 
   brain_rot_end_delay:
     start_value: 0
@@ -78,6 +82,57 @@ timers:
         action: restart
 
 
+  # ----------------------------------------------------------
+  # OBJECTIVE WIDGET REFRESH DELAYS
+  #
+  # These allow the old objective_widget to be fully removed
+  # before GMC creates the next instance.
+  # ----------------------------------------------------------
+
+  brain_rot_left_lock_display_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 100ms
+
+    control_events:
+      - event: brain_rot_left_saucer_open
+        action: restart
+
+
+  brain_rot_right_spinner_display_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 100ms
+
+    control_events:
+      - event: brain_rot_left_ball_locked
+        action: restart
+
+
+  brain_rot_right_lock_display_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 100ms
+
+    control_events:
+      - event: brain_rot_right_saucer_open
+        action: restart
+
+
+  brain_rot_varitarget_display_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 100ms
+
+    control_events:
+      - event: brain_rot_right_ball_locked
+        action: restart
+
+
 # ------------------------------------------------------------
 # EVENT LOGIC
 # ------------------------------------------------------------
@@ -87,8 +142,8 @@ event_player:
   # ----------------------------------------------------------
   # MODE START
   #
-  # Ball is currently sitting in bd_right_vuk.
-  # Tell that ball device to eject it.
+  # Ball is sitting in bd_left_vuk.
+  # Eject that ball to begin Brain Rot.
   # ----------------------------------------------------------
 
   mode_brain_rot_started:
@@ -99,19 +154,16 @@ event_player:
   # ----------------------------------------------------------
   # START MULTIBALL
   #
-  # Once the starting ball physically leaves the right saucer,
+  # Once the starting ball physically leaves the left saucer,
   # bring balls in play up to a total of three.
   # ----------------------------------------------------------
 
-  s_59_saucer_right_inactive{current_player.brain_rot_stage == 0 and current_player.brain_rot_multiball_started == 0}:
+  s_81_saucer_left_inactive{current_player.brain_rot_stage == 0 and current_player.brain_rot_multiball_started == 0}:
     brain_rot_launch_multiball
 
 
   # ----------------------------------------------------------
-  # USE MPF'S REAL MULTIBALL-STARTED EVENT
-  #
-  # This means stage 1 does not become active until MPF has
-  # actually started the multiball.
+  # MPF REAL MULTIBALL STARTED EVENT
   # ----------------------------------------------------------
 
   multiball_brain_rot_multiball_started:
@@ -137,16 +189,11 @@ event_player:
   #
   # LEFT SAUCER HOLD ENABLED
   #
-  # Do NOT use s_81 directly to advance.
-  # Wait until the ball hold confirms that it claimed a ball.
+  # Wait until the ball hold confirms it claimed the ball.
   # ----------------------------------------------------------
 
   ball_hold_brain_rot_left_saucer_hold_held_ball{current_player.brain_rot_stage == 2}:
     brain_rot_left_ball_locked
-
-
-  brain_rot_left_ball_locked:
-    brain_rot_right_spinner_objective
 
 
   # ----------------------------------------------------------
@@ -164,15 +211,11 @@ event_player:
   #
   # RIGHT SAUCER HOLD ENABLED
   #
-  # Again, wait for the ball hold to confirm it owns the ball.
+  # Wait until the ball hold confirms it owns the ball.
   # ----------------------------------------------------------
 
   ball_hold_brain_rot_right_saucer_hold_held_ball{current_player.brain_rot_stage == 4}:
     brain_rot_right_ball_locked
-
-
-  brain_rot_right_ball_locked:
-    brain_rot_varitarget_objective
 
 
   # ----------------------------------------------------------
@@ -180,8 +223,6 @@ event_player:
   #
   # ONE BALL REMAINS LIVE.
   # ANY GENUINE FORWARD VARI-TARGET HIT COMPLETES THE MODE.
-  #
-  # Your existing varitarget.yaml posts varitarget_hit_begin.
   # ----------------------------------------------------------
 
   varitarget_hit_begin{current_player.brain_rot_stage == 5}:
@@ -190,9 +231,6 @@ event_player:
 
   # ----------------------------------------------------------
   # COMPLETE
-  #
-  # brain_rot_complete also releases both ball holds because
-  # it is listed under release_all_events above.
   # ----------------------------------------------------------
 
   brain_rot_complete:
@@ -201,17 +239,18 @@ event_player:
 
 
   # ----------------------------------------------------------
-  # END MODE AFTER COMPLETION CELEBRATION BEGINS
+  # END MODE AFTER COMPLETION CELEBRATION
   # ----------------------------------------------------------
 
   timer_brain_rot_end_delay_complete:
     brain_rot_stop
 
+
   # ----------------------------------------------------------
   # MULTIBALL FAILURE
   #
-  # MPF posts this when Brain Rot actually loses a multiball
-  # ball which is NOT being replaced by shoot-again.
+  # MPF posts this when Brain Rot loses a multiball ball
+  # which is not being replaced by shoot-again.
   # ----------------------------------------------------------
 
   multiball_brain_rot_multiball_ball_lost{current_player.brain_rot_stage >= 1 and current_player.brain_rot_stage < 6}:
@@ -232,7 +271,7 @@ variable_player:
   # ----------------------------------------------------------
   # MODE START
   #
-  # Stage 0 = waiting for starting saucer ball to leave.
+  # Stage 0 = waiting for starting left-saucer ball to leave.
   # ----------------------------------------------------------
 
   mode_brain_rot_started:
@@ -263,9 +302,9 @@ variable_player:
 
 
   # ----------------------------------------------------------
-  # MULTIBALL ACTUALLY STARTED
+  # MULTIBALL STARTED
   #
-  # Stage 1 = left spinner objective.
+  # Stage 1 = hit left spinner.
   # ----------------------------------------------------------
 
   brain_rot_multiball_started:
@@ -282,7 +321,7 @@ variable_player:
   # ----------------------------------------------------------
   # LEFT SPINNER MADE
   #
-  # Stage 2 = left saucer can now capture a ball.
+  # Stage 2 = left lock lit.
   # ----------------------------------------------------------
 
   brain_rot_left_saucer_open:
@@ -297,9 +336,9 @@ variable_player:
 
 
   # ----------------------------------------------------------
-  # LEFT BALL ACTUALLY HELD
+  # LEFT BALL LOCKED
   #
-  # Stage 3 = right spinner objective.
+  # Stage 3 = hit right spinner.
   # ----------------------------------------------------------
 
   brain_rot_left_ball_locked:
@@ -316,7 +355,7 @@ variable_player:
   # ----------------------------------------------------------
   # RIGHT SPINNER MADE
   #
-  # Stage 4 = right saucer can now capture a ball.
+  # Stage 4 = right lock lit.
   # ----------------------------------------------------------
 
   brain_rot_right_saucer_open:
@@ -331,9 +370,9 @@ variable_player:
 
 
   # ----------------------------------------------------------
-  # RIGHT BALL ACTUALLY HELD
+  # RIGHT BALL LOCKED
   #
-  # Stage 5 = vari-target objective.
+  # Stage 5 = hit vari-target.
   # ----------------------------------------------------------
 
   brain_rot_right_ball_locked:
@@ -358,111 +397,173 @@ variable_player:
       int: 6
 
 
-  # ----------------------------------------------------------
-  # PLACEHOLDER REWARD
-  # ----------------------------------------------------------
-
-  # brain_rot_reward_won:
-  #   score:
-  #     action: add
-  #     int: 25000000
+# ------------------------------------------------------------
+# STARTING SAUCER EJECT
+# ------------------------------------------------------------
 
 coil_player:
 
   brain_rot_eject_start_ball:
-    c_15_saucer_right:
+
+    c_29_saucer_left:
       action: pulse
 
 
 # ------------------------------------------------------------
-# GODOT AWARD POPUP / OBJECTIVE WIDGETS
+# GODOT AWARD POPUP / MODE TITLE / OBJECTIVE WIDGETS
 # ------------------------------------------------------------
 
 widget_player:
 
   # ----------------------------------------------------------
-  # INTRO VIDEO
-  # Stays active for the entire Brain Rot mode
+  # INTRO VIDEO + MODE TITLE
   # ----------------------------------------------------------
 
   brain_rot_intro:
+
     award_popup_widget:
       action: play
       priority: 5000
       tokens:
-        award_text: "CONSUME"
         award_video: "tl-v-aerobic"
+
+    mode_title_widget:
+      action: play
+      priority: 7000
+      tokens:
+        award_text: "CONSUME"
 
 
   # ----------------------------------------------------------
   # STAGE 1 - HIT LEFT SPINNER
+  #
+  # First objective can be played directly because there is
+  # no previous Brain Rot objective widget to remove.
   # ----------------------------------------------------------
 
   brain_rot_left_spinner_objective:
+
     objective_widget:
       action: play
       priority: 6000
       tokens:
-        award_text: |
+        objective_text: |
           HIT LEFT
           SPINNER
 
 
   # ----------------------------------------------------------
-  # STAGE 2 - LEFT SAUCER OPEN
+  # STAGE 1 COMPLETE
+  #
+  # Remove HIT LEFT SPINNER immediately.
   # ----------------------------------------------------------
 
   brain_rot_left_saucer_open:
+
     objective_widget:
-      action: update
+      action: remove
+
+
+  # ----------------------------------------------------------
+  # STAGE 2 - LEFT LOCK LIT
+  #
+  # Played 100ms after the previous widget was removed.
+  # ----------------------------------------------------------
+
+  timer_brain_rot_left_lock_display_delay_complete:
+
+    objective_widget:
+      action: play
+      priority: 6000
       tokens:
-        award_text: |
+        objective_text: |
           LEFT LOCK
           LIT
+
+
+  # ----------------------------------------------------------
+  # STAGE 2 COMPLETE
+  #
+  # Remove LEFT LOCK LIT.
+  # ----------------------------------------------------------
+
+  brain_rot_left_ball_locked:
+
+    objective_widget:
+      action: remove
 
 
   # ----------------------------------------------------------
   # STAGE 3 - HIT RIGHT SPINNER
   # ----------------------------------------------------------
 
-  brain_rot_right_spinner_objective:
+  timer_brain_rot_right_spinner_display_delay_complete:
+
     objective_widget:
-      action: update
+      action: play
+      priority: 6000
       tokens:
-        award_text: |
+        objective_text: |
           HIT RIGHT
           SPINNER
 
 
   # ----------------------------------------------------------
-  # STAGE 4 - RIGHT SAUCER OPEN
+  # STAGE 3 COMPLETE
+  #
+  # Remove HIT RIGHT SPINNER.
   # ----------------------------------------------------------
 
   brain_rot_right_saucer_open:
+
     objective_widget:
-      action: update
+      action: remove
+
+
+  # ----------------------------------------------------------
+  # STAGE 4 - RIGHT LOCK LIT
+  # ----------------------------------------------------------
+
+  timer_brain_rot_right_lock_display_delay_complete:
+
+    objective_widget:
+      action: play
+      priority: 6000
       tokens:
-        award_text: |
+        objective_text: |
           RIGHT LOCK
           LIT
+
+
+  # ----------------------------------------------------------
+  # STAGE 4 COMPLETE
+  #
+  # Remove RIGHT LOCK LIT.
+  # ----------------------------------------------------------
+
+  brain_rot_right_ball_locked:
+
+    objective_widget:
+      action: remove
 
 
   # ----------------------------------------------------------
   # STAGE 5 - HIT VARI TARGET
   # ----------------------------------------------------------
 
-  brain_rot_varitarget_objective:
+  timer_brain_rot_varitarget_display_delay_complete:
+
     objective_widget:
-      action: update
+      action: play
+      priority: 6000
       tokens:
-        award_text: |
+        objective_text: |
           HIT VARI
           TARGET
 
 
   # ----------------------------------------------------------
-  # MODE WON
-  # Remove objective and replace/update intro popup
+  # MODE COMPLETE
   # ----------------------------------------------------------
 
   brain_rot_reward_won:
@@ -473,6 +574,9 @@ widget_player:
     award_popup_widget:
       action: remove
 
+    mode_title_widget:
+      action: remove
+    
     brain_rot_pass_widget:
       action: play
       priority: 9000
@@ -484,7 +588,6 @@ widget_player:
 
   # ----------------------------------------------------------
   # MODE FAILED
-  # Remove objective and replace/update intro popup
   # ----------------------------------------------------------
 
   brain_rot_failed:
@@ -495,10 +598,5 @@ widget_player:
     award_popup_widget:
       action: remove
 
-    brain_rot_fail_widget:
-      action: play
-      priority: 9000
-      tokens:
-        award_text: |
-          BRAIN ROT
-          FAILED
+    mode_title_widget:
+      action: remove

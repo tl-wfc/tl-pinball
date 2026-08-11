@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://bs2r6vcudhyyj"]
+[gd_scene format=3 uid="uid://dwgl0dv6vngcb"]
 
-[ext_resource type="Script" uid="uid://bno3lb7hq5gds" path="res://scripts/objective_widget.gd" id="1_y1lyw"]
-[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="3_aay5i"]
-[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_rvy5r"]
+[ext_resource type="Script" uid="uid://1fg5ntu3icw1" path="res://scripts/mode_title_widget.gd" id="1_a5p3t"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_1cqvp"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_aa4ap"]
 
 [sub_resource type="Animation" id="Animation_vs3rd"]
 length = 0.001
@@ -20,7 +20,7 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_y1lyw"]
-resource_name = "instruction_pulse"
+resource_name = "mode_title_pulse"
 length = 0.8
 loop_mode = 1
 tracks/0/type = "value"
@@ -33,29 +33,30 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.4, 0.8),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(1, 1), Vector2(1.15, 1.15), Vector2(1, 1)]
+"values": [Vector2(1, 1), Vector2(1.05, 1.05), Vector2(1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_aunsh"]
 _data = {
 &"RESET": SubResource("Animation_vs3rd"),
-&"instruction_pulse": SubResource("Animation_y1lyw")
+&"mode_title_pulse": SubResource("Animation_y1lyw")
 }
 
-[node name="ObjectiveWidget" type="Control" unique_id=1331287185 node_paths=PackedStringArray("animation_player")]
+[node name="ModeTitleWidget" type="Control" unique_id=1331287185 node_paths=PackedStringArray("animation_player")]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1536.0
 offset_bottom = 2048.0
-script = ExtResource("1_y1lyw")
+script = ExtResource("1_a5p3t")
 animation_player = NodePath("AnimationPlayer")
 metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=1494370846]
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = -1
 anchor_right = 1.0
-anchor_bottom = 1.0
+offset_top = 80.0
+offset_bottom = 680.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -79,18 +80,18 @@ offset_right = 205.0
 offset_bottom = 167.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 20
-theme_override_fonts/font = ExtResource("3_aay5i")
-theme_override_font_sizes/font_size = 150
-text = "test
-objective"
+theme_override_fonts/font = ExtResource("2_1cqvp")
+theme_override_font_sizes/font_size = 200
+text = "MODE
+TITLE"
 horizontal_alignment = 1
 vertical_alignment = 1
-script = ExtResource("4_rvy5r")
+script = ExtResource("3_aa4ap")
 variable_type = 1
-variable_name = "objective_text"
-template_string = "%s"
+variable_name = "award_text"
 initialize_empty = false
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
