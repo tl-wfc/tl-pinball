@@ -1,0 +1,52 @@
+#show_version=6
+
+# CONSUME COMPLETED
+# Celebration flashes followed by steady green
+
+- duration: 100ms
+  lights:
+    l_pf1_4_13: white
+    l_pf1_4_14: white
+    l_pf1_4_15: white
+
+- duration: 100ms
+  lights:
+    l_pf1_4_13: off
+    l_pf1_4_14: off
+    l_pf1_4_15: off
+
+- duration: 100ms
+  lights:
+    l_pf1_4_13: white
+    l_pf1_4_14: white
+    l_pf1_4_15: white
+
+- duration: 100ms
+  lights:
+    l_pf1_4_13: off
+    l_pf1_4_14: off
+    l_pf1_4_15: off
+
+- duration: 100ms
+  lights:
+    l_pf1_4_13: white
+    l_pf1_4_14: white
+    l_pf1_4_15: white
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "00FF00"
+    l_pf1_4_14: "00FF00"
+    l_pf1_4_15: "00FF00"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "00AA00"
+    l_pf1_4_14: "00FF00"
+    l_pf1_4_15: "00AA00"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "00FF00"
+    l_pf1_4_14: "00FF00"
+    l_pf1_4_15: "00FF00"

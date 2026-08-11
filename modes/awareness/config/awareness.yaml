@@ -564,34 +564,17 @@ widget_player:
 # ------------------------------------------------------------
 # CONSUME QUALIFIED LIGHTSHOW
 # ------------------------------------------------------------
-#
-# The events below already exist in the rules:
-#
-#   awareness_consume_ready_lightshow_start
-#   awareness_consume_ready_lightshow_stop
-#
-# When you create the actual lightshow, uncomment this section
-# and replace:
-#
-#   PLACEHOLDER_SHOW_CONSUME_QUALIFIED
-#
-# with the real show name.
-#
-# It is intentionally commented out for now so MPF does not
-# try to load a show which does not yet exist.
-# ------------------------------------------------------------
 
-# show_player:
-#
-#   awareness_consume_ready_lightshow_start:
-#
-#     PLACEHOLDER_SHOW_CONSUME_QUALIFIED:
-#       action: play
-#       priority: 1000
-#       loops: -1
-#
-#
-#   awareness_consume_ready_lightshow_stop:
-#
-#     PLACEHOLDER_SHOW_CONSUME_QUALIFIED:
-#       action: stop
+show_player:
+
+  awareness_consume_ready_lightshow_start:
+    show_consume_qualified:
+      action: play
+      key: consume_qualified_insert
+      priority: 5000
+      loops: -1
+      speed: 1.0
+
+  awareness_consume_ready_lightshow_stop:
+    consume_qualified_insert:
+      action: stop

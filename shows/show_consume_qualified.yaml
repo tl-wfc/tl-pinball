@@ -1,0 +1,46 @@
+#show_version=6
+
+# CONSUME QUALIFIED
+# Slow red/orange breathing pulse
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "330000"
+    l_pf1_4_14: "110000"
+    l_pf1_4_15: "330000"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "770000"
+    l_pf1_4_14: "330000"
+    l_pf1_4_15: "770000"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "BB1100"
+    l_pf1_4_14: "770000"
+    l_pf1_4_15: "BB1100"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "FF3300"
+    l_pf1_4_14: "DD1100"
+    l_pf1_4_15: "FF3300"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "BB1100"
+    l_pf1_4_14: "770000"
+    l_pf1_4_15: "BB1100"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "770000"
+    l_pf1_4_14: "330000"
+    l_pf1_4_15: "770000"
+
+- duration: 150ms
+  lights:
+    l_pf1_4_13: "330000"
+    l_pf1_4_14: "110000"
+    l_pf1_4_15: "330000"
