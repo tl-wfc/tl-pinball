@@ -11,6 +11,7 @@ modes:
     - awareness
     #- service
     - base
+    - bonus
     - brain_rot
     - glasses_mode
     - resistance

@@ -451,6 +451,13 @@ widget_player:
           HIT LEFT
           SPINNER
 
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: left_spinner
+
+
 
   # ----------------------------------------------------------
   # STAGE 1 COMPLETE
@@ -461,6 +468,9 @@ widget_player:
   brain_rot_left_saucer_open:
 
     objective_widget:
+      action: remove
+
+    arrow_straight_widget:
       action: remove
 
 
@@ -479,6 +489,13 @@ widget_player:
         objective_text: |
           LEFT LOCK
           LIT
+
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: left_lock
+
 
 
   # ----------------------------------------------------------
@@ -507,6 +524,11 @@ widget_player:
           HIT RIGHT
           SPINNER
 
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: right_spinner
 
   # ----------------------------------------------------------
   # STAGE 3 COMPLETE
@@ -517,6 +539,9 @@ widget_player:
   brain_rot_right_saucer_open:
 
     objective_widget:
+      action: remove
+
+    arrow_straight_widget:
       action: remove
 
 
@@ -534,6 +559,12 @@ widget_player:
           RIGHT LOCK
           LIT
 
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: right_lock
+
 
   # ----------------------------------------------------------
   # STAGE 4 COMPLETE
@@ -545,6 +576,10 @@ widget_player:
 
     objective_widget:
       action: remove
+
+    arrow_straight_widget:
+      action: remove
+
 
 
   # ----------------------------------------------------------
@@ -561,6 +596,11 @@ widget_player:
           HIT VARI
           TARGET
 
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: varitarget
 
   # ----------------------------------------------------------
   # MODE COMPLETE
@@ -569,6 +609,9 @@ widget_player:
   brain_rot_reward_won:
 
     objective_widget:
+      action: remove
+
+    arrow_straight_widget:
       action: remove
 
     award_popup_widget:
@@ -593,6 +636,9 @@ widget_player:
   brain_rot_failed:
 
     objective_widget:
+      action: remove
+
+    arrow_straight_widget:
       action: remove
 
     award_popup_widget:

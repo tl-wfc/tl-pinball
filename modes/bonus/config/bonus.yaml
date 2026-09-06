@@ -1,0 +1,31 @@
+#config_version=6
+
+mode_settings:
+
+  display_delay_ms: 1500
+  hurry_up_delay_ms: 200
+
+  bonus_entries:
+
+    - entry: base_bonus
+      text: "BONUS"
+      player_score_entry: bonus_count
+      score: 10000
+      reset_player_score_entry: true
+      skip_if_zero: false
+
+
+slide_player:
+
+  mode_bonus_started:
+    bonus
+
+  bonus_start:
+    bonus:
+      action: update
+      tokens:
+        entry: initial
+
+  bonus_entry:
+    bonus:
+      action: update

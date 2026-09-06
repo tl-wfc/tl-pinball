@@ -1,37 +1,61 @@
-[gd_scene load_steps=4 format=3 uid="uid://cado054cg40cv"]
+[gd_scene format=3 uid="uid://cado054cg40cv"]
 
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_524xj"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_6rn1m"]
-[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_conditional_children.gd" id="3_ted12"]
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_524xj"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_6rn1m"]
+[ext_resource type="Texture2D" uid="uid://g7ivvo2aprk0" path="res://assets/images/tl_v_background_1.jpg" id="2_xem0y"]
+[ext_resource type="Texture2D" uid="uid://bqiarr7f4yp3a" path="res://assets/masks/LCD_MASK_Rev1.png" id="3_3qxh1"]
+[ext_resource type="Script" uid="uid://808knhb8e2nn" path="res://addons/mpf-gmc/classes/mpf_conditional_children.gd" id="3_ted12"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="6_3qxh1"]
 
-[node name="Bonus" type="Control"]
+[node name="Bonus" type="Control" unique_id=981138226]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1920.0
+offset_right = 1541.0
 offset_bottom = 720.0
 script = ExtResource("1_524xj")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1700134795]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = -7.0
+offset_bottom = 1331.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="MPFConditionalChildren" type="Control" parent="."]
+[node name="background_upper" type="Sprite2D" parent="." unique_id=1947794402]
+position = Vector2(-51, 720.0001)
+scale = Vector2(1.17, 1.2464459)
+texture = ExtResource("2_xem0y")
+
+[node name="background_lower" type="Sprite2D" parent="." unique_id=908774172]
+position = Vector2(1375.9999, 1318.0001)
+scale = Vector2(1.17, 1.2464459)
+texture = ExtResource("2_xem0y")
+
+[node name="LcdMaskRev1" type="Sprite2D" parent="." unique_id=705518761]
+visible = false
+position = Vector2(765.2999, 1031.4501)
+scale = Vector2(1.17, 1.2464459)
+texture = ExtResource("3_3qxh1")
+
+[node name="MPFConditionalChildren" type="Control" parent="." unique_id=1775458676]
+anchors_preset = 0
 script = ExtResource("3_ted12")
 variable_type = 1
 variable_name = "entry"
 
-[node name="initial" type="Control" parent="MPFConditionalChildren"]
-visible = false
+[node name="initial" type="Control" parent="MPFConditionalChildren" unique_id=1346139765]
+anchors_preset = 0
 
-[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/initial"]
+[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/initial" unique_id=1442369461]
+layout_mode = 0
 offset_top = 253.0
-offset_right = 1920.0
+offset_right = 1536.0
 offset_bottom = 430.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -39,13 +63,15 @@ script = ExtResource("2_6rn1m")
 variable_name = "ball"
 template_string = "End of Ball %s"
 
-[node name="__default__" type="Control" parent="MPFConditionalChildren"]
-visible = false
+[node name="__default__" type="Control" parent="MPFConditionalChildren" unique_id=254756384]
+anchors_preset = 0
 
-[node name="bonus_entry_name" type="Label" parent="MPFConditionalChildren/__default__"]
+[node name="bonus_entry_name" type="Label" parent="MPFConditionalChildren/__default__" unique_id=1920661612]
+layout_mode = 0
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1537.0
 offset_bottom = 310.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
 horizontal_alignment = 1
@@ -54,10 +80,12 @@ script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "text"
 
-[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/__default__"]
+[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/__default__" unique_id=131922404]
+layout_mode = 0
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1540.0
 offset_bottom = 528.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
 horizontal_alignment = 1
@@ -67,22 +95,26 @@ variable_type = 1
 variable_name = "score"
 comma_separate = true
 
-[node name="subtotal" type="Control" parent="MPFConditionalChildren"]
-visible = false
+[node name="subtotal" type="Control" parent="MPFConditionalChildren" unique_id=407446183]
+anchors_preset = 0
 
-[node name="Label" type="Label" parent="MPFConditionalChildren/subtotal"]
+[node name="Label" type="Label" parent="MPFConditionalChildren/subtotal" unique_id=1982650211]
+layout_mode = 0
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1537.0
 offset_bottom = 310.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Subtotal"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/subtotal"]
+[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/subtotal" unique_id=1295741454]
+layout_mode = 0
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1540.0
 offset_bottom = 528.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
 horizontal_alignment = 1
@@ -92,22 +124,26 @@ variable_type = 1
 variable_name = "score"
 comma_separate = true
 
-[node name="multiplier" type="Control" parent="MPFConditionalChildren"]
-visible = false
+[node name="multiplier" type="Control" parent="MPFConditionalChildren" unique_id=150024655]
+anchors_preset = 0
 
-[node name="Label" type="Label" parent="MPFConditionalChildren/multiplier"]
+[node name="Label" type="Label" parent="MPFConditionalChildren/multiplier" unique_id=1014962749]
+layout_mode = 0
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1531.0
 offset_bottom = 310.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Multiplier"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/multiplier"]
+[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/multiplier" unique_id=949938134]
+layout_mode = 0
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1540.0
 offset_bottom = 528.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
 horizontal_alignment = 1
@@ -117,22 +153,26 @@ variable_type = 1
 variable_name = "score"
 template_string = "%sX"
 
-[node name="total" type="Control" parent="MPFConditionalChildren"]
-visible = false
+[node name="total" type="Control" parent="MPFConditionalChildren" unique_id=917723237]
+anchors_preset = 0
 
-[node name="Label" type="Label" parent="MPFConditionalChildren/total"]
+[node name="Label" type="Label" parent="MPFConditionalChildren/total" unique_id=71835951]
+layout_mode = 0
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1540.0
 offset_bottom = 310.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Total Bonus"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/total"]
+[node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/total" unique_id=1456445162]
+layout_mode = 0
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1537.0
 offset_bottom = 528.0
+theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
 horizontal_alignment = 1

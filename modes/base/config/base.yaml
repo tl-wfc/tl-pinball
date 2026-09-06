@@ -46,6 +46,30 @@ variable_player:
       action: set
       int: 1
 
+  s_42_active:
+    bonus_count: 1
+
+  s_80_active:
+    bonus_count: 1
+
+  s_63_active:
+    bonus_count: 1
+
+  s_43_active:
+    bonus_count: 1
+
+  s_40_active:
+    bonus_count: 1
+
+  s_41_active:
+    bonus_count: 1
+  
+  s_08_left_flipper_active:
+    bonus_count: 1
+
+  s_16_right_flipper_active:
+    bonus_count: 1
+
 slide_player:
   mode_base_started:
     base_slide:
@@ -299,3 +323,62 @@ combo_switches:
     switches_2: s_11_start_button
     hold_time: 5s
     events_when_both: force_end_game_requested
+
+# widget_player:
+
+#   s_82_stand_up_target_bank_1_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: red_drop_target
+
+
+#   s_83_stand_up_target_bank_2_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: left_lock
+
+#   s_84_stand_up_target_bank_3_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: left_spinner
+
+#   s_85_stand_up_target_bank_4_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: standup_4
+
+
+#   s_86_stand_up_target_bank_5_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: right_spinner
+
+
+#   s_87_stand_up_target_bank_6_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: varitarget
+
+#   s_43_stand_up_target_4_active:
+#     arrow_straight_widget:
+#       action: play
+#       priority: 5000
+#       tokens:
+#         arrow_position: right_orbit
+
+
+#   s_33_right_outlane_active:
+#     arrow_straight_widget:
+#       action: remove

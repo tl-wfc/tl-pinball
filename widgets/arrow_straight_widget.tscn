@@ -1,0 +1,118 @@
+[gd_scene format=3 uid="uid://o6qx3lw8isy0"]
+
+[ext_resource type="Script" uid="uid://ba2ui2lwsemn8" path="res://scripts/arrow_straight_widget.gd" id="1_dvjck"]
+[ext_resource type="Texture2D" uid="uid://g1f7r8h7oljj" path="res://assets/images/arrows/arrow_straight.png" id="2_dvjck"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2emav"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(0, 160, 192, 605)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lp1i2"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(192, 160, 192, 605)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7raya"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(384, 160, 192, 605)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3jnu"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(576, 160, 192, 605)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mqsa"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(768, 160, 192, 605)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyq6h"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(953, 162, 189, 600)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fxfn"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(1142, 162, 189, 600)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tvlfs"]
+atlas = ExtResource("2_dvjck")
+region = Rect2(1331, 162, 189, 600)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6e4u3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2emav")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2emav")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lp1i2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lp1i2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7raya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7raya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3jnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3jnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mqsa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mqsa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyq6h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyq6h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fxfn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fxfn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvlfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvlfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvlfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvlfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvlfs")
+}],
+"loop": true,
+"name": &"grow",
+"speed": 17.0
+}]
+
+[node name="ArrowStraightWidget" type="Control" unique_id=418603060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dvjck")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="ArrowAnimation" type="AnimatedSprite2D" parent="." unique_id=2036693220]
+position = Vector2(789, 360)
+sprite_frames = SubResource("SpriteFrames_6e4u3")
+animation = &"grow"
+autoplay = "grow"
+frame_progress = 0.396887

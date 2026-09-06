@@ -548,6 +548,11 @@ widget_player:
           HIT LEFT LOCK
           TO START CONSUME
 
+    arrow_straight_widget:
+      action: play
+      priority: 5500
+      tokens:
+        arrow_position: left_lock
 
   # ----------------------------------------------------------
   # LEFT LOCK HIT / CONSUME STARTING
@@ -558,6 +563,9 @@ widget_player:
   awareness_consume_ready_display_stop:
 
     objective_widget:
+      action: remove
+      
+    arrow_straight_widget:
       action: remove
 
 
