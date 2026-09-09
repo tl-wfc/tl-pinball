@@ -25,6 +25,8 @@ modes:
     - stars_mode
     - brian_combo
     - autoplunge
+    - obey_qualify
+    - obey
     #- consume
 # --------------------
 # CONFIG::FILES

@@ -43,7 +43,8 @@
 # When qualified:
 #   s_81_saucer_left starts BRAIN ROT / CONSUME
 #
-# Awareness progress is per-player and carries between balls.
+# Awareness progress and CONSUME qualification reset every ball.
+# CONSUME collection count and qualification target persist per-player.
 # ------------------------------------------------------------
 
 
@@ -59,6 +60,10 @@ mode:
 
 event_player:
 
+  ball_will_end:
+    - awareness_consume_ready_display_stop
+    - awareness_consume_ready_lightshow_stop
+
   # ----------------------------------------------------------
   # RESTORE DISPLAY ON A NEW BALL
   #
@@ -72,11 +77,11 @@ event_player:
   # If already qualified, restore the CONSUME-ready display.
   # ----------------------------------------------------------
 
-  mode_awareness_started{current_player.awareness_qualified == 0 and current_player.awareness * 4 >= current_player.awareness_target}:
-    awareness_progress_display_start
+  # mode_awareness_started{current_player.awareness_qualified == 0 and current_player.awareness * 4 >= current_player.awareness_target}:
+  #   awareness_progress_display_start
 
-  mode_awareness_started{current_player.awareness_qualified == 1}:
-    awareness_consume_ready_display
+  # mode_awareness_started{current_player.awareness_qualified == 1}:
+  #   awareness_consume_ready_display
 
 
   # ----------------------------------------------------------
@@ -150,17 +155,17 @@ event_player:
   # +4
   # ----------------------------------------------------------
 
-  s_40_stand_up_target_5_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_40_stand_up_target_5_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
-  s_41_stand_up_target_6_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_41_stand_up_target_6_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
-  s_42_stand_up_target_1_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_42_stand_up_target_1_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
-  s_43_stand_up_target_4_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_43_stand_up_target_4_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
   s_63_stand_up_target_3_active{current_player.awareness_qualified == 0}:
     awareness_add_4
@@ -350,6 +355,26 @@ event_player:
 
 variable_player:
   
+# ----------------------------------------------------------
+  # RESET AWARENESS AT START OF EVERY BALL
+  #
+  # Qualification must be earned again each ball.
+  # Do NOT reset awareness_target or mysteries_collected.
+  # ----------------------------------------------------------
+
+  ball_started:
+
+    awareness:
+      action: set
+      int: 0
+
+    awareness_percent:
+      action: set
+      int: 0
+
+    awareness_qualified:
+      action: set
+      int: 0
 
   # ----------------------------------------------------------
   # AWARENESS AWARDS
@@ -579,10 +604,20 @@ show_player:
     show_consume_qualified:
       action: play
       key: consume_qualified_insert
+      priority: 10000
+      loops: -1
+      speed: 3.0
+
+    show_leftlock_green_1:
+      action: play
       priority: 5000
       loops: -1
-      speed: 1.0
+      speed: 0.7
+      #key: brain_rot_stage_2_show
 
   awareness_consume_ready_lightshow_stop:
     consume_qualified_insert:
+      action: stop
+    
+    show_leftlock_green_1:
       action: stop

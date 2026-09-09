@@ -52,11 +52,15 @@ anchors_preset = 0
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/initial" unique_id=1442369461]
 layout_mode = 0
-offset_top = 253.0
+offset_top = 501.0
 offset_right = 1536.0
-offset_bottom = 430.0
+offset_bottom = 678.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 150
+text = "bonus entry score"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
@@ -68,41 +72,53 @@ anchors_preset = 0
 
 [node name="bonus_entry_name" type="Label" parent="MPFConditionalChildren/__default__" unique_id=1920661612]
 layout_mode = 0
-offset_top = 133.0
-offset_right = 1537.0
-offset_bottom = 310.0
+offset_left = 206.0
+offset_top = 674.0
+offset_right = 769.0
+offset_bottom = 851.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
-text = "Bonus Name"
+text = "1234567890"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "text"
+min_digits = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/__default__" unique_id=131922404]
 layout_mode = 0
-offset_top = 351.0
-offset_right = 1540.0
-offset_bottom = 528.0
+offset_left = 765.0
+offset_top = 673.0
+offset_right = 1325.0
+offset_bottom = 850.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
-text = "Bonus Name"
+text = "Bonus score"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "score"
-comma_separate = true
 
 [node name="subtotal" type="Control" parent="MPFConditionalChildren" unique_id=407446183]
 anchors_preset = 0
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/subtotal" unique_id=1982650211]
 layout_mode = 0
-offset_top = 133.0
-offset_right = 1537.0
-offset_bottom = 310.0
+offset_left = 742.0
+offset_top = 826.0
+offset_right = 1386.0
+offset_bottom = 1003.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Subtotal"
@@ -111,27 +127,34 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/subtotal" unique_id=1295741454]
 layout_mode = 0
-offset_top = 351.0
-offset_right = 1540.0
-offset_bottom = 528.0
+offset_left = 222.0
+offset_top = 831.0
+offset_right = 746.0
+offset_bottom = 1008.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
-text = "Bonus Name"
+text = "1234567890"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "score"
-comma_separate = true
+min_digits = 1
 
 [node name="multiplier" type="Control" parent="MPFConditionalChildren" unique_id=150024655]
 anchors_preset = 0
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/multiplier" unique_id=1014962749]
 layout_mode = 0
-offset_top = 133.0
-offset_right = 1531.0
-offset_bottom = 310.0
+offset_left = 796.0
+offset_top = 996.0
+offset_right = 1348.0
+offset_bottom = 1173.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Bonus Multiplier"
@@ -140,17 +163,22 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/multiplier" unique_id=949938134]
 layout_mode = 0
-offset_top = 351.0
-offset_right = 1540.0
-offset_bottom = 528.0
+offset_left = 204.0
+offset_top = 1003.0
+offset_right = 750.0
+offset_bottom = 1180.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
-text = "Bonus Name"
+text = "1234567890"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "score"
+min_digits = 1
 template_string = "%sX"
 
 [node name="total" type="Control" parent="MPFConditionalChildren" unique_id=917723237]
@@ -158,9 +186,13 @@ anchors_preset = 0
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/total" unique_id=71835951]
 layout_mode = 0
-offset_top = 133.0
-offset_right = 1540.0
-offset_bottom = 310.0
+offset_left = 777.0
+offset_top = 1159.0
+offset_right = 1318.0
+offset_bottom = 1336.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
 text = "Total Bonus"
@@ -169,15 +201,19 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/total" unique_id=1456445162]
 layout_mode = 0
-offset_top = 351.0
-offset_right = 1537.0
-offset_bottom = 528.0
+offset_left = 186.0
+offset_top = 1164.0
+offset_right = 756.0
+offset_bottom = 1341.0
+theme_override_colors/font_color = Color(0.011764706, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("6_3qxh1")
 theme_override_font_sizes/font_size = 100
-text = "Bonus Name"
+text = "1234567890"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
 variable_type = 1
 variable_name = "score"
-comma_separate = true
+min_digits = 1

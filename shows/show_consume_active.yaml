@@ -1,52 +1,32 @@
 #show_version=6
 
+# ------------------------------------------------------------
 # CONSUME ACTIVE
-# Fast red / white scanning pattern
+#
+# Used after CONSUME has already been completed once.
+# Alternates all three CONSUME inserts RED / BLUE.
+# ------------------------------------------------------------
 
-- duration: 80ms
+- duration: 300ms
   lights:
-    l_pf1_4_13: white
-    l_pf1_4_14: "660000"
-    l_pf1_4_15: "220000"
+    l_pf1_4_13: red
+    l_pf1_4_14: red
+    l_pf1_4_15: red
 
-- duration: 80ms
+- duration: 300ms
   lights:
-    l_pf1_4_13: "880000"
-    l_pf1_4_14: white
-    l_pf1_4_15: "440000"
+    l_pf1_4_13: blue
+    l_pf1_4_14: blue
+    l_pf1_4_15: blue
 
-- duration: 80ms
+- duration: 100ms
   lights:
-    l_pf1_4_13: "220000"
-    l_pf1_4_14: "660000"
-    l_pf1_4_15: white
+    l_pf1_4_13: red
+    l_pf1_4_14: red
+    l_pf1_4_15: red
 
-- duration: 80ms
+- duration: 100ms
   lights:
-    l_pf1_4_13: "440000"
-    l_pf1_4_14: white
-    l_pf1_4_15: "880000"
-
-- duration: 80ms
-  lights:
-    l_pf1_4_13: white
-    l_pf1_4_14: "660000"
-    l_pf1_4_15: "220000"
-
-- duration: 80ms
-  lights:
-    l_pf1_4_13: "FF0000"
-    l_pf1_4_14: "FF0000"
-    l_pf1_4_15: "FF0000"
-
-- duration: 80ms
-  lights:
-    l_pf1_4_13: off
-    l_pf1_4_14: off
-    l_pf1_4_15: off
-
-- duration: 80ms
-  lights:
-    l_pf1_4_13: "FF0000"
-    l_pf1_4_14: "FF0000"
-    l_pf1_4_15: "FF0000"
+    l_pf1_4_13: blue
+    l_pf1_4_14: blue
+    l_pf1_4_15: blue

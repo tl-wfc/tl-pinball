@@ -1,0 +1,250 @@
+#config_version=6
+# modes/obey_qualify/config/obey_qualify.yaml
+#
+# OBEY QUALIFICATION
+#
+# s_40 + s_41 + s_43 all contribute to one combined counter.
+#
+# 20 total hits:
+#   -> qualification stage begins
+#   -> OBEY insert flashes
+#
+# 35 total hits:
+#   -> OBEY mode starts
+
+
+mode:
+  start_events: ball_started
+  stop_events:
+    - ball_will_end
+    - obey_start
+
+  priority: 210
+
+
+# ----------------------------------------------------------
+# EVENT LOGIC
+# ----------------------------------------------------------
+
+event_player:
+
+  # --------------------------------------------------------
+  # ALL THREE TARGETS COUNT TOWARD THE SAME TOTAL
+  # --------------------------------------------------------
+
+  s_40_stand_up_target_5_active:
+    - obey_qualify_hit
+
+  s_41_stand_up_target_6_active:
+    - obey_qualify_hit
+
+  s_43_stand_up_target_4_active:
+    - obey_qualify_hit
+
+
+  # --------------------------------------------------------
+  # HIT 20
+  #
+  # Counter is still 19 when this switch event is evaluated.
+  # The same hit then increments it to 20.
+  # --------------------------------------------------------
+
+  s_40_stand_up_target_5_active{current_player.obey_qualify_hits == 19 and current_player.obey_qualification_active == 0}:
+    - obey_qualification_started
+
+  s_41_stand_up_target_6_active{current_player.obey_qualify_hits == 19 and current_player.obey_qualification_active == 0}:
+    - obey_qualification_started
+
+  s_43_stand_up_target_4_active{current_player.obey_qualify_hits == 19 and current_player.obey_qualification_active == 0}:
+    - obey_qualification_started
+
+
+  # --------------------------------------------------------
+  # HIT 35
+  #
+  # Counter is still 34 when this switch event is evaluated.
+  # This hit becomes hit 35 and starts OBEY.
+  # --------------------------------------------------------
+
+  s_40_stand_up_target_5_active{current_player.obey_qualify_hits == 34 and current_player.obey_qualification_active == 1}:
+    - obey_start
+
+  s_41_stand_up_target_6_active{current_player.obey_qualify_hits == 34 and current_player.obey_qualification_active == 1}:
+    - obey_start
+
+  s_43_stand_up_target_4_active{current_player.obey_qualify_hits == 34 and current_player.obey_qualification_active == 1}:
+    - obey_start
+
+
+  # --------------------------------------------------------
+  # OPTIONAL BREADCRUMB EVENTS
+  # --------------------------------------------------------
+
+  obey_qualification_started:
+    - obey_qualification_stage_active
+
+  obey_start:
+    - obey_qualification_complete
+
+
+# ----------------------------------------------------------
+# PLAYER VARIABLES
+# ----------------------------------------------------------
+
+variable_player:
+
+  # Reset every ball
+  mode_obey_qualify_started:
+
+    obey_qualify_hits:
+      action: set
+      int: 0
+
+    obey_qualification_active:
+      action: set
+      int: 0
+
+
+  # Every hit from s40 / s41 / s43
+  obey_qualify_hit:
+
+    obey_qualify_hits:
+      action: add
+      int: 1
+
+
+  # Hit 20
+  obey_qualification_started:
+
+    obey_qualification_active:
+      action: set
+      int: 1
+
+
+# ----------------------------------------------------------
+# SHOW PLAYER
+# ----------------------------------------------------------
+
+show_player:
+
+  # --------------------------------------------------------
+  # STEP 1
+  # 0-19 hits
+  #
+  # Placeholder if you later want something running while
+  # the player is initially building toward OBEY.
+  # --------------------------------------------------------
+
+  # mode_obey_qualify_started:
+  #   # show_obey_build:
+  #   #   loops: -1
+  #   #   priority: 600
+  #   #   key: obey_build_show
+
+
+  # --------------------------------------------------------
+  # STEP 2
+  # 20 hits reached - OBEY insert starts flashing
+  # --------------------------------------------------------
+
+  obey_qualification_started:
+
+    show_obey_insert_flash:
+      loops: -1
+      priority: 700
+      key: obey_insert_flash
+
+    # ------------------------------------------------------
+    # ADD ANY OTHER QUALIFICATION SHOWS HERE
+    # ------------------------------------------------------
+    #
+    # show_obey_qualification:
+    #   loops: -1
+    #   priority: 700
+    #   key: obey_qualification_show
+
+
+  # --------------------------------------------------------
+  # STEP 3
+  # 35 hits - qualification complete
+  # --------------------------------------------------------
+
+  obey_start:
+
+    obey_insert_flash:
+      action: stop
+
+    # obey_qualification_show:
+    #   action: stop
+
+    # ------------------------------------------------------
+    # ADD OBEY START SHOW HERE
+    # ------------------------------------------------------
+    #
+    # show_obey_start:
+    #   loops: 1
+    #   priority: 1000
+
+
+  # Cleanup
+  mode_obey_qualify_stopping:
+
+    obey_insert_flash:
+      action: stop
+
+    # obey_build_show:
+    #   action: stop
+
+    # obey_qualification_show:
+    #   action: stop
+
+
+# ----------------------------------------------------------
+# WIDGET PLAYER
+# ----------------------------------------------------------
+
+# widget_player:
+
+#   # --------------------------------------------------------
+#   # STEP 1
+#   # Initial accumulation - 0 to 19
+#   # --------------------------------------------------------
+
+#   mode_obey_qualify_started:
+
+#     # obey_build_widget:
+#     #   action: play
+#     #   priority: 4000
+#     #   tokens:
+#     #     award_text: "OBEY"
+
+
+#   # --------------------------------------------------------
+#   # STEP 2
+#   # 20 hits - OBEY qualification active
+#   # --------------------------------------------------------
+
+#   obey_qualification_started:
+
+#     # obey_qualified_widget:
+#     #   action: play
+#     #   priority: 5000
+#     #   tokens:
+#     #     award_text: "OBEY"
+
+
+#   # --------------------------------------------------------
+#   # STEP 3
+#   # 35 hits - OBEY MODE starts
+#   # --------------------------------------------------------
+
+#   obey_start:
+
+#     # obey_qualified_widget:
+#     #   action: remove
+
+#     # obey_start_widget:
+#     #   action: play
+#     #   priority: 6000
+#     #   tokens:
+#     #     award_text: "OBEY"

@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://0wp36yi63aa1"]
+[gd_scene format=3 uid="uid://cq82ns5ojd7t8"]
 
 [ext_resource type="Script" uid="uid://cceiefl4pnju8" path="res://scripts/awareness_progress_widget.gd" id="1_2oick"]
 [ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_2oick"]

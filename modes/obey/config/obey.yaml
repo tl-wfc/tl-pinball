@@ -1,0 +1,1286 @@
+#config_version=6
+# modes/obey/config/obey.yaml
+#
+# ----------------------------------------------------------
+# OBEY MODE
+# ----------------------------------------------------------
+#
+# STAGE 1
+#   180 seconds
+#   Collect spinner hits:
+#     Left  = s_71_spinner_left
+#     Right = s_44_spinner_right
+#
+#   Left pop removes 1 LEFT spin until left goal reached
+#   Right pop removes 1 RIGHT spin until right goal reached
+#
+#   Once both goals reached:
+#     Move to Stage 2
+#     Reset vari-target to position 1 if required
+#
+#
+# STAGE 2
+#   180 seconds
+#
+#   Vari-target must be confirmed at position 1 before
+#   a multiplier result can be accepted.
+#
+#   Next vari-target hit determines multiplier:
+#
+#     Position 2 = 2x
+#     Position 3 = 3x
+#     Position 4 = 4x
+#     Position 5 = 5x
+#     Position 6 = 6x
+#     Position 7 = 10x
+#
+#   Then:
+#     Start 2-ball multiball
+#     Apply multiplier
+#
+#   Reward lasts until:
+#     Stage 2 timer expires
+#       OR
+#     one ball drains
+#
+# ----------------------------------------------------------
+
+
+mode:
+  start_events: obey_start
+
+  stop_events:
+    - obey_complete
+    - obey_failed
+    - ball_will_end
+
+  priority: 500
+
+
+# ==========================================================
+# MULTIBALL
+# ==========================================================
+
+multiballs:
+
+  obey_multiball:
+    ball_count: 2
+    ball_count_type: total
+
+    shoot_again: 5s
+
+    start_events:
+      - obey_reward_started
+
+    stop_events:
+      - obey_reward_ended
+      - obey_failed
+      - mode_obey_stopping
+
+
+# ==========================================================
+# TIMERS
+# ==========================================================
+
+timers:
+
+  # --------------------------------------------------------
+  # STAGE 1 TIMER
+  # --------------------------------------------------------
+
+  obey_stage1_timer:
+
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+
+    control_events:
+
+      - event: obey_stage1_started
+        action: restart
+
+      - event: obey_stage1_complete
+        action: stop
+
+      - event: obey_failed
+        action: stop
+
+      - event: mode_obey_stopping
+        action: stop
+
+
+  # --------------------------------------------------------
+  # STAGE 2 / REWARD TIMER
+  #
+  # IMPORTANT:
+  # This timer continues running after the vari-target hit.
+  # Therefore the reward only receives whatever time remains.
+  # --------------------------------------------------------
+
+  obey_stage2_timer:
+
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+
+    control_events:
+
+      - event: obey_stage2_started
+        action: restart
+
+      - event: obey_reward_ended
+        action: stop
+
+      - event: obey_failed
+        action: stop
+
+      - event: mode_obey_stopping
+        action: stop
+
+
+# ==========================================================
+# EVENT LOGIC
+# ==========================================================
+
+event_player:
+
+  # --------------------------------------------------------
+  # MODE START
+  # --------------------------------------------------------
+
+  mode_obey_started:
+    - obey_stage1_started
+
+
+  # ========================================================
+  # STAGE 1
+  # ========================================================
+
+  # --------------------------------------------------------
+  # LEFT SPINNER
+  # --------------------------------------------------------
+
+  s_71_spinner_left_active{current_player.obey_stage == 1 and current_player.obey_left_complete == 0}:
+    - obey_left_spin
+
+
+  # --------------------------------------------------------
+  # RIGHT SPINNER
+  # --------------------------------------------------------
+
+  s_44_spinner_right_active{current_player.obey_stage == 1 and current_player.obey_right_complete == 0}:
+    - obey_right_spin
+
+
+  # --------------------------------------------------------
+  # LEFT SPINNER GOAL REACHED
+  #
+  # If goal is 25 this triggers when existing count = 24.
+  # The current spinner hit becomes hit 25.
+  # --------------------------------------------------------
+
+  s_71_spinner_left_active{current_player.obey_stage == 1 and current_player.obey_left_complete == 0 and current_player.obey_left_spins == current_player.obey_spinner_goal - 1}:
+    - obey_left_goal_reached
+
+
+  # --------------------------------------------------------
+  # RIGHT SPINNER GOAL REACHED
+  # --------------------------------------------------------
+
+  s_44_spinner_right_active{current_player.obey_stage == 1 and current_player.obey_right_complete == 0 and current_player.obey_right_spins == current_player.obey_spinner_goal - 1}:
+    - obey_right_goal_reached
+
+
+  # --------------------------------------------------------
+  # POP BUMPERS REMOVE SPINS
+  #
+  # LEFT POP removes LEFT spinner progress.
+  # RIGHT POP removes RIGHT spinner progress.
+  #
+  # They cannot reduce a completed spinner.
+  # They cannot take the counter below zero.
+  # --------------------------------------------------------
+
+  s_58_pop_bumper_left_active{current_player.obey_stage == 1 and current_player.obey_left_complete == 0 and current_player.obey_left_spins > 0}:
+    - obey_left_spin_lost
+
+
+  s_56_pop_bumper_right_active{current_player.obey_stage == 1 and current_player.obey_right_complete == 0 and current_player.obey_right_spins > 0}:
+    - obey_right_spin_lost
+
+
+  # --------------------------------------------------------
+  # CHECK FOR BOTH SPINNERS COMPLETE
+  #
+  # When left finishes, check whether right was already done.
+  # When right finishes, check whether left was already done.
+  # --------------------------------------------------------
+
+  obey_left_goal_reached{current_player.obey_right_complete == 1}:
+    - obey_stage1_complete
+
+
+  obey_right_goal_reached{current_player.obey_left_complete == 1}:
+    - obey_stage1_complete
+
+
+  # --------------------------------------------------------
+  # STAGE 1 COMPLETE
+  #
+  # Stage 2 now decides whether the vari-target needs to
+  # physically reset or is already ready at position 1.
+  # --------------------------------------------------------
+
+  obey_stage1_complete:
+    - obey_stage2_started
+
+
+  # --------------------------------------------------------
+  # STAGE 1 TIMEOUT = MODE FAILED
+  # --------------------------------------------------------
+
+  timer_obey_stage1_timer_complete{current_player.obey_stage == 1}:
+    - obey_failed
+
+
+  # ========================================================
+  # STAGE 2
+  # ========================================================
+
+  # --------------------------------------------------------
+  # VARI-TARGET READY LOGIC
+  #
+  # If it is already at position 1:
+  #   immediately declare it ready.
+  #
+  # If it is NOT at position 1:
+  #   request a reset and wait for the existing base
+  #   varitarget system to post varitarget_reset_complete.
+  # --------------------------------------------------------
+
+  obey_stage2_started{current_player.varitarget_position == 1}:
+    - obey_varitarget_ready
+
+
+  obey_stage2_started{current_player.varitarget_position != 1}:
+    - varitarget_reset_request
+
+
+  # --------------------------------------------------------
+  # RESET CONFIRMED
+  #
+  # Your existing vari-target code posts
+  # varitarget_reset_complete when position 1 becomes active.
+  #
+  # Only use that event while OBEY is in Stage 2.
+  # --------------------------------------------------------
+
+  varitarget_reset_complete{current_player.obey_stage == 2}:
+    - obey_varitarget_ready
+
+
+  # --------------------------------------------------------
+  # OPTIONAL BREADCRUMB
+  #
+  # Useful later for shows/widgets indicating that the
+  # vari-target is now armed and waiting for the player's hit.
+  # --------------------------------------------------------
+
+  obey_varitarget_ready:
+    - obey_stage2_target_armed
+
+
+  # --------------------------------------------------------
+  # VARI-TARGET RESULT
+  #
+  # Existing base mode generates:
+  #
+  # varitarget_moved_1 = position 2
+  # varitarget_moved_2 = position 3
+  # varitarget_moved_3 = position 4
+  # varitarget_moved_4 = position 5
+  # varitarget_moved_5 = position 6
+  # varitarget_moved_6 = position 7
+  #
+  # THREE conditions must now be true:
+  #
+  #   1. We are in Stage 2
+  #   2. Vari-target has been confirmed at position 1
+  #   3. No multiplier has already been selected
+  #
+  # Only ONE result can therefore be accepted.
+  # --------------------------------------------------------
+
+  varitarget_moved_1{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_2x
+
+
+  varitarget_moved_2{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_3x
+
+
+  varitarget_moved_3{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_4x
+
+
+  varitarget_moved_4{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_5x
+
+
+  varitarget_moved_5{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_6x
+
+
+  varitarget_moved_6{current_player.obey_stage == 2 and current_player.obey_varitarget_ready == 1 and current_player.obey_multiplier_selected == 0}:
+    - obey_multiplier_10x
+
+
+  # --------------------------------------------------------
+  # EVERY MULTIPLIER RESULT STARTS THE REWARD
+  # --------------------------------------------------------
+
+  obey_multiplier_2x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+  obey_multiplier_3x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+  obey_multiplier_4x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+  obey_multiplier_5x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+  obey_multiplier_6x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+  obey_multiplier_10x:
+    - obey_multiplier_achieved
+    - obey_reward_started
+
+
+  # ========================================================
+  # STAGE 2 TIMER
+  # ========================================================
+
+  # --------------------------------------------------------
+  # Timer expires BEFORE vari-target hit
+  # = FAIL
+  # --------------------------------------------------------
+
+  timer_obey_stage2_timer_complete{current_player.obey_stage == 2 and current_player.obey_reward_active == 0}:
+    - obey_failed
+
+
+  # --------------------------------------------------------
+  # Timer expires DURING reward
+  # = reward ends normally
+  # --------------------------------------------------------
+
+  timer_obey_stage2_timer_complete{current_player.obey_reward_active == 1}:
+    - obey_reward_ended
+
+
+  # ========================================================
+  # MULTIBALL REWARD
+  # ========================================================
+
+  # --------------------------------------------------------
+  # ANY BALL DRAIN DURING REWARD ENDS THE MULTIPLIER
+  # --------------------------------------------------------
+
+  ball_drain{current_player.obey_reward_active == 1}:
+    - obey_reward_ended
+
+
+  # --------------------------------------------------------
+  # REWARD FINISHED
+  # --------------------------------------------------------
+
+  obey_reward_ended:
+    - obey_complete
+
+
+# ==========================================================
+# PLAYER VARIABLES
+# ==========================================================
+
+variable_player:
+
+  # --------------------------------------------------------
+  # MODE INITIALISATION
+  # --------------------------------------------------------
+
+  mode_obey_started:
+
+    # ------------------------------------
+    # EASY SPINNER GOAL ADJUSTMENT
+    # ------------------------------------
+
+    obey_spinner_goal:
+      action: set
+      int: 3
+
+    obey_stage:
+      action: set
+      int: 1
+
+    obey_left_spins:
+      action: set
+      int: 0
+
+    obey_right_spins:
+      action: set
+      int: 0
+
+    obey_left_complete:
+      action: set
+      int: 0
+
+    obey_right_complete:
+      action: set
+      int: 0
+
+    obey_multiplier_selected:
+      action: set
+      int: 0
+
+    obey_multiplier:
+      action: set
+      int: 1
+
+    obey_reward_active:
+      action: set
+      int: 0
+
+    # ------------------------------------
+    # VARI-TARGET READY FLAG
+    #
+    # This remains 0 until Stage 2 has
+    # positively confirmed position 1.
+    # ------------------------------------
+
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+
+  # ========================================================
+  # STAGE 1 COUNTERS
+  # ========================================================
+
+  obey_left_spin:
+
+    obey_left_spins:
+      action: add
+      int: 1
+
+
+  obey_right_spin:
+
+    obey_right_spins:
+      action: add
+      int: 1
+
+
+  # --------------------------------------------------------
+  # POP PENALTIES
+  # --------------------------------------------------------
+
+  obey_left_spin_lost:
+
+    obey_left_spins:
+      action: add
+      int: -1
+
+
+  obey_right_spin_lost:
+
+    obey_right_spins:
+      action: add
+      int: -1
+
+
+  # --------------------------------------------------------
+  # SPINNER COMPLETED
+  # --------------------------------------------------------
+
+  obey_left_goal_reached:
+
+    obey_left_complete:
+      action: set
+      int: 1
+
+
+  obey_right_goal_reached:
+
+    obey_right_complete:
+      action: set
+      int: 1
+
+
+  # --------------------------------------------------------
+  # STAGE 2
+  # --------------------------------------------------------
+
+  obey_stage2_started:
+
+    obey_stage:
+      action: set
+      int: 2
+
+    # Do not accept a vari-target result until its home
+    # position has been positively confirmed.
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+
+  # --------------------------------------------------------
+  # VARI-TARGET HOME CONFIRMED
+  # --------------------------------------------------------
+
+  obey_varitarget_ready:
+
+    obey_varitarget_ready:
+      action: set
+      int: 1
+
+
+  # ========================================================
+  # MULTIPLIERS
+  # ========================================================
+
+  obey_multiplier_2x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 2
+
+    pf_multiplier:
+      action: set
+      int: 2
+
+
+  obey_multiplier_3x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 3
+
+    pf_multiplier:
+      action: set
+      int: 3
+
+
+  obey_multiplier_4x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 4
+
+    pf_multiplier:
+      action: set
+      int: 4
+
+
+  obey_multiplier_5x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 5
+
+    pf_multiplier:
+      action: set
+      int: 5
+
+
+  obey_multiplier_6x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 6
+
+    pf_multiplier:
+      action: set
+      int: 6
+
+
+  obey_multiplier_10x:
+
+    obey_multiplier_selected:
+      action: set
+      int: 1
+
+    obey_multiplier:
+      action: set
+      int: 10
+
+    pf_multiplier:
+      action: set
+      int: 10
+
+
+  # --------------------------------------------------------
+  # REWARD ACTIVE
+  # --------------------------------------------------------
+
+  obey_reward_started:
+
+    obey_stage:
+      action: set
+      int: 3
+
+    obey_reward_active:
+      action: set
+      int: 1
+
+    # Target can no longer award another multiplier once
+    # the reward has started.
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+
+  obey_reward_ended:
+
+    obey_reward_active:
+      action: set
+      int: 0
+
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+    pf_multiplier:
+      action: set
+      int: 1
+
+
+  # --------------------------------------------------------
+  # FAIL CLEANUP
+  # --------------------------------------------------------
+
+  obey_failed:
+
+    obey_reward_active:
+      action: set
+      int: 0
+
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+    pf_multiplier:
+      action: set
+      int: 1
+
+
+  # --------------------------------------------------------
+  # ABSOLUTE MODE CLEANUP
+  #
+  # This makes sure a ball ending or another unexpected mode
+  # stop cannot leave the playfield multiplier active.
+  # --------------------------------------------------------
+
+  mode_obey_stopping:
+
+    obey_reward_active:
+      action: set
+      int: 0
+
+    obey_varitarget_ready:
+      action: set
+      int: 0
+
+    pf_multiplier:
+      action: set
+      int: 1
+
+
+# ==========================================================
+# SHOW PLAYER
+# ==========================================================
+
+# show_player:
+
+#   # ========================================================
+#   # MODE INTRO
+#   # ========================================================
+
+#   mode_obey_started:
+
+#     # show_obey_intro:
+#     #   loops: 1
+#     #   priority: 1000
+#     #   key: obey_intro_show
+
+
+#   # ========================================================
+#   # STAGE 1 START
+#   # ========================================================
+
+#   obey_stage1_started:
+
+#     # show_obey_stage1:
+#     #   loops: -1
+#     #   priority: 700
+#     #   key: obey_stage1_show
+
+
+#   # --------------------------------------------------------
+#   # LEFT SPINNER HIT
+#   # --------------------------------------------------------
+
+#   obey_left_spin:
+
+#     # show_obey_left_spinner_hit:
+#     #   loops: 1
+#     #   priority: 800
+
+
+#   # --------------------------------------------------------
+#   # LEFT POP PENALTY
+#   # --------------------------------------------------------
+
+#   obey_left_spin_lost:
+
+#     # show_obey_left_pop_penalty:
+#     #   loops: 1
+#     #   priority: 900
+
+
+#   # --------------------------------------------------------
+#   # LEFT SPINNER COMPLETE
+#   # --------------------------------------------------------
+
+#   obey_left_goal_reached:
+
+#     # show_obey_left_spinner_complete:
+#     #   loops: -1
+#     #   priority: 900
+#     #   key: obey_left_complete_show
+
+
+#   # --------------------------------------------------------
+#   # RIGHT SPINNER HIT
+#   # --------------------------------------------------------
+
+#   obey_right_spin:
+
+#     # show_obey_right_spinner_hit:
+#     #   loops: 1
+#     #   priority: 800
+
+
+#   # --------------------------------------------------------
+#   # RIGHT POP PENALTY
+#   # --------------------------------------------------------
+
+#   obey_right_spin_lost:
+
+#     # show_obey_right_pop_penalty:
+#     #   loops: 1
+#     #   priority: 900
+
+
+#   # --------------------------------------------------------
+#   # RIGHT SPINNER COMPLETE
+#   # --------------------------------------------------------
+
+#   obey_right_goal_reached:
+
+#     # show_obey_right_spinner_complete:
+#     #   loops: -1
+#     #   priority: 900
+#     #   key: obey_right_complete_show
+
+
+#   # ========================================================
+#   # STAGE 1 COMPLETE
+#   # ========================================================
+
+#   obey_stage1_complete:
+
+#     # obey_stage1_show:
+#     #   action: stop
+
+#     # show_obey_stage1_complete:
+#     #   loops: 1
+#     #   priority: 1100
+
+
+#   # ========================================================
+#   # STAGE 2 START
+#   #
+#   # At this point the vari-target may still be resetting.
+#   # Use obey_stage2_target_armed if you want a show that
+#   # specifically starts only once position 1 is confirmed.
+#   # ========================================================
+
+#   obey_stage2_started:
+
+#     # show_obey_stage2_resetting:
+#     #   loops: -1
+#     #   priority: 800
+#     #   key: obey_stage2_resetting_show
+
+
+#   # --------------------------------------------------------
+#   # VARI-TARGET READY / ARMED
+#   # --------------------------------------------------------
+
+#   obey_stage2_target_armed:
+
+#     # obey_stage2_resetting_show:
+#     #   action: stop
+
+#     # show_obey_stage2:
+#     #   loops: -1
+#     #   priority: 800
+#     #   key: obey_stage2_show
+
+
+#   # ========================================================
+#   # MULTIPLIER ACHIEVED
+#   # ========================================================
+
+#   obey_multiplier_achieved:
+
+#     # obey_stage2_show:
+#     #   action: stop
+
+#     # obey_stage2_resetting_show:
+#     #   action: stop
+
+#     # show_obey_multiplier_achieved:
+#     #   loops: 1
+#     #   priority: 1200
+
+
+#   # ========================================================
+#   # MULTIBALL REWARD
+#   # ========================================================
+
+#   obey_reward_started:
+
+#     # show_obey_multiball:
+#     #   loops: -1
+#     #   priority: 1000
+#     #   key: obey_multiball_show
+
+
+#   # ========================================================
+#   # REWARD ENDED / MODE COMPLETE
+#   # ========================================================
+
+#   obey_reward_ended:
+
+#     # obey_multiball_show:
+#     #   action: stop
+
+#     # show_obey_complete:
+#     #   loops: 1
+#     #   priority: 1500
+
+
+#   # ========================================================
+#   # MODE FAILED
+#   # ========================================================
+
+#   obey_failed:
+
+#     # obey_stage1_show:
+#     #   action: stop
+
+#     # obey_stage2_resetting_show:
+#     #   action: stop
+
+#     # obey_stage2_show:
+#     #   action: stop
+
+#     # obey_multiball_show:
+#     #   action: stop
+
+#     # obey_left_complete_show:
+#     #   action: stop
+
+#     # obey_right_complete_show:
+#     #   action: stop
+
+#     # show_obey_failed:
+#     #   loops: 1
+#     #   priority: 1500
+
+
+#   # ========================================================
+#   # ABSOLUTE CLEANUP
+#   # ========================================================
+
+#   mode_obey_stopping:
+
+#     # obey_intro_show:
+#     #   action: stop
+
+#     # obey_stage1_show:
+#     #   action: stop
+
+#     # obey_stage2_resetting_show:
+#     #   action: stop
+
+#     # obey_stage2_show:
+#     #   action: stop
+
+#     # obey_multiball_show:
+#     #   action: stop
+
+#     # obey_left_complete_show:
+#     #   action: stop
+
+#     # obey_right_complete_show:
+#     #   action: stop
+
+
+# ==========================================================
+# WIDGET PLAYER
+# ==========================================================
+
+widget_player:
+
+#   # ========================================================
+#   # MODE INTRO
+#   # ========================================================
+
+#   mode_obey_started:
+
+#     # mode_title_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     award_text: "OBEY"
+
+
+#   # ========================================================
+#   # STAGE 1
+#   #
+#   # New widget should display:
+#   #
+#   #   OBEY
+#   #
+#   #   LEFT SPINNER      0 / 25
+#   #   RIGHT SPINNER     0 / 25
+#   #
+#   #   TIME              180
+#   #
+#   # Values can bind to:
+#   #
+#   #   player_obey_left_spins
+#   #   player_obey_right_spins
+#   #   player_obey_spinner_goal
+#   #   device_timers_obey_stage1_timer_value
+#   #
+#   # ========================================================
+
+  obey_stage1_started:
+
+    obey_stage1_widget:
+      action: play
+      priority: 5000
+
+
+#   # --------------------------------------------------------
+#   # SPINNER COUNT CHANGED
+#   # --------------------------------------------------------
+
+#   obey_left_spin:
+
+#     # If your widget uses live MPF variables, nothing needs
+#     # to be replayed here.
+#     #
+#     # Otherwise this is the hook for updating/replaying it.
+
+
+#   obey_right_spin:
+
+#     # widget update hook
+
+
+#   # --------------------------------------------------------
+#   # POP REMOVED A SPIN
+#   # --------------------------------------------------------
+
+#   obey_left_spin_lost:
+
+#     # obey_spin_penalty_widget:
+#     #   action: play
+#     #   priority: 6000
+#     #   tokens:
+#     #     award_text: "-1 LEFT"
+
+
+#   obey_right_spin_lost:
+
+#     # obey_spin_penalty_widget:
+#     #   action: play
+#     #   priority: 6000
+#     #   tokens:
+#     #     award_text: "-1 RIGHT"
+
+
+#   # --------------------------------------------------------
+#   # LEFT GOAL COMPLETE
+#   # --------------------------------------------------------
+
+#   obey_left_goal_reached:
+
+#     # obey_spinner_complete_widget:
+#     #   action: play
+#     #   priority: 6000
+#     #   tokens:
+#     #     award_text: "LEFT COMPLETE"
+
+
+#   # --------------------------------------------------------
+#   # RIGHT GOAL COMPLETE
+#   # --------------------------------------------------------
+
+#   obey_right_goal_reached:
+
+#     # obey_spinner_complete_widget:
+#     #   action: play
+#     #   priority: 6000
+#     #   tokens:
+#     #     award_text: "RIGHT COMPLETE"
+
+
+#   # ========================================================
+#   # STAGE 1 COMPLETE
+#   # ========================================================
+
+#   obey_stage1_complete:
+
+#     # obey_stage1_widget:
+#     #   action: remove
+
+#     # obey_stage1_complete_widget:
+#     #   action: play
+#     #   priority: 6500
+
+
+#   # ========================================================
+#   # STAGE 2 START
+#   #
+#   # Initially this can display something like:
+#   #
+#   #       RESETTING
+#   #      VARI-TARGET
+#   #
+#   #       TIME 180
+#   #
+#   # ========================================================
+
+#   obey_stage2_started:
+
+#     # obey_stage2_resetting_widget:
+#     #   action: play
+#     #   priority: 5000
+
+
+#   # ========================================================
+#   # VARI-TARGET READY
+#   #
+#   # This is the point at which the target is definitely at
+#   # position 1 and the player's NEXT hit will be accepted.
+#   #
+#   # Suggested display:
+#   #
+#   #       HIT
+#   #   VARI-TARGET
+#   #
+#   #       TIME 175
+#   #
+#   # ========================================================
+
+#   obey_stage2_target_armed:
+
+#     # obey_stage2_resetting_widget:
+#     #   action: remove
+
+#     # obey_stage2_widget:
+#     #   action: play
+#     #   priority: 5000
+
+
+#   # ========================================================
+#   # MULTIPLIER RESULT WIDGETS
+#   # ========================================================
+
+#   obey_multiplier_2x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "2X"
+
+
+#   obey_multiplier_3x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "3X"
+
+
+#   obey_multiplier_4x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "4X"
+
+
+#   obey_multiplier_5x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "5X"
+
+
+#   obey_multiplier_6x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "6X"
+
+
+#   obey_multiplier_10x:
+
+#     # obey_multiplier_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     multiplier: "10X"
+
+
+#   # ========================================================
+#   # MULTIBALL REWARD
+#   #
+#   # Could display:
+#   #
+#   #       10X
+#   #     MULTIBALL
+#   #
+#   #       97
+#   #
+#   # where the remaining Stage 2 timer continues counting.
+#   # ========================================================
+
+#   obey_reward_started:
+
+#     # obey_stage2_resetting_widget:
+#     #   action: remove
+
+#     # obey_stage2_widget:
+#     #   action: remove
+
+#     # obey_reward_widget:
+#     #   action: play
+#     #   priority: 5500
+
+
+#   # ========================================================
+#   # COMPLETE
+#   # ========================================================
+
+#   obey_complete:
+
+#     # obey_reward_widget:
+#     #   action: remove
+
+#     # award_popup_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     award_text: |
+#     #       OBEY
+#     #       COMPLETE
+
+
+#   # ========================================================
+#   # FAILED
+#   # ========================================================
+
+#   obey_failed:
+
+#     # obey_stage1_widget:
+#     #   action: remove
+
+#     # obey_stage2_resetting_widget:
+#     #   action: remove
+
+#     # obey_stage2_widget:
+#     #   action: remove
+
+#     # obey_reward_widget:
+#     #   action: remove
+
+#     # award_popup_widget:
+#     #   action: play
+#     #   priority: 7000
+#     #   tokens:
+#     #     award_text: |
+#     #       OBEY
+#     #       FAILED
+
+
+#   # ========================================================
+#   # ABSOLUTE CLEANUP
+#   # ========================================================
+
+#   mode_obey_stopping:
+
+#     # obey_stage1_widget:
+#     #   action: remove
+
+#     # obey_stage2_resetting_widget:
+#     #   action: remove
+
+#     # obey_stage2_widget:
+#     #   action: remove
+
+#     # obey_reward_widget:
+#     #   action: remove

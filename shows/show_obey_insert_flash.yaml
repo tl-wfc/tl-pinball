@@ -1,0 +1,13 @@
+#show_version=6
+
+- duration: 250ms
+  lights:
+    l_pf1_4_10: ff0000
+    l_pf1_4_11: ff0000
+    l_pf1_4_12: ff0000
+
+- duration: 250ms
+  lights:
+    l_pf1_4_10: off
+    l_pf1_4_11: off
+    l_pf1_4_12: off

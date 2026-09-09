@@ -18,10 +18,15 @@ multiballs:
     ball_count: 3
     ball_count_type: total
 
-    # Brain Rot multiball protection
     shoot_again: 15s
     hurry_up_time: 5s
     grace_period: 2s
+
+    enable_events:
+      - brain_rot_multiball_enable
+
+    reset_events:
+      - brain_rot_multiball_reset
 
     start_events:
       - brain_rot_launch_multiball
@@ -29,7 +34,6 @@ multiballs:
     stop_events:
       - brain_rot_multiball_stop
       - mode_brain_rot_stopping
-
 
 # ------------------------------------------------------------
 # SAUCER BALL HOLDS
@@ -132,6 +136,15 @@ timers:
       - event: brain_rot_right_ball_locked
         action: restart
 
+  brain_rot_multiball_reset_delay:
+    start_value: 0
+    end_value: 1
+    direction: up
+    tick_interval: 50ms
+
+    control_events:
+      - event: brain_rot_multiball_prepare
+        action: restart
 
 # ------------------------------------------------------------
 # EVENT LOGIC
@@ -148,10 +161,14 @@ event_player:
 
   mode_brain_rot_started:
     - brain_rot_intro
+    - brain_rot_multiball_reset
+    - brain_rot_multiball_prepare
     - brain_rot_eject_start_ball
 
+  timer_brain_rot_multiball_reset_delay_complete:
+    brain_rot_multiball_enable
 
-  # ----------------------------------------------------------
+# ----------------------------------------------------------
   # START MULTIBALL
   #
   # Once the starting ball physically leaves the left saucer,
@@ -163,10 +180,10 @@ event_player:
 
 
   # ----------------------------------------------------------
-  # MPF REAL MULTIBALL STARTED EVENT
+  # ENTER STAGE 1
   # ----------------------------------------------------------
 
-  multiball_brain_rot_multiball_started:
+  brain_rot_launch_multiball:
     brain_rot_multiball_started
 
 
@@ -235,8 +252,8 @@ event_player:
 
   brain_rot_complete:
     - brain_rot_reward_won
+    - brain_rot_multiball_stop
     - brain_rot_end_delay_start
-
 
   # ----------------------------------------------------------
   # END MODE AFTER COMPLETION CELEBRATION
@@ -421,18 +438,83 @@ widget_player:
 
   brain_rot_intro:
 
-    award_popup_widget:
-      action: play
-      priority: 5000
-      tokens:
-        award_video: "tl-v-aerobic"
+    # award_popup_widget:
+    #   action: play
+    #   priority: 5000
+    #   tokens:
+    #     award_video: "tl-v-aerobic"
 
     mode_title_widget:
       action: play
       priority: 7000
       tokens:
         award_text: "CONSUME"
+  # ----------------------------------------------------------
+  # RANDOM BRAIN ROT VIDEO
+  # ----------------------------------------------------------
 
+  brain_rot_video_aerobic:
+
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_video: "tl-v-aerobic"
+
+
+  brain_rot_video_willie:
+
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_video: "tl-v-willie"
+
+
+  # brain_rot_video_shoebody:
+
+  #   award_popup_widget:
+  #     action: play
+  #     priority: 5000
+  #     tokens:
+  #       award_video: "tl-v-shoebody"
+
+
+  # brain_rot_video_space:
+
+  #   award_popup_widget:
+  #     action: play
+  #     priority: 5000
+  #     tokens:
+  #       award_video: "tl-v-space"
+  
+  
+  # brain_rot_video_makelove:
+
+  #   award_popup_widget:
+  #     action: play
+  #     priority: 5000
+  #     tokens:
+  #       award_video: "tl-v-makelove"
+  
+  
+  brain_rot_video_ideas:
+
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_video: "tl-v-ideas"
+
+
+  brain_rot_video_doot:
+
+    award_popup_widget:
+      action: play
+      priority: 5000
+      tokens:
+        award_video: "tl-v-doot"
+ 
 
   # ----------------------------------------------------------
   # STAGE 1 - HIT LEFT SPINNER
@@ -646,3 +728,245 @@ widget_player:
 
     mode_title_widget:
       action: remove
+    
+    brain_rot_fail_widget:
+      action: play
+      priority: 9000
+      tokens:
+        award_text: |
+          CONSUME
+          FAILED
+
+# ------------------------------------------------------------
+# PLAYFIELD SHOWS - BRAIN ROT OBJECTIVES
+# ------------------------------------------------------------
+
+show_player:
+
+  #first consume starts
+  
+  mode_brain_rot_started{current_player.consume_completed != 1}:
+
+    show_consume_first_running:
+      loops: -1
+      priority: 2500
+      key: consume_first_running_show
+
+  mode_brain_rot_started{current_player.consume_completed == 1}:
+
+    show_consume_active:
+      loops: -1
+      speed: 1.0
+      priority: 2500
+      key: consume_running_show
+
+  # ----------------------------------------------------------
+  # STAGE 1 - HIT LEFT SPINNER
+  # ----------------------------------------------------------
+
+  brain_rot_left_spinner_objective:
+
+    show_left_spinner_green_1:
+      loops: -1
+      speed: 1.0
+      priority: 2000
+      key: brain_rot_stage_1_show
+
+
+  # ----------------------------------------------------------
+  # STAGE 1 COMPLETE
+  # ----------------------------------------------------------
+
+  brain_rot_left_saucer_open:
+
+    brain_rot_stage_1_show:
+      action: stop
+
+
+  # ----------------------------------------------------------
+  # STAGE 2 - LEFT LOCK LIT
+  # ----------------------------------------------------------
+
+  timer_brain_rot_left_lock_display_delay_complete:
+
+    show_leftlock_green_1:
+      loops: -1
+      speed: 1.0
+      priority: 2000
+      key: brain_rot_stage_2_show
+
+
+  # ----------------------------------------------------------
+  # STAGE 2 COMPLETE
+  # ----------------------------------------------------------
+
+  brain_rot_left_ball_locked:
+
+    brain_rot_stage_2_show:
+      action: stop
+
+  # ----------------------------------------------------------
+  # STAGE 3 - HIT RIGHT SPINNER
+  # ----------------------------------------------------------
+
+  timer_brain_rot_right_spinner_display_delay_complete:
+
+    show_right_spinner_green_1:
+      loops: -1
+      speed: 1.0
+      priority: 2000
+      key: brain_rot_stage_3_show
+
+
+  # ----------------------------------------------------------
+  # STAGE 3 COMPLETE
+  # ----------------------------------------------------------
+
+  brain_rot_right_saucer_open:
+
+    brain_rot_stage_3_show:
+      action: stop
+
+
+  # ----------------------------------------------------------
+  # STAGE 4 - RIGHT LOCK LIT
+  # ----------------------------------------------------------
+
+  timer_brain_rot_right_lock_display_delay_complete:
+
+    show_right_pop_green_1:
+      loops: -1
+      speed: 1.0
+      priority: 2000
+      key: brain_rot_stage_4_show
+
+
+  # ----------------------------------------------------------
+  # STAGE 4 COMPLETE
+  # ----------------------------------------------------------
+
+  brain_rot_right_ball_locked:
+
+    brain_rot_stage_4_show:
+      action: stop
+
+
+  # ----------------------------------------------------------
+  # STAGE 5 - HIT VARI TARGET
+  # ----------------------------------------------------------
+
+  timer_brain_rot_varitarget_display_delay_complete:
+
+    show_varitarget_green_1:
+      loops: -1
+      speed: 1.0
+      priority: 2000
+      key: brain_rot_stage_5_show
+
+
+  # ----------------------------------------------------------
+  # MODE COMPLETE
+  # ----------------------------------------------------------
+
+  brain_rot_complete:
+
+    brain_rot_stage_1_show:
+      action: stop
+
+    brain_rot_stage_2_show:
+      action: stop
+
+    brain_rot_stage_3_show:
+      action: stop
+
+    brain_rot_stage_4_show:
+      action: stop
+
+    brain_rot_stage_5_show:
+      action: stop
+
+    consume_first_running_show:
+      action: stop
+
+    consume_running_show:
+      action: stop
+    # show_brain_rot_complete:
+    #   loops: 1
+    #   speed: 1.0
+    #   priority: 3000
+    #   key: brain_rot_complete_show
+
+
+  # ----------------------------------------------------------
+  # MODE FAILED
+  # ----------------------------------------------------------
+
+  brain_rot_failed:
+
+
+    consume_first_running_show:
+      action: stop
+
+    consume_running_show:
+      action: stop
+
+    brain_rot_stage_1_show:
+      action: stop
+
+    brain_rot_stage_2_show:
+      action: stop
+
+    brain_rot_stage_3_show:
+      action: stop
+
+    brain_rot_stage_4_show:
+      action: stop
+
+    brain_rot_stage_5_show:
+      action: stop
+    
+
+
+  # ----------------------------------------------------------
+  # SAFETY CLEANUP
+  # ----------------------------------------------------------
+
+  mode_brain_rot_stopping:
+
+    consume_first_running_show:
+      action: stop
+
+    consume_running_show:
+      action: stop
+
+    brain_rot_stage_1_show:
+      action: stop
+
+    brain_rot_stage_2_show:
+      action: stop
+
+    brain_rot_stage_3_show:
+      action: stop
+
+    brain_rot_stage_4_show:
+      action: stop
+
+    brain_rot_stage_5_show:
+      action: stop
+
+    # brain_rot_complete_show:
+    #   action: stop
+
+random_event_player:
+
+  brain_rot_intro:
+    events:
+      - brain_rot_video_aerobic
+      - brain_rot_video_willie
+      # - brain_rot_video_shoebody
+      # - brain_rot_video_space
+      # - brain_rot_video_makelove
+      - brain_rot_video_ideas
+      - brain_rot_video_doot
+    force_different: true
+    force_all: true

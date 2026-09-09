@@ -31,8 +31,15 @@ event_player:
 
 
 variable_player:
+  
+  
   mode_base_started:
     pf_multiplier:
+      action: set
+      int: 1
+  
+  brain_rot_complete:
+    consume_completed:
       action: set
       int: 1
 
@@ -102,6 +109,22 @@ sound_player:
       max_queue_time: 40ms
 
 show_player:
+
+
+  brain_rot_complete:
+
+    show_consume_completed:
+      loops: -1
+      priority: 2400
+      key: consume_completed_show
+
+  ball_started{current_player.consume_completed == 1}:
+    show_consume_completed:
+      loops: -1
+      priority: 2400
+      key: consume_completed_show
+
+
   knights_of_cydonia_started:
     show_koc_vocal_solo_pops_only:
     #show_koc_vocal_solo:

@@ -1,0 +1,394 @@
+#show_version=6
+- time: 0
+  lights:
+    l_pf1_3_25: '000000'
+    l_pf1_5_18: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '00FD00'
+    l_pf1_5_18: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_21: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_20: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '00FD00'
+    l_pf1_5_21: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_22: '00FD00'
+    l_pf1_5_20: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_24: '00FD00'
+    l_pf1_5_22: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '00FD00'
+    l_pf1_5_24: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_30: '00FD00'
+    l_pf1_5_27: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_27: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_28: '00FD00'
+    l_pf1_5_30: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '00FD00'
+    l_pf1_5_28: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_3_25: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_18: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '00FD00'
+    l_pf1_5_18: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_21: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_20: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '00FD00'
+    l_pf1_5_21: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_22: '00FD00'
+    l_pf1_5_20: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_24: '00FD00'
+    l_pf1_5_22: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '00FD00'
+    l_pf1_5_24: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_30: '00FD00'
+    l_pf1_5_27: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_27: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_28: '00FD00'
+    l_pf1_5_30: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '00FD00'
+    l_pf1_5_28: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_3_25: '00FF00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_18: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '00FD00'
+    l_pf1_5_18: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_21: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_17: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_20: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_16: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '00FD00'
+    l_pf1_5_21: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_22: '00FD00'
+    l_pf1_5_20: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_19: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_24: '00FD00'
+    l_pf1_5_22: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_23: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '00FD00'
+    l_pf1_5_24: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_25: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_30: '00FD00'
+    l_pf1_5_27: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_26: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '00FD00'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_27: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_28: '00FD00'
+    l_pf1_5_30: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_29: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '00FD00'
+    l_pf1_5_28: '000000'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '00FD00'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_32: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+0.01'
+    
+- time: '+0.01'
+  lights:
+    l_pf1_5_31: '000000'
+    

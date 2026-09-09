@@ -1,0 +1,125 @@
+[gd_scene format=3 uid="uid://0wp36yi63aa1"]
+
+[ext_resource type="Script" uid="uid://cafpuq17sselw" path="res://scripts/obey_stage1_widget.gd" id="1_ccfoj"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_5hsuf"]
+[ext_resource type="FontFile" uid="uid://xke0cx5aa8ao" path="res://fonts/tl_billboard.otf" id="3_chhfn"]
+
+[node name="ObeyStage1Widget" type="Control" unique_id=418603060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ccfoj")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1006575155]
+layout_mode = 0
+offset_right = 1536.0
+offset_bottom = 2048.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1053350605]
+layout_mode = 2
+
+[node name="ObeyLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1561260585]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 100
+text = "obey"
+horizontal_alignment = 1
+
+[node name="SpinnersHBox" type="HBoxContainer" parent="CenterContainer/VBoxContainer" unique_id=1378637351]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="LeftVBox" type="VBoxContainer" parent="CenterContainer/VBoxContainer/SpinnersHBox" unique_id=1025493409]
+layout_mode = 2
+
+[node name="LeftSpinnerLabel" type="Label" parent="CenterContainer/VBoxContainer/SpinnersHBox/LeftVBox" unique_id=465212874]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 100
+text = "  left  spinner  "
+horizontal_alignment = 1
+
+[node name="LeftProgressBar" type="ProgressBar" parent="CenterContainer/VBoxContainer/SpinnersHBox/LeftVBox" unique_id=1053603307]
+custom_minimum_size = Vector2(400, 90)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.80683273, 0.23000395, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 200
+max_value = 25.0
+show_percentage = false
+
+[node name="LeftProgressText" type="Label" parent="CenterContainer/VBoxContainer/SpinnersHBox/LeftVBox/LeftProgressBar" unique_id=348448859]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -5.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.99999994, 0.22893748, 0.8792181, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("3_chhfn")
+theme_override_font_sizes/font_size = 100
+text = "0/25"
+horizontal_alignment = 1
+
+[node name="RightVBox" type="VBoxContainer" parent="CenterContainer/VBoxContainer/SpinnersHBox" unique_id=184203753]
+layout_mode = 2
+
+[node name="RightSpinnerLabel" type="Label" parent="CenterContainer/VBoxContainer/SpinnersHBox/RightVBox" unique_id=311516944]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 100
+text = "  right  spinner  "
+horizontal_alignment = 1
+
+[node name="RightProgressBar" type="ProgressBar" parent="CenterContainer/VBoxContainer/SpinnersHBox/RightVBox" unique_id=1312563446]
+custom_minimum_size = Vector2(400, 90)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.80683273, 0.23000395, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 200
+max_value = 25.0
+show_percentage = false
+
+[node name="RightProgressText" type="Label" parent="CenterContainer/VBoxContainer/SpinnersHBox/RightVBox/RightProgressBar" unique_id=933965897]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -5.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.99999994, 0.22893748, 0.8792181, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("3_chhfn")
+theme_override_font_sizes/font_size = 100
+text = "0/25"
+horizontal_alignment = 1
+
+[node name="TimerLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=128993259]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_5hsuf")
+theme_override_font_sizes/font_size = 100
+text = "Time 180"
+horizontal_alignment = 1
