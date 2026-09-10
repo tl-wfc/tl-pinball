@@ -90,7 +90,7 @@ timers:
 
   obey_stage1_timer:
 
-    start_value: 20
+    start_value: 180
     end_value: 0
     direction: down
     tick_interval: 1s
@@ -120,7 +120,7 @@ timers:
 
   obey_stage2_timer:
 
-    start_value: 20
+    start_value: 180
     end_value: 0
     direction: down
     tick_interval: 1s
@@ -408,6 +408,15 @@ event_player:
     - obey_complete
 
 
+  # --------------------------------------------------------
+  # OBEY FAILED
+  # --------------------------------------------------------
+
+
+
+
+
+
 # ==========================================================
 # PLAYER VARIABLES
 # ==========================================================
@@ -426,7 +435,7 @@ variable_player:
 
     obey_spinner_goal:
       action: set
-      int: 3
+      int: 40
 
     obey_stage:
       action: set
@@ -647,6 +656,15 @@ variable_player:
       action: set
       int: 10
 
+  # --------------------------------------------------------
+  # OBEY COMPLETE
+  # --------------------------------------------------------
+
+  obey_complete:
+
+    obey_completed:
+      action: set
+      int: 1
 
   # --------------------------------------------------------
   # REWARD ACTIVE
@@ -729,8 +747,18 @@ variable_player:
 # SHOW PLAYER
 # ==========================================================
 
-# show_player:
+show_player:
+  # s_58_pop_bumper_left_active:
+  #   show_obey_left_pop_penalty:
+  #     action: play
+  #     loops: 1
+  #     priority: 10000
 
+  # s_56_pop_bumper_right_active:
+  #   show_obey_right_pop_penalty:
+  #     action: play
+  #     loops: 1
+  #     priority: 10000
 #   # ========================================================
 #   # MODE INTRO
 #   # ========================================================
@@ -747,13 +775,17 @@ variable_player:
 #   # STAGE 1 START
 #   # ========================================================
 
-#   obey_stage1_started:
+  obey_stage1_started:
 
-#     # show_obey_stage1:
-#     #   loops: -1
-#     #   priority: 700
-#     #   key: obey_stage1_show
+    show_right_spinner_red_1:
+      loops: -1
+      priority: 5000
+      key: obey_stage1_show
 
+    show_left_spinner_red_1:
+      loops: -1
+      priority: 700
+      key: obey_stage1_show
 
 #   # --------------------------------------------------------
 #   # LEFT SPINNER HIT
@@ -770,11 +802,11 @@ variable_player:
 #   # LEFT POP PENALTY
 #   # --------------------------------------------------------
 
-#   obey_left_spin_lost:
+  obey_left_spin_lost:
 
-#     # show_obey_left_pop_penalty:
-#     #   loops: 1
-#     #   priority: 900
+    show_obey_left_pop_penalty:
+      loops: 3
+      priority: 10000
 
 
 #   # --------------------------------------------------------
@@ -804,11 +836,11 @@ variable_player:
 #   # RIGHT POP PENALTY
 #   # --------------------------------------------------------
 
-#   obey_right_spin_lost:
+  obey_right_spin_lost:
 
-#     # show_obey_right_pop_penalty:
-#     #   loops: 1
-#     #   priority: 900
+    show_obey_right_pop_penalty:
+      loops: 3
+      priority: 10000
 
 
 #   # --------------------------------------------------------
@@ -823,14 +855,14 @@ variable_player:
 #     #   key: obey_right_complete_show
 
 
-#   # ========================================================
-#   # STAGE 1 COMPLETE
-#   # ========================================================
+  # ========================================================
+  # STAGE 1 COMPLETE
+  # ========================================================
 
-#   obey_stage1_complete:
+  obey_stage1_complete:
 
-#     # obey_stage1_show:
-#     #   action: stop
+    obey_stage1_show:
+      action: stop
 
 #     # show_obey_stage1_complete:
 #     #   loops: 1
@@ -1007,12 +1039,33 @@ widget_player:
 #   #   device_timers_obey_stage1_timer_value
 #   #
 #   # ========================================================
+#   # --------------------------------------------------------
+#   # STEP 3
+#   # 35 hits - OBEY MODE starts
+#   # --------------------------------------------------------
+
+  mode_obey_started:
+
+    # obey_objective_widget:
+    #   action: remove
+
+    obey_title_widget:
+      action: play
+      priority: 6000
+      tokens:
+        obey_title_text: "OBEY"
+
+
 
   obey_stage1_started:
 
     obey_stage1_widget:
       action: play
       priority: 5000
+
+    arrow_spinners_widget:
+      action: play
+      priority: 5500
 
 
 #   # --------------------------------------------------------
@@ -1084,14 +1137,17 @@ widget_player:
 #   # STAGE 1 COMPLETE
 #   # ========================================================
 
-#   obey_stage1_complete:
+  obey_stage1_complete:
 
-#     # obey_stage1_widget:
-#     #   action: remove
+    obey_stage1_widget:
+      action: remove
 
-#     # obey_stage1_complete_widget:
-#     #   action: play
-#     #   priority: 6500
+    arrow_spinners_widget:
+      action: remove
+
+    # obey_stage1_complete_widget:
+    #   action: play
+    #   priority: 6500
 
 
 #   # ========================================================
@@ -1271,11 +1327,17 @@ widget_player:
 #   # ABSOLUTE CLEANUP
 #   # ========================================================
 
-#   mode_obey_stopping:
 
-#     # obey_stage1_widget:
-#     #   action: remove
+  mode_obey_stopping:
 
+    obey_title_widget:
+      action: remove
+
+    obey_stage1_widget:
+      action: remove
+    
+    arrow_spinners_widget:
+      action: remove
 #     # obey_stage2_resetting_widget:
 #     #   action: remove
 

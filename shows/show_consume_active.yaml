@@ -4,29 +4,29 @@
 # CONSUME ACTIVE
 #
 # Used after CONSUME has already been completed once.
-# Alternates all three CONSUME inserts RED / BLUE.
+# Alternates all three CONSUME inserts RED / GREEN.
 # ------------------------------------------------------------
 
 - duration: 300ms
   lights:
-    l_pf1_4_13: red
-    l_pf1_4_14: red
-    l_pf1_4_15: red
+    l_pf1_4_13: "FF0000"
+    l_pf1_4_14: "FF0000"
+    l_pf1_4_15: "FF0000"
 
 - duration: 300ms
   lights:
-    l_pf1_4_13: blue
-    l_pf1_4_14: blue
-    l_pf1_4_15: blue
+    l_pf1_4_13: "00FF00"
+    l_pf1_4_14: "00FF00"
+    l_pf1_4_15: "00FF00"
 
 - duration: 100ms
   lights:
-    l_pf1_4_13: red
-    l_pf1_4_14: red
-    l_pf1_4_15: red
+    l_pf1_4_13: "FF0000"
+    l_pf1_4_14: "FF0000"
+    l_pf1_4_15: "FF0000"
 
 - duration: 100ms
   lights:
-    l_pf1_4_13: blue
-    l_pf1_4_14: blue
-    l_pf1_4_15: blue
+    l_pf1_4_13: "00FF00"
+    l_pf1_4_14: "00FF00"
+    l_pf1_4_15: "00FF00"

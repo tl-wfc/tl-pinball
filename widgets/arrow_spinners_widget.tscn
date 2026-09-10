@@ -1,0 +1,122 @@
+[gd_scene format=3 uid="uid://dstqfk7if2c3b"]
+
+[ext_resource type="Script" uid="uid://q8fdgehi71ug" path="res://scripts/arrow_spinners_widget.gd" id="1_r6sy4"]
+[ext_resource type="Texture2D" uid="uid://u00usgcsh11g" path="res://assets/images/arrows/arrow_straight_red.png" id="2_r6sy4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_afv4t"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(0, 0, 242, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ssty"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(246, 0, 246, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgvwf"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(492, 0, 246, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iphvh"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(745, 0, 246, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4npdy"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(1000, 0, 250, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j7c4q"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(1250, 0, 250, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6oc7o"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(1512, 0, 252, 776)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75kfc"]
+atlas = ExtResource("2_r6sy4")
+region = Rect2(1768, 0, 253, 776)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6e4u3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afv4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afv4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ssty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ssty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgvwf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgvwf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iphvh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iphvh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4npdy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4npdy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7c4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7c4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6oc7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6oc7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75kfc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75kfc")
+}],
+"loop": true,
+"name": &"grow",
+"speed": 17.0
+}]
+
+[node name="ArrowSpinnersWidget" type="Control" unique_id=418603060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_r6sy4")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="LeftSpinnerArrow" type="AnimatedSprite2D" parent="." unique_id=2036693220]
+position = Vector2(525.00006, 498)
+rotation = -0.29670596
+scale = Vector2(0.8, 0.8)
+sprite_frames = SubResource("SpriteFrames_6e4u3")
+animation = &"grow"
+autoplay = "grow"
+frame = 4
+frame_progress = 0.78452444
+
+[node name="RightSpinnerArrow" type="AnimatedSprite2D" parent="." unique_id=1357855097]
+position = Vector2(1150, 875)
+rotation = 0.29670596
+scale = Vector2(0.8, 0.8)
+sprite_frames = SubResource("SpriteFrames_6e4u3")
+animation = &"grow"
+autoplay = "grow"
+frame = 4
+frame_progress = 0.78452444

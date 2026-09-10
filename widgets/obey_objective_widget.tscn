@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://bs2r6vcudhyyj"]
+[gd_scene format=3 uid="uid://dpfsd08jfsgv4"]
 
-[ext_resource type="Script" uid="uid://bno3lb7hq5gds" path="res://scripts/objective_widget.gd" id="1_y1lyw"]
-[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="3_aay5i"]
-[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_rvy5r"]
+[ext_resource type="Script" uid="uid://cj01wolcn7r0j" path="res://scripts/obey_objective_widget.gd" id="1_rg072"]
+[ext_resource type="FontFile" uid="uid://j8r3rwnujp3t" path="res://fonts/Kill_The_Noise.otf" id="2_inuvc"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_eu1rn"]
 
 [sub_resource type="Animation" id="Animation_vs3rd"]
 length = 0.001
@@ -42,19 +42,22 @@ _data = {
 &"instruction_pulse": SubResource("Animation_y1lyw")
 }
 
-[node name="ObjectiveWidget" type="Control" unique_id=1331287185 node_paths=PackedStringArray("animation_player")]
+[node name="ObeyObjectiveWidget" type="Control" unique_id=1331287185 node_paths=PackedStringArray("animation_player")]
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -2048.0
 offset_right = 1536.0
-offset_bottom = 2048.0
-script = ExtResource("1_y1lyw")
+grow_vertical = 0
+script = ExtResource("1_rg072")
 animation_player = NodePath("AnimationPlayer")
 metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=1494370846]
 layout_mode = 1
 anchors_preset = -1
-anchor_top = 0.5
+anchor_top = 0.66
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
@@ -80,18 +83,18 @@ offset_right = 205.0
 offset_bottom = 167.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 20
-theme_override_fonts/font = ExtResource("3_aay5i")
+theme_override_fonts/font = ExtResource("2_inuvc")
 theme_override_font_sizes/font_size = 150
-text = "test
+text = "obey
 objective"
 horizontal_alignment = 1
 vertical_alignment = 1
-script = ExtResource("4_rvy5r")
+script = ExtResource("3_eu1rn")
 variable_type = 1
-variable_name = "objective_text"
+variable_name = "obey_objective_text"
 template_string = "%s"
 initialize_empty = false
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"

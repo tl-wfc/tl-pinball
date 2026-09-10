@@ -1,0 +1,33 @@
+#config_version=6
+
+mode:
+  start_events: game_started
+  stop_events: game_ending
+  priority: 205
+
+
+show_player:
+
+  # Immediately light the insert when OBEY is completed
+  obey_complete:
+
+    show_obey_insert_complete:
+      loops: -1
+      priority: 5100
+      key: obey_complete_insert
+
+
+  # Restore it whenever a new ball starts
+  ball_started{current_player.obey_completed == 1}:
+
+    show_obey_insert_complete:
+      loops: -1
+      priority: 5100
+      key: obey_complete_insert
+
+
+  # Absolute cleanup at end of game
+  mode_obey_status_stopping:
+
+    obey_complete_insert:
+      action: stop

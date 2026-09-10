@@ -1,0 +1,7 @@
+#show_version=6
+
+- duration: 1s
+  lights:
+    l_pf1_4_10: ff0000
+    l_pf1_4_11: ff0000
+    l_pf1_4_12: ff0000

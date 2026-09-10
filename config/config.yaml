@@ -27,6 +27,7 @@ modes:
     - autoplunge
     - obey_qualify
     - obey
+    - obey_status
     #- consume
 # --------------------
 # CONFIG::FILES
