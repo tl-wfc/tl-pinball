@@ -120,7 +120,7 @@ timers:
 
   obey_stage2_timer:
 
-    start_value: 180
+    start_value: 100
     end_value: 0
     direction: down
     tick_interval: 1s
@@ -435,7 +435,7 @@ variable_player:
 
     obey_spinner_goal:
       action: set
-      int: 40
+      int: 30
 
     obey_stage:
       action: set
@@ -780,12 +780,12 @@ show_player:
     show_right_spinner_red_1:
       loops: -1
       priority: 5000
-      key: obey_stage1_show
+      key: obey_right_spinner_show
 
     show_left_spinner_red_1:
       loops: -1
-      priority: 700
-      key: obey_stage1_show
+      priority: 5000
+      key: obey_left_spinner_show
 
 #   # --------------------------------------------------------
 #   # LEFT SPINNER HIT
@@ -813,13 +813,14 @@ show_player:
 #   # LEFT SPINNER COMPLETE
 #   # --------------------------------------------------------
 
-#   obey_left_goal_reached:
+  obey_left_goal_reached:
 
 #     # show_obey_left_spinner_complete:
 #     #   loops: -1
 #     #   priority: 900
 #     #   key: obey_left_complete_show
-
+    obey_left_spinner_show:
+      action: stop
 
 #   # --------------------------------------------------------
 #   # RIGHT SPINNER HIT
@@ -847,13 +848,14 @@ show_player:
 #   # RIGHT SPINNER COMPLETE
 #   # --------------------------------------------------------
 
-#   obey_right_goal_reached:
+  obey_right_goal_reached:
 
 #     # show_obey_right_spinner_complete:
 #     #   loops: -1
 #     #   priority: 900
 #     #   key: obey_right_complete_show
-
+    obey_right_spinner_show:
+      action: stop
 
   # ========================================================
   # STAGE 1 COMPLETE
@@ -861,12 +863,11 @@ show_player:
 
   obey_stage1_complete:
 
-    obey_stage1_show:
+    obey_right_spinner_show:
       action: stop
 
-#     # show_obey_stage1_complete:
-#     #   loops: 1
-#     #   priority: 1100
+    obey_left_spinner_show:
+      action: stop
 
 
 #   # ========================================================
@@ -976,7 +977,7 @@ show_player:
 #   # ABSOLUTE CLEANUP
 #   # ========================================================
 
-#   mode_obey_stopping:
+  mode_obey_stopping:
 
 #     # obey_intro_show:
 #     #   action: stop
@@ -998,6 +999,12 @@ show_player:
 
 #     # obey_right_complete_show:
 #     #   action: stop
+
+    obey_right_spinner_show:
+      action: stop
+
+    obey_left_spinner_show:
+      action: stop
 
 
 # ==========================================================
@@ -1162,8 +1169,10 @@ widget_player:
 #   #
 #   # ========================================================
 
-#   obey_stage2_started:
-
+  obey_stage2_started:
+    obey_stage2_timer_widget:
+      action: play
+      priority: 5000
 #     # obey_stage2_resetting_widget:
 #     #   action: play
 #     #   priority: 5000
@@ -1184,7 +1193,7 @@ widget_player:
 #   #
 #   # ========================================================
 
-#   obey_stage2_target_armed:
+  obey_stage2_target_armed:
 
 #     # obey_stage2_resetting_widget:
 #     #   action: remove
@@ -1192,64 +1201,74 @@ widget_player:
 #     # obey_stage2_widget:
 #     #   action: play
 #     #   priority: 5000
+    objective_widget:
+      action: play
+      priority: 6000
+      tokens:
+        objective_text: |
+          HIT VARI
+          TARGET
+
+
 
 
 #   # ========================================================
 #   # MULTIPLIER RESULT WIDGETS
 #   # ========================================================
 
-#   obey_multiplier_2x:
+  obey_multiplier_2x:
 
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "2X"
-
-
-#   obey_multiplier_3x:
-
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "3X"
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "2 X"
 
 
-#   obey_multiplier_4x:
+  obey_multiplier_3x:
 
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "4X"
-
-
-#   obey_multiplier_5x:
-
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "5X"
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "3 X"
 
 
-#   obey_multiplier_6x:
+  obey_multiplier_4x:
 
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "6X"
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "4 X"
 
 
-#   obey_multiplier_10x:
+  obey_multiplier_5x:
 
-#     # obey_multiplier_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     multiplier: "10X"
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "5 X"
+
+
+  obey_multiplier_6x:
+
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "6 X"
+
+
+  obey_multiplier_10x:
+
+    obey_multiplier_widget:
+      action: play
+      priority: 7000
+      tokens:
+        multiplier: "10 X"
+
 
 
 #   # ========================================================
@@ -1265,42 +1284,63 @@ widget_player:
 #   # where the remaining Stage 2 timer continues counting.
 #   # ========================================================
 
-#   obey_reward_started:
+  # obey_reward_started:
 
-#     # obey_stage2_resetting_widget:
-#     #   action: remove
+    # obey_stage2_resetting_widget:
+    #   action: remove
 
-#     # obey_stage2_widget:
-#     #   action: remove
+    # obey_stage2_widget:
+    #   action: remove
 
 #     # obey_reward_widget:
 #     #   action: play
 #     #   priority: 5500
 
+  # ========================================================
+  # MULTIPLIER SELECTED
+  # ========================================================
+
+  obey_multiplier_achieved:
+
+    objective_widget:
+      action: remove
+
+
+  # ========================================================
+  # REWARD ENDED
+  # ========================================================
+
+  obey_reward_ended:
+
+    obey_stage2_timer_widget:
+      action: remove
+
+    obey_multiplier_widget:
+      action: remove
 
 #   # ========================================================
 #   # COMPLETE
 #   # ========================================================
 
-#   obey_complete:
+  obey_complete:
 
-#     # obey_reward_widget:
-#     #   action: remove
+    # obey_reward_widget:
+    #   action: remove
 
-#     # award_popup_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     award_text: |
-#     #       OBEY
-#     #       COMPLETE
+    award_popup_widget:
+      action: play
+      priority: 7000
+      tokens:
+        award_text: |
+          OBEY
+          COMPLETE
 
 
 #   # ========================================================
 #   # FAILED
 #   # ========================================================
 
-#   obey_failed:
+  obey_failed:
 
 #     # obey_stage1_widget:
 #     #   action: remove
@@ -1313,14 +1353,16 @@ widget_player:
 
 #     # obey_reward_widget:
 #     #   action: remove
+    obey_stage2_timer_widget:
+      action: remove
 
-#     # award_popup_widget:
-#     #   action: play
-#     #   priority: 7000
-#     #   tokens:
-#     #     award_text: |
-#     #       OBEY
-#     #       FAILED
+    award_popup_widget:
+      action: play
+      priority: 7000
+      tokens:
+        award_text: |
+          OBEY
+          FAILED
 
 
 #   # ========================================================
@@ -1337,6 +1379,15 @@ widget_player:
       action: remove
     
     arrow_spinners_widget:
+      action: remove
+
+    objective_widget:
+      action: remove
+
+    obey_multiplier_widget:
+      action: remove
+
+    obey_stage2_timer_widget:
       action: remove
 #     # obey_stage2_resetting_widget:
 #     #   action: remove

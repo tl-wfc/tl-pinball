@@ -79,6 +79,7 @@ event_player:
   s_08_left_flipper_active: attract_music_start
   s_16_right_flipper_active: attract_music_start
 
+#dev comment Start
 show_player:
 
   # ==========================================================
@@ -399,7 +400,7 @@ show_player:
   #     loops: -1
   #     speed: 1.0
   #     events_when_completed: attract_step_3
-
+#dev comment Stop
 sounds:
   tl-m-Hysteria-smallintro:
     simultaneous_limit: 1

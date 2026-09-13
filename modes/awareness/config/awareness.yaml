@@ -116,11 +116,11 @@ event_player:
   # +2
   # ----------------------------------------------------------
 
-  s_32_right_inlane_active{current_player.awareness_qualified == 0}:
-    awareness_add_2
+  # s_32_right_inlane_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_2
 
-  s_35_left_inlane_active{current_player.awareness_qualified == 0}:
-    awareness_add_2
+  # s_35_left_inlane_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_2
 
 
   # ----------------------------------------------------------
@@ -128,11 +128,11 @@ event_player:
   # +2 per pulse
   # ----------------------------------------------------------
 
-  s_71_spinner_left_active{current_player.awareness_qualified == 0}:
-    awareness_add_2
+  # s_71_spinner_left_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_2
 
-  s_44_spinner_right_active{current_player.awareness_qualified == 0}:
-    awareness_add_2
+  # s_44_spinner_right_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_2
 
 
   # ----------------------------------------------------------
@@ -140,14 +140,14 @@ event_player:
   # +3
   # ----------------------------------------------------------
 
-  s_60_top_lane_c_active{current_player.awareness_qualified == 0}:
-    awareness_add_3
+  # s_60_top_lane_c_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_3
 
-  s_61_top_lane_b_active{current_player.awareness_qualified == 0}:
-    awareness_add_3
+  # s_61_top_lane_b_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_3
 
-  s_62_top_lane_a_active{current_player.awareness_qualified == 0}:
-    awareness_add_3
+  # s_62_top_lane_a_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_3
 
 
   # ----------------------------------------------------------
@@ -167,11 +167,11 @@ event_player:
   # s_43_stand_up_target_4_active{current_player.awareness_qualified == 0}:
   #   awareness_add_4
 
-  s_63_stand_up_target_3_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_63_stand_up_target_3_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
-  s_80_stand_up_target_2_active{current_player.awareness_qualified == 0}:
-    awareness_add_4
+  # s_80_stand_up_target_2_active{current_player.awareness_qualified == 0}:
+  #   awareness_add_4
 
 
   # ----------------------------------------------------------

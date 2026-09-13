@@ -6,6 +6,19 @@ mode:
   stop_events: ball_will_end
   priority: 100
 
+combo_switches:
+  cab_arrows_ball_search:
+    switches_1: s_19_cab_arrow_left
+    switches_2: s_20_cab_arrow_right
+    hold_time: 5s
+    events_when_both: manual_ball_search_requested
+  
+  force_end_game:
+    switches_1: s_08_left_flipper
+    switches_2: s_11_start_button
+    hold_time: 3s
+    events_when_both: force_end_game_requested
+
 config:
   - base_points.yaml
   - varitarget.yaml
@@ -31,7 +44,6 @@ event_player:
 
 
 variable_player:
-  
   
   mode_base_started:
     pf_multiplier:
@@ -108,8 +120,13 @@ sound_player:
       bus: effects
       max_queue_time: 40ms
 
-show_player:
 
+
+
+
+
+
+show_player:
 
   brain_rot_complete:
 
@@ -125,57 +142,7 @@ show_player:
       key: consume_completed_show
 
 
-  knights_of_cydonia_started:
-    show_koc_vocal_solo_pops_only:
-    #show_koc_vocal_solo:
-      loops: 1
-      speed: 1.0
-      priority: 20
-      key: koc__vocal_solo
-
-
-
-    show_muse_knights_cue_master:
-      loops: 1
-      speed: 1.0
-      priority: 10
-      key: koc_cue_master
-
-    show_koc_rhythm_background_layer:
-      loops: 1
-      speed: 1.0
-      priority: 30
-      key: koc_rhythm_layer
-
-    show_koc_bass_vu_layer:
-      loops: 1
-      speed: 1.0
-      priority: 40
-      key: koc_bass_layer
-
-    show_koc_lead_guitar_layer:
-      loops: 1
-      speed: 1.0
-      priority: 50
-      key: koc_lead_layer
-
-    show_koc_drum_macro_layer:
-      loops: 1
-      speed: 1.0
-      priority: 60
-      key: koc_drum_layer
-
-    show_koc_vocal_cue_layer:
-      loops: 1
-      speed: 1.0
-      priority: 70
-      key: koc_vocal_layer
-
-    show_koc_final_survive_overlay:
-      loops: 1
-      speed: 1.0
-      priority: 90
-      key: koc_final_survive_overlay
+ 
 
 
   s_38_star_rollover_bottom_active:
@@ -244,6 +211,68 @@ show_player:
       speed: 1.0
       priority: 20
       key: hysteria_cab
+  
+  ball_started{current_player.ball==2}:
+    show_muse_mapofprob_radio_full:
+      loops: 0
+      speed: 1.0
+      priority: 10
+
+## Refer to event Player
+  knights_of_cydonia_started:
+    show_koc_vocal_solo_pops_only:
+    #show_koc_vocal_solo:
+      loops: 1
+      speed: 1.0
+      priority: 20
+      key: koc__vocal_solo
+
+
+
+    show_muse_knights_cue_master:
+      loops: 1
+      speed: 1.0
+      priority: 10
+      key: koc_cue_master
+
+    show_koc_rhythm_background_layer:
+      loops: 1
+      speed: 1.0
+      priority: 30
+      key: koc_rhythm_layer
+
+    show_koc_bass_vu_layer:
+      loops: 1
+      speed: 1.0
+      priority: 40
+      key: koc_bass_layer
+
+    show_koc_lead_guitar_layer:
+      loops: 1
+      speed: 1.0
+      priority: 50
+      key: koc_lead_layer
+
+    show_koc_drum_macro_layer:
+      loops: 1
+      speed: 1.0
+      priority: 60
+      key: koc_drum_layer
+
+    show_koc_vocal_cue_layer:
+      loops: 1
+      speed: 1.0
+      priority: 70
+      key: koc_vocal_layer
+
+    show_koc_final_survive_overlay:
+      loops: 1
+      speed: 1.0
+      priority: 90
+      key: koc_final_survive_overlay
+
+
+
 
   ball_will_end:
     hysteria_background:
@@ -267,12 +296,8 @@ show_player:
     # knights_master:
     #   action: stop
 
-  ball_started{current_player.ball==2}:
-    show_muse_mapofprob_radio_full:
-      loops: 0
-      speed: 1.0
-      priority: 10
 
+##______________________OLD____________________________
   # knights_of_cydonia_started:
   #   show_muse_knights_master:
   #     loops: 1
@@ -334,18 +359,7 @@ show_player:
   #     speed: 1.0
   #     priority: 500
 
-combo_switches:
-  cab_arrows_ball_search:
-    switches_1: s_19_cab_arrow_left
-    switches_2: s_20_cab_arrow_right
-    hold_time: 5s
-    events_when_both: manual_ball_search_requested
-  
-  force_end_game:
-    switches_1: s_08_left_flipper
-    switches_2: s_11_start_button
-    hold_time: 5s
-    events_when_both: force_end_game_requested
+
 
 # widget_player:
 

@@ -186,10 +186,10 @@ anchors_preset = 0
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/total" unique_id=71835951]
 layout_mode = 0
-offset_left = 777.0
-offset_top = 1159.0
-offset_right = 1318.0
-offset_bottom = 1336.0
+offset_left = 217.0
+offset_top = 1170.0
+offset_right = 758.0
+offset_bottom = 1347.0
 theme_override_colors/font_color = Color(0, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 20
@@ -201,10 +201,10 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/total" unique_id=1456445162]
 layout_mode = 0
-offset_left = 186.0
-offset_top = 1164.0
-offset_right = 756.0
-offset_bottom = 1341.0
+offset_left = 767.0
+offset_top = 1168.0
+offset_right = 1337.0
+offset_bottom = 1345.0
 theme_override_colors/font_color = Color(0.011764706, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 20

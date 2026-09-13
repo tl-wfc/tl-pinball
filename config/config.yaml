@@ -17,7 +17,7 @@ modes:
     - resistance
     - manual_ball_search
     - shotgun
-    #- high_score
+    - high_score
     - spinner_2x_qualify
     - spinner_2x
     - super_pops
